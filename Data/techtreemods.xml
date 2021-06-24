@@ -1,27 +1,87 @@
 <techtreemods>
+<!-- Inca Techs --> 
+<Tech name="DEAge0Inca" type="Normal">
+    <Effects>
+        <Effect mergeMode='add' type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+            <Target type="ProtoUnit">Llama</Target>
+    	</Effect>
+    </Effects>
+</Tech>
+
 <tech name="DEHCWarChiefInca1" type="Normal">
-    <dbid>6087</dbid>
-    <displaynameid>80348</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\inca\sapa_inca.png</icon>
-    <rollovertextid>80347</rollovertextid>
-    <flag>HomeCity</flag>
     <effects>
-      <effect type="TextOutput">80351</effect>
-      <effect type="Data" amount="1.75" subtype="Hitpoints" relativity="BasePercent">
+      <effect mergeMode='remove' type="Data" action="ExtraSiegeDamage" amount="1.00" subtype="ActionEnable" relativity="Absolute">
         <target type="ProtoUnit">deIncaWarChief</target>
       </effect>
-      <effect type="Data" action="ExtraSiegeDamage" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+      <effect mergeMode='remove' type="Data" action="ExtraDamage" amount="1.00" subtype="ActionEnable" relativity="Absolute">
         <target type="ProtoUnit">deIncaWarChief</target>
       </effect>
-      <effect type="Data" action="ExtraDamage" amount="1.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">deIncaWarChief</target>
-      </effect>
-      <effect type="Data" amount="1.00" subtype="MaximumVelocity" relativity="Absolute">
+      <effect mergeMode='add' type="Data" amount="1.00" subtype="ArmorType" newtype="Ranged" relativity="Absolute">
         <target type="ProtoUnit">deIncaWarChief</target>
       </effect>
     </effects>
   </tech>
+
+<tech mergeMode='replace' name="DEHCTupacRebellion" type="Normal">
+    <dbid>6106</dbid>
+    <displaynameid>80444</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <cost resourcetype="Food">1000.0000</cost>
+    <cost resourcetype="Wood">1000.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\revolution.png</icon>
+    <rollovertextid>80443</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="active">VeteranGrenadiers</effect>
+      <effect type="TechStatus" status="active">GuardGrenadiers</effect>
+      <effect type="TechStatus" status="active">VeteranHussars</effect>
+      <effect type="TechStatus" status="active">VeteranSkirmishersShadow</effect>
+      <effect type="TechStatus" status="active">GuardSkirmishers</effect>
+      <effect type="TechStatus" status="active">GuardDragoons</effect>
+      <effect type="CommandRemove" tech="GuardSkirmishers">
+        <target type="ProtoUnit">WarHut</target>
+      </effect>
+      <effect type="TechStatus" status="active">VeteranDragoonsShadow</effect>
+      <effect type="TechStatus" status="active">GuardHalberdiers</effect>
+      <effect type="TransformUnit" toprotoid="xpColonialMilitia" fromprotoid="Settler"/>
+      <effect type="TransformUnit" toprotoid="xpColonialMilitia" fromprotoid="Coureur"/>
+      <effect type="TransformUnit" toprotoid="xpColonialMilitia" fromprotoid="CoureurCree"/>
+      <effect type="TransformUnit" toprotoid="xpColonialMilitia" fromprotoid="SettlerNative"/>
+      <effect type="TransformUnit" toprotoid="xpColonialMilitia" fromprotoid="Pilgrim"/>
+      <effect type="TransformUnit" toprotoid="xpColonialMilitia" fromprotoid="ypSettlerAsian"/>
+      <effect type="TransformUnit" toprotoid="xpColonialMilitia" fromprotoid="ypSettlerJapanese"/>
+      <effect type="TransformUnit" toprotoid="xpColonialMilitia" fromprotoid="ypSettlerIndian"/>
+      <effect type="TransformUnit" toprotoid="Halberdier" fromprotoid="deIncaSpearman"/>
+      <effect type="TransformUnit" toprotoid="Dragoon" fromprotoid="deBolasWarrior"/>
+      <effect type="TransformUnit" toprotoid="Hussar" fromprotoid="deIncaRunner"/>
+      <effect type="TransformUnit" toprotoid="Skirmisher" fromprotoid="deJungleBowman"/>
+      <effect type="TransformUnit" toprotoid="Grenadier" fromprotoid="deSlinger"/>
+      <effect type="TransformUnit" toprotoid="xpLightCannon" fromprotoid="deMaceman"/>
+      <effect type="TextOutput">80450</effect>
+      <effect type="TextEffectOutput" path="ui\\alerts\\revolution.xml" selfmsg="110548" playermsg="110549"/>
+    </effects>
+  </tech>
+
+  <tech name="DEHCWarChiefInca2" type="Normal">
+	<effects>
+	  <effect mergeMode='add' type="Data" action="CoverHandAttack" amount="0.50" subtype="DamageBonus" unittype="AbstractCavalry" relativity="Absolute">
+		  <target type="ProtoUnit">deIncaWarChief</target>
+	  </effect>
+	  <effect mergeMode='add' type="Data" action="MeleeHandAttack" amount="0.50" subtype="DamageBonus" unittype="AbstractLightInfantry" relativity="Absolute">
+		  <target type="ProtoUnit">deIncaWarChief</target>
+	  </effect>
+	  <effect mergeMode='add' type="Data" action="CoverHandAttack" amount="0.50" subtype="DamageBonus" unittype="AbstractLightInfantry" relativity="Absolute">
+		  <target type="ProtoUnit">deIncaWarChief</target>
+	  </effect>
+	  <effect mergeMode='add' type="Data" action="MeleeHandAttack" amount="0.50" subtype="DamageBonus" unittype="AbstractCavalry" relativity="Absolute">
+		  <target type="ProtoUnit">deIncaWarChief</target>
+	  </effect>
+
+    </effects>
+  </tech>
+
+
   </techtreemods>

@@ -337,6 +337,15 @@
 <Unit id="1507" name="deChasqui">
     <train row="0" page="6" column="2">SPCIncaOutpost</train> 
 </Unit>
+<Unit id="1500" name="deIncaWarChief">
+    <train mergeMode='remove' row="0" page="6" column="3">deIncaDog</train>
+    <train mergeMode='remove' row="0" page="6" column="3">WarDog</train>
+    <train mergeMode='remove' row="0" page="6" column="3">PetJaguar</train>
+    <train row="0" page="6" column="6">deIncaDog</train>
+    <train row="0" page="6" column="6">WarDog</train> 
+    <train row="0" page="6" column="6">PetJaguar</train> 
+</Unit>
+
 <Unit mergeMode='replace' id="603" name="SPCIncaOutpost">
     <dbid>879</dbid>
     <displaynameid>34667</displaynameid>
@@ -397,6 +406,71 @@
     <flag>Tracked</flag>
     <flag>DisplayRange</flag>
 </Unit>
+<unit mergeMode='replace' id="592" name="SPCIncaTemple">
+    <dbid>851</dbid>
+    <displaynameid>34388</displaynameid>
+    <editornameid>34389</editornameid>
+    <obstructionradiusx>5.0000</obstructionradiusx>
+    <obstructionradiusz>5.0000</obstructionradiusz>
+    <maxvelocity>0.0000</maxvelocity>
+    <movementtype>land</movementtype>
+    <animfile>buildings\spc\inca_temple\spc_inca_temple.xml</animfile>
+    <impacttype>Wood</impacttype>
+    <physicsinfo>house</physicsinfo>
+    <icon>resources\art\buildings\spc\inca_temple\inca_temple_icon_64x64.png</icon>
+    <portraiticon>resources\art\buildings\spc\inca_temple\inca_temple_portrait.png</portraiticon>
+    <rollovertextid>34387</rollovertextid>
+    <shortrollovertextid>34386</shortrollovertextid>
+    <initialhitpoints>4500.0000</initialhitpoints>
+    <maxhitpoints>4500.0000</maxhitpoints>
+    <los>14.0000</los>
+    <buildbounty>300.0000</buildbounty>
+    <bounty>600.0000</bounty>
+    <cost resourcetype="Food">500.0000</cost>
+    <cost resourcetype="Wood">500.0000</cost>
+    <cost resourcetype="Gold">500.0000</cost>
+    <buildingworkrate>1.0000</buildingworkrate>
+    <allowedage>3</allowedage>
+    <buildlimit>1</buildlimit>
+    <armor type="Siege" value="0.0000"/>
+    <unittype>LogicalTypeValidSabotage</unittype>
+    <unittype>LogicalTypeMinimapFilterEconomic</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeBuildingsNotWalls</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeShipsAndBuildings</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>LogicalTypeBuildingsNotWallsOrGroves</unittype>
+    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
+    <unittype>Economic</unittype>
+    <unittype>BuildingClass</unittype>
+    <unittype>Building</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>CountsTowardEconomicScore</unittype>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>StartsAtFullEfficiency</flag>
+    <flag>Immoveable</flag>
+    <flag>NoBloodOnDeath</flag>
+    <flag>ObscuresUnits</flag>
+    <flag>NoIdleActions</flag>
+    <flag>NonAutoFormedUnit</flag>
+    <flag>Doppled</flag>
+    <flag>SelectWithObstruction</flag>
+    <flag>PaintTextureWhenPlacing</flag>
+    <flag>FlattenGround</flag>
+    <flag>InitialGarrisonOnly</flag>
+    <flag>ColonyBuilding</flag>
+    <flag>ColonyPlacementL</flag>
+    <flag>Tracked</flag>
+    <command page="10" column="7">Delete</command>
+    <tactics>autogatherer.tactics</tactics>
+    <protoaction>
+      <name>Autogather</name>
+      <rate type="Wood">6.000000</rate>
+    </protoaction>
+  </unit>
 
 <Unit mergeMode='replace' id="297" name="Dock">
     <dbid>23</dbid>

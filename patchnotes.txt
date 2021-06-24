@@ -1,7 +1,32 @@
+General Changes:
+
+Dock:
+-- HP: Reduced from 2500 to 1750
+-- Cost: Reduced from 200 Wood to 150
+
 Inca Changes:
+
+New Buildings Added:
+-- Outpost. Cheap (50W) building with a large line of sight and no attack. Can only be built by Chasquis. Built limit starts at 1 and increases each age. 
+-- Temple. Expensive (500F/W/G) building that can only be constructed by your War Chief. Generates a large trickle of Wood (6.0/s). Available in the Industrial Age.
+
+Llamas: Given the increased importance of Llamas for Inca, I've greatly increased their build limit.
+-- Build Limit: Increased from 20 to 40
 
 Warchief:
 -- Aura: Changed to a flat 10% damage amp for all units (the old one was lame and non-impactful. This way, it rounds out the native aura suite).
 
 Kancha House:
 -- No longer trickles food, now spawns 2 unfattened llamas when built.
+
+Llama built limit:
+-- Increased to 50
+
+Shipments:
+-- Sapa Inca: No longer grants your War Chief a native damage aura. Now, it changes his armor type to ranged from melee.
+-- Tupac Rebellion: 
+  -- Cost reduced to 1000 of each resource
+  -- Ship time increased to 60 seconds from 40
+  -- Plumed Spearmen now turn into Halberdiers instead of Musketeers
+  -- Now properly techs Guard Dragoons
+-- Son of Inti: Now additionally grants your War Chief's melee attack +0.5x AbstractCavalry/AbstractLightInfantry
