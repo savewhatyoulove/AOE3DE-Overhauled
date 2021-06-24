@@ -5,6 +5,12 @@
         <Effect mergeMode='add' type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
             <Target type="ProtoUnit">Llama</Target>
     	</Effect>
+	<effect mergeMode='add' type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">SPCIncaOutpost</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">SPCIncaTemple</target>
+      </effect>
     </Effects>
 </Tech>
 
