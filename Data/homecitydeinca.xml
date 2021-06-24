@@ -1052,6 +1052,27 @@
       <age>1</age>
     </card>
     <card>
+      <name>DEHCSeasonalLabor1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>DEHCSeasonalLaborTeam</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
+      <name>DEHCSeasonalLabor2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>DEHCSeasonalLabor1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>DEHCSeasonalLabor3</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>DEHCSeasonalLabor2</prereqtech>
+      <age>3</age>
+    </card>
+    <card>
       <name>DEHCTempleOfMamaKilla</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -1313,6 +1334,9 @@
       <tech x="7.1" y="5.0">DEHCShipFatLlamas1</tech>
       <tech x="7.1" y="7.0">DEHCShipFatLlamasTeam</tech>
       <tech x="7.1" y="7.0">DEHCSeasonalLaborTeam</tech>
+      <tech x="7.1" y="7.0">DEHCSeasonalLabor1</tech>
+      <tech x="7.1" y="7.0">DEHCSeasonalLabor2</tech>
+      <tech x="7.1" y="7.0">DEHCSeasonalLabor3</tech>
       <tech x="7.1" y="7.0">DEHCTempleOfMamaKilla</tech>
     </obtainabletechs>
     <activetechs>
@@ -1343,6 +1367,9 @@
       <tech>DEHCShipFatLlamas1</tech>
       <tech>DEHCShipFatLlamasTeam</tech>
       <tech>DEHCSeasonalLaborTeam</tech>
+      <tech>DEHCSeasonalLabor1</tech>
+      <tech>DEHCSeasonalLabor2</tech>
+      <tech>DEHCSeasonalLabor3</tech>
       <tech>DEHCTempleOfMamaKilla</tech>
     </activetechs>
     <validunits/>

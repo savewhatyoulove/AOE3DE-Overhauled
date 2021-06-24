@@ -84,6 +84,73 @@
 
     </effects>
   </tech>
-
-
+  <tech name="DEHCSeasonalLabor1" type="Normal">
+    <dbid>8500</dbid>
+    <displaynameid>150002</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\inca\seasonal_labor.png</icon>
+    <rollovertextid>150001</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="SettlerNative" convertsettlers="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="1.00" subtype="FreeHomeCityUnitResource" unittype="Llama" resource="Food" resvalue="350.00" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="CrateofWood" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutput">150003</effect>
+    </effects>
+  </tech>
+  <tech name="DEHCSeasonalLabor2" type="Normal">
+    <dbid>8501</dbid>
+    <displaynameid>150005</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\inca\seasonal_labor.png</icon>
+    <rollovertextid>150004</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="SettlerNative" convertsettlers="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="3.00" subtype="FreeHomeCityUnitResource" unittype="Llama" resource="Food" resvalue="350.00" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="CrateofWood" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutput">150006</effect>
+    </effects>
+  </tech>
+  <tech name="DEHCSeasonalLabor3" type="Normal">
+    <dbid>8502</dbid>
+    <displaynameid>150008</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\inca\seasonal_labor.png</icon>
+    <rollovertextid>150007</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="SettlerNative" convertsettlers="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="6.00" subtype="FreeHomeCityUnitResource" unittype="Llama" resource="Food" resvalue="350.00" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="CrateofWood" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="CrateofWoodLarge" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutput">150009</effect>
+    </effects>
+  </tech>
   </techtreemods>
