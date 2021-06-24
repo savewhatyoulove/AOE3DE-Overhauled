@@ -1,0 +1,7 @@
+Inca Changes:
+
+Warchief:
+-- Aura: Changed to a flat 10% damage amp for all units (the old one was lame and non-impactful. This way, it rounds out the native aura suite).
+
+Kancha House:
+-- No longer trickles food, now spawns 2 unfattened llamas when built.

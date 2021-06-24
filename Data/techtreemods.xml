@@ -1,0 +1,27 @@
+<techtreemods>
+<tech name="DEHCWarChiefInca1" type="Normal">
+    <dbid>6087</dbid>
+    <displaynameid>80348</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\inca\sapa_inca.png</icon>
+    <rollovertextid>80347</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TextOutput">80351</effect>
+      <effect type="Data" amount="1.75" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deIncaWarChief</target>
+      </effect>
+      <effect type="Data" action="ExtraSiegeDamage" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deIncaWarChief</target>
+      </effect>
+      <effect type="Data" action="ExtraDamage" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deIncaWarChief</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">deIncaWarChief</target>
+      </effect>
+    </effects>
+  </tech>
+  </techtreemods>
