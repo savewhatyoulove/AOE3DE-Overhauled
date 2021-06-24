@@ -38,14 +38,16 @@
       <effect type="TechStatus" status="active">VeteranGrenadiers</effect>
       <effect type="TechStatus" status="active">GuardGrenadiers</effect>
       <effect type="TechStatus" status="active">VeteranHussars</effect>
+      <effect type="TechStatus" status="active">GuardHussars</effect>
       <effect type="TechStatus" status="active">VeteranSkirmishersShadow</effect>
       <effect type="TechStatus" status="active">GuardSkirmishers</effect>
-      <effect type="TechStatus" status="active">GuardDragoons</effect>
       <effect type="CommandRemove" tech="GuardSkirmishers">
         <target type="ProtoUnit">WarHut</target>
       </effect>
       <effect type="TechStatus" status="active">VeteranDragoonsShadow</effect>
+      <effect type="TechStatus" status="active">GuardDragoons</effect>
       <effect type="TechStatus" status="active">GuardHalberdiers</effect>
+      <effect type="TechStatus" status="active">FieldCannon</effect>
       <effect type="TransformUnit" toprotoid="xpColonialMilitia" fromprotoid="Settler"/>
       <effect type="TransformUnit" toprotoid="xpColonialMilitia" fromprotoid="Coureur"/>
       <effect type="TransformUnit" toprotoid="xpColonialMilitia" fromprotoid="CoureurCree"/>
@@ -70,13 +72,13 @@
 	  <effect mergeMode='add' type="Data" action="CoverHandAttack" amount="0.50" subtype="DamageBonus" unittype="AbstractCavalry" relativity="Absolute">
 		  <target type="ProtoUnit">deIncaWarChief</target>
 	  </effect>
-	  <effect mergeMode='add' type="Data" action="MeleeHandAttack" amount="0.50" subtype="DamageBonus" unittype="AbstractLightInfantry" relativity="Absolute">
+	  <effect mergeMode='add' type="Data" action="HandAttack" amount="0.50" subtype="DamageBonus" unittype="AbstractLightInfantry" relativity="Absolute">
 		  <target type="ProtoUnit">deIncaWarChief</target>
 	  </effect>
 	  <effect mergeMode='add' type="Data" action="CoverHandAttack" amount="0.50" subtype="DamageBonus" unittype="AbstractLightInfantry" relativity="Absolute">
 		  <target type="ProtoUnit">deIncaWarChief</target>
 	  </effect>
-	  <effect mergeMode='add' type="Data" action="MeleeHandAttack" amount="0.50" subtype="DamageBonus" unittype="AbstractCavalry" relativity="Absolute">
+	  <effect mergeMode='add' type="Data" action="HandAttack" amount="0.50" subtype="DamageBonus" unittype="AbstractCavalry" relativity="Absolute">
 		  <target type="ProtoUnit">deIncaWarChief</target>
 	  </effect>
 
