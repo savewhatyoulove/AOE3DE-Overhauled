@@ -24,6 +24,12 @@ Plumed Spearmen:
 Jungle Bowmen: 
 -- Range increased to 18 from 16, no longer increases with unit upgrades 
 
+Bolas: unit Rework
+-- Armor increased to 30 melee from 20 Ranged
+-- Ranged attack multipliers removed and increased to 25 from 18 (damage cap raised to 44 from 35). 
+-- Melee attack improved to 18 from 10 and 3.5x AbstractCavalry and 2.75x AbstractLightInfantry multipliers added.
+-- Siege attack improved to 25 from 24
+
 Huaraca: Unit Rework
 -- AbstractInfantry tag replaced with AbstractCoyoteMan and AbstractLightInfantry (they're now Shock Infantry like Chimu Runners)
 -- HP increased to 180 from 150
@@ -118,7 +124,7 @@ Shipments:
 -- Colla Support: 
   -- Cost reduced to 1000 from 1500
   -- Now ships 17 Bolas instead of 22
-  -- Now provides +0.5x HeavyCavalry and +0.3x LC at range for Bolas. 
+  -- Now provides +0.5x HeavyCavalry and +0.3x LC at range for Bolas as well as +20% ranged damage in general. 
 -- Cajamarca Support now additionally provides +15% ranged damage to Jungle Bowmen and their DOT. 
 -- Chiribaya Dogs now increases Peruvian Hairless Dog build limit to 12 from 7
 -- Llama Lifestyle now additionally increases the speed of llamas by 25% and reduces their cost by 10%
