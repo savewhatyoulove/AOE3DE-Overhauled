@@ -236,7 +236,7 @@
 	<effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="AbstractWhale" relativity="BasePercent">
 		<target type="ProtoUnit">LogicalTypeNavalMilitary</target>
 	<effect type="Data" amount="0.90" subtype="Cost" resource="Wood" relativity="BasePercent">
-		<target type="ProtoUnit">AbstractWarShip</target>
+		<target type="ProtoUnit">LogicalTypeNavalMilitary</target>
 	</effect>
       </effect>
 
@@ -329,6 +329,27 @@
       </effect>
 
       <effect type="TextOutput">80509</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCLlamaLifestyle" type="Normal">
+    <dbid>6154</dbid>
+    <displaynameid>80559</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\inca\llama_lifestyle.png</icon>
+    <rollovertextid>80560</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="0.5" subtype="CommunityPlazaWeight" relativity="Assign">
+        <target type="ProtoUnit">Llama</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="MaximumVelocity" relativity="BasePercent">
+        <target type="ProtoUnit">Llama</target>
+      </effect>
+      <effect type="Data" amount="0.85" subtype="Cost" resource="Food" relativity="Percent">
+        <target type="ProtoUnit">Llama</target>
+      </effect>
     </effects>
   </tech>
 

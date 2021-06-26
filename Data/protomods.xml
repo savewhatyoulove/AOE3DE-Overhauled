@@ -376,6 +376,7 @@
     <bounty>25.0000</bounty>
     <buildbounty>12.0000</buildbounty>
     <cost resourcetype="Wood">50.0000</cost>
+    <maxcontained>5</maxcontained>
     <unittype>LogicalTypeValidSabotage</unittype>
     <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
     <unittype>LogicalTypeBuildingsNotWalls</unittype>
@@ -407,6 +408,11 @@
     <flag>AllowAutoGarrison</flag>
     <flag>Tracked</flag>
     <flag>DisplayRange</flag>
+    <notcontain>AbstractFishingBoat</notcontain>
+    <contain>AbstractVillager</contain>
+    <command page="10" column="5">Eject</command>
+    <command page="10" column="7">Delete</command>
+    <tactics>combatBuilding.tactics</tactics>
 </Unit>
 <unit mergeMode='replace' id="592" name="SPCIncaTemple">
     <dbid>851</dbid>
