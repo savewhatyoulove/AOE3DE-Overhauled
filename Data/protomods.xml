@@ -359,7 +359,7 @@
     <impacttype>Wood</impacttype>
     <physicsinfo>outpost</physicsinfo>
     <placementfile>buildingsmall.xml</placementfile>
-    <icon>resources\art\buildings\spc\inca_outpost\inca_outpost_icon_64x64.png</icon>
+    <icon>resources\art\buildings\inca\inca_outpost_icon_64x64.png</icon>
     <portraiticon>resources\art\buildings\spc\inca_outpost\inca_outpost_portrait.png</portraiticon>
     <rollovertextid>34666</rollovertextid>
     <shortrollovertextid>34665</shortrollovertextid>
@@ -369,7 +369,7 @@
     <projectileprotounit>Arrow</projectileprotounit>
     <unitaitype>RangedCombative</unitaitype>
     <buildingworkrate>1.0000</buildingworkrate>
-    <buildlimit>1</buildlimit>
+    <buildlimit>2</buildlimit>
     <allowedage>0</allowedage>
     <armor type="Siege" value="0.0000"/>
     <buildpoints>15.0000</buildpoints>
@@ -420,7 +420,7 @@
     <impacttype>Wood</impacttype>
     <physicsinfo>house</physicsinfo>
     <placementfile>buildinglarge.xml</placementfile>
-    <icon>resources\art\buildings\spc\inca_temple\inca_temple_icon_64x64.png</icon>
+    <icon>resources\art\buildings\inca\inca_temple_icon_64x64.png</icon>
     <portraiticon>resources\art\buildings\spc\inca_temple\inca_temple_portrait.png</portraiticon>
     <rollovertextid>34387</rollovertextid>
     <shortrollovertextid>34386</shortrollovertextid>
