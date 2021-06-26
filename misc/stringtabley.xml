@@ -31906,8 +31906,8 @@
     <string _locid="80103">Legendary upgrade for Macemen.</string>
     <string _locid="80104">Huaraca</string>
     <string _locid="80105">INF Huaraca</string>
-    <string _locid="80106">Anti-building ranged infantry</string>
-    <string _locid="80107">Anti-building ranged infantry. Good against artillery and buildings.</string>
+    <string _locid="80106">Anti-building and anti-skirmisher shock infantry that deals melee damage from a distance.</string>
+    <string _locid="80107">Anti-building shock infantry. Good against artillery, skirmishers, and buildings.</string>
     <string _locid="80108">Elite Huaracas</string>
     <string _locid="80109">Elite Huaraca</string>
     <string _locid="80110">Champion Huaracas</string>

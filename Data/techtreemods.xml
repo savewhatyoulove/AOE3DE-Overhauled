@@ -159,4 +159,37 @@
       <effect type="TextOutput">150009</effect>
     </effects>
   </tech>
+  <tech name="DEHCChachapoyaSupport" type="Normal">
+    <dbid>6131</dbid>
+    <displaynameid>80499</displaynameid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\natives\inca\slinger_icon.png</icon>
+    <rollovertextid>80498</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="17.00" subtype="FreeHomeCityUnit" unittype="deSlinger" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="4.00" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">deSlinger</target>
+      </effect>
+      <effect type="Data" action="BuildingAttack" amount="4.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deSlinger</target>
+      </effect>
+      <effect type="Data" action="DefendRangedAttack" amount="4.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deSlinger</target>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="4.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deSlinger</target>
+      </effect>
+      <effect type="Data" action="VolleyRangedAttack" amount="4.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deSlinger</target>
+      </effect>
+      <effect type="TextOutput">80500</effect>
+    </effects>
+  </tech>
+
   </techtreemods>
