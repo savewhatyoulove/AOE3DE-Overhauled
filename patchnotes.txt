@@ -1,4 +1,9 @@
 General Changes:
+Shipments:
+-- Colonial Militia: Reworked
+  -- Moved to Age 2 from discovery age
+  -- No longer enables Conscription. Now does a onetime muster of 6 minutemen per TC
+  -- Now takes 20 seconds to arrive instead of 40 
 
 Dock:
 -- HP: Reduced from 2500 to 1750
@@ -7,26 +12,131 @@ Dock:
 Inca Changes:
 
 New Buildings Added:
--- Outpost. Cheap (50W) building with a large line of sight and no attack. Can only be built by Chasquis. Built limit starts at 1 and increases each age. 
+-- Outpost. Cheap (50W) building with a large line of sight and no attack. Can only be built by Chasquis. Built limit starts at 2 and increases each age. 
+  -- Fortress Age Tech: +100% HP/LOS for 200W/200G
 -- Temple. Expensive (500F/W/G) building that can only be constructed by your War Chief. Generates a large trickle of Wood (6.0/s). Available in the Industrial Age.
+
+Unit Changes:
+
+Plumed Spearmen:
+-- Siege Attack: Increased to 52 from 35
+
+Jungle Bowmen: 
+-- Range increased to 18 from 16, no longer increases with unit upgrades 
+
+Huaraca: Unit Rework
+-- AbstractInfantry tag replaced with AbstractCoyoteMan and AbstractLightInfantry (they're now Shock Infantry like Chimu Runners)
+-- HP increased to 180 from 150
+-- Armor reduced to 20 RR from 30 RR
+-- Speed increased to 5.0 from 4.0
+-- Range on all attacks reduced to 18 from 20 (and 24 for siege)
+-- Ranged Attack damage type changed to melee from siege.
+-- Current multipliers replaced with 0.5x AbstractLightCavalry, AbstractHeavyInfantry, and 0.75x AbstractVillager (ranged attack only).
+-- Melee attack improved to 20 from 10
+-- Siege Attack improved to 50 w/ ROF of 3.0 from 46 w/ ROF of 4.0
+-- Cost rescaled to 40 Food, 80 wood from 30 Wood, 90 Gold
+Explanation: Huaraca were a weird siege unit before, and now they're more of an extreme meteor hammer. More range and siege capabilities, but far less tanky and lower DPS. 
+
+Maceman: Unit Rework
+-- AbstractHeavyInfantry unit tag removed (now a skirmisher unit)
+-- HP reduced to 360 from 400
+-- Armor increased to 40 ranged from 30 melee
+-- Speed increased to 5.0 from 4.25
+-- Melee Damage reduced to 36 siege from 45 hand
+-- AOE on all attacks reduced from 3 to 2
+-- Siege Damage improved to 126 from 90 and ROF improved to 2.25 from 3.0
+-- All current multipliers removed, 0.5x AbstractCavalry, AbstractLightInfantry, and 2.0x AbstractInfantry added. 
+-- Now shadowtechs in each age.
+-- No longer trainable (must use shipments or Supay ceremony at Community Plaza)
+Explanation: Macemen were awful melee anti-cav units, being flatout worse than Skull Knights and Doppelsoldners. Now, they occupy the role of a melee grenadier, allowing them to clear out massed infantry and buildings with ease, but losing hard to artillery and anti-skirmisher units. 
+
+Priestess: Unit Rework
+-- Renamed to "Warrior Priestess" and now armed with a polearm
+-- HP reduced to 235 from 360
+-- Population cost increased to 2 from 1
+-- Build limit removed
+-- Cost reduced to 100 Food, 100 gold from 200 Gold
+-- Now trainable in the Kallanka 
+-- Moved to Age 3 from the discovery age
+-- Community Plaza weight increased to 2 from 1.5, and cap lowered to 5 from 10
+-- Speed increased to 5.0 from 4.5
+-- 20% Ranged armor increased to 30% melee armor
+-- Melee damage improved to 20 from 5 and 10x Hero, 10x Mercenary, and 1.5x AbstractCavalry multipliers added
+-- Siege Attack action added at 28 w/ 6 range and 3.0 ROF
 
 Llamas: Given the increased importance of Llamas for Inca, I've greatly increased their build limit.
 -- Build Limit: Increased from 20 to 40
 
+Chincha Rafts:
+-- Build limit halved
+-- Moved to the fortress age from the commerce age
+
+Inca can now train canoes and war canoes to help compensate. 
+
 Warchief:
 -- Aura: Changed to a flat 10% damage amp for all units (the old one was lame and non-impactful. This way, it rounds out the native aura suite).
+
+Building Changes: 
 
 Kancha House:
 -- No longer trickles food, now spawns 2 unfattened llamas when built.
 
-Llama built limit:
--- Increased to 50
+Big Buttons: 
+-- Royal Festival reworked:
+  -- Moved to the Kallanka from the community plaza.
+  -- Now spawns 2 macemen from each Kallanka, War Hut, and Stronghold.
+  -- Cost increased to 500 Food/Wood/Gold from 300/400/500
+-- Queen's Festival reworked:
+  -- Cost increased to 300 of each resource from 180
+  -- Now spawns 1 villager from each kacnha house
+-- Viracocha Festival reworked:
+  -- Moved to the Community Plaza from Kallanka
+  -- Cost reduced to 50F/50W/50G from 750W/750G
+  -- Now provides +1 weight to Warrior Priestesses while on the Community Plaza (2 --> 3)
 
 Shipments:
 -- Sapa Inca: No longer grants your War Chief a native damage aura. Now, it changes his armor type to ranged from melee.
--- Tupac Rebellion: 
-  -- Cost reduced to 1000 of each resource
-  -- Ship time increased to 60 seconds from 40
-  -- Plumed Spearmen now turn into Halberdiers instead of Musketeers
-  -- Now properly techs Guard Dragoons
 -- Son of Inti: Now additionally grants your War Chief's melee attack +0.5x AbstractCavalry/AbstractLightInfantry
+-- Tupac Rebellion: 
+  -- Cost reduced to 1000 of each resource from 2000 of each resource
+  -- Ship time increased to 60 seconds from 40
+  -- Plumed Spearmen now turn into Guard Halberdiers instead of Musketeers
+  -- Now properly techs Guard Dragoons
+-- Seasonal Labor I/II/III shipments added:
+  -- Ships 1 Villager/ 100 Wood/ 1 Fat Llama in discovery age
+  -- TEAM Seasonal Labor moved to commerce age and reduced to 1 Villager / 100 Wood/ 1 Fat Llama
+  -- Ships 3 Villagers/ 300 Wood/ 3 Fat Llamas in the fortress age
+  -- Ships 6 Villagers/ 600 Wood/ 6 Fat Llamas in the industrial age
+-- Chachapoya Support:
+  -- Cost reduced to  1000 from 1500
+  -- Now ships 17 Huaraca instead of 22
+  -- Now provides +4 range to all attacks instead of +5 siege range
+-- Chanca Support:
+  -- Cost reduced to 1000 from 1500
+  -- Now ships 9 Macemen instead of 7
+  -- Now provides +1x AbstractInfantry (for a total of 3x) instead of -10% cost
+-- Colla Support: 
+  -- Cost reduced to 1000 from 1500
+  -- Now ships 17 Bolas instead of 22
+  -- Now provides +0.5x HeavyCavalry and +0.3x LC at range for Bolas. 
+-- Cajamarca Support now additionally provides +15% ranged damage to Jungle Bowmen and their DOT. 
+-- Chiribaya Dogs now increases Peruvian Hairless Dog build limit to 12 from 7
+-- Llama Lifestyle now additionally increases the speed of llamas by 25% and reduces their cost by 10%
+-- Temple of Mama Killa now provides +30% Attack to Warrior Priestesses
+-- Quipu Kamayuk. Moved to age 3 and current effects removed. Moves Trade Monopoly to the fortress age and makes them significantly cheaper (now costs 150F/150W/150G), Tambos now have +5 LOS. 
+-- Cloud Warriors moved to age 3
+-- Census moved to age 3
+-- High Ground now additionally increases outpost LOS by 6
+=-- Cloud Fortresses. 25% dodge chance? makes nearby units stealthy? Increases nearby unit speed?
+-- 1/2/3 Farm Travois now provide +2/5/10 llamas
+-- Ceque System now grants Chasquis an XP trickle of 0.25/s per Chasquis. 
+-- Chincha Brewing:
+  -- Moved to the Industrial Age from commerce age
+  -- Now provides +20% workrate on the community plaza for all units. This is doubled for llamas. 
+-- Salt Ponds now provide +10% yield
+-- Chinchillas now buffs all ships for Inca. 
+-- Fortress Age Warrior Priestess Support shipment added. Ships 7 Warrior Priestesses and increases their health by 30%
+-- Floating Island Reworked:
+  -- War ships gather +60% more quickly from fish
+  -- War ships gather +15% more quickly from whales
+  -- War ships costs 10% less wood

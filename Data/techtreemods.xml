@@ -159,7 +159,7 @@
       <effect type="TextOutput">150009</effect>
     </effects>
   </tech>
-  <tech name="DEHCChachapoyaSupport" type="Normal">
+  <tech mergeMode='replace' name="DEHCChachapoyaSupport" type="Normal">
     <dbid>6131</dbid>
     <displaynameid>80499</displaynameid>
     <cost resourcetype="Gold">1000.0000</cost>
@@ -189,6 +189,146 @@
         <target type="ProtoUnit">deSlinger</target>
       </effect>
       <effect type="TextOutput">80500</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCChancaSupport" type="Normal">
+    <dbid>6130</dbid>
+    <displaynameid>80496</displaynameid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\natives\inca\maceman_icon.png</icon>
+    <rollovertextid>80495</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="deMaceman" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" action="HandAttack" amount="1.00" subtype="DamageBonus" unittype="AbstractInfantry" relativity="Absolute">
+        <target type="ProtoUnit">deMaceman</target>
+      </effect>
+      <effect type="Data" action="CoverHandAttack" amount="1.00" subtype="DamageBonus" unittype="AbstractInfantry" relativity="Absolute">
+        <target type="ProtoUnit">deMaceman</target>
+      </effect>
+      <effect type="Data" action="GuardianHandAttack" amount="1.00" subtype="DamageBonus" unittype="AbstractInfantry" relativity="Absolute">
+        <target type="ProtoUnit">deMaceman</target>
+      </effect>
+      <effect type="Data" action="GuardianCoverAttack" amount="1.00" subtype="DamageBonus" relativity="Absolute">
+        <target type="ProtoUnit">deMaceman</target>
+      </effect>
+      <effect type="TextOutput">80497</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCFloatingIslands" type="Normal">
+    <dbid>6118</dbid>
+    <displaynameid>80478</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\inca\floating_islands.png</icon>
+    <rollovertextid>80477</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+	<effect type="Data" action="Gather" amount="1.60" subtype="WorkRate" unittype="AbstractFish" relativity="BasePercent">
+		<target type="ProtoUnit">LogicalTypeNavalMilitary</target>
+	</effect>
+	<effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="AbstractWhale" relativity="BasePercent">
+		<target type="ProtoUnit">LogicalTypeNavalMilitary</target>
+	<effect type="Data" amount="0.90" subtype="Cost" resource="Wood" relativity="BasePercent">
+		<target type="ProtoUnit">AbstractWarShip</target>
+	</effect>
+      </effect>
+
+      <effect type="TextOutput">80479</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCChinchillas" type="Normal">
+    <dbid>6119</dbid>
+    <displaynameid>80481</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\inca\chinchillas.png</icon>
+    <rollovertextid>80480</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="MaximumVelocity" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractWarShip</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="MaximumVelocity" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractFishingBoat</target>
+      </effect>
+      <effect type="Data" amount="0.65" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractWarShip</target>
+      </effect>
+      <effect type="Data" amount="0.65" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractFishingBoat</target>
+      </effect>
+      <effect type="TextOutput">80482</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCCollaSupport" type="Normal">
+    <dbid>6134</dbid>
+    <displaynameid>80508</displaynameid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\natives\inca\bolas_warrior_icon.png</icon>
+    <rollovertextid>80507</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="17.00" subtype="FreeHomeCityUnit" unittype="deBolasWarrior" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="0.50" subtype="DamageBonus" unittype="AbstractHeavyCavalry" relativity="Absolute">
+        <target type="ProtoUnit">deBolasWarrior</target>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="0.30" subtype="DamageBonus" unittype="AbstractLightCavalry" relativity="Absolute">
+        <target type="ProtoUnit">deBolasWarrior</target>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="0.25" subtype="DamageBonus" unittype="xpEagleKnight" relativity="Absolute">
+        <target type="ProtoUnit">deBolasWarrior</target>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="0.3" subtype="DamageBonus" unittype="AbstractCoyoteMan" relativity="Absolute">
+        <target type="ProtoUnit">deBolasWarrior</target>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="1.20" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">deBolasWarrior</target>
+      </effect>
+      <effect type="Data" action="VolleyRangedAttack" amount="0.50" subtype="DamageBonus" unittype="AbstractHeavyCavalry" relativity="Absolute">
+        <target type="ProtoUnit">deBolasWarrior</target>
+      </effect>
+      <effect type="Data" action="VolleyRangedAttack" amount="0.30" subtype="DamageBonus" unittype="AbstractLightCavalry" relativity="Absolute">
+        <target type="ProtoUnit">deBolasWarrior</target>
+      </effect>
+      <effect type="Data" action="VolleyRangedAttack" amount="0.25" subtype="DamageBonus" unittype="xpEagleKnight" relativity="Absolute">
+        <target type="ProtoUnit">deBolasWarrior</target>
+      </effect>
+      <effect type="Data" action="VolleyRangedAttack" amount="0.3" subtype="DamageBonus" unittype="AbstractCoyoteMan" relativity="Absolute">
+        <target type="ProtoUnit">deBolasWarrior</target>
+      </effect>
+      <effect type="Data" action="VolleyRangedAttack" amount="1.20" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">deBolasWarrior</target>
+      </effect>
+      <effect type="Data" action="DefendRangedAttack" amount="0.50" subtype="DamageBonus" unittype="AbstractHeavyCavalry" relativity="Absolute">
+        <target type="ProtoUnit">deBolasWarrior</target>
+      </effect>
+      <effect type="Data" action="DefendRangedAttack" amount="0.30" subtype="DamageBonus" unittype="AbstractLightCavalry" relativity="Absolute">
+        <target type="ProtoUnit">deBolasWarrior</target>
+      </effect>
+      <effect type="Data" action="DefendRangedAttack" amount="0.25" subtype="DamageBonus" unittype="xpEagleKnight" relativity="Absolute">
+        <target type="ProtoUnit">deBolasWarrior</target>
+      </effect>
+      <effect type="Data" action="DefendRangedAttack" amount="0.3" subtype="DamageBonus" unittype="AbstractCoyoteMan" relativity="Absolute">
+        <target type="ProtoUnit">deBolasWarrior</target>
+      </effect>
+      <effect type="Data" action="DefendRangedAttack" amount="1.20" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">deBolasWarrior</target>
+      </effect>
+
+      <effect type="TextOutput">80509</effect>
     </effects>
   </tech>
 

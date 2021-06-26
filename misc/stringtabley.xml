@@ -31883,7 +31883,7 @@
     <string _locid="80080">Bolas Warrior</string>
     <string _locid="80081">INF Bolas Warrior</string>
     <string _locid="80082">Heavy ranged infantry</string>
-    <string _locid="80083">Ranged warrior who hurls bolas for a wide area of effect. The bola slows down enemies. Good against cavalry.</string>
+    <string _locid="80083">Ranged warrior who hurls bolas for a wide area of effect. The bola slows down enemies. Good against cavalry in melee.</string>
     <string _locid="80084">Elite Bolas Warriors</string>
     <string _locid="80085">Elite Bolas Warrior</string>
     <string _locid="80086">Champion Bolas Warriors</string>
@@ -32115,7 +32115,7 @@
     <string _locid="80492">The Huankas send 1 Town Center Travois, 1 Builder Travois, increase the build limit of Town Centers and make all buildings be built faster.</string>
     <string _locid="80493">Huanka Support</string>
     <string _locid="80494">Huanka Support Shipment has arrived.</string>
-    <string _locid="80495">The Chancas send 7 Macemen and reduce their training costs.</string>
+    <string _locid="80495">The Chancas send 9 Macemen and increase their damage against infantry.</string>
     <string _locid="80496">Chanca Support</string>
     <string _locid="80497">Chanca Support Shipment has arrived.</string>
     <string _locid="80498">The Chachapoyas send 22 Huaracas and increase their siege attack range.</string>
@@ -32127,7 +32127,7 @@
     <string _locid="80504">The Chimu send 16 Chimu Runners, increase their hitpoints and teach them how to slow down escaping enemies.</string>
     <string _locid="80505">Chimu Support</string>
     <string _locid="80506">Chimu Support Shipment has arrived.</string>
-    <string _locid="80507">The Colla send 22 Bolas Warriors and teach them how to inflict extra melee damage against Cavalry and Shock Infantry.</string>
+    <string _locid="80507">The Colla send 17 Bolas Warriors and increase their ranged damage, especially against Cavalry and Shock Infantry.</string>
     <string _locid="80508">Colla Support</string>
     <string _locid="80509">Colla Support Shipment has arrived.</string>
     <string _locid="80510">The Cañari send 8 Plumed Spearmen and teach them how to increase their melee attack speed.</string>

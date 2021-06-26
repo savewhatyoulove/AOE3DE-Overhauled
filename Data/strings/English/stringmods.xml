@@ -13,7 +13,11 @@
 	    <String _locid="80139">Inca House that supports 12 population and spawns 2 Llamas when built.</String>
 	    <string _locid="80347">Improves the speed and hitpoints of your War Chief. Additionally, your War Chief now resists against ranged damage.</string>
 	    <string _locid="80349">Greatly increases the damage of your War Chief, especially to Heavy Cavalry and Shock Infantry. Additionally, your War Chief now inflicts area damage and gains the Swashbuckler attack.</string>
+	    <string _locid="80477">Warships are cheaper and gather from fish much more quickly and whales somewhat more quickly.</string>
+	    <string _locid="80480">Warships and Fishing Boats move fast like Chinchillas and take less time to train.</string>
+	    <string _locid="80495">The Chancas send 9 Macemen and increase their damage against infantry.</string>
 	    <string _locid="80498">The Chachapoyas send 17 Huaracas and increase their attack range.</string>
+	    <string _locid="80507">The Colla send 17 Bolas Warriors and increase their ranged damage, especially against Cavalry and Shock Infantry.</string>
 	    <string _locid="150001">Ships 1 villager, 100 Wood and 1 Fattened Llama</string>
 	    <string _locid="150002">Seasonal Labor I</string>
 	    <string _locid="150003">Seasonal Labor I Shipment has arrived.</string>
