@@ -100,6 +100,11 @@ Big Buttons:
   -- Cost reduced to 50F/50W/50G from 750W/750G
   -- Now provides +1 weight to Warrior Priestesses while on the Community Plaza (2 --> 3)
 
+Tribal Council Changes:
+Age 2:
+-- Chief cost increased to 900 Food from 800
+-- Wise Woman cost reduced to 700 from 800 and now provides 1 villager, 100 wood, and 1 fat llama
+
 Shipments:
 -- Sapa Inca: No longer grants your War Chief a native damage aura. Now, it changes his armor type to ranged from melee.
 -- Son of Inti: Now additionally grants your War Chief's melee attack +0.5x AbstractCavalry/AbstractLightInfantry

@@ -332,7 +332,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>3</age>
+      <age>2</age>
     </card>
     <card>
       <name>DEHCRangedInfDamageInca</name>
@@ -908,7 +908,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>22</displayunitcount>
+      <displayunitcount>17</displayunitcount>
     </card>
     <card>
       <name>DEHCCanariSupport</name>
@@ -1185,7 +1185,6 @@
       <name>$$71332$$Beginner</name>
       <default/>
       <cards>
-        <card dbid="2917">HCXPShipVillagers5</card>
         <card dbid="6069">DEHCShipFatLlamasRepeat</card>
         <card dbid="6082">DEHCShipPriestessRepeat</card>
         <card dbid="6147">DEHCAmericanAlliesInca</card>
@@ -1237,7 +1236,6 @@
         <card dbid="881">HCNativeTreaties</card>
         <card dbid="6147">DEHCAmericanAlliesInca</card>
         <card dbid="6048">DEHCShipIncaRunnersRepeat</card>
-        <card dbid="2917">HCXPShipVillagers5</card>
       </cards>
     </deck>
     <deck>
@@ -1307,13 +1305,11 @@
     <displaynamestringid>48939</displaynamestringid>
     <rolloverstringid>25536</rolloverstringid>
     <obtainabletechs>
-      <tech x="2.3" y="1.0">HCXPShipVillagers5</tech>
       <tech x="2.3" y="1.0">HCShipFoodCrates1</tech>
       <tech x="3.1" y="1.0">HCShipWoodCrates1</tech>
       <tech x="3.9" y="1.0">HCShipCoinCrates1</tech>
       <tech x="2.3" y="2.0">HCShipFoodCrates3</tech>
       <tech x="3.1" y="2.0">DEHCChiribayaDogs</tech>
-      <tech x="3.9" y="2.0">DEHCShipVillagersInca</tech>
       <tech x="3.1" y="3.0">DEHCShipWoodCratesInfInca</tech>
       <tech x="3.9" y="3.0">HCShipCoinCrates3</tech>
       <tech x="3.9" y="4.0">DEHCShipIncaDogsTeam</tech>
@@ -1340,13 +1336,11 @@
       <tech x="7.1" y="7.0">DEHCTempleOfMamaKilla</tech>
     </obtainabletechs>
     <activetechs>
-      <tech>HCXPShipVillagers5</tech>
       <tech>HCShipFoodCrates1</tech>
       <tech>HCShipWoodCrates1</tech>
       <tech>HCShipCoinCrates1</tech>
       <tech>HCShipFoodCrates3</tech>
       <tech>DEHCChiribayaDogs</tech>
-      <tech>DEHCShipVillagersInca</tech>
       <tech>DEHCShipWoodCratesInfInca</tech>
       <tech>HCShipCoinCrates3</tech>
       <tech>DEHCShipIncaDogsTeam</tech>

@@ -11,6 +11,9 @@
       <effect mergeMode='add' type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">SPCIncaTemple</target>
       </effect>
+      <effect mergeMode='add' type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Canoe</target>
+      </effect>
     </Effects>
 </Tech>
 
@@ -352,5 +355,49 @@
       </effect>
     </effects>
   </tech>
+  <tech name="DEFortressizeInca" type="Normal">
+      <effect mergeMode='replace' type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">deChinchaRaft</target>
+      </effect>
+  </tech>
+  <tech name="DEIndustrializeInca" type="Normal">
+      <effect mergeMode='replace' type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">deChinchaRaft</target>
+      </effect>
+  </tech>
+  <tech mergeMode='replace' name="TribalIncaChief2" type="Normal">
+    <dbid>6027</dbid>
+    <displaynameid>80017</displaynameid>
+    <cost resourcetype="Food">900.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_ii.png</icon>
+    <rollovertextid>80018</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age1</effect>
+      <effect type="TechStatus" status="unobtainable">TribalIncaChief3</effect>
+      <effect type="TechStatus" status="unobtainable">TribalIncaChief4</effect>
+      <effect type="TechStatus" status="unobtainable">TribalIncaChief5</effect>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="deBuilderInca" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="TribalIncaShaman2" type="Normal">
+	  <effect mergeMode='add' type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FarmTravois" relativity="Absolute">
+		  <target type="Player"/>
+	  </effect>
+  </tech>
+  <tech name="TribalIncaWarrior2" type="Normal">
+	  <effect mergeMode='remove' type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="deIncaRunner" relativity="Absolute">
+		  <target type="Player"/>
+	  </effect>
+	  <effect mergeMode='add' type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="dePriestess" relativity="Absolute">
+		  <target type="Player"/>
+	  </effect>
 
-  </techtreemods>
+  </tech>
+    </techtreemods>
