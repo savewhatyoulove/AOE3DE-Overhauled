@@ -101,7 +101,7 @@
     <name stringid="68994">FrightenSpeed</name>
     <type>AutoRangedModify</type>
     <targetenemy>1</targetenemy>
-    <active>1</active>
+    <active>0</active>
     <maxrange>28</maxrange>
     <persistent>1</persistent>
     <modifytype>Speed</modifytype>

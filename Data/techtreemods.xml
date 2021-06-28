@@ -14,6 +14,8 @@
       <effect mergeMode='add' type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">Canoe</target>
       </effect>
+      <effect mergeMode='remove' type="TechStatus" status="UNOBTAINABLE">DEEliteMacemenShadow</effect>
+      <effect mergeMode='add' type="TechStatus" status="obtainable">DEEliteMacemenShadow</effect>
     </Effects>
 </Tech>
 
@@ -745,6 +747,44 @@
       <effect type="Data" action="Convert" amount="-1.00" subtype="ConversionDelay" relativity="Absolute">
         <target type="ProtoUnit">dePriestess</target>
       </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEChampionMacemen" type="Normal">
+    <dbid>6023</dbid>
+    <researchpoints>0.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+      <techstatus status="Active">DEEliteMacemenShadow</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deMaceman</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deMaceman</target>
+      </effect>
+      <effect type="SetName" proto="deMaceman" culture="none" newname="80099"/>
+    </effects>
+  </tech>
+  <tech name="DEImpLegendaryMacemen" type="Normal">
+    <dbid>6024</dbid>
+    <researchpoints>0.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">DEChampionMacemen</techstatus>
+      <techstatus status="Active">Imperialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deMaceman</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deMaceman</target>
+      </effect>
+      <effect type="SetName" proto="deMaceman" culture="none" newname="80101"/>
     </effects>
   </tech>
 

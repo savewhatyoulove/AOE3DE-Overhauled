@@ -1265,6 +1265,24 @@
       <damagebonus type="AbstractArtillery">0.500000</damagebonus>
     </protoaction>
   </unit>
+  <unit id="442" name="Fluyt">
+	<train mergeMode='remove'>deMaceman</train>
+  </unit>
+  <unit id="443" name="Galleon">
+	<train mergeMode='remove'>deMaceman</train>
+  </unit>
+  <unit id="952" name="ypAtakabune">
+	<train mergeMode='remove'>deMaceman</train>
+  </unit>
+  <unit id="1069" name="ypFuchuan">
+	<train mergeMode='remove'>deMaceman</train>
+  </unit>
+  <unit id="1503" name="deKallanka">
+	  <train mergeMode='remove'>deMaceman</train>
+  </unit>
+  <unit id="1512" name="deIncaStronghold">
+	  <train mergeMode='remove'>deMaceman</train>
+  </unit>
 </protomods>
 
 
