@@ -152,6 +152,7 @@ Shipments:
   -- War ships costs 10% less wood
 -- Town Dance re-added
 -- Fulling Mills and Stockyards added. 
+-- Fortress Age 1000 Coin/1000 Food crates added.
 -- TEAM Inca Bridges Reworked:
   -- No longer provides +5% Speed to Infantry and Villagers/Healers
   -- No longer provides a free chasquis

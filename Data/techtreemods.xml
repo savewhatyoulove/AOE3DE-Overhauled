@@ -377,6 +377,11 @@
       </effect>
     </effects>
   </tech>
+  <tech name="DEColonializeInca" type="Normal">
+      <effect mergeMode='add' type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">SPCIncaOutpost</target>
+      </effect>
+  </tech>
   <tech name="DEFortressizeInca" type="Normal">
       <effect mergeMode='replace' type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
         <target type="ProtoUnit">deChinchaRaft</target>
@@ -679,10 +684,7 @@
       <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">deIncaDog</target>
       </effect>
-      <effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">deChasqui</target>
-      </effect>
-      <effect type="Data" amount="10.00" subtype="Damage" allactions="1" relativity="Absolute">
+      <effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">deChasqui</target>
       </effect>
       <effect type="Data" amount="3.00" subtype="LOS" relativity="Absolute">
@@ -705,10 +707,7 @@
       <techstatus status="Active">Industrialize</techstatus>
     </prereqs>
     <effects>
-      <effect type="Data" amount="1.40" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">deChasqui</target>
-      </effect>
-      <effect type="Data" amount="15.00" subtype="Damage" allactions="1" relativity="Absolute">
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">deChasqui</target>
       </effect>
       <effect type="Data" amount="3.00" subtype="LOS" relativity="Absolute">
@@ -734,10 +733,7 @@
       <effect type="Data" amount="2.00" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">deIncaDog</target>
       </effect>
-      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">deChasqui</target>
-      </effect>
-      <effect type="Data" amount="15.00" subtype="Damage" allactions="1" relativity="Absolute">
+      <effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">deChasqui</target>
       </effect>
       <effect type="Data" amount="3.00" subtype="LOS" relativity="Absolute">

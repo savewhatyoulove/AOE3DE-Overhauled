@@ -70,6 +70,15 @@
       <displayunitcount>700</displayunitcount>
     </card>
     <card>
+      <name>HCShipFoodCrates4</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipFoodCrates3</prereqtech>
+      <age>2</age>
+      <displayunitcount>1000</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
       <name>DEHCIncaDogsTeam</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -155,6 +164,15 @@
       <prereqtech>-1</prereqtech>
       <age>1</age>
       <displayunitcount>700</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipCoinCrates4</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipCoinCrates3</prereqtech>
+      <age>2</age>
+      <displayunitcount>1000</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1337,9 +1355,11 @@
       <tech x="3.1" y="1.0">HCShipWoodCrates1</tech>
       <tech x="3.9" y="1.0">HCShipCoinCrates1</tech>
       <tech x="2.3" y="2.0">HCShipFoodCrates3</tech>
+      <tech x="2.3" y="2.0">HCShipFoodCrates4</tech>
       <tech x="3.1" y="2.0">DEHCChiribayaDogs</tech>
       <tech x="3.1" y="3.0">DEHCShipWoodCratesInfInca</tech>
       <tech x="3.9" y="3.0">HCShipCoinCrates3</tech>
+      <tech x="3.9" y="3.0">HCShipCoinCrates4</tech>
       <tech x="3.9" y="4.0">DEHCShipIncaDogsTeam</tech>
       <tech x="3.9" y="4.0">DEHCShipIncaDogs1</tech>
       <tech x="3.1" y="4.0">HCShipWoodCrates4</tech>
@@ -1369,9 +1389,11 @@
       <tech>HCShipWoodCrates1</tech>
       <tech>HCShipCoinCrates1</tech>
       <tech>HCShipFoodCrates3</tech>
+      <tech>HCShipFoodCrates4</tech>
       <tech>DEHCChiribayaDogs</tech>
       <tech>DEHCShipWoodCratesInfInca</tech>
       <tech>HCShipCoinCrates3</tech>
+      <tech>HCShipCoinCrates4</tech>
       <tech>DEHCShipIncaDogsTeam</tech>
       <tech>DEHCShipIncaDogs1</tech>
       <tech>HCShipWoodCrates4</tech>
@@ -1415,7 +1437,6 @@
     <displaynamestringid>48937</displaynamestringid>
     <rolloverstringid>29002</rolloverstringid>
     <obtainabletechs>
-      <tech x="1.5" y="5.0">DEHCQuipuKamayuks</tech>
       <tech x="0.0" y="1.0">DEHCShipIncaRunners1</tech>
       <tech x="0.0" y="2.0">DEHCShipIncaRunners2</tech>
       <tech x="0.0" y="3.0">DEHCShipIncaRunners3</tech>
@@ -1450,7 +1471,6 @@
       <tech x="6.4" y="2.0">DEHCTupacRebellion</tech>
     </obtainabletechs>
     <activetechs>
-      <tech>DEHCQuipuKamayuks</tech>
       <tech>DEHCShipIncaRunners1</tech>
       <tech>DEHCShipIncaRunners2</tech>
       <tech>DEHCShipIncaRunners3</tech>
@@ -1503,6 +1523,7 @@
     <displaynamestringid>48938</displaynamestringid>
     <rolloverstringid>25538</rolloverstringid>
     <obtainabletechs>
+      <tech x="1.5" y="5.0">DEHCQuipuKamayuks</tech>
       <tech x="4.7" y="5.0">DEHCShipCoveredWagons2Inca</tech>
       <tech x="0.0" y="1.0">HCNativeLore</tech>
       <tech x="0.0" y="2.0">HCNativeTreaties</tech>
@@ -1536,6 +1557,7 @@
       <tech x="3.0" y="5.0">DEHCCloudFortresses</tech>
     </obtainabletechs>
     <activetechs>
+      <tech>DEHCQuipuKamayuks</tech>
       <tech>DEHCShipCoveredWagons2Inca</tech>
       <tech>HCNativeLore</tech>
       <tech>HCNativeTreaties</tech>
