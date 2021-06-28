@@ -334,9 +334,124 @@
       <damagebonus type="AbstractLightInfantry">2.250000</damagebonus>
     </protoaction>
 </Unit>
-<Unit id="1507" name="deChasqui">
+<unit mergeMode='replace' id="1507" name="deChasqui">
+    <dbid>2155</dbid>
+    <displaynameid>80068</displaynameid>
+    <editornameid>80069</editornameid>
+    <obstructionradiusx>0.4900</obstructionradiusx>
+    <obstructionradiusz>0.4900</obstructionradiusz>
+    <formationcategory>Ranged</formationcategory>
+    <maxvelocity>6.5000</maxvelocity>
+    <maxrunvelocity>8.5000</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <animfile>units\natives\inca\chasqui\chasqui_scout.xml</animfile>
+    <impacttype>Flesh</impacttype>
+    <physicsinfo>dude</physicsinfo>
+    <icon>resources\art\units\natives\inca\scout_icon.png</icon>
+    <portraiticon>resources\art\units\natives\inca\scout_portrait.png</portraiticon>
+    <rollovertextid>80071</rollovertextid>
+    <shortrollovertextid>80070</shortrollovertextid>
+    <initialhitpoints>120.0000</initialhitpoints>
+    <maxhitpoints>120.0000</maxhitpoints>
+    <los>22.0000</los>
+    <unitaitype>Passive</unitaitype>
+    <trainpoints>10.0000</trainpoints>
+    <buildlimit>1</buildlimit>
+    <bounty>8.0000</bounty>
+    <buildbounty>8.0000</buildbounty>
+    <cost resourcetype="Wood">40.0000</cost>
+    <cost resourcetype="Gold">40.0000</cost>
+    <allowedage>0</allowedage>
+    <armor type="Ranged" value="0.2000"/>
+    <unittype>LogicalTypeHealed</unittype>
+    <unittype>LogicalTypeValidSharpshoot</unittype>
+    <unittype>LogicalTypeNeededForVictory</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeLandMilitary</unittype>
+    <unittype>LogicalTypeScout</unittype>
+    <unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
+    <unittype>AbstractHandInfantry</unittype>
+    <unittype>AbstractCanSeeStealth</unittype>
+    <unittype>ConvertsHerds</unittype>
+    <unittype>CannotConvertHill</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>Unit</unittype>
+    <unittype>UnitClass</unittype>
+    <unittype>Military</unittype>
+    <unittype>AbstractFindScout</unittype>
+    <unittype>AbstractLightInfantry</unittype>
+    <unittype>AbstractCoyoteMan</unittype>
+    <train row="0" page="6" column="0">TownCenter</train>
+    <train row="0" page="6" column="1">TradingPost</train>
     <train row="0" page="6" column="2">SPCIncaOutpost</train> 
-</Unit>
+    <flag>VisibleUnderFogIfGaia</flag>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ApplyHandicapTraining</flag>
+    <flag>CorpseDecays</flag>
+    <flag>ShowGarrisonButton</flag>
+    <flag>CantBeSlowed</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>Tracked</flag>
+    <command page="10" column="1">Stop</command>
+    <command page="10" column="0">Garrison</command>
+    <command page="10" column="7">Delete</command>
+    <command page="9" column="0">ToggleStealth</command>
+    <tactics>incascout.tactics</tactics>
+    <protoaction>
+      <name>Build</name>
+      <rate type="TradingPost">1.000000</rate>
+      <rate type="TownCenter">1.000000</rate>
+    </protoaction>
+    <protoaction>
+      <name>BuildingAttack</name>
+      <damage>5.000000</damage>
+      <damagetype>Siege</damagetype>
+      <rof>3.000000</rof>
+    </protoaction>
+    <protoaction>
+      <name>CoverBuildingAttack</name>
+      <damage>3.000000</damage>
+      <damagetype>Siege</damagetype>
+      <rof>3.000000</rof>
+    </protoaction>
+    <protoaction>
+      <name>CoverHandAttack</name>
+      <damage>3.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="Guardian">3.000000</damagebonus>
+      <damagebonus type="AbstractVillager">0.250000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>DefendHandAttack</name>
+      <damage>6.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="Guardian">3.000000</damagebonus>
+      <damagebonus type="AbstractVillager">0.250000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>MeleeHandAttack</name>
+      <damage>6.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="Guardian">3.000000</damagebonus>
+      <damagebonus type="AbstractVillager">0.250000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>AutoGatherXP</name>
+      <type>AutoGather</type>
+      <rate type="XP">0.250000</rate>
+    </protoaction>
+  </unit>
 <Unit id="1500" name="deIncaWarChief">
     <train row="0" page="6" column="2">SPCIncaTemple</train> 
     <train mergeMode='remove' row="0" page="6" column="3">deIncaDog</train>

@@ -66261,10 +66261,7 @@
       <effect type="Data" action="Stealth" amount="1.00" subtype="ActionEnable" relativity="Absolute">
         <target type="ProtoUnit">deChasqui</target>
       </effect>
-      <effect type="Data" amount="1.00" tactic="Stealth" subtype="TacticEnable" relativity="Absolute">
-        <target type="ProtoUnit">deChasqui</target>
-      </effect>
-    </effects>
+      </effects>
   </tech>
   <tech name="DEHCCurare" type="Normal">
     <dbid>6156</dbid>

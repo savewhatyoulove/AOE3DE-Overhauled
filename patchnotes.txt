@@ -113,9 +113,10 @@ Shipments:
   -- Ship time increased to 60 seconds from 40
   -- Plumed Spearmen now turn into Guard Halberdiers instead of Musketeers
   -- Now properly techs Guard Dragoons
--- Seasonal Labor I/II/III shipments added:
+-- Seasonal Labor I/II/III/IV shipments added:
   -- Ships 1 Villager/ 100 Wood/ 1 Fat Llama in discovery age
   -- TEAM Seasonal Labor moved to commerce age and reduced to 1 Villager / 100 Wood/ 1 Fat Llama
+  -- Ships 2 Villagers/ 200 Wood/ 2 Fat Llamas in the commerce age
   -- Ships 3 Villagers/ 300 Wood/ 3 Fat Llamas in the fortress age
   -- Ships 6 Villagers/ 600 Wood/ 6 Fat Llamas in the industrial age
 -- Chachapoya Support:
@@ -141,9 +142,7 @@ Shipments:
 =-- Cloud Fortresses. 25% dodge chance? makes nearby units stealthy? Increases nearby unit speed?
 -- 1/2/3 Farm Travois now provide +2/5/10 llamas
 -- Ceque System now grants Chasquis an XP trickle of 0.25/s per Chasquis. 
--- Chincha Brewing:
-  -- Moved to the Industrial Age from commerce age
-  -- Now provides +20% workrate on the community plaza for all units. This is doubled for llamas. 
+-- Chincha Brewing now provides +15% gather rate to all food resources instead of improving kancha trickle
 -- Salt Ponds now provide +10% yield
 -- Chinchillas now buffs all ships for Inca. 
 -- Fortress Age Warrior Priestess Support shipment added. Ships 7 Warrior Priestesses and increases their health by 30%
@@ -151,3 +150,19 @@ Shipments:
   -- War ships gather +60% more quickly from fish
   -- War ships gather +15% more quickly from whales
   -- War ships costs 10% less wood
+-- Town Dance re-added
+-- Fulling Mills and Stockyards added. 
+-- TEAM Inca Bridges Reworked:
+  -- No longer provides +5% Speed to Infantry and Villagers/Healers
+  -- No longer provides a free chasquis
+  -- Now provides +20% speed to all Villagers, Healers, Scouts, and Livestock
+
+
+TODO//
+Cloud Fortresses - IDK
+Farm Travois -3/5/10
+
+Chasqui Shipments:
+- Ceque System
+- Aymara Support Rework
+

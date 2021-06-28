@@ -125,6 +125,29 @@
     <rollovertextid>150004</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="SettlerNative" convertsettlers="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="2.00" subtype="FreeHomeCityUnitResource" unittype="Llama" resource="Food" resvalue="350.00" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="CrateofWood" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutput">150006</effect>
+    </effects>
+  </tech>
+
+  <tech name="DEHCSeasonalLabor3" type="Normal">
+    <dbid>8501</dbid>
+    <displaynameid>150008</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\inca\seasonal_labor.png</icon>
+    <rollovertextid>150007</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
       <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="SettlerNative" convertsettlers="True" relativity="Absolute">
         <target type="Player"/>
       </effect>
@@ -134,17 +157,17 @@
       <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="CrateofWood" relativity="Absolute">
         <target type="Player"/>
       </effect>
-      <effect type="TextOutput">150006</effect>
+      <effect type="TextOutput">150009</effect>
     </effects>
   </tech>
-  <tech name="DEHCSeasonalLabor3" type="Normal">
+  <tech name="DEHCSeasonalLabor4" type="Normal">
     <dbid>8502</dbid>
-    <displaynameid>150008</displaynameid>
+    <displaynameid>150011</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\inca\seasonal_labor.png</icon>
-    <rollovertextid>150007</rollovertextid>
+    <rollovertextid>150010</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="SettlerNative" convertsettlers="True" relativity="Absolute">
@@ -159,7 +182,7 @@
       <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="CrateofWoodLarge" relativity="Absolute">
         <target type="Player"/>
       </effect>
-      <effect type="TextOutput">150009</effect>
+      <effect type="TextOutput">150012</effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCChachapoyaSupport" type="Normal">
@@ -238,11 +261,10 @@
 	</effect>
 	<effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="AbstractWhale" relativity="BasePercent">
 		<target type="ProtoUnit">LogicalTypeNavalMilitary</target>
+	</effect>
 	<effect type="Data" amount="0.90" subtype="Cost" resource="Wood" relativity="BasePercent">
 		<target type="ProtoUnit">LogicalTypeNavalMilitary</target>
 	</effect>
-      </effect>
-
       <effect type="TextOutput">80479</effect>
     </effects>
   </tech>
@@ -350,7 +372,7 @@
       <effect type="Data" amount="1.25" subtype="MaximumVelocity" relativity="BasePercent">
         <target type="ProtoUnit">Llama</target>
       </effect>
-      <effect type="Data" amount="0.85" subtype="Cost" resource="Food" relativity="Percent">
+      <effect type="Data" amount="-10.00" subtype="Cost" resource="Food" relativity="Absolute">
         <target type="ProtoUnit">Llama</target>
       </effect>
     </effects>
@@ -491,4 +513,135 @@
       <effect type="TextOutput">80452</effect>
     </effects>
   </tech>
+  <tech name="DEHCIncaFortifications" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="Data" amount="15.00" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">SPCIncaOutpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCAdvancedTambos" type="Normal">
+    <effects>
+      <effect mergeMode='remove' type="Data" amount="0.60" subtype="Cost" resource="Wood" relativity="Percent">
+        <target type="ProtoUnit">TradingPost</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="0.50" subtype="Cost" resource="Wood" relativity="Percent">
+        <target type="ProtoUnit">TradingPost</target>
+      </effect>
+      <effect mergeMode='remove' tech="DEAge0Inca" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deChasqui" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">deChasqui</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCIncaBridgesTeam" type="Normal">
+    <dbid>6103</dbid>
+    <displaynameid>80123</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\inca\bridges_team.png</icon>
+    <rollovertextid>80124</rollovertextid>
+    <flag>HomeCity</flag>
+    <flag>TeamTech</flag>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="MaximumVelocity" relativity="BasePercent">
+        <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="MaximumVelocity" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractHealer</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="MaximumVelocity" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractFindScout</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="MaximumVelocity" relativity="BasePercent">
+        <target type="ProtoUnit">ypMongolScout</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="MaximumVelocity" relativity="BasePercent">
+        <target type="ProtoUnit">Herdable</target>
+      </effect>
+
+      <effect type="TextOutput">80125</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCCequeSystem" type="Normal">
+    <dbid>6107</dbid>
+    <displaynameid>80446</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\inca\ceque_system.png</icon>
+    <rollovertextid>80445</rollovertextid>
+    <flag>HomeCity</flag>
+    <flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</flag>
+    <effects>
+      <effect type="Data" action="AutoGatherXP" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">TradingPost</target>
+      </effect>
+      <effect type="Data" action="AutoGatherXP" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deChasqui</target>
+      </effect>
+      <effect type="TextOutput">80451</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCAymaraSupport" type="Normal">
+    <dbid>6141</dbid>
+    <displaynameid>80535</displaynameid>
+    <cost resourcetype="Gold">500.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\natives\inca\scout_icon.png</icon>
+    <rollovertextid>80530</rollovertextid>
+    <flag>HomeCity</flag>
+    <flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</flag>
+    <effects>
+      <effect tech="DEAge0Inca" type="Data" amount="5.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deChasqui" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">deChasqui</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deChasqui</target>
+      </effect>
+      <effect type="Data" amount="6.00" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">deChasqui</target>
+      </effect>
+      <effect type="Data" amount="1.00" tactic="Stealth" subtype="TacticEnable" relativity="Absolute">
+        <target type="ProtoUnit">deChasqui</target>
+      </effect>
+      <effect type="Data" action="FrightenSpeed" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deChasqui</target>
+      </effect>
+      <effect type="TextOutput">80531</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCQuipuKamayuks" type="Normal">
+    <dbid>6151</dbid>
+    <displaynameid>80551</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\inca\quipu_kamayuks.png</icon>
+    <rollovertextid>80552</rollovertextid>
+    <flag>HomeCity</flag>
+    <flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</flag>
+    <effects>
+      <effect type="Data" amount="0.00" subtype="Cost" resource="Food" relativity="Assign">
+        <target type="Tech">TradeMonopoly</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
+        <target type="Tech">TradeMonopoly</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">TradeMonopoly</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">TradeMonopoly</effect>
+            <effect type="TextOutput">80553</effect>
+    </effects>
+  </tech>
+
     </techtreemods>
