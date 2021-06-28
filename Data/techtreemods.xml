@@ -787,5 +787,65 @@
       <effect type="SetName" proto="deMaceman" culture="none" newname="80101"/>
     </effects>
   </tech>
-
+  <tech mergeMode='replace' name="deBigFirePitRoyalFestival" type="Normal">
+    <dbid>6109</dbid>
+    <displaynameid>80454</displaynameid>
+    <cost resourcetype="Wood">500.0000</cost>
+    <cost resourcetype="Food">500.0000</cost>
+    <cost resourcetype="Gold">500.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\Dance3.png</icon>
+    <icontexturecoords>.201171875 .3046875 .3984375 .60546875</icontexturecoords>
+    <iconwpf>resources\images\icons\techs\native_big_button\native_45.png</iconwpf>
+    <rollovertextid>80453</rollovertextid>
+    <flag>NativeDance</flag>
+    <flag>CheckLandHCGatherPoint</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" action="SpawnMaceman" amount="2.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deIncaStronghold</target>
+      </effect>
+      <effect type="Data" action="SpawnMaceman" amount="2.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">WarHut</target>
+      </effect>
+      <effect type="Data" action="SpawnMaceman" amount="2.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deKallanka</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCMeleeInfCombatInca" type="Normal">
+    <dbid>6102</dbid>
+    <displaynameid>80434</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_hand_infantry_combat\hc_hand_infantry_combat.png</icon>
+    <rollovertextid>80433</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractHandInfantry</target>
+      </effect>
+      <effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractHandInfantry</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipMacemen4" type="Normal">
+    <dbid>6057</dbid>
+    <displaynameid>16000</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\natives\inca\maceman_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="deMaceman" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
     </techtreemods>

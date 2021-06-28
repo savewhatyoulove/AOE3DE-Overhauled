@@ -468,6 +468,15 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>DEHCShipMacemen4</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>2</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
       <name>DEHCCurare</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -1459,6 +1468,7 @@
       <tech x="4.0" y="4.0">HCXPScorchedEarth</tech>
       <tech x="4.8" y="1.0">DEHCShipMacemen1</tech>
       <tech x="4.8" y="2.0">DEHCShipMacemen2</tech>
+      <tech x="4.8" y="2.0">DEHCShipMacemen4</tech>
       <tech x="4.8" y="4.0">DEHCCurare</tech>
       <tech x="4.8" y="5.0">DEHCShipSlingers2</tech>
       <tech x="4.8" y="7.0">DEHCRangedInfHitpointsInca</tech>
@@ -1493,6 +1503,7 @@
       <tech>HCXPScorchedEarth</tech>
       <tech>DEHCShipMacemen1</tech>
       <tech>DEHCShipMacemen2</tech>
+      <tech>DEHCShipMacemen4</tech>
       <tech>DEHCCurare</tech>
       <tech>DEHCShipSlingers2</tech>
       <tech>DEHCRangedInfHitpointsInca</tech>

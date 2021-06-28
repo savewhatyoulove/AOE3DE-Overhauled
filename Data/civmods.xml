@@ -105,6 +105,36 @@
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deKallanka</building>
+      <multipleblockunit>deMacemanBatch</multipleblockunit>
+      <units>
+        <unit>deMaceman</unit>
+      </units>
+      <unitcounts>
+        <count>2</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deIncaStronghold</building>
+      <multipleblockunit>deMacemanBatch</multipleblockunit>
+      <units>
+        <unit>deMaceman</unit>
+      </units>
+      <unitcounts>
+        <count>2</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>WarHut</building>
+      <multipleblockunit>deMacemanBatch</multipleblockunit>
+      <units>
+        <unit>deMaceman</unit>
+      </units>
+      <unitcounts>
+        <count>2</count>
+      </unitcounts>
+    </multipleblocktrain>
 
   </civ>
 
