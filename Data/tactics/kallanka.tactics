@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tactics>
+<action>
+    <name stringid="68971">SpawnMaceman</name>
+    <type>Maintain</type>
+    <rate type="deMacemanBatch">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <tactic>Normal<action>SpawnMaceman</action></tactic>
+</tactics>

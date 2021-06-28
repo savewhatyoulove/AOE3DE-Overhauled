@@ -16,6 +16,12 @@
       </effect>
       <effect mergeMode='remove' type="TechStatus" status="UNOBTAINABLE">DEEliteMacemenShadow</effect>
       <effect mergeMode='add' type="TechStatus" status="obtainable">DEEliteMacemenShadow</effect>
+      <effect mergeMode='add' type="SetName" proto="YPGroveWagon" culture="none" newname="170000"/>
+      <effect mergeMode='add' type="SetName" proto="YPGroveBuilding" culture="none" newname="170001"/>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">ypGroveBuilding</target>
+      </effect>
+
     </Effects>
 </Tech>
 
@@ -429,10 +435,69 @@
       </effect>
     </effects>
   </tech>
+  <tech name="TribalIncaChief3" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deBuilderInca" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="TribalIncaChief4" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">deIncaStronghold</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="TribalIncaChief5" type="Normal">
+    <dbid>6030</dbid>
+    <displaynameid>80017</displaynameid>
+    <cost resourcetype="Food">4000.0000</cost>
+    <cost resourcetype="Gold">4000.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_v.png</icon>
+    <rollovertextid>80021</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age4</effect>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="deIncaStrongholdTravois" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">deIncaStronghold</target>
+      </effect>
+
+    </effects>
+  </tech>
+
   <tech name="TribalIncaShaman2" type="Normal">
 	  <effect mergeMode='add' type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FarmTravois" relativity="Absolute">
 		  <target type="Player"/>
 	  </effect>
+  </tech>
+  <tech name="TribalIncaShaman3" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="YPGroveWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="TribalIncaShaman4" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="deBuilderInca" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="TribalIncaShaman5" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="deBuilderInca" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
   </tech>
   <tech name="TribalIncaWarrior2" type="Normal">
 	  <effect mergeMode='remove' type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="deIncaRunner" relativity="Absolute">
@@ -441,8 +506,156 @@
 	  <effect mergeMode='add' type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="dePriestess" relativity="Absolute">
 		  <target type="Player"/>
 	  </effect>
-
   </tech>
+  <tech mergeMode='replace' name="TribalIncaWisewoman2" type="Normal">
+    <dbid>6036</dbid>
+    <displaynameid>80012</displaynameid>
+    <cost resourcetype="Food">700.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_ii.png</icon>
+    <rollovertextid>80013</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age1</effect>
+      <effect type="TechStatus" status="unobtainable">TribalIncaWisewoman5</effect>
+      <effect type="TechStatus" status="unobtainable">TribalIncaWisewoman4</effect>
+      <effect type="TechStatus" status="unobtainable">TribalIncaWisewoman3</effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="SettlerNative" convertsettlers="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="1.00" subtype="FreeHomeCityUnitResource" unittype="Llama" resource="Food" resvalue="350.00" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="CrateofWood" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="TribalIncaWisewoman3" type="Normal">
+    <dbid>6037</dbid>
+    <displaynameid>80012</displaynameid>
+    <cost resourcetype="Food">1050.0000</cost>
+    <cost resourcetype="Gold">875.0000</cost>
+    <researchpoints>110.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iii.png</icon>
+    <rollovertextid>80014</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age2</effect>
+      <effect type="TechStatus" status="unobtainable">TribalIncaWisewoman5</effect>
+      <effect type="TechStatus" status="unobtainable">TribalIncaWisewoman4</effect>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="SettlerNative" convertsettlers="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="2.00" subtype="FreeHomeCityUnitResource" unittype="Llama" resource="Food" resvalue="350.00" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="CrateofWood" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+
+    </effects>
+  </tech>
+  <tech name="TribalIncaWisewoman4" type="Normal">
+    <dbid>6038</dbid>
+    <displaynameid>80012</displaynameid>
+    <cost resourcetype="Food">1750.0000</cost>
+    <cost resourcetype="Gold">1050.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iv.png</icon>
+    <rollovertextid>80015</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age3</effect>
+      <effect type="TechStatus" status="unobtainable">TribalIncaWisewoman5</effect>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="SettlerNative" convertsettlers="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="3.00" subtype="FreeHomeCityUnitResource" unittype="Llama" resource="Food" resvalue="350.00" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="CrateofWood" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+
+    </effects>
+  </tech>
+  <tech name="TribalIncaWisewoman5" type="Normal">
+    <dbid>6039</dbid>
+    <displaynameid>80012</displaynameid>
+    <cost resourcetype="Food">3500.0000</cost>
+    <cost resourcetype="Gold">3500.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_v.png</icon>
+    <rollovertextid>80016</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age4</effect>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="SettlerNative" convertsettlers="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="6.00" subtype="FreeHomeCityUnitResource" unittype="Llama" resource="Food" resvalue="350.00" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="CrateofWood" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="CrateofWoodLarge" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+
+    </effects>
+  </tech>
+  <tech name="TribalIncaWarrior3" type="Normal">
+    <effects>
+      <effect mergeMode='remove' type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="deJungleBowman" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="deMaceman" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+
+    </effects>
+  </tech>
+  <tech name="TribalIncaWarrior4" type="Normal">
+    <effects>
+      <effect mergeMode='remove' type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="deSlinger" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="deMaceman" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="TribalIncaWarrior5" type="Normal">
+    <effects>
+      <effect mergeMode='remove' type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="deSlinger" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="deMaceman" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="deMaceman" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+
+    </effects>
+  </tech>
+
+ 
   <tech mergeMode='replace' name="deBigHouseQueensFestival" type="Normal">
     <dbid>6095</dbid>
     <displaynameid>80366</displaynameid>
@@ -664,13 +877,31 @@
             <effect type="TextOutput">80553</effect>
     </effects>
   </tech>
-  <tech name="DEHCCloudWarriors" type="Normal">
+  <tech mergeMode='replace' name="DEHCCloudWarriors" type="Normal">
+    <dbid>6155</dbid>
+    <displaynameid>80563</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\inca\cloud_warriors.png</icon>
+    <rollovertextid>80564</rollovertextid>
+    <flag>HomeCity</flag>
     <effects>
-      <effect mergeMode='remove' type="Data" action="Stealth" amount="1.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">deChasqui</target>
+      <effect type="Data" action="Stealth" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deJungleBowman</target>
       </effect>
-      </effects>
+      <effect type="Data" amount="1.00" tactic="Stealth" subtype="TacticEnable" relativity="Absolute">
+        <target type="ProtoUnit">deJungleBowman</target>
+      </effect>
+      <effect type="Data" amount="1.00" tactic="Stealth" subtype="TacticEnable" relativity="Absolute">
+        <target type="ProtoUnit">deIncaRunner</target>
+      </effect>
+      <effect type="Data" action="Stealth" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deIncaRunner</target>
+      </effect>
+    </effects>
   </tech>
+
   <tech mergeMode='replace' name="DEEliteInca" type="Normal">
     <dbid>6621</dbid>
     <researchpoints>0.0000</researchpoints>
@@ -836,11 +1067,12 @@
   </tech>
   <tech name="DEHCShipMacemen4" type="Normal">
     <dbid>6057</dbid>
-    <displaynameid>16000</displaynameid>
+    <displaynameid>160000</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\art\units\natives\inca\maceman_icon.png</icon>
+    <rollovertextid>80433</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="deMaceman" relativity="Absolute">
@@ -848,4 +1080,5 @@
       </effect>
     </effects>
   </tech>
+
     </techtreemods>

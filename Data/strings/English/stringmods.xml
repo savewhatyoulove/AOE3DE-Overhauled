@@ -8,8 +8,21 @@
 	    <string _locid="34389">Qorikancha</string>
 	    <string _locid="34387">Sacred temple of the Inca. Trickles wood over time automatically.</string>
 	    <String _locid="80002" symbol="cStringCivRolloverInca">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nKancha Houses spawn 2 Llamas when built. Llamas can be tasked at the community plaza at a less efficient rate than villagers. Starts with a free Chasqui who can construct Tambos; powerful Trading Posts which villagers can garrison in, and receives an additional Chasquis every Age. Military units can garrison in Kallankas and Strongholds. Priestesses can convert enemies and work at the Community Plaza.\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nChasqui, Plumed Spearman, Chimu Runner, Jungle Bowman, Bolas Warrior, Huaraca, Maceman, Priestess and Chincha Raft.\n&lt;color=1.0, 1.0, 0.0&gt;Unique buildings:&lt;/color&gt;\nKallanka, Stronghold, Kancha House and Tambo\n&lt;color=1.0, 1.0, 0.0&gt;Unique ceremonies:&lt;/color&gt;\nMoon Ceremony and Supay Ceremony\n\nA vast South American empire known for the power of its walls and smart administration.</String>
+	    <string _locid="80013">1 villager, 100 wood, 1 Fat Llama</string>
+	    <string _locid="80014">2 villagers, 200 wood, 2 Fat Llamas</string>
+	    <string _locid="80015">3 villagers, 300 wood, 3 Fat Llamas</string>
+	    <string _locid="80016">6 villagers, 600 wood, 6 Fat Llamas</string>
+	    <string _locid="80019">1 Town Center Travois and 1 Builder Travois</string>
+	    <string _locid="80020">1 Stronghold Travois, 1 Builder Travois, and +1 Stronghold built limit</string>
+	    <string _locid="80021">2 Stronghold Travois and +2 Stronghold built limit</string>
 	    <string _locid="80023">1 Farm Travois, Great Feast, and Harvest Ceremony</string>
+	    <string _locid="80024">Forest Spirit Ceremony and 2 Cloud Forest Travois</string>
+	    <string _locid="80025">2 Builder Travois, Earth Gift Ceremony, and Green Corn Ceremony</string>
+	    <string _locid="80026">3 Builder Travois and Excessive Tribute</string>
 	    <string _locid="80028">2 Warrior Priestesses</string>
+	    <string _locid="80029">3 Macemen</string>
+	    <string _locid="80030">4 Macemen</string>
+	    <string _locid="80031">8 Macemen</string>
 	    <string _locid="80077">Tambos are cheaper and stronger.</string>
 	    <string _locid="80095">Powerful hand infantry that inflicts armor-piercing splash damage with a large bludgeon. Good against buildings and infantry.</string>
 	    <string _locid="80106">Anti-building and anti-skirmisher shock infantry that deals melee damage from a distance.</string>
@@ -45,6 +58,8 @@
 	    <string _locid="150011">Seasonal Labor IV</string>
 	    <string _locid="150012">Seasonal Labor IV Shipment has arrived.</string>
 	    <string _locid="160000">2 Macemen</string>
+	    <string _locid="170000">Cloud Forest Travois</string>
+	    <string _locid="170001">Cloud Forest</string>
     </Language>
   </StringTable>
 </stringmods>

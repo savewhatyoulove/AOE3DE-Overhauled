@@ -101,9 +101,29 @@ Big Buttons:
   -- Now provides +1 weight to Warrior Priestesses while on the Community Plaza (2 --> 3)
 
 Tribal Council Changes:
-Age 2:
--- Chief cost increased to 900 Food from 800
--- Wise Woman cost reduced to 700 from 800 and now provides 1 villager, 100 wood, and 1 fat llama
+-- Chief:
+  -- Age 2 Cost increased to 900 Food from 800
+  -- Age 3 Now provides 1 Town Center Travois + 1 Builder Wagon
+  -- Age 4 Now additionally increases Stronghold build limit by +1
+  -- Age 5 Reworked to ship 2 Stronghold Travois and increase their build limit by +2
+-- Wise Woman Changes:
+  -- 12.5% discount on all age up vs. other tribal council members. 
+  -- Age 2 Cost reduced to 700F from 800F; now provides 1 villager, 100 wood, 1 Fat Llama
+  -- Age 3 Cost reduced to 1050F/875G from 1200F/1000G; now provides 2 villagers; 200 wood; 2 Fat Llamas
+  -- Age 4 Cost reduced to 1750F/1050G from 2000F/1200G; now provides 3 villagers; 300 wood; 3 Fat Llamas
+  -- Age 5 Cost reduced to 3500F/3500G from 4000F/4000G; now provides 6 villagers; 600 wood; 6 Fat Llamas
+-- Warrior Changes:
+  -- Age 2 Three Chimu replaced with 2 Warrior Priestesses
+  -- Age 3 Eight Jungle replaced with 3 Macemen
+  -- Age 4 Eight Bolas Warriors replaced with 4 Macemen
+  -- Age 5 Five Huaraca/Macemen replaced with 8 Macemen
+-- Elder Changes:
+  -- Age 2 now additionally provides a Farm Travois
+  -- Age 3 now additionally provides 2 Cloud Forest Travois (renamed mango groves)
+  -- Age 4 now additionally provides 2 Builder Travois
+  -- Age 5 now additionally provides 3 Builder Travois
+-- Messenger Changes:
+  -- All ages: Now additionally enables shipment points at Jungle Outposts instead of on Chasqui
 
 Shipments:
 -- Sapa Inca: No longer grants your War Chief a native damage aura. Now, it changes his armor type to ranged from melee.
@@ -162,4 +182,7 @@ Shipments:
 TODO//
 Cloud Fortresses - IDK
 Farm Travois -3/5/10
-
+Warrior Priestess Implementation
+Macemen BB
+Community Plaza Big Buttons
+Messenger
