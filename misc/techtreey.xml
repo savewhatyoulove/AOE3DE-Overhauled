@@ -64856,8 +64856,29 @@
     <rollovertextid>80447</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" action="AutoGather" amount="1.50" subtype="WorkRate" unittype="Food" relativity="BasePercent">
-        <target type="ProtoUnit">deHouseInca</target>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="Mill" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="AbstractBerryBush" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="Herdable" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="ypBerryBuilding" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.15" subtype="WorkRateSpecific" resource="Food" unittype="ypRicePaddy" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="deTorpBush2" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
       </effect>
       <effect type="TextOutput">80452</effect>
     </effects>
@@ -64979,13 +65000,22 @@
       <effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="Herdable" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="Yield" unittype="Herdable" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
       <effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="Yield" unittype="Huntable" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
       <effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="AbstractWhale" relativity="BasePercent">
         <target type="ProtoUnit">AbstractFishingBoat</target>
       </effect>
       <effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="AbstractFish" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractFishingBoat</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="Yield" unittype="AbstractFish" relativity="BasePercent">
         <target type="ProtoUnit">AbstractFishingBoat</target>
       </effect>
       <effect type="TextOutput">80466</effect>

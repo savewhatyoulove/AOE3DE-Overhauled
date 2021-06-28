@@ -400,13 +400,13 @@
 	  </effect>
 
   </tech>
-  <tech name="deBigHouseQueensFestival" type="Normal">
+  <tech mergeMode='replace' name="deBigHouseQueensFestival" type="Normal">
     <dbid>6095</dbid>
     <displaynameid>80366</displaynameid>
-    <cost resourcetype="Food">180.0000</cost>
-    <cost resourcetype="Wood">180.0000</cost>
-    <cost resourcetype="Gold">180.0000</cost>
-    <researchpoints>10.0000</researchpoints>
+    <cost resourcetype="Food">200.0000</cost>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>15.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\native\Dance3.png</icon>
     <icontexturecoords>.201171875 .3046875 .3984375 .60546875</icontexturecoords>
@@ -415,9 +415,80 @@
     <flag>NativeDance</flag>
     <flag>CheckLandHCGatherPoint</flag>
     <effects>
-      <effect type="Data" action="SpawnRefugees1" amount="1.00" subtype="ActionAdd" unittype="TownCenter" relativity="Absolute">
+      <effect type="Data" action="SpawnRefugees1" amount="1.00" subtype="ActionAdd" unittype="deHouseInca" relativity="Absolute">
         <target type="Player"/>
       </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCSaltPonds" type="Normal">
+    <dbid>6113</dbid>
+    <displaynameid>80465</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\inca\salt_ponds.png</icon>
+    <rollovertextid>80464</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="Herdable" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="Yield" unittype="Herdable" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="Yield" unittype="Huntable" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="AbstractWhale" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractFishingBoat</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="AbstractFish" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractFishingBoat</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="Yield" unittype="AbstractFish" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractFishingBoat</target>
+      </effect>
+      <effect type="TextOutput">80466</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCChichaBrewing" type="Normal">
+    <dbid>6108</dbid>
+    <displaynameid>80448</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\inca\chicha_brewing.png</icon>
+    <rollovertextid>80447</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="Mill" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="AbstractBerryBush" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="Herdable" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="ypBerryBuilding" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.15" subtype="WorkRateSpecific" resource="Food" unittype="ypRicePaddy" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="deTorpBush2" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="TextOutput">80452</effect>
     </effects>
   </tech>
     </techtreemods>

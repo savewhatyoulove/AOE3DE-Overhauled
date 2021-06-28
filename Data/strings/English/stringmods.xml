@@ -9,7 +9,7 @@
 	    <string _locid="34387">Sacred temple of the Inca. Trickles wood over time automatically.</string>
 	    <String _locid="80002" symbol="cStringCivRolloverInca">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nKancha Houses spawn 2 Llamas when built. Llamas can be tasked at the community plaza at a less efficient rate than villagers. Starts with a free Chasqui who can construct Tambos; powerful Trading Posts which villagers can garrison in, and receives an additional Chasquis every Age. Military units can garrison in Kallankas and Strongholds. Priestesses can convert enemies and work at the Community Plaza.\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nChasqui, Plumed Spearman, Chimu Runner, Jungle Bowman, Bolas Warrior, Huaraca, Maceman, Priestess and Chincha Raft.\n&lt;color=1.0, 1.0, 0.0&gt;Unique buildings:&lt;/color&gt;\nKallanka, Stronghold, Kancha House and Tambo\n&lt;color=1.0, 1.0, 0.0&gt;Unique ceremonies:&lt;/color&gt;\nMoon Ceremony and Supay Ceremony\n\nA vast South American empire known for the power of its walls and smart administration.</String>
 	    <string _locid="80023">1 Farm Travois, Great Feast, and Harvest Ceremony</string>
-	    <string _locid="80028">2 Warrior Priestesses</String>
+	    <string _locid="80028">2 Warrior Priestesses</string>
 	    <string _locid="80095">Powerful hand infantry which inflicts armor-piercing splash damage with a large bludgeon. Good against buildings and infantry.</string>
 	    <string _locid="80106">Anti-building and anti-skirmisher shock infantry that deals melee damage from a distance.</string>
 	    <string _locid="80107">Anti-building shock infantry. Good against artillery and skirmishers.</string>
@@ -18,6 +18,8 @@
 	    <string _locid="80365">Each Kancha House will do a one-time muster of 1 Villager.</string>
 	    <string _locid="80347">Improves the speed and hitpoints of your War Chief. Additionally, your War Chief now resists against ranged damage.</string>
 	    <string _locid="80349">Greatly increases the damage of your War Chief, especially to Heavy Cavalry and Shock Infantry. Additionally, your War Chief now inflicts area damage and gains the Swashbuckler attack.</string>
+	    <string _locid="80447">Villagers gather all Food faster.</string>
+	    <string _locid="80464">Villagers, Fishing Boats and Warships gather faster from animals and animal resources last longer.</string>
 	    <string _locid="80477">Warships are cheaper and gather from fish much more quickly and whales somewhat more quickly.</string>
 	    <string _locid="80480">Warships and Fishing Boats move fast like Chinchillas and take less time to train.</string>
 	    <string _locid="80495">The Chancas send 9 Macemen and increase their damage against infantry.</string>

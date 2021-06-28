@@ -99,7 +99,7 @@
       <building>deHouseInca</building>
       <multipleblockunit>ypMigrantArmySmall</multipleblockunit>
       <units>
-        <unit>NativeVillager</unit>
+        <unit>SettlerNative</unit>
       </units>
       <unitcounts>
         <count>1</count>
