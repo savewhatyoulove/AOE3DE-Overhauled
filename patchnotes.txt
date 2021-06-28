@@ -162,7 +162,3 @@ TODO//
 Cloud Fortresses - IDK
 Farm Travois -3/5/10
 
-Chasqui Shipments:
-- Ceque System
-- Aymara Support Rework
-

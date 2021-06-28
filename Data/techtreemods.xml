@@ -381,10 +381,24 @@
       <effect mergeMode='replace' type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
         <target type="ProtoUnit">deChinchaRaft</target>
       </effect>
+      <effect mergeMode='add' type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">SPCIncaOutpost</target>
+      </effect>
   </tech>
   <tech name="DEIndustrializeInca" type="Normal">
       <effect mergeMode='replace' type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
         <target type="ProtoUnit">deChinchaRaft</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">SPCIncaOutpost</target>
+      </effect>
+  </tech>
+  <tech name="DEImperializeInca" type="Normal">
+      <effect mergeMode='replace' type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">deChinchaRaft</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">SPCIncaOutpost</target>
       </effect>
   </tech>
   <tech mergeMode='replace' name="TribalIncaChief2" type="Normal">
@@ -641,6 +655,100 @@
       </effect>
       <effect type="TechStatus" status="obtainable">TradeMonopoly</effect>
             <effect type="TextOutput">80553</effect>
+    </effects>
+  </tech>
+  <tech name="DEHCCloudWarriors" type="Normal">
+    <effects>
+      <effect mergeMode='remove' type="Data" action="Stealth" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deChasqui</target>
+      </effect>
+      </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEEliteInca" type="Normal">
+    <dbid>6621</dbid>
+    <researchpoints>0.0000</researchpoints>
+    <status>OBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deIncaDog</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deIncaDog</target>
+      </effect>
+      <effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deChasqui</target>
+      </effect>
+      <effect type="Data" amount="10.00" subtype="Damage" allactions="1" relativity="Absolute">
+        <target type="ProtoUnit">deChasqui</target>
+      </effect>
+      <effect type="Data" amount="3.00" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">dePriestess</target>
+      </effect>
+      <effect type="Data" action="Convert" amount="3.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">dePriestess</target>
+      </effect>
+      <effect type="Data" action="Convert" amount="-1.00" subtype="ConversionDelay" relativity="Absolute">
+        <target type="ProtoUnit">dePriestess</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEChampionInca" type="Normal">
+    <dbid>6622</dbid>
+    <researchpoints>0.0000</researchpoints>
+    <status>OBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.40" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deChasqui</target>
+      </effect>
+      <effect type="Data" amount="15.00" subtype="Damage" allactions="1" relativity="Absolute">
+        <target type="ProtoUnit">deChasqui</target>
+      </effect>
+      <effect type="Data" amount="3.00" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">dePriestess</target>
+      </effect>
+      <effect type="Data" action="Convert" amount="3.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">dePriestess</target>
+      </effect>
+      <effect type="Data" action="Convert" amount="-1.00" subtype="ConversionDelay" relativity="Absolute">
+        <target type="ProtoUnit">dePriestess</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DELegendaryInca" type="Normal">
+    <dbid>6623</dbid>
+    <researchpoints>0.0000</researchpoints>
+    <status>OBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deIncaDog</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deChasqui</target>
+      </effect>
+      <effect type="Data" amount="15.00" subtype="Damage" allactions="1" relativity="Absolute">
+        <target type="ProtoUnit">deChasqui</target>
+      </effect>
+      <effect type="Data" amount="3.00" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">dePriestess</target>
+      </effect>
+      <effect type="Data" action="Convert" amount="3.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">dePriestess</target>
+      </effect>
+      <effect type="Data" action="Convert" amount="-1.00" subtype="ConversionDelay" relativity="Absolute">
+        <target type="ProtoUnit">dePriestess</target>
+      </effect>
     </effects>
   </tech>
 
