@@ -64530,7 +64530,7 @@
     <flag>NativeDance</flag>
     <flag>CheckLandHCGatherPoint</flag>
     <effects>
-      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="SettlerNative" relativity="Absolute">
+      <effect type="Data" action="SpawnRefugees1" amount="1.00" subtype="ActionAdd" unittype="TownCenter" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>

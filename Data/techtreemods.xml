@@ -400,4 +400,24 @@
 	  </effect>
 
   </tech>
+  <tech name="deBigHouseQueensFestival" type="Normal">
+    <dbid>6095</dbid>
+    <displaynameid>80366</displaynameid>
+    <cost resourcetype="Food">180.0000</cost>
+    <cost resourcetype="Wood">180.0000</cost>
+    <cost resourcetype="Gold">180.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\Dance3.png</icon>
+    <icontexturecoords>.201171875 .3046875 .3984375 .60546875</icontexturecoords>
+    <iconwpf>resources\images\icons\techs\native_big_button\native_41.png</iconwpf>
+    <rollovertextid>80365</rollovertextid>
+    <flag>NativeDance</flag>
+    <flag>CheckLandHCGatherPoint</flag>
+    <effects>
+      <effect type="Data" action="SpawnRefugees1" amount="1.00" subtype="ActionAdd" unittype="TownCenter" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
     </techtreemods>

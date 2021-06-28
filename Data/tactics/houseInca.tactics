@@ -26,5 +26,13 @@
     <type>AutoGather</type>
     <persistent>1</persistent>
   </action>
-  <tactic>Normal<action>Spawn</action><action>AutoGather</action><action>EconomicAuraKM</action></tactic>
+  <action>
+    <name stringid="68971">SpawnRefugees1</name>
+    <type>Maintain</type>
+    <rate type="ypMigrantArmySmall">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <tactic>Normal<action>Spawn</action><action>AutoGather</action><action>EconomicAuraKM</action><action>SpawnRefugees1</action></tactic>
 </tactics>

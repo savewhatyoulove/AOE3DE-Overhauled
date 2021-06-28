@@ -95,6 +95,17 @@
         <count>6</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deHouseInca</building>
+      <multipleblockunit>ypMigrantArmySmall</multipleblockunit>
+      <units>
+        <unit>NativeVillager</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+
   </civ>
 
 </civsmods>

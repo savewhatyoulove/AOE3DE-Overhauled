@@ -2,9 +2,11 @@
   <StringTable>
     <Language name="English">
 	    <String _locid="34666">Cheap scout building with no attack.</String>
-	    <String _locid="34667">Inca Outpost</String>
-	    <String _locid="34671">Inca Outpost</String>
-	    <string _locid="34387">Sacred temple of the Inca. Generates wood automatically.</string>
+	    <String _locid="34667">Jungle Outpost</String>
+	    <String _locid="34671">Jungle Outpost</String>
+	    <string _locid="34388">Qorikancha</string>
+	    <string _locid="34389">Qorikancha</string>
+	    <string _locid="34387">Sacred temple of the Inca. Trickles wood over time automatically.</string>
 	    <String _locid="80002" symbol="cStringCivRolloverInca">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nKancha Houses spawn 2 Llamas when built. Llamas can be tasked at the community plaza at a less efficient rate than villagers. Starts with a free Chasqui who can construct Tambos; powerful Trading Posts which villagers can garrison in, and receives an additional Chasquis every Age. Military units can garrison in Kallankas and Strongholds. Priestesses can convert enemies and work at the Community Plaza.\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nChasqui, Plumed Spearman, Chimu Runner, Jungle Bowman, Bolas Warrior, Huaraca, Maceman, Priestess and Chincha Raft.\n&lt;color=1.0, 1.0, 0.0&gt;Unique buildings:&lt;/color&gt;\nKallanka, Stronghold, Kancha House and Tambo\n&lt;color=1.0, 1.0, 0.0&gt;Unique ceremonies:&lt;/color&gt;\nMoon Ceremony and Supay Ceremony\n\nA vast South American empire known for the power of its walls and smart administration.</String>
 	    <string _locid="80023">1 Farm Travois, Great Feast, and Harvest Ceremony</string>
 	    <string _locid="80028">2 Warrior Priestesses</String>
@@ -13,6 +15,7 @@
 	    <string _locid="80107">Anti-building shock infantry. Good against artillery and skirmishers.</string>
 	    <String _locid="80138">Supports 12 population and spawns 2 Llamas when built.</String>
 	    <String _locid="80139">Inca House that supports 12 population and spawns 2 Llamas when built.</String>
+	    <string _locid="80365">Each Kancha House will do a one-time muster of 1 Villager.</string>
 	    <string _locid="80347">Improves the speed and hitpoints of your War Chief. Additionally, your War Chief now resists against ranged damage.</string>
 	    <string _locid="80349">Greatly increases the damage of your War Chief, especially to Heavy Cavalry and Shock Infantry. Additionally, your War Chief now inflicts area damage and gains the Swashbuckler attack.</string>
 	    <string _locid="80477">Warships are cheaper and gather from fish much more quickly and whales somewhat more quickly.</string>
