@@ -24,10 +24,11 @@
 	    <string _locid="80030">4 Macemen</string>
 	    <string _locid="80031">8 Macemen</string>
 	    <string _locid="80077">Tambos are cheaper and stronger.</string>
+	    <string _locid="80083">Ranged warrior who hurls bolas for a wide area of effect. The bola slows down enemies. Good against cavalry in melee.</string>
 	    <string _locid="80095">Powerful hand infantry that inflicts armor-piercing splash damage with a large bludgeon. Good against buildings and infantry.</string>
-	    <string _locid="80106">Anti-building and anti-skirmisher shock infantry that deals melee damage from a distance.</string>
-	    <string _locid="80107">Anti-building shock infantry. Good against artillery and skirmishers.</string>
-	    <string _locid="80124">TEAM scouts, livestock, pets, and civilians move faster.</string>
+	    <string _locid="80106">Anti-building shock infantry. Good against artillery and skirmishers.</string>
+	    <string _locid="80107">Anti-building and anti-skirmisher shock infantry that deals melee damage from a distance.</string>
+	    <string _locid="80124">TEAM livestock and pets move much more quickly. Healers, scouts, and civilians gain a reduced bonus.</string>
 	    <String _locid="80138">Supports 12 population and spawns 2 Llamas when built.</String>
 	    <String _locid="80139">Inca House that supports 12 population and spawns 2 Llamas when built.</String>
 	    <string _locid="80365">Each Kancha House will do a one-time muster of 1 Villager.</string>
@@ -41,8 +42,11 @@
 	    <string _locid="80480">Warships and Fishing Boats move fast like Chinchillas and take less time to train.</string>
 	    <string _locid="80495">The Chancas send 9 Macemen and increase their damage against infantry.</string>
 	    <string _locid="80498">The Chachapoyas send 17 Huaracas and increase their attack range.</string>
+
 	    <string _locid="80507">The Colla send 17 Bolas Warriors and increase their ranged damage, especially against Cavalry and Shock Infantry.</string>
-	    <string _locid="80530">The Aymara send 5 Chasquis and greatly improve their hitpoints and line of sight. Chasquis now slow down nearby enemies and can enter stealth with no speed penalty. Increases the build limit for Chasquis.</string>
+	    <string _locid="80520">Buildings gain increased line of sight and siege armor.</string>
+	    <string _locid="80530">The Aymara send 5 Chasquis and greatly improve their hitpoints, speed, and line of sight. Chasquis now slow down nearby enemies and can enter stealth with no speed penalty. Increases the build limit for Chasquis.</string>
+	    <string _locid="80547">Kallankas get more hitpoints, build faster, train units more quickly, and cost no coin. Increases build limit.</string>
 	    <string _locid="80552">Trade Monopoly is available an age early and is free.</string>
 	    <string _locid="80560">Doubles the effectiveness of Llamas at the Community Plaza. Additionally, Llamas are cheaper and move more quickly.</string>
 	    <string _locid="150001">Ships 1 villager, 100 Wood and 1 Fattened Llama</string>
@@ -58,8 +62,10 @@
 	    <string _locid="150011">Seasonal Labor IV</string>
 	    <string _locid="150012">Seasonal Labor IV Shipment has arrived.</string>
 	    <string _locid="150050">2 Macemen</string>
+	    <string _locid="150075">12 Mapuche Allies</string>
 	    <string _locid="170000">Cloud Forest Travois</string>
 	    <string _locid="170001">Cloud Forest</string>
+	    <string _locid="170002">Ships 4 Cloud Forest Travois.</string>
     </Language>
   </StringTable>
 </stringmods>

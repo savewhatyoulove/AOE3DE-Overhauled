@@ -613,6 +613,14 @@
       <displayunitcount>5</displayunitcount>
     </card>
     <card>
+      <name>DEHCShipGroveWagonInca</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>4</displayunitcount>
+    </card>
+    <card>
       <name>HCImprovedBuildings</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -859,6 +867,14 @@
       <prereqtech>-1</prereqtech>
       <age>1</age>
       <displayunitcount>6</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCMapucheAllies1</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>15</displayunitcount>
     </card>
     <card>
       <name>DEHCJesuitAllies1</name>
@@ -1193,7 +1209,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>2</age>
+      <age>0</age>
     </card>
     <card>
       <name>HCStockyards</name>
@@ -1375,6 +1391,7 @@
       <tech x="3.1" y="5.0">HCShipWoodCrates5</tech>
       <tech x="3.0" y="3.0">HCShipWoodCrates6</tech>
       <tech x="4.7" y="3.0">DEHCLlamaLifestyle</tech>
+      <tech x="4.7" y="5.0">DEHCShipCoveredWagons2Inca</tech>
       <tech x="5.5" y="1.0">DEHCResettlements</tech>
       <tech x="5.5" y="2.0">DEHCWarChiefInca1</tech>
       <tech x="5.5" y="3.0">DEHCWarChiefInca2</tech>
@@ -1391,7 +1408,7 @@
       <tech x="7.1" y="7.0">DEHCSeasonalLabor2</tech>
       <tech x="7.1" y="7.0">DEHCSeasonalLabor3</tech>
       <tech x="7.1" y="7.0">DEHCSeasonalLabor4</tech>
-      <tech x="7.1" y="7.0">DEHCTempleOfMamaKilla</tech>
+      <tech x="6.4" y="2.0">DEHCIncaBridgesTeam</tech>
     </obtainabletechs>
     <activetechs>
       <tech>HCShipFoodCrates1</tech>
@@ -1409,6 +1426,7 @@
       <tech>HCShipWoodCrates5</tech>
       <tech>HCShipWoodCrates6</tech>
       <tech>DEHCLlamaLifestyle</tech>
+      <tech>DEHCShipCoveredWagons2Inca</tech>
       <tech>DEHCResettlements</tech>
       <tech>DEHCWarChiefInca1</tech>
       <tech>DEHCWarChiefInca2</tech>
@@ -1425,7 +1443,7 @@
       <tech>DEHCSeasonalLabor2</tech>
       <tech>DEHCSeasonalLabor3</tech>
       <tech>DEHCSeasonalLabor4</tech>
-      <tech>DEHCTempleOfMamaKilla</tech>
+      <tech>DEHCIncaBridgesTeam</tech>
     </activetechs>
     <validunits/>
     <units/>
@@ -1477,8 +1495,8 @@
       <tech x="6.4" y="2.0">DEHCShipSlingersRepeat</tech>
       <tech x="6.4" y="2.0">DEHCRoadBuilding</tech>
       <tech x="6.4" y="2.0">DEHCChasquisMessengers</tech>
-      <tech x="6.4" y="2.0">DEHCIncaBridgesTeam</tech>
       <tech x="6.4" y="2.0">DEHCTupacRebellion</tech>
+      <tech x="7.1" y="7.0">DEHCTempleOfMamaKilla</tech>
     </obtainabletechs>
     <activetechs>
       <tech>DEHCShipIncaRunners1</tech>
@@ -1512,8 +1530,8 @@
       <tech>DEHCShipSlingersRepeat</tech>
       <tech>DEHCRoadBuilding</tech>
       <tech>DEHCChasquisMessengers</tech>
-      <tech>DEHCIncaBridgesTeam</tech>
       <tech>DEHCTupacRebellion</tech>
+      <tech>DEHCTempleOfMamaKilla</tech>
     </activetechs>
     <validunits/>
     <units/>
@@ -1535,7 +1553,6 @@
     <rolloverstringid>25538</rolloverstringid>
     <obtainabletechs>
       <tech x="1.5" y="5.0">DEHCQuipuKamayuks</tech>
-      <tech x="4.7" y="5.0">DEHCShipCoveredWagons2Inca</tech>
       <tech x="0.0" y="1.0">HCNativeLore</tech>
       <tech x="0.0" y="2.0">HCNativeTreaties</tech>
       <tech x="0.0" y="3.0">YPHCNativeIncorporation</tech>
@@ -1548,6 +1565,7 @@
       <tech x="1.4" y="3.0">HCFencingSchool</tech>
       <tech x="2.1" y="4.0">HCXPShipWarHutTravois1</tech>
       <tech x="3.0" y="1.0">DEHCCensus</tech>
+      <tech x="3.0" y="4.0">DEHCShipGroveWagonInca</tech>
       <tech x="3.0" y="4.0">DEHCShipBuilderTravoisRepeat</tech>
       <tech x="3.0" y="5.0">DEHCShipBuilderTravois2</tech>
       <tech x="4.0" y="1.0">HCPioneers</tech>
@@ -1569,7 +1587,6 @@
     </obtainabletechs>
     <activetechs>
       <tech>DEHCQuipuKamayuks</tech>
-      <tech>DEHCShipCoveredWagons2Inca</tech>
       <tech>HCNativeLore</tech>
       <tech>HCNativeTreaties</tech>
       <tech>YPHCNativeIncorporation</tech>
@@ -1582,6 +1599,7 @@
       <tech>HCFencingSchool</tech>
       <tech>HCXPShipWarHutTravois1</tech>
       <tech>DEHCCensus</tech>
+      <tech>DEHCShipGroveWagonInca</tech>
       <tech>DEHCShipBuilderTravoisRepeat</tech>
       <tech>DEHCShipBuilderTravois2</tech>
       <tech>HCPioneers</tech>
@@ -1696,6 +1714,7 @@
       <tech x="2.7" y="1.0">HCXPTupiAlliesRepeat</tech>
       <tech x="2.7" y="1.0">DEHCTupiAllies1</tech>
       <tech x="2.7" y="1.0">DEHCMapucheAlliesRepeat1</tech>
+      <tech x="2.7" y="1.0">DEHCMapucheAllies1</tech>
       <tech x="2.7" y="1.0">DEHCMapucheAlliesRepeat2</tech>
       <tech x="2.7" y="1.0">DEHCJesuitAllies1</tech>
       <tech x="2.7" y="1.0">DEHCJesuitAllies2</tech>
@@ -1731,6 +1750,7 @@
       <tech>HCXPTupiAlliesRepeat</tech>
       <tech>DEHCTupiAllies1</tech>
       <tech>DEHCMapucheAlliesRepeat1</tech>
+      <tech>DEHCMapucheAllies1</tech>
       <tech>DEHCMapucheAlliesRepeat2</tech>
       <tech>DEHCJesuitAllies1</tech>
       <tech>DEHCJesuitAllies2</tech>

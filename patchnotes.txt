@@ -177,16 +177,16 @@ Shipments:
   -- No longer provides +5% Speed to Infantry and Villagers/Healers
   -- No longer provides a free chasquis
   -- Now provides +20% speed to all Villagers, Healers, Scouts, and Livestock
+-- Age IV 15 Elite Mapuche for 1k gold added. 
 
 
 TODO//
-Cloud Fortresses - IDK
-Farm Travois -3/5/10
 Warrior Priestess Implementation
 Macemen BB
 Community Plaza Big Buttons
 Messenger
-TEAM Bridges --> move to Marketplace
-2 TCs --> move to marketplace
 Resettlements --> replace with covered wagon icon instead of buildinr
-
+Age 3 10 Mapuche Riders
+Fix stealth on Chasqui and Jungle Bowmen
+Chiribaya Dogs +5 build limit
+Warrior Priestesses remove conversion, move shipments to palace

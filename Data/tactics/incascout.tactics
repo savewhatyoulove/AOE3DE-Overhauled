@@ -102,7 +102,7 @@
     <type>AutoRangedModify</type>
     <targetenemy>1</targetenemy>
     <active>0</active>
-    <maxrange>28</maxrange>
+    <maxrange>24</maxrange>
     <persistent>1</persistent>
     <modifytype>Speed</modifytype>
     <modifymultiplier>0.96</modifymultiplier>

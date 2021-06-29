@@ -781,22 +781,37 @@
     <flag>HomeCity</flag>
     <flag>TeamTech</flag>
     <effects>
-      <effect type="Data" amount="1.20" subtype="MaximumVelocity" relativity="BasePercent">
+      <effect type="Data" amount="1.15" subtype="MaximumVelocity" relativity="BasePercent">
         <target type="ProtoUnit">LogicalTypeLandEconomy</target>
       </effect>
-      <effect type="Data" amount="1.20" subtype="MaximumVelocity" relativity="BasePercent">
+      <effect type="Data" amount="0.95" subtype="MaximumVelocity" relativity="BasePercent">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" amount="0.95" subtype="MaximumVelocity" relativity="BasePercent">
+        <target type="ProtoUnit">CoureurCree</target>
+      </effect>
+      <effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
         <target type="ProtoUnit">AbstractHealer</target>
       </effect>
-      <effect type="Data" amount="1.20" subtype="MaximumVelocity" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractFindScout</target>
+      <effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractHealer</target>
       </effect>
-      <effect type="Data" amount="1.20" subtype="MaximumVelocity" relativity="BasePercent">
+      <effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+        <target type="ProtoUnit">deChasqui</target>
+      </effect>
+      <effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+        <target type="ProtoUnit">NativeScout</target>
+      </effect>
+      <effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+        <target type="ProtoUnit">Envoy</target>
+      </effect>
+      <effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
         <target type="ProtoUnit">ypMongolScout</target>
       </effect>
-      <effect type="Data" amount="1.20" subtype="MaximumVelocity" relativity="BasePercent">
+      <effect type="Data" amount="1.25" subtype="MaximumVelocity" relativity="BasePercent">
         <target type="ProtoUnit">AbstractPet</target>
       </effect>
-      <effect type="Data" amount="1.20" subtype="MaximumVelocity" relativity="BasePercent">
+      <effect type="Data" amount="1.25" subtype="MaximumVelocity" relativity="BasePercent">
         <target type="ProtoUnit">Herdable</target>
       </effect>
 
@@ -841,7 +856,7 @@
       <effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
         <target type="ProtoUnit">deChasqui</target>
       </effect>
-      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+      <effect type="Data" amount="1.75" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">deChasqui</target>
       </effect>
       <effect type="Data" amount="6.00" subtype="LOS" relativity="Absolute">
@@ -851,6 +866,9 @@
         <target type="ProtoUnit">deChasqui</target>
       </effect>
       <effect type="Data" action="FrightenSpeed" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deChasqui</target>
+      </effect>
+      <effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
         <target type="ProtoUnit">deChasqui</target>
       </effect>
       <effect type="TextOutput">80531</effect>
@@ -1075,7 +1093,6 @@
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\art\units\natives\inca\maceman_icon.png</icon>
-    <rollovertextid>80433</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="deMaceman" relativity="Absolute">
@@ -1263,7 +1280,7 @@
       <effect type="SetName" proto="deBolasWarrior" culture="none" newname="80087"/>
     </effects>
   </tech>
-  <tech name="DEImpLegendaryBolasWarriors" type="Normal">
+  <tech mergeMode='replace' name="DEImpLegendaryBolasWarriors" type="Normal">
     <dbid>6018</dbid>
     <displaynameid>80088</displaynameid>
     <cost resourcetype="Wood">1500.0000</cost>
@@ -1286,6 +1303,64 @@
         <target type="ProtoUnit">deBolasWarrior</target>
       </effect>
       <effect type="SetName" proto="deBolasWarrior" culture="none" newname="80089"/>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCCloudFortresses" type="Normal">
+    <dbid>6137</dbid>
+    <displaynameid>80521</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\inca\cloud_fortresses.png</icon>
+    <rollovertextid>80520</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="0.2" subtype="Armor" relativity="Absolute">
+        <target type="ProtoUnit">Building</target>
+      </effect>
+      <effect type="Data" amount="8.00" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">Building</target>
+      </effect>
+      <effect type="TextOutput">80522</effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipGroveWagonInca" type="Normal">
+    <dbid>4761</dbid>
+    <displaynameid>1700002</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\asians\shared\wagon\indian_castle_grove_icon_64.png</icon>
+    <flag>HomeCity</flag>
+    <flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</flag>
+    <flag>DEForceLegacyIgnoreBehavior</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="YPGroveWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCCensus" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="Data" amount="1.25" subtype="BuildingWorkRate" relativity="BasePercent">
+        <target type="ProtoUnit">deKallanka</target>
+      </effect>
+    </effects>
+  </tech>
+<tech name="DEHCMapucheAllies1" type="Normal">
+    <dbid>6126</dbid>
+    <displaynameid>150075</displaynameid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mapuche_clubman_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="deNatMercMapucheClubman" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TechStatus" status="active">WarriorSocietyMapuche</effect>
     </effects>
   </tech>
 
