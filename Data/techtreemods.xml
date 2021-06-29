@@ -1363,5 +1363,35 @@
       <effect type="TechStatus" status="active">WarriorSocietyMapuche</effect>
     </effects>
   </tech>
+  <tech name="DEHCRangedInfHitpointsInca" type="Normal">
+    <dbid>6150</dbid>
+    <displaynameid>80549</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_ranged_infantry_hitpoints\hc_ranged_infantry_hitpoints.png</icon>
+    <rollovertextid>80550</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractRangedInfantry</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCRangedInfDamageInca" type="Normal">
+    <dbid>6101</dbid>
+    <displaynameid>80432</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_ranged_infantry_damage\hc_ranged_infantry_damage.png</icon>
+    <rollovertextid>80431</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractRangedInfantry</target>
+      </effect>
+    </effects>
+  </tech>
 
     </techtreemods>
