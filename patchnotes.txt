@@ -188,5 +188,4 @@ Messenger
 Resettlements --> replace with covered wagon icon instead of buildinr
 Age 3 10 Mapuche Riders
 Fix stealth on Chasqui and Jungle Bowmen
-Chiribaya Dogs +5 build limit
 Warrior Priestesses remove conversion, move shipments to palace

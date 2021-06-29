@@ -34,6 +34,7 @@
 	    <string _locid="80365">Each Kancha House will do a one-time muster of 1 Villager.</string>
 	    <string _locid="80347">Improves the speed and hitpoints of your War Chief. Additionally, your War Chief now resists against ranged damage.</string>
 	    <string _locid="80349">Greatly increases the damage of your War Chief, especially to Heavy Cavalry and Shock Infantry. Additionally, your War Chief now inflicts area damage and gains the Swashbuckler attack.</string>
+	    <string _locid="80438">Sends 24 Peruvian dogs and improves them in combat. Allows your Warchief and Kancha Houses to raise them. Additionally, you can train more Peruvian dogs.</string>
 	    <string _locid="80445">Tambos and Chasqui generate trickles of Experience.</string>
 	    <string _locid="80447">Villagers gather all Food faster.</string>
 	    <string _locid="80453">Each military building (Kallankas, War Huts, and Strongholds) will do a one-time muster of 2 Macemen.</string>
@@ -49,6 +50,9 @@
 	    <string _locid="80547">Kallankas get more hitpoints, build faster, train units more quickly, and cost no coin. Increases build limit.</string>
 	    <string _locid="80552">Trade Monopoly is available an age early and is free.</string>
 	    <string _locid="80560">Doubles the effectiveness of Llamas at the Community Plaza. Additionally, Llamas are cheaper and move more quickly.</string>
+	    <string _locid="140000">Cloud Forest Travois</string>
+	    <string _locid="140001">Cloud Forest</string>
+	    <string _locid="140002">4 Cloud Forest Travois</string>
 	    <string _locid="150001">Ships 1 villager, 100 Wood and 1 Fattened Llama</string>
 	    <string _locid="150002">Seasonal Labor I</string>
 	    <string _locid="150003">Seasonal Labor I Shipment has arrived.</string>
@@ -63,9 +67,6 @@
 	    <string _locid="150012">Seasonal Labor IV Shipment has arrived.</string>
 	    <string _locid="150050">2 Macemen</string>
 	    <string _locid="150075">15 Mapuche Allies</string>
-	    <string _locid="170000">Cloud Forest Travois</string>
-	    <string _locid="170001">Cloud Forest</string>
-	    <string _locid="170002">Ships 4 Cloud Forest Travois.</string>
-    </Language>
+	        </Language>
   </StringTable>
 </stringmods>

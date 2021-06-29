@@ -16,8 +16,8 @@
       </effect>
       <effect mergeMode='remove' type="TechStatus" status="UNOBTAINABLE">DEEliteMacemenShadow</effect>
       <effect mergeMode='add' type="TechStatus" status="obtainable">DEEliteMacemenShadow</effect>
-      <effect mergeMode='add' type="SetName" proto="YPGroveWagon" culture="none" newname="170000"/>
-      <effect mergeMode='add' type="SetName" proto="YPGroveBuilding" culture="none" newname="170001"/>
+      <effect mergeMode='add' type="SetName" proto="YPGroveWagon" culture="none" newname="140000"/>
+      <effect mergeMode='add' type="SetName" proto="YPGroveBuilding" culture="none" newname="140001"/>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">ypGroveBuilding</target>
       </effect>
@@ -1326,7 +1326,7 @@
   </tech>
   <tech name="DEHCShipGroveWagonInca" type="Normal">
     <dbid>4761</dbid>
-    <displaynameid>1700002</displaynameid>
+    <displaynameid>1400002</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -1391,6 +1391,14 @@
       <effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
         <target type="ProtoUnit">AbstractRangedInfantry</target>
       </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCChiribayaDogs" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
+            <target type="ProtoUnit">deIncaDog</target>
+    	</effect>
+      <effect type="TextOutput">80536</effect>
     </effects>
   </tech>
 
