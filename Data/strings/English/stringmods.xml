@@ -4,8 +4,8 @@
 	    <String _locid="34666">Cheap scout building with no attack.</String>
 	    <String _locid="34667">Jungle Outpost</String>
 	    <String _locid="34671">Jungle Outpost</String>
-	    <string _locid="34388">Qorikancha</string>
-	    <string _locid="34389">Qorikancha</string>
+	    <string _locid="34388">Great Temple</string>
+	    <string _locid="34389">Great Temple</string>
 	    <string _locid="34387">Sacred temple of the Inca. Trickles wood over time automatically.</string>
 	    <String _locid="80002" symbol="cStringCivRolloverInca">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nKancha Houses spawn 2 Llamas when built. Llamas can be tasked at the community plaza at a less efficient rate than villagers. Starts with a free Chasqui who can construct Tambos; powerful Trading Posts which villagers can garrison in, and receives an additional Chasquis every Age. Military units can garrison in Kallankas and Strongholds. Priestesses can convert enemies and work at the Community Plaza.\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nChasqui, Plumed Spearman, Chimu Runner, Jungle Bowman, Bolas Warrior, Huaraca, Maceman, Priestess and Chincha Raft.\n&lt;color=1.0, 1.0, 0.0&gt;Unique buildings:&lt;/color&gt;\nKallanka, Stronghold, Kancha House and Tambo\n&lt;color=1.0, 1.0, 0.0&gt;Unique ceremonies:&lt;/color&gt;\nMoon Ceremony and Supay Ceremony\n\nA vast South American empire known for the power of its walls and smart administration.</String>
 	    <string _locid="80013">1 villager, 100 wood, 1 Fat Llama</string>

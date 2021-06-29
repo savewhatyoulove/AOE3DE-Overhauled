@@ -12,7 +12,7 @@ Dock:
 Inca Changes:
 
 New Buildings Added:
--- Outpost. Cheap (50W) building with a large line of sight and no attack. Can only be built by Chasquis. Built limit starts at 2 and increases each age. 
+-- Jungle Outpost. Cheap (50W) building with a large line of sight and no attack. Can only be built by Chasquis. Built limit starts at 2 and increases each age. 
   -- Fortress Age Tech: +100% HP/LOS for 200W/200G
 -- Temple. Expensive (500F/W/G) building that can only be constructed by your War Chief. Generates a large trickle of Wood (6.0/s). Available in the Industrial Age.
 
@@ -183,7 +183,7 @@ Shipments:
 TODO//
 Warrior Priestess Implementation
 Macemen BB
-Community Plaza Big Buttons
+Viracocha BB
 Messenger
 Resettlements --> replace with covered wagon icon instead of buildinr
 Age 3 10 Mapuche Riders
