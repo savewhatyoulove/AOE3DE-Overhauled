@@ -27,7 +27,7 @@
 	    <string _locid="80095">Powerful hand infantry that inflicts armor-piercing splash damage with a large bludgeon. Good against buildings and infantry.</string>
 	    <string _locid="80106">Anti-building and anti-skirmisher shock infantry that deals melee damage from a distance.</string>
 	    <string _locid="80107">Anti-building shock infantry. Good against artillery and skirmishers.</string>
-	    <string _locid="80124">TEAM scouts, livestock, and civilians move faster.</string>
+	    <string _locid="80124">TEAM scouts, livestock, pets, and civilians move faster.</string>
 	    <String _locid="80138">Supports 12 population and spawns 2 Llamas when built.</String>
 	    <String _locid="80139">Inca House that supports 12 population and spawns 2 Llamas when built.</String>
 	    <string _locid="80365">Each Kancha House will do a one-time muster of 1 Villager.</string>
@@ -57,7 +57,7 @@
 	    <string _locid="150010">Ships 6 villagers, 600 wood and 6 Fattened Llama</string>
 	    <string _locid="150011">Seasonal Labor IV</string>
 	    <string _locid="150012">Seasonal Labor IV Shipment has arrived.</string>
-	    <string _locid="160000">2 Macemen</string>
+	    <string _locid="150050">2 Macemen</string>
 	    <string _locid="170000">Cloud Forest Travois</string>
 	    <string _locid="170001">Cloud Forest</string>
     </Language>

@@ -186,3 +186,7 @@ Warrior Priestess Implementation
 Macemen BB
 Community Plaza Big Buttons
 Messenger
+TEAM Bridges --> move to Marketplace
+2 TCs --> move to marketplace
+Resettlements --> replace with covered wagon icon instead of buildinr
+
