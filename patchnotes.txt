@@ -11,6 +11,9 @@ Dock:
 
 Inca Changes:
 
+Civ Bonus Changes:
+-- New additional civ bonus: Native Warrior shipments are 10% cheaper and arrive 33% more quickly (60 --> 40 seconds). 
+
 New Buildings Added:
 -- Jungle Outpost. Cheap (50W) building with a large line of sight and no attack. Can only be built by Chasquis. Built limit starts at 2 and increases each age. 
   -- Fortress Age Tech: +100% HP/LOS for 200W/200G
@@ -27,6 +30,7 @@ Jungle Bowmen:
 Bolas: unit Rework
 -- Armor increased to 30 melee from 20 Ranged
 -- Ranged attack multipliers removed and increased to 25 from 18 (damage cap raised to 44 from 35). 
+-- Ranged attack animation improved to 0.35 from 0.55
 -- Melee attack improved to 18 from 10 and 3.5x AbstractCavalry and 2.75x AbstractLightInfantry multipliers added.
 -- Siege attack improved to 25 from 24
 
@@ -184,8 +188,7 @@ TODO//
 Warrior Priestess Implementation
 Macemen BB
 Viracocha BB
-Messenger
-Resettlements --> replace with covered wagon icon instead of buildinr
-Age 3 10 Mapuche Riders
-Fix stealth on Chasqui and Jungle Bowmen
 Warrior Priestesses remove conversion, move shipments to palace
+Jungle Outpost HP upgrade and Heavy Fortifications
+Test out Inca water play
+Move sweden cheaper natives to inca

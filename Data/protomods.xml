@@ -152,7 +152,7 @@
       <damage>10.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractHeavyInfantry">1.750000</damagebonus>
+      <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="xpEagleKnight">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
@@ -164,7 +164,7 @@
       <damagetype>Ranged</damagetype>
       <maxrange>18.000000</maxrange>
       <rof>3.000000</rof>
-      <damagebonus type="AbstractHeavyInfantry">1.750000</damagebonus>
+      <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="xpEagleKnight">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
@@ -175,7 +175,7 @@
       <damage>10.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractHeavyInfantry">1.750000</damagebonus>
+      <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="xpEagleKnight">2.000000</damagebonus>
       <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
@@ -186,7 +186,7 @@
       <damage>10.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractHeavyInfantry">1.750000</damagebonus>
+      <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="xpEagleKnight">2.000000</damagebonus>
       <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
@@ -198,7 +198,7 @@
       <damagetype>Ranged</damagetype>
       <maxrange>18.000000</maxrange>
       <rof>3.000000</rof>
-      <damagebonus type="AbstractHeavyInfantry">1.750000</damagebonus>
+      <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="xpEagleKnight">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
@@ -209,7 +209,7 @@
       <damage>10.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractHeavyInfantry">1.750000</damagebonus>
+      <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="xpEagleKnight">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
@@ -221,7 +221,7 @@
       <damagetype>Ranged</damagetype>
       <maxrange>18.000000</maxrange>
       <rof>3.000000</rof>
-      <damagebonus type="AbstractHeavyInfantry">1.750000</damagebonus>
+      <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="xpEagleKnight">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
@@ -492,7 +492,7 @@
     <bounty>25.0000</bounty>
     <buildbounty>12.0000</buildbounty>
     <cost resourcetype="Wood">50.0000</cost>
-    <maxcontained>5</maxcontained>
+    <maxcontained>10</maxcontained>
     <unittype>LogicalTypeValidSabotage</unittype>
     <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
     <unittype>LogicalTypeBuildingsNotWalls</unittype>
@@ -510,6 +510,7 @@
     <unittype>HasBountyValue</unittype>
     <unittype>AbstractOutpost</unittype>
     <unittype>ConvertsHerds</unittype>
+    <tech row="0" page="1" column="0">dePaititi</tech>
     <flag>CollidesWithProjectiles</flag>
     <flag>StartsAtFullEfficiency</flag>
     <flag>Immoveable</flag>

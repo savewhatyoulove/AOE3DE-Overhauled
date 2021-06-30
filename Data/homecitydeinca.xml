@@ -877,6 +877,14 @@
       <displayunitcount>15</displayunitcount>
     </card>
     <card>
+      <name>DEHCMapucheAllies2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>10</displayunitcount>
+    </card>
+    <card>
       <name>DEHCJesuitAllies1</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -1716,6 +1724,7 @@
       <tech x="2.7" y="1.0">DEHCMapucheAlliesRepeat1</tech>
       <tech x="2.7" y="1.0">DEHCMapucheAllies1</tech>
       <tech x="2.7" y="1.0">DEHCMapucheAlliesRepeat2</tech>
+      <tech x="2.7" y="1.0">DEHCMapucheAllies2</tech>
       <tech x="2.7" y="1.0">DEHCJesuitAllies1</tech>
       <tech x="2.7" y="1.0">DEHCJesuitAllies2</tech>
       <tech x="2.7" y="1.0">DEHCSpanishAllies1</tech>
@@ -1752,6 +1761,7 @@
       <tech>DEHCMapucheAlliesRepeat1</tech>
       <tech>DEHCMapucheAllies1</tech>
       <tech>DEHCMapucheAlliesRepeat2</tech>
+      <tech>DEHCMapucheAllies2</tech>
       <tech>DEHCJesuitAllies1</tech>
       <tech>DEHCJesuitAllies2</tech>
       <tech>DEHCSpanishAllies1</tech>

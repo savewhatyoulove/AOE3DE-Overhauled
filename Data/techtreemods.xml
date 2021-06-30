@@ -318,49 +318,30 @@
       <effect type="Data" action="StaggerRangedAttack" amount="0.50" subtype="DamageBonus" unittype="AbstractHeavyCavalry" relativity="Absolute">
         <target type="ProtoUnit">deBolasWarrior</target>
       </effect>
-      <effect type="Data" action="StaggerRangedAttack" amount="0.30" subtype="DamageBonus" unittype="AbstractLightCavalry" relativity="Absolute">
-        <target type="ProtoUnit">deBolasWarrior</target>
-      </effect>
-      <effect type="Data" action="StaggerRangedAttack" amount="0.25" subtype="DamageBonus" unittype="xpEagleKnight" relativity="Absolute">
-        <target type="ProtoUnit">deBolasWarrior</target>
-      </effect>
       <effect type="Data" action="StaggerRangedAttack" amount="0.3" subtype="DamageBonus" unittype="AbstractCoyoteMan" relativity="Absolute">
         <target type="ProtoUnit">deBolasWarrior</target>
       </effect>
-      <effect type="Data" action="StaggerRangedAttack" amount="1.20" subtype="Damage" relativity="BasePercent">
+      <effect type="Data" action="StaggerRangedAttack" amount="1.25" subtype="Damage" relativity="BasePercent">
         <target type="ProtoUnit">deBolasWarrior</target>
       </effect>
       <effect type="Data" action="VolleyRangedAttack" amount="0.50" subtype="DamageBonus" unittype="AbstractHeavyCavalry" relativity="Absolute">
         <target type="ProtoUnit">deBolasWarrior</target>
       </effect>
-      <effect type="Data" action="VolleyRangedAttack" amount="0.30" subtype="DamageBonus" unittype="AbstractLightCavalry" relativity="Absolute">
-        <target type="ProtoUnit">deBolasWarrior</target>
-      </effect>
-      <effect type="Data" action="VolleyRangedAttack" amount="0.25" subtype="DamageBonus" unittype="xpEagleKnight" relativity="Absolute">
-        <target type="ProtoUnit">deBolasWarrior</target>
-      </effect>
       <effect type="Data" action="VolleyRangedAttack" amount="0.3" subtype="DamageBonus" unittype="AbstractCoyoteMan" relativity="Absolute">
         <target type="ProtoUnit">deBolasWarrior</target>
       </effect>
-      <effect type="Data" action="VolleyRangedAttack" amount="1.20" subtype="Damage" relativity="BasePercent">
+      <effect type="Data" action="VolleyRangedAttack" amount="1.25" subtype="Damage" relativity="BasePercent">
         <target type="ProtoUnit">deBolasWarrior</target>
       </effect>
       <effect type="Data" action="DefendRangedAttack" amount="0.50" subtype="DamageBonus" unittype="AbstractHeavyCavalry" relativity="Absolute">
         <target type="ProtoUnit">deBolasWarrior</target>
       </effect>
-      <effect type="Data" action="DefendRangedAttack" amount="0.30" subtype="DamageBonus" unittype="AbstractLightCavalry" relativity="Absolute">
-        <target type="ProtoUnit">deBolasWarrior</target>
-      </effect>
-      <effect type="Data" action="DefendRangedAttack" amount="0.25" subtype="DamageBonus" unittype="xpEagleKnight" relativity="Absolute">
-        <target type="ProtoUnit">deBolasWarrior</target>
-      </effect>
       <effect type="Data" action="DefendRangedAttack" amount="0.3" subtype="DamageBonus" unittype="AbstractCoyoteMan" relativity="Absolute">
         <target type="ProtoUnit">deBolasWarrior</target>
       </effect>
-      <effect type="Data" action="DefendRangedAttack" amount="1.20" subtype="Damage" relativity="BasePercent">
+      <effect type="Data" action="DefendRangedAttack" amount="1.25" subtype="Damage" relativity="BasePercent">
         <target type="ProtoUnit">deBolasWarrior</target>
       </effect>
-
       <effect type="TextOutput">80509</effect>
     </effects>
   </tech>
@@ -414,6 +395,100 @@
         <target type="ProtoUnit">SPCIncaOutpost</target>
       </effect>
   </tech>
+ <tech mergeMode='replace' name="TribalIncaYouth2" type="Normal">
+    <dbid>6040</dbid>
+    <displaynameid>80007</displaynameid>
+    <cost resourcetype="Food">800.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_ii.png</icon>
+    <rollovertextid>79923</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age1</effect>
+      <effect type="CommandAdd" command="YPSetDaimyoAsHCGatherPoint" page="0" column="10">
+        <target type="ProtoUnit">SPCIncaOutpost</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HCGatherPointPri3" relativity="Assign">
+        <target type="ProtoUnit">SPCIncaOutpost</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">TribalIncaYouth5</effect>
+      <effect type="TechStatus" status="unobtainable">TribalIncaYouth4</effect>
+      <effect type="TechStatus" status="unobtainable">TribalIncaYouth3</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="TribalIncaYouth3" type="Normal">
+    <dbid>6041</dbid>
+    <displaynameid>80007</displaynameid>
+    <cost resourcetype="Food">1200.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iii.png</icon>
+    <rollovertextid>80009</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age2</effect>
+      <effect type="CommandAdd" command="YPSetDaimyoAsHCGatherPoint" page="0" column="10">
+        <target type="ProtoUnit">SPCIncaOutpost</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HCGatherPointPri3" relativity="Assign">
+        <target type="ProtoUnit">SPCIncaOutpost</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">TribalIncaYouth5</effect>
+      <effect type="TechStatus" status="unobtainable">TribalIncaYouth4</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="TribalIncaYouth4" type="Normal">
+    <dbid>6042</dbid>
+    <displaynameid>80007</displaynameid>
+    <cost resourcetype="Food">2000.0000</cost>
+    <cost resourcetype="Gold">1200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iv.png</icon>
+    <rollovertextid>80010</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age3</effect>
+      <effect type="CommandAdd" command="YPSetDaimyoAsHCGatherPoint" page="0" column="10">
+        <target type="ProtoUnit">SPCIncaOutpost</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HCGatherPointPri3" relativity="Assign">
+        <target type="ProtoUnit">SPCIncaOutpost</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">TribalIncaYouth5</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="TribalIncaYouth5" type="Normal">
+    <dbid>6043</dbid>
+    <displaynameid>80007</displaynameid>
+    <cost resourcetype="Food">4000.0000</cost>
+    <cost resourcetype="Gold">4000.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_v.png</icon>
+    <rollovertextid>80011</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="CommandAdd" command="YPSetDaimyoAsHCGatherPoint" page="0" column="10">
+        <target type="ProtoUnit">SPCIncaOutpost</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HCGatherPointPri3" relativity="Assign">
+        <target type="ProtoUnit">SPCIncaOutpost</target>
+      </effect>
+      <effect type="SetAge">Age4</effect>
+    </effects>
+  </tech>
+
   <tech mergeMode='replace' name="TribalIncaChief2" type="Normal">
     <dbid>6027</dbid>
     <displaynameid>80017</displaynameid>
@@ -498,14 +573,6 @@
         <target type="Player"/>
       </effect>
     </effects>
-  </tech>
-  <tech name="TribalIncaWarrior2" type="Normal">
-	  <effect mergeMode='remove' type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="deIncaRunner" relativity="Absolute">
-		  <target type="Player"/>
-	  </effect>
-	  <effect mergeMode='add' type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="dePriestess" relativity="Absolute">
-		  <target type="Player"/>
-	  </effect>
   </tech>
   <tech mergeMode='replace' name="TribalIncaWisewoman2" type="Normal">
     <dbid>6036</dbid>
@@ -619,43 +686,88 @@
 
     </effects>
   </tech>
-  <tech name="TribalIncaWarrior3" type="Normal">
+  <tech mergeMode='replace' name="TribalIncaWarrior2" type="Normal">
+    <dbid>6032</dbid>
+    <displaynameid>80027</displaynameid>
+    <cost resourcetype="Food">800.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_ii.png</icon>
+    <rollovertextid>80028</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
     <effects>
-      <effect mergeMode='remove' type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="deJungleBowman" relativity="Absolute">
+      <effect type="SetAge">Age1</effect>
+      <effect type="TechStatus" status="unobtainable">TribalIncaWarrior5</effect>
+      <effect type="TechStatus" status="unobtainable">TribalIncaWarrior4</effect>
+      <effect type="TechStatus" status="unobtainable">TribalIncaWarrior3</effect>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="dePriestess" relativity="Absolute">
         <target type="Player"/>
       </effect>
-      <effect mergeMode='add' type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="deMaceman" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-
     </effects>
   </tech>
-  <tech name="TribalIncaWarrior4" type="Normal">
+  <tech mergeMode='replace' name="TribalIncaWarrior3" type="Normal">
+    <dbid>6033</dbid>
+    <displaynameid>80027</displaynameid>
+    <cost resourcetype="Food">1200.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>110.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iii.png</icon>
+    <rollovertextid>80029</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
     <effects>
-      <effect mergeMode='remove' type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="deSlinger" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect mergeMode='add' type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="deMaceman" relativity="Absolute">
+      <effect type="SetAge">Age2</effect>
+      <effect type="TechStatus" status="unobtainable">TribalIncaWarrior5</effect>
+      <effect type="TechStatus" status="unobtainable">TribalIncaWarrior4</effect>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="deMaceman" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
   </tech>
-  <tech name="TribalIncaWarrior5" type="Normal">
+  <tech mergeMode='replace' name="TribalIncaWarrior4" type="Normal">
+    <dbid>6034</dbid>
+    <displaynameid>80027</displaynameid>
+    <cost resourcetype="Food">2000.0000</cost>
+    <cost resourcetype="Gold">1200.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iv.png</icon>
+    <rollovertextid>80030</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
     <effects>
-      <effect mergeMode='remove' type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="deSlinger" relativity="Absolute">
+      <effect type="SetAge">Age3</effect>
+      <effect type="TechStatus" status="unobtainable">TribalIncaWarrior5</effect>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="deMaceman" relativity="Absolute">
         <target type="Player"/>
       </effect>
-      <effect mergeMode='remove' type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="deMaceman" relativity="Absolute">
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="TribalIncaWarrior5" type="Normal">
+    <dbid>6035</dbid>
+    <displaynameid>80027</displaynameid>
+    <cost resourcetype="Food">4000.0000</cost>
+    <cost resourcetype="Gold">4000.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_v.png</icon>
+    <rollovertextid>80031</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age4</effect>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="deMaceman" relativity="Absolute">
         <target type="Player"/>
       </effect>
-      <effect mergeMode='add' type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="deMaceman" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-
     </effects>
   </tech>
 
- 
   <tech mergeMode='replace' name="deBigHouseQueensFestival" type="Normal">
     <dbid>6095</dbid>
     <displaynameid>80366</displaynameid>
@@ -1341,6 +1453,22 @@
       <effect type="TechStatus" status="active">WarriorSocietyMapuche</effect>
     </effects>
   </tech>
+  <tech name="DEHCMapucheAllies2" type="Normal">
+    <dbid>6125</dbid>
+    <displaynameid>80488</displaynameid>
+    <cost resourcetype="Gold">750.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mapuche_bolas_rider_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="deNatMercBolasRider" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TechStatus" status="active">WarriorSocietyMapuche</effect>
+    </effects>
+  </tech>
   <tech name="DEHCRangedInfHitpointsInca" type="Normal">
     <dbid>6150</dbid>
     <displaynameid>80549</displaynameid>
@@ -1379,5 +1507,97 @@
       <effect type="TextOutput">80536</effect>
     </effects>
   </tech>
-
+  <tech mergeMode='replace' name="DEHCResettlements" type="Normal">
+    <dbid>6085</dbid>
+    <displaynameid>80436</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\villagers\covered_wagon\covered_wagon_icon_64.png</icon>
+    <rollovertextid>80435</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="CoveredWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="SettlerNative" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCCajamarcaSupport" type="Normal">
+    <dbid>6142</dbid>
+    <displaynameid>80532</displaynameid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\natives\inca\bowman_icon.png</icon>
+    <rollovertextid>80533</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="13.00" subtype="FreeHomeCityUnit" unittype="deJungleBowman" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" action="MeleeHandAttack" amount="1.00" subtype="DamageBonus" unittype="AbstractHeavyInfantry" relativity="Absolute">
+        <target type="ProtoUnit">deJungleBowman</target>
+      </effect>
+      <effect type="Data" action="DefendRangedAttack" amount="1.00" subtype="DamageBonus" unittype="AbstractHeavyInfantry" relativity="Absolute">
+        <target type="ProtoUnit">deJungleBowman</target>
+      </effect>
+      <effect type="Data" action="DefendHandAttack" amount="1.00" subtype="DamageBonus" unittype="AbstractHeavyInfantry" relativity="Absolute">
+        <target type="ProtoUnit">deJungleBowman</target>
+      </effect>
+      <effect type="Data" action="StaggerHandAttack" amount="1.00" subtype="DamageBonus" unittype="AbstractHeavyInfantry" relativity="Absolute">
+        <target type="ProtoUnit">deJungleBowman</target>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="1.00" subtype="DamageBonus" unittype="AbstractHeavyInfantry" relativity="Absolute">
+        <target type="ProtoUnit">deJungleBowman</target>
+      </effect>
+      <effect type="Data" action="VolleyHandAttack" amount="1.00" subtype="DamageBonus" unittype="AbstractHeavyInfantry" relativity="Absolute">
+        <target type="ProtoUnit">deJungleBowman</target>
+      </effect>
+      <effect type="Data" action="VolleyRangedAttack" amount="1.00" subtype="DamageBonus" unittype="AbstractHeavyInfantry" relativity="Absolute">
+        <target type="ProtoUnit">deJungleBowman</target>
+      </effect>
+      <effect type="Data" action="VolleyRangedAttack" amount="1.20" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">deJungleBowman</target>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="1.20" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">deJungleBowman</target>
+      </effect>
+      <effect type="Data" action="DefendRangedAttack" amount="1.20" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">deJungleBowman</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">PoisonAttachment</target>
+      </effect>
+      <effect type="TextOutput">80534</effect>
+    </effects>
+  </tech>
+  <tech name="dePaititi" type="Normal">
+    <dbid>6111</dbid>
+    <displaynameid>140050</displaynameid>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\inca\monumental_architecture.png</icon>
+    <rollovertextid>140051</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">SPCIncaOutpost</target>
+      </effect>
+      <effect type="Data" amount="30.00" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">SPCIncaOutpost</target>
+      </effect>
+    </effects>
+  </tech>
     </techtreemods>
