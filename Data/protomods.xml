@@ -1277,7 +1277,7 @@
   <unit id="1069" name="ypFuchuan">
 	<train mergeMode='remove'>deMaceman</train>
   </unit>
-  <unit id="1503" name="deKallanka">
+  <unit mergeMode='replace' id="1503" name="deKallanka">
     <dbid>2151</dbid>
     <displaynameid>80140</displaynameid>
     <editornameid>80141</editornameid>
@@ -1432,7 +1432,7 @@
       <rof>3.000000</rof>
     </protoaction>
   </unit>
-<unit id="1622" name="deNatBolasRider">
+<unit mergeMode='replace' id="1622" name="deNatBolasRider">
     <dbid>2193</dbid>
     <displaynameid>80665</displaynameid>
     <editornameid>80666</editornameid>
@@ -1564,7 +1564,7 @@
       <damagebonus type="AbstractVillager">0.500000</damagebonus>
     </protoaction>
   </unit>
-  <unit id="1645" name="deNatMercBolasRider">
+  <unit mergeMode='repace' id="1645" name="deNatMercBolasRider">
     <dbid>2216</dbid>
     <displaynameid>80665</displaynameid>
     <editornameid>80666</editornameid>

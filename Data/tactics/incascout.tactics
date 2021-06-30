@@ -4,7 +4,6 @@
     <name stringid="46491">Stealth</name>
     <type>Stealth</type>
     <maxrange>20.0</maxrange>
-    <active>1</active>
     <active>0</active>
     <persistent>1</persistent>
   </action>

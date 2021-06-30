@@ -563,7 +563,7 @@
 
     </effects>
   </tech>
-  <tech name="TribalIncaWisewoman4" type="Normal">
+  <tech mergeMode='replace' name="TribalIncaWisewoman4" type="Normal">
     <dbid>6038</dbid>
     <displaynameid>80012</displaynameid>
     <cost resourcetype="Food">1750.0000</cost>
@@ -590,7 +590,7 @@
 
     </effects>
   </tech>
-  <tech name="TribalIncaWisewoman5" type="Normal">
+  <tech mergeMode='replace' name="TribalIncaWisewoman5" type="Normal">
     <dbid>6039</dbid>
     <displaynameid>80012</displaynameid>
     <cost resourcetype="Food">3500.0000</cost>
@@ -862,13 +862,16 @@
       <effect type="Data" amount="6.00" subtype="LOS" relativity="Absolute">
         <target type="ProtoUnit">deChasqui</target>
       </effect>
-      <effect type="Data" amount="1.00" tactic="Stealth" subtype="TacticEnable" relativity="Absolute">
-        <target type="ProtoUnit">deChasqui</target>
-      </effect>
       <effect type="Data" action="FrightenSpeed" amount="1.00" subtype="ActionEnable" relativity="Absolute">
         <target type="ProtoUnit">deChasqui</target>
       </effect>
       <effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+        <target type="ProtoUnit">deChasqui</target>
+      </effect>
+      <effect type="Data" amount="1.00" tactic="Stealth" subtype="TacticEnable" relativity="Absolute">
+        <target type="ProtoUnit">deChasqui</target>
+      </effect>
+      <effect type="Data" action="Stealth" amount="1.00" subtype="ActionEnable" relativity="Absolute">
         <target type="ProtoUnit">deChasqui</target>
       </effect>
       <effect type="TextOutput">80531</effect>
@@ -898,32 +901,7 @@
             <effect type="TextOutput">80553</effect>
     </effects>
   </tech>
-  <tech mergeMode='replace' name="DEHCCloudWarriors" type="Normal">
-    <dbid>6155</dbid>
-    <displaynameid>80563</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\inca\cloud_warriors.png</icon>
-    <rollovertextid>80564</rollovertextid>
-    <flag>HomeCity</flag>
-    <effects>
-      <effect type="Data" action="Stealth" amount="1.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">deJungleBowman</target>
-      </effect>
-      <effect type="Data" amount="1.00" tactic="Stealth" subtype="TacticEnable" relativity="Absolute">
-        <target type="ProtoUnit">deJungleBowman</target>
-      </effect>
-      <effect type="Data" amount="1.00" tactic="Stealth" subtype="TacticEnable" relativity="Absolute">
-        <target type="ProtoUnit">deIncaRunner</target>
-      </effect>
-      <effect type="Data" action="Stealth" amount="1.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">deIncaRunner</target>
-      </effect>
-    </effects>
-  </tech>
-
-  <tech mergeMode='replace' name="DEEliteInca" type="Normal">
+   <tech mergeMode='replace' name="DEEliteInca" type="Normal">
     <dbid>6621</dbid>
     <researchpoints>0.0000</researchpoints>
     <status>OBTAINABLE</status>
