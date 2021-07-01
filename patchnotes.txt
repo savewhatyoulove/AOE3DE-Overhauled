@@ -101,9 +101,9 @@ Big Buttons:
   -- Now spawns 1 villager from each kacnha house
 -- Viracocha Festival reworked:
   -- Moved to the Community Plaza from Kallanka
-  -- Cost reduced to 50F/50W/50G from 750W/750G
-  -- Now provides +1 weight to Warrior Priestesses while on the Community Plaza (2 --> 3)
-
+  -- Cost reduced to 500W/500G from 750W/750G
+  -- Now increases Inca War Chief's damage vs. Cavalry and Shock Infantry by +600% (7x) on all attacks*
+    --* Javelin throw gets a reduced bonus of +150% instead of +600%.
 Tribal Council Changes:
 -- Chief:
   -- Age 2 Cost increased to 900 Food from 800
@@ -163,7 +163,9 @@ Shipments:
 -- Cloud Warriors moved to age 3
 -- Census moved to age 3
 -- High Ground now additionally increases outpost LOS by 6
-=-- Cloud Fortresses. 25% dodge chance? makes nearby units stealthy? Increases nearby unit speed?
+-- Cloud Fortresses Reworkeked:
+  -- Now provides +8 LOS to all buildings
+  -- Now provides +0.20 Siege Armor to all buildings (an effective 20% multiplicative HP buff)
 -- 1/2/3 Farm Travois now provide +2/5/10 llamas
 -- Ceque System now grants Chasquis an XP trickle of 0.25/s per Chasquis. 
 -- Chincha Brewing now provides +15% gather rate to all food resources instead of improving kancha trickle
@@ -185,10 +187,7 @@ Shipments:
 
 
 TODO//
-Warrior Priestess Implementation
 Macemen BB
-Viracocha BB
-Warrior Priestesses remove conversion, move shipments to palace
-Jungle Outpost HP upgrade and Heavy Fortifications
 Test out Inca water play
 Move sweden cheaper natives to inca
+Change Healer Dance to spawn Llamas

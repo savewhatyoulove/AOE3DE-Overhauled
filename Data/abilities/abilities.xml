@@ -408,9 +408,6 @@
     <ability>ypPowerDivineBlow<alwaysdisabledingrid>true</alwaysdisabledingrid></ability>
     <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </ypspctokugawa>
-  <depriestess>
-    <ability>PowerConvert<rof>60</rof></ability>
-  </depriestess>
   <despchayreddin>
     <ability>dePowerFalconDive<rof>20</rof></ability>
   </despchayreddin>

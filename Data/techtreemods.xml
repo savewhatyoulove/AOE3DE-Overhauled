@@ -21,7 +21,9 @@
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">ypGroveBuilding</target>
       </effect>
-
+      <effect type="TechStatus" status="obtainable">dePaititi</effect>
+      <effect type="TechStatus" status="obtainable">DEChampionPriestess</effect>
+      <effect type="TechStatus" status="obtainable">DEImpLegendaryPriestess</effect>
     </Effects>
 </Tech>
 
@@ -81,24 +83,6 @@
       <effect type="TransformUnit" toprotoid="xpLightCannon" fromprotoid="deMaceman"/>
       <effect type="TextOutput">80450</effect>
       <effect type="TextEffectOutput" path="ui\\alerts\\revolution.xml" selfmsg="110548" playermsg="110549"/>
-    </effects>
-  </tech>
-
-  <tech name="DEHCWarChiefInca2" type="Normal">
-	<effects>
-	  <effect mergeMode='add' type="Data" action="CoverHandAttack" amount="0.50" subtype="DamageBonus" unittype="AbstractCavalry" relativity="Absolute">
-		  <target type="ProtoUnit">deIncaWarChief</target>
-	  </effect>
-	  <effect mergeMode='add' type="Data" action="HandAttack" amount="0.50" subtype="DamageBonus" unittype="AbstractLightInfantry" relativity="Absolute">
-		  <target type="ProtoUnit">deIncaWarChief</target>
-	  </effect>
-	  <effect mergeMode='add' type="Data" action="CoverHandAttack" amount="0.50" subtype="DamageBonus" unittype="AbstractLightInfantry" relativity="Absolute">
-		  <target type="ProtoUnit">deIncaWarChief</target>
-	  </effect>
-	  <effect mergeMode='add' type="Data" action="HandAttack" amount="0.50" subtype="DamageBonus" unittype="AbstractCavalry" relativity="Absolute">
-		  <target type="ProtoUnit">deIncaWarChief</target>
-	  </effect>
-
     </effects>
   </tech>
   <tech name="DEHCSeasonalLabor1" type="Normal">
@@ -355,7 +339,7 @@
     <rollovertextid>80560</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" amount="0.5" subtype="CommunityPlazaWeight" relativity="Assign">
+      <effect type="Data" amount="0.6" subtype="CommunityPlazaWeight" relativity="Assign">
         <target type="ProtoUnit">Llama</target>
       </effect>
       <effect type="Data" amount="1.25" subtype="MaximumVelocity" relativity="BasePercent">
@@ -1129,35 +1113,6 @@
       <effect type="SetName" proto="deMaceman" culture="none" newname="80101"/>
     </effects>
   </tech>
-  <tech mergeMode='replace' name="deBigFirePitRoyalFestival" type="Normal">
-    <dbid>6109</dbid>
-    <displaynameid>80454</displaynameid>
-    <cost resourcetype="Wood">500.0000</cost>
-    <cost resourcetype="Food">500.0000</cost>
-    <cost resourcetype="Gold">500.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\native\Dance3.png</icon>
-    <icontexturecoords>.201171875 .3046875 .3984375 .60546875</icontexturecoords>
-    <iconwpf>resources\images\icons\techs\native_big_button\native_45.png</iconwpf>
-    <rollovertextid>80453</rollovertextid>
-    <flag>NativeDance</flag>
-    <flag>CheckLandHCGatherPoint</flag>
-    <prereqs>
-      <techstatus status="Active">Fortressize</techstatus>
-    </prereqs>
-    <effects>
-      <effect type="Data" action="SpawnMaceman" amount="2.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">deIncaStronghold</target>
-      </effect>
-      <effect type="Data" action="SpawnMaceman" amount="2.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">WarHut</target>
-      </effect>
-      <effect type="Data" action="SpawnMaceman" amount="2.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">deKallanka</target>
-      </effect>
-    </effects>
-  </tech>
   <tech mergeMode='replace' name="DEHCMeleeInfCombatInca" type="Normal">
     <dbid>6102</dbid>
     <displaynameid>80434</displaynameid>
@@ -1600,4 +1555,120 @@
       </effect>
     </effects>
   </tech>
+  <tech name="DEChampionPriestess" type="Normal">
+    <dbid>6023</dbid>
+    <displaynameid>150500</displaynameid>
+    <cost resourcetype="Wood">400.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\champion_infantry.png</icon>
+    <rollovertextid>150501</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">dePriestess</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">dePriestess</target>
+      </effect>
+      <effect type="Data" action="Heal" amount="1.50" subtype="WorkRate" unittype="LogicalTypeHealed" relativity="BasePercent">
+        <target type="ProtoUnit">dePriestess</target>
+      </effect>
+      <effect type="SetName" proto="dePriestess" culture="none" newname="150502"/>
+    </effects>
+  </tech>
+  <tech name="DEImpLegendaryPriestess" type="Normal">
+    <dbid>6024</dbid>
+    <displaynameid>150503</displaynameid>
+    <cost resourcetype="Wood">1500.0000</cost>
+    <cost resourcetype="Gold">1500.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\legendary_infantry.png</icon>
+    <rollovertextid>150504</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">DEChampionPriestess</techstatus>
+      <techstatus status="Active">Imperialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">dePriestess</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">dePriestess</target>
+      </effect>
+      <effect type="Data" action="Heal" amount="1.50" subtype="WorkRate" unittype="LogicalTypeHealed" relativity="BasePercent">
+        <target type="ProtoUnit">dePriestess</target>
+      </effect>
+
+      <effect type="SetName" proto="dePriestess" culture="none" newname="150505"/>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="deBigKallankaViracocha" type="Normal">
+    <dbid>6097</dbid>
+    <displaynameid>80370</displaynameid>
+    <cost resourcetype="Wood">500.0000</cost>
+    <cost resourcetype="Gold">500.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\Dance3.png</icon>
+    <icontexturecoords>.201171875 .3046875 .3984375 .60546875</icontexturecoords>
+    <iconwpf>resources\images\icons\techs\native_big_button\native_43.png</iconwpf>
+    <rollovertextid>80369</rollovertextid>
+    <flag>NativeDance</flag>
+    <prereqs>
+      <techstatus status="Active">Colonialize</techstatus>
+    </prereqs>
+    <effects>
+	<effect type="Data" amount="7.00" subtype="DamageBonus" unittype="AbstractCavalry" allactions="1" relativity="BasePercent">
+		<target type="ProtoUnit">deIncaWarChief</target>
+	</effect>
+	<effect type="Data" action="CrackshotAttack" amount="-5.50" subtype="DamageBonus" unittype="AbstractCavalry" relativity="Absolute">
+		  <target type="ProtoUnit">deIncaWarChief</target>
+	  </effect>
+	  <effect type="Data" amount="7.00" subtype="DamageBonus" unittype="AbstractLightInfantry" allactions="1" relativity="BasePercent">
+		<target type="ProtoUnit">deIncaWarChief</target>
+	</effect>
+	<effect type="Data" action="CrackshotAttack" amount="-5.50" subtype="DamageBonus" unittype="AbstractLightInfantry" relativity="Absolute">
+		  <target type="ProtoUnit">deIncaWarChief</target>
+	  </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="deBigFirePitRoyalFestival" type="Normal">
+    <dbid>6109</dbid>
+    <displaynameid>80454</displaynameid>
+    <cost resourcetype="Wood">500.0000</cost>
+    <cost resourcetype="Food">500.0000</cost>
+    <cost resourcetype="Gold">500.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\Dance3.png</icon>
+    <icontexturecoords>.201171875 .3046875 .3984375 .60546875</icontexturecoords>
+    <iconwpf>resources\images\icons\techs\native_big_button\native_45.png</iconwpf>
+    <rollovertextid>80453</rollovertextid>
+    <flag>NativeDance</flag>
+    <flag>CheckLandHCGatherPoint</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" action="SpawnMaceman" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deIncaStronghold</target>
+      </effect>
+      <effect type="Data" action="SpawnMaceman" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">WarHut</target>
+      </effect>
+      <effect type="Data" action="SpawnMaceman" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deKallanka</target>
+      </effect>
+    </effects>
+  </tech>
+
     </techtreemods>
