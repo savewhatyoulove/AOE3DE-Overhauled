@@ -5,6 +5,15 @@
         <Effect mergeMode='add' type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
             <Target type="ProtoUnit">Llama</Target>
     	</Effect>
+	<effect mergeMode='remove' type="Data" amount="0.25" subtype="CommunityPlazaWeight" relativity="Assign">
+        <target type="ProtoUnit">Llama</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="0.30" subtype="CommunityPlazaWeight" relativity="Assign">
+        <target type="ProtoUnit">Llama</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="AllowedAge" relativity="Assign">
+        <target type="ProtoUnit">deChinchaRaft</target>
+      </effect>
 	<effect mergeMode='add' type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">SPCIncaOutpost</target>
       </effect>
@@ -427,9 +436,9 @@
       <effect type="Data" amount="1.25" subtype="MaximumVelocity" relativity="BasePercent">
         <target type="ProtoUnit">Llama</target>
       </effect>
-      <effect type="Data" amount="-10.00" subtype="Cost" resource="Food" relativity="Absolute">
-        <target type="ProtoUnit">Llama</target>
-      </effect>
+      <effect mergeMode='add' type="Data" amount="10.00" subtype="BuildLimit" relativity="Absolute">
+            <target type="ProtoUnit">Llama</target>
+    	</effect>
     </effects>
   </tech>
   <tech name="DEColonializeInca" type="Normal">
@@ -437,26 +446,88 @@
         <target type="ProtoUnit">SPCIncaOutpost</target>
       </effect>
   </tech>
-  <tech name="DEFortressizeInca" type="Normal">
-      <effect mergeMode='replace' type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+  <tech mergeMode='replace' name="DEFortressizeInca" type="Normal">
+    <dbid>6004</dbid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\post_game\time_line_age_3.png</icon>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Fortressize</effect>
+      <effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="Data" amount="2.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deIncaWarchief</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deIncaWarchief</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deChasqui" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">deChasqui</target>
+      </effect>
+      <effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
         <target type="ProtoUnit">deChinchaRaft</target>
       </effect>
-      <effect mergeMode='add' type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+      <effect type="Data" action="RangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deChinchaRaft</target>
+      </effect>
+      <effect type="Data" action="BuildingAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deChinchaRaft</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">deChinchaRaft</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
         <target type="ProtoUnit">SPCIncaOutpost</target>
       </effect>
+    </effects>
   </tech>
-  <tech name="DEIndustrializeInca" type="Normal">
-      <effect mergeMode='replace' type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+  <tech mergeMode='replace' name="DEIndustrializeInca" type="Normal">
+    <dbid>6005</dbid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\post_game\time_line_age_4.png</icon>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Industrialize</effect>
+      <effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">deIncaStronghold</target>
+      </effect>
+      <effect type="Data" amount="3.00" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deIncaWarchief</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deIncaWarchief</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deChasqui" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">deChasqui</target>
+      </effect>
+      <effect type="Data" amount="6.00" subtype="BuildLimit" relativity="Absolute">
         <target type="ProtoUnit">deChinchaRaft</target>
       </effect>
-      <effect mergeMode='add' type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+      <effect type="Data" action="RangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deChinchaRaft</target>
+      </effect>
+      <effect type="Data" action="BuildingAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deChinchaRaft</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">deChinchaRaft</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
         <target type="ProtoUnit">SPCIncaOutpost</target>
       </effect>
+    </effects>
   </tech>
   <tech name="DEImperializeInca" type="Normal">
-      <effect mergeMode='replace' type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+	  <!--<effect mergeMode='add' type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
         <target type="ProtoUnit">deChinchaRaft</target>
-      </effect>
+	  </effect>-->
       <effect mergeMode='add' type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
         <target type="ProtoUnit">SPCIncaOutpost</target>
       </effect>

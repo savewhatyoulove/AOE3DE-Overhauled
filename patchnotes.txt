@@ -68,7 +68,7 @@ Priestess: Unit Rework
 -- Cost reduced to 100 Food, 100 gold from 200 Gold
 -- Now trainable in the Kallanka 
 -- Moved to Age 3 from the discovery age
--- Community Plaza weight increased to 2 from 1.5, and cap lowered to 5 from 10
+-- Can no longer dange on the community plaza
 -- Speed increased to 5.0 from 4.5
 -- 20% Ranged armor increased to 30% melee armor
 -- Melee damage improved to 20 from 5 and 10x Hero, 10x Mercenary, and 1.5x AbstractCavalry multipliers added
@@ -78,10 +78,10 @@ Llamas: Given the increased importance of Llamas for Inca, I've greatly increase
 -- Build Limit: Increased from 20 to 40
 
 Chincha Rafts:
--- Build limit halved
 -- Moved to the fortress age from the commerce age
+-- Build limit now scales by +4/+6 in the Fortress/Industrial (+10 total) instead of +8 in Fortress/Industrial AGes (+16)
 
-Inca can now train canoes and war canoes to help compensate. 
+Inca can now train canoes to help compensate. 
 
 Warchief:
 -- Aura: Changed to a flat 10% damage amp for all units (the old one was lame and non-impactful. This way, it rounds out the native aura suite).

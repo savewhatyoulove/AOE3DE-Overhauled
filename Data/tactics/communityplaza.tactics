@@ -289,7 +289,7 @@
     <dancebonustype>AutoGathering</dancebonustype>
     <modifyresource>Wood</modifyresource>
     <modifymultiplier>0.10</modifymultiplier>
-    <modifyexponent>1.090</modifyexponent>
+    <modifyexponent>1.125</modifyexponent>
     <modifybase>1.0</modifybase>
   </action>
   <action>
