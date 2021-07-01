@@ -30,6 +30,9 @@
       <effect mergeMode='remove' type="Data" action="deSpawnPriestess" amount="1.00" subtype="ActionEnable" relativity="Absolute">
         <target type="ProtoUnit">CommunityPlaza</target>
       </effect>
+      <effect mergeMode='remove' type="Data" amount="1.00" tactic="deHolyDanceInca" subtype="TacticEnable" relativity="Absolute">
+        <target type="ProtoUnit">CommunityPlaza</target>
+      </effect>
       <effect mergeMode='add' type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
         <target type="Tech">HCXPZapotecAllies1</target>
       </effect>
