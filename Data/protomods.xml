@@ -1771,7 +1771,7 @@
     <protoaction>
       <name>Heal</name>
       <type>Heal</type>
-      <rate type="LogicalTypeHealed">20.000000</rate>
+      <rate type="LogicalTypeHealed">15.000000</rate>
     </protoaction>
     <protoaction>
       <name>BuildingAttack</name>

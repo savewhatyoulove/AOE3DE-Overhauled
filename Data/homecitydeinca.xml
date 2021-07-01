@@ -224,15 +224,15 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
-      <displayunitcount>1</displayunitcount>
+      <displayunitcount>2</displayunitcount>
     </card>
     <card>
       <name>DEHCShipPriestessRepeat</name>
       <maxcount>-1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>0</age>
-      <displayunitcount>1</displayunitcount>
+      <age>1</age>
+      <displayunitcount>2</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1403,10 +1403,6 @@
       <tech x="5.5" y="1.0">DEHCResettlements</tech>
       <tech x="5.5" y="2.0">DEHCWarChiefInca1</tech>
       <tech x="5.5" y="3.0">DEHCWarChiefInca2</tech>
-      <tech x="6.3" y="3.0">DEHCShipPriestessTeam</tech>
-      <tech x="6.3" y="5.0">DEHCShipPriestesses2</tech>
-      <tech x="6.3" y="5.0">DEHCShipPriestessRepeat</tech>
-      <tech x="6.3" y="5.0">DEHCShipPriestessRepeat2</tech>
       <tech x="7.1" y="1.0">DEHCShipFatLlamasRepeat</tech>
       <tech x="7.1" y="3.0">DEHCShipFatLlamas2</tech>
       <tech x="7.1" y="5.0">DEHCShipFatLlamas1</tech>
@@ -1438,10 +1434,6 @@
       <tech>DEHCResettlements</tech>
       <tech>DEHCWarChiefInca1</tech>
       <tech>DEHCWarChiefInca2</tech>
-      <tech>DEHCShipPriestessTeam</tech>
-      <tech>DEHCShipPriestesses2</tech>
-      <tech>DEHCShipPriestessRepeat</tech>
-      <tech>DEHCShipPriestessRepeat2</tech>
       <tech>DEHCShipFatLlamasRepeat</tech>
       <tech>DEHCShipFatLlamas2</tech>
       <tech>DEHCShipFatLlamas1</tech>
@@ -1499,6 +1491,10 @@
       <tech x="4.8" y="5.0">DEHCShipSlingers2</tech>
       <tech x="4.8" y="7.0">DEHCRangedInfHitpointsInca</tech>
       <tech x="5.6" y="3.0">DEHCMeleeInfCombatInca</tech>
+      <tech x="6.3" y="3.0">DEHCShipPriestessTeam</tech>
+      <tech x="6.3" y="5.0">DEHCShipPriestesses2</tech>
+      <tech x="6.3" y="5.0">DEHCShipPriestessRepeat</tech>
+      <tech x="6.3" y="5.0">DEHCShipPriestessRepeat2</tech>
       <tech x="6.4" y="1.0">DEHCShipSlingers1</tech>
       <tech x="6.4" y="2.0">DEHCShipSlingersRepeat</tech>
       <tech x="6.4" y="2.0">DEHCRoadBuilding</tech>
@@ -1534,6 +1530,10 @@
       <tech>DEHCShipSlingers2</tech>
       <tech>DEHCRangedInfHitpointsInca</tech>
       <tech>DEHCMeleeInfCombatInca</tech>
+      <tech>DEHCShipPriestessTeam</tech>
+      <tech>DEHCShipPriestesses2</tech>
+      <tech>DEHCShipPriestessRepeat</tech>
+      <tech>DEHCShipPriestessRepeat2</tech>
       <tech>DEHCShipSlingers1</tech>
       <tech>DEHCShipSlingersRepeat</tech>
       <tech>DEHCRoadBuilding</tech>

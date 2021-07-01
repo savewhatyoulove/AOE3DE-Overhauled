@@ -191,3 +191,4 @@ Macemen BB
 Test out Inca water play
 Move sweden cheaper natives to inca
 Change Healer Dance to spawn Llamas
+Adjust Warrior Priestess shipments

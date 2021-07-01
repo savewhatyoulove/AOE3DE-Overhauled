@@ -12,6 +12,9 @@
         <target type="ProtoUnit">SPCIncaTemple</target>
       </effect>
       <effect mergeMode='add' type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">dePriestess</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">Canoe</target>
       </effect>
       <effect mergeMode='remove' type="TechStatus" status="UNOBTAINABLE">DEEliteMacemenShadow</effect>
@@ -24,6 +27,10 @@
       <effect type="TechStatus" status="obtainable">dePaititi</effect>
       <effect type="TechStatus" status="obtainable">DEChampionPriestess</effect>
       <effect type="TechStatus" status="obtainable">DEImpLegendaryPriestess</effect>
+      <effect mergeMode='remove' type="Data" action="deSpawnPriestess" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">CommunityPlaza</target>
+      </effect>
+
     </Effects>
 </Tech>
 
@@ -1009,20 +1016,8 @@
       <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">deIncaDog</target>
       </effect>
-      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">deIncaDog</target>
-      </effect>
-      <effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+            <effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">deChasqui</target>
-      </effect>
-      <effect type="Data" amount="3.00" subtype="LOS" relativity="Absolute">
-        <target type="ProtoUnit">dePriestess</target>
-      </effect>
-      <effect type="Data" action="Convert" amount="3.00" subtype="MaximumRange" relativity="Absolute">
-        <target type="ProtoUnit">dePriestess</target>
-      </effect>
-      <effect type="Data" action="Convert" amount="-1.00" subtype="ConversionDelay" relativity="Absolute">
-        <target type="ProtoUnit">dePriestess</target>
       </effect>
     </effects>
   </tech>
@@ -1038,14 +1033,8 @@
       <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">deChasqui</target>
       </effect>
-      <effect type="Data" amount="3.00" subtype="LOS" relativity="Absolute">
-        <target type="ProtoUnit">dePriestess</target>
-      </effect>
-      <effect type="Data" action="Convert" amount="3.00" subtype="MaximumRange" relativity="Absolute">
-        <target type="ProtoUnit">dePriestess</target>
-      </effect>
-      <effect type="Data" action="Convert" amount="-1.00" subtype="ConversionDelay" relativity="Absolute">
-        <target type="ProtoUnit">dePriestess</target>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deIncaDog</target>
       </effect>
     </effects>
   </tech>
@@ -1063,15 +1052,6 @@
       </effect>
       <effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">deChasqui</target>
-      </effect>
-      <effect type="Data" amount="3.00" subtype="LOS" relativity="Absolute">
-        <target type="ProtoUnit">dePriestess</target>
-      </effect>
-      <effect type="Data" action="Convert" amount="3.00" subtype="MaximumRange" relativity="Absolute">
-        <target type="ProtoUnit">dePriestess</target>
-      </effect>
-      <effect type="Data" action="Convert" amount="-1.00" subtype="ConversionDelay" relativity="Absolute">
-        <target type="ProtoUnit">dePriestess</target>
       </effect>
     </effects>
   </tech>
@@ -1667,6 +1647,36 @@
       </effect>
       <effect type="Data" action="SpawnMaceman" amount="1.00" subtype="ActionEnable" relativity="Absolute">
         <target type="ProtoUnit">deKallanka</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCTempleOfMamaKilla" type="Normal">
+    <dbid>6115</dbid>
+    <displaynameid>80471</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\inca\temple_mama_killa.png</icon>
+    <rollovertextid>80470</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">dePriestess</target>
+      </effect>
+      <effect type="TextOutput">80472</effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipPriestessTeam" type="Normal">
+    <effects>
+      <effect mergeMode='replace' type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="dePriestess" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipPriestessRepeat" type="Normal">
+    <effects>
+      <effect mergeMode='replace' type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="dePriestess" relativity="Absolute">
+        <target type="Player"/>
       </effect>
     </effects>
   </tech>
