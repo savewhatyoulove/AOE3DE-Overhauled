@@ -2033,5 +2033,10 @@
       <effect type="TextOutput">80503</effect>
     </effects>
   </tech>
+  <tech name="HCHeavyFortifications" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="TechStatus" status="active">dePaititi</effect>
+    </effects>
+  </tech>
 
     </techtreemods>
