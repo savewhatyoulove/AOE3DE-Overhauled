@@ -802,13 +802,6 @@
       <age>0</age>
     </card>
     <card>
-      <name>HCXPTownDance</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>0</age>
-    </card>
-    <card>
       <name>HCXPZapotecAllies1</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -921,6 +914,14 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>DEHCWillaqUmuSupport</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>9</displayunitcount>
+    </card>
+    <card>
       <name>DEHCHuankaSupport</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -950,7 +951,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>4</displayunitcount>
+      <displayunitcount>5</displayunitcount>
     </card>
     <card>
       <name>DEHCChimuSupport</name>
@@ -1008,6 +1009,25 @@
       <displayunitcount>3</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
+    <card>
+      <name>HCXPMayanAllies1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>11</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCXPMayanAllies2</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCXPMayanAllies1</prereqtech>
+      <age>3</age>
+      <displayunitcount>24</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+
     <card>
       <name>HCXPMayanAlliesRepeat</name>
       <maxcount>-1</maxcount>
@@ -1588,7 +1608,6 @@
       <tech x="3.0" y="5.0">DEHCAlpacaWool</tech>
       <tech x="3.0" y="5.0">DEHCIncaWallsTeam</tech>
       <tech x="3.0" y="5.0">DEHCHeavyFortificationsInca</tech>
-      <tech x="3.0" y="2.0">HCXPTownDance</tech>
       <tech x="3.0" y="5.0">DEHCShipBuilderTravois1</tech>
       <tech x="3.0" y="5.0">DEHCMonumentalArchitecture</tech>
       <tech x="3.0" y="5.0">DEHCCloudFortresses</tech>
@@ -1622,7 +1641,6 @@
       <tech>DEHCAlpacaWool</tech>
       <tech>DEHCIncaWallsTeam</tech>
       <tech>DEHCHeavyFortificationsInca</tech>
-      <tech>HCXPTownDance</tech>
       <tech>DEHCShipBuilderTravois1</tech>
       <tech>DEHCMonumentalArchitecture</tech>
       <tech>DEHCCloudFortresses</tech>
@@ -1719,6 +1737,7 @@
       <tech x="0.9" y="2.0">HCXPWaterDance</tech>
       <tech x="0.9" y="5.0">HCNavalCombat</tech>
       <tech x="1.8" y="5.0">HCXPArtificialIslands</tech>
+      <tech x="2.7" y="1.0">HCXPZapotecAllies1</tech>
       <tech x="2.7" y="1.0">HCXPTupiAlliesRepeat</tech>
       <tech x="2.7" y="1.0">DEHCTupiAllies1</tech>
       <tech x="2.7" y="1.0">DEHCMapucheAlliesRepeat1</tech>
@@ -1730,6 +1749,7 @@
       <tech x="2.7" y="1.0">DEHCSpanishAllies1</tech>
       <tech x="2.7" y="1.0">DEHCSpanishAllies2</tech>
       <tech x="2.7" y="1.0">DEHCHuankaSupport</tech>
+      <tech x="2.7" y="1.0">DEHCWillaqUmuSupport</tech>
       <tech x="2.7" y="1.0">DEHCChancaSupport</tech>
       <tech x="2.7" y="1.0">DEHCChachapoyaSupport</tech>
       <tech x="2.7" y="1.0">DEHCChinchaSupport</tech>
@@ -1738,6 +1758,8 @@
       <tech x="2.7" y="1.0">DEHCCanariSupport</tech>
       <tech x="2.7" y="1.0">DEHCImperialUnity</tech>
       <tech x="4.5" y="4.0">HCXPBuccaneers</tech>
+      <tech x="4.5" y="1.0">HCXPMayanAllies1</tech>
+      <tech x="4.5" y="3.0">HCXPMayanAllies2</tech>
       <tech x="4.5" y="5.0">HCXPMayanAlliesRepeat</tech>
       <tech x="5.2" y="7.0">DEHCAymaraSupport</tech>
       <tech x="7.2" y="5.0">DEHCFloatingIslands</tech>
@@ -1756,6 +1778,7 @@
       <tech>HCXPWaterDance</tech>
       <tech>HCNavalCombat</tech>
       <tech>HCXPArtificialIslands</tech>
+      <tech>HCXPZapotecAllies1</tech>
       <tech>HCXPTupiAlliesRepeat</tech>
       <tech>DEHCTupiAllies1</tech>
       <tech>DEHCMapucheAlliesRepeat1</tech>
@@ -1767,6 +1790,7 @@
       <tech>DEHCSpanishAllies1</tech>
       <tech>DEHCSpanishAllies2</tech>
       <tech>DEHCHuankaSupport</tech>
+      <tech>DEHCWillaqUmuSupport</tech>
       <tech>DEHCChancaSupport</tech>
       <tech>DEHCChachapoyaSupport</tech>
       <tech>DEHCChinchaSupport</tech>
@@ -1775,6 +1799,8 @@
       <tech>DEHCCanariSupport</tech>
       <tech>DEHCImperialUnity</tech>
       <tech>HCXPBuccaneers</tech>
+      <tech>HCXPMayanAllies1</tech>
+      <tech>HCXPMayanAllies2</tech>
       <tech>HCXPMayanAlliesRepeat</tech>
       <tech>DEHCAymaraSupport</tech>
       <tech>DEHCFloatingIslands</tech>

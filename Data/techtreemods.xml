@@ -30,6 +30,78 @@
       <effect mergeMode='remove' type="Data" action="deSpawnPriestess" amount="1.00" subtype="ActionEnable" relativity="Absolute">
         <target type="ProtoUnit">CommunityPlaza</target>
       </effect>
+      <effect mergeMode='add' type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">HCXPZapotecAllies1</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">HCXPZapotecAllies1</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">HCXPTupiAlliesRepeat</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">HCXPTupiAlliesRepeat</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCTupiAllies1</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">DEHCTupiAllies1</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCMapucheAlliesRepeat1</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">DEHCMapucheAlliesRepeat1</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCMapucheAlliesRepeat2</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">DEHCMapucheAlliesRepeat2</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCMapucheAllies1</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">DEHCMapucheAllies1</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCMapucheAllies2</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">DEHCMapucheAllies2</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCJesuitAllies1</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">DEHCJesuitAllies1</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCJesuitAllies2</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">DEHCJesuitAllies2</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">HCXPMayanAlliesRepeat</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">HCXPMayanAlliesRepeat</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">HCXPMayanAllies1</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">HCXPMayanAllies1</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">HCXPMayanAllies2</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">HCXPMayanAllies2</target>
+      </effect>
 
     </Effects>
 </Tech>
@@ -727,7 +799,7 @@
     <researchpoints>90.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\ingame\icon_age_iv.png</icon>
-    <rollovertextid>80030</rollovertextid>
+    <rollovertextid>150999</rollovertextid>
     <flag>Shadow</flag>
     <flag>AgeUpgrade</flag>
     <flag>CountsTowardEconomicScore</flag>
@@ -1351,7 +1423,7 @@
   </tech>
   <tech name="DEHCShipGroveWagonInca" type="Normal">
     <dbid>4761</dbid>
-    <displaynameid>1400002</displaynameid>
+    <displaynameid>140002</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -1382,7 +1454,7 @@
     <icon>resources\art\units\mapuche_clubman_icon.png</icon>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="deNatMercMapucheClubman" relativity="Absolute">
+      <effect tech="deCardIgnoreBuildLimit" type="Data" amount="15.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deNatMercMapucheClubman" relativity="Absolute">
         <target type="Player"/>
       </effect>
       <effect type="TechStatus" status="active">WarriorSocietyMapuche</effect>
@@ -1639,15 +1711,15 @@
       <techstatus status="Active">Fortressize</techstatus>
     </prereqs>
     <effects>
-      <effect type="Data" action="SpawnMaceman" amount="1.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">deIncaStronghold</target>
-      </effect>
-      <effect type="Data" action="SpawnMaceman" amount="1.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">WarHut</target>
-      </effect>
-      <effect type="Data" action="SpawnMaceman" amount="1.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">deKallanka</target>
-      </effect>
+	<effect type="Data" amount="2.00" subtype="FreeHomeCityUnitByUnitCount" counttype="deKallanka" unittype="deMaceman" relativity="Absolute">
+        	<target type="Player"/>
+	</effect>
+	<effect type="Data" amount="2.00" subtype="FreeHomeCityUnitByUnitCount" counttype="deIncaStronghold" unittype="deMaceman" relativity="Absolute">
+        	<target type="Player"/>
+	</effect>
+	<effect type="Data" amount="2.00" subtype="FreeHomeCityUnitByUnitCount" counttype="WarHut" unittype="deMaceman" relativity="Absolute">
+        	<target type="Player"/>
+	</effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCTempleOfMamaKilla" type="Normal">
@@ -1666,18 +1738,225 @@
       <effect type="TextOutput">80472</effect>
     </effects>
   </tech>
-  <tech name="DEHCShipPriestessTeam" type="Normal">
+ <tech mergeMode='replace' name="DEHCShipPriestessTeam" type="Normal">
+    <dbid>6081</dbid>
+    <displaynameid>80344</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\team_priestesses.png</icon>
+    <flag>HomeCity</flag>
+    <flag>TeamTech</flag>
     <effects>
-      <effect mergeMode='replace' type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="dePriestess" relativity="Absolute">
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="dePriestess" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutput">80345</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShipPriestessRepeat" type="Normal">
+    <dbid>6082</dbid>
+    <displaynameid>80122</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\infinite_priestess.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="dePriestess" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
   </tech>
-  <tech name="DEHCShipPriestessRepeat" type="Normal">
+  <tech mergeMode='replace' name="DEHCImperialUnity" type="Normal">
+    <dbid>6136</dbid>
+    <displaynameid>80514</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\inca\imperial_unity.png</icon>
+    <rollovertextid>80513</rollovertextid>
+    <flag>HomeCity</flag>
     <effects>
-      <effect mergeMode='replace' type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="dePriestess" relativity="Absolute">
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">HCXPZapotecAllies1</target>
+      </effect>
+      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">HCXPZapotecAllies1</target>
+      </effect>
+      <effect type="Data" amount="0.75" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">HCXPTupiAlliesRepeat</target>
+      </effect>
+      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">HCXPTupiAlliesRepeat</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCTupiAllies1</target>
+      </effect>
+      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">DEHCTupiAllies1</target>
+      </effect>
+      <effect type="Data" amount="0.75" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCMapucheAlliesRepeat1</target>
+      </effect>
+      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">DEHCMapucheAlliesRepeat1</target>
+      </effect>
+      <effect type="Data" amount="0.75" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCMapucheAlliesRepeat2</target>
+      </effect>
+      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">DEHCMapucheAlliesRepeat2</target>
+      </effect>
+      <effect type="Data" amount="0.75" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCJesuitAllies1</target>
+      </effect>
+      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">DEHCJesuitAllies1</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCJesuitAllies2</target>
+      </effect>
+      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">DEHCJesuitAllies2</target>
+      </effect>
+      <effect type="Data" amount="0.75" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">HCXPMayanAlliesRepeat</target>
+      </effect>
+      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">HCXPMayanAlliesRepeat</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">HCXPSpanishAllies1</target>
+      </effect>
+      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">HCXPSpanishAllies1</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">HCXPSpanishAllies2</target>
+      </effect>
+      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">HCXPSpanishAllies2</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">HCXPBuccaneers</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="ResearchPoints" relativity="Percent">
+        <target type="Tech">HCXPBuccaneers</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCHuankaSupport</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="ResearchPoints" relativity="Percent">
+        <target type="Tech">DEHCHuankaSupport</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCChancaSupport</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="ResearchPoints" relativity="Percent">
+        <target type="Tech">DEHCChancaSupport</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCChachapoyaSupport</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="ResearchPoints" relativity="Percent">
+        <target type="Tech">DEHCChachapoyaSupport</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCChinchaSupport</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="ResearchPoints" relativity="Percent">
+        <target type="Tech">DEHCChinchaSupport</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCChimuSupport</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="ResearchPoints" relativity="Percent">
+        <target type="Tech">DEHCChimuSupport</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCCollaSupport</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="ResearchPoints" relativity="Percent">
+        <target type="Tech">DEHCCollaSupport</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCWillaqUmuSupport</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="ResearchPoints" relativity="Percent">
+        <target type="Tech">DEHCWillaqUmuSupport</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCCanariSupport</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="ResearchPoints" relativity="Percent">
+        <target type="Tech">DEHCCanariSupport</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCCajamarcaSupport</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="ResearchPoints" relativity="Percent">
+        <target type="Tech">DEHCCajamarcaSupport</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCAymaraSupport</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="ResearchPoints" relativity="Percent">
+        <target type="Tech">DEHCAymaraSupport</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCSpanishAllies1</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="ResearchPoints" relativity="Percent">
+        <target type="Tech">DEHCSpanishAllies1</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCSpanishAllies2</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="ResearchPoints" relativity="Percent">
+        <target type="Tech">DEHCSpanishAllies2</target>
+      </effect>
+      <effect type="TextOutput">80515</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='add' name="DEHCWillaqUmuSupport" type="Normal">
+    <dbid>6131</dbid>
+    <displaynameid>150750</displaynameid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\natives\inca\priestess_icon.png</icon>
+    <rollovertextid>150751</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="dePriestess" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">dePriestess</target>
+      </effect>
+      <effect type="TextOutput">150752</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCChinchaSupport" type="Normal">
+    <dbid>6132</dbid>
+    <displaynameid>80502</displaynameid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\natives\inca\chincha_raft_icon.png</icon>
+    <rollovertextid>80501</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="deChinchaRaft" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deChinchaRaft</target>
+      </effect>
+      <effect type="TextOutput">80503</effect>
     </effects>
   </tech>
 

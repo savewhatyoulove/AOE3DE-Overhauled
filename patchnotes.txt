@@ -163,7 +163,7 @@ Shipments:
 -- Cloud Warriors moved to age 3
 -- Census moved to age 3
 -- High Ground now additionally increases outpost LOS by 6
--- Cloud Fortresses Reworkeked:
+-- Cloud Fortresses Reworked:
   -- Now provides +8 LOS to all buildings
   -- Now provides +0.20 Siege Armor to all buildings (an effective 20% multiplicative HP buff)
 -- 1/2/3 Farm Travois now provide +2/5/10 llamas
@@ -183,12 +183,13 @@ Shipments:
   -- No longer provides +5% Speed to Infantry and Villagers/Healers
   -- No longer provides a free chasquis
   -- Now provides +20% speed to all Villagers, Healers, Scouts, and Livestock
--- Age IV 15 Elite Mapuche for 1k gold added. 
+-- Age IV 16 Elite Mapuche for 1k gold added. 
+-- Age III 10 Elite Bolas Riders for 750 gold added. 
+-- Imperial Unity now provides -20s research time for native warrior shipments instead of -50%
+  -- This stacks with the baseline civ bonus for a total of -40s or -66% in total
+  -- Temple and Spanish shipments are unchanged due to not being affected by inca civ bonus
 
 
 TODO//
-Macemen BB
 Test out Inca water play
-Move sweden cheaper natives to inca
 Change Healer Dance to spawn Llamas
-Adjust Warrior Priestess shipments

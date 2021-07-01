@@ -8,7 +8,7 @@
 	    <string _locid="34389">Great Temple</string>
 	    <string _locid="34387">Sacred temple of the Inca. Trickles wood over time automatically.</string>
 	    <string _locid="79923">Ages up very fast and allows Jungle Outposts to receive shipments</string>
-	    <String _locid="80002" symbol="cStringCivRolloverInca">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nKancha Houses spawn 2 Llamas when built. Llamas can be tasked at the community plaza at a less efficient rate than villagers. Starts with a free Chasqui who can construct Tambos; powerful Trading Posts which villagers can garrison in, and receives an additional Chasquis every Age. Military units can garrison in Kallankas and Strongholds. Native Allies shipments are cheaper and arrive more quickly\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nChasqui, Plumed Spearman, Chimu Runner, Jungle Bowman, Bolas Warrior, Huaraca, Maceman, Warrior Priestess and Chincha Raft.\n&lt;color=1.0, 1.0, 0.0&gt;Unique buildings:&lt;/color&gt;\nKallanka, Stronghold, Kancha House and Tambo\n&lt;color=1.0, 1.0, 0.0&gt;Unique ceremonies:&lt;/color&gt;\nMoon Ceremony and Supay Ceremony\n\nA vast South American empire known for the power of its walls and smart administration.</String>
+	    <String _locid="80002" symbol="cStringCivRolloverInca">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nKancha Houses spawn 2 Llamas when built. Llamas can be tasked at the community plaza at a less efficient rate than villagers. Starts with a free Chasqui who can construct Tambos; powerful Trading Posts which villagers can garrison in, and receives an additional Chasqui every Age. Military units can garrison in Kallankas and Strongholds. Native Allies shipments are cheaper and arrive more quickly\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nChasqui, Plumed Spearman, Chimu Runner, Jungle Bowman, Bolas Warrior, Huaraca, Maceman, Warrior Priestess and Chincha Raft.\n&lt;color=1.0, 1.0, 0.0&gt;Unique buildings:&lt;/color&gt;\nKallanka, Stronghold, Kancha House and Tambo\n&lt;color=1.0, 1.0, 0.0&gt;Unique ceremonies:&lt;/color&gt;\nMoon Ceremony and Supay Ceremony\n\nA vast South American empire known for the power of its walls and smart administration.</String>
 	    <string _locid="80008">Ages up very fast and allows Jungle Outposts to receive shipments</string>
 	    <string _locid="80009">Ages up very fast and allows Jungle Outposts to receive shipments</string>
 	    <string _locid="80010">Ages up very fast and allows Jungle Outposts to receive shipments</string>
@@ -26,7 +26,6 @@
 	    <string _locid="80026">3 Builder Travois and Excessive Tribute</string>
 	    <string _locid="80028">2 Warrior Priestesses</string>
 	    <string _locid="80029">3 Macemen</string>
-	    <string _locid="80030">4 Macemen</string>
 	    <string _locid="80031">8 Macemen</string>
 	    <string _locid="80077">Tambos are cheaper and stronger.</string>
 	    <string _locid="80083">Ranged warrior who hurls bolas for a wide area of effect. The bola slows down enemies. Good against cavalry in melee.</string>
@@ -51,7 +50,7 @@
 	    <string _locid="80438">Sends 24 Peruvian dogs and improves them in combat. Allows your Warchief and Kancha Houses to raise them. Additionally, you can train more Peruvian dogs.</string>
 	    <string _locid="80445">Tambos and Chasqui generate trickles of Experience.</string>
 	    <string _locid="80447">Villagers gather all Food faster.</string>
-	    <string _locid="80453">Each military building (Kallankas, War Huts, and Strongholds) will do a one-time muster of 2 Macemen.</string>
+	    <string _locid="80453">Receive a shipment of 2 Macemen for each military buildings you have (Kallankas, War Huts, and Strongholds).</string>
 	    <string _locid="80464">Villagers, Fishing Boats and Warships gather faster from animals and animal resources last longer.</string>
 	    <string _locid="80470">Warrior Priestesses gain increased attack.</string>
 	    <string _locid="80477">Warships are cheaper and gather from fish much more quickly and whales somewhat more quickly.</string>
@@ -92,7 +91,10 @@
 	    <string _locid="150503">Legendary Warrior Priestesses</string>
 	    <string _locid="150504">Warrior Priestess attack and hitpoints increased.</string>
 	    <string _locid="150505">Legendary Warrior Priestess</string>
-	    <string _locid="200057">1 Warrior Priestess</string>
+	    <string _locid="150750">Willaq Umu Support</string>
+	    <string _locid="150751">The Willaq Umu sends 9 Warrior Priestesses and increases their hitpoints.</string>
+	    <string _locid="150752">Willaq Umu Support Shipment has arrived.</string>
+	    <string _locid="150999">4 Macemen</string>
 
 	</Language>
   </StringTable>
