@@ -42,7 +42,7 @@ Huaraca: Unit Rework
 -- Range on all attacks reduced to 18 from 20 (and 24 for siege)
 -- Ranged Attack damage type changed to melee from siege.
 -- Current multipliers replaced with 0.5x AbstractLightCavalry, AbstractHeavyInfantry, and 0.75x AbstractVillager (ranged attack only).
--- Melee attack improved to 20 from 10
+-- Melee attack improved to 20 from 10 (same multipliers as melee, but without villager penalty)
 -- Siege Attack improved to 50 w/ ROF of 3.0 from 46 w/ ROF of 4.0
 -- Cost rescaled to 40 Food, 80 wood from 30 Wood, 90 Gold
 Explanation: Huaraca were a weird siege unit before, and now they're more of an extreme meteor hammer. More range and siege capabilities, but far less tanky and lower DPS. 
@@ -74,6 +74,10 @@ Priestess: Unit Rework
 -- Melee damage improved to 20 from 5 and 10x Hero, 10x Mercenary, and 1.5x AbstractCavalry multipliers added
 -- Siege Attack action added at 28 w/ 6 range and 3.0 ROF
 
+Chasqui:
+-- Shadowtechs lessened to +10/20/30% HP for a total of +50%
+-- No longer shadowtechs damage.
+
 Llamas: Given the increased importance of Llamas for Inca, I've greatly increased their build limit.
 -- Build Limit: Increased from 20 to 40
 
@@ -95,11 +99,11 @@ Kancha House:
 Big Buttons: 
 -- Royal Festival reworked:
   -- Moved to the Kallanka from the community plaza.
-  -- Now spawns 2 macemen from each Kallanka, War Hut, and Stronghold.
+  -- Now ships 2 macemen for each Kallanka, War Hut, and Stronghold you have built.
   -- Cost increased to 500 Food/Wood/Gold from 300/400/500
 -- Queen's Festival reworked:
-  -- Cost increased to 300 of each resource from 180
-  -- Now spawns 1 villager from each kacnha house
+  -- Cost increased to 200 of each resource from 180
+  -- Now ships 1 villager for each Kancha House you have built
 -- Viracocha Festival reworked:
   -- Moved to the Community Plaza from Kallanka
   -- Cost reduced to 500W/500G from 750W/750G
@@ -155,41 +159,51 @@ Shipments:
 -- Colla Support: 
   -- Cost reduced to 1000 from 1500
   -- Now ships 17 Bolas instead of 22
-  -- Now provides +0.5x HeavyCavalry and +0.3x LC at range for Bolas as well as +20% ranged damage in general. 
--- Cajamarca Support now additionally provides +15% ranged damage to Jungle Bowmen and their DOT. 
+  -- Now provides +0.5x HeavyCavalry at range for Bolas as well as +25% ranged damage in general. 
+-- Aymara Support Reworked:
+  -- Kept: +5 Chasqui build limit, ships 5 Chasqui
+  -- HP increase improved to +75% from +50%
+  -- No longer provides a damage buff or mercenary multipliers
+  -- Now additionally provides +10% speed and +6 LOS
+  -- Enables Chasqui to run while stealthed at full speed (this also is enabled by Cloud Warriors)
+  -- Chasqui now slow down nearby enemy units at -4% per chasqui. This caps out at roughly 31% (24 range)
+-- Cajamarca Support now additionally provides +20% ranged damage to Jungle Bowmen and their DOT. 
 -- Chiribaya Dogs now increases Peruvian Hairless Dog build limit to 12 from 7
 -- Llama Lifestyle now additionally increases the speed of llamas by 25% and increases their build limit by +10
 -- Temple of Mama Killa now provides +30% Attack to Warrior Priestesses
--- Quipu Kamayuk. Moved to age 3 and current effects removed. Moves Trade Monopoly to the fortress age and makes them significantly cheaper (now costs 150F/150W/150G), Tambos now have +5 LOS. 
+-- Willaq Umu Support added - ships 9 Warrior Priestesses and increases their health by 30%
+-- Quipu Kamayuk. Moved to age 3 and current effects removed. Moves Trade Monopoly to the fortress age and makes them free 
+-- Age II 2 Macemen shipment added
+-- Age IV 5 Macemen INFINITE shipment added
 -- Cloud Warriors moved to age 3
--- Census moved to age 3
--- High Ground now additionally increases outpost LOS by 6
+-- Census moved to age 3, now has +25% work rate to all Kallankas
+-- High Ground now additionally affects Jungle Outposts
 -- Cloud Fortresses Reworked:
   -- Now provides +8 LOS to all buildings
   -- Now provides +0.20 Siege Armor to all buildings (an effective 20% multiplicative HP buff)
--- 1/2/3 Farm Travois now provide +2/5/10 llamas
--- Ceque System now grants Chasquis an XP trickle of 0.25/s per Chasquis. 
--- Chincha Brewing now provides +15% gather rate to all food resources instead of improving kancha trickle
--- Salt Ponds now provide +10% yield
--- Chinchillas now buffs all ships for Inca. 
--- Fortress Age Warrior Priestess Support shipment added. Ships 7 Warrior Priestesses and increases their health by 30%
+-- 1/2/3 Farm Travois now provide +3/5/10 llamas
+-- Ceque System now additionally grants Chasquis an XP trickle of 0.25/s per Chasquis. 
+-- Chincha Brewing Reworked:  now provides +15% gather rate to all food resources instead of improving kancha trickle
+-- Salt Ponds now additionally provides +10% yield
+-- Chinchillas now buffs all ships for Inca instead of just fishing boats and Chincha Rafts. 
 -- Floating Island Reworked:
   -- War ships gather +60% more quickly from fish
   -- War ships gather +15% more quickly from whales
   -- War ships costs 10% less wood
--- Town Dance re-added
 -- Fulling Mills and Stockyards added. 
 -- Fortress Age 1000 Coin/1000 Food crates added.
 -- TEAM Inca Bridges Reworked:
   -- No longer provides +5% Speed to Infantry and Villagers/Healers
   -- No longer provides a free chasquis
-  -- Now provides +20% speed to all Villagers, Healers, Scouts, and Livestock
+  -- Now provides +25% speed to all Pets and Livestock, +15$ speed to all Villagers (+10% for Coureurs), +10% for Healers and Scouts 
+-- TEAM 1 Priestess increased to TEAM 2 Warrior Priestesses 
 -- Age IV 16 Elite Mapuche for 1k gold added. 
 -- Age III 10 Elite Bolas Riders for 750 gold added. 
+-- Age II 9 Zapotec for 500 gold added. 
+-- Age II 11 Maya for 500 gold added. 
+-- Age IV 24 Maya for 1000 gold added. 
 -- Imperial Unity now provides -20s research time for native warrior shipments instead of -50%
   -- This stacks with the baseline civ bonus for a total of -40s or -66% in total
   -- Temple and Spanish shipments are unchanged due to not being affected by inca civ bonus
-
-
-TODO//
-Change Healer Dance to increase unit LOS
+-- Age IV 4 Cloud Forest Travois added (4 Mango Groves)
+-- Advanced Tambo no longer provides a Chasqui, cost reduction improved to -50% from -40%
