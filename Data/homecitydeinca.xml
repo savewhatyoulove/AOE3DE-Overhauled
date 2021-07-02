@@ -477,6 +477,15 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>DEHCShipMacemenRepeat</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>5</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
       <name>DEHCCurare</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -1285,7 +1294,6 @@
       <default/>
       <cards>
         <card dbid="6069">DEHCShipFatLlamasRepeat</card>
-        <card dbid="6082">DEHCShipPriestessRepeat</card>
         <card dbid="6147">DEHCAmericanAlliesInca</card>
         <card dbid="6071">DEHCShipFatLlamas1</card>
         <card dbid="6148">DEHCShipTamboTravois</card>
@@ -1363,7 +1371,6 @@
         <card dbid="6073">HCShipWoodCrates6</card>
         <card dbid="6120">DEHCShipChinchaRafts1</card>
         <card dbid="6056">DEHCShipBolasWarriorsRepeat</card>
-        <card dbid="6082">DEHCShipPriestessRepeat</card>
         <card dbid="6103">DEHCIncaBridgesTeam</card>
       </cards>
     </deck>
@@ -1507,13 +1514,13 @@
       <tech x="4.8" y="1.0">DEHCShipMacemen1</tech>
       <tech x="4.8" y="2.0">DEHCShipMacemen2</tech>
       <tech x="4.8" y="2.0">DEHCShipMacemen4</tech>
+      <tech x="4.8" y="2.0">DEHCShipMacemenRepeat</tech>
       <tech x="4.8" y="4.0">DEHCCurare</tech>
       <tech x="4.8" y="5.0">DEHCShipSlingers2</tech>
       <tech x="4.8" y="7.0">DEHCRangedInfHitpointsInca</tech>
       <tech x="5.6" y="3.0">DEHCMeleeInfCombatInca</tech>
       <tech x="6.3" y="3.0">DEHCShipPriestessTeam</tech>
       <tech x="6.3" y="5.0">DEHCShipPriestesses2</tech>
-      <tech x="6.3" y="5.0">DEHCShipPriestessRepeat</tech>
       <tech x="6.3" y="5.0">DEHCShipPriestessRepeat2</tech>
       <tech x="6.4" y="1.0">DEHCShipSlingers1</tech>
       <tech x="6.4" y="2.0">DEHCShipSlingersRepeat</tech>
@@ -1546,13 +1553,13 @@
       <tech>DEHCShipMacemen1</tech>
       <tech>DEHCShipMacemen2</tech>
       <tech>DEHCShipMacemen4</tech>
+      <tech>DEHCShipMacemenRepeat</tech>
       <tech>DEHCCurare</tech>
       <tech>DEHCShipSlingers2</tech>
       <tech>DEHCRangedInfHitpointsInca</tech>
       <tech>DEHCMeleeInfCombatInca</tech>
       <tech>DEHCShipPriestessTeam</tech>
       <tech>DEHCShipPriestesses2</tech>
-      <tech>DEHCShipPriestessRepeat</tech>
       <tech>DEHCShipPriestessRepeat2</tech>
       <tech>DEHCShipSlingers1</tech>
       <tech>DEHCShipSlingersRepeat</tech>

@@ -57,7 +57,7 @@
 	    <string _locid="80480">Warships and Fishing Boats move fast like Chinchillas and take less time to train.</string>
 	    <string _locid="80495">The Chancas send 9 Macemen and increase their damage against infantry.</string>
 	    <string _locid="80498">The Chachapoyas send 17 Huaracas and increase their attack range.</string>
-
+	    <string _locid="80501">The Chincha ship 5 Chincha Rafts and increase their hitpoints.</string>
 	    <string _locid="80507">The Colla send 17 Bolas Warriors and increase their ranged damage, especially against Heavy Cavalry and Heavy Shock Infantry.</string>
 	    <string _locid="80520">Buildings gain increased line of sight and siege armor.</string>
 	    <string _locid="80530">The Aymara send 5 Chasquis and greatly improve their hitpoints, speed, and line of sight. Chasquis now slow down nearby enemies and can enter stealth with no speed penalty. Increases the build limit for Chasquis.</string>
@@ -84,6 +84,7 @@
 	    <string _locid="150011">Seasonal Labor IV</string>
 	    <string _locid="150012">Seasonal Labor IV Shipment has arrived.</string>
 	    <string _locid="150050">2 Macemen</string>
+	    <string _locid="150051">5 Macemen</string>
 	    <string _locid="150075">15 Mapuche Allies</string>
 	    <string _locid="150500">Champion Warrior Priestesses</string>
 	    <string _locid="150501">Warrior Priestess attack and hitpoints increased.</string>

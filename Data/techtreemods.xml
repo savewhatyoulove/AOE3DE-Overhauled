@@ -1271,6 +1271,20 @@
       </effect>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DEHCShipMacemenRepeat" type="Normal">
+    <dbid>6057</dbid>
+    <displaynameid>150051</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\infinite_maceman.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="deMaceman" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
   <tech name="HCXPShipFarmTravois1" type="Normal">
     <effects>
 	<effect mergeMode='add' type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="Llama" relativity="Absolute">
