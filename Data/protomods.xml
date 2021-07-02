@@ -22,9 +22,9 @@
     <los>18.0000</los>
     <buildpoints>15.0000</buildpoints>
     <buildlimit>13</buildlimit>
-    <bounty>54.0000</bounty>
-    <buildbounty>27.0000</buildbounty>
-    <cost resourcetype="Wood">135.0000</cost>
+    <bounty>56.0000</bounty>
+    <buildbounty>28.0000</buildbounty>
+    <cost resourcetype="Wood">140.0000</cost>
     <buildingworkrate>1.0000</buildingworkrate>
     <allowedage>0</allowedage>
     <armor type="Siege" value="0.0000"/>
