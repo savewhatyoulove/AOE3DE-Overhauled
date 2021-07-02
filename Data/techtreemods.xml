@@ -914,9 +914,9 @@
     <flag>NativeDance</flag>
     <flag>CheckLandHCGatherPoint</flag>
     <effects>
-      <effect type="Data" action="SpawnRefugees1" amount="1.00" subtype="ActionAdd" unittype="deHouseInca" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
+	    <effect type="Data" amount="1.00" subtype="FreeHomeCityUnitByUnitCount" counttype="deHouseInca" unittype="SettlerNative" relativity="Absolute">
+        	<target type="Player"/>
+	    </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCSaltPonds" type="Normal">

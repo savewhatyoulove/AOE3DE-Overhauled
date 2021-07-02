@@ -1262,6 +1262,7 @@
     <command page="1" column="5">SetUnitAsHomeCityGatherPoint</command>
   </unit>
   <unit id="1512" name="deIncaStronghold">
+	  <train row="0" page="0" column="5">dePriestess</train>
 	  <train mergeMode='remove'>deMaceman</train>
   </unit>
 <unit mergeMode='replace' id="1622" name="deNatBolasRider">
