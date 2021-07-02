@@ -90,6 +90,7 @@ Building Changes:
 
 Kancha House:
 -- No longer trickles food, now spawns 2 unfattened llamas when built.
+-- Cost increased to 140 wood from 135.
 
 Big Buttons: 
 -- Royal Festival reworked:
@@ -157,7 +158,7 @@ Shipments:
   -- Now provides +0.5x HeavyCavalry and +0.3x LC at range for Bolas as well as +20% ranged damage in general. 
 -- Cajamarca Support now additionally provides +15% ranged damage to Jungle Bowmen and their DOT. 
 -- Chiribaya Dogs now increases Peruvian Hairless Dog build limit to 12 from 7
--- Llama Lifestyle now additionally increases the speed of llamas by 25% and reduces their cost by 10%
+-- Llama Lifestyle now additionally increases the speed of llamas by 25% and increases their build limit by +10
 -- Temple of Mama Killa now provides +30% Attack to Warrior Priestesses
 -- Quipu Kamayuk. Moved to age 3 and current effects removed. Moves Trade Monopoly to the fortress age and makes them significantly cheaper (now costs 150F/150W/150G), Tambos now have +5 LOS. 
 -- Cloud Warriors moved to age 3
