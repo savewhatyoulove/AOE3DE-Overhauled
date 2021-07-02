@@ -605,8 +605,8 @@
     <obstructionradiusx>0.4900</obstructionradiusx>
     <obstructionradiusz>0.4900</obstructionradiusz>
     <formationcategory>Protected</formationcategory>
-    <maxvelocity>5.0000</maxvelocity>
-    <maxrunvelocity>7.0000</maxrunvelocity>
+    <maxvelocity>5.2500</maxvelocity>
+    <maxrunvelocity>7.2500</maxrunvelocity>
     <movementtype>land</movementtype>
     <turnrate>18.0000</turnrate>
     <animfile>units\natives\inca\slinger\slinger.xml</animfile>

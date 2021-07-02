@@ -38,7 +38,7 @@ Huaraca: Unit Rework
 -- AbstractInfantry tag replaced with AbstractCoyoteMan and AbstractLightInfantry (they're now Shock Infantry like Chimu Runners)
 -- HP increased to 180 from 150
 -- Armor reduced to 20 RR from 30 RR
--- Speed increased to 5.0 from 4.0
+-- Speed increased to 5.25 from 4.0
 -- Range on all attacks reduced to 18 from 20 (and 24 for siege)
 -- Ranged Attack damage type changed to melee from siege.
 -- Current multipliers replaced with 0.5x AbstractLightCavalry, AbstractHeavyInfantry, and 0.75x AbstractVillager (ranged attack only).
