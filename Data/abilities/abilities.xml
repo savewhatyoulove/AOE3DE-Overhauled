@@ -471,10 +471,10 @@
     <ability>dePowerStrikeOruc<rof>90</rof></ability>
   </derevcorsaircaptain>
   <decarolean>
-    <ability>deCaroleanCharge<rof>90</rof><usebigabilitybutton>true</usebigabilitybutton><donotforcestop>true</donotforcestop><castonself>true</castonself></ability>
+    <ability>deCaroleanCharge<rof>75</rof><usebigabilitybutton>true</usebigabilitybutton><donotforcestop>true</donotforcestop><castonself>true</castonself></ability>
   </decarolean>
   <denizam>
-    <ability>deNizamCharge<rof>90</rof><usebigabilitybutton>true</usebigabilitybutton><donotforcestop>true</donotforcestop><castonself>true</castonself></ability>
+    <ability>deNizamCharge<rof>75</rof><usebigabilitybutton>true</usebigabilitybutton><donotforcestop>true</donotforcestop><castonself>true</castonself></ability>
   </denizam>
   <towncenter>
     <ability>deUSLevyMinutemen<rof>160</rof><nevershowingrid>true</nevershowingrid><alwaysdisabledingrid>false</alwaysdisabledingrid></ability>

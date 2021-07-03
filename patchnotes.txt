@@ -207,3 +207,18 @@ Shipments:
   -- Temple and Spanish shipments are unchanged due to not being affected by inca civ bonus
 -- Age IV 4 Cloud Forest Travois added (4 Mango Groves)
 -- Advanced Tambo no longer provides a Chasqui, cost reduction improved to -50% from -40%
+
+Sweden Changes:
+
+Unit Changes:
+
+Carolean Reworked: 
+-- Cost: Increased to 40F/60G from 60F/40G
+-- Speed: Reduced to 4.0 from 4.25
+-- Charge Speed: Increased to +1.5 from +1.0, and cooldown reduced to 80 seconds from 90
+-- Siege Attack: Damage reduced to 14 from 20, ROF improved to 2.0 from 3.0
+-- Ranged Attack: Damage reduced to 14 from 19, ROF improved to 2.0 from 2.5. Now additionally has 1.5x AbstractHeavyInfantry
+-- Melee Attack: Damage reduced to 14 from 19, existing multipliers removed.
+    -- 2.5 AbstractCavalry, 2.5x AbstractHeavyInfantry, and 2.25x AbstractHeavyInfantry multipliers added.
+
+

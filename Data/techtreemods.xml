@@ -439,6 +439,9 @@
       <effect mergeMode='add' type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
         <target type="ProtoUnit">SPCIncaOutpost</target>
       </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deChasqui</target>
+      </effect>
   </tech>
   <tech mergeMode='replace' name="DEFortressizeInca" type="Normal">
     <dbid>6004</dbid>
@@ -2046,5 +2049,96 @@
       <effect mergeMode='add' type="TechStatus" status="active">dePaititi</effect>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DEHCOldWaysInca" type="Normal">
+    <dbid>6149</dbid>
+    <displaynameid>46938</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\Old_Ways.png</icon>
+    <rollovertextid>46939</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="300.00" subtype="Cost" resource="Food" relativity="Assign">
+        <target type="Tech">deBigIncaScoutingParty</target>
+      </effect>
+      <effect type="Data" amount="300.00" subtype="Cost" resource="Food" relativity="Assign">
+        <target type="Tech">deBigIncaRaidingParty</target>
+      </effect>
+      <effect type="Data" amount="300.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">deBigIncaRaidingParty</target>
+      </effect>
+      <effect type="Data" amount="300.00" subtype="Cost" resource="Wood" relativity="Assign">
+        <target type="Tech">deBigIncaWarParty</target>
+      </effect>
+      <effect type="Data" amount="300.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">deBigIncaWarParty</target>
+      </effect>
+      <effect type="Data" amount="300.00" subtype="Cost" resource="Food" relativity="Assign">
+        <target type="Tech">deBigIncaWarParty</target>
+      </effect>
+      <effect type="Data" amount="200.00" subtype="Cost" resource="Wood" relativity="Assign">
+        <target type="Tech">deBigFarmUrcuchillay</target>
+      </effect>
+      <effect type="Data" amount="200.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">deBigFarmUrcuchillay</target>
+      </effect>
+      <effect type="Data" amount="250.00" subtype="Cost" resource="Food" relativity="Assign">
+        <target type="Tech">deBigPlantationCoca</target>
+      </effect>
+      <effect type="Data" amount="250.00" subtype="Cost" resource="Wood" relativity="Assign">
+        <target type="Tech">deBigPlantationCoca</target>
+      </effect>
+      <effect type="Data" amount="250.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">deBigPlantationCoca</target>
+      </effect>
+      <effect type="Data" amount="200.00" subtype="Cost" resource="Food" relativity="Assign">
+        <target type="Tech">deBigDockTotora</target>
+      </effect>
+      <effect type="Data" amount="250.00" subtype="Cost" resource="Wood" relativity="Assign">
+        <target type="Tech">deBigDockTotora</target>
+      </effect>
+      <effect type="Data" amount="150.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">deBigDockTotora</target>
+      </effect>
+      <effect type="Data" amount="100.00" subtype="Cost" resource="Food" relativity="Assign">
+        <target type="Tech">deBigHouseQueensFestival</target>
+      </effect>
+      <effect type="Data" amount="100.00" subtype="Cost" resource="Wood" relativity="Assign">
+        <target type="Tech">deBigHouseQueensFestival</target>
+      </effect>
+      <effect type="Data" amount="100.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">deBigHouseQueensFestival</target>
+      </effect>
+      <effect type="Data" amount="25.00" subtype="Cost" resource="Wood" relativity="Assign">
+        <target type="Tech">deBigWarHutHualcana</target>
+      </effect>
+      <effect type="Data" amount="250.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">deBigWarHutHualcana</target>
+      </effect>
+      <effect type="Data" amount="250.00" subtype="Cost" resource="Wood" relativity="Assign">
+        <target type="Tech">deBigKallankaViracocha</target>
+      </effect>
+      <effect type="Data" amount="250.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">deBigKallankaViracocha</target>
+      </effect>
+      <effect type="Data" amount="800.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">deBigStrongholdThunderbolts</target>
+      </effect>
+      <effect type="Data" amount="500.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">deBigMarketIntiFestival</target>
+      </effect>
+      <effect type="Data" amount="250.00" subtype="Cost" resource="Food" relativity="Assign">
+        <target type="Tech">deBigFirePitRoyalFestival</target>
+      </effect>
+      <effect type="Data" amount="250.00" subtype="Cost" resource="Wood" relativity="Assign">
+        <target type="Tech">deBigFirePitRoyalFestival</target>
+      </effect>
+      <effect type="Data" amount="250.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">deBigFirePitRoyalFestival</target>
+      </effect>
+    </effects>
+  </tech>
+
 
     </techtreemods>
