@@ -92,51 +92,6 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipFoodCrates1</name>
-      <maxcount>-1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>0</age>
-      <displayunitcount>300</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>HCShipFoodCrates2</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>HCShipFoodCrates1</prereqtech>
-      <age>1</age>
-      <displayunitcount>600</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>HCShipFoodCrates3</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>HCShipFoodCrates2</prereqtech>
-      <age>1</age>
-      <displayunitcount>700</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>HCShipFoodCrates4</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>HCShipFoodCrates3</prereqtech>
-      <age>2</age>
-      <displayunitcount>1000</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>HCShipFoodCrates5</name>
-      <maxcount>1</maxcount>
-      <level>25</level>
-      <prereqtech>HCShipFoodCrates4</prereqtech>
-      <age>3</age>
-      <displayunitcount>1600</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
       <name>HCShipWoodCrates1</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -1309,6 +1264,30 @@
       <prereqtech>-1</prereqtech>
       <age>0</age>
       <displayunitcount>2</displayunitcount>
+      </card>
+      <card>
+      <name>DEHCShipFishCrate2</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>5</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCShipFishCrate3</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>8</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCShipFishCrate4</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>13</displayunitcount>
     </card>
     <card>
       <name>DEHCHandMortar</name>
@@ -1527,7 +1506,6 @@
     <deck>
       <name>$$71332$$Beginner</name>
       <cards>
-        <card>HCShipFoodCrates1</card>
         <card>HCShipWoodCrates1</card>
         <card>HCShipCoinCrates1</card>
         <card>HCShipPikemen1</card>
@@ -1592,7 +1570,6 @@
         <card dbid="2227">HCShipPikemen1</card>
         <card dbid="6512">DEHCShipDragoonsRepeat</card>
         <card dbid="2037">HCFencingSchool</card>
-        <card dbid="2209">HCShipFoodCrates3</card>
         <card dbid="6513">DEHCShipElks</card>
         <card dbid="6517">DEHCBlueberries</card>
         <card dbid="6516">DEHCEngelsbergIronworks</card>
@@ -1655,7 +1632,6 @@
     <revoltdeck civ="DERevFinland">
       <name>$$45518$$</name>
       <cards>
-        <card>DEHCREVShipFoodCrates</card>
         <card>DEHCREVShipCoinCrates</card>
         <card>DEHCREVTreeSpawn</card>
         <card>DEHCREVShipBlockhouses</card>
@@ -1710,19 +1686,14 @@
       <tech x="0.8" y="1.0">DEHCShipMiners2</tech>
       <tech x="0.8" y="1.0">DEHCShipMiners3</tech>
       <tech x="0.8" y="1.0">DEHCShipMinersTeam</tech>
-      <tech x="2.1" y="1.0">HCShipFoodCrates1</tech>
       <tech x="2.8" y="1.0">HCShipWoodCrates1</tech>
       <tech x="3.5" y="1.0">HCShipCoinCrates1</tech>
-      <tech x="2.1" y="2.0">HCShipFoodCrates2</tech>
       <tech x="2.8" y="2.0">HCShipWoodCrates2</tech>
       <tech x="3.5" y="2.0">HCShipCoinCrates2</tech>
-      <tech x="2.1" y="3.0">HCShipFoodCrates3</tech>
       <tech x="2.8" y="3.0">HCShipWoodCrates3</tech>
       <tech x="3.5" y="3.0">HCShipCoinCrates3</tech>
-      <tech x="2.1" y="4.0">HCShipFoodCrates4</tech>
       <tech x="2.8" y="4.0">HCShipWoodCrates4</tech>
       <tech x="3.5" y="4.0">HCShipCoinCrates4</tech>
-      <tech x="2.1" y="5.0">HCShipFoodCrates5</tech>
       <tech x="2.8" y="5.0">HCShipWoodCrates5</tech>
       <tech x="4.4" y="1.0">HCShipSheep1</tech>
       <tech x="4.4" y="2.0">HCShipSheep2</tech>
@@ -1736,6 +1707,9 @@
       <tech x="7.0" y="5.0">HCXPAdvancedBalloon</tech>
       <tech x="7.0" y="5.0">HCShipBalloons</tech>
       <tech x="7.0" y="5.0">DEHCShipFishCrate</tech>
+      <tech x="7.0" y="5.0">DEHCShipFishCrate2</tech>
+      <tech x="7.0" y="5.0">DEHCShipFishCrate3</tech>
+      <tech x="7.0" y="5.0">DEHCShipFishCrate4</tech>
     </obtainabletechs>
     <activetechs>
       <tech x="0.5" y="2.0">DEHCFalunMineTeam</tech>
@@ -1743,19 +1717,14 @@
       <tech x="0.8" y="1.0">DEHCShipMiners2</tech>
       <tech x="0.8" y="1.0">DEHCShipMiners3</tech>
       <tech x="0.8" y="1.0">DEHCShipMinersTeam</tech>
-      <tech x="2.1" y="1.0">HCShipFoodCrates1</tech>
       <tech x="2.8" y="1.0">HCShipWoodCrates1</tech>
       <tech x="3.5" y="1.0">HCShipCoinCrates1</tech>
-      <tech x="2.1" y="2.0">HCShipFoodCrates2</tech>
       <tech x="2.8" y="2.0">HCShipWoodCrates2</tech>
       <tech x="3.5" y="2.0">HCShipCoinCrates2</tech>
-      <tech x="2.1" y="3.0">HCShipFoodCrates3</tech>
       <tech x="2.8" y="3.0">HCShipWoodCrates3</tech>
       <tech x="3.5" y="3.0">HCShipCoinCrates3</tech>
-      <tech x="2.1" y="4.0">HCShipFoodCrates4</tech>
       <tech x="2.8" y="4.0">HCShipWoodCrates4</tech>
       <tech x="3.5" y="4.0">HCShipCoinCrates4</tech>
-      <tech x="2.1" y="5.0">HCShipFoodCrates5</tech>
       <tech x="2.8" y="5.0">HCShipWoodCrates5</tech>
       <tech x="4.4" y="1.0">HCShipSheep1</tech>
       <tech x="4.4" y="2.0">HCShipSheep2</tech>
@@ -1769,6 +1738,9 @@
       <tech x="7.0" y="5.0">HCXPAdvancedBalloon</tech>
       <tech x="7.0" y="5.0">HCShipBalloons</tech>
       <tech x="7.0" y="5.0">DEHCShipFishCrate</tech>
+      <tech x="7.0" y="5.0">DEHCShipFishCrate2</tech>
+      <tech x="7.0" y="5.0">DEHCShipFishCrate3</tech>
+      <tech x="7.0" y="5.0">DEHCShipFishCrate4</tech>
     </activetechs>
     <validunits/>
     <units/>

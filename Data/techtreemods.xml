@@ -2477,22 +2477,7 @@
       <effect type="TextOutput">91640</effect>
     </effects>
   </tech>
-  <tech name="DEHCShipFishCrateRepeat" type="Normal">
-    <dbid>6613</dbid>
-    <displaynameid>91784</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\art\units\animals\fish\cod_icon_infinite.png</icon>
-    <rollovertextid>91783</rollovertextid>
-    <flag>HomeCity</flag>
-    <effects>
-      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="deCrateofFish" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-    </effects>
-  </tech>
-  <tech name="DEHCShipFishCrateRepeat2" type="Normal">
+  <tech name="DEHCShipFishCrate2" type="Normal">
     <dbid>6613</dbid>
     <displaynameid>120005</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
@@ -2507,7 +2492,7 @@
       </effect>
     </effects>
   </tech>
-  <tech name="DEHCShipFishCrateRepeat3" type="Normal">
+  <tech name="DEHCShipFishCrate3" type="Normal">
     <dbid>6613</dbid>
     <displaynameid>120007</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
@@ -2522,7 +2507,7 @@
       </effect>
     </effects>
   </tech>
-  <tech name="DEHCShipFishCrateRepeat4" type="Normal">
+  <tech name="DEHCShipFishCrate4" type="Normal">
     <dbid>6613</dbid>
     <displaynameid>120009</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
