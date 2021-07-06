@@ -49,23 +49,41 @@
       <displayunitcount>1</displayunitcount>
     </card>
     <card>
-      <name>HCShipSettlers1</name>
-      <maxcount>-1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>0</age>
-      <displayunitcount>2</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
       <name>DEHCBlueberries</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCShipSettlers1</prereqtech>
+      <prereqtech>-1</prereqtech>
       <age>0</age>
     </card>
     <card>
-      <name>HCShipSettlers3</name>
+      <name>DEHCShipMiners1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+      <displayunitcount>3</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCShipMiners2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+      <displayunitcount>4</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCShipMiners3</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+      <displayunitcount>11</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCShipMinersTeam</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -1509,7 +1527,6 @@
     <deck>
       <name>$$71332$$Beginner</name>
       <cards>
-        <card>HCShipSettlers1</card>
         <card>HCShipFoodCrates1</card>
         <card>HCShipWoodCrates1</card>
         <card>HCShipCoinCrates1</card>
@@ -1527,7 +1544,7 @@
       <name>$$71332$$Beginner</name>
       <default/>
       <cards>
-        <card dbid="2207">HCShipSettlers3</card>
+        <card dbid="2207">DEHCShipMiners1</card>
         <card dbid="2215">HCShipCoinCrates3</card>
         <card dbid="2212">HCShipWoodCrates3</card>
         <card dbid="2220">HCShipCows</card>
@@ -1579,7 +1596,7 @@
         <card dbid="6513">DEHCShipElks</card>
         <card dbid="6517">DEHCBlueberries</card>
         <card dbid="6516">DEHCEngelsbergIronworks</card>
-        <card dbid="2207">HCShipSettlers3</card>
+        <card dbid="2207">DEHCShipMiners1</card>
       </cards>
     </deck>
     <deck>
@@ -1590,7 +1607,7 @@
         <card dbid="6390">DEHCTrampleTactics</card>
         <card dbid="6386">DEHCHandUnitDamage</card>
         <card dbid="6391">DEHCFinnhorses</card>
-        <card dbid="2207">HCShipSettlers3</card>
+        <card dbid="2207">DEHCShipMiners1</card>
         <card dbid="6395">DEHCTorpTeam</card>
         <card dbid="6413">DEHCContractMercsLandsknechts</card>
         <card dbid="6380">DEHCRoyalDecreeSwedish</card>
@@ -1689,8 +1706,10 @@
     <rolloverstringid>25536</rolloverstringid>
     <obtainabletechs>
       <tech x="0.5" y="2.0">DEHCFalunMineTeam</tech>
-      <tech x="0.8" y="1.0">HCShipSettlers1</tech>
-      <tech x="0.8" y="1.0">HCShipSettlers3</tech>
+      <tech x="0.8" y="1.0">DEHCShipMiners1</tech>
+      <tech x="0.8" y="1.0">DEHCShipMiners2</tech>
+      <tech x="0.8" y="1.0">DEHCShipMiners3</tech>
+      <tech x="0.8" y="1.0">DEHCShipMinersTeam</tech>
       <tech x="2.1" y="1.0">HCShipFoodCrates1</tech>
       <tech x="2.8" y="1.0">HCShipWoodCrates1</tech>
       <tech x="3.5" y="1.0">HCShipCoinCrates1</tech>
@@ -1720,8 +1739,10 @@
     </obtainabletechs>
     <activetechs>
       <tech x="0.5" y="2.0">DEHCFalunMineTeam</tech>
-      <tech x="0.8" y="1.0">HCShipSettlers1</tech>
-      <tech x="0.8" y="1.0">HCShipSettlers3</tech>
+      <tech x="0.8" y="1.0">DEHCShipMiners1</tech>
+      <tech x="0.8" y="1.0">DEHCShipMiners2</tech>
+      <tech x="0.8" y="1.0">DEHCShipMiners3</tech>
+      <tech x="0.8" y="1.0">DEHCShipMinersTeam</tech>
       <tech x="2.1" y="1.0">HCShipFoodCrates1</tech>
       <tech x="2.8" y="1.0">HCShipWoodCrates1</tech>
       <tech x="3.5" y="1.0">HCShipCoinCrates1</tech>
