@@ -1,4 +1,46 @@
 <techtreemods>
+<!-- General Shipments --> 
+<tech name="HCColonialMilitia" type="Normal">
+    <dbid>1992</dbid>
+    <displaynameid>34999</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>20.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\levy\levy.png</icon>
+    <rollovertextid>35000</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnitByUnitCount" counttype="TownCenter" unittype="Minuteman" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnitByUnitCount" counttype="TownCenter" unittype="Minuteman" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect tech="ypFreeCoinCrate400Age1" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateSpanishGold" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutput">41822</effect>
+      <effect tech="deGermanLogisticianDiscoveryShadow" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="Uhlan" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="deSpanishLogisticianShadow" type="Data" amount="200.00" subtype="ResourceIfTechObtainable" resource="Food" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="deSpanishLogisticianShadow" type="Data" amount="100.00" subtype="ResourceIfTechObtainable" resource="Wood" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="deSpanishLogisticianShadow" type="Data" amount="100.00" subtype="ResourceIfTechObtainable" resource="Gold" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="deAddFree400CoinToInventory" type="Data" amount="400.00" subtype="ResourceIfTechObtainable" resource="Gold" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+
 <!-- Inca Techs --> 
 <Tech name="DEAge0Inca" type="Normal">
     <Effects>
@@ -2046,5 +2088,332 @@
       <effect mergeMode='add' type="TechStatus" status="active">dePaititi</effect>
     </effects>
   </tech>
+  <!-- Sweden Techs --> 
+  <tech mergeMode='replace' name="DEAge0Swedish" type="Normal">
+    <dbid>6300</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Explorer</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Hussar</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="Data" amount="60.00" subtype="BuildLimit" relativity="Assign">
+        <target type="ProtoUnit">Settler</target>
+      </effect>
+      <effect type="TechStatus" status="active">AAStandardStartingTechs</effect>
+      <effect type="TechStatus" status="active">DEEuropeanStandardTechs</effect>
+      <effect type="SetName" tech="DEHCHandMortar" newname="91787" newrollover="91786"/>
+      <effect type="TechStatus" status="obtainable">GuardHussars</effect>
+      <effect type="TechStatus" status="obtainable">VeteranHussars</effect>
+      <effect type="TechStatus" status="obtainable">DEChurchPikePush</effect>
+      <effect type="TechStatus" status="obtainable">DEChurchSavolaxJaegers</effect>
+      <effect type="TechStatus" status="obtainable">DEChurchGustavianGuards</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Sheep</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Priest</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Miner</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deTorp</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deTorpGeneric</target>
+      </effect>
+      <effect type="CommandRemove" proto="deTorpGeneric">
+        <target type="ProtoUnit">deTorpWagon</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Settler</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Mill</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">VeteranPikemen</effect>
+      <effect type="TechStatus" status="obtainable">RGDalkarl</effect>
+      <effect type="TechStatus" status="obtainable">ImperialDalkarl</effect>
+      <effect type="TechStatus" status="obtainable">ImperialHussars</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Capitol</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Barracks</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Falconet</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Stable</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">ArtilleryDepot</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Plantation</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">TradingPost</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Dock</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Market</target>
+      </effect>
+      <effect type="TechStatus" status="active">XPTrickle</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Arsenal</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">CWallGate</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Church</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">LivestockPen</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">FishingBoat</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Pikeman</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Mortar</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">FieldHospital</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">WallStraight2</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">WallStraight5</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">WallConnector</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Frigate</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Galleon</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Culverin</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Caravel</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Monitor</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">Bayonet</effect>
+      <effect type="TechStatus" status="active">Levy</effect>
+      <effect type="Data" action="SpawnCannon" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Factory</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">ImperialCannon</effect>
+      <effect type="TechStatus" status="obtainable">ImperialFieldGun</effect>
+      <effect type="TechStatus" status="obtainable">FieldGun</effect>
+      <effect type="TechStatus" status="obtainable">VeteranDragoonsShadow</effect>
+      <effect type="TechStatus" status="obtainable">VeteranSkirmishersShadow</effect>
+      <effect type="TechStatus" status="obtainable">ImperialManOWar</effect>
+      <effect type="TechStatus" status="obtainable">ImperialMonitors</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deTavern</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">DERevolutionUSA</effect>
+      <effect type="TechStatus" status="obtainable">DERevolutionFinland</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpPetard</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">ImperialHorseArtillery</effect>
+      <effect type="TechStatus" status="obtainable">HeavyHorseArtillery</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpHorseArtillery</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpSpy</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">ShipHowitzers</effect>
+      <effect type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">HCPrivateers2</target>
+      </effect>
+      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">HCPrivateers2</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCContractMercsHessians</target>
+      </effect>
+      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">DEHCContractMercsHessians</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCContractMercsBlackRiders</target>
+      </effect>
+      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">DEHCContractMercsBlackRiders</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCContractMercsHighlanders</target>
+      </effect>
+      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">DEHCContractMercsHighlanders</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCContractMercsSwissPikemen</target>
+      </effect>
+      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">DEHCContractMercsSwissPikemen</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCContractMercsLandsknechts</target>
+      </effect>
+      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">DEHCContractMercsLandsknechts</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCContractMercsFusiliers</target>
+      </effect>
+      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">DEHCContractMercsFusiliers</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">HCPrivateers</target>
+      </effect>
+      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">HCPrivateers</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">HCMercsHighland</target>
+      </effect>
+      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">HCMercsHighland</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">ProfessionalGunners</effect>
+      <effect type="TechStatus" status="obtainable">Trunion</effect>
+      <effect type="TechStatus" status="obtainable">Pillage</effect>
+      <effect type="TechStatus" status="obtainable">MilitaryDrummers</effect>
+      <effect type="TechStatus" status="obtainable">Flintlock</effect>
+      <effect type="TechStatus" status="obtainable">PaperCartridge</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deCarolean</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">VeteranCaroleans</effect>
+      <effect type="TechStatus" status="obtainable">GuardCaroleans</effect>
+      <effect type="TechStatus" status="obtainable">ImperialCaroleans</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deFinnishRider</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">VeteranFinnishRiders</effect>
+      <effect type="TechStatus" status="obtainable">RGDrabants</effect>
+      <effect type="TechStatus" status="obtainable">ImperialDrabants</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianLogisticianSwedish</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianNaturalist</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianGovernor</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianPhilosopherPrince</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianInventorColonial</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianMercContractorFortressSwedish</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianPirate</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianMarksmanSwedish</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianBishopFortress</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianExiledPrince</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianMusketeerSwedish</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianCavalierSwedish</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianLogistician</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianEngineer</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianPapalGuardSwedish</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianGeneralSwedish</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianPresidente</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianKnight</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianMercContractor</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianInventor</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deLeatherCannon</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">deInfantryGuns</effect>
+      <effect type="TechStatus" status="obtainable">deImperialInfantryGuns</effect>
+      <effect type="TechStatus" status="obtainable">IncendiaryGrenades</effect>
+      <effect type="TechStatus" status="active">SaloonJaeger</effect>
+      <effect type="TechStatus" status="active">SaloonBlackRider</effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipMiners1" type="Normal">
+    <dbid>2796</dbid>
+    <displaynameid>120000</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\spc\miner\miner_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="Miner" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipMiners2" type="Normal">
+    <dbid>2797</dbid>
+    <displaynameid>120001</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\spc\miner\miner_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="Miner" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipMiners3" type="Normal">
+    <dbid>2798</dbid>
+    <displaynameid>120002</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\spc\miner\miner_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Miner" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deProspectorWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+
+    </effects>
+  </tech>
+  <tech name="DEHCShipMinersTeam" type="Normal">
+    <dbid>2916</dbid>
+    <displaynameid>120003</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\team_miners.png</icon>
+    <flag>HomeCity</flag>
+    <flag>TeamTech</flag>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="Miner" convertsettlers="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutput">120004</effect>
+    </effects>
+  </tech>
+
 
     </techtreemods>

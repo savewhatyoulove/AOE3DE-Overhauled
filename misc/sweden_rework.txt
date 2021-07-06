@@ -1,0 +1,24 @@
+Sweden Rework Changes:
+
+
+New Unit: Miner, a hardy settler that gathers coin exceptionally quickly, but is worse at all other natural resources. Armed with grenades to fend off infantry, but vulnerable to cavalry raids. Builds defensive buildings more quickly.
+Stats: 
+Unit Tags: AbstractVillager, AbstractInfantry
+HP: 150
+Armor: 40 Ranged
+Speed: 4.0
+Cost: 100
+Population: 1
+Build Limit: 30
+Siege Attack: 12 w/ 14 range and 3.0 ROF
+Ranged Attack: 8 Siege w/ 14 range and 3.0 ROF. 0.25x AbstractCavalry and AbstractVillager
+Melee Attack: 10 w/ 0.25x AbstractCavalry and AbstractVillager
+Gather Rates: +25% base mining rate (0.6 --> 0.75), +20% yield on mines. -10% hunting, chopping, herding rates. 
+
+Building Changes:
+
+Torp: 
+-- Can now only gather wood. Area Mining/Hunting disabled. 
+-- Base wood gather range increased to 7 from 6.2
+-- Base wood gather limit increased to 7 from 5.
+-- Cost reduced to 120 wood from 135
