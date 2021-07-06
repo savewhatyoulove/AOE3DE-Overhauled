@@ -2671,7 +2671,6 @@
     <resourcesubtype>meat</resourcesubtype>
     <allowedage>0</allowedage>
     <decay delay="0.0000" duration="0.0000"/>
-    <gathererlimit>8</gathererlimit>
     <unittype>LogicalTypeMinimapFilterEconomic</unittype>
     <unittype>LogicalTypeEasySelectAvoid</unittype>
     <unittype>LogicalTypeHealed</unittype>
@@ -2681,7 +2680,6 @@
     <unittype>Unit</unittype>
     <unittype>AbstractInfiniteCrate</unittype>
     <flag>NotDeleteable</flag>
-    <flag>DoNotValidateResourceInventory</flag>
     <flag>Immoveable</flag>
     <flag>NonAutoFormedUnit</flag>
     <flag>DoNotCreateUnitGroupAutomatically</flag>
@@ -2702,7 +2700,6 @@
       <rate type="Food">1.000000</rate>
     </protoaction>
   </unit>
-
 </protomods>
 
 

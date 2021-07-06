@@ -1685,7 +1685,6 @@
       <tech x="0.8" y="1.0">DEHCShipMiners1</tech>
       <tech x="0.8" y="1.0">DEHCShipMiners2</tech>
       <tech x="0.8" y="1.0">DEHCShipMiners3</tech>
-      <tech x="0.8" y="1.0">DEHCShipMinersTeam</tech>
       <tech x="2.8" y="1.0">HCShipWoodCrates1</tech>
       <tech x="3.5" y="1.0">HCShipCoinCrates1</tech>
       <tech x="2.8" y="2.0">HCShipWoodCrates2</tech>
@@ -1716,7 +1715,6 @@
       <tech x="0.8" y="1.0">DEHCShipMiners1</tech>
       <tech x="0.8" y="1.0">DEHCShipMiners2</tech>
       <tech x="0.8" y="1.0">DEHCShipMiners3</tech>
-      <tech x="0.8" y="1.0">DEHCShipMinersTeam</tech>
       <tech x="2.8" y="1.0">HCShipWoodCrates1</tech>
       <tech x="3.5" y="1.0">HCShipCoinCrates1</tech>
       <tech x="2.8" y="2.0">HCShipWoodCrates2</tech>
