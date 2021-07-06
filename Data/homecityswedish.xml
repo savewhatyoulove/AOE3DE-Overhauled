@@ -69,7 +69,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>0</age>
+      <age>1</age>
       <displayunitcount>4</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
@@ -78,7 +78,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>0</age>
+      <age>3</age>
       <displayunitcount>11</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
@@ -87,7 +87,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>0</age>
+      <age>1</age>
       <displayunitcount>3</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
@@ -1293,7 +1293,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>3</age>
+      <age>2</age>
     </card>
     <card>
       <name>DEHCBarrage</name>

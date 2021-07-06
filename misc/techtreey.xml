@@ -19976,7 +19976,7 @@
   <tech name="PoliticianPhilosopherPrince" type="Normal">
     <dbid>2151</dbid>
     <displaynameid>35507</displaynameid>
-    <cost resourcetype="Food">800.0000</cost>
+    <cost resourcetype="Food">700.0000</cost>
     <researchpoints>90.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\ingame\icon_age_ii.png</icon>

@@ -1,5 +1,24 @@
 <techtreemods>
 <!-- General Shipments --> 
+  <tech mergeMode='replace' name="PoliticianPhilosopherPrince" type="Normal">
+    <dbid>2151</dbid>
+    <displaynameid>35507</displaynameid>
+    <cost resourcetype="Food">700.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_ii.png</icon>
+    <rollovertextid>35506</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="CrateofFood" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="SetAge">Age1</effect>
+    </effects>
+  </tech>
+
 <tech name="HCColonialMilitia" type="Normal">
     <dbid>1992</dbid>
     <displaynameid>34999</displaynameid>
@@ -2106,6 +2125,9 @@
       <effect type="Data" amount="60.00" subtype="BuildLimit" relativity="Assign">
         <target type="ProtoUnit">Settler</target>
       </effect>
+      <effect type="Data" action="Gather" amount="1.20" subtype="Yield" unittype="AbstractMine" relativity="BasePercent">
+        <target type="ProtoUnit">Miner</target>
+      </effect>
       <effect type="TechStatus" status="active">AAStandardStartingTechs</effect>
       <effect type="TechStatus" status="active">DEEuropeanStandardTechs</effect>
       <effect type="SetName" tech="DEHCHandMortar" newname="91787" newrollover="91786"/>
@@ -2229,8 +2251,6 @@
       <effect type="TechStatus" status="obtainable">ImperialCannon</effect>
       <effect type="TechStatus" status="obtainable">ImperialFieldGun</effect>
       <effect type="TechStatus" status="obtainable">FieldGun</effect>
-      <effect type="TechStatus" status="obtainable">VeteranDragoonsShadow</effect>
-      <effect type="TechStatus" status="obtainable">VeteranSkirmishersShadow</effect>
       <effect type="TechStatus" status="obtainable">ImperialManOWar</effect>
       <effect type="TechStatus" status="obtainable">ImperialMonitors</effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -2395,7 +2415,6 @@
       <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deProspectorWagon" relativity="Absolute">
         <target type="Player"/>
       </effect>
-
     </effects>
   </tech>
   <tech name="DEHCShipMinersTeam" type="Normal">
@@ -2414,6 +2433,127 @@
       <effect type="TextOutput">120004</effect>
     </effects>
   </tech>
-
+  <tech mergeMode='replace' name="DEHCEngelsbergIronworks" type="Normal">
+    <dbid>6534</dbid>
+    <displaynameid>91751</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\sweden\engelsberg_ironworks.png</icon>
+    <rollovertextid>91752</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" action="Gather" amount="1.30" subtype="WorkRate" unittype="AbstractMine" relativity="BasePercent">
+        <target type="ProtoUnit">Miner</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.20" subtype="Yield" unittype="AbstractMine" relativity="BasePercent">
+        <target type="ProtoUnit">Miner</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deProspectorWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutput">91753</effect>
+    </effects>
+  </tech>
+ <tech mergeMode='replace' name="DEHCPlatoonFire" type="Normal">
+    <dbid>6389</dbid>
+    <displaynameid>91639</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\sweden\platoon_fire.png</icon>
+    <rollovertextid>91638</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" action="VolleyRangedAttack" amount="1.20" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractMusketeer</target>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="1.20" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractMusketeer</target>
+      </effect>
+      <effect type="Data" action="DefendRangedAttack" amount="1.20" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractMusketeer</target>
+      </effect>
+      <effect type="TextOutput">91640</effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipFishCrateRepeat" type="Normal">
+    <dbid>6613</dbid>
+    <displaynameid>91784</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\animals\fish\cod_icon_infinite.png</icon>
+    <rollovertextid>91783</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="deCrateofFish" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipFishCrateRepeat2" type="Normal">
+    <dbid>6613</dbid>
+    <displaynameid>120005</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\animals\fish\cod_icon_infinite.png</icon>
+    <rollovertextid>120006</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="deCrateofFish" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipFishCrateRepeat3" type="Normal">
+    <dbid>6613</dbid>
+    <displaynameid>120007</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\animals\fish\cod_icon_infinite.png</icon>
+    <rollovertextid>120008</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="deCrateofFish" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipFishCrateRepeat4" type="Normal">
+    <dbid>6613</dbid>
+    <displaynameid>120009</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\animals\fish\cod_icon_infinite.png</icon>
+    <rollovertextid>120010</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="13.00" subtype="FreeHomeCityUnit" unittype="deCrateofFish" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="PoliticianPhilosopherPrinceSwedish" type="Normal">
+    <dbid>2151</dbid>
+    <displaynameid>35507</displaynameid>
+    <cost resourcetype="Food">700.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_ii.png</icon>
+    <rollovertextid>35506</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="deCrateofFish" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="SetAge">Age1</effect>
+    </effects>
+  </tech>
 
     </techtreemods>

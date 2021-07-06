@@ -1,5 +1,8 @@
 Sweden Rework Changes:
 
+Starting Crate Changes:
+-- Crates of 200 Food replaced with Crates of 200 Surstromming
+-- 100 Wood removed, 100 Coin added.
 
 New Unit: Miner, a hardy settler that gathers coin exceptionally quickly, but is worse at all other natural resources. Armed with grenades to fend off infantry, but vulnerable to cavalry raids. Builds defensive buildings more quickly.
 Stats: 
@@ -14,6 +17,12 @@ Siege Attack: 12 w/ 14 range and 3.0 ROF
 Ranged Attack: 8 Siege w/ 14 range and 3.0 ROF. 0.25x AbstractCavalry and AbstractVillager
 Melee Attack: 10 w/ 0.25x AbstractCavalry and AbstractVillager
 Gather Rates: +25% base mining rate (0.6 --> 0.75), +20% yield on mines. -10% hunting, chopping, herding rates. 
+
+Unit Changes:
+
+Surstromming Crates:
+-- Now capped at 200 Food capacity instead of infinite.
+-- Build limit removed. 
 
 Building Changes:
 
