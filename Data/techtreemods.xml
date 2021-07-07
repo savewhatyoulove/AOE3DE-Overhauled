@@ -2582,7 +2582,7 @@
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\hc_gunpowder_infantry_hitpoints\hc_gunpowder_infantry_hitpoints.png</icon>
+    <icon>resources\images\icons\techs\svea_musk.png</icon>
     <rollovertextid>91691</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
@@ -2696,7 +2696,7 @@
       <effect type="TextOutput">91649</effect>
     </effects>
   </tech>
-  <tech name="DESavolaxMercenaries" type="Normal">
+  <tech name="DEHCSavolaxMercenaries" type="Normal">
     <dbid>6382</dbid>
     <displaynameid>91617</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>

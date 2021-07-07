@@ -591,7 +591,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>2</age>
+      <age>1</age>
       <displayunitcount>4</displayunitcount>
     </card>
     <card>
@@ -1081,6 +1081,13 @@
       <level>25</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
+    </card>
+    <card>
+      <name>DEHCSavolaxMercenaries</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
     </card>
     <card>
       <name>DEHCContractMercsSwissPikemen</name>
@@ -2052,6 +2059,7 @@
       <tech x="3.9" y="4.0">DEHCContractMercsBlackRiders</tech>
       <tech x="4.6" y="4.0">DEHCContractMercsHessians</tech>
       <tech x="3.9" y="5.0">DEHCGermanMercenaryContracts</tech>
+      <tech x="3.9" y="5.0">DEHCSavolaxMercenaries</tech>
       <tech x="4.6" y="5.0">HCMercsHighland</tech>
       <tech x="5.3" y="5.0">HCMercenaryLoyalty</tech>
       <tech x="5.3" y="6.0">HCMercsHessians2</tech>
@@ -2083,6 +2091,7 @@
       <tech x="3.9" y="4.0">DEHCContractMercsBlackRiders</tech>
       <tech x="4.6" y="4.0">DEHCContractMercsHessians</tech>
       <tech x="3.9" y="5.0">DEHCGermanMercenaryContracts</tech>
+      <tech x="3.9" y="5.0">DEHCSavolaxMercenaries</tech>
       <tech x="4.6" y="5.0">HCMercsHighland</tech>
       <tech x="5.3" y="5.0">HCMercenaryLoyalty</tech>
       <tech x="5.3" y="6.0">HCMercsHessians2</tech>
