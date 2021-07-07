@@ -2337,6 +2337,11 @@
       <effect type="TechStatus" status="obtainable">GuardCaroleans</effect>
       <effect type="TechStatus" status="obtainable">ImperialCaroleans</effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Halberdier</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">GuardHalberdiers</effect>
+      <effect type="TechStatus" status="obtainable">ImperialHalberdiers</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">deFinnishRider</target>
       </effect>
       <effect type="TechStatus" status="obtainable">VeteranFinnishRiders</effect>
