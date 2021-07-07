@@ -2345,7 +2345,7 @@
       <effect type="TechStatus" status="obtainable">DEPoliticianLogisticianSwedish</effect>
       <effect type="TechStatus" status="obtainable">PoliticianNaturalist</effect>
       <effect type="TechStatus" status="obtainable">PoliticianGovernor</effect>
-      <effect type="TechStatus" status="obtainable">PoliticianPhilosopherPrince</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianPhilosopherPrinceSwedish</effect>
       <effect type="TechStatus" status="obtainable">DEPoliticianInventorColonial</effect>
       <effect type="TechStatus" status="obtainable">DEPoliticianMercContractorFortressSwedish</effect>
       <effect type="TechStatus" status="obtainable">PoliticianPirate</effect>
@@ -2465,16 +2465,25 @@
     <rollovertextid>91638</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" action="VolleyRangedAttack" amount="1.20" subtype="Damage" relativity="BasePercent">
+      <effect type="Data" action="VolleyRangedAttack" amount="1.10" subtype="Damage" relativity="BasePercent">
         <target type="ProtoUnit">AbstractMusketeer</target>
       </effect>
-      <effect type="Data" action="StaggerRangedAttack" amount="1.20" subtype="Damage" relativity="BasePercent">
+      <effect type="Data" action="StaggerRangedAttack" amount="1.10" subtype="Damage" relativity="BasePercent">
         <target type="ProtoUnit">AbstractMusketeer</target>
       </effect>
-      <effect type="Data" action="DefendRangedAttack" amount="1.20" subtype="Damage" relativity="BasePercent">
+      <effect type="Data" action="DefendRangedAttack" amount="1.10" subtype="Damage" relativity="BasePercent">
         <target type="ProtoUnit">AbstractMusketeer</target>
       </effect>
       <effect type="TextOutput">91640</effect>
+      <effect type="Data" action="VolleyRangedAttack" amount="1.10" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">deCarolean</target>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="1.10" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">deCarolean</target>
+      </effect>
+      <effect type="Data" action="DefendRangedAttack" amount="1.10" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">deCarolean</target>
+      </effect>
     </effects>
   </tech>
   <tech name="DEHCShipFishCrate2" type="Normal">
@@ -2538,6 +2547,207 @@
         <target type="Player"/>
       </effect>
       <effect type="SetAge">Age1</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCDalecarlianRebellion" type="Normal">
+    <dbid>6385</dbid>
+    <displaynameid>91627</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\sweden\dalecarlian_rebellion.png</icon>
+    <rollovertextid>91626</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TextOutput">91628</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCOxenstiernaReforms" type="Normal">
+    <dbid>6398</dbid>
+    <displaynameid>91672</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\sweden\oxenstierna_reforms.png</icon>
+    <rollovertextid>91671</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TextOutput">91673</effect>
+      <effect type="ResourceExchange" multiplier="1.50" toresource="Food" fromresource="Gold"/>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCSveaLifeguard" type="Normal">
+    <dbid>6404</dbid>
+    <displaynameid>91692</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_gunpowder_infantry_hitpoints\hc_gunpowder_infantry_hitpoints.png</icon>
+    <rollovertextid>91691</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deCarolean</target>
+      </effect>
+      <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractMusketeer</target>
+      </effect>
+      <effect type="TextOutput">91693</effect>
+    </effects>
+  </tech>
+  <tech name="DEHCHandUnitHitpointsTeam" type="Normal">
+    <dbid>6388</dbid>
+    <displaynameid>91636</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_team_musketeer_grenadier_hitpoints\hc_team_musketeer_grenadier_hitpoints.png</icon>
+    <rollovertextid>91635</rollovertextid>
+    <flag>HomeCity</flag>
+    <flag>TeamTech</flag>
+    <effects>
+      <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractHandInfantry</target>
+      </effect>
+      <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractHandCavalry</target>
+      </effect>
+      <effect type="TextOutput">91637</effect>
+    </effects>
+  </tech>
+  <tech name="DEHCHandUnitCombat" type="Normal">
+    <dbid>6387</dbid>
+    <displaynameid>91633</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_hand_infantry_combat\hc_hand_infantry_combat.png</icon>
+    <rollovertextid>91632</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.15" subtype="HitPoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractHandInfantry</target>
+      </effect>
+      <effect type="Data" amount="1.15" subtype="HitPoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractHandCavalry</target>
+      </effect>
+      <effect type="TextOutput">91634</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCDominions" type="Normal">
+    <dbid>6403</dbid>
+    <displaynameid>91688</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\sweden\dominions.png</icon>
+    <rollovertextid>91687</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="deTorpWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="CommandAdd" command="SetUnitAsHomeCityGatherPoint" page="0" column="0">
+        <target type="ProtoUnit">deTorp</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HCGatherPointPri3" relativity="Assign">
+        <target type="ProtoUnit">deTorp</target>
+      </effect>
+      <effect type="Data" amount="1.00" action="AreaGatherWoodCrate" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deTorp</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deTorp</target>
+      </effect>
+      <effect type="TextOutput">91689</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCSnaplocks" type="Normal">
+    <dbid>6392</dbid>
+    <displaynameid>91648</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\sweden\snaplocks.png</icon>
+    <rollovertextid>91647</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" action="DefendRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deCarolean</target>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deCarolean</target>
+      </effect>
+      <effect type="Data" action="VolleyRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deCarolean</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">deCarolean</target>
+      </effect>
+      <effect type="Data" action="DefendRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deFinnishRider</target>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deFinnishRider</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">deFinnishRider</target>
+      </effect>
+      <effect type="TextOutput">91649</effect>
+    </effects>
+  </tech>
+  <tech name="DESavolaxMercenaries" type="Normal">
+    <dbid>6382</dbid>
+    <displaynameid>91617</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\sweden\savolax_jaegers.png</icon>
+    <rollovertextid>91616</rollovertextid>
+    <flag>HomeCity</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="135.00" subtype="Cost" resource="Wood" relativity="Absolute">
+        <target type="ProtoUnit">MercJaeger</target>
+      </effect>
+      <effect type="Data" amount="-180.00" subtype="Cost" resource="Gold" relativity="Absolute">
+        <target type="ProtoUnit">MercJaeger</target>
+      </effect>
+      <effect type="Data" amount="200.00" subtype="Cost" resource="Wood" relativity="Absolute">
+        <target type="ProtoUnit">MercBlackRider</target>
+      </effect>
+      <effect type="Data" amount="-270.00" subtype="Cost" resource="Gold" relativity="Absolute">
+        <target type="ProtoUnit">MercBlackRider</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">MercBlackRider</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">MercJaeger</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="MercBlackRider" relativity="Absolute">
+        <target type="ProtoUnit">FortFrontier</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="MercJaeger" relativity="Absolute">
+        <target type="ProtoUnit">FortFrontier</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="MercBlackRider" relativity="Absolute">
+        <target type="ProtoUnit">Galleon</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="MercJaeger" relativity="Absolute">
+        <target type="ProtoUnit">Galleon</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="MercBlackRider" relativity="Absolute">
+        <target type="ProtoUnit">Stable</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="MercJaeger" relativity="Absolute">
+        <target type="ProtoUnit">Barracks</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="MercJaeger" relativity="Absolute">
+        <target type="ProtoUnit">Blockhouse</target>
+      </effect>
     </effects>
   </tech>
 

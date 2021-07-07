@@ -142,7 +142,7 @@
     <forceupdatemode>1</forceupdatemode>
     <modifytype>UnitResource</modifytype>
     <modifyamount>0.05</modifyamount>
-    <modifytargetlimit>7</modifytargetlimit>
+    <modifytargetlimit>6</modifytargetlimit>
     <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>
@@ -158,7 +158,7 @@
     <forceupdatemode>1</forceupdatemode>
     <modifytype>UnitResource</modifytype>
     <modifyamount>0.05</modifyamount>
-    <modifytargetlimit>20</modifytargetlimit>
+    <modifytargetlimit>15</modifytargetlimit>
     <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>
@@ -286,8 +286,8 @@
     <name stringid="91721">AreaGatherWoodCrate</name>
     <type>AutoRangedModify</type>
     <modifyabstracttype>AbstractWoodCrate</modifyabstracttype>
-    <active>1</active>
-    <maxrange>14</maxrange>
+    <active>0</active>
+    <maxrange>15</maxrange>
     <persistent>1</persistent>
     <donotignoredead>1</donotignoredead>
     <singleunit>0</singleunit>

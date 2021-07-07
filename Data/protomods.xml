@@ -2527,8 +2527,8 @@
     <portraiticon>resources\art\buildings\torp_house_portrait.png</portraiticon>
     <rollovertextid>91521</rollovertextid>
     <shortrollovertextid>91522</shortrollovertextid>
-    <initialhitpoints>1500.0000</initialhitpoints>
-    <maxhitpoints>1500.0000</maxhitpoints>
+    <initialhitpoints>1200.0000</initialhitpoints>
+    <maxhitpoints>1200.0000</maxhitpoints>
     <los>12.0000</los>
     <displayedrange>5.9000</displayedrange>
     <buildpoints>12.5000</buildpoints>

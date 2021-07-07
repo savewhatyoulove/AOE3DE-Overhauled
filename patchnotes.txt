@@ -2,7 +2,7 @@ General Changes:
 Shipments:
 -- Colonial Militia: Reworked
   -- Moved to Age 2 from discovery age
-  -- No longer enables Conscription. Now does a onetime muster of 6 minutemen per TC
+  -- No longer enables Conscription. Now ships a onetime muster of 6 minutemen per Town Center and Fort
   -- Now takes 20 seconds to arrive instead of 40 
 
 Dock:
@@ -207,3 +207,82 @@ Shipments:
   -- Temple and Spanish shipments are unchanged due to not being affected by inca civ bonus
 -- Age IV 4 Cloud Forest Travois added (4 Mango Groves)
 -- Advanced Tambo no longer provides a Chasqui, cost reduction improved to -50% from -40%
+
+
+Sweden Changes:
+
+Starting Changes:
+-- Crates of 200 Food replaced with Crates of 200 Surstromming
+-- 100 Wood removed, 100 Coin added.
+-- 1 Villager removed, 1 Miner added.
+
+New Unit: Miner, a hardy settler that gathers coin exceptionally quickly, but is worse at all other natural resources. Armed with grenades to fend off infantry, but vulnerable to cavalry raids. Builds defensive buildings more quickly.
+Stats: 
+Unit Tags: AbstractVillager, AbstractInfantry
+HP: 150
+Armor: 40 Ranged
+Speed: 4.0
+Cost: 100
+Population: 1
+Build Limit: 30
+Siege Attack: 12 w/ 14 range and 3.0 ROF
+Ranged Attack: 8 Siege w/ 14 range and 3.0 ROF. 0.25x AbstractCavalry and AbstractVillager
+Melee Attack: 10 w/ 0.25x AbstractCavalry and AbstractVillager
+Gather Rates: +25% base mining rate (0.6 --> 0.75), +20% yield on mines. -10% hunting, chopping, herding rates. 
+
+Politician Changes: 
+-- Philosopher Prince now provides 300 Surstromming instead of 400 food. 
+
+Unit Changes:
+
+Surstromming Crates:
+-- Now capped at 200 Food capacity instead of infinite.
+-- Build limit removed. 
+
+Sweden can no longer train crossbowmen without the Papal Guard politician or shipments
+
+Building Changes:
+
+Torp: 
+-- Can now only gather wood. Area Mining/Hunting disabled. 
+-- Base wood gather range increased to 7 from 6.2
+-- Base wood gather limit increased to 6 from 5.
+-- Cost reduced to 120 wood from 135
+-- HP reduced from 1500 to 1200
+
+
+Shipment Changes:
+-- Oxenstierna Reforms exchange rate buffed from 1.25 to 1.50 gold per food. 
+-- Crates of Surstromming Added:
+  -- 500 INF in age 2
+  -- 800 INF in age 3
+  -- 500 INF TEAM in age 3
+  -- 1300 INF in age 4
+-- Dalecarlean Rebellion reworked:
+  -- Now called "Dalecarlean Offensive"
+  -- Allows Pikemen and Halberdiers to perform a melee charge for +1.5 speed for 8 seconds, with a 75 second cooldown.
+-- Platoon Fire reworked:
+  -- Now buffs the ranged damage of AbstractMusketeer by 10%
+  -- Caroleans get a further 10% damage buff (for a total of 20%)
+  -- No longer increased the damage multipliers of Caroleans
+-- Svea Lifeguard reworked:
+  -- Now buffs the HP of AbstractMusketeer by 15%
+  -- Caroleans get a further 15% HP buff (for a total of 30%)
+  -- No longer changes the armor of Caroleans
+-- Snaplocks now provides +2 range for Caroleans (down from +3) and +2 range for Hakkapelita (up from +1)
+-- TEAM Heavy Infantry HP (Age II) removed
+-- Hand Infantry / Hand Cavalry HP (Age II) removed
+-- TEAM Hand Infantry / Hand Cavalry HP (Age II) added
+-- Hand Infantry / Hand Cavalry Combat (Age III) added 
+-- Engelsburg Ironworks reworked:
+  -- Now buffs Miner gather rate on mines by +30% and their yield rate by +20%.
+  -- Additionally ships a prospector wagon
+-- 2 Settlers INF and 3 Settlers removed
+-- Miner shipments added:
+  -- 3 in discovery (I)
+  -- 4 in commerce (II)
+  -- 10 and a prospector wagon in industrial (IV)
+-- Great Northern Forests moved to the fortress age (III), range increased to 15 (from 14), and tree cap increased to 15 from 14.
+-- Dominions moved to the commerce age (II), HP buff reduced to 25% from 30%, and can now only gather from wood crates. 
+-- Allotment System moved to Fortress Age (III)
+-- Savolax Mercenaries added in Fortress Age. Enables Jaegers and Black Riders in military buildings and converts their cost to a lesser amount of wood (135/200) (can buff to 130/190 if not strong enough)

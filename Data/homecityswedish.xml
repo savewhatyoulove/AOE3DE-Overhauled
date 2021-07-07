@@ -382,14 +382,14 @@
       <age>1</age>
     </card>
     <card>
-      <name>DEHCHandUnitHitpoints</name>
+      <name>DEHCHandUnitCombat</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>DEHCHandUnitDamage</prereqtech>
-      <age>1</age>
+      <age>2</age>
     </card>
     <card>
-      <name>DEHCHeavyInfHitpointsTeam</name>
+      <name>DEHCHandUnitHitpointsTeam</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -1554,7 +1554,7 @@
         <card dbid="2093">HCRoyalMint</card>
         <card dbid="6402">DEHCShipMineWagon2</card>
         <card dbid="6403">DEHCDominions</card>
-        <card dbid="6388">DEHCHeavyInfHitpointsTeam</card>
+        <card dbid="6388">DEHCHandUnitHitpointsTeam</card>
         <card dbid="6397">DEHCShipLeatherCannons1</card>
         <card dbid="2212">HCShipWoodCrates3</card>
         <card dbid="6394">DEHCFalunMineTeam</card>
@@ -1598,7 +1598,7 @@
         <card dbid="2606">HCSchooners</card>
         <card dbid="3389">HCXPWhaleOil</card>
         <card dbid="2212">HCShipWoodCrates3</card>
-        <card dbid="6387">DEHCHandUnitHitpoints</card>
+        <card dbid="6387">DEHCHandUnitCombat</card>
         <card dbid="6385">DEHCDalecarlianRebellion</card>
         <card dbid="2223">HCShipFrigates</card>
         <card dbid="814">HCUnlockFort</card>
@@ -1773,8 +1773,8 @@
       <tech x="1.9" y="2.0">DEHCShipHakkapelits2</tech>
       <tech x="1.6" y="5.0">DEHCShipLeatherCannons2</tech>
       <tech x="2.3" y="3.0">DEHCHandUnitDamage</tech>
-      <tech x="2.3" y="4.0">DEHCHandUnitHitpoints</tech>
-      <tech x="2.3" y="4.0">DEHCHeavyInfHitpointsTeam</tech>
+      <tech x="2.3" y="4.0">DEHCHandUnitCombat</tech>
+      <tech x="2.3" y="4.0">DEHCHandUnitHitpointsTeam</tech>
       <tech x="2.3" y="4.0">DEHCRangedCavalryCombat</tech>
       <tech x="2.3" y="5.0">DEHCPlatoonFire</tech>
       <tech x="3.2" y="1.0">DEHCShipLeatherCannons1</tech>
@@ -1820,7 +1820,7 @@
       <tech x="1.9" y="2.0">DEHCShipHakkapelits2</tech>
       <tech x="1.6" y="5.0">DEHCShipLeatherCannons2</tech>
       <tech x="2.3" y="3.0">DEHCHandUnitDamage</tech>
-      <tech x="2.3" y="4.0">DEHCHandUnitHitpoints</tech>
+      <tech x="2.3" y="4.0">DEHCHandUnitCombat</tech>
       <tech x="2.3" y="4.0">DEHCHeavyInfHitpointsTeam</tech>
       <tech x="2.3" y="4.0">DEHCRangedCavalryCombat</tech>
       <tech x="2.3" y="5.0">DEHCPlatoonFire</tech>
