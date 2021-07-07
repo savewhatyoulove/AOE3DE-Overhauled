@@ -1,5 +1,5 @@
 <techtreemods>
-<!-- General Shipments --> 
+<!-- Politician Changes --> 
   <tech mergeMode='replace' name="PoliticianPhilosopherPrince" type="Normal">
     <dbid>2151</dbid>
     <displaynameid>35507</displaynameid>
@@ -16,6 +16,24 @@
         <target type="Player"/>
       </effect>
       <effect type="SetAge">Age1</effect>
+    </effects>
+  </tech>
+
+<!-- General Shipments --> 
+  <tech name="HCXPColbertism" type="Normal">
+    <dbid>3439</dbid>
+    <displaynameid>47010</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\Colbertism.png</icon>
+    <rollovertextid>47009</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.25" subtype="ResourceTrickleRate" resource="Food" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutput">47012</effect>
     </effects>
   </tech>
 
@@ -2179,6 +2197,9 @@
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">ArtilleryDepot</target>
       </effect>
+      <effect type="Data" amount="-1.00" subtype="AllowedAge" relativity="Absolute">
+        <target type="ProtoUnit">ArtilleryDepot</target>
+      </effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">Plantation</target>
       </effect>
@@ -2323,6 +2344,24 @@
       </effect>
       <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
         <target type="Tech">HCMercsHighland</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCContractMercsStradiots</target>
+      </effect>
+      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">DEHCContractMercsStradiots</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">HCMercsHessiansRepeat</target>
+      </effect>
+      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">HCMercsHessiansRepeat</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">HCMercsBlackRidersRepeat</target>
+      </effect>
+      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">HCMercsBlackRidersRepeat</target>
       </effect>
       <effect type="TechStatus" status="obtainable">ProfessionalGunners</effect>
       <effect type="TechStatus" status="obtainable">Trunion</effect>
@@ -2543,7 +2582,7 @@
     <researchpoints>90.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\ingame\icon_age_ii.png</icon>
-    <rollovertextid>35506</rollovertextid>
+    <rollovertextid>120011</rollovertextid>
     <flag>Shadow</flag>
     <flag>AgeUpgrade</flag>
     <flag>CountsTowardEconomicScore</flag>
@@ -2755,5 +2794,64 @@
       </effect>
     </effects>
   </tech>
-
-    </techtreemods>
+  <tech name="HCMercsHessiansRepeat" type="Normal">
+    <dbid>2545</dbid>
+    <displaynameid>120013</displaynameid>
+    <cost resourcetype="Gold">300.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\infinite_jaeger_non_team.png</icon>
+    <rollovertextid>120012</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="MercJaeger" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCMercsBlackRidersRepeat" type="Normal">
+    <dbid>2549</dbid>
+    <displaynameid>120015</displaynameid>
+    <cost resourcetype="Gold">300.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\infinite_black_rider.png</icon>
+    <rollovertextid>120014</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="MercBlackRider" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCContractMercsStradiots" type="Normal">
+    <dbid>2546</dbid>
+    <displaynameid>120017</displaynameid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\balkan_stradiot\balkan_stradiot_icon_64x64.png</icon>
+    <rollovertextid>120016</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="MercStradiot" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="CommandAdd" proto="MercStradiot" page="0" column="2">
+        <target type="ProtoUnit">Stable</target>
+      </effect>
+      <effect type="CommandAdd" proto="MercStradiot" page="0" column="8">
+        <target type="ProtoUnit">Galleon</target>
+      </effect>
+      <effect type="CommandAdd" proto="MercStradiot" page="0" column="7">
+        <target type="ProtoUnit">FortFrontier</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">MercStradiot</target>
+      </effect>
+    </effects>
+  </tech>
+</techtreemods>

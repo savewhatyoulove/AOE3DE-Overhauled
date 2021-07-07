@@ -33707,7 +33707,7 @@
     <string _locid="90357">3 Native Embassy Travois. Allows the recruitment of Zapotec Lightning Warriors, Mayan Holcan Spearmen, Navajo Riflemen and Apache Cavalry at Native Embassies.</string>
     <string _locid="90358">Central American Allies</string>
     <string _locid="90359">4 Prospector Wagons</string>
-    <string _locid="90360">8 Hakkapelits</string>
+    <string _locid="90360">8 Karabiniers</string>
     <string _locid="90361">Ships 1 Frigate and 1 Monitor. Instead of a Mameluke you get an extra Privateer.</string>
     <string _locid="90362">Grenade Attack</string>
     <string _locid="90363">Grenade Siege Attack</string>
@@ -34238,7 +34238,7 @@
     <string _locid="91465" symbol="cStringErrorLoadingScenarioFileDefaultError">Could not load scenario %s</string>
     <string _locid="91466">Toggle Extended Minimap</string>
     <string _locid="91500" symbol="cStringCivNameSwedish">Swedes</string>
-    <string _locid="91501" symbol="cStringCivRolloverSwedish">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nTorps gather wood from nearby trees. Jaeger and Black Rider mercenaries can always be recruited from the Tavern. Mercenary shipments are cheaper and arrive more quickly. Advanced improvements available at the Arsenal.\n&lt;color=1.0, 1.0, 0.0&gt;Royal guard units:&lt;/color&gt;Pikeman (Dalkarl) and Hakkapelit (Drabant)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nCarolean, Leather Cannon and Hakkapelit\n\nThe Swedish Empire became one of the greatest in Europe through innovation in military tactics and logistics. Its artillery and cavalry charges dominated the battlefields, particularly during the Thirty Years War. Despite a relatively small population, the Swedes fielded some of the largest armies in Europe, partly through the recruitment of mercenaries.</string>
+    <string _locid="91501" symbol="cStringCivRolloverSwedish">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nTorps gather wood from nearby trees. Jaeger and Black Rider mercenaries can always be recruited from the Tavern. Mercenary shipments are cheaper and arrive more quickly. Advanced improvements available at the Arsenal.\n&lt;color=1.0, 1.0, 0.0&gt;Royal guard units:&lt;/color&gt;Pikeman (Dalkarl) and Karabinier (Drabant)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nCarolean, Leather Cannon and Karabinier\n\nThe Swedish Empire became one of the greatest in Europe through innovation in military tactics and logistics. Its artillery and cavalry charges dominated the battlefields, particularly during the Thirty Years War. Despite a relatively small population, the Swedes fielded some of the largest armies in Europe, partly through the recruitment of mercenaries.</string>
     <string _locid="91502">Stockholm</string>
     <string _locid="91503">Nils Matsson Kiöping</string>
     <string _locid="91504">Gustavus Adolphus</string>
@@ -34253,7 +34253,7 @@
     <string _locid="91513">Carolean attack and hitpoints increased.</string>
     <string _locid="91514">8 Pikemen</string>
     <string _locid="91515">8 Halberdiers</string>
-    <string _locid="91516">5 Hakkapelits</string>
+    <string _locid="91516">5 Karabiniers</string>
     <string _locid="91517">10 Caroleans</string>
     <string _locid="91518">Veteran Carolean</string>
     <string _locid="91519">Guard Carolean</string>
@@ -34271,17 +34271,17 @@
     <string _locid="91531">CAV Harquebusier</string>
     <string _locid="91532">Repentant Harquebusier</string>
     <string _locid="91533">REP Harquebusier</string>
-    <string _locid="91534">Hakkapelit</string>
-    <string _locid="91535">CAV Hakkapelit</string>
-    <string _locid="91536">Fast heavy hand cavalry from Finland with a powerful short ranged attack.</string>
-    <string _locid="91537">Heavy ranged cavalry</string>
-    <string _locid="91538">Hakkapelit attack and hitpoints increased.</string>
-    <string _locid="91539">Veteran Hakkapelits</string>
-    <string _locid="91540">Hakkapelit attack and hitpoints greatly increased.</string>
+    <string _locid="91534">Karabinier</string>
+    <string _locid="91535">CAV Karabinier</string>
+    <string _locid="91536">Accurate mounted skirmishers with a long ranged attack. Good versus heavy infantry, light cavalry, and </string>
+    <string _locid="91537">Mounted skirmisher</string>
+    <string _locid="91538">Karabinier attack and hitpoints increased.</string>
+    <string _locid="91539">Veteran Karabiniers</string>
+    <string _locid="91540">Karabinier attack and hitpoints greatly increased.</string>
     <string _locid="91541">Drabants</string>
     <string _locid="91542">Imperial upgrade for Drabants.</string>
     <string _locid="91543">Imperial Drabants</string>
-    <string _locid="91544">Veteran Hakkapelit</string>
+    <string _locid="91544">Veteran Karabinier</string>
     <string _locid="91545">Drabant</string>
     <string _locid="91546">Imperial Drabant</string>
     <string _locid="91547">Heavy cavalry mercenary with a powerful short ranged attack.</string>
@@ -34381,10 +34381,10 @@
     <string _locid="91641">TEAM Increases the combat capabilities of all Ranged Cavalry by increasing their speed and range.</string>
     <string _locid="91642">TEAM Ranged Cavalry Combat</string>
     <string _locid="91643">TEAM Ranged Cavalry Combat Shipment has arrived.</string>
-    <string _locid="91644">The sturdy breed of Finnhorses improves the hitpoints of Hussars and Hakkapelits.</string>
+    <string _locid="91644">The sturdy breed of Finnhorses improves the hitpoints of Hussars and Karabiniers.</string>
     <string _locid="91645">Finnhorses</string>
     <string _locid="91646">Finnhorses Shipment has arrived.</string>
-    <string _locid="91647">Carolean and Hakkapelit range and line-of-sight increased.</string>
+    <string _locid="91647">Carolean and Karabinier range and line-of-sight increased.</string>
     <string _locid="91648">Snaplock</string>
     <string _locid="91649">Snaplock Shipment has arrived.</string>
     <string _locid="91650">Leather Cannons, Heavy Cannons, and Falconets take up one less population slot.</string>
@@ -34475,9 +34475,9 @@
     <string _locid="91735">16 Caroleans</string>
     <string _locid="91736">10 Caroleans</string>
     <string _locid="91737">2 Falconets +2 Culverins</string>
-    <string _locid="91738">4 Hakkapelits</string>
-    <string _locid="91739">5 Hakkapelits</string>
-    <string _locid="91740">8 Hakkapelits</string>
+    <string _locid="91738">4 Karabiniers</string>
+    <string _locid="91739">5 Karabiniers</string>
+    <string _locid="91740">8 Karabiniers</string>
     <string _locid="91741">5 Leather Cannons</string>
     <string _locid="91742">7 Skirmishers</string>
     <string _locid="91743">4 Dragoons</string>
@@ -34526,10 +34526,14 @@
     <string _locid="91786">Equips Grenadiers with a hand mortar, which quickly propels explosives and increases their range.</string>
     <string _locid="91787">Grenade Launchers</string>
     <string _locid="91788">Grenade Launchers shipment has arrived.</string>
-    <string _locid="91789">All Hussars transform into Hakkapelits and enables Hakkapelits to be trained in the Commerce Age.</string>
-    <string _locid="91790">March of the Hakkapelits</string>
-    <string _locid="91791">March of the Hakkapelits shipment has arrived.</string>
-    <string _locid="91792">Hussars and Hakkapelits move faster and attack more quickly whilst using the Trample Mode stance and have more hitpoints.</string>
+    <string _locid="91789">All Hussars transform into Karabiniers and enables Karabiniers to be trained in the Commerce Age.</string>
+    <string _locid="91790">Tähtitarha</string>
+    <string _locid="91791">Tähtitarha shipment has arrived.</string>
+    <string _locid="91792">Hussars and Karabiniers move faster and attack more quickly whilst using the Trample Mode stance and have more hitpoints.</string>
+    <string _locid="91789">All Hussars transform into Karabiniers and enables Karabiniers to be trained in the Commerce Age.</string>
+    <string _locid="91790">Tähtitarha</string>
+    <string _locid="91791">Tähtitarha</string>
+    <string _locid="91792">Hussars and Karabiniers move faster and attack more quickly whilst using the Trample Mode stance and have more hitpoints.</string>
     <string _locid="91793">Trample Tactics</string>
     <string _locid="91794">Trample Tactics shipment has arrived.</string>
     <string _locid="91795">Läckert! Torps gather blueberries faster than other berries.</string>

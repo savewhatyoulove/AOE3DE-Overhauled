@@ -239,6 +239,16 @@ Surstromming Crates:
 -- Now capped at 200 Food capacity instead of infinite.
 -- Build limit removed. 
 
+Carolean:
+Speed: Reduced to 4.0 from 4.25
+Cost: Increased to 40F/60G from 60F/40G
+Carolean Chage: Cooldown reduced to 75 seconds from 90 and now provides +1.5 speed instead of +1.0
+Siege Attack: Improved to 15/2.0 ROF from 20/3.0 ROF
+Melee Attack: Reduced to 15 from 19; 2.5x AbstractCavalry, 2.5x AbstractHeavyInfantry, 2.25x AbstractLightInfantry added.
+Ranged Attack: Reduced to 15/2.0 ROF from 19/2.5 ROF, Ranged HeavyCavalry multipliers reduced to 1.25x from 1.5x; 1.25x AbstractHeavyInfantry added.
+
+
+
 Sweden can no longer train crossbowmen without the Papal Guard politician or shipments
 
 Building Changes:

@@ -70,6 +70,15 @@
 	    <string _locid="80552">Trade Monopoly is available an age early and is free.</string>
 	    <string _locid="80560">Doubles the effectiveness of Llamas at the Community Plaza. Additionally, you can now train Llamas and they move more quickly.</string>
 	    <string _locid="91501" symbol="cStringCivRolloverSwedish">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nTrains miners in addition to settlers. Torps replace houses and gather wood from nearby trees. Crates of Food are replaced by crates of Surströmming, which fatten over time. Jaeger and Black Rider mercenaries can always be recruited from the Tavern. Non-native mercenary shipments are cheaper and arrive more quickly. Advanced improvements available at the Arsenal.\n&lt;color=1.0, 1.0, 0.0&gt;Royal guard units:&lt;/color&gt;Pikeman (Dalkarl) and Hakkapelit (Drabant)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nCarolean, Leather Cannon and Hakkapelit\n\nThe Swedish Empire became one of the greatest in Europe through innovation in military tactics and logistics. Its artillery and cavalry charges dominated the battlefields, particularly during the Thirty Years War. Despite a relatively small population, the Swedes fielded some of the largest armies in Europe, partly through the recruitment of mercenaries.</string>
+	    <string _locid="91516">5 Karabiniers</string>
+	    <string _locid="91534">Karabinier</string>
+	    <string _locid="91535">CAV Karabinier</string>
+	    <string _locid="91536">Accurate mounted skirmishers with a long ranged attack. Good versus heavy infantry, light cavalry, and artillery. </string>
+	    <string _locid="91537">Mounted skirmisher</string>
+	    <string _locid="91538">Karabinier attack and hitpoints increased.</string>
+	    <string _locid="91539">Veteran Karabiniers</string>
+	    <string _locid="91540">Karabinier attack and hitpoints greatly increased.</string>
+	    <string _locid="91544">Veteran Karabinier</string>
 	    <string _locid="91616">Jaegers and Black Riders can be hired from all military buildings and now cost a lesser amount of Wood to recruit instead of gold.</string>
 	    <string _locid="91617">Savolax Mercenaries</string>
 	    <string _locid="91626">Pikemen and Halberdiers gain the ability to charge for a brief speed boost.</string>
@@ -81,11 +90,21 @@
 	    <string _locid="91636">TEAM Hand Infantry / Hand Cavalry Hitpoints</string>
 	    <string _locid="91637">TEAM Hand Infantry / Hand Cavalry Shipment has arrived.</string>
 	    <string _locid="91638">All musketeers gain increased ranged damage, especially Caroleans.</string>
+	    <string _locid="91644">The sturdy breed of Finnhorses improves the hitpoints of Hussars and Karabiniers.</string>
+	    <string _locid="91647">Carolean and Karabinier range and line-of-sight increased.</string>
 	    <string _locid="91687">Delivers 4 Torp Wagons. Torps gain more hitpoints, can receive Home City shipments and gather from wood crates.</string>
 	    <string _locid="91691">All musketeers gain increased hitpoints, especially Caroleans.</string>
+	    <string _locid="91738">4 Karabiniers</string>
+	    <string _locid="91739">5 Karabiniers</string>
+	    <string _locid="91740">8 Karabiniers</string>
+
 	    <string _locid="91752">Miners gather coin more quickly from mines and mines last longer for Miners, +1 Prospector Wagon.</string>
-	    <string _locid="91784">Crates of 200 Surströmming</string>
 	    <string _locid="91783">Ships 2 Crates of Surströmming, which provide more Food over time up to double the initial crate capacity.</string>
+	    <string _locid="91784">Crates of 200 Surströmming</string>
+	    <string _locid="91789">All Hussars transform into Karabiniers and enables Karabiniers to be trained in the Commerce Age.</string>
+	    <string _locid="91790">Tähtitarha</string>
+	    <string _locid="91791">Tähtitarha</string>
+	    <string _locid="91792">Hussars and Karabiniers move faster and attack more quickly whilst using the Trample Mode stance and have more hitpoints.</string>
 	    <string _locid="91849">5 Warrior Priestesses</string>
 	    <string _locid="120000">3 Miners</string>
 	    <string _locid="120001">4 Miners</string>
@@ -99,7 +118,12 @@
 	    <string _locid="120009">Crates of 1300 Surströmming</string>
 	    <string _locid="120010">Ships 13 Crates of Surströmming, which provide more Food over time up to double the initial crate capacity.</string>
 	    <string _locid="120011">Crates of 300 Surströmming</string>
-	    <string _locid="43686">Oglala villager that hunts quickly but is unable to mine. Fast but fragile. Good against light cavalry and heavy infantry, but weak against heavy cavalry</string>
+	    <string _locid="120012">Ships 6 Hessian Jaegers.</string>
+	    <string _locid="120013">6 Jaegers</string>
+	    <string _locid="120014">Ships 4 German Black Riders.</string>
+	    <string _locid="120015">4 Black Riders</string>
+	    <string _locid="120016">Delivers 10 Stradiots. Enables Stradiot hiring at military buildings.</string>
+	    <string _locid="120017">Contract Balkan Stradiots</string>
 	    <string _locid="140000">Cloud Forest Travois</string>
 	    <string _locid="140001">Cloud Forest</string>
 	    <string _locid="140002">4 Cloud Forest Travois</string>
@@ -130,8 +154,6 @@
 	    <string _locid="150751">The Willaq Umu sends 9 Warrior Priestesses and increases their hitpoints.</string>
 	    <string _locid="150752">Willaq Umu Support Shipment has arrived.</string>
 	    <string _locid="150999">4 Macemen</string>
-
-
 	</Language>
   </StringTable>
 </stringmods>

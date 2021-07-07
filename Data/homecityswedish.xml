@@ -1138,6 +1138,32 @@
       <displayunitcount>10</displayunitcount>
     </card>
     <card>
+      <name>HCMercsBlackRidersRepeat</name>
+      <maxcount>-1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>4</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCMercsHessiansRepeat</name>
+      <maxcount>-1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>6</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCContractMercsStradiots</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>10</displayunitcount>
+    </card>
+    <card>
       <name>HCMercenaryLoyalty</name>
       <maxcount>1</maxcount>
       <level>25</level>
@@ -1520,7 +1546,6 @@
         <card>DEHCDominions</card>
         <card>HCUnlockFort</card>
         <card>DEHCShipCaroleansRepeat</card>
-        <card>DEHCShipDragoonsRepeat</card>
         <card>HCShipMortars2</card>
         <card>HCUnlockFactory</card>
       </cards>
@@ -1536,7 +1561,6 @@
         <card dbid="6397">DEHCShipLeatherCannons1</card>
         <card dbid="6403">DEHCDominions</card>
         <card dbid="2571">HCFrontierDefenses</card>
-        <card dbid="6511">DEHCShipSkirmishersRepeat</card>
         <card dbid="6589">DEHCKalmarCastle</card>
         <card dbid="814">HCUnlockFort</card>
         <card dbid="625">HCUnlockFactory</card>
@@ -1575,7 +1599,6 @@
         <card dbid="3345">HCXPIndustrialRevolution</card>
         <card dbid="6404">DEHCSveaLifeguard</card>
         <card dbid="2227">HCShipPikemen1</card>
-        <card dbid="6512">DEHCShipDragoonsRepeat</card>
         <card dbid="2037">HCFencingSchool</card>
         <card dbid="6513">DEHCShipElks</card>
         <card dbid="6517">DEHCBlueberries</card>
@@ -1596,7 +1619,6 @@
         <card dbid="6413">DEHCContractMercsLandsknechts</card>
         <card dbid="6380">DEHCRoyalDecreeSwedish</card>
         <card dbid="6397">DEHCShipLeatherCannons1</card>
-        <card dbid="6511">DEHCShipSkirmishersRepeat</card>
         <card dbid="6409">DEHCContractMercsBlackRiders</card>
         <card dbid="2225">HCNavalCombat</card>
         <card dbid="2221">HCShipCaravels2</card>
@@ -1776,7 +1798,6 @@
       <tech x="0.7" y="4.0">HCShipPikemen5</tech>
       <tech x="0.7" y="5.0">DEHCShipHakkapelits3</tech>
       <tech x="0.0" y="5.0">DEHCDalecarlianRebellion</tech>
-      <tech x="1.9" y="1.0">DEHCShipSkirmishersRepeat</tech>
       <tech x="1.9" y="2.0">DEHCShipHakkapelits2</tech>
       <tech x="1.6" y="5.0">DEHCShipLeatherCannons2</tech>
       <tech x="2.3" y="3.0">DEHCHandUnitDamage</tech>
@@ -1787,7 +1808,6 @@
       <tech x="3.2" y="1.0">DEHCShipLeatherCannons1</tech>
       <tech x="3.2" y="2.0">HCShipHussars4</tech>
       <tech x="3.2" y="3.0">HCShipHussars5</tech>
-      <tech x="4.2" y="1.0">DEHCShipDragoonsRepeat</tech>
       <tech x="4.2" y="2.0">DEHCShipHakkapelits1</tech>
       <tech x="3.9" y="4.0">HCXPShipHorseArtillery2</tech>
       <tech x="3.4" y="5.0">DEHCShipCaroleans2</tech>
@@ -1823,10 +1843,10 @@
       <tech x="0.7" y="4.0">HCShipPikemen5</tech>
       <tech x="0.7" y="5.0">DEHCShipHakkapelits3</tech>
       <tech x="0.0" y="5.0">DEHCDalecarlianRebellion</tech>
-      <tech x="1.9" y="1.0">DEHCShipSkirmishersRepeat</tech>
       <tech x="1.9" y="2.0">DEHCShipHakkapelits2</tech>
       <tech x="1.6" y="5.0">DEHCShipLeatherCannons2</tech>
       <tech x="2.3" y="3.0">DEHCHandUnitDamage</tech>
+      <tech x="2.3" y="4.0">DEHCHandUnitHitpointsTeam</tech>
       <tech x="2.3" y="4.0">DEHCHandUnitCombat</tech>
       <tech x="2.3" y="4.0">DEHCHeavyInfHitpointsTeam</tech>
       <tech x="2.3" y="4.0">DEHCRangedCavalryCombat</tech>
@@ -1834,7 +1854,6 @@
       <tech x="3.2" y="1.0">DEHCShipLeatherCannons1</tech>
       <tech x="3.2" y="2.0">HCShipHussars4</tech>
       <tech x="3.2" y="3.0">HCShipHussars5</tech>
-      <tech x="4.2" y="1.0">DEHCShipDragoonsRepeat</tech>
       <tech x="4.2" y="2.0">DEHCShipHakkapelits1</tech>
       <tech x="3.9" y="4.0">HCXPShipHorseArtillery2</tech>
       <tech x="3.4" y="5.0">DEHCShipCaroleans2</tech>
@@ -2044,7 +2063,6 @@
       <tech x="0.8" y="1.0">HCShipCaravels1</tech>
       <tech x="0.4" y="2.0">HCShipCaravels2</tech>
       <tech x="1.1" y="2.0">HCShipGalleons</tech>
-      <tech x="0.8" y="3.0">DEHCMercsMamelukesSwedish</tech>
       <tech x="0.8" y="5.0">DEHCShipBalticFleet</tech>
       <tech x="0.8" y="7.0">DEHCVasa</tech>
       <tech x="1.5" y="3.0">HCShipFrigates</tech>
@@ -2058,8 +2076,11 @@
       <tech x="4.6" y="3.0">DEHCContractMercsSwissPikemen</tech>
       <tech x="3.9" y="4.0">DEHCContractMercsBlackRiders</tech>
       <tech x="4.6" y="4.0">DEHCContractMercsHessians</tech>
+      <tech x="4.6" y="4.0">DEHCContractMercsStradiots</tech>
       <tech x="3.9" y="5.0">DEHCGermanMercenaryContracts</tech>
       <tech x="3.9" y="5.0">DEHCSavolaxMercenaries</tech>
+      <tech x="4.6" y="5.0">HCMercsHessiansRepeat</tech>
+      <tech x="4.6" y="5.0">HCMercsBlackRidersRepeat</tech>
       <tech x="4.6" y="5.0">HCMercsHighland</tech>
       <tech x="5.3" y="5.0">HCMercenaryLoyalty</tech>
       <tech x="5.3" y="6.0">HCMercsHessians2</tech>
@@ -2076,7 +2097,6 @@
       <tech x="0.8" y="1.0">HCShipCaravels1</tech>
       <tech x="0.4" y="2.0">HCShipCaravels2</tech>
       <tech x="1.1" y="2.0">HCShipGalleons</tech>
-      <tech x="0.8" y="3.0">DEHCMercsMamelukesSwedish</tech>
       <tech x="0.8" y="5.0">DEHCShipBalticFleet</tech>
       <tech x="0.8" y="7.0">DEHCVasa</tech>
       <tech x="1.5" y="3.0">HCShipFrigates</tech>
@@ -2090,9 +2110,12 @@
       <tech x="4.6" y="3.0">DEHCContractMercsSwissPikemen</tech>
       <tech x="3.9" y="4.0">DEHCContractMercsBlackRiders</tech>
       <tech x="4.6" y="4.0">DEHCContractMercsHessians</tech>
+      <tech x="4.6" y="4.0">DEHCContractMercsStradiots</tech>
       <tech x="3.9" y="5.0">DEHCGermanMercenaryContracts</tech>
       <tech x="3.9" y="5.0">DEHCSavolaxMercenaries</tech>
       <tech x="4.6" y="5.0">HCMercsHighland</tech>
+      <tech x="4.6" y="5.0">HCMercsHessiansRepeat</tech>
+      <tech x="4.6" y="5.0">HCMercsBlackRidersRepeat</tech>
       <tech x="5.3" y="5.0">HCMercenaryLoyalty</tech>
       <tech x="5.3" y="6.0">HCMercsHessians2</tech>
       <tech x="4.2" y="1.0">DEHCTheaters</tech>
