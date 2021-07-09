@@ -288,6 +288,33 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>HCShipHalberdiers3</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipPikemen1</prereqtech>
+      <age>2</age>
+      <displayunitcount>8</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipHalberdiers4</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipPikemen1</prereqtech>
+      <age>3</age>
+      <displayunitcount>11</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipHalberdiers5</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipPikemen1</prereqtech>
+      <age>3</age>
+      <displayunitcount>13</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
       <name>DEHCShipCaroleans1</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -1800,6 +1827,9 @@
       <tech x="0.0" y="3.0">HCShipPikemen2</tech>
       <tech x="0.7" y="1.0">HCShipPikemen4</tech>
       <tech x="0.7" y="2.0">DEHCShipCaroleans1</tech>
+      <tech x="0.0" y="2.0">HCShipHalberdiers3</tech>
+      <tech x="0.0" y="3.0">HCShipHalberdiers4</tech>
+      <tech x="0.7" y="1.0">HCShipHalberdiers5</tech>
       <tech x="0.7" y="3.0">HCShipHussars1</tech>
       <tech x="0.7" y="3.0">HCShipHussars2</tech>
       <tech x="0.0" y="4.0">DEHCShipCaroleansRepeat</tech>
@@ -1842,6 +1872,9 @@
       <tech x="0.0" y="2.0">HCShipPikemen1</tech>
       <tech x="0.0" y="3.0">HCShipPikemen2</tech>
       <tech x="0.7" y="1.0">HCShipPikemen4</tech>
+      <tech x="0.0" y="2.0">HCShipHalberdiers3</tech>
+      <tech x="0.0" y="3.0">HCShipHalberdiers4</tech>
+      <tech x="0.7" y="1.0">HCShipHalberdiers5</tech>
       <tech x="0.7" y="2.0">DEHCShipCaroleans1</tech>
       <tech x="0.7" y="3.0">HCShipHussars1</tech>
       <tech x="0.7" y="3.0">HCShipHussars2</tech>

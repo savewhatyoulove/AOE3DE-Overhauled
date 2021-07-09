@@ -2597,7 +2597,7 @@
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\team_fish.png</icon>
-    <rollovertextid>120006</rollovertextid>
+    <rollovertextid>120023</rollovertextid>
     <flag>HomeCity</flag>
     <flag>TeamTech</flag>
     <effects>
@@ -2981,6 +2981,7 @@
       <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Skirmisher" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect type="SetName" proto="Longbowman" culture="none" newname="120022"/>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEChurchPikePush" type="Normal">
@@ -3009,6 +3010,85 @@
       <effect type="Data" amount="1.15" subtype="TrainPoints" relativity="BasePercent">
         <target type="ProtoUnit">Halberdier</target>
       </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="deInfantryGuns" type="Normal">
+    <dbid>6353</dbid>
+    <displaynameid>91576</displaynameid>
+    <cost resourcetype="Food">250.0000</cost>
+    <cost resourcetype="Wood">250.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_artillery\guard_artillery.png</icon>
+    <rollovertextid>91575</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deLeatherCannon</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deLeatherCannon</target>
+      </effect>
+      <effect type="Data" amount="0.25" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">deLeatherCannon</target>
+      </effect>
+      <effect type="Data" action="CannonAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deLeatherCannon</target>
+      </effect>
+      <effect type="Data" action="BombardAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deLeatherCannon</target>
+      </effect>
+      <effect type="Data" action="CaseShotAttack" amount="0.50" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deLeatherCannon</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">deLeatherCannon</target>
+      </effect>
+      <effect type="SetName" proto="deLeatherCannon" culture="none" newname="91579"/>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="deImperialInfantryGuns" type="Normal">
+    <dbid>6354</dbid>
+    <displaynameid>91578</displaynameid>
+    <cost resourcetype="Wood">1500.0000</cost>
+    <cost resourcetype="Gold">1500.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_artillery\imperial_artillery.png</icon>
+    <rollovertextid>91577</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>UpgradeTech</flag>
+    <prereqs>
+      <techstatus status="Active">deInfantryGuns</techstatus>
+      <techstatus status="Active">Imperialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deLeatherCannon</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deLeatherCannon</target>
+      </effect>
+      <effect type="Data" amount="0.25" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">deLeatherCannon</target>
+      </effect>
+      <effect type="Data" action="CannonAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deLeatherCannon</target>
+      </effect>
+      <effect type="Data" action="BombardAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deLeatherCannon</target>
+      </effect>
+      <effect type="Data" action="CaseShotAttack" amount="0.50" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deLeatherCannon</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">deLeatherCannon</target>
+      </effect>
+      <effect type="SetName" proto="deLeatherCannon" culture="none" newname="91580"/>
     </effects>
   </tech>
 

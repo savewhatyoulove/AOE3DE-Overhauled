@@ -70,6 +70,7 @@
 	    <string _locid="80552">Trade Monopoly is available an age early and is free.</string>
 	    <string _locid="80560">Doubles the effectiveness of Llamas at the Community Plaza. Additionally, you can now train Llamas and they move more quickly.</string>
 	    <string _locid="91501" symbol="cStringCivRolloverSwedish">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nTrains miners in addition to settlers. Torps replace houses and gather wood from nearby trees. Crates of Food are replaced by crates of Surströmming, which fatten over time. Jaeger and Black Rider mercenaries can always be recruited from the Tavern. Non-native mercenary shipments are cheaper and arrive more quickly. Advanced improvements available at the Arsenal.\n&lt;color=1.0, 1.0, 0.0&gt;Royal guard units:&lt;/color&gt;Pikeman (Dalkarl) and Hakkapelit (Drabant)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nCarolean, Leather Cannon and Hakkapelit\n\nThe Swedish Empire became one of the greatest in Europe through innovation in military tactics and logistics. Its artillery and cavalry charges dominated the battlefields, particularly during the Thirty Years War. Despite a relatively small population, the Swedes fielded some of the largest armies in Europe, partly through the recruitment of mercenaries.</string>
+	    <string _locid="91509">Swedish Musketeer that counters cavalry and heavy infantry from range. Can charge quickly with his sword equipped. Good in melee combat against cavalry and heavy infantry.</string>
 	    <string _locid="91516">5 Karabiniers</string>
 	    <string _locid="91534">Karabinier</string>
 	    <string _locid="91535">CAV Karabinier</string>
@@ -133,6 +134,8 @@
 	    <string _locid="120019">Fäderneslandet</string>
 	    <string _locid="120020">Ships 30 Vikings (Longbowmen) from the frozen wastes.</string>
 	    <string _locid="120021">Vikings</string>
+	    <string _locid="120022">Viking</string>
+	    <string _locid="120023"> TEAM Ships 5 Crates of Surströmming, which provide more Food over time up to double the initial crate capacity.</string>
 	    <string _locid="140000">Cloud Forest Travois</string>
 	    <string _locid="140001">Cloud Forest</string>
 	    <string _locid="140002">4 Cloud Forest Travois</string>

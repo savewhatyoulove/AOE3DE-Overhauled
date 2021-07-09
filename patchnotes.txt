@@ -253,6 +253,10 @@ Carolean Chage: Cooldown reduced to 75 seconds from 90 and now provides +1.5 spe
 Melee Attack: Increased to 20 from 19; 1.5x AbstractCavalry, 2.5x AbstractHeavyInfantry, 1.5x AbstractLightInfantry added. AbstractInfantry penalty increased to 0.6x from 0.8x
 Ranged Attack: Reduced to 20/3.0 ROF from 19/2.5 ROF, 1.5x AbstractHeavyInfantry multiplier added.
 
+Leather Cannon:
+Speed: Increased to 3.25 from 3.00
+Range: Increased to 22 from 21
+Upgrades: Now only gains +0.25 speed with (imperial) infantry guns up to a max of 3.75 (from 4.0)
 
 
 Sweden can no longer train crossbowmen without the Papal Guard politician or shipments
@@ -261,7 +265,7 @@ Building Changes:
 
 Torp: 
 -- Can now only gather wood. Area Mining/Hunting disabled. 
--- Base wood gather range increased to 7 from 6.2
+-- Base wood gather range increased to 8 from 6.2
 -- Base wood gather limit increased to 6 from 5.
 -- Cost reduced to 120 wood from 135
 -- HP reduced from 1500 to 1200
@@ -298,7 +302,7 @@ Shipment Changes:
   -- 3 in discovery (I)
   -- 4 in commerce (II)
   -- 10 and a prospector wagon in industrial (IV)
--- Great Northern Forests moved to the fortress age (III), range increased to 15 (from 14), and tree cap increased to 15 from 14.
+-- Great Northern Forests moved to the fortress age (III), range increased to 16 (from 14), and tree cap increased to 15 from 14.
 -- Dominions moved to the commerce age (II), HP buff reduced to 25% from 30%, and can now only gather from wood crates. 
 -- Allotment System moved to Fortress Age (III)
 -- Savolax Mercenaries added in Fortress Age. Enables Jaegers and Black Riders in military buildings and converts their cost to a lesser amount of wood (135/200) (can buff to 130/190 if not strong enough)

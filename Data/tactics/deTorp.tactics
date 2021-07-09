@@ -136,7 +136,7 @@
     <modifyabstracttype>Tree</modifyabstracttype>
     <targetgaia>1</targetgaia>
     <active>1</active>
-    <maxrange>7</maxrange>
+    <maxrange>8</maxrange>
     <persistent>1</persistent>
     <donotignoredead>1</donotignoredead>
     <forceupdatemode>1</forceupdatemode>
@@ -152,7 +152,7 @@
     <modifyabstracttype>Tree</modifyabstracttype>
     <targetgaia>1</targetgaia>
     <active>0</active>
-    <maxrange>15</maxrange>
+    <maxrange>16</maxrange>
     <persistent>1</persistent>
     <donotignoredead>1</donotignoredead>
     <forceupdatemode>1</forceupdatemode>
