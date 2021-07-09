@@ -244,7 +244,7 @@
       <maxcount>2</maxcount>
       <level>10</level>
       <prereqtech>-1</prereqtech>
-      <age>2</age>
+      <age>1</age>
     </card>
     <card>
       <name>HCShipBalloons</name>
@@ -1225,7 +1225,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>3</age>
+      <age>2</age>
     </card>
     <card>
       <name>DEHCCronstedtReforms</name>
@@ -1321,6 +1321,14 @@
       <prereqtech>-1</prereqtech>
       <age>3</age>
       <displayunitcount>13</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCShipFishCrateTeam</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>5</displayunitcount>
     </card>
     <card>
       <name>DEHCHandMortar</name>
@@ -1722,7 +1730,6 @@
       <tech x="3.5" y="3.0">HCShipCoinCrates3</tech>
       <tech x="2.8" y="4.0">HCShipWoodCrates4</tech>
       <tech x="3.5" y="4.0">HCShipCoinCrates4</tech>
-      <tech x="2.8" y="5.0">HCShipWoodCrates5</tech>
       <tech x="4.4" y="1.0">HCShipSheep1</tech>
       <tech x="4.4" y="2.0">HCShipSheep2</tech>
       <tech x="4.4" y="2.0">HCShipCows</tech>
@@ -1738,6 +1745,7 @@
       <tech x="7.0" y="5.0">DEHCShipFishCrate2</tech>
       <tech x="7.0" y="5.0">DEHCShipFishCrate3</tech>
       <tech x="7.0" y="5.0">DEHCShipFishCrate4</tech>
+      <tech x="7.0" y="5.0">DEHCShipFishCrateTeam</tech>
     </obtainabletechs>
     <activetechs>
       <tech x="0.5" y="2.0">DEHCFalunMineTeam</tech>
@@ -1752,7 +1760,6 @@
       <tech x="3.5" y="3.0">HCShipCoinCrates3</tech>
       <tech x="2.8" y="4.0">HCShipWoodCrates4</tech>
       <tech x="3.5" y="4.0">HCShipCoinCrates4</tech>
-      <tech x="2.8" y="5.0">HCShipWoodCrates5</tech>
       <tech x="4.4" y="1.0">HCShipSheep1</tech>
       <tech x="4.4" y="2.0">HCShipSheep2</tech>
       <tech x="4.4" y="2.0">HCShipCows</tech>
@@ -1768,6 +1775,7 @@
       <tech x="7.0" y="5.0">DEHCShipFishCrate2</tech>
       <tech x="7.0" y="5.0">DEHCShipFishCrate3</tech>
       <tech x="7.0" y="5.0">DEHCShipFishCrate4</tech>
+      <tech x="7.0" y="5.0">DEHCShipFishCrateTeam</tech>
     </activetechs>
     <validunits/>
     <units/>
@@ -1813,8 +1821,6 @@
       <tech x="3.4" y="5.0">DEHCShipCaroleans2</tech>
       <tech x="3.9" y="7.0">DEHCShipCaroleans3</tech>
       <tech x="4.6" y="3.0">DEHCFinnhorses</tech>
-      <tech x="5.2" y="1.0">HCShipGrenadiers3</tech>
-      <tech x="5.2" y="2.0">HCShipGrenadiers4</tech>
       <tech x="5.9" y="1.0">DEHCInfantryGuns</tech>
       <tech x="5.9" y="2.0">HCShipFalconets3</tech>
       <tech x="5.9" y="3.0">DEHCShipFalconetsCulverins1</tech>
@@ -1859,8 +1865,6 @@
       <tech x="3.4" y="5.0">DEHCShipCaroleans2</tech>
       <tech x="3.9" y="7.0">DEHCShipCaroleans3</tech>
       <tech x="4.6" y="3.0">DEHCFinnhorses</tech>
-      <tech x="5.2" y="1.0">HCShipGrenadiers3</tech>
-      <tech x="5.2" y="2.0">HCShipGrenadiers4</tech>
       <tech x="5.9" y="1.0">DEHCInfantryGuns</tech>
       <tech x="5.9" y="2.0">HCShipFalconets3</tech>
       <tech x="5.9" y="3.0">DEHCShipFalconetsCulverins1</tech>

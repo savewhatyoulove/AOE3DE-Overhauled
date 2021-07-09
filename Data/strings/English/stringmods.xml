@@ -79,6 +79,7 @@
 	    <string _locid="91539">Veteran Karabiniers</string>
 	    <string _locid="91540">Karabinier attack and hitpoints greatly increased.</string>
 	    <string _locid="91544">Veteran Karabinier</string>
+	    <string _locid="91614">Pikemen and Halberdiers gain increased damage against Heavy Infantry, but take longer to be trained.</string>
 	    <string _locid="91616">Jaegers and Black Riders can be hired from all military buildings and now cost a lesser amount of Wood to recruit instead of gold.</string>
 	    <string _locid="91617">Savolax Mercenaries</string>
 	    <string _locid="91626">Pikemen and Halberdiers gain the ability to charge for a brief speed boost.</string>
@@ -97,8 +98,12 @@
 	    <string _locid="91738">4 Karabiniers</string>
 	    <string _locid="91739">5 Karabiniers</string>
 	    <string _locid="91740">8 Karabiniers</string>
-
 	    <string _locid="91752">Miners gather coin more quickly from mines and mines last longer for Miners, +1 Prospector Wagon.</string>
+	    <string _locid="91754">Blueberries</string>
+	    <string _locid="91755">Receive a shipment of 1 Berry Wagon for each Town Center you own. Villagers gather from berries more quickly. Läckert!</string>
+	    <string _locid="91756">Blueberries Shipment has arrived.</string>
+	    <string _locid="91757">Blackberries</string>
+	    <string _locid="91758">Receive a shipment of 1 Berry Wagon for each Town Center you own. Villagers gather from berries more quickly.</string>
 	    <string _locid="91783">Ships 2 Crates of Surströmming, which provide more Food over time up to double the initial crate capacity.</string>
 	    <string _locid="91784">Crates of 200 Surströmming</string>
 	    <string _locid="91789">All Hussars transform into Karabiniers and enables Karabiniers to be trained in the Commerce Age.</string>
@@ -124,6 +129,10 @@
 	    <string _locid="120015">4 Black Riders</string>
 	    <string _locid="120016">Delivers 10 Stradiots. Enables Stradiot hiring at military buildings.</string>
 	    <string _locid="120017">Contract Balkan Stradiots</string>
+	    <string _locid="120018">Ships 8 Settlers and 2 Homestead Wagons.</string>
+	    <string _locid="120019">Fäderneslandet</string>
+	    <string _locid="120020">Ships 30 Vikings (Longbowmen) from the frozen wastes.</string>
+	    <string _locid="120021">Vikings</string>
 	    <string _locid="140000">Cloud Forest Travois</string>
 	    <string _locid="140001">Cloud Forest</string>
 	    <string _locid="140002">4 Cloud Forest Travois</string>

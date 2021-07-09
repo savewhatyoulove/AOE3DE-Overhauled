@@ -20,7 +20,7 @@
   </tech>
 
 <!-- General Shipments --> 
-  <tech name="HCXPColbertism" type="Normal">
+  <tech mergeMode='replace' name="HCXPColbertism" type="Normal">
     <dbid>3439</dbid>
     <displaynameid>47010</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
@@ -37,7 +37,7 @@
     </effects>
   </tech>
 
-<tech name="HCColonialMilitia" type="Normal">
+<tech mergeMode='replace' name="HCColonialMilitia" type="Normal">
     <dbid>1992</dbid>
     <displaynameid>34999</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
@@ -2152,8 +2152,8 @@
       <effect type="TechStatus" status="obtainable">GuardHussars</effect>
       <effect type="TechStatus" status="obtainable">VeteranHussars</effect>
       <effect type="TechStatus" status="obtainable">DEChurchPikePush</effect>
-      <effect type="TechStatus" status="obtainable">DEChurchSavolaxJaegers</effect>
-      <effect type="TechStatus" status="obtainable">DEChurchGustavianGuards</effect>
+      <effect type="TechStatus" status="obtainable">DEChurchVikings</effect>
+      <effect type="TechStatus" status="obtainable">DEChurchSwedishColonies</effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">Sheep</target>
       </effect>
@@ -2575,6 +2575,38 @@
       </effect>
     </effects>
   </tech>
+  <tech name="DEHCShipFishCrate4" type="Normal">
+    <dbid>6613</dbid>
+    <displaynameid>120009</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\animals\fish\cod_icon_infinite.png</icon>
+    <rollovertextid>120010</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="13.00" subtype="FreeHomeCityUnit" unittype="deCrateofFish" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipFishCrateTeam" type="Normal">
+    <dbid>6613</dbid>
+    <displaynameid>120005</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\team_fish.png</icon>
+    <rollovertextid>120006</rollovertextid>
+    <flag>HomeCity</flag>
+    <flag>TeamTech</flag>
+    <effects>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="deCrateofFish" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+
   <tech name="PoliticianPhilosopherPrinceSwedish" type="Normal">
     <dbid>2151</dbid>
     <displaynameid>35507</displaynameid>
@@ -2728,13 +2760,13 @@
       <effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
         <target type="ProtoUnit">deCarolean</target>
       </effect>
-      <effect type="Data" action="DefendRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+      <effect type="Data" action="DefendRangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
         <target type="ProtoUnit">deFinnishRider</target>
       </effect>
-      <effect type="Data" action="StaggerRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+      <effect type="Data" action="StaggerRangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
         <target type="ProtoUnit">deFinnishRider</target>
       </effect>
-      <effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
+      <effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
         <target type="ProtoUnit">deFinnishRider</target>
       </effect>
       <effect type="TextOutput">91649</effect>
@@ -2833,7 +2865,7 @@
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>60.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\art\units\mercenaries\balkan_stradiot\balkan_stradiot_icon_64x64.png</icon>
+    <icon>resources\images\icons\techs\contract_stradiots.png</icon>
     <rollovertextid>120016</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
@@ -2854,4 +2886,130 @@
       </effect>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DEHCBlueberries" type="Normal">
+    <dbid>6535</dbid>
+    <displaynameid>91754</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\sweden\blueberries.png</icon>
+    <rollovertextid>91755</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="AbstractBerryBush" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="ypBerryBuilding" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnitByUnitCount" counttype="TownCenter" unittype="YPBerryWagon1" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">ypBerryBuilding</target>
+      </effect>
+      <effect type="TextOutput">91756</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCBlackberries" type="Normal">
+    <dbid>6536</dbid>
+    <displaynameid>91757</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\sweden\blackberries.png</icon>
+    <rollovertextid>91758</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="AbstractBerryBush" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="ypBerryBuilding" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnitByUnitCount" counttype="TownCenter" unittype="YPBerryWagon1" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">ypBerryBuilding</target>
+      </effect>
+      <effect type="TextOutput">91759</effect>
+    </effects>
+  </tech>
+  <tech name="DEChurchSwedishColonies" type="Normal">
+    <dbid>6095</dbid>
+    <displaynameid>120019</displaynameid>
+    <cost resourcetype="Wood">1000.0000</cost>
+    <researchpoints>15.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\Land_Grab.png</icon>
+    <rollovertextid>120018</rollovertextid>
+    <flag>CheckLandHCGatherPoint</flag>
+    <prereqs>
+      <techstatus status="Active">DEHCRoyalDecreeSwedish</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="Settler" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="deHomesteadWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEChurchVikings" type="Normal">
+    <dbid>1716</dbid>
+    <displaynameid>120021</displaynameid>
+    <cost resourcetype="Gold">2000.0000</cost>
+    <researchpoints>15.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_yeoman\hc_yeoman.png</icon>
+    <rollovertextid>120020</rollovertextid>
+    <flag>UniqueTech</flag>
+    <flag>CheckLandHCGatherPoint</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+      <techstatus status="Active">DEHCRoyalDecreeSwedish</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="30.00" subtype="FreeHomeCityUnit" unittype="Longbowman" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TechStatus" status="active">HCImprovedLongbows</effect>
+      <effect type="TechStatus" status="active">GuardLongbowmen</effect>
+      <effect type="TechStatus" status="active">VeteranLongbowmen</effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Skirmisher" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEChurchPikePush" type="Normal">
+    <dbid>6381</dbid>
+    <displaynameid>91615</displaynameid>
+    <cost resourcetype="Gold">0.0000</cost>
+    <researchpoints>15.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\sweden\push_of_pike.png</icon>
+    <rollovertextid>91614</rollovertextid>
+    <flag>UniqueTech</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <prereqs>
+      <techstatus status="Active">DEHCRoyalDecreeSwedish</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="DamageBonus" unittype="AbstractHeavyInfantry" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Pikeman</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="DamageBonus" unittype="AbstractHeavyInfantry" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Halberdier</target>
+      </effect>
+      <effect type="Data" amount="1.15" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">Pikeman</target>
+      </effect>
+      <effect type="Data" amount="1.15" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">Halberdier</target>
+      </effect>
+    </effects>
+  </tech>
+
 </techtreemods>

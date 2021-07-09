@@ -1,9 +1,16 @@
 General Changes:
+
+Units: 
+-- All Pikemen units (AbstractPikemen) get +1 melee range to better chase down cavalry.
+-- Halberdier base speed increased to 4.5 from 4.0
+
 Shipments:
 -- Colonial Militia: Reworked
   -- Moved to Age 2 from discovery age
   -- No longer enables Conscription. Now ships a onetime muster of 6 minutemen per Town Center and Fort
   -- Now takes 20 seconds to arrive instead of 40 
+
+Buildings: 
 
 Dock:
 -- HP: Reduced from 2500 to 1750
@@ -243,9 +250,8 @@ Carolean:
 Speed: Reduced to 4.0 from 4.25
 Cost: Increased to 40F/60G from 60F/40G
 Carolean Chage: Cooldown reduced to 75 seconds from 90 and now provides +1.5 speed instead of +1.0
-Siege Attack: Improved to 15/2.0 ROF from 20/3.0 ROF
-Melee Attack: Reduced to 15 from 19; 2.5x AbstractCavalry, 2.5x AbstractHeavyInfantry, 2.25x AbstractLightInfantry added.
-Ranged Attack: Reduced to 15/2.0 ROF from 19/2.5 ROF, Ranged HeavyCavalry multipliers reduced to 1.25x from 1.5x; 1.25x AbstractHeavyInfantry added.
+Melee Attack: Increased to 20 from 19; 1.5x AbstractCavalry, 2.5x AbstractHeavyInfantry, 1.5x AbstractLightInfantry added. AbstractInfantry penalty increased to 0.6x from 0.8x
+Ranged Attack: Reduced to 20/3.0 ROF from 19/2.5 ROF, 1.5x AbstractHeavyInfantry multiplier added.
 
 
 
@@ -296,3 +302,17 @@ Shipment Changes:
 -- Dominions moved to the commerce age (II), HP buff reduced to 25% from 30%, and can now only gather from wood crates. 
 -- Allotment System moved to Fortress Age (III)
 -- Savolax Mercenaries added in Fortress Age. Enables Jaegers and Black Riders in military buildings and converts their cost to a lesser amount of wood (135/200) (can buff to 130/190 if not strong enough)
+-- Blueberries Reworked: 
+  -- No longer spawns a blueberry bush by torps.
+  -- Now ships 1 berry wagon for each Town Center you control
+  -- All villagers gather from berries 20% more quickly.
+-- Blackberries Reworked:
+  -- Moved to age 2
+  -- Now ships 1 berry wagon for each Town Center you control
+  -- All villagers gather from berries 15% more quickly.
+-- 6 Mamelukes Infinite replaced with Contract Stradiots (8 for 1000 gold)
+
+TODO:
+rework caseshot
+rework lightgun carriages
+rework trample tactics

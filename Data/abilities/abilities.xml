@@ -520,10 +520,9 @@
     <ability>ypUnitFrightenAura<tech>DEHCAymaraSupport</tech><alwaysdisabledingrid>true</alwaysdisabledingrid></ability>
   </dechasqui>
 <halberdier>
-    <ability>deCaroleanCharge<tech>DEHCDalecarlianRebellion</tech><rof>75</rof><usebigabilitybutton>true</usebigabilitybutton><donotforcestop>true</donotforcestop><castonself>true</castonself></ability>
-  </halberdie>
+    <ability>deHalberdierCharge<tech>DEHCDalecarlianRebellion</tech><rof>75</rof><usebigabilitybutton>true</usebigabilitybutton><donotforcestop>true</donotforcestop><castonself>true</castonself></ability>
+  </halberdier>
 <pikeman>
-    <ability>deCaroleanCharge<tech>DEHCDalecarlianRebellion</tech><rof>75</rof><usebigabilitybutton>true</usebigabilitybutton><donotforcestop>true</donotforcestop><castonself>true</castonself></ability>
+    <ability>dePikemanCharge<tech>DEHCDalecarlianRebellion</tech><rof>75</rof><usebigabilitybutton>true</usebigabilitybutton><donotforcestop>true</donotforcestop><castonself>true</castonself></ability>
   </pikeman>
-
 </abilities>

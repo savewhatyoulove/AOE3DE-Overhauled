@@ -70516,11 +70516,17 @@
       <techstatus status="Active">DEHCRoyalDecreeSwedish</techstatus>
     </prereqs>
     <effects>
-      <effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractHandInfantry</target>
+      <effect type="Data" amount="2.00" subtype="DamageBonus" unittype="AbstractHeavyInfantry" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Pikeman</target>
       </effect>
-      <effect type="Data" amount="1.10" subtype="TrainPoints" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractHandInfantry</target>
+      <effect type="Data" amount="1.25" subtype="DamageBonus" unittype="AbstractHeavyInfantry" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Halberdier</target>
+      </effect>
+      <effect type="Data" amount="1.15" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">Pikeman</target>
+      </effect>
+      <effect type="Data" amount="1.15" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">Halberdier</target>
       </effect>
     </effects>
   </tech>
@@ -75136,6 +75142,9 @@
     <flag>HomeCity</flag>
     <effects>
       <effect type="TechStatus" status="active">DEHCBlueberriesShadow</effect>
+      <effect type="Data" action="SpawnBush" amount="1.00" subtype="WorkRate" unittype="deTorpBush2" relativity="Assign">
+        <target type="ProtoUnit">deTorp</target>
+      </effect>
       <effect type="TextOutput">91756</effect>
     </effects>
   </tech>
