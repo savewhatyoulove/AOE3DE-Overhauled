@@ -1117,6 +1117,14 @@
       <age>2</age>
     </card>
     <card>
+      <name>DEHCContractCrossbowmen</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>7</displayunitcount>
+    </card>
+    <card>
       <name>DEHCContractMercsSwissPikemen</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -1826,6 +1834,7 @@
       <tech x="0.0" y="2.0">HCShipPikemen1</tech>
       <tech x="0.0" y="3.0">HCShipPikemen2</tech>
       <tech x="0.7" y="1.0">HCShipPikemen4</tech>
+      <tech x="3.9" y="3.0">DEHCContractCrossbowmen</tech>
       <tech x="0.7" y="2.0">DEHCShipCaroleans1</tech>
       <tech x="0.0" y="2.0">HCShipHalberdiers3</tech>
       <tech x="0.0" y="3.0">HCShipHalberdiers4</tech>
@@ -1872,6 +1881,7 @@
       <tech x="0.0" y="2.0">HCShipPikemen1</tech>
       <tech x="0.0" y="3.0">HCShipPikemen2</tech>
       <tech x="0.7" y="1.0">HCShipPikemen4</tech>
+      <tech x="3.9" y="3.0">DEHCContractCrossbowmen</tech>
       <tech x="0.0" y="2.0">HCShipHalberdiers3</tech>
       <tech x="0.0" y="3.0">HCShipHalberdiers4</tech>
       <tech x="0.7" y="1.0">HCShipHalberdiers5</tech>

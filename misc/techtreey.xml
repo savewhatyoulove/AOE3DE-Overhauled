@@ -71070,10 +71070,13 @@
       <techstatus status="Active">VeteranPikemen</techstatus>
     </prereqs>
     <effects>
-      <effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
         <target type="ProtoUnit">Pikeman</target>
       </effect>
-      <effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Pikeman</target>
+      </effect>
+      <effect type="Data" amount="0.1" subtype="Armor" relativity="Absolute">
         <target type="ProtoUnit">Pikeman</target>
       </effect>
       <effect type="TechStatus" status="active">GuardPikemen</effect>

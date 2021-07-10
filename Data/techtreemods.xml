@@ -2363,6 +2363,12 @@
       <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
         <target type="Tech">HCMercsBlackRidersRepeat</target>
       </effect>
+      <effect type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEHCContractCrossbowmen</target>
+      </effect>
+      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
+        <target type="Tech">DEHCContractCrossbowmen</target>
+      </effect>
       <effect type="TechStatus" status="obtainable">ProfessionalGunners</effect>
       <effect type="TechStatus" status="obtainable">Trunion</effect>
       <effect type="TechStatus" status="obtainable">Pillage</effect>
@@ -3089,6 +3095,86 @@
         <target type="ProtoUnit">deLeatherCannon</target>
       </effect>
       <effect type="SetName" proto="deLeatherCannon" culture="none" newname="91580"/>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="RGDalkarl" type="Normal">
+    <dbid>6405</dbid>
+    <displaynameid>91695</displaynameid>
+    <cost resourcetype="Wood">1000.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_spear_infantry\guard_spear_infantry.png</icon>
+    <rollovertextid>91694</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+      <techstatus status="Active">VeteranPikemen</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Pikeman</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Pikeman</target>
+      </effect>
+      <effect type="Data" amount="0.1" subtype="Armor" relativity="Absolute">
+        <target type="ProtoUnit">Pikeman</target>
+      </effect>
+      <effect type="TechStatus" status="active">GuardPikemen</effect>
+      <effect type="CommandRemove" tech="GuardPikemen">
+        <target type="ProtoUnit">Barracks</target>
+      </effect>
+      <effect type="SetName" proto="Pikeman" culture="none" newname="91696"/>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="ImperialDalkarl" type="Normal">
+    <dbid>6406</dbid>
+    <displaynameid>91697</displaynameid>
+    <cost resourcetype="Wood">1500.0000</cost>
+    <cost resourcetype="Gold">1500.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_spear_infantry\imperial_spear_infantry.png</icon>
+    <rollovertextid>35185</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">RGDalkarl</techstatus>
+      <techstatus status="Active">Imperialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="SetName" delay="3.00" proto="Pikeman" culture="none" newname="91698"/>
+      <effect type="Data" amount="1.60" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Pikeman</target>
+      </effect>
+      <effect type="Data" amount="1.60" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Pikeman</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCContractCrossbowmen" type="Normal">
+    <dbid>2546</dbid>
+    <displaynameid>120024</displaynameid>
+    <cost resourcetype="Gold">300.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\contract_crossbow.png</icon>
+    <rollovertextid>120025</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="Crossbowman" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Crossbowman</target>
+      </effect>
+      <effect type="TechStatus" status="active">VeteranCrossbowmen</effect>
+      <effect type="TechStatus" status="obtainable">GuardCrossbowmen</effect>
+      <effect type="TechStatus" status="obtainable">ImperialCrossbowmen</effect>
+      <effect type="TechStatus" status="obtainable">DEKeepCrossbowmenTechsAlignedInBarracksShadow</effect>
     </effects>
   </tech>
 

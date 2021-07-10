@@ -233,7 +233,7 @@ Cost: 100
 Population: 1
 Build Limit: 30
 Siege Attack: 12 w/ 14 range and 3.0 ROF
-Ranged Attack: 8 Siege w/ 14 range and 3.0 ROF. 0.25x AbstractCavalry and AbstractVillager
+Ranged Attack: 8 Siege w/ 14 range and 3.0 ROF. 0.25x AbstractCavalry and AbstractVillager; animation sped up to 0.55 from 0.82
 Melee Attack: 10 w/ 0.25x AbstractCavalry and AbstractVillager
 Gather Rates: +25% base mining rate (0.6 --> 0.75), +20% yield on mines. -10% hunting, chopping, herding rates. 
 
@@ -249,7 +249,7 @@ Surstromming Crates:
 Carolean:
 Speed: Reduced to 4.0 from 4.25
 Cost: Increased to 40F/60G from 60F/40G
-Carolean Chage: Cooldown reduced to 75 seconds from 90 and now provides +1.5 speed instead of +1.0
+Carolean Chage: Cooldown reduced to 75 seconds from 90 and now provides +1.5 speed instead of +1.0, but duration reduced to 6 seconds
 Melee Attack: Increased to 20 from 19; 1.5x AbstractCavalry, 2.5x AbstractHeavyInfantry, 1.5x AbstractLightInfantry added. AbstractInfantry penalty increased to 0.6x from 0.8x
 Ranged Attack: Reduced to 20/3.0 ROF from 19/2.5 ROF, 1.5x AbstractHeavyInfantry multiplier added.
 
@@ -258,6 +258,16 @@ Speed: Increased to 3.25 from 3.00
 Range: Increased to 22 from 21
 Upgrades: Now only gains +0.25 speed with (imperial) infantry guns up to a max of 3.75 (from 4.0)
 
+New Unit: Karabinier (mounted skirmisher)
+Cost: 70F/100G
+HP: 220
+Pop: 2
+Speed: 6
+Armor: 0.30 Ranged
+Tags: AbstractCavalry, AbstractLightCavalry
+Siege: 21 w/ 3 ROF
+Ranged Attack: 21 w/ 2.0 ROF and 16 Range. 0.5x AbstractInfantry, 3.0x AbstractHeavyInfantry (1.5x net), 2x AbstractLightCavalry, 2.5x AbstractArtillery, 0.75x AbstractHeavyCavalry/AbstractCoyoteMan, 0.5x AvstractVillager
+Melee Attack: 16 w/ 1.5 ROF, same multipliers as ranged without villager penalty.
 
 Sweden can no longer train crossbowmen without the Papal Guard politician or shipments
 
@@ -280,7 +290,7 @@ Shipment Changes:
   -- 1300 INF in age 4
 -- Dalecarlean Rebellion reworked:
   -- Now called "Dalecarlean Offensive"
-  -- Allows Pikemen and Halberdiers to perform a melee charge for +1.5 speed for 8 seconds, with a 75 second cooldown.
+  -- Allows Pikemen and Halberdiers to perform a melee charge for +1.5 speed for 6 seconds, with a 75 second cooldown.
 -- Platoon Fire reworked:
   -- Now buffs the ranged damage of AbstractMusketeer by 10%
   -- Caroleans get a further 10% damage buff (for a total of 20%)
@@ -289,7 +299,7 @@ Shipment Changes:
   -- Now buffs the HP of AbstractMusketeer by 15%
   -- Caroleans get a further 15% HP buff (for a total of 30%)
   -- No longer changes the armor of Caroleans
--- Snaplocks now provides +2 range for Caroleans (down from +3) and +2 range for Hakkapelita (up from +1)
+-- Snaplocks now provides +2 range for Caroleans (down from +3)
 -- TEAM Heavy Infantry HP (Age II) removed
 -- Hand Infantry / Hand Cavalry HP (Age II) removed
 -- TEAM Hand Infantry / Hand Cavalry HP (Age II) added
@@ -315,6 +325,8 @@ Shipment Changes:
   -- Now ships 1 berry wagon for each Town Center you control
   -- All villagers gather from berries 15% more quickly.
 -- 6 Mamelukes Infinite replaced with Contract Stradiots (8 for 1000 gold)
+-- Commerce Age "Contract 7 Veteran Crossbowmen" added for 300 gold. Enabled them in the barracks and unlocks their techs for the rest of the game.
+
 
 TODO:
 rework caseshot
