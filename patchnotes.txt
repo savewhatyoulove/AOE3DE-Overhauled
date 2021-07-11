@@ -357,13 +357,17 @@ Shipment Changes:
   -- Base melee attack improved to 10 from 6 and 2x AbstractHeavyInfantry added.
     -- Attack has 1 range and 1 AOE with a base damage cap of 20. 
   -- Now grants him a melee charge for +1.5 speed for 6 seconds with a 75 second cooldown.
-  -- Grants him +20% range resist (0.1 --> 0.3)
+  -- Grants him +10% range resist (0.1 --> 0.2)
+  -- Grants him +100 base HP (400 --> 500)
 -- Vasa Reworked:
   -- No longer refunds gold when ships are sank.
   -- Galleons and Frigates no longer cost gold, but have a greatly increased wood cost.
     -- Galleons: 300W/500G --> 600W
     -- Frigates: 500W/500G --> 800W
+-- TEAM Villager Siege Damage added in Age 2, increased team villager siege damage by 2x.
+-- TEAM Ranged Cavalry Combat Reworked:
+  -- Now additionally provides +10% HP/Damage
+  -- No longer increases range by 1 (still increases speed by +5%)
+
 TODO:
-rework TEAM Ranged Cav Combat (+10/10 and +5% speed)
-add TEAM villager siege damage (2.5x mult against buildings)
 add swedish VOs for longbowmen

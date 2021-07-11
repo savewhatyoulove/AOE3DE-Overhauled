@@ -3485,7 +3485,7 @@
     <flag>HomeCity</flag>
     <effects>
       <effect type="TextOutput">91779</effect>
-      <effect type="Data" amount="-0.40" subtype="DamageBonus" unittype="AbstractCavalry" allactions="1" relativity="BasePercent">
+      <effect type="Data" amount="-0.40" subtype="DamageBonus" unittype="AbstractCavalry" allactions="1" relativity="Absolute">
 		<target type="ProtoUnit">AbstractArtillery</target>
       </effect>
       <effect type="Data" amount="1.75" subtype="DamageCap" allactions="1" relativity="BasePercent">
