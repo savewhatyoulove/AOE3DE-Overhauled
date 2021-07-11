@@ -709,6 +709,13 @@
       <age>2</age>
     </card>
     <card>
+      <name>DEHCVillagerSiegeTeam</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
       <name>DEHCSnaplocks</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -1755,6 +1762,7 @@
       <tech x="0.8" y="1.0">DEHCShipMiners1</tech>
       <tech x="0.8" y="1.0">DEHCShipMiners2</tech>
       <tech x="0.8" y="1.0">DEHCShipMiners3</tech>
+      <tech x="2.3" y="4.0">DEHCVillagerSiegeTeam</tech>
       <tech x="2.8" y="1.0">HCShipWoodCrates1</tech>
       <tech x="3.5" y="1.0">HCShipCoinCrates1</tech>
       <tech x="2.8" y="2.0">HCShipWoodCrates2</tech>
@@ -1785,6 +1793,7 @@
       <tech x="0.8" y="1.0">DEHCShipMiners1</tech>
       <tech x="0.8" y="1.0">DEHCShipMiners2</tech>
       <tech x="0.8" y="1.0">DEHCShipMiners3</tech>
+      <tech x="2.3" y="4.0">DEHCVillagerSiegeTeam</tech>
       <tech x="2.8" y="1.0">HCShipWoodCrates1</tech>
       <tech x="3.5" y="1.0">HCShipCoinCrates1</tech>
       <tech x="2.8" y="2.0">HCShipWoodCrates2</tech>

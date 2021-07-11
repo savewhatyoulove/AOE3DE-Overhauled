@@ -3274,7 +3274,7 @@
       <effect type="TextOutput">91747</effect>
     </effects>
   </tech>
-  <tech name="DEHCTrampleTactics" type="Normal">
+  <tech mergeMode='replace' name="DEHCTrampleTactics" type="Normal">
     <dbid>6633</dbid>
     <displaynameid>91793</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
@@ -3456,6 +3456,45 @@
         <target type="ProtoUnit">xpEagleKnight</target>
       </effect>
       <effect type="TextOutput">91643</effect>
+    </effects>
+  </tech>
+  <tech name="DEHCVillagerSiegeTeam" type="Normal">
+    <dbid>2860</dbid>
+    <displaynameid>120038</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\team_vill_siege.png</icon>
+    <rollovertextid>120039</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" action="BuildingAttack" amount="2.00" subtype="DamageBonus" unittype="Building" relativity="Absolute">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="TextOutput">120040</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCBarrage" type="Normal">
+    <dbid>6610</dbid>
+    <displaynameid>91778</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>unobtainable</status>
+    <icon>resources\images\icons\techs\sweden\barrage.png</icon>
+    <rollovertextid>91777</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TextOutput">91779</effect>
+      <effect type="Data" amount="-0.40" subtype="DamageBonus" unittype="AbstractCavalry" allactions="1" relativity="BasePercent">
+		<target type="ProtoUnit">AbstractArtillery</target>
+      </effect>
+      <effect type="Data" amount="1.75" subtype="DamageCap" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
+      <effect type="Data" amount="1.75" subtype="DamageCap" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractArtillery</target>
+      </effect>
+
     </effects>
   </tech>
 
