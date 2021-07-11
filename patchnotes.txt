@@ -366,3 +366,4 @@ Shipment Changes:
 TODO:
 rework TEAM Ranged Cav Combat (+10/10 and +5% speed)
 add TEAM villager siege damage (2.5x mult against buildings)
+add swedish VOs for longbowmen

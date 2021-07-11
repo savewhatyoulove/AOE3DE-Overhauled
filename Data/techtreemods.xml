@@ -3356,6 +3356,9 @@
         <target type="ProtoUnit">Explorer</target>
       </effect>
       <effect type="TransformUnit" toprotoid="Duelist" fromprotoid="Explorer"/>
+      <effect type="Data" amount="50.00" subtype="RansomCostAddition" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
       <effect type="TextOutput">91669</effect>
     </effects>
   </tech>
@@ -3421,6 +3424,38 @@
       <effect type="TechStatus" status="active">Imperialize</effect>
       <effect type="TechStatus" status="unobtainable">DERevolutionUSA</effect>
       <effect type="TechStatus" status="unobtainable">DERevolutionFinland</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCRangedCavalryCombat" type="Normal">
+    <dbid>6390</dbid>
+    <displaynameid>91642</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_cavalry_combat_team.png</icon>
+    <rollovertextid>91641</rollovertextid>
+    <flag>HomeCity</flag>
+    <flag>TeamTech</flag>
+    <effects>
+      <effect type="Data" amount="1.05" subtype="MaximumVelocity" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractRangedCavalry</target>
+      </effect>
+      <effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractRangedCavalry</target>
+      </effect>
+      <effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractRangedCavalry</target>
+      </effect>
+      <effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">xpEagleKnight</target>
+      </effect>
+      <effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">xpEagleKnight</target>
+      </effect>
+      <effect type="Data" amount="1.05" subtype="MaximumVelocity" relativity="BasePercent">
+        <target type="ProtoUnit">xpEagleKnight</target>
+      </effect>
+      <effect type="TextOutput">91643</effect>
     </effects>
   </tech>
 

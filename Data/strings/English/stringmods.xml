@@ -93,6 +93,7 @@
 	    <string _locid="91636">TEAM Hand Infantry / Hand Cavalry Hitpoints</string>
 	    <string _locid="91637">TEAM Hand Infantry / Hand Cavalry Shipment has arrived.</string>
 	    <string _locid="91638">All musketeers gain increased ranged damage. Caroleans additionally deal increased damage to Heavy Infantry, Heavy Shock Infantry, and Heavy Cavalry.</string>
+	    <string _locid="91641">TEAM Increases speed, hitpoints, and damage of all Ranged Cavalry.</string>
 	    <string _locid="91644">The sturdy breed of Finnhorses improves the hitpoints of Hussars and Karabiniers.</string>
 	    <string _locid="91647">Carolean and Karabinier range and line-of-sight increased.</string>
 	    <string _locid="91667">Your Explorer is upgraded to a powerful melee Duelist, giving him bonus damage against heavy infantry, increased armor, splash damage, a powerful Heavy Strike attack, a melee charge ability, and a canine companion.</string>
@@ -147,6 +148,15 @@
 	    <string _locid="120026">Leather Cannon Hitpoints</string>
 	    <string _locid="120027">Leather Cannon hitpoints increased.</string>
 	    <string _locid="120028">Leather Cannon Hitpoints Shipment has arrived.</string>
+	    <string _locid="120029">Pikeman Charge</string>
+	    <string _locid="120030">All Pikemen gain a brief speed boost.</string>
+	    <string _locid="120031">Pikeman Charge time remaining</string>
+	    <string _locid="120032">Halberdier Charge</string>
+	    <string _locid="120033">All Halberdiers gain a brief speed boost.</string>
+	    <string _locid="120034">Halberdier Charge time remaining</string>
+	    <string _locid="120035">Hero Charge</string>
+	    <string _locid="120036">Your Explorer and his pet gain a brief speed boost.</string>
+	    <string _locid="120037">Hero Charge time remaining</string>
 	    <string _locid="140000">Cloud Forest Travois</string>
 	    <string _locid="140001">Cloud Forest</string>
 	    <string _locid="140002">4 Cloud Forest Travois</string>

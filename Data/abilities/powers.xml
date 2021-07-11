@@ -912,9 +912,9 @@
     <allowduringnorush>1</allowduringnorush>
   </power>
 <power name="dePikemanCharge" type="GeneralEffect">
-    <displaynameid>91821</displaynameid>
-    <rolloverid>91822</rolloverid>
-    <timerrolloverid>91823</timerrolloverid>
+    <displaynameid>120029</displaynameid>
+    <rolloverid>120030</rolloverid>
+    <timerrolloverid>120031</timerrolloverid>
     <icon>resources\images\icons\abilities\ability_carolean_charge_lrg.png</icon>
     <minimapeventtime sendalertto="none">1</minimapeventtime>
     <activetime>6</activetime>
@@ -930,9 +930,9 @@
     <startsoundset>BattlecryMedium</startsoundset>
   </power>
 <power name="deHalberdierCharge" type="GeneralEffect">
-    <displaynameid>91821</displaynameid>
-    <rolloverid>91822</rolloverid>
-    <timerrolloverid>91823</timerrolloverid>
+    <displaynameid>120032</displaynameid>
+    <rolloverid>120033</rolloverid>
+    <timerrolloverid>120034</timerrolloverid>
     <icon>resources\images\icons\abilities\ability_carolean_charge_lrg.png</icon>
     <minimapeventtime sendalertto="none">1</minimapeventtime>
     <activetime>6</activetime>
@@ -948,14 +948,17 @@
     <startsoundset>BattlecryMedium</startsoundset>
   </power>
 <power name="deExplorerCharge" type="GeneralEffect">
-    <displaynameid>91821</displaynameid>
-    <rolloverid>91822</rolloverid>
-    <timerrolloverid>91823</timerrolloverid>
+    <displaynameid>120035</displaynameid>
+    <rolloverid>120036</rolloverid>
+    <timerrolloverid>120037</timerrolloverid>
     <icon>resources\images\icons\abilities\ability_carolean_charge_lrg.png</icon>
     <minimapeventtime sendalertto="none">1</minimapeventtime>
     <activetime>6</activetime>
     <effect type="MaximumVelocity" relativity="Absolute" amount="1.5">
       <target type="ProtoUnit">Duelist</target>
+    </effect>
+    <effect type="MaximumVelocity" relativity="Absolute" amount="1.5">
+      <target type="ProtoUnit">ExplorerDog</target>
     </effect>
     <effect type="ForceSquadMode" squadmode="InfantryMelee" relativity="Assign" amount="1">
       <target type="ProtoUnit">Duelist</target>
