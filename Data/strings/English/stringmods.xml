@@ -10,6 +10,7 @@
 	    <string _locid="34389">Great Temple</string>
 	    <string _locid="34387">Sacred temple of the Inca. Trickles wood over time automatically.</string>
 	    <string _locid="35000">Town Center attack increased, and you receive a shipment of 6 Minutemen for each Town Center and Fort you have built. This shipment arrives more quickly.</string>
+	    <string _locid="35308">Longbowman range increased and they deal increased damage to Heavy Infantry.</string>
 	    <string _locid="35506">Crates of 400 Food</string>
 	    <string _locid="79923">Ages up very fast and allows Jungle Outposts to receive shipments</string>
 	    <String _locid="80002" symbol="cStringCivRolloverInca">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nKancha Houses spawn 2 Llamas when built. Llamas can be tasked at the community plaza at a less efficient rate than villagers. Starts with a free Chasqui who can construct Tambos; powerful Trading Posts which villagers can garrison in, and receives an additional Chasqui every Age. Military units can garrison in Kallankas and Strongholds. Native Allies shipments are cheaper and arrive more quickly\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nChasqui, Plumed Spearman, Chimu Runner, Jungle Bowman, Bolas Warrior, Huaraca, Maceman, Warrior Priestess and Chincha Raft.\n&lt;color=1.0, 1.0, 0.0&gt;Unique buildings:&lt;/color&gt;\nKallanka, Stronghold, Kancha House and Tambo\n&lt;color=1.0, 1.0, 0.0&gt;Unique ceremonies:&lt;/color&gt;\nMoon Ceremony and Supay Ceremony\n\nA vast South American empire known for the power of its walls and smart administration.</String>
@@ -69,7 +70,7 @@
 	    <string _locid="80547">Kallankas get more hitpoints, build faster, train units more quickly, and cost no coin. Increases build limit.</string>
 	    <string _locid="80552">Trade Monopoly is available an age early and is free.</string>
 	    <string _locid="80560">Doubles the effectiveness of Llamas at the Community Plaza. Additionally, you can now train Llamas and they move more quickly.</string>
-	    <string _locid="91501" symbol="cStringCivRolloverSwedish">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nTrains miners in addition to settlers. Torps replace houses and gather wood from nearby trees. Crates of Food are replaced by crates of Surströmming, which fatten over time. Jaeger and Black Rider mercenaries can always be recruited from the Tavern. Non-native mercenary shipments are cheaper and arrive more quickly. Advanced improvements available at the Arsenal.\n&lt;color=1.0, 1.0, 0.0&gt;Royal guard units:&lt;/color&gt;Pikeman (Dalkarl) and Karabinier (Drabant)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nCarolean, Leather Cannon and Karabinier\n\nThe Swedish Empire became one of the greatest in Europe through innovation in military tactics and logistics. Its artillery and cavalry charges dominated the battlefields, particularly during the Thirty Years War. Despite a relatively small population, the Swedes fielded some of the largest armies in Europe, partly through the recruitment of mercenaries.</string>
+	    <string _locid="91501" symbol="cStringCivRolloverSwedish">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nTrains miners in addition to settlers. Torps replace houses and gather wood from nearby trees. Crates of Food are replaced by crates of Surströmming, which fatten over time. Jaeger and Black Rider mercenaries can always be recruited from the Tavern. Non-native mercenary shipments are cheaper and arrive more quickly. Advanced improvements available at the Arsenal.\n&lt;color=1.0, 1.0, 0.0&gt;Royal guard units:&lt;/color&gt;Pikeman (Dalkarl) and Karabinier (Drabant)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nMiner, Carolean, Leather Cannon and Karabinier\n\nThe Swedish Empire became one of the greatest in Europe through innovation in military tactics and logistics. Its artillery and cavalry charges dominated the battlefields, particularly during the Thirty Years War. Despite a relatively small population, the Swedes fielded some of the largest armies in Europe, partly through the recruitment of mercenaries.</string>
 	    <string _locid="91509">Swedish Musketeer that counters cavalry and heavy infantry from range. Can charge quickly with his sword equipped. Good in melee combat against cavalry and heavy infantry.</string>
 	    <string _locid="91516">5 Karabiniers</string>
 	    <string _locid="91534">Karabinier</string>
@@ -91,14 +92,18 @@
 	    <string _locid="91635">TEAM All hand infantry and hand cavalry hitpoints increased.</string>
 	    <string _locid="91636">TEAM Hand Infantry / Hand Cavalry Hitpoints</string>
 	    <string _locid="91637">TEAM Hand Infantry / Hand Cavalry Shipment has arrived.</string>
-	    <string _locid="91638">All musketeers gain increased ranged damage, especially Caroleans.</string>
+	    <string _locid="91638">All musketeers gain increased ranged damage. Caroleans additionally deal increased damage to Heavy Infantry, Heavy Shock Infantry, and Heavy Cavalry.</string>
 	    <string _locid="91644">The sturdy breed of Finnhorses improves the hitpoints of Hussars and Karabiniers.</string>
 	    <string _locid="91647">Carolean and Karabinier range and line-of-sight increased.</string>
+	    <string _locid="91667">Your Explorer is upgraded to a powerful melee Duelist, giving him bonus damage against heavy infantry, increased armor, splash damage, a powerful Heavy Strike attack, a melee charge ability, and a canine companion.</string>
+	    <string _locid="91678">Delivers 1 Frigate. Frigates and Galleons no longer cost gold to train, but have an increased wood cost.</string>
 	    <string _locid="91687">Delivers 4 Torp Wagons. Torps gain more hitpoints, can receive Home City shipments and gather from wood crates.</string>
 	    <string _locid="91691">All musketeers gain increased hitpoints, especially Caroleans.</string>
+	    <string _locid="91694">Swedish Pikeman attack, armor, and hitpoints greatly increased.</string>
 	    <string _locid="91738">4 Karabiniers</string>
 	    <string _locid="91739">5 Karabiniers</string>
 	    <string _locid="91740">8 Karabiniers</string>
+	    <string _locid="91744">Leather Cannons train faster and are cheaper.</string>
 	    <string _locid="91752">Miners gather coin more quickly from mines and mines last longer for Miners, +1 Prospector Wagon.</string>
 	    <string _locid="91754">Blueberries</string>
 	    <string _locid="91755">Receive a shipment of 1 Berry Wagon for each Town Center you own. Villagers gather from berries more quickly. Läckert!</string>
@@ -110,8 +115,9 @@
 	    <string _locid="91789">All Hussars transform into Karabiniers and enables Karabiniers to be trained in the Commerce Age.</string>
 	    <string _locid="91790">Tähtitarha</string>
 	    <string _locid="91791">Tähtitarha</string>
-	    <string _locid="91792">Hussars and Karabiniers move faster and attack more quickly whilst using the Trample Mode stance and have more hitpoints.</string>
+	    <string _locid="91792">Hussars have more hitpoints and deal more damage to foot archers and skirmishers.</string>
 	    <string _locid="91849">5 Warrior Priestesses</string>
+	    <string _locid="91858">Royal Guard upgrade for Pikemen can be researched very cheaply. Enables Crossbowmen, and makes their guard upgrade free.</string>
 	    <string _locid="120000">3 Miners</string>
 	    <string _locid="120001">4 Miners</string>
 	    <string _locid="120002">10 Miners +1 Prospector Wagon</string>
@@ -137,7 +143,10 @@
 	    <string _locid="120022">Viking</string>
 	    <string _locid="120023"> TEAM Ships 5 Crates of Surströmming, which provide more Food over time up to double the initial crate capacity.</string>
 	    <string _locid="120024">Contract Veteran Crossbowmen</string>
-	    <string _locid="120025">Hire 7 Veteran Crossbowmen and enable them and their upgrades for the rest of the game</string>
+	    <string _locid="120025">Hire 7 Veteran Crossbowmen and enable them and their upgrades for the rest of the game.</string>
+	    <string _locid="120026">Leather Cannon Hitpoints</string>
+	    <string _locid="120027">Leather Cannon hitpoints increased.</string>
+	    <string _locid="120028">Leather Cannon Hitpoints Shipment has arrived.</string>
 	    <string _locid="140000">Cloud Forest Travois</string>
 	    <string _locid="140001">Cloud Forest</string>
 	    <string _locid="140002">4 Cloud Forest Travois</string>

@@ -2,13 +2,29 @@ General Changes:
 
 Units: 
 -- All Pikemen units (AbstractPikemen) get +1 melee range to better chase down cavalry.
+-- Crossbowmen AbstractHeavyInfantry multiplier improved to 1.5x from 1.25x
 -- Halberdier base speed increased to 4.5 from 4.0
+-- Landsknecht Oberhau Charge damage cap reduced to 108 from 164 and cooldown increased to 20 from 15.
+-- Grenadier Rebalanced:
+  -- AbstractHeavyInfantry unit tag removed
+  -- HP reduced to 180 from 200
+  -- Cost reduced from 120F/60G to 100F/60G (bounties adjusted accordingly)
+  -- Siege ROF improved to 3.0 from 4.0
+  -- Range improved to 14 from 12 on all attacks
+  -- 0.3x villager penalty removed, cavalry penalty lessened to 0.5x from 0.3x, 1.5x AbstractHeavyInfantry added
+  -- Grenade Launchers now has a much more significant animation delay and range bonus improved to 16 (from 14)
+  -- All nerfed techs reverted to legacy state.
+  -- Improved Grenades moved to age 2 and siege bonus improved to +50% from +25%
 
 Shipments:
 -- Colonial Militia: Reworked
   -- Moved to Age 2 from discovery age
   -- No longer enables Conscription. Now ships a onetime muster of 6 minutemen per Town Center and Fort
   -- Now takes 20 seconds to arrive instead of 40 
+-- Colbertism buffed to 2.25 Food/s from 1.50
+
+Politicians: 
+-- Philosopher Prince now costs 700 Food to age up with and ships 400 food (from 500)
 
 Buildings: 
 
@@ -293,7 +309,7 @@ Shipment Changes:
   -- Allows Pikemen and Halberdiers to perform a melee charge for +1.5 speed for 6 seconds, with a 75 second cooldown.
 -- Platoon Fire reworked:
   -- Now buffs the ranged damage of AbstractMusketeer by 10%
-  -- Caroleans get a further 10% damage buff (for a total of 20%)
+  -- Caroleans get a +0.5x AbstractHeavyInfantry, AbstractHeavyCavalry, and AbstractCoyoteMan
   -- No longer increased the damage multipliers of Caroleans
 -- Svea Lifeguard reworked:
   -- Now buffs the HP of AbstractMusketeer by 15%
@@ -324,11 +340,29 @@ Shipment Changes:
   -- Moved to age 2
   -- Now ships 1 berry wagon for each Town Center you control
   -- All villagers gather from berries 15% more quickly.
--- 6 Mamelukes Infinite replaced with Contract Stradiots (8 for 1000 gold)
+-- 6 Mamelukes Infinite replaced with Contract Stradiots (10 for 1000 gold)
 -- Commerce Age "Contract 7 Veteran Crossbowmen" added for 300 gold. Enabled them in the barracks and unlocks their techs for the rest of the game.
-
-
+-- Case Shot Removed
+-- Leather Cannon Hitpoints (20%) added to the Fortress Age
+-- Light Gun Carriages no longer techs Infantry Guns; instead it reduces the cost of leather cannons by 15%.
+-- Trample Tactics Reworked:
+  -- Now only affects Hussars. 
+  -- Hussars now only get +10% HP (down from +15%)
+  -- Hussars now gain +25% damage to skirmishers/foot archers
+-- Barrage Reworked:
+  -- Now increases the damage cap of grenadiers and artillery by 75%, but adds in a (0.4x) 40% damage penalty to cavalry
+-- Duelist Reworked:
+  -- Now moved to age 2 from age 1
+  -- Disables the ranged attack on your explorer and turns him into handinfantry.
+  -- Base melee attack improved to 10 from 6 and 2x AbstractHeavyInfantry added.
+    -- Attack has 1 range and 1 AOE with a base damage cap of 20. 
+  -- Now grants him a melee charge for +1.5 speed for 6 seconds with a 75 second cooldown.
+  -- Grants him +20% range resist (0.1 --> 0.3)
+-- Vasa Reworked:
+  -- No longer refunds gold when ships are sank.
+  -- Galleons and Frigates no longer cost gold, but have a greatly increased wood cost.
+    -- Galleons: 300W/500G --> 600W
+    -- Frigates: 500W/500G --> 800W
 TODO:
-rework caseshot
-rework lightgun carriages
-rework trample tactics
+rework TEAM Ranged Cav Combat (+10/10 and +5% speed)
+add TEAM villager siege damage (2.5x mult against buildings)

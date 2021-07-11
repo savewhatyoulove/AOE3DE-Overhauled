@@ -567,7 +567,7 @@
       <age>2</age>
     </card>
     <card>
-      <name>DEHCCaseShot</name>
+      <name>DEHCLeatherCannonHitpoints</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -577,7 +577,7 @@
       <name>HCShipMortars2</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>DEHCCaseShot</prereqtech>
+      <prereqtech>-1</prereqtech>
       <age>3</age>
       <displayunitcount>3</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -1391,7 +1391,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>2</age>
+      <age>1</age>
     </card>
     <card>
       <name>HCREVShipGatlingGuns</name>
@@ -1617,7 +1617,6 @@
         <card dbid="2219">HCShipSheep2</card>
         <card dbid="6400">DEHCShipMineWagonRepeat</card>
         <card dbid="6531">DEHCShipElks</card>
-        <card dbid="6414">DEHCCaseShot</card>
         <card dbid="6410">DEHCContractMercsHighlanders</card>
       </cards>
     </deck>
@@ -1633,7 +1632,6 @@
         <card dbid="2212">HCShipWoodCrates3</card>
         <card dbid="6394">DEHCFalunMineTeam</card>
         <card dbid="2043">HCSilversmith</card>
-        <card dbid="6414">DEHCCaseShot</card>
         <card dbid="6393">DEHCCronstedtReforms</card>
         <card dbid="2236">HCShipFalconets3</card>
         <card dbid="6389">DEHCPlatoonFire</card>
@@ -1865,8 +1863,8 @@
       <tech x="5.9" y="3.0">DEHCShipFalconetsCulverins1</tech>
       <tech x="5.9" y="3.0">DEHCShipFalconetsCulverins2</tech>
       <tech x="6.6" y="1.0">HCAdvancedArtillery</tech>
+      <tech x="6.6" y="1.0">DEHCLeatherCannonHitpoints</tech>
       <tech x="6.6" y="3.0">HCShipCannons1</tech>
-      <tech x="7.3" y="1.0">DEHCCaseShot</tech>
       <tech x="7.3" y="2.0">HCShipMortars2</tech>
       <tech x="7.3" y="7.0">HCXPShipMortarsTeam</tech>
       <tech x="7.3" y="7.0">DEHCCronstedtReforms</tech>
@@ -1913,8 +1911,8 @@
       <tech x="5.9" y="3.0">DEHCShipFalconetsCulverins1</tech>
       <tech x="5.9" y="3.0">DEHCShipFalconetsCulverins2</tech>
       <tech x="6.6" y="1.0">HCAdvancedArtillery</tech>
+      <tech x="6.6" y="1.0">DEHCLeatherCannonHitpoints</tech>
       <tech x="6.6" y="3.0">HCShipCannons1</tech>
-      <tech x="7.3" y="1.0">DEHCCaseShot</tech>
       <tech x="7.3" y="2.0">HCShipMortars2</tech>
       <tech x="7.3" y="7.0">HCXPShipMortarsTeam</tech>
       <tech x="7.3" y="7.0">DEHCCronstedtReforms</tech>

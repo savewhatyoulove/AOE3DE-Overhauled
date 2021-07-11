@@ -947,4 +947,22 @@
     <allowduringnorush>1</allowduringnorush>
     <startsoundset>BattlecryMedium</startsoundset>
   </power>
+<power name="deExplorerCharge" type="GeneralEffect">
+    <displaynameid>91821</displaynameid>
+    <rolloverid>91822</rolloverid>
+    <timerrolloverid>91823</timerrolloverid>
+    <icon>resources\images\icons\abilities\ability_carolean_charge_lrg.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>6</activetime>
+    <effect type="MaximumVelocity" relativity="Absolute" amount="1.5">
+      <target type="ProtoUnit">Duelist</target>
+    </effect>
+    <effect type="ForceSquadMode" squadmode="InfantryMelee" relativity="Assign" amount="1">
+      <target type="ProtoUnit">Duelist</target>
+    </effect>
+    <messagealertplayerrelation>none</messagealertplayerrelation>
+    <placement forceonmap="1" ally="">unit</placement>
+    <allowduringnorush>1</allowduringnorush>
+    <startsoundset>BattlecryMedium</startsoundset>
+  </power>
 </powers>
