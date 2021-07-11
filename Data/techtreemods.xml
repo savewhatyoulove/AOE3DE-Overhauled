@@ -2927,44 +2927,19 @@
     <rollovertextid>91755</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="AbstractBerryBush" relativity="BasePercent">
+      <effect type="Data" action="Gather" amount="1.40" subtype="WorkRate" unittype="AbstractBerryBush" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="ypBerryBuilding" relativity="BasePercent">
+      <effect type="Data" action="Gather" amount="1.20" subtype="Yield" unittype="AbstractBerryBush" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnitByUnitCount" counttype="TownCenter" unittype="YPBerryWagon1" relativity="Absolute">
-        <target type="Player"/>
+      <effect type="Data" action="Gather" amount="1.40" subtype="WorkRate" unittype="ypBerryBuilding" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-        <target type="ProtoUnit">ypBerryBuilding</target>
+      <effect type="Data" action="Gather" amount="1.20" subtype="Yield" unittype="ypBerryBuilding" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
       </effect>
       <effect type="TextOutput">91756</effect>
-    </effects>
-  </tech>
-  <tech mergeMode='replace' name="DEHCBlackberries" type="Normal">
-    <dbid>6536</dbid>
-    <displaynameid>91757</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\sweden\blackberries.png</icon>
-    <rollovertextid>91758</rollovertextid>
-    <flag>HomeCity</flag>
-    <effects>
-      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="AbstractBerryBush" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractVillager</target>
-      </effect>
-      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="ypBerryBuilding" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractVillager</target>
-      </effect>
-      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnitByUnitCount" counttype="TownCenter" unittype="YPBerryWagon1" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-        <target type="ProtoUnit">ypBerryBuilding</target>
-      </effect>
-      <effect type="TextOutput">91759</effect>
     </effects>
   </tech>
   <tech name="DEChurchSwedishColonies" type="Normal">
@@ -3496,6 +3471,17 @@
       </effect>
       <effect type="Data" amount="1.75" subtype="DamageCap" allactions="1" relativity="BasePercent">
         <target type="ProtoUnit">AbstractArtillery</target>
+      </effect>
+
+    </effects>
+  </tech>
+  <tech name="DEHCTorpTeam" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="Data" action="Gather" amount="1.20" subtype="Yield" unittype="Tree" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect mergeMode='add' type="Data" action="Gather" amount="1.20" subtype="Yield" unittype="ypGroveBuilding" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
       </effect>
 
     </effects>

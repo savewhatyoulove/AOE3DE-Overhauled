@@ -81,6 +81,7 @@
 	    <string _locid="91539">Veteran Karabiniers</string>
 	    <string _locid="91540">Karabinier attack and hitpoints greatly increased.</string>
 	    <string _locid="91544">Veteran Karabinier</string>
+	    <string _locid="91574">TEAM Sends a wagon that transforms into a Torp to support more population and gather nearby resources. Villagers have increased yield from trees.</string>
 	    <string _locid="91614">Pikemen and Halberdiers gain increased damage against Heavy Infantry, but take longer to be trained.</string>
 	    <string _locid="91616">Jaegers and Black Riders can be hired from all military buildings and now cost a lesser amount of Wood to recruit instead of gold.</string>
 	    <string _locid="91617">Savolax Mercenaries</string>
@@ -107,7 +108,7 @@
 	    <string _locid="91744">Leather Cannons train faster and are cheaper.</string>
 	    <string _locid="91752">Miners gather coin more quickly from mines and mines last longer for Miners, +1 Prospector Wagon.</string>
 	    <string _locid="91754">Blueberries</string>
-	    <string _locid="91755">Receive a shipment of 1 Berry Wagon for each Town Center you own. Villagers gather from berries more quickly. Läckert!</string>
+	    <string _locid="91755">Villagers gather from berries more quickly and bushes last longer. Läckert!</string>
 	    <string _locid="91756">Blueberries Shipment has arrived.</string>
 	    <string _locid="91757">Blackberries</string>
 	    <string _locid="91758">Receive a shipment of 1 Berry Wagon for each Town Center you own. Villagers gather from berries more quickly.</string>

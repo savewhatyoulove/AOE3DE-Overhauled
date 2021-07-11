@@ -98,39 +98,6 @@
     <singleuse>1</singleuse>
   </action>
   <action>
-    <name stringid="43019">AutoGatherWood</name>
-    <type>AutoGather</type>
-    <persistent>1</persistent>
-  </action>
-  <action>
-    <name stringid="91720">AreaGatherMine</name>
-    <type>AutoRangedModify</type>
-    <modifyabstracttype>AbstractMine</modifyabstracttype>
-    <includegaia>1</includegaia>
-    <active>0</active>
-    <maxrange>6.1</maxrange>
-    <persistent>1</persistent>
-    <singleunit>1</singleunit>
-    <modifytype>UnitResource</modifytype>
-    <modifyamount>0.3</modifyamount>
-    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
-    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
-  </action>
-  <action>
-    <name stringid="91720">AreaGatherMine2</name>
-    <type>AutoRangedModify</type>
-    <modifyabstracttype>AbstractMine</modifyabstracttype>
-    <includegaia>1</includegaia>
-    <active>0</active>
-    <maxrange>6.1</maxrange>
-    <persistent>1</persistent>
-    <singleunit>1</singleunit>
-    <modifytype>UnitResource</modifytype>
-    <modifyamount>0.6</modifyamount>
-    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
-    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
-  </action>
-  <action>
     <name stringid="91720">AreaGatherTree</name>
     <type>AutoRangedModify</type>
     <modifyabstracttype>Tree</modifyabstracttype>
@@ -159,97 +126,6 @@
     <modifytype>UnitResource</modifytype>
     <modifyamount>0.05</modifyamount>
     <modifytargetlimit>15</modifytargetlimit>
-    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
-    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
-  </action>
-  <action>
-    <name stringid="91720">AreaGatherHerdable</name>
-    <type>AutoRangedModify</type>
-    <modifyabstracttype>Herdable</modifyabstracttype>
-    <targetgaia>1</targetgaia>
-    <active>0</active>
-    <maxrange>14</maxrange>
-    <persistent>1</persistent>
-    <donotignoredead>1</donotignoredead>
-    <deadexclusive>1</deadexclusive>
-    <singleunit>1</singleunit>
-    <modifytype>UnitResource</modifytype>
-    <modifyamount>1.0</modifyamount>
-    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
-    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
-  </action>
-  <action>
-    <name stringid="91720">AreaGatherHuntable</name>
-    <type>AutoRangedModify</type>
-    <modifyabstracttype>Huntable</modifyabstracttype>
-    <targetgaia>1</targetgaia>
-    <active>0</active>
-    <maxrange>14</maxrange>
-    <persistent>1</persistent>
-    <donotignoredead>1</donotignoredead>
-    <deadexclusive>1</deadexclusive>
-    <singleunit>1</singleunit>
-    <modifytype>UnitResource</modifytype>
-    <modifyamount>0.42</modifyamount>
-    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
-    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
-  </action>
-  <action>
-    <name stringid="91720">AreaGatherBerryBush</name>
-    <type>AutoRangedModify</type>
-    <modifyabstracttype>AbstractBerryBush</modifyabstracttype>
-    <includegaia>1</includegaia>
-    <active>0</active>
-    <maxrange>6.1</maxrange>
-    <persistent>1</persistent>
-    <donotignoredead>1</donotignoredead>
-    <singleunit>1</singleunit>
-    <modifytype>UnitResource</modifytype>
-    <modifyamount>0.335</modifyamount>
-    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
-    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
-  </action>
-  <action>
-    <name stringid="91720">AreaGatherBerryBush2</name>
-    <type>AutoRangedModify</type>
-    <modifyabstracttype>AbstractBerryBush</modifyabstracttype>
-    <includegaia>1</includegaia>
-    <active>0</active>
-    <maxrange>6.1</maxrange>
-    <persistent>1</persistent>
-    <donotignoredead>1</donotignoredead>
-    <singleunit>1</singleunit>
-    <modifytype>UnitResource</modifytype>
-    <modifyamount>0.335</modifyamount>
-    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
-    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
-  </action>
-  <action>
-    <name stringid="91720">AreaGatherBlueBerryBush</name>
-    <type>AutoRangedModify</type>
-    <modifyprotoid>deTorpBush2</modifyprotoid>
-    <includegaia>1</includegaia>
-    <active>0</active>
-    <maxrange>6.1</maxrange>
-    <persistent>1</persistent>
-    <donotignoredead>1</donotignoredead>
-    <singleunit>1</singleunit>
-    <modifytype>UnitResource</modifytype>
-    <modifyamount>0.57</modifyamount>
-    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
-    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
-  </action>
-  <action>
-    <name stringid="91720">AreaGatherBerryBuilding</name>
-    <type>AutoRangedModify</type>
-    <modifyprotoid>ypBerryBuilding</modifyprotoid>
-    <active>0</active>
-    <maxrange>6.1</maxrange>
-    <persistent>1</persistent>
-    <donotignoredead>1</donotignoredead>
-    <singleunit>1</singleunit>
-    <modifytype>UnitResource</modifytype>
-    <modifyamount>0.335</modifyamount>
     <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>
@@ -329,5 +205,5 @@
     <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>
-  <tactic>Normal<action>AreaGatherMine</action><action>AreaGatherMine2</action><action>AreaGatherTree</action><action>AreaGatherTree2</action><action>AreaGatherHerdable</action><action>AreaGatherHuntable</action><action>AreaGatherBerryBush</action><action>AreaGatherBerryBush2</action><action>AreaGatherBlueBerryBush</action><action>AreaGatherFoodCrate</action><action>AreaGatherWoodCrate</action><action>AreaGatherCoinCrate</action><action>AreaGatherInfiniteCrate</action><action>AreaGatherBerryBuilding</action><action>AreaGatherGroveBuilding</action><action>SpawnCaroleans1</action><action>SpawnCaroleans2</action><action>SpawnElks</action><action>SpawnCrates</action><action>SpawnSheep</action><action>SpawnMilitia</action><action>SpawnBush</action></tactic>
+  <tactic>Normal<action>AreaGatherTree</action><action>AreaGatherTree2</action><action>AreaGatherFoodCrate</action><action>AreaGatherWoodCrate</action><action>AreaGatherCoinCrate</action><action>AreaGatherInfiniteCrate</action><action>AreaGatherGroveBuilding</action><action>SpawnCaroleans1</action><action>SpawnCaroleans2</action><action>SpawnElks</action><action>SpawnCrates</action><action>SpawnSheep</action><action>SpawnMilitia</action><action>SpawnBush</action></tactic>
 </tactics>

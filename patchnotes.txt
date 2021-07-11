@@ -368,6 +368,7 @@ Shipment Changes:
 -- TEAM Ranged Cavalry Combat Reworked:
   -- Now additionally provides +10% HP/Damage
   -- No longer increases range by 1 (still increases speed by +5%)
+-- TEAM 1 Torp wagon now provides +20% yield additionally.
 
 TODO:
 add swedish VOs for longbowmen
