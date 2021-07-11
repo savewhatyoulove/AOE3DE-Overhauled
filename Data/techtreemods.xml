@@ -3488,6 +3488,9 @@
       <effect type="Data" amount="-0.40" subtype="DamageBonus" unittype="AbstractCavalry" allactions="1" relativity="Absolute">
 		<target type="ProtoUnit">AbstractArtillery</target>
       </effect>
+      <effect type="Data" amount="-0.20" subtype="DamageBonus" unittype="AbstractCavalry" allactions="1" relativity="Absolute">
+		<target type="ProtoUnit">Grenadier</target>
+      </effect>
       <effect type="Data" amount="1.75" subtype="DamageCap" allactions="1" relativity="BasePercent">
         <target type="ProtoUnit">Grenadier</target>
       </effect>
