@@ -96,7 +96,7 @@
 	    <string _locid="91638">All musketeers gain increased ranged damage. Caroleans additionally deal increased damage to Heavy Infantry, Heavy Shock Infantry, and Heavy Cavalry.</string>
 	    <string _locid="91641">TEAM Increases speed, hitpoints, and damage of all Ranged Cavalry.</string>
 	    <string _locid="91644">The sturdy breed of Finnhorses improves the hitpoints of Hussars and Karabiniers.</string>
-	    <string _locid="91647">Carolean and Karabinier range and line-of-sight increased.</string>
+	    <string _locid="91647">Carolean and Karabinier range and line-of-sight increased. Karabiniers additionally deal increased damage to light cavalry and Eagle Runner Knights.</string>
 	    <string _locid="91667">Your Explorer is upgraded to a powerful melee Duelist, giving him bonus damage against heavy infantry, increased armor, splash damage, a powerful Heavy Strike attack, a melee charge ability, and a canine companion.</string>
 	    <string _locid="91678">Delivers 1 Frigate. Frigates and Galleons no longer cost gold to train, but have an increased wood cost.</string>
 	    <string _locid="91687">Delivers 4 Torp Wagons. Torps gain more hitpoints, can receive Home City shipments and gather from wood crates.</string>
@@ -117,7 +117,7 @@
 	    <string _locid="91789">All Hussars transform into Karabiniers and enables Karabiniers to be trained in the Commerce Age.</string>
 	    <string _locid="91790">Tähtitarha</string>
 	    <string _locid="91791">Tähtitarha</string>
-	    <string _locid="91792">Hussars have more hitpoints and deal more damage to foot archers and skirmishers.</string>
+	    <string _locid="91792">Hussars deal more damage, especially to foot archers and skirmishers.</string>
 	    <string _locid="91849">5 Warrior Priestesses</string>
 	    <string _locid="91858">Royal Guard upgrade for Pikemen can be researched very cheaply. Enables Crossbowmen, and makes their guard upgrade free.</string>
 	    <string _locid="120000">3 Miners</string>

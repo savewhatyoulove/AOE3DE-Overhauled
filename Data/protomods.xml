@@ -3606,8 +3606,8 @@
       <damagebonus type="AbstractHeavyInfantry">3.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractArtillery">2.500000</damagebonus>
-      <damagebonus type="AbstractHeavyCavalry">0.750000</damagebonus>
-      <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
+      <damagebonus type="AbstractCavalry">0.750000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
     <protoaction>
       <name>GuardianRangedAttack</name>
@@ -3621,8 +3621,8 @@
       <damagebonus type="AbstractHeavyInfantry">3.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractArtillery">2.500000</damagebonus>
-      <damagebonus type="AbstractHeavyCavalry">0.750000</damagebonus>
-      <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
+      <damagebonus type="AbstractCavalry">0.750000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
     <protoaction>
       <name>MeleeHandAttack</name>
@@ -3633,8 +3633,8 @@
       <damagebonus type="AbstractHeavyInfantry">3.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractArtillery">2.500000</damagebonus>
-      <damagebonus type="AbstractHeavyCavalry">0.750000</damagebonus>
-      <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
+      <damagebonus type="AbstractCavalry">0.750000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
     <protoaction>
       <name>TrampleHandAttack</name>
@@ -3648,8 +3648,8 @@
       <damagebonus type="AbstractHeavyInfantry">3.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractArtillery">2.500000</damagebonus>
-      <damagebonus type="AbstractHeavyCavalry">0.750000</damagebonus>
-      <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
+      <damagebonus type="AbstractCavalry">0.750000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
     <protoaction>
       <name>GuardianAttack</name>
@@ -3660,8 +3660,8 @@
       <damagebonus type="AbstractHeavyInfantry">3.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractArtillery">2.500000</damagebonus>
-      <damagebonus type="AbstractHeavyCavalry">0.750000</damagebonus>
-      <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
+      <damagebonus type="AbstractCavalry">0.750000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
     <protoaction>
       <name>StaggerRangedAttack</name>
@@ -3676,8 +3676,8 @@
       <damagebonus type="AbstractHeavyInfantry">3.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractArtillery">2.500000</damagebonus>
-      <damagebonus type="AbstractHeavyCavalry">0.750000</damagebonus>
-      <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
+      <damagebonus type="AbstractCavalry">0.750000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
   </unit>
  <unit id="301" name="Church">

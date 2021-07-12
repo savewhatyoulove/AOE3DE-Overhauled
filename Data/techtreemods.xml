@@ -2791,15 +2791,38 @@
       <effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
         <target type="ProtoUnit">deCarolean</target>
       </effect>
-      <effect type="Data" action="DefendRangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+      <effect type="Data" action="GuardianRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
         <target type="ProtoUnit">deFinnishRider</target>
       </effect>
-      <effect type="Data" action="StaggerRangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+
+      <effect type="Data" action="DefendRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
         <target type="ProtoUnit">deFinnishRider</target>
       </effect>
-      <effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+      <effect type="Data" action="StaggerRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
         <target type="ProtoUnit">deFinnishRider</target>
       </effect>
+      <effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">deFinnishRider</target>
+      </effect>
+      <effect type="Data" action="DefendRangedAttack" amount="0.40" subtype="DamageBonus" unittype="AbstractLightCavalry" relativity="Absolute">
+        <target type="ProtoUnit">deCarolean</target>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="0.40" subtype="DamageBonus" unittype="AbstractLightCavalry" relativity="Absolute">
+        <target type="ProtoUnit">deFinnishRider</target>
+      </effect>
+      <effect type="Data" action="GuardianRangedAttack" amount="0.40" subtype="DamageBonus" unittype="AbstractLightCavalry" relativity="Absolute">
+        <target type="ProtoUnit">deFinnishRider</target>
+      </effect>
+      <effect type="Data" action="DefendRangedAttack" amount="0.40" subtype="DamageBonus" unittype="xpEagleKnight" relativity="Absolute">
+        <target type="ProtoUnit">deFinnishRider</target>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="0.40" subtype="DamageBonus" unittype="xpEagleKnight" relativity="Absolute">
+        <target type="ProtoUnit">deFinnishRider</target>
+      </effect>
+      <effect type="Data" action="GuardianRangedAttack" amount="0.40" subtype="DamageBonus" unittype="xpEagleKnight" relativity="Absolute">
+        <target type="ProtoUnit">deFinnishRider</target>
+      </effect>
+
       <effect type="TextOutput">91649</effect>
     </effects>
   </tech>
@@ -3259,7 +3282,7 @@
     <rollovertextid>91792</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+      <effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
         <target type="ProtoUnit">Hussar</target>
       </effect>
       <effect type="Data" action="MeleeHandAttack" amount="0.25" subtype="DamageBonus" unittype="AbstractInfantry" relativity="Absolute">
