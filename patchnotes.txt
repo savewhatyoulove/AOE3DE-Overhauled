@@ -12,8 +12,7 @@ Units:
   -- Siege ROF improved to 3.0 from 4.0
   -- Range improved to 14 from 12 on all attacks
   -- 0.3x villager penalty removed, cavalry penalty lessened to 0.5x from 0.3x, 1.5x AbstractHeavyInfantry added
-  -- Grenade Launchers now has a much more significant animation delay and range bonus improved to 16 (from 14)
-  -- All nerfed techs reverted to legacy state.
+  -- Grenade Launchers now has a much more significant animation delay and range bonus improved to 16 (from 14). Now techs Veteran Grenadiers if not researched.
   -- Improved Grenades moved to age 2 and siege bonus improved to +50% from +25%
 
 Shipments:
@@ -347,7 +346,7 @@ Shipment Changes:
 -- Light Gun Carriages no longer techs Infantry Guns; instead it reduces the cost of leather cannons by 15%.
 -- Trample Tactics Reworked:
   -- Now only affects Hussars. 
-  -- Hussars now only get +10% HP (down from +15%)
+  -- Hussars now get +10% damage instead of +15% HP.
   -- Hussars now gain +25% damage to skirmishers/foot archers
 -- Barrage Reworked:
   -- Now increases the damage cap of grenadiers and artillery by 75%, but adds in a (0.4x) 40% damage penalty to cavalry
@@ -368,7 +367,7 @@ Shipment Changes:
 -- TEAM Ranged Cavalry Combat Reworked:
   -- Now additionally provides +10% HP/Damage
   -- No longer increases range by 1 (still increases speed by +5%)
--- TEAM 1 Torp wagon now provides +20% yield additionally.
+-- TEAM 1 Torp wagon now provides +20% wood yield for villagers additionally.
 
 TODO:
 add swedish VOs for longbowmen

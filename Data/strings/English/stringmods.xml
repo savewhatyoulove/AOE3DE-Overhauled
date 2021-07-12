@@ -110,8 +110,7 @@
 	    <string _locid="91754">Blueberries</string>
 	    <string _locid="91755">Villagers gather from berries more quickly and bushes last longer. Läckert!</string>
 	    <string _locid="91756">Blueberries Shipment has arrived.</string>
-	    <string _locid="91757">Blackberries</string>
-	    <string _locid="91758">Receive a shipment of 1 Berry Wagon for each Town Center you own. Villagers gather from berries more quickly.</string>
+	    <string _locid="91777">Artillery now deal increased area damage (area of affect damage cap raised), but they now deal less damage to cavalry.</string>
 	    <string _locid="91783">Ships 2 Crates of Surströmming, which provide more Food over time up to double the initial crate capacity.</string>
 	    <string _locid="91784">Crates of 200 Surströmming</string>
 	    <string _locid="91789">All Hussars transform into Karabiniers and enables Karabiniers to be trained in the Commerce Age.</string>
@@ -158,9 +157,9 @@
 	    <string _locid="120035">Hero Charge</string>
 	    <string _locid="120036">Your Explorer and his pet gain a brief speed boost.</string>
 	    <string _locid="120037">Hero Charge time remaining</string>
-	    <string _locid="120038">TEAM Villager Siege Damage</string>
+	    <string _locid="120038">TEAM Villager Siege</string>
 	    <string _locid="120039">TEAM Villagers gain greatly increased siege damage.</string>
-	    <string _locid="120040">TEAM Villager Siege Damage Shipment has arrived.</string>
+	    <string _locid="120040">TEAM Villager Siege Shipment has arrived.</string>
 	    <string _locid="140000">Cloud Forest Travois</string>
 	    <string _locid="140001">Cloud Forest</string>
 	    <string _locid="140002">4 Cloud Forest Travois</string>

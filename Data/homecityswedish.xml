@@ -1618,7 +1618,6 @@
         <card dbid="6391">DEHCFinnhorses</card>
         <card dbid="6506">DEHCShipFalconetsCulverins1</card>
         <card dbid="6500">DEHCGermanMercenaryContracts</card>
-        <card dbid="6536">DEHCBlackberries</card>
         <card dbid="6508">DEHCShipHakkapelits2</card>
         <card dbid="6632">DEHCHakkapelitMarch</card>
         <card dbid="2219">HCShipSheep2</card>
@@ -1715,7 +1714,6 @@
         <card>DEHCREVTurkuAcademy</card>
         <card>DEHCREVShipElk</card>
         <card>DEHCREVNothernWilderness</card>
-        <card>DEHCREVBlackberries</card>
         <card>DEHCREVShipCopperMines</card>
         <card>DEHCREVShipHakkapelits</card>
         <card>DEHCREVShipBalticFleet</card>
@@ -1984,7 +1982,6 @@
       <tech x="7.2" y="3.0">HCXPIndustrialRevolution</tech>
       <tech x="7.2" y="3.0">DEHCSoldierTorps</tech>
       <tech x="1.2" y="2.0">DEHCBlueberries</tech>
-      <tech x="1.2" y="2.0">DEHCBlackberries</tech>
       <tech x="1.2" y="2.0">YPHCEngineeringSchoolTeam</tech>
     </obtainabletechs>
     <activetechs>
@@ -2021,7 +2018,6 @@
       <tech x="7.2" y="3.0">HCXPIndustrialRevolution</tech>
       <tech x="7.2" y="3.0">DEHCSoldierTorps</tech>
       <tech x="1.2" y="2.0">DEHCBlueberries</tech>
-      <tech x="1.2" y="2.0">DEHCBlackberries</tech>
       <tech x="1.2" y="2.0">YPHCEngineeringSchoolTeam</tech>
     </activetechs>
     <validunits/>

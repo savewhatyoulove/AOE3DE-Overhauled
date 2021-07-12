@@ -3466,7 +3466,7 @@
     <rollovertextid>120039</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" action="BuildingAttack" amount="2.00" subtype="DamageBonus" unittype="Building" relativity="Absolute">
+      <effect type="Data" action="BuildingAttack" amount="1.00" subtype="DamageBonus" unittype="Building" relativity="Absolute">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
       <effect type="TextOutput">120040</effect>
@@ -3506,7 +3506,11 @@
       <effect mergeMode='add' type="Data" action="Gather" amount="1.20" subtype="Yield" unittype="ypGroveBuilding" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-
+    </effects>
+  </tech>
+  <tech name="DEHCHandMortar" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="TechStatus" status="active">VeteranGrenadiers</effect>
     </effects>
   </tech>
 
