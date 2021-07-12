@@ -238,34 +238,40 @@ Starting Changes:
 -- 100 Wood removed, 100 Coin added.
 -- 1 Villager removed, 1 Miner added.
 
+Politician Changes: 
+-- Philosopher Prince now provides 300 Surstromming instead of 400 food (this caps out at 600 food). 
+-- Papal Guard Reworked:
+  -- Now enables Crossbowmen, researches their veteran upgrade, and makes their Guard Upgrades free. 
+  -- Dalkarl (RG Pikeman upgrade) no longer free, now costs 100W/100G (base guard upgrade is free, only RG costs now)
+
+Unit Changes:
+
+Settler built limit reduced to 60 from 99. 
+
 New Unit: Miner, a hardy settler that gathers coin exceptionally quickly, but is worse at all other natural resources. Armed with grenades to fend off infantry, but vulnerable to cavalry raids. Builds defensive buildings more quickly.
 Stats: 
 Unit Tags: AbstractVillager, AbstractInfantry
 HP: 150
 Armor: 40 Ranged
 Speed: 4.0
-Cost: 100
+Cost: 100 Gold
 Population: 1
-Build Limit: 30
+Build Limit: 25
 Siege Attack: 12 w/ 14 range and 3.0 ROF
 Ranged Attack: 8 Siege w/ 14 range and 3.0 ROF. 0.25x AbstractCavalry and AbstractVillager; animation sped up to 0.55 from 0.82
 Melee Attack: 10 w/ 0.25x AbstractCavalry and AbstractVillager
-Gather Rates: +25% base mining rate (0.6 --> 0.75), +20% yield on mines. -10% hunting, chopping, herding rates. 
+Gather Rates: +20% base mining rate (0.6 --> 0.72), +20% yield on mines. -10% hunting, chopping, herding rates (all non-gold). 
 
-Politician Changes: 
--- Philosopher Prince now provides 300 Surstromming instead of 400 food. 
-
-Unit Changes:
 
 Surstromming Crates:
--- Now capped at 200 Food capacity instead of infinite.
--- Build limit removed. 
+-- Now capped at 200 Food capacity per crate instead of infinite.
+-- Build limit removed (TCs have a 30 crate limit each in general) 
 
 Carolean:
 Speed: Reduced to 4.0 from 4.25
 Cost: Increased to 40F/60G from 60F/40G
 Carolean Chage: Cooldown reduced to 75 seconds from 90 and now provides +1.5 speed instead of +1.0, but duration reduced to 6 seconds
-Melee Attack: Increased to 20 from 19; 1.5x AbstractCavalry, 2.5x AbstractHeavyInfantry, 1.5x AbstractLightInfantry added. AbstractInfantry penalty increased to 0.6x from 0.8x
+Melee Attack: Increased to 20 from 19; 1.5x AbstractCavalry, 2.5x AbstractHeavyInfantry (1.5x net), 1.5x AbstractLightInfantry added. AbstractInfantry penalty increased to 0.6x from 0.8x
 Ranged Attack: Reduced to 20/3.0 ROF from 19/2.5 ROF, 1.5x AbstractHeavyInfantry multiplier added.
 
 Leather Cannon:
@@ -281,20 +287,21 @@ Speed: 6
 Armor: 0.30 Ranged
 Tags: AbstractCavalry, AbstractLightCavalry
 Siege: 21 w/ 3 ROF
-Ranged Attack: 21 w/ 2.0 ROF and 16 Range. 0.5x AbstractInfantry, 3.0x AbstractHeavyInfantry (1.5x net), 2x AbstractLightCavalry, 2.5x AbstractArtillery, 0.75x AbstractHeavyCavalry/AbstractCoyoteMan, 0.5x AvstractVillager
+Ranged Attack: 21 w/ 2.0 ROF and 16 Range. 0.5x AbstractInfantry, 3.0x AbstractHeavyInfantry (1.5x net), 2x AbstractLightCavalry (1.5x net), 2.5x AbstractArtillery, 0.75x AbstractCavalry/AbstractLightInfantry, 0.5x AvstractVillager
 Melee Attack: 16 w/ 1.5 ROF, same multipliers as ranged without villager penalty.
 
-Sweden can no longer train crossbowmen without the Papal Guard politician or shipments
+Sweden can no longer train crossbowmen without the Papal Guard politician or "Contract Crossbowmen" shipment.
+Sweden can no longer train grenadiers without the Grenade Launchers shipment.
+Sweden can now train Halberdiers by default in the Fortress Age. 
 
 Building Changes:
 
 Torp: 
--- Can now only gather wood. Area Mining/Hunting disabled. 
+-- Can now only gather wood. Area Mining/Hunting/Foraging disabled. 
 -- Base wood gather range increased to 8 from 6.2
--- Base wood gather limit increased to 6 from 5.
--- Cost reduced to 120 wood from 135
+-- Base wood gather limit increased to 6 from 5 (0.30w/s cap).
+-- Cost reduced to 120 wood from 135 (bounties adjusted accordingly)
 -- HP reduced from 1500 to 1200
-
 
 Shipment Changes:
 -- Oxenstierna Reforms exchange rate buffed from 1.25 to 1.50 gold per food. 
@@ -307,17 +314,15 @@ Shipment Changes:
   -- Now called "Dalecarlean Offensive"
   -- Allows Pikemen and Halberdiers to perform a melee charge for +1.5 speed for 6 seconds, with a 75 second cooldown.
 -- Platoon Fire reworked:
-  -- Now buffs the ranged damage of AbstractMusketeer by 10%
+  -- Now buffs the ranged damage of AbstractMusketeer by 10% (e.g. Fusiliers and Highlanders)
   -- Caroleans get a +0.5x AbstractHeavyInfantry, AbstractHeavyCavalry, and AbstractCoyoteMan
-  -- No longer increased the damage multipliers of Caroleans
 -- Svea Lifeguard reworked:
-  -- Now buffs the HP of AbstractMusketeer by 15%
+  -- Now buffs the HP of AbstractMusketeer by 15% (e.g. Fusiliers and Highlanders)
   -- Caroleans get a further 15% HP buff (for a total of 30%)
-  -- No longer changes the armor of Caroleans
--- Snaplocks now provides +2 range for Caroleans (down from +3)
+  -- No longer changes the armor of Caroleans (i.e. they will always have melee armor)
+-- Snaplocks now provides +2 range for Caroleans (down from +3), +2 range for Karabiniers (from +1) and increased their AbstractLightCavalry and Eagle Runner Knight multipliers +0.4x (1.8x net)
 -- TEAM Heavy Infantry HP (Age II) removed
--- Hand Infantry / Hand Cavalry HP (Age II) removed
--- TEAM Hand Infantry / Hand Cavalry HP (Age II) added
+-- Hand Infantry / Hand Cavalry HP (Age II) turned into TEAM Hand Infantry / Hand Cavalry HP (i.e. a team buff)
 -- Hand Infantry / Hand Cavalry Combat (Age III) added 
 -- Engelsburg Ironworks reworked:
   -- Now buffs Miner gather rate on mines by +30% and their yield rate by +20%.
@@ -327,20 +332,15 @@ Shipment Changes:
   -- 3 in discovery (I)
   -- 4 in commerce (II)
   -- 10 and a prospector wagon in industrial (IV)
--- Great Northern Forests moved to the fortress age (III), range increased to 16 (from 14), and tree cap increased to 15 from 14.
+-- Great Northern Forests moved to the fortress age (III), range increased to 16 (from 14), and tree cap increased to 15 from 14 (caps out at 0.75 wood/s).
 -- Dominions moved to the commerce age (II), HP buff reduced to 25% from 30%, and can now only gather from wood crates. 
 -- Allotment System moved to Fortress Age (III)
--- Savolax Mercenaries added in Fortress Age. Enables Jaegers and Black Riders in military buildings and converts their cost to a lesser amount of wood (135/200) (can buff to 130/190 if not strong enough)
+-- Savolax Mercenaries added in Fortress Age. Enables Jaegers and Black Riders in military buildings and converts their cost to a lesser amount of wood (130/190)
 -- Blueberries Reworked: 
-  -- No longer spawns a blueberry bush by torps.
-  -- Now ships 1 berry wagon for each Town Center you control
-  -- All villagers gather from berries 20% more quickly.
--- Blackberries Reworked:
-  -- Moved to age 2
-  -- Now ships 1 berry wagon for each Town Center you control
-  -- All villagers gather from berries 15% more quickly.
--- 6 Mamelukes Infinite replaced with Contract Stradiots (10 for 1000 gold)
--- Commerce Age "Contract 7 Veteran Crossbowmen" added for 300 gold. Enabled them in the barracks and unlocks their techs for the rest of the game.
+  -- Now increased berry gather rate by 40% for all villagers and berriesl ast 20% longer. 
+-- Blackberries Removed
+-- 6 Mamelukes Infinite replaced with Contract Stradiots (10 for 1000 gold [civ bonus reduces it to 900G]) in Age IV
+-- Commerce Age "Contract 7 Veteran Crossbowmen" added for 300 gold(270 with civ bonus). Enabled them in the barracks and unlocks their techs for the rest of the game.
 -- Case Shot Removed
 -- Leather Cannon Hitpoints (20%) added to the Fortress Age
 -- Light Gun Carriages no longer techs Infantry Guns; instead it reduces the cost of leather cannons by 15%.
@@ -349,21 +349,22 @@ Shipment Changes:
   -- Hussars now get +10% damage instead of +15% HP.
   -- Hussars now gain +25% damage to skirmishers/foot archers
 -- Barrage Reworked:
-  -- Now increases the damage cap of grenadiers and artillery by 75%, but adds in a (0.4x) 40% damage penalty to cavalry
+  -- Now increases the damage cap of grenadiers and artillery by 75%, but adds in a (-0.4x) 40% damage penalty to cavalry; grenadiers get a lesser penalty of (-0.25x) 25%
 -- Duelist Reworked:
   -- Now moved to age 2 from age 1
-  -- Disables the ranged attack on your explorer and turns him into handinfantry.
+  -- Disables the ranged attack on your explorer and turns him into handinfantry (this is a new unit with unique animations)
   -- Base melee attack improved to 10 from 6 and 2x AbstractHeavyInfantry added.
     -- Attack has 1 range and 1 AOE with a base damage cap of 20. 
   -- Now grants him a melee charge for +1.5 speed for 6 seconds with a 75 second cooldown.
   -- Grants him +10% range resist (0.1 --> 0.2)
-  -- Grants him +100 base HP (400 --> 500)
+  -- Grants him +100 base HP (400 --> 500) 
+  -- The Duelist will shadowtech by 20/30/40/50% HP and 20/30/40% damage in each respective age, mirroring the explorer.
 -- Vasa Reworked:
   -- No longer refunds gold when ships are sank.
   -- Galleons and Frigates no longer cost gold, but have a greatly increased wood cost.
     -- Galleons: 300W/500G --> 600W
     -- Frigates: 500W/500G --> 800W
--- TEAM Villager Siege Damage added in Age 2, increased team villager siege damage by 2x.
+-- TEAM Villager Siege Damage added in Age 2, increased team villager siege damage by 2x (grants a 2x multiplier that applies AFTER damage bonuses like blunderbuss).
 -- TEAM Ranged Cavalry Combat Reworked:
   -- Now additionally provides +10% HP/Damage
   -- No longer increases range by 1 (still increases speed by +5%)
