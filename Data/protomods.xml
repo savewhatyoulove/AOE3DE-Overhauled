@@ -2689,7 +2689,6 @@
     <unittype>ConvertsHerds</unittype>
     <unittype>Unit</unittype>
     <unittype>UnitClass</unittype>
-    <unittype>AbstractInfantry</unittype>
     <unittype>AbstractVillager</unittype>
     <unittype>Economic</unittype>
     <train row="0" page="6" column="0">Manor</train>

@@ -512,7 +512,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>2</age>
+      <age>1</age>
       <displayunitcount>5</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
@@ -522,7 +522,7 @@
       <level>0</level>
       <prereqtech>HCShipGrenadiers3</prereqtech>
       <age>3</age>
-      <displayunitcount>9</displayunitcount>
+      <displayunitcount>12</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1864,6 +1864,8 @@
       <tech x="3.9" y="4.0">HCXPShipHorseArtillery2</tech>
       <tech x="3.4" y="5.0">DEHCShipCaroleans2</tech>
       <tech x="3.9" y="7.0">DEHCShipCaroleans3</tech>
+      <tech x="3.4" y="5.0">HCShipGrenadiers3</tech>
+      <tech x="3.9" y="7.0">HCShipGrenadiers4</tech>
       <tech x="4.6" y="3.0">DEHCFinnhorses</tech>
       <tech x="5.9" y="1.0">DEHCInfantryGuns</tech>
       <tech x="5.9" y="2.0">HCShipFalconets3</tech>
@@ -1912,6 +1914,8 @@
       <tech x="3.9" y="4.0">HCXPShipHorseArtillery2</tech>
       <tech x="3.4" y="5.0">DEHCShipCaroleans2</tech>
       <tech x="3.9" y="7.0">DEHCShipCaroleans3</tech>
+      <tech x="3.4" y="5.0">HCShipGrenadiers3</tech>
+      <tech x="3.9" y="7.0">HCShipGrenadiers4</tech>
       <tech x="4.6" y="3.0">DEHCFinnhorses</tech>
       <tech x="5.9" y="1.0">DEHCInfantryGuns</tech>
       <tech x="5.9" y="2.0">HCShipFalconets3</tech>

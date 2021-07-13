@@ -20,6 +20,11 @@
   </tech>
 
 <!-- General Shipments --> 
+  <tech name="DEHCHandMortar" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="TechStatus" status="active">VeteranGrenadiers</effect>
+    </effects>
+  </tech>
   <tech mergeMode='replace' name="HCXPColbertism" type="Normal">
     <dbid>3439</dbid>
     <displaynameid>47010</displaynameid>
@@ -36,7 +41,20 @@
       <effect type="TextOutput">47012</effect>
     </effects>
   </tech>
-
+  <tech mergeMode='replace' name="HCShipGrenadiers4" type="Normal">
+    <dbid>2304</dbid>
+    <displaynameid>35870</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\grenadier\grenadier_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="Grenadier" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
 <tech mergeMode='replace' name="HCColonialMilitia" type="Normal">
     <dbid>1992</dbid>
     <displaynameid>34999</displaynameid>
@@ -50,7 +68,7 @@
       <effect type="Data" amount="6.00" subtype="FreeHomeCityUnitByUnitCount" counttype="TownCenter" unittype="Minuteman" relativity="Absolute">
         <target type="Player"/>
       </effect>
-      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnitByUnitCount" counttype="TownCenter" unittype="Minuteman" relativity="Absolute">
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnitByUnitCount" counttype="FortFrontier" unittype="Minuteman" relativity="Absolute">
         <target type="Player"/>
       </effect>
       <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
@@ -74,6 +92,248 @@
       </effect>
       <effect tech="deAddFree400CoinToInventory" type="Data" amount="400.00" subtype="ResourceIfTechObtainable" resource="Gold" relativity="Absolute">
         <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="HCPioneers" type="Normal">
+    <dbid>1993</dbid>
+    <displaynameid>35002</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_pioneers\hc_pioneers.png</icon>
+    <rollovertextid>35003</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect tech="ypFreeCoinCrate400Age1" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateSpanishGold" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutput">41891</effect>
+      <effect tech="deGermanLogisticianDiscoveryShadow" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="Uhlan" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="deSpanishLogisticianShadow" type="Data" amount="200.00" subtype="ResourceIfTechObtainable" resource="Food" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="deSpanishLogisticianShadow" type="Data" amount="100.00" subtype="ResourceIfTechObtainable" resource="Wood" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="deSpanishLogisticianShadow" type="Data" amount="100.00" subtype="ResourceIfTechObtainable" resource="Gold" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="deAddFree400CoinToInventory" type="Data" amount="400.00" subtype="ResourceIfTechObtainable" resource="Gold" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="YPHCPioneersIndians" type="Normal">
+    <dbid>4348</dbid>
+    <displaynameid>63241</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_pioneers\hc_pioneers.png</icon>
+    <rollovertextid>63240</rollovertextid>
+    <flag>HomeCity</flag>
+    <flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</flag>
+    <flag>DEForceLegacyIgnoreBehavior</flag>
+    <effects>
+      <effect type="TextOutput">63242</effect>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect tech="ypFreeIndianVillager" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="ypSettlerIndian" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="ypFreeIndianSepoy" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="ypSepoy" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="YPHCPioneersTeam" type="Normal">
+    <dbid>4058</dbid>
+    <displaynameid>61979</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\home_city\HC_team_pioneers_shipment_icon_64.png</icon>
+    <rollovertextid>61978</rollovertextid>
+    <flag>HomeCity</flag>
+    <flag>TeamTech</flag>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="TextOutput">62792</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="HCCheapMarketsTeam" type="Normal">
+    <dbid>2431</dbid>
+    <displaynameid>36300</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_team_cheap_markets\hc_team_cheap_market.png</icon>
+    <rollovertextid>36299</rollovertextid>
+    <flag>HomeCity</flag>
+    <flag>TeamTech</flag>
+    <effects>
+      <effect type="TextOutput">36919</effect>
+      <effect type="Data" amount="30.00" subtype="Cost" resource="Food" relativity="Assign">
+        <target type="Tech">Blunderbuss</target>
+      </effect>
+      <effect type="Data" amount="20.00" subtype="Cost" resource="Wood" relativity="Assign">
+        <target type="Tech">PlacerMines</target>
+      </effect>
+      <effect type="Data" amount="20.00" subtype="Cost" resource="Food" relativity="Assign">
+        <target type="Tech">PlacerMines</target>
+      </effect>
+      <effect type="Data" amount="25.00" subtype="Cost" resource="Food" relativity="Assign">
+        <target type="Tech">Gangsaw</target>
+      </effect>
+      <effect type="Data" amount="25.00" subtype="Cost" resource="Wood" relativity="Assign">
+        <target type="Tech">HuntingDogs</target>
+      </effect>
+      <effect type="Data" amount="10.00" subtype="Cost" resource="Food" relativity="Assign">
+        <target type="Tech">GreatCoat</target>
+      </effect>
+      <effect type="Data" amount="5.00" subtype="Cost" resource="Wood" relativity="Assign">
+        <target type="Tech">ypMarketBerryDogs</target>
+      </effect>
+      <effect type="Data" amount="25.00" subtype="Cost" resource="Food" relativity="Assign">
+        <target type="Tech">ypMarketSpiritMedicine</target>
+      </effect>
+      <effect type="Data" amount="15.00" subtype="Cost" resource="Wood" relativity="Assign">
+        <target type="Tech">ypMarketWheelbarrow</target>
+      </effect>
+      <effect type="Data" amount="15.00" subtype="Cost" resource="Food" relativity="Assign">
+        <target type="Tech">ypMarketWheelbarrow</target>
+      </effect>
+      <effect type="Data" amount="10.00" subtype="Cost" resource="Food" relativity="Assign">
+        <target type="Tech">ypMarketGangsaw</target>
+      </effect>
+      <effect type="Data" amount="5.00" subtype="Cost" resource="Wood" relativity="Assign">
+        <target type="Tech">ypMarketHuntingDogs</target>
+      </effect>
+      <effect type="Data" amount="5.00" subtype="Cost" resource="Food" relativity="Assign">
+        <target type="Tech">ypMarketPlacerMines</target>
+      </effect>
+      <effect type="Data" amount="5.00" subtype="Cost" resource="Wood" relativity="Assign">
+        <target type="Tech">ypMarketPlacerMines</target>
+      </effect>
+    </effects>
+  </tech>
+
+<!-- General Techs --> 
+<tech mergeMode='replace' name="GreatCoat" type="Normal">
+    <dbid>151</dbid>
+    <displaynameid>23420</displaynameid>
+    <cost resourcetype="Food">50.0000</cost>
+    <researchpoints>20.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\great_coat\great_coat_64x64.png</icon>
+    <rollovertextid>23419</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <flag>UpgradeTech</flag>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="NatXPApacheCactus" type="Normal">
+    <dbid>3202</dbid>
+    <displaynameid>45384</displaynameid>
+    <cost resourcetype="Wood">125.0000</cost>
+    <cost resourcetype="Gold">100.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\CactusUse.png</icon>
+    <rollovertextid>45383</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <flag>YPNativeImprovement</flag>
+    <effects>
+      <effect type="Data" amount="1.15" subtype="MaximumVelocity" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="SpiritMedicine" type="Normal">
+    <dbid>3040</dbid>
+    <displaynameid>44604</displaynameid>
+    <cost resourcetype="Food">90.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\spirit_medicine.png</icon>
+    <rollovertextid>44603</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="Damage" allactions="1" relativity="Absolute">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="SpearAttack" amount="4.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="BlunderbussAttack" amount="4.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="RifleAttack" amount="4.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" amount="4.00" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="ypMarketSpiritMedicine" type="Normal">
+    <dbid>4894</dbid>
+    <displaynameid>66472</displaynameid>
+    <cost resourcetype="Food">90.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\asians\tech_spirit_medicine_icon_64.png</icon>
+    <rollovertextid>66471</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="Damage" allactions="1" relativity="Absolute">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="BlunderbussAttack" amount="4.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" amount="4.00" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="NatBarkClothing" type="Normal">
+    <dbid>405</dbid>
+    <displaynameid>24264</displaynameid>
+    <cost resourcetype="Wood">90.0000</cost>
+    <cost resourcetype="Gold">90.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native_bark_clothing\nat_bark_clothing.png</icon>
+    <rollovertextid>24263</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <flag>YPNativeImprovement</flag>
+    <effects>
+      <effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
       </effect>
     </effects>
   </tech>
@@ -271,6 +531,26 @@
       <effect type="TextOutput">150003</effect>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DEHCAlpacaWool" type="Normal">
+    <dbid>6105</dbid>
+    <displaynameid>80442</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\inca\alpaca_wool.png</icon>
+    <rollovertextid>80441</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.40" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" amount="0.3" subtype="Armor" relativity="Absolute">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="TextOutput">80449</effect>
+    </effects>
+  </tech>
+
   <tech name="DEHCSeasonalLabor2" type="Normal">
     <dbid>8501</dbid>
     <displaynameid>150005</displaynameid>
@@ -2149,6 +2429,7 @@
       <effect type="TechStatus" status="active">AAStandardStartingTechs</effect>
       <effect type="TechStatus" status="active">DEEuropeanStandardTechs</effect>
       <effect type="SetName" tech="DEHCHandMortar" newname="91787" newrollover="91786"/>
+      <effect type="TechStatus" status="active">DEGrenadierEnable</effect>
       <effect type="TechStatus" status="obtainable">GuardHussars</effect>
       <effect type="TechStatus" status="obtainable">VeteranHussars</effect>
       <effect type="TechStatus" status="obtainable">DEChurchPikePush</effect>
@@ -2524,6 +2805,15 @@
       <effect type="Data" action="DefendRangedAttack" amount="1.10" subtype="Damage" relativity="BasePercent">
         <target type="ProtoUnit">AbstractMusketeer</target>
       </effect>
+      <effect type="Data" action="VolleyRangedAttack" amount="1.10" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="1.10" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
+      <effect type="Data" action="DefendRangedAttack" amount="1.10" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
       <effect type="TextOutput">91640</effect>
       <effect type="Data" action="DefendRangedAttack" amount="0.50" subtype="DamageBonus" unittype="AbstractHeavyCavalry" relativity="Absolute">
         <target type="ProtoUnit">deCarolean</target>
@@ -2551,6 +2841,15 @@
       </effect>
       <effect type="Data" action="VolleyRangedAttack" amount="0.50" subtype="DamageBonus" unittype="AbstractHeavyInfantry" relativity="Absolute">
         <target type="ProtoUnit">deCarolean</target>
+</effect>
+      <effect type="Data" action="DefendRangedAttack" amount="0.25" subtype="DamageBonus" unittype="AbstractHeavyInfantry" relativity="Absolute">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="0.25" subtype="DamageBonus" unittype="AbstractHeavyInfantry" relativity="Absolute">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
+      <effect type="Data" action="VolleyRangedAttack" amount="0.25" subtype="DamageBonus" unittype="AbstractHeavyInfantry" relativity="Absolute">
+        <target type="ProtoUnit">Grenadier</target>
       </effect>
 
     </effects>
@@ -2687,6 +2986,9 @@
     <rollovertextid>91691</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
+      <effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
       <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">deCarolean</target>
       </effect>
@@ -3508,9 +3810,23 @@
       </effect>
     </effects>
   </tech>
-  <tech name="DEHCHandMortar" type="Normal">
+  <tech name="DEPoliticianMercContractorFortressSwedish" type="Normal">
+    <dbid>6566</dbid>
+    <displaynameid>91552</displaynameid>
+    <cost resourcetype="Food">1200.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>105.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iii.png</icon>
+    <rollovertextid>91765</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
     <effects>
-      <effect mergeMode='add' type="TechStatus" status="active">VeteranGrenadiers</effect>
+      <effect type="SetAge">Age2</effect>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="MercJaeger" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
 

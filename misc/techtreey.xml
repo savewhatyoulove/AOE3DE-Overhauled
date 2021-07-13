@@ -23984,13 +23984,13 @@
       <effect type="Data" amount="25.00" subtype="Cost" resource="Wood" relativity="Assign">
         <target type="Tech">HuntingDogs</target>
       </effect>
-      <effect type="Data" amount="20.00" subtype="Cost" resource="Food" relativity="Assign">
+      <effect type="Data" amount="10.00" subtype="Cost" resource="Food" relativity="Assign">
         <target type="Tech">GreatCoat</target>
       </effect>
       <effect type="Data" amount="5.00" subtype="Cost" resource="Wood" relativity="Assign">
         <target type="Tech">ypMarketBerryDogs</target>
       </effect>
-      <effect type="Data" amount="40.00" subtype="Cost" resource="Food" relativity="Assign">
+      <effect type="Data" amount="25.00" subtype="Cost" resource="Food" relativity="Assign">
         <target type="Tech">ypMarketSpiritMedicine</target>
       </effect>
       <effect type="Data" amount="15.00" subtype="Cost" resource="Wood" relativity="Assign">

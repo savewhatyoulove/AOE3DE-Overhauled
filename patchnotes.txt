@@ -1,5 +1,15 @@
 General Changes:
 
+Villager HP scaling has been nerfed across the board:
+-- Market Techs now only provide +20% villager HP instead of +35%
+  -- Spirit and Eastern Medicines now only cost 90 Food instead of 120
+  -- Great Coat now only costs 50 Food instead of 75
+-- Pioneers now only provides +50% HP instead of +65%
+-- Inca's Alpaca Wool now only provides +40% HP instead of +50% (armor bonus unchanged)
+-- Nootka Bark Clothing now only provides +30% HP instead of +50%. Cost reduced to 90W/90G from 125W/125G
+-- Apache Cactus Use now only provides + 10% HP instead of +15% (speed bonus unchanged). Cost reduced to 125W/100G from 150W/100G
+EX: The goal of these changes is to promote earlier aggression and prevent easy turtling strats with minimal investment. Before, on a map with Nootka, Regular villagers would cap out at 375 HP, now it is 300 HP. With Coureurs, this used to be 450 HP, now it is 360 HP. 
+
 Units: 
 -- All Pikemen units (AbstractPikemen) get +1 melee range to better chase down cavalry.
 -- Crossbowmen AbstractHeavyInfantry multiplier improved to 1.5x from 1.25x
@@ -243,6 +253,7 @@ Politician Changes:
 -- Papal Guard Reworked:
   -- Now enables Crossbowmen, researches their veteran upgrade, and makes their Guard Upgrades free. 
   -- Dalkarl (RG Pikeman upgrade) no longer free, now costs 100W/100G (base guard upgrade is free, only RG costs now)
+-- Mercenary Contractor (Age 3) now ships 5 Jaegers. All other effects removed. 
 
 Unit Changes:
 
@@ -323,7 +334,8 @@ Shipment Changes:
 -- Snaplocks now provides +2 range for Caroleans (down from +3), +2 range for Karabiniers (from +1) and increased their AbstractLightCavalry and Eagle Runner Knight multipliers +0.4x (1.8x net)
 -- TEAM Heavy Infantry HP (Age II) removed
 -- Hand Infantry / Hand Cavalry HP (Age II) turned into TEAM Hand Infantry / Hand Cavalry HP (i.e. a team buff)
--- Hand Infantry / Hand Cavalry Combat (Age III) added 
+-
+Controller 0 mapping uses xinput : false- Hand Infantry / Hand Cavalry Combat (Age III) added 
 -- Engelsburg Ironworks reworked:
   -- Now buffs Miner gather rate on mines by +30% and their yield rate by +20%.
   -- Additionally ships a prospector wagon
