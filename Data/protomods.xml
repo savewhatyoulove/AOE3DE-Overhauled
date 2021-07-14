@@ -3818,9 +3818,9 @@
     <maxhitpoints>500.0000</maxhitpoints>
     <los>18.0000</los>
     <unitaitype>HandCombative</unitaitype>
-    <buildlimit>1</buildlimit>
+    <buildlimit>2</buildlimit>
     <bounty>45.0000</bounty>
-    <cost resourcetype="Gold">100.0000</cost>
+    <cost resourcetype="Gold">150.0000</cost>
     <allowedage>1</allowedage>
     <armor type="Ranged" value="0.2000"/>
     <carrycapacity resourcetype="Food">1.0000</carrycapacity>

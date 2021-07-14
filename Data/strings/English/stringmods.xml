@@ -70,6 +70,10 @@
 	    <string _locid="80547">Kallankas get more hitpoints, build faster, train units more quickly, and cost no coin. Increases build limit.</string>
 	    <string _locid="80552">Trade Monopoly is available an age early and is free.</string>
 	    <string _locid="80560">Doubles the effectiveness of Llamas at the Community Plaza. Additionally, you can now train Llamas and they move more quickly.</string>
+	    <string _locid="80890">Red Guard</string>
+	    <string _locid="80892">Turns your Explorer into a powerful melee Duelist and ships an additional one from the Home City alongside a canine companion and 4 Surgeons. Additionally, Duelists gain a Heal ability.</string>
+	    <string _locid="80894">Allows Red Guards to to gather resources from  crates and trees. Red Guards now cost a lesser amount of wood to train instead of food and gold, and they move more quickly.</string>
+	    <string _locid="80898">Delivers 4 Frontier Blockhouse Wagons. Your Settlers become Red Guards (Veteran Skirmishers), who can construct Torps, Blockhouses, and Military Buildings.</string>
 	    <string _locid="90360">8 Karabiniers</string>
 	    <string _locid="91501" symbol="cStringCivRolloverSwedish">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nTrains miners in addition to settlers. Torps replace houses and gather wood from nearby trees. Crates of Food are replaced by crates of Surströmming, which fatten over time. Jaeger and Black Rider mercenaries can always be recruited from the Tavern. Non-native mercenary shipments are cheaper and arrive more quickly. Advanced improvements available at the Arsenal.\n&lt;color=1.0, 1.0, 0.0&gt;Royal guard units:&lt;/color&gt;Pikeman (Dalkarl) and Karabinier (Drabant)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nMiner, Carolean, Leather Cannon and Karabinier\n\nThe Swedish Empire became one of the greatest in Europe through innovation in military tactics and logistics. Its artillery and cavalry charges dominated the battlefields, particularly during the Thirty Years War. Despite a relatively small population, the Swedes fielded some of the largest armies in Europe, partly through the recruitment of mercenaries.</string>
 	    <string _locid="91509">Swedish Musketeer that counters cavalry and heavy infantry from range. Can charge quickly with his sword equipped. Good in melee combat against cavalry and heavy infantry.</string>
@@ -120,7 +124,7 @@
 	    <string _locid="91791">Tähtitarha</string>
 	    <string _locid="91792">Hussars deal more damage, especially to foot archers and skirmishers.</string>
 	    <string _locid="91849">5 Warrior Priestesses</string>
-	    <string _locid="91858">Royal Guard upgrade for Pikemen can be researched very cheaply. Enables Crossbowmen, and makes their guard upgrade free.</string>
+	    <string _locid="91858">Royal Guard upgrade for Pikemen can be researched very cheaply. Enables Crossbowmen and makes their guard upgrade free.</string>
 	    <string _locid="120000">3 Miners</string>
 	    <string _locid="120001">4 Miners</string>
 	    <string _locid="120002">10 Miners +1 Prospector Wagon</string>
@@ -162,6 +166,15 @@
 	    <string _locid="120038">TEAM Villager Siege</string>
 	    <string _locid="120039">TEAM Villagers gain greatly increased siege damage.</string>
 	    <string _locid="120040">TEAM Villager Siege Shipment has arrived.</string>
+	    <string _locid="120041">Tatar Bolshevik</string>
+	    <string _locid="120042">Soviet Allies</string>
+	    <string _locid="120043">All Hussars are upgraded into Guard Bashkirs if not already. Ships 10 Guard Tatar Bolsheviks (Cavalry Archers) and allows you to train them. Unlocks shipments of Bashkirs and Tatar Bolsheviksfrom the Home City.</string>
+	    <string _locid="120044">8 Tatar Bolsheviks</string>
+	    <string _locid="120045">8 Bashkir Ponies</string>
+	    <string _locid="120046">Proletarian</string>
+	    <string _locid="120047">Ships 6 Miners and 1 Prospector Wagon and enables Miners and Proletarians at the Town Center.</string>
+	    <string _locid="120048">Dictatorship of The Proletariat</string>
+
 	    <string _locid="140000">Cloud Forest Travois</string>
 	    <string _locid="140001">Cloud Forest</string>
 	    <string _locid="140002">4 Cloud Forest Travois</string>

@@ -1558,6 +1558,23 @@
       <revoltcard/>
     </card>
     <card>
+      <name>DEHCREVSovietAllies</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <revoltcard/>
+    </card>
+    <card>
+      <name>DEHCREVCitizenshipFinland</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>7</displayunitcount>
+      <revoltcard/>
+    </card>
+    <card>
       <name>DEHCREVShipCopperMines</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -1572,6 +1589,24 @@
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>2</age>
+      <displayunitcount>8</displayunitcount>
+      <revoltcard/>
+    </card>
+    <card>
+      <name>DEHCREVTatarRepeat</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <displayunitcount>8</displayunitcount>
+      <revoltcard/>
+    </card>
+    <card>
+      <name>DEHCREVBashkirRepeat</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
       <displayunitcount>8</displayunitcount>
       <revoltcard/>
     </card>
@@ -1712,6 +1747,10 @@
         <card>DEHCREVTreeSpawn</card>
         <card>DEHCREVShipBlockhouses</card>
         <card>DEHCREVTurkuAcademy</card>
+        <card>DEHCREVSovietAllies</card>
+	<card>DEHCREVCitizenshipFinland</card>
+	<card>DEHCREVBashkirRepeat</card>
+	<card>DEHCREVTatarRepeat</card>
         <card>DEHCREVShipElk</card>
         <card>DEHCREVNothernWilderness</card>
         <card>DEHCREVShipCopperMines</card>

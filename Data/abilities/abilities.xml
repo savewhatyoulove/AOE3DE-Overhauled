@@ -530,8 +530,8 @@
     <ability>PowerSwashbuckler<tech>Industrialize</tech><rof>90</rof></ability>
     <ability>PowerBalloon<tech>deEnableBalloonPower</tech><rof>240</rof></ability>
     <ability>deExplorerCharge<tech>DEHCExplorerSwedish</tech><rof>75</rof><donotforcestop>true</donotforcestop><castonself>true</castonself></ability>
-    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
     <ability>PowerHealSwedish<tech>DEREVUnlockHeal</tech><civ>DESwedish</civ><rof>120</rof></ability>
+    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
  </duelist>
 
 </abilities>

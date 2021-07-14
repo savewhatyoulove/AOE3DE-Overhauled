@@ -3655,10 +3655,10 @@
       <effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">Explorer</target>
       </effect>
-      <effect type="TransformUnit" toprotoid="Duelist" fromprotoid="Explorer"/>
       <effect type="Data" amount="50.00" subtype="RansomCostAddition" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect type="TransformUnit" toprotoid="Duelist" fromprotoid="Explorer"/>
       <effect type="TextOutput">91669</effect>
     </effects>
   </tech>
@@ -3826,6 +3826,367 @@
       <effect type="SetAge">Age2</effect>
       <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="MercJaeger" relativity="Absolute">
         <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCREVTurkuAcademy" type="Normal">
+    <dbid>6466</dbid>
+    <displaynameid>80893</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_royal_decree\hc_royal_decree.png</icon>
+    <rollovertextid>80892</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="Duelist" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="Surgeon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TechStatus" status="active">DEHCExplorerSwedish</effect>
+      <effect type="TechStatus" status="active">DEREVUnlockHeal</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">FieldHospital</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEPoliticianPapalGuardSwedish" type="Normal">
+    <dbid>6345</dbid>
+    <displaynameid>91550</displaynameid>
+    <cost resourcetype="Food">2000.0000</cost>
+    <cost resourcetype="Gold">1200.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iv.png</icon>
+    <rollovertextid>91858</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age3</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Crossbowman</target>
+      </effect>
+      <effect type="TechStatus" status="active">VeteranCrossbowmen</effect>
+      <effect type="TechStatus" status="obtainable">GuardCrossbowmen</effect>
+      <effect type="TechStatus" status="obtainable">ImperialCrossbowmen</effect>
+      <effect type="TechStatus" status="obtainable">DEKeepCrossbowmenTechsAlignedInBarracksShadow</effect>
+      <effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
+        <target type="Tech">GuardCrossbowmen</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">GuardCrossbowmen</target>
+      </effect>
+      <effect type="Data" amount="100.00" subtype="Cost" resource="Wood" relativity="Assign">
+        <target type="Tech">RGDalkarl</target>
+      </effect>
+      <effect type="Data" amount="100.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">RGDalkarl</target>
+      </effect>
+      <effect type="Data" amount="300.00" subtype="Cost" resource="Wood" relativity="Assign">
+        <target type="Tech">GuardHalberdiers</target>
+      </effect>
+      <effect type="Data" amount="300.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">GuardHalberdiers</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DERevolutionSharedEffects" type="Normal">
+    <dbid>6426</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect mergeMode='add' type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Miner</target>
+      </effect>
+      <effect mergeMode='add' type="CommandRemove" proto="Miner">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Settler</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">FishingBoat</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" amount="200.00" subtype="PopulationCap" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TechStatus" status="active">XPRevolution</effect>
+      <effect type="Data" action="MaintainSettlersOttoman" amount="0.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">SettlerWagon</target>
+      </effect>
+      <effect type="CommandRemove" proto="Settler">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="CommandRemove" proto="Coureur">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="CommandRemove" proto="FishingBoat">
+        <target type="ProtoUnit">Dock</target>
+      </effect>
+      <effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Assign">
+        <target type="ProtoUnit">xpIronclad</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DERevolutionFinland" type="Normal">
+    <dbid>6433</dbid>
+    <displaynameid>80816</displaynameid>
+    <cost resourcetype="Food">1000.0000</cost>
+    <cost resourcetype="Wood">1000.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\revolution.png</icon>
+    <rollovertextid>80898</rollovertextid>
+    <revolutionciv>DERevFinland</revolutionciv>
+    <flag>CountsTowardEconomicScore</flag>
+    <flag>RevoltTech</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="TechStatus" status="active">FrontierOutpost</effect>
+      <effect type="TechStatus" status="active">FrontierBlockhouse</effect>
+      <effect type="TechStatus" status="obtainable">FortifiedBlockhouse</effect>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="ypBlockhouseWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TechStatus" status="active">VeteranFinnishRiders</effect>
+      <effect type="TechStatus" status="active">VeteranCavalryArchersShadow</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="CommandAdd" proto="Skirmisher" page="0" column="0">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+            <effect type="Data" amount="99.00" subtype="BuildLimit" relativity="Assign">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" action="Build" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="HouseEast" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="deTorp" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="TradingPost" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="Blockhouse" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="Stable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="ArtilleryDepot" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Blockhouse</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+      <effect type="TechStatus" status="active">VeteranSkirmishersShadow</effect>
+      <effect type="TechStatus" status="obtainable">GuardSkirmishers</effect>
+      <effect type="SetName" proto="Skirmisher" culture="none" newname="80890" newrollover="80889"/>
+      <effect type="Data" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="Skirmisher" relativity="Absolute">
+        <target type="ProtoUnit">deIconREVKarelianJaeger</target>
+      </effect>
+      <effect type="InitiateRevolution" proto="Skirmisher"/>
+      <effect type="Data" amount="-1.00" subtype="BuildLimit" relativity="Assign">
+        <target type="ProtoUnit">Blockhouse</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Settler</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Miner</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">FishingBoat</target>
+      </effect>
+      <effect type="TechStatus" status="active">XPRevolution</effect>
+      <effect type="CommandRemove" proto="Settler">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="CommandRemove" proto="Miner">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="CommandRemove" proto="FishingBoat">
+        <target type="ProtoUnit">Dock</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="Dock" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      </effects>
+  </tech>
+  <tech name="DEHCREVSovietAllies" type="Normal">
+    <dbid>6466</dbid>
+    <displaynameid>120042</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\soviet_allies.png</icon>
+    <rollovertextid>120043</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="active">GuardHussars</effect>
+      <effect type="TechStatus" status="active">VeteranHussars</effect>
+      <effect type="SetName" proto="Hussar" culture="none" newname="42452"/>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Hussar" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="SetName" proto="Hussar" culture="none" newname="80904" reqtech="DEREVMagyarHussar"/>
+      <effect type="SetName" proto="Hussar" culture="none" newname="80904" reqtech="DEREVMagyarHussarAlt"/>
+      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="CavalryArcher" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TechStatus" status="active">RGTartarLoyalists</effect>
+      <effect type="SetName" proto="CavalryArcher" culture="none" newname="120041"/>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">CavalryArcher</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCREVTatarRepeat" type="Normal">
+    <dbid>2302</dbid>
+    <displaynameid>120044</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\infinite_cav_archer.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="CavalryArcher" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCREVBashkirRepeat" type="Normal">
+    <dbid>2302</dbid>
+    <displaynameid>120045</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\infinite_bashkir.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="Hussar" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCREVCitizenshipFinland" type="Normal">
+    <dbid>6448</dbid>
+    <displaynameid>120048</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\dotp.png</icon>
+    <rollovertextid>120047</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">FishingBoat</target>
+      </effect>
+      <effect type="Data" amount="50.00" subtype="BuildLimit" relativity="Assign">
+        <target type="ProtoUnit">Settler</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.20" subtype="Yield" unittype="AbstractMine" relativity="BasePercent">
+        <target type="ProtoUnit">Miner</target>
+      </effect>
+      <effect type="CommandAdd" proto="FishingBoat" page="0" column="0">
+        <target type="ProtoUnit">Dock</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Settler</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Miner</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deProspectorWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="SetName" proto="Settler" culture="none" newname="120046"/>
+      <effect type="CommandAdd" proto="Settler" page="0" column="0">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="CommandAdd" proto="Miner" page="0" column="1">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="Miner" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="SetName" proto="SettlerWagon" culture="none" newname="79924"/>
+      <effect type="Data" amount="0.00" subtype="Cost" resource="Food" relativity="Assign">
+        <target type="ProtoUnit">SettlerWagon</target>
+      </effect>
+      <effect type="Data" amount="100.00" subtype="Cost" resource="Wood" relativity="Assign">
+        <target type="ProtoUnit">SettlerWagon</target>
+      </effect>
+      <effect type="Data" amount="70.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="ProtoUnit">SettlerWagon</target>
+      </effect>
+      <effect tech="ypFreeCoinCrate400" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateSpanishGold" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="SetName" tech="DEHCREVNileFlood" newname="91827" newrollover="91847"/>
+    </effects>
+  </tech>
+  <tech name="DEHCREVNothernWilderness" type="Normal">
+    <dbid>6467</dbid>
+    <displaynameid>80895</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_wilderness_warfare\hc_wilderness_warfare.png</icon>
+    <rollovertextid>80894</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="0.00" subtype="Cost" resource="Food" relativity="Assign">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" amount="70.00" subtype="Cost" resource="Wood" relativity="Assign">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" action="Hunting" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" action="CrateGather" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" action="HandAttackCrate" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" action="Hunting" amount="1.00" subtype="WorkRate" unittype="AbstractInfiniteCrate" relativity="Assign">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="EnableAutoCrateGather" relativity="Assign">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" action="ChopAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" amount="0.5" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
       </effect>
     </effects>
   </tech>
