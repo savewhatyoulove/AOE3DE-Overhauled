@@ -1,4 +1,7 @@
 <protomods>
+  <unit id="292" name="TradingPost">
+    <train row="0" page="0" column="2">deChasqui</train>
+  </unit>
   <unit mergeMode='replace' id="303" name="Crossbowman">
     <dbid>33</dbid>
     <displaynameid>22938</displaynameid>
@@ -1225,6 +1228,7 @@
       <name>Build</name>
       <rate type="TradingPost">1.000000</rate>
       <rate type="TownCenter">1.000000</rate>
+      <rate type="SPCIncaOutpost">2.000000</rate>
     </protoaction>
     <protoaction>
       <name>BuildingAttack</name>
@@ -1325,6 +1329,7 @@
     <unittype>HasBountyValue</unittype>
     <unittype>AbstractOutpost</unittype>
     <unittype>ConvertsHerds</unittype>
+    <train row="0" page="0" column="1">deChasqui</train>
     <tech row="0" page="1" column="0">dePaititi</tech>
     <flag>CollidesWithProjectiles</flag>
     <flag>StartsAtFullEfficiency</flag>

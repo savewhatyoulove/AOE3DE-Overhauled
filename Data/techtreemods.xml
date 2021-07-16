@@ -341,10 +341,13 @@
 <!-- Inca Techs --> 
 <Tech name="DEAge0Inca" type="Normal">
     <Effects>
+      <effect mergeMode='replace' type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deChasqui</target>
+      </effect>
         <Effect mergeMode='add' type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
             <Target type="ProtoUnit">Llama</Target>
     	</Effect>
-      <effect type="Data" amount="2.00" subtype="AllowedAge" relativity="Assign">
+      <effect mergeMode='add' type="Data" amount="2.00" subtype="AllowedAge" relativity="Assign">
         <target type="ProtoUnit">deChinchaRaft</target>
       </effect>
 	<effect mergeMode='add' type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -363,12 +366,12 @@
       <effect mergeMode='add' type="TechStatus" status="obtainable">DEEliteMacemenShadow</effect>
       <effect mergeMode='add' type="SetName" proto="YPGroveWagon" culture="none" newname="140000"/>
       <effect mergeMode='add' type="SetName" proto="YPGroveBuilding" culture="none" newname="140001"/>
-      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+      <effect mergeMode='add' type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">ypGroveBuilding</target>
       </effect>
-      <effect type="TechStatus" status="obtainable">dePaititi</effect>
-      <effect type="TechStatus" status="obtainable">DEChampionPriestess</effect>
-      <effect type="TechStatus" status="obtainable">DEImpLegendaryPriestess</effect>
+      <effect mergeMode='add' type="TechStatus" status="obtainable">dePaititi</effect>
+      <effect mergeMode='add' type="TechStatus" status="obtainable">DEChampionPriestess</effect>
+      <effect mergeMode='add' type="TechStatus" status="obtainable">DEImpLegendaryPriestess</effect>
       <effect mergeMode='remove' type="Data" action="deSpawnPriestess" amount="1.00" subtype="ActionEnable" relativity="Absolute">
         <target type="ProtoUnit">CommunityPlaza</target>
       </effect>
@@ -547,6 +550,10 @@
       <effect type="Data" amount="0.3" subtype="Armor" relativity="Absolute">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
+      <effect type="Data" amount="-0.15" subtype="Armor" relativity="Absolute">
+        <target type="ProtoUnit">FishingBoat</target>
+      </effect>
+
       <effect type="TextOutput">80449</effect>
     </effects>
   </tech>
@@ -1573,7 +1580,7 @@
       <effect type="SetName" proto="deMaceman" culture="none" newname="80099"/>
     </effects>
   </tech>
-  <tech name="DEImpLegendaryMacemen" type="Normal">
+  <tech mergeMode='replace' name="DEImpLegendaryMacemen" type="Normal">
     <dbid>6024</dbid>
     <researchpoints>0.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -1686,7 +1693,7 @@
       </effect>
     </effects>
   </tech>
-  <tech name="DEChampionBowmen" type="Normal">
+  <tech mergeMode='replace' name="DEChampionBowmen" type="Normal">
     <dbid>6008</dbid>
     <displaynameid>80038</displaynameid>
     <cost resourcetype="Wood">400.0000</cost>
@@ -1717,7 +1724,7 @@
       </effect>
     </effects>
   </tech>
-  <tech name="DEImpLegendaryBowmen" type="Normal">
+  <tech mergeMode='replace' name="DEImpLegendaryBowmen" type="Normal">
     <dbid>6009</dbid>
     <displaynameid>80040</displaynameid>
     <cost resourcetype="Wood">1500.0000</cost>
@@ -1917,7 +1924,7 @@
       <effect type="TechStatus" status="active">WarriorSocietyMapuche</effect>
     </effects>
   </tech>
-  <tech name="DEHCRangedInfHitpointsInca" type="Normal">
+  <tech mergeMode='replace' name="DEHCRangedInfHitpointsInca" type="Normal">
     <dbid>6150</dbid>
     <displaynameid>80549</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
@@ -1932,7 +1939,7 @@
       </effect>
     </effects>
   </tech>
-  <tech name="DEHCRangedInfDamageInca" type="Normal">
+  <tech mergeMode='replace' name="DEHCRangedInfDamageInca" type="Normal">
     <dbid>6101</dbid>
     <displaynameid>80432</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
@@ -2097,7 +2104,7 @@
       <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
         <target type="ProtoUnit">dePriestess</target>
       </effect>
-      <effect type="Data" action="Heal" amount="1.50" subtype="WorkRate" unittype="LogicalTypeHealed" relativity="BasePercent">
+      <effect type="Data" action="Heal" amount="2.00" subtype="WorkRate" unittype="LogicalTypeHealed" relativity="BasePercent">
         <target type="ProtoUnit">dePriestess</target>
       </effect>
 
@@ -2880,21 +2887,6 @@
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="deCrateofFish" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-    </effects>
-  </tech>
-  <tech name="DEHCShipFishCrate4" type="Normal">
-    <dbid>6613</dbid>
-    <displaynameid>120009</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\art\units\animals\fish\cod_icon_infinite.png</icon>
-    <rollovertextid>120010</rollovertextid>
-    <flag>HomeCity</flag>
-    <effects>
-      <effect type="Data" amount="13.00" subtype="FreeHomeCityUnit" unittype="deCrateofFish" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -3810,7 +3802,7 @@
       </effect>
     </effects>
   </tech>
-  <tech name="DEPoliticianMercContractorFortressSwedish" type="Normal">
+  <tech mergeMode='replace' name="DEPoliticianMercContractorFortressSwedish" type="Normal">
     <dbid>6566</dbid>
     <displaynameid>91552</displaynameid>
     <cost resourcetype="Food">1200.0000</cost>
@@ -3852,7 +3844,7 @@
       </effect>
     </effects>
   </tech>
-  <tech name="DEPoliticianPapalGuardSwedish" type="Normal">
+  <tech mergeMode='replace' name="DEPoliticianPapalGuardSwedish" type="Normal">
     <dbid>6345</dbid>
     <displaynameid>91550</displaynameid>
     <cost resourcetype="Food">2000.0000</cost>
@@ -4145,7 +4137,7 @@
       <effect type="SetName" tech="DEHCREVNileFlood" newname="91827" newrollover="91847"/>
     </effects>
   </tech>
-  <tech name="DEHCREVNothernWilderness" type="Normal">
+  <tech mergeMode='replace' name="DEHCREVNothernWilderness" type="Normal">
     <dbid>6467</dbid>
     <displaynameid>80895</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
@@ -4162,27 +4154,6 @@
         <target type="ProtoUnit">Skirmisher</target>
       </effect>
       <effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
-        <target type="ProtoUnit">Skirmisher</target>
-      </effect>
-      <effect type="Data" action="Gather" amount="1.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">Skirmisher</target>
-      </effect>
-      <effect type="Data" action="Hunting" amount="1.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">Skirmisher</target>
-      </effect>
-      <effect type="Data" action="CrateGather" amount="1.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">Skirmisher</target>
-      </effect>
-      <effect type="Data" action="HandAttackCrate" amount="1.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">Skirmisher</target>
-      </effect>
-      <effect type="Data" action="Hunting" amount="1.00" subtype="WorkRate" unittype="AbstractInfiniteCrate" relativity="Assign">
-        <target type="ProtoUnit">Skirmisher</target>
-      </effect>
-      <effect type="Data" amount="1.00" subtype="EnableAutoCrateGather" relativity="Assign">
-        <target type="ProtoUnit">Skirmisher</target>
-      </effect>
-      <effect type="Data" action="ChopAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
         <target type="ProtoUnit">Skirmisher</target>
       </effect>
       <effect type="Data" amount="0.5" subtype="MaximumVelocity" relativity="Absolute">

@@ -72779,20 +72779,11 @@
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">Settler</target>
       </effect>
-      <effect type="SetName" proto="Settler" culture="none" newname="80869"/>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Food" relativity="Assign">
-        <target type="ProtoUnit">Settler</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
-        <target type="ProtoUnit">Settler</target>
-      </effect>
-      <effect type="Data" amount="70.00" subtype="Cost" resource="Gold" relativity="Assign">
-        <target type="ProtoUnit">Settler</target>
-      </effect>
+      <effect type="SetName" proto="Settler" culture="none" newname="120046"/>
       <effect type="CommandAdd" proto="Settler" page="0" column="0">
         <target type="ProtoUnit">TownCenter</target>
       </effect>
-      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="Settler" relativity="Absolute">
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="Miner" relativity="Absolute">
         <target type="Player"/>
       </effect>
       <effect tech="DEREVEgyptianShadow" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="MercMameluke" relativity="Absolute">
