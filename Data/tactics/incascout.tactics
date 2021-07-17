@@ -104,7 +104,7 @@
     <maxrange>24</maxrange>
     <persistent>1</persistent>
     <modifytype>Speed</modifytype>
-    <modifymultiplier>0.96</modifymultiplier>
+    <modifymultiplier>0.97</modifymultiplier>
     <modelattachment>effects\ypack_auras\frightpower.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>

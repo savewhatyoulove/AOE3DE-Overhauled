@@ -4093,7 +4093,7 @@
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">FishingBoat</target>
       </effect>
-      <effect type="Data" amount="50.00" subtype="BuildLimit" relativity="Assign">
+      <effect type="Data" amount="60.00" subtype="BuildLimit" relativity="Assign">
         <target type="ProtoUnit">Settler</target>
       </effect>
       <effect type="Data" action="Gather" amount="1.20" subtype="Yield" unittype="AbstractMine" relativity="BasePercent">

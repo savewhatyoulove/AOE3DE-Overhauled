@@ -385,5 +385,13 @@ Controller 0 mapping uses xinput : false- Hand Infantry / Hand Cavalry Combat (A
   -- No longer increases range by 1 (still increases speed by +5%)
 -- TEAM 1 Torp wagon now provides +20% wood yield for villagers additionally.
 
+Revolution Changes:
+
+Finland: 
+-- Karelian Jaegers renamed to Red Guards (still vet skirmishers)
+  -- Red Guards can no longer gather from any resource, but they can still construct buildings
+  -- Red Guards no longer have a build limit or have a converted default resource cost
+-- Northern Wilderness Reworked: Now converts Red Guards' resource cost into a lesser amount of wood (70) from food/gold, upgrades them to guard status, and increases their speed by +0.5.
+
 TODO:
 add swedish VOs for longbowmen
