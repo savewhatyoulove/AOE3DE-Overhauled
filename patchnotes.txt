@@ -73,7 +73,7 @@ Huaraca: Unit Rework
 -- Speed increased to 5.25 from 4.0
 -- Range on all attacks reduced to 18 from 20 (and 24 for siege)
 -- Ranged Attack damage type changed to melee from siege.
--- Current multipliers replaced with 0.5x AbstractLightCavalry, AbstractHeavyInfantry, and 0.75x AbstractVillager (ranged attack only).
+-- Current multipliers replaced with 0.5x AbstractLightCavalry (with 2.0x Karabiniers for 1x net), AbstractHeavyInfantry, and 0.75x AbstractVillager (ranged attack only).
 -- Melee attack improved to 20 from 10 (same multipliers as melee, but without villager penalty)
 -- Siege Attack improved to 50 w/ ROF of 3.0 from 46 w/ ROF of 4.0
 -- Cost rescaled to 40 Food, 80 wood from 30 Wood, 90 Gold
@@ -86,7 +86,7 @@ Maceman: Unit Rework
 -- Speed increased to 5.0 from 4.25
 -- Melee Damage reduced to 36 siege from 45 hand
 -- AOE on all attacks reduced from 3 to 2
--- Siege Damage improved to 126 from 90 and ROF improved to 2.25 from 3.0
+-- Siege Damage improved to 116 from 90 and ROF improved to 2.25 from 3.0
 -- All current multipliers removed, 0.5x AbstractCavalry, AbstractLightInfantry, and 2.0x AbstractInfantry added. 
 -- Now shadowtechs in each age.
 -- No longer trainable (must use shipments or Supay ceremony at Community Plaza)
@@ -127,6 +127,9 @@ Building Changes:
 Kancha House:
 -- No longer trickles food, now spawns 2 unfattened llamas when built.
 -- Cost increased to 140 wood from 135.
+
+Kallanka: 
+-- Population cap addition increased to +15 from +10.
 
 Big Buttons: 
 -- Royal Festival reworked:

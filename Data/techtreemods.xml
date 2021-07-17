@@ -4159,6 +4159,7 @@
       <effect type="Data" amount="0.5" subtype="MaximumVelocity" relativity="Absolute">
         <target type="ProtoUnit">Skirmisher</target>
       </effect>
+      <effect type="TechStatus" status="active">GuardSkirmishers</effect>
     </effects>
   </tech>
 
