@@ -96,7 +96,7 @@ public class wizard extends JFrame implements ActionListener
 		//set all of the necessary system paths we need for file transfer, OS Specific ones are handled by a different helper method. 
 		//we create a lot of backup paths and do a lot of testing since we're handling file deletion/copying. I don't want to delete someone's important documents by accident!
 		modPath = Paths.get(FileSystems.getDefault().getPath(".").toAbsolutePath() +"/mod-files");
-		deleteCheckPath = Paths.get(currentPath +"/AOE3DE-Overhauled/Data/deletecheck.file");
+		deleteCheckPath = Paths.get(currentPath +"/AOE3DE-Overhauled/deletecheck.file");
 	}
 
 	private void setDefaultOSDirectory(){

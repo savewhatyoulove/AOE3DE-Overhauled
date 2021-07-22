@@ -2773,7 +2773,7 @@
   </tech>
   <tech name="DEHCShipMiners1" type="Normal">
     <dbid>2796</dbid>
-    <displaynameid>120000</displaynameid>
+    <displaynameid>220000</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -2787,7 +2787,7 @@
   </tech>
   <tech name="DEHCShipMiners2" type="Normal">
     <dbid>2797</dbid>
-    <displaynameid>120001</displaynameid>
+    <displaynameid>220001</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -2801,7 +2801,7 @@
   </tech>
   <tech name="DEHCShipMiners3" type="Normal">
     <dbid>2798</dbid>
-    <displaynameid>120002</displaynameid>
+    <displaynameid>220002</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -2818,7 +2818,7 @@
   </tech>
   <tech name="DEHCShipMinersTeam" type="Normal">
     <dbid>2916</dbid>
-    <displaynameid>120003</displaynameid>
+    <displaynameid>220003</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -2829,7 +2829,7 @@
       <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="Miner" convertsettlers="True" relativity="Absolute">
         <target type="Player"/>
       </effect>
-      <effect type="TextOutput">120004</effect>
+      <effect type="TextOutput">220004</effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCEngelsbergIronworks" type="Normal">
@@ -2933,12 +2933,12 @@
   </tech>
   <tech name="DEHCShipFishCrate2" type="Normal">
     <dbid>6613</dbid>
-    <displaynameid>120005</displaynameid>
+    <displaynameid>220005</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\art\units\animals\fish\cod_icon_infinite.png</icon>
-    <rollovertextid>120006</rollovertextid>
+    <rollovertextid>220006</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="deCrateofFish" relativity="Absolute">
@@ -2948,12 +2948,12 @@
   </tech>
   <tech name="DEHCShipFishCrate3" type="Normal">
     <dbid>6613</dbid>
-    <displaynameid>120007</displaynameid>
+    <displaynameid>220007</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\art\units\animals\fish\cod_icon_infinite.png</icon>
-    <rollovertextid>120008</rollovertextid>
+    <rollovertextid>220008</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="deCrateofFish" relativity="Absolute">
@@ -2963,12 +2963,12 @@
   </tech>
   <tech name="DEHCShipFishCrate4" type="Normal">
     <dbid>6613</dbid>
-    <displaynameid>120009</displaynameid>
+    <displaynameid>220009</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\art\units\animals\fish\cod_icon_infinite.png</icon>
-    <rollovertextid>120010</rollovertextid>
+    <rollovertextid>220010</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="13.00" subtype="FreeHomeCityUnit" unittype="deCrateofFish" relativity="Absolute">
@@ -2978,12 +2978,12 @@
   </tech>
   <tech name="DEHCShipFishCrateTeam" type="Normal">
     <dbid>6613</dbid>
-    <displaynameid>120005</displaynameid>
+    <displaynameid>220005</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\team_fish.png</icon>
-    <rollovertextid>120023</rollovertextid>
+    <rollovertextid>220023</rollovertextid>
     <flag>HomeCity</flag>
     <flag>TeamTech</flag>
     <effects>
@@ -3150,7 +3150,7 @@
     <researchpoints>90.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\ingame\icon_age_ii.png</icon>
-    <rollovertextid>120011</rollovertextid>
+    <rollovertextid>220011</rollovertextid>
     <flag>Shadow</flag>
     <flag>AgeUpgrade</flag>
     <flag>CountsTowardEconomicScore</flag>
@@ -3393,13 +3393,13 @@
   </tech>
   <tech name="HCMercsHessiansRepeat" type="Normal">
     <dbid>2545</dbid>
-    <displaynameid>120013</displaynameid>
+    <displaynameid>220013</displaynameid>
     <cost resourcetype="Gold">300.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>60.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\infinite_jaeger_non_team.png</icon>
-    <rollovertextid>120012</rollovertextid>
+    <rollovertextid>220012</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="MercJaeger" relativity="Absolute">
@@ -3409,13 +3409,13 @@
   </tech>
   <tech name="HCMercsBlackRidersRepeat" type="Normal">
     <dbid>2549</dbid>
-    <displaynameid>120015</displaynameid>
+    <displaynameid>220015</displaynameid>
     <cost resourcetype="Gold">300.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>60.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\infinite_black_rider.png</icon>
-    <rollovertextid>120014</rollovertextid>
+    <rollovertextid>220014</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="MercBlackRider" relativity="Absolute">
@@ -3425,13 +3425,13 @@
   </tech>
   <tech name="DEHCContractMercsStradiots" type="Normal">
     <dbid>2546</dbid>
-    <displaynameid>120017</displaynameid>
+    <displaynameid>220017</displaynameid>
     <cost resourcetype="Gold">1000.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>60.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\contract_stradiots.png</icon>
-    <rollovertextid>120016</rollovertextid>
+    <rollovertextid>220016</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="MercStradiot" relativity="Absolute">
@@ -3478,12 +3478,12 @@
   </tech>
   <tech name="DEChurchSwedishColonies" type="Normal">
     <dbid>6095</dbid>
-    <displaynameid>120019</displaynameid>
+    <displaynameid>220019</displaynameid>
     <cost resourcetype="Wood">1000.0000</cost>
     <researchpoints>15.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\native\Land_Grab.png</icon>
-    <rollovertextid>120018</rollovertextid>
+    <rollovertextid>220018</rollovertextid>
     <flag>CheckLandHCGatherPoint</flag>
     <prereqs>
       <techstatus status="Active">DEHCRoyalDecreeSwedish</techstatus>
@@ -3499,12 +3499,12 @@
   </tech>
   <tech name="DEChurchVikings" type="Normal">
     <dbid>1716</dbid>
-    <displaynameid>120021</displaynameid>
+    <displaynameid>220021</displaynameid>
     <cost resourcetype="Gold">2000.0000</cost>
     <researchpoints>15.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\hc_yeoman\hc_yeoman.png</icon>
-    <rollovertextid>120020</rollovertextid>
+    <rollovertextid>220020</rollovertextid>
     <flag>UniqueTech</flag>
     <flag>CheckLandHCGatherPoint</flag>
     <prereqs>
@@ -3521,7 +3521,7 @@
       <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Skirmisher" relativity="Absolute">
         <target type="Player"/>
       </effect>
-      <effect type="SetName" proto="Longbowman" culture="none" newname="120022"/>
+      <effect type="SetName" proto="Longbowman" culture="none" newname="220022"/>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEChurchPikePush" type="Normal">
@@ -3678,13 +3678,13 @@
   </tech>
   <tech name="DEHCContractCrossbowmen" type="Normal">
     <dbid>2546</dbid>
-    <displaynameid>120024</displaynameid>
+    <displaynameid>220024</displaynameid>
     <cost resourcetype="Gold">300.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>60.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\contract_crossbow.png</icon>
-    <rollovertextid>120025</rollovertextid>
+    <rollovertextid>220025</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="Crossbowman" relativity="Absolute">
@@ -3735,18 +3735,18 @@
   </tech>
   <tech name="DEHCLeatherCannonHitpoints" type="Normal">
     <dbid>4819</dbid>
-    <displaynameid>120026</displaynameid>
+    <displaynameid>220026</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\hc_artillary_hitpoints\hc_artillary_hitpoints.png</icon>
-    <rollovertextid>120027</rollovertextid>
+    <rollovertextid>220027</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">deLeatherCannon</target>
       </effect>
-      <effect type="TextOutput">120028</effect>
+      <effect type="TextOutput">220028</effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCInfantryGuns" type="Normal">
@@ -3957,18 +3957,18 @@
   </tech>
   <tech name="DEHCVillagerSiegeTeam" type="Normal">
     <dbid>2860</dbid>
-    <displaynameid>120038</displaynameid>
+    <displaynameid>220038</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\team_vill_siege.png</icon>
-    <rollovertextid>120039</rollovertextid>
+    <rollovertextid>220039</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" action="BuildingAttack" amount="1.00" subtype="DamageBonus" unittype="Building" relativity="Absolute">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="TextOutput">120040</effect>
+      <effect type="TextOutput">220040</effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCFinnhorses" type="Normal">
@@ -4212,12 +4212,12 @@
   </tech>
   <tech name="DEHCREVSovietAllies" type="Normal">
     <dbid>6466</dbid>
-    <displaynameid>120042</displaynameid>
+    <displaynameid>220042</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\soviet_allies.png</icon>
-    <rollovertextid>120043</rollovertextid>
+    <rollovertextid>220043</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
       <effect type="TechStatus" status="active">GuardHussars</effect>
@@ -4232,7 +4232,7 @@
         <target type="Player"/>
       </effect>
       <effect type="TechStatus" status="active">RGTartarLoyalists</effect>
-      <effect type="SetName" proto="CavalryArcher" culture="none" newname="120041"/>
+      <effect type="SetName" proto="CavalryArcher" culture="none" newname="220041"/>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">CavalryArcher</target>
       </effect>
@@ -4240,7 +4240,7 @@
   </tech>
   <tech name="DEHCREVTatarRepeat" type="Normal">
     <dbid>2302</dbid>
-    <displaynameid>120044</displaynameid>
+    <displaynameid>220044</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -4254,7 +4254,7 @@
   </tech>
   <tech name="DEHCREVBashkirRepeat" type="Normal">
     <dbid>2302</dbid>
-    <displaynameid>120045</displaynameid>
+    <displaynameid>220045</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -4268,12 +4268,12 @@
   </tech>
   <tech name="DEHCREVCitizenshipFinland" type="Normal">
     <dbid>6448</dbid>
-    <displaynameid>120048</displaynameid>
+    <displaynameid>220048</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\dotp.png</icon>
-    <rollovertextid>120047</rollovertextid>
+    <rollovertextid>220047</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -4306,7 +4306,7 @@
       <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deProspectorWagon" relativity="Absolute">
         <target type="Player"/>
       </effect>
-      <effect type="SetName" proto="Settler" culture="none" newname="120046"/>
+      <effect type="SetName" proto="Settler" culture="none" newname="220046"/>
       <effect type="CommandAdd" proto="Settler" page="0" column="0">
         <target type="ProtoUnit">TownCenter</target>
       </effect>

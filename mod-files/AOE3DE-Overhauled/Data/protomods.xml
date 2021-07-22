@@ -3868,7 +3868,7 @@
       <minrange>0.000000</minrange>
       <maxrange>22.000000</maxrange>
       <rof>3.000000</rof>
-      <damagecap>360.000000</damagecap>
+      <damagecap>240.000000</damagecap>
       <damagebonus type="AbstractInfantry">3.000000</damagebonus>
       <damagebonus type="Building">6.000000</damagebonus>
       <damagebonus type="Ship">2.000000</damagebonus>
