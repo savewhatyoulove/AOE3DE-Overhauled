@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tactics>
+  <action>
+    <name stringid="68971">MaintainFishCratesSweden</name>
+    <type>Maintain</type>
+    <rate type="deCrateOfFish">1.0</rate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43019">AutoGather</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+  </action>
+  <tactic>Normal<action>MaintainFishCratesSweden</action><action>AutoGather</action></tactic>
+</tactics>

@@ -78,7 +78,7 @@
 	    <string _locid="80894">Red Guards now move more quickly, cost a lesser amount of wood to train instead of food and gold, and are upgraded to guard status.</string>
 	    <string _locid="80898">Delivers 4 Frontier Blockhouse Wagons. Your Settlers become Red Guards (Veteran Skirmishers), who can construct Torps, Blockhouses, and Military Buildings.</string>
 	    <string _locid="90360">8 Karabiniers</string>
-	    <string _locid="91501" symbol="cStringCivRolloverSwedish">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nTrains miners in addition to settlers. Torps replace houses and gather wood from nearby trees. Crates of Food are replaced by crates of Surströmming, which fatten over time. Jaeger and Black Rider mercenaries can always be recruited from the Tavern. Non-native mercenary shipments are cheaper and arrive more quickly. Advanced improvements available at the Arsenal.\n&lt;color=1.0, 1.0, 0.0&gt;Royal guard units:&lt;/color&gt;Pikeman (Dalkarl) and Karabinier (Drabant)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nMiner, Carolean, Leather Cannon and Karabinier\n\nThe Swedish Empire became one of the greatest in Europe through innovation in military tactics and logistics. Its artillery and cavalry charges dominated the battlefields, particularly during the Thirty Years War. Despite a relatively small population, the Swedes fielded some of the largest armies in Europe, partly through the recruitment of mercenaries.</string>
+	    <string _locid="91501" symbol="cStringCivRolloverSwedish">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nTrains miners in addition to settlers. Torps replace houses and gather wood from nearby trees. Crates of Food are replaced by crates of Surströmming, which fatten over time. Jaeger and Black Rider mercenaries can always be recruited from the Tavern. All non-native mercenary shipments can be sent an infinite amount of times.\n&lt;color=1.0, 1.0, 0.0&gt;Royal guard units:&lt;/color&gt;Pikeman (Dalkarl) and Karabinier (Drabant)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nMiner, Carolean, Leather Cannon and Karabinier\n\nThe Swedish Empire became one of the greatest in Europe through innovation in military tactics and logistics. Its artillery and cavalry charges dominated the battlefields, particularly during the Thirty Years War. Despite a relatively small population, the Swedes fielded some of the largest armies in Europe, partly through the recruitment of mercenaries.</string>
 	    <string _locid="91506">Carolean</string>
 	    <string _locid="91507">INF Carolean</string>
 	    <string _locid="91508">Skirmisher</string>
@@ -185,6 +185,8 @@
 	    <string _locid="220047">Ships 6 Miners and 1 Prospector Wagon and enables Miners and Proletarians at the Town Center.</string>
 	    <string _locid="220048">Dictatorship of The Proletariat</string>
 	    <string _locid="220049">Bombard Mode. Leather Cannons will take damage each time they fire a shot.</string>
+	    <string _locid="220050">Fishmongers</string>
+	    <string _locid="220051">Surströmming crates fatten more quickly and markets now slowly spawn crates of Surströmming, but you can now only have up to 3 markets built..</string>
 	    <string _locid="240000">Cloud Forest Travois</string>
 	    <string _locid="240001">Cloud Forest</string>
 	    <string _locid="240002">4 Cloud Forest Travois</string>

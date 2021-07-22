@@ -2530,6 +2530,9 @@
       <effect type="Data" amount="25.00" subtype="BuildLimit" relativity="Assign">
         <target type="ProtoUnit">Miner</target>
       </effect>
+      <effect type="Data" amount="3.00" subtype="BuildLimit" relativity="Assign">
+            <Target type="ProtoUnit">Market</Target>
+      </effect>
       <effect type="Data" amount="0.00" subtype="SetUnitType" unittype="LogicalTypeSettlerBuildLimit" relativity="Assign">
         <target type="ProtoUnit">Miner</target>
       </effect>
@@ -2685,45 +2688,6 @@
         <target type="ProtoUnit">xpSpy</target>
       </effect>
       <effect type="TechStatus" status="obtainable">ShipHowitzers</effect>
-      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
-        <target type="Tech">HCPrivateers2</target>
-      </effect>
-      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
-        <target type="Tech">DEHCContractMercsHessians</target>
-      </effect>
-      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
-        <target type="Tech">DEHCContractMercsBlackRiders</target>
-      </effect>
-      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
-        <target type="Tech">DEHCContractMercsHighlanders</target>
-      </effect>
-      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
-        <target type="Tech">DEHCContractMercsSwissPikemen</target>
-      </effect>
-      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
-        <target type="Tech">DEHCContractMercsLandsknechts</target>
-      </effect>
-      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
-        <target type="Tech">DEHCContractMercsFusiliers</target>
-      </effect>
-      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
-        <target type="Tech">HCPrivateers</target>
-      </effect>
-      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
-        <target type="Tech">HCMercsHighland</target>
-      </effect>
-      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
-        <target type="Tech">DEHCContractMercsStradiots</target>
-      </effect>
-      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
-        <target type="Tech">HCMercsHessiansRepeat</target>
-      </effect>
-      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
-        <target type="Tech">HCMercsBlackRidersRepeat</target>
-      </effect>
-      <effect type="Data" amount="-20.00" subtype="ResearchPoints" relativity="Absolute">
-        <target type="Tech">DEHCContractCrossbowmen</target>
-      </effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">deCarolean</target>
       </effect>
@@ -3138,8 +3102,7 @@
       <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deMilitaryWagon" relativity="Absolute">
         <target type="Player"/>
       </effect>
-      <techstatus status="Active">HCAdvancedArsenal</techstatus>
-
+      <effect type="TechStatus" status="active">HCAdvancedArsenal</effect>
     </effects>
   </tech>
 
@@ -4357,4 +4320,24 @@
       <effect type="TechStatus" status="active">GuardSkirmishers</effect>
     </effects>
   </tech>
+  <tech name="DEHCFishmongers" type="Normal">
+    <dbid>6467</dbid>
+    <displaynameid>220050</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\fishmongers.png</icon>
+    <rollovertextid>220051</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" action="MaintainFishCratesSweden" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Market</target>
+      </effect>
+      <effect type="Data" action="AutoGatherFood" amount="1.20" subtype="WorkRate" unittype="Food" relativity="BasePercent">
+        <target type="ProtoUnit">deCrateofFish</target>
+      </effect>
+
+    </effects>
+  </tech>
+
 </techtreemods>

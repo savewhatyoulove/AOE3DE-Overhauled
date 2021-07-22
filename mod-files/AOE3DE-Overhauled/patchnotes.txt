@@ -412,5 +412,4 @@ Finland:
 
 TODO:
 add swedish VOs for longbowmen
-add Fishmongers shipment (markets and factories slowly spawn fish crates)
 add Advanced Advanced church (upgraded techs over all basic ones)
