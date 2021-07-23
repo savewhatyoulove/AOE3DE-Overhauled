@@ -4288,6 +4288,9 @@
       <effect type="Data" action="MaintainFishCratesSweden" amount="1.00" subtype="ActionEnable" relativity="Absolute">
         <target type="ProtoUnit">Market</target>
       </effect>
+      <effect type="Data" amount="2.00" subtype="Cost" resource="Wood" relativity="BasePercent">
+        <target type="ProtoUnit">Market</target>
+      </effect>
       <effect type="Data" action="AutoGatherFood" amount="1.20" subtype="WorkRate" unittype="Food" relativity="BasePercent">
         <target type="ProtoUnit">deCrateofFish</target>
       </effect>
