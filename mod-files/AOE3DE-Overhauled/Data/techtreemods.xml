@@ -4303,7 +4303,7 @@
     <icon>resources\images\icons\techs\infinite_jaeger_non_team.png</icon>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="MercJaeger" relativity="Absolute">
+      <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="MercJaeger" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -4380,6 +4380,71 @@
     <effects>
       <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="MercLandsknecht" relativity="Absolute">
         <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCAdvancedAdvancedChurchSweden" type="Normal">
+    <dbid>6380</dbid>
+    <displaynameid>220052</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\advanced_church.png</icon>
+    <rollovertextid>220053</rollovertextid>
+    <flag>HomeCity</flag>
+    <flag>OrPrereqs</flag>
+    <effects>
+      <effect type="TextOutput">91613</effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ypChurchWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Church</target>
+      </effect>
+      <effect type="TechStatus" status="active">ChurchMissionFervor</effect>
+    </effects>
+  </tech>
+  <tech name="DEChurchMerchants" type="Normal">
+    <dbid>4273</dbid>
+    <displaynameid>220054</displaynameid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>15.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\asians\faster_shipments.png</icon>
+    <rollovertextid>220055</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+      <techstatus status="Active">DEHCAdvancedAdvancedChurchSweden</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="0.70" subtype="ResearchPoints" relativity="Percent">
+        <target type="techWithFlag">HomeCity</target>
+      </effect>
+      <effect type="Data" amount="500.00" subtype="Resource" resource="XP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+   </effects>
+  </tech>
+  <tech name="DEChurchLookouts" type="Normal">
+    <dbid>323</dbid>
+    <displaynameid>23882</displaynameid>
+    <cost resourcetype="Food">400.0000</cost>
+    <researchpoints>15.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\gas_lighting\gas_lighting.png</icon>
+    <rollovertextid>23881</rollovertextid>
+    <flag>UniqueTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Colonialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">Building</target>
+      </effect>
+      <effect type="Data" amount="4.00" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">Unit</target>
       </effect>
     </effects>
   </tech>

@@ -252,7 +252,7 @@ Sweden Changes:
 Civ Bonus Changes: 
 -- No longer starts with advanced arsenal unlocked
 -- Mercenary shipment bonus reworked:
-  -- Shipments no longer receive a 10% discount nor do they unlock mercenaries at the tavern
+  -- Shipments no longer receive a 10% discount, -20s shipment time, nor do they unlock mercenaries at the tavern
   -- All mercenary shipments can now be sent an infinite amount of times. 
 
 Starting Changes:
@@ -263,9 +263,6 @@ Starting Changes:
 Politician Changes: 
 -- Philosopher Prince now provides 300 Surstromming instead of 400 food (this caps out at 600 food). 
 -- Logistician (Age II) now unlocks Advanced Arsenal
--- Papal Guard Reworked:
-  -- Now enables Crossbowmen, researches their veteran upgrade, and makes their Guard Upgrades free. 
-  -- Dalkarl (RG Pikeman upgrade) no longer free, now costs 100W/100G (base guard upgrade is free, only RG costs now)
 -- Mercenary Contractor (Age 3) now ships 5 Jaegers. All other effects removed. 
 
 Unit Changes:
@@ -289,12 +286,14 @@ Gather Rates: +20% base mining rate (0.6 --> 0.72), +20% yield on mines. -10% hu
 
 Surstromming Crates:
 -- Now capped at 200 Food capacity per crate instead of infinite.
+-- Starts off at 75 capacity instead of 100
+-- Fatten rate increased to 1.25/s from 1.0/s 
 -- Build limit removed (TCs have a 30 crate limit each in general) 
 
 Carolean Reworked:
 HP: Reduced to 140 from 150
 Armor: Changed to 30 Ranged from 30 Melee
-Cost: Increased to 30F/80G from 60F/40G
+Cost: Increased to 40F/70G from 60F/40G
 Speed: Increased to 4.5 from 4.25
 Unit Tags: AbstractHeavyInfantry and AbstractMusketeer removed, AbstractRifleman added. 
 Carolean Chage: Cooldown reduced to 75 seconds from 90 and now provides +1.5 speed instead of +1.0, but duration reduced to 6 seconds
@@ -373,7 +372,6 @@ Shipment Changes:
 -- Blueberries Reworked: 
   -- Now increased berry gather rate by 40% for all villagers and berries last 20% longer. 
 -- Blackberries Removed
--- 6 Mamelukes Infinite replaced with 7 Stradiots INF (1000 gold)
 -- Light Gun Carriages no longer techs Infantry Guns; instead it reduces the cost of leather cannons by 15%.
 -- Trample Tactics Reworked:
   -- Now only affects Hussars. 
@@ -401,6 +399,22 @@ Shipment Changes:
   -- Now additionally provides +10% HP/Damage
   -- No longer increases range by 1 (still increases speed by +5%)
 -- TEAM 1 Torp wagon now provides +20% wood yield for villagers additionally.
+-- Mercenary shipment changes:
+  -- 6 Mamelukes Infinite replaced with 7 Stradiots INF (1000 gold)
+  -- Contract 10 Jaegers reduced to 9 Jaegers INF
+  -- Contract 3 Fusiliers in age 2 increased to 4 Fusiliers. Cost increased to 500 gold from 300.
+  -- Contract 3 Landsknecht in age 2 increased to 5 Landsknecht. Cost increased to 500 gold from 300. 
+-- Fishmongers added in age 1.
+  -- Each market, up to 3, now slowly spawn in one crate of Surstromming (75 seconds). 
+  -- Surstromming crates now fatten 20% more quickly (1.25 --> 1.5 Food/s).
+-- Svenska Kyrkan added in age 3.
+  -- Ships a church wagon, increases church build limit by 1, and researches mission fervor.
+  -- Enables 4 new advanced techs for research
+    -- Pilgrimage: 8 settlers for 700 Food
+    -- Lookouts: +4 Unit/Building LOS for 300 Food. Requires Town Watch
+    -- Tithes: All villagers trickle 0.1 gold/s. 300F/300W
+    -- Merchants: Shipments arrive 30% faster and deposits 500 XP for 750 Gold. 
+ 
 
 Revolution Changes:
 
@@ -413,3 +427,9 @@ Finland:
 TODO:
 add swedish VOs for longbowmen
 add Advanced Advanced church (upgraded techs over all basic ones)
+-- Techs mission fervour
+-- Pilgrimage - 8 vills for 700 F
+-- Tithes -- all vills trickles 0.1c/s 
+-- Lookouts +4 LOS to all units/buildings, 400F
+-- Merchants - shipments arrive 25% faster & 500xp dump, 900g
+

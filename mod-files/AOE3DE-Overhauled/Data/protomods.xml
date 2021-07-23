@@ -74,6 +74,7 @@
     <flag>Doppled</flag>
     <flag>SelectWithObstruction</flag>
     <flag>PaintTextureWhenPlacing</flag>
+    <flag>HasGatherPoint</flag>
     <flag>FlattenGround</flag>
     <flag>Tracked</flag>
     <command page="10" column="7">Delete</command>
@@ -3698,10 +3699,10 @@
     <shortrollovertextid>91780</shortrollovertextid>
     <initialhitpoints>10.0000</initialhitpoints>
     <maxhitpoints>10.0000</maxhitpoints>
-    <trainpoints>60.0000</trainpoints>
+    <trainpoints>75.0000</trainpoints>
     <los>1.0000</los>
     <carrycapacity resourcetype="Food">200.0000</carrycapacity>
-    <initialresource resourcetype="Food">100.0000</initialresource>
+    <initialresource resourcetype="Food">75.0000</initialresource>
     <resourcesubtype>meat</resourcesubtype>
     <allowedage>0</allowedage>
     <decay delay="0.0000" duration="0.0000"/>
@@ -3731,7 +3732,7 @@
     <tactics>crateinfinite.tactics</tactics>
     <protoaction>
       <name>AutoGatherFood</name>
-      <rate type="Food">1.000000</rate>
+      <rate type="Food">1.250000</rate>
     </protoaction>
   </unit>
   <unit mergeMode='replace' id="1644" name="deFinnishRider">

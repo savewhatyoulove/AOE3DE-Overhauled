@@ -93,7 +93,7 @@
 	    <string _locid="91540">Karabinier attack and hitpoints greatly increased.</string>
 	    <string _locid="91544">Veteran Karabinier</string>
 	    <string _locid="91558">1 Military Wagon and 1 Advanced Arsenal Wagon</string>
-	    <string _locid="91560">All technogies and improvements (including Age Ups) are cheaper and research more quickly</string>
+	    <string _locid="91560">All technogies and improvements (including Age Ups) are 10% cheaper and research 10% more quickly.</string>
 	    <string _locid="91573">Light affordable artillery that dies when it attacks, but does lots of damage to infantry and buildings.</string>
 	    <string _locid="91574">TEAM Sends a wagon that transforms into a Torp to support more population and gather nearby resources. Villagers have increased yield from trees.</string>
 	    <string _locid="91614">Pikemen and Halberdiers gain increased damage against Heavy Infantry, but take longer to be trained.</string>
@@ -204,7 +204,11 @@
 	    <string _locid="220048">Dictatorship of The Proletariat</string>
 	    <string _locid="220049">Bombard Mode. Leather Cannons will take damage each time they fire a shot.</string>
 	    <string _locid="220050">Fishmongers</string>
-	    <string _locid="220051">Surströmming crates fatten more quickly and markets now slowly spawn crates of Surströmming, but you can now only have up to 3 markets built..</string>
+	    <string _locid="220051">Surströmming crates fatten more quickly and markets now slowly spawn crates of Surströmming, but you can now only have up to 3 markets built.</string>
+	    <string _locid="220052">Svenska Kyrkan</string>
+	    <string _locid="220053">Ships an advanced church wagon, increases church build limit by 1, researches mission fervor, and unlocks powerful new technologies for it.</string>
+	    <string _locid="220054">Merchants</string>
+	    <string _locid="220055">Deposits a large amount of XP and Shipments arrive more quickly.</string>
 	    <string _locid="240000">Cloud Forest Travois</string>
 	    <string _locid="240001">Cloud Forest</string>
 	    <string _locid="240002">4 Cloud Forest Travois</string>
