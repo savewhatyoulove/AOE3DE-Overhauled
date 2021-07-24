@@ -4517,5 +4517,23 @@
       </effect>
     </effects>
   </tech>
+  <tech name="DEHCTreeSpawnSweden" type="Normal">
+    <dbid>6468</dbid>
+    <displaynameid>220064</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\infinite_tree.png</icon>
+    <rollovertextid>220065</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" action="SpawnRevTree" amount="1.00" subtype="ActionAdd" unittype="deTorp" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" action="SpawnRevTree" amount="1.00" subtype="ActionAdd" unittype="deTorpGeneric" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
 
 </techtreemods>
