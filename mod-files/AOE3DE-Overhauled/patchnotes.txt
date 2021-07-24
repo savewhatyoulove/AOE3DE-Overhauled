@@ -254,6 +254,7 @@ Civ Bonus Changes:
 -- Mercenary shipment bonus reworked:
   -- Shipments no longer receive a 10% discount, -20s shipment time, nor do they unlock mercenaries at the tavern
   -- All mercenary shipments can now be sent an infinite amount of times. 
+-- Now starts off with a free Church Wagon
 
 Starting Changes:
 -- Crates of 200 Food replaced with Crates of 200 Surstromming
@@ -323,8 +324,8 @@ Siege: 21 w/ 3 ROF
 Ranged Attack: 21 w/ 2.0 ROF and 16 Range. 0.5x AbstractInfantry, 3.0x AbstractHeavyInfantry (1.5x net), 2x AbstractLightCavalry (1.5x net), 2.5x AbstractArtillery, 0.75x AbstractCavalry/AbstractLightInfantry, 0.5x AvstractVillager
 Melee Attack: 16 w/ 1.5 ROF, same multipliers as ranged without villager penalty.
 
-Sweden can now train Halberdiers by default in the Fortress Age. 
-Sweden can now train Dragoons by default in the Fortress Age. 
+Sweden can now train Halberdiers by default in the Fortress Age, Halberdier shipments unlocked. 
+Sweden can now train Dragoons by default in the Fortress Age, but can not ship them. 
 Sweden can no longer train Petards.
 
 Building Changes:
@@ -414,6 +415,10 @@ Shipment Changes:
     -- Lookouts: +4 Unit/Building LOS for 300 Food. Requires Town Watch
     -- Tithes: All villagers trickle 0.1 gold/s. 300F/300W
     -- Merchants: Shipments arrive 30% faster and deposits 500 XP for 750 Gold. 
+-- Leather Cannon shipments rescaled:
+  -- Age II 2 Leather Cannons increased to 3 Leather Cannons
+  -- Age III 5 Leather Cannons INFINITE added
+  -- Age IV 5 Leather Cannons increased to 10 Leather Cannons
  
 
 Revolution Changes:
@@ -430,6 +435,7 @@ add Advanced Advanced church (upgraded techs over all basic ones)
 -- Techs mission fervour
 -- Pilgrimage - 8 vills for 700 F
 -- Tithes -- all vills trickles 0.1c/s 
--- Lookouts +4 LOS to all units/buildings, 400F
--- Merchants - shipments arrive 25% faster & 500xp dump, 900g
+-- Lookouts +4 LOS to all units/buildings, 300F; requires Town Watch
+-- Merchants - shipments arrive 30 faster & 500xp dump, 750g; requires mercantilism
+do something with gustavian guard?
 

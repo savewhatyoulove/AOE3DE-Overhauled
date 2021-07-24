@@ -138,6 +138,7 @@
     <food>0</food>
     <wood>0</wood>
     <startingunit>Explorer</startingunit>
+    <townstartingunit>ypChurchWagon</townstartingunit>
     <townstartingunit>Settler</townstartingunit>
     <townstartingunit>Settler</townstartingunit>
     <townstartingunit>Settler</townstartingunit>

@@ -409,6 +409,15 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>DEHCShipLeatherCannons3</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>3</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
       <name>DEHCHandUnitDamage</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -1885,6 +1894,7 @@
       <tech x="0.0" y="5.0">DEHCDalecarlianRebellion</tech>
       <tech x="1.9" y="2.0">DEHCShipHakkapelits2</tech>
       <tech x="1.6" y="5.0">DEHCShipLeatherCannons2</tech>
+      <tech x="1.6" y="5.0">DEHCShipLeatherCannons3</tech>
       <tech x="2.3" y="3.0">DEHCHandUnitDamage</tech>
       <tech x="2.3" y="4.0">DEHCHandUnitCombat</tech>
       <tech x="2.3" y="4.0">DEHCHandUnitHitpointsTeam</tech>
@@ -1932,6 +1942,7 @@
       <tech x="0.0" y="5.0">DEHCDalecarlianRebellion</tech>
       <tech x="1.9" y="2.0">DEHCShipHakkapelits2</tech>
       <tech x="1.6" y="5.0">DEHCShipLeatherCannons2</tech>
+      <tech x="1.6" y="5.0">DEHCShipLeatherCannons3</tech>
       <tech x="2.3" y="3.0">DEHCHandUnitDamage</tech>
       <tech x="2.3" y="4.0">DEHCHandUnitHitpointsTeam</tech>
       <tech x="2.3" y="4.0">DEHCHandUnitCombat</tech>

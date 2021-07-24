@@ -2512,6 +2512,9 @@
     <status>UNOBTAINABLE</status>
     <flag>Shadow</flag>
     <effects>
+      <effect type="Data" amount="-1.00" subtype="AllowedAge" relativity="Absolute">
+        <target type="ProtoUnit">Church</target>
+      </effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">Explorer</target>
       </effect>
@@ -2998,6 +3001,20 @@
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="deLeatherCannon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipLeatherCannons3" type="Normal">
+    <dbid>6510</dbid>
+    <displaynameid>220056</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\artillery\leather_cannon\leather_cannon_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="deLeatherCannon" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -4410,7 +4427,7 @@
   <tech name="DEChurchMerchants" type="Normal">
     <dbid>4273</dbid>
     <displaynameid>220054</displaynameid>
-    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Gold">750.0000</cost>
     <researchpoints>15.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\asians\faster_shipments.png</icon>
@@ -4418,6 +4435,7 @@
     <flag>CountsTowardEconomicScore</flag>
     <prereqs>
       <techstatus status="Active">Fortressize</techstatus>
+      <techstatus status="Active">ChurchMercantilism</techstatus>
       <techstatus status="Active">DEHCAdvancedAdvancedChurchSweden</techstatus>
     </prereqs>
     <effects>
@@ -4432,15 +4450,17 @@
   <tech name="DEChurchLookouts" type="Normal">
     <dbid>323</dbid>
     <displaynameid>23882</displaynameid>
-    <cost resourcetype="Food">400.0000</cost>
+    <cost resourcetype="Food">300.0000</cost>
     <researchpoints>15.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\gas_lighting\gas_lighting.png</icon>
+    <icon>resources\images\icons\techs\lookouts.png</icon>
     <rollovertextid>23881</rollovertextid>
     <flag>UniqueTech</flag>
     <flag>CountsTowardMilitaryScore</flag>
     <prereqs>
+      <techstatus status="Active">ChurchTownWatch</techstatus>
       <techstatus status="Active">Colonialize</techstatus>
+      <techstatus status="Active">DEHCAdvancedAdvancedChurchSweden</techstatus>
     </prereqs>
     <effects>
       <effect type="Data" amount="4.00" subtype="LOS" relativity="Absolute">
@@ -4448,6 +4468,50 @@
       </effect>
       <effect type="Data" amount="4.00" subtype="LOS" relativity="Absolute">
         <target type="ProtoUnit">Unit</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEChurchPilgrimage" type="Normal">
+    <dbid>323</dbid>
+    <displaynameid>220058</displaynameid>
+    <cost resourcetype="Food">700.0000</cost>
+    <researchpoints>15.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_conestoga_wagons\hc_conestoga_wagons.png</icon>
+    <rollovertextid>220059</rollovertextid>
+    <flag>UniqueTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Colonialize</techstatus>
+      <techstatus status="Active">DEHCAdvancedAdvancedChurchSweden</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="Settler" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEChurchTithes" type="Normal">
+    <dbid>323</dbid>
+    <displaynameid>220060</displaynameid>
+    <cost resourcetype="Food">300.0000</cost>
+    <cost resourcetype="Wood">300.0000</cost>
+    <researchpoints>15.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\tax_burden.png</icon>
+    <rollovertextid>220061</rollovertextid>
+    <flag>UniqueTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Colonialize</techstatus>
+      <techstatus status="Active">DEHCAdvancedAdvancedChurchSweden</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" action="AutoGatherGold" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Settler</target>
+      </effect>
+      <effect type="Data" action="AutoGatherGold" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Settler</target>
       </effect>
     </effects>
   </tech>
