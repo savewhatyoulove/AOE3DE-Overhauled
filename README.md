@@ -5,7 +5,7 @@ This mod is a work-in-progress comprehensive balance overhaul for Age of Empires
 The included mod manager allows you to install and manage AOE3:DE Overhauled from outside of the game, without the need to restart. This application requires Java 8 to be installed to run and works on Linux and Windows (MacOS is not a supported). If you are running this on a linux distro with a unique desktop environment/standalone window manager like BSPWM or Xmonad, you will need to install wmname from your package manager and add "wmname LG3D" to your config file (or run it via the terminal) or else the application will not display anything. 
 
 <img
-src="https://github.com/SquidTheSid/AOE3DE-Overhauled/blob/master/Aoe3DEInstaller.png">
+src="https://github.com/SquidTheSid/AOE3DE-Overhauled/blob/sweden_dev/Aoe3DEInstaller.png">
 
 <b>Installation:</b>
 
