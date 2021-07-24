@@ -431,11 +431,5 @@ Finland:
 
 TODO:
 add swedish VOs for longbowmen
-add Advanced Advanced church (upgraded techs over all basic ones)
--- Techs mission fervour
--- Pilgrimage - 8 vills for 700 F
--- Tithes -- all vills trickles 0.1c/s 
--- Lookouts +4 LOS to all units/buildings, 300F; requires Town Watch
--- Merchants - shipments arrive 30 faster & 500xp dump, 750g; requires mercantilism
 do something with gustavian guard?
 

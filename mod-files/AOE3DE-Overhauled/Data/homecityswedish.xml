@@ -1521,8 +1521,8 @@
       <name>DEHCREVTreeSpawn</name>
       <maxcount>-1</maxcount>
       <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
-      <age>3</age>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
       <revoltcard/>
     </card>
     <card>
@@ -2121,6 +2121,7 @@
       <tech x="6.1" y="3.0">DEHCShipMineWagon2</tech>
       <tech x="6.1" y="3.0">DEHCShipMineWagon3</tech>
       <tech x="6.1" y="3.0">DEHCNorthernForests</tech>
+      <tech x="6.1" y="3.0">DEHCREVTreeSpawn</tech>
     </obtainabletechs>
     <activetechs>
       <tech x="0.0" y="3.0">HCStonemasons</tech>
@@ -2149,6 +2150,7 @@
       <tech x="6.1" y="3.0">DEHCShipMineWagon2</tech>
       <tech x="6.1" y="3.0">DEHCShipMineWagon3</tech>
       <tech x="6.1" y="3.0">DEHCNorthernForests</tech>
+      <tech x="6.1" y="3.0">DEHCREVTreeSpawn</tech>
     </activetechs>
     <validunits/>
     <trainbuilding>1</trainbuilding>
