@@ -2557,6 +2557,10 @@
       <effect type="TechStatus" status="obtainable">DEChurchPikePush</effect>
       <effect type="TechStatus" status="obtainable">DEChurchVikings</effect>
       <effect type="TechStatus" status="obtainable">DEChurchSwedishColonies</effect>
+      <effect type="TechStatus" status="obtainable">DEChurchMerchants</effect>
+      <effect type="TechStatus" status="obtainable">DEChurchLookouts</effect>
+      <effect type="TechStatus" status="obtainable">DEChurchPilgrimage</effect>
+      <effect type="TechStatus" status="obtainable">DEChurchTithes</effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">Sheep</target>
       </effect>
@@ -4427,7 +4431,7 @@
   <tech name="DEChurchMerchants" type="Normal">
     <dbid>4273</dbid>
     <displaynameid>220054</displaynameid>
-    <cost resourcetype="Gold">750.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
     <researchpoints>15.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\asians\faster_shipments.png</icon>
@@ -4435,7 +4439,6 @@
     <flag>CountsTowardEconomicScore</flag>
     <prereqs>
       <techstatus status="Active">Fortressize</techstatus>
-      <techstatus status="Active">ChurchMercantilism</techstatus>
       <techstatus status="Active">DEHCAdvancedAdvancedChurchSweden</techstatus>
     </prereqs>
     <effects>
@@ -4449,16 +4452,15 @@
   </tech>
   <tech name="DEChurchLookouts" type="Normal">
     <dbid>323</dbid>
-    <displaynameid>23882</displaynameid>
-    <cost resourcetype="Food">300.0000</cost>
+    <displaynameid>220062</displaynameid>
+    <cost resourcetype="Food">400.0000</cost>
     <researchpoints>15.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\lookouts.png</icon>
-    <rollovertextid>23881</rollovertextid>
+    <rollovertextid>220063</rollovertextid>
     <flag>UniqueTech</flag>
     <flag>CountsTowardMilitaryScore</flag>
     <prereqs>
-      <techstatus status="Active">ChurchTownWatch</techstatus>
       <techstatus status="Active">Colonialize</techstatus>
       <techstatus status="Active">DEHCAdvancedAdvancedChurchSweden</techstatus>
     </prereqs>

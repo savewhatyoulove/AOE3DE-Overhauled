@@ -206,7 +206,7 @@
 	    <string _locid="220050">Fishmongers</string>
 	    <string _locid="220051">Surströmming crates fatten more quickly and markets now slowly spawn crates of Surströmming, but you can now only have up to 3 markets built and they cost more.</string>
 	    <string _locid="220052">Svenska Kyrkan</string>
-	    <string _locid="220053">Ships an advanced church wagon, increases church build limit by 1, researches mission fervor, and unlocks powerful new technologies for it.</string>
+	    <string _locid="220053">Ships an Advanced Church Wagon, increases Church build limit by 1, researches Mission Fervor, and unlocks powerful new technologies for the church.</string>
 	    <string _locid="220054">Merchants</string>
 	    <string _locid="220055">Deposits a large amount of XP and Shipments arrive more quickly.</string>
 	    <string _locid="220056">3 Leather Cannons</string>
@@ -215,6 +215,8 @@
 	    <string _locid="220059">Delivers 8 Settlers.</string>
 	    <string _locid="220060">Tithes</string>
 	    <string _locid="220061">While working, each villager will trickle a small amount of coin.</string>
+	    <string _locid="220062">Lookouts</string>
+	    <string _locid="220063">Unit and building line of sight increased.</string>
 	    <string _locid="240000">Cloud Forest Travois</string>
 	    <string _locid="240001">Cloud Forest</string>
 	    <string _locid="240002">4 Cloud Forest Travois</string>

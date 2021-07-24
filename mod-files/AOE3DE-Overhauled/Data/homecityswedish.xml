@@ -783,6 +783,13 @@
       <age>1</age>
     </card>
     <card>
+      <name>DEHCAdvancedAdvancedChurchSweden</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
       <name>HCAdvancedMill</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -2020,6 +2027,7 @@
       <tech x="5.1" y="5.0">DEHCDominions</tech>
       <tech x="5.8" y="1.0">HCAdvancedMill</tech>
       <tech x="5.8" y="3.0">DEHCRoyalDecreeSwedish</tech>
+      <tech x="5.8" y="3.0">DEHCAdvancedAdvancedChurchSweden</tech>
       <tech x="6.5" y="1.0">DEHCTorpTeam</tech>
       <tech x="6.5" y="2.0">HCAdvancedMarket</tech>
       <tech x="5.8" y="5.0">HCAdvancedPlantations</tech>
@@ -2057,6 +2065,7 @@
       <tech x="5.1" y="5.0">DEHCDominions</tech>
       <tech x="5.8" y="1.0">HCAdvancedMill</tech>
       <tech x="5.8" y="3.0">DEHCRoyalDecreeSwedish</tech>
+      <tech x="5.8" y="3.0">DEHCAdvancedAdvancedChurchSweden</tech>
       <tech x="6.5" y="1.0">DEHCTorpTeam</tech>
       <tech x="6.5" y="2.0">HCAdvancedMarket</tech>
       <tech x="5.8" y="5.0">HCAdvancedPlantations</tech>
