@@ -12,6 +12,7 @@ EX: The goal of these changes is to promote earlier aggression and prevent easy 
 
 Units: 
 -- All Pikemen units (AbstractPikemen) get +1 melee range to better chase down cavalry.
+-- Fusilier cost reduced to 240 Gold from 300 (bounties and shipments adjusted); hand armor increased to 0.2 from 0.1
 -- Crossbowmen AbstractHeavyInfantry multiplier improved to 1.5x from 1.25x
 -- Halberdier base speed increased to 4.5 from 4.0
 -- Landsknecht Oberhau Charge damage cap reduced to 108 from 164 and cooldown increased to 20 from 15.
@@ -367,7 +368,11 @@ Shipment Changes:
   -- 4 in commerce (II)
   -- 10 and a prospector wagon in industrial (IV)
 -- Great Northern Forests moved to the fortress age (III), range increased to 16 (from 14), and tree cap increased to 15 from 14 (caps out at 0.75 wood/s).
--- Dominions moved to the commerce age (II), HP buff reduced to 25% from 30%, and can now only gather from wood crates. 
+-- Dominions Reworked:
+  -- Moved to the commerce age (II)
+  -- HP buff reduced to 25% from 30%. 
+  -- Can no longer gather from crates or act as Shipment points
+  -- They gain a ranged attack with 12 range, 10 damage, and 3.0 ROF
 -- Allotment System moved to Fortress Age (III)
 -- Savolax Mercenaries added in Fortress Age. Enables Jaegers and Black Riders in military buildings and converts their cost to a lesser amount of wood (130/190)
 -- Blueberries Reworked: 

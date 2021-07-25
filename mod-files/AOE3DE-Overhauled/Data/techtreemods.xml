@@ -48,6 +48,23 @@
   </tech>
 
 <!-- General Shipments --> 
+  <tech name="HCXPMercsFusiliers" type="Normal">
+    <dbid>3352</dbid>
+    <displaynameid>46542</displaynameid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\fusilier_icon.png</icon>
+    <rollovertextid>46541</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="MercFusilier" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+
   <tech name="DEHCHandMortar" type="Normal">
     <effects>
       <effect mergeMode='add' type="TechStatus" status="active">VeteranGrenadiers</effect>
@@ -3249,16 +3266,10 @@
       <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="deTorpWagon" relativity="Absolute">
         <target type="Player"/>
       </effect>
-      <effect type="CommandAdd" command="SetUnitAsHomeCityGatherPoint" page="0" column="0">
-        <target type="ProtoUnit">deTorp</target>
-      </effect>
-      <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HCGatherPointPri3" relativity="Assign">
-        <target type="ProtoUnit">deTorp</target>
-      </effect>
-      <effect type="Data" amount="1.00" action="AreaGatherWoodCrate" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">deTorp</target>
-      </effect>
       <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deTorp</target>
+      </effect>
+      <effect type="Data" action="RangedAttack" amount="10.00" subtype="ActionEnable" relativity="Absolute">
         <target type="ProtoUnit">deTorp</target>
       </effect>
       <effect type="TextOutput">91689</effect>
@@ -4365,7 +4376,7 @@
   <tech mergeMode='replace' name="DEHCContractMercsFusiliers" type="Normal">
     <dbid>6411</dbid>
     <displaynameid>91710</displaynameid>
-    <cost resourcetype="Gold">500.0000</cost>
+    <cost resourcetype="Gold">300.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>60.0000</researchpoints>
     <status>UNOBTAINABLE</status>

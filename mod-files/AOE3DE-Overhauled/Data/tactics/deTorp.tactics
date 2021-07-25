@@ -1,6 +1,27 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tactics>
   <action>
+    <name stringid="38133">RangedAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>RangedAttack</anim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <accuracyreductionfactor>0.01</accuracyreductionfactor>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>12</trackrating>
+    <active>0</active>
+    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <projectile>InvisibleProjectile</projectile>
+    <impacteffect>effects\impacts\gun</impacteffect>
+    <rate type="Unit">1.0 </rate>
+    <instantballistics>1</instantballistics>
+    <perfectaccuracy>1</perfectaccuracy>
+  </action>
+  <action>
     <name stringid="69158">SpawnCaroleans1</name>
     <type>Maintain</type>
     <rate type="deCaroleanBatch">1.0</rate>
@@ -205,5 +226,5 @@
     <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>
-  <tactic>Normal<action>AreaGatherTree</action><action>AreaGatherTree2</action><action>AreaGatherFoodCrate</action><action>AreaGatherWoodCrate</action><action>AreaGatherCoinCrate</action><action>AreaGatherInfiniteCrate</action><action>AreaGatherGroveBuilding</action><action>SpawnCaroleans1</action><action>SpawnCaroleans2</action><action>SpawnElks</action><action>SpawnCrates</action><action>SpawnSheep</action><action>SpawnMilitia</action><action>SpawnBush</action></tactic>
+  <tactic>Normal<action>AreaGatherTree</action><action>AreaGatherTree2</action><action>AreaGatherFoodCrate</action><action>AreaGatherWoodCrate</action><action>AreaGatherCoinCrate</action><action>AreaGatherInfiniteCrate</action><action>AreaGatherGroveBuilding</action><action>SpawnCaroleans1</action><action>SpawnCaroleans2</action><action>SpawnElks</action><action>SpawnCrates</action><action>SpawnSheep</action><action>SpawnMilitia</action><action>SpawnBush</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">RangedAttack</action></tactic>
 </tactics>

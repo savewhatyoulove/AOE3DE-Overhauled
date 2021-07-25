@@ -39547,7 +39547,7 @@
     <rollovertextid>46541</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="MercFusilier" relativity="Absolute">
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="MercFusilier" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -39582,7 +39582,7 @@
     <rollovertextid>46545</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="MercFusilier" relativity="Absolute">
+      <effect type="Data" amount="13.00" subtype="FreeHomeCityUnit" unittype="MercFusilier" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -41608,7 +41608,7 @@
   <tech name="HCXPMercsFusiliersRepeat" type="Normal">
     <dbid>3453</dbid>
     <displaynameid>47066</displaynameid>
-    <cost resourcetype="Gold">2000.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>60.0000</researchpoints>
     <status>UNOBTAINABLE</status>
