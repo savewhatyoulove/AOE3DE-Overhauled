@@ -3032,7 +3032,7 @@
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="xpEagleKnight">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
-      <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">0.625000</damagebonus>
     </protoaction>
     <protoaction>
       <name>DefendRangedAttack</name>
@@ -3056,7 +3056,7 @@
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="xpEagleKnight">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
-      <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">0.625000</damagebonus>
     </protoaction>
     <protoaction>
       <name>StaggerHandAttack</name>
@@ -3067,7 +3067,7 @@
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="xpEagleKnight">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
-      <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">0.625000</damagebonus>
     </protoaction>
     <protoaction>
       <name>BayonetAttack</name>
@@ -3078,7 +3078,7 @@
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="xpEagleKnight">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
-      <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">0.625000</damagebonus>
     </protoaction>
     <protoaction>
       <name>StaggerRangedAttack</name>
@@ -3102,7 +3102,7 @@
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="xpEagleKnight">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
-      <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">0.625000</damagebonus>
     </protoaction>
     <protoaction>
       <name>VolleyRangedAttack</name>
