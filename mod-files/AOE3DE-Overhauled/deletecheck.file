@@ -1,1 +1,0 @@
-This file is used the by mod manager as a check to prevent unintended files from being deleted. That is, it will check if this file exists and remove the old mod if detected, and skip deletion if not found. This is just a text file, so as long as it has the same name, it will work
