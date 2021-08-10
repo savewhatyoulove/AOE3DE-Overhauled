@@ -186,7 +186,7 @@
     <rolloverid>62766</rolloverid>
     <icon>resources\images\icons\abilities\ability_good_fortune.png</icon>
     <minimapeventtime sendalertto="none">1</minimapeventtime>
-    <activetime>20</activetime>
+    <activetime>2</activetime>
     <radius>10.0</radius>
     <placement forceonmap="1" ally="">full</placement>
     <abstractattacktargettype>LogicalTypeHealed</abstractattacktargettype>
@@ -535,6 +535,8 @@
     <explicitlyrestrictedattacktargettype>Unattackable</explicitlyrestrictedattacktargettype>
     <explicitlyrestrictedattacktargettype>Projectile</explicitlyrestrictedattacktargettype>
     <explicitlyrestrictedattacktargettype>AbstractVillager</explicitlyrestrictedattacktargettype>
+    <explicitlyrestrictedattacktargettype>HotAirBalloon</explicitlyrestrictedattacktargettype>
+    <explicitlyrestrictedattacktargettype>xpAdvancedBalloon</explicitlyrestrictedattacktargettype>
     <unitaction>Convert</unitaction>
     <allowduringnorush>0</allowduringnorush>
   </power>
@@ -771,8 +773,8 @@
     <timerrolloverid>91824</timerrolloverid>
     <icon>resources\images\icons\abilities\ability_bayonet_charge_lrg.png</icon>
     <minimapeventtime sendalertto="none">1</minimapeventtime>
-    <activetime>6</activetime>
-    <effect type="MaximumVelocity" relativity="Absolute" amount="1.5">
+    <activetime>8</activetime>
+    <effect type="MaximumVelocity" relativity="Absolute" amount="1">
       <target type="ProtoUnit">deNizam</target>
     </effect>
     <effect type="ForceSquadMode" squadmode="InfantryMelee" relativity="Assign" amount="1">
@@ -910,6 +912,207 @@
     <rolloverid>49257</rolloverid>
     <icon>\resources\images\icons\abilities\tech_passive_regenerate_health.png</icon>
     <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePowerChaos" type="TempUnit">
+    <displaynameid>101093</displaynameid>
+    <rolloverid>101094</rolloverid>
+    <icon>resources\images\icons\abilities\ability_chaos.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>30</activetime>
+    <radius>10.0</radius>
+    <placement forceonmap="1" ally="">full</placement>
+    <createunit quantity="1" radius="0" delay="0.0" chaos="1">deChaosToken</createunit>
+    <rangeindicatorprotoid radius="10.0" indicatorcount="8" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <allowduringnorush>1</allowduringnorush>
+    <displaycastpowermessagetoplayeronly>1</displaycastpowermessagetoplayeronly>
+  </power>
+  <power name="deAttackSpeedBoost" type="GeneralEffect">
+    <displaynameid>101403</displaynameid>
+    <rolloverid>101404</rolloverid>
+    <icon>resources\images\icons\abilities\ability_tewodros.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>15</activetime>
+    <effect type="ActionEnable" action="FireCommand">
+      <target type="ProtoUnit">deSPCKassaHailu</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <startsoundset>LionMove</startsoundset>
+  </power>
+  <power name="deSpeedBoost" type="GeneralEffect">
+    <displaynameid>101512</displaynameid>
+    <rolloverid>101513</rolloverid>
+    <icon>resources\images\icons\abilities\ability_mansur.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>9</activetime>
+    <effect type="ActionEnable" action="SpeedAura">
+      <target type="ProtoUnit">deSPCMansur</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <startsoundset>UI_Select_Building_WatchTower</startsoundset>
+  </power>
+  <power name="dePowerDodgeEthiopian" type="Dodge">
+    <displaynameid>66381</displaynameid>
+    <rolloverid>66382</rolloverid>
+    <icon>resources\images\icons\abilities\passive_dodge_ethiopian.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+    <startsoundset>PowerEvade</startsoundset>
+  </power>
+  <power name="deChargeAbilityBerberMusket" type="GeneralEffect">
+    <displaynameid>102628</displaynameid>
+    <rolloverid>102629</rolloverid>
+    <icon>resources\images\icons\abilities\passive_fantasia.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deNatSomaliLighthouse" type="GeneralEffect">
+    <timerrolloverid>102702</timerrolloverid>
+    <icon>resources\images\icons\abilities\ability_lighthouse.png</icon>
+    <minimapeventtime sendalertto="all">1</minimapeventtime>
+    <activetime>10</activetime>
+    <effect type="EnemyAttachProtoUnit" attachprotounit="deSomaliLighthouseRevealer" unittype="AbstractDock">
+      <target type="Player"/>
+    </effect>
+    <effect type="EnemyAttachProtoUnit" attachprotounit="deSomaliLighthouseRevealer" unittype="TradingPost">
+      <target type="Player"/>
+    </effect>
+    <effect type="EnemyAttachProtoUnit" attachprotounit="deSomaliLighthouseRevealer" unittype="Outpost">
+      <target type="Player"/>
+    </effect>
+    <effect type="EnemyAttachProtoUnit" attachprotounit="deSomaliLighthouseRevealer" unittype="FortFrontier">
+      <target type="Player"/>
+    </effect>
+    <effect type="EnemyAttachProtoUnit" attachprotounit="deSomaliLighthouseRevealer" unittype="Blockhouse">
+      <target type="Player"/>
+    </effect>
+    <effect type="EnemyAttachProtoUnit" attachprotounit="deSomaliLighthouseRevealer" unittype="WarHut">
+      <target type="Player"/>
+    </effect>
+    <effect type="EnemyAttachProtoUnit" attachprotounit="deSomaliLighthouseRevealer" unittype="NoblesHut">
+      <target type="Player"/>
+    </effect>
+    <effect type="EnemyAttachProtoUnit" attachprotounit="deSomaliLighthouseRevealer" unittype="deIncaStronghold">
+      <target type="Player"/>
+    </effect>
+    <effect type="EnemyAttachProtoUnit" attachprotounit="deSomaliLighthouseRevealer" unittype="ypCastle">
+      <target type="Player"/>
+    </effect>
+    <effect type="EnemyAttachProtoUnit" attachprotounit="deSomaliLighthouseRevealer" unittype="deTower">
+      <target type="Player"/>
+    </effect>
+    <effect type="EnemyAttachProtoUnit" attachprotounit="deSomaliLighthouseRevealer" unittype="dePalace">
+      <target type="Player"/>
+    </effect>
+    <effect type="EnemyAttachProtoUnit" attachprotounit="deSomaliLighthouseRevealer" unittype="Ship">
+      <target type="Player"/>
+    </effect>
+    <messagealertplayerrelation>none</messagealertplayerrelation>
+    <placement forceonmap="1" ally="">unit</placement>
+    <allowduringnorush>1</allowduringnorush>
+    <startsoundset>UI_Select_Building_Firepit</startsoundset>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+  </power>
+  <power name="deHausaRevealMines" type="GeneralEffect">
+    <timerrolloverid>103391</timerrolloverid>
+    <minimapeventtime sendalertto="all">1</minimapeventtime>
+    <activetime>10</activetime>
+    <effect type="EnemyAttachProtoUnit" attachprotounit="deHausaMineRevealer" unittype="MinedResource" includegaia="1">
+      <target type="Player"/>
+    </effect>
+    <effect type="EnemyAttachProtoUnit" attachprotounit="deHausaMineRevealer" unittype="AbstractWhale" includegaia="1">
+      <target type="Player"/>
+    </effect>
+    <messagealertplayerrelation>none</messagealertplayerrelation>
+    <placement forceonmap="1" ally="">unit</placement>
+    <allowduringnorush>1</allowduringnorush>
+    <startsoundset>PowerInformers</startsoundset>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+  </power>
+  <power name="deSphereOfInfluence" type="UnitAction">
+    <displaynameid>103120</displaynameid>
+    <rolloverid>103121</rolloverid>
+    <icon>resources\images\icons\techs\africans\hausa\tech_passive_university_aura.png</icon>
+  </power>
+  <power name="deGranaryAura" type="UnitAction">
+    <displaynameid>103133</displaynameid>
+    <rolloverid>103135</rolloverid>
+    <icon>resources\images\icons\techs\africans\tech_passive_granary_aura.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deRockChurch" type="UnitAction">
+    <displaynameid>103126</displaynameid>
+    <rolloverid>103131</rolloverid>
+    <icon>resources\images\icons\techs\africans\ethiopians\tech_passive_monastery_aura.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deAllegianceSonghaiLevyRaiders" type="GeneralEffect">
+    <placement forceonmap="1">LOSDontCare</placement>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePowerHausaSabotage" type="SingleModify">
+    <displaynameid>103421</displaynameid>
+    <rolloverid>103422</rolloverid>
+    <icon>resources\images\icons\abilities\ability_tsetse.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>30</activetime>
+    <unitmodify amount="0.25" apply="multiply" nostackignorepuid="">BuildingWorkRate</unitmodify>
+    <modelattachment>units\attachments\stun_stars.xml</modelattachment>
+    <modelattachmentbone>hitpointbar</modelattachmentbone>
+    <powerplayerrelation>enemy</powerplayerrelation>
+    <abstractattacktargettype>MilitaryBuilding</abstractattacktargettype>
+    <placement forceonmap="1" enemy="">unit</placement>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+  </power>
+  <power name="dePowerLongRangeCannonBoat" type="UnitAction">
+    <displaynameid>34137</displaynameid>
+    <rolloverid>103431</rolloverid>
+    <icon>resources\images\icons\command\mode_bombard.png</icon>
+    <minimapeventtime sendalertto="all">1</minimapeventtime>
+    <activetime>5</activetime>
+    <radius>10.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>LogicalTypeRangedUnitsAttack</abstractattacktargettype>
+    <unitaction>LongRangeAttack</unitaction>
+  </power>
+  <power name="deFealtyAura" type="UnitAction">
+    <displaynameid>101445</displaynameid>
+    <rolloverid>101450</rolloverid>
+    <icon>resources\images\icons\abilities\tech_passive_fealty_aura.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePowerChaosEnemy" type="TempUnit">
+    <displaynameid>101093</displaynameid>
+    <rolloverid>103434</rolloverid>
+    <icon>resources\images\icons\abilities\ability_chaos.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>30</activetime>
+    <radius>10.0</radius>
+    <placement forceonmap="1" ally="">full</placement>
+    <createunit quantity="1" radius="0" delay="0.0" chaos="1">deChaosToken</createunit>
+    <rangeindicatorprotoid radius="5.0" indicatorcount="8" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <allowduringnorush>1</allowduringnorush>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <displaycastpowermessagetoplayeronly>1</displaycastpowermessagetoplayeronly>
+  </power>
+  <power name="deAttackSpeedBoostPrince" type="GeneralEffect">
+    <displaynameid>101403</displaynameid>
+    <rolloverid>103436</rolloverid>
+    <icon>resources\images\icons\abilities\ability_tewodros.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>15</activetime>
+    <effect type="ActionEnable" action="RoarROF">
+      <target type="ProtoUnit">dePrince</target>
+    </effect>
+    <effect type="ActionEnable" action="RoarSpeed">
+      <target type="ProtoUnit">dePrince</target>
+    </effect>
+    <effect type="ActionEnable" action="RoarROF">
+      <target type="ProtoUnit">dePrince2</target>
+    </effect>
+    <effect type="ActionEnable" action="RoarSpeed">
+      <target type="ProtoUnit">dePrince2</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <startsoundset>LionMove</startsoundset>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
   </power>
 <power name="dePikemanCharge" type="GeneralEffect">
     <displaynameid>120029</displaynameid>

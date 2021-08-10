@@ -173,7 +173,7 @@
     <ability>ypPowerCriticalAttack<alwaysdisabledingrid>true</alwaysdisabledingrid></ability>
   </ypmonkdisciple>
   <ypmonkchinese>
-    <ability>ypPowerGuardianStun<rof>30</rof></ability>
+    <ability>ypPowerGuardianStun<rof>40</rof></ability>
     <ability>PowerBalloon<tech>ypConsulateFrenchHotAirBalloonsPreq</tech><rof>240</rof></ability>
     <ability>ypPowerCriticalAttack<alwaysdisabledingrid>true</alwaysdisabledingrid></ability>
     <ability>ypPowerConvertDisciple<tech>Colonialize</tech><alwaysdisabledingrid>true</alwaysdisabledingrid></ability>
@@ -182,7 +182,7 @@
     <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </ypmonkchinese>
   <ypmonkchinese2>
-    <ability>ypPowerGuardianStun<rof>30</rof></ability>
+    <ability>ypPowerGuardianStun<rof>40</rof></ability>
     <ability>PowerBalloon<tech>ypConsulateFrenchHotAirBalloonsPreq</tech><rof>240</rof></ability>
     <ability>ypPowerCriticalAttack<alwaysdisabledingrid>true</alwaysdisabledingrid></ability>
     <ability>ypPowerConvertDisciple<tech>Colonialize</tech><alwaysdisabledingrid>true</alwaysdisabledingrid></ability>
@@ -279,7 +279,6 @@
     <ability>PowerCondorEye<rof>70</rof><sharedcooldown>true</sharedcooldown></ability>
     <ability>PowerSwashbuckler<tech>DEHCWarChiefInca2</tech><rof>90</rof><sharedcooldown>true</sharedcooldown></ability>
     <ability>PowerLOS<tech>DESpyglassEnableShadow</tech><rof>90</rof></ability>
-    <ability>ypUnitWeakenAura<alwaysdisabledingrid>true</alwaysdisabledingrid></ability>
     <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </deincawarchief>
   <spcsahin>
@@ -408,6 +407,9 @@
     <ability>ypPowerDivineBlow<alwaysdisabledingrid>true</alwaysdisabledingrid></ability>
     <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </ypspctokugawa>
+  <depriestess>
+    <ability>PowerConvert<rof>60</rof></ability>
+  </depriestess>
   <despchayreddin>
     <ability>dePowerFalconDive<rof>20</rof></ability>
   </despchayreddin>
@@ -474,10 +476,12 @@
     <ability>deCaroleanCharge<rof>75</rof><usebigabilitybutton>true</usebigabilitybutton><donotforcestop>true</donotforcestop><castonself>true</castonself></ability>
   </decarolean>
   <denizam>
-    <ability>deNizamCharge<rof>75</rof><usebigabilitybutton>true</usebigabilitybutton><donotforcestop>true</donotforcestop><castonself>true</castonself></ability>
+    <ability>deNizamCharge<rof>90</rof><usebigabilitybutton>true</usebigabilitybutton><donotforcestop>true</donotforcestop><castonself>true</castonself></ability>
   </denizam>
   <towncenter>
     <ability>deUSLevyMinutemen<rof>160</rof><nevershowingrid>true</nevershowingrid><alwaysdisabledingrid>false</alwaysdisabledingrid></ability>
+    <ability>deNatSomaliLighthouse<tech>DEAllegianceSomaliLighthouseShadow</tech><rof>60</rof><castonself>true</castonself></ability>
+    <ability>deAllegianceSonghaiLevyRaiders<rof>160</rof><nevershowingrid>true</nevershowingrid><alwaysdisabledingrid>false</alwaysdisabledingrid></ability>
   </towncenter>
   <merclandsknecht>
     <ability>deChargeAbilitySwashbuckler<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
@@ -516,6 +520,82 @@
   <natmerctracker>
     <ability>deChargeAbilityEagleEye<tech>DEHCMichiganSharpshooters</tech><bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
   </natmerctracker>
+  <denatakanwarchief>
+    <ability>dePowerChaos<rof>75</rof></ability>
+    <ability>deFealtyAura<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </denatakanwarchief>
+  <deemir>
+    <ability>dePowerChaos<rof>90</rof></ability>
+    <ability>dePowerHausaSabotage<tech>DEHCTsetseSabotage</tech><rof>180</rof></ability>
+    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deFealtyAura<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </deemir>
+  <deprince>
+    <ability>dePowerChaos<tech>DEDefaultChaosShadow</tech><rof>90</rof><sharedcooldown>true</sharedcooldown></ability>
+    <ability>dePowerChaosEnemy<tech>DEImprovedChaosShadow</tech><rof>90</rof><sharedcooldown>true</sharedcooldown></ability>
+    <ability>deAttackSpeedBoostPrince<tech>deEnableRoarOfTheLionPower</tech><rof>450</rof><donotforcestop>true</donotforcestop><castonself>true</castonself></ability>
+    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deFealtyAura<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </deprince>
+  <deprince2>
+    <ability>dePowerChaos<tech>DEDefaultChaosShadow</tech><rof>90</rof><sharedcooldown>true</sharedcooldown></ability>
+    <ability>dePowerChaosEnemy<tech>DEImprovedChaosShadow</tech><rof>90</rof><sharedcooldown>true</sharedcooldown></ability>
+    <ability>deAttackSpeedBoostPrince<tech>deEnableRoarOfTheLionPower</tech><rof>450</rof><donotforcestop>true</donotforcestop><castonself>true</castonself></ability>
+    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deFealtyAura<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </deprince2>
+  <despcfodio>
+    <ability>PowerSharpshooter<rof>60</rof></ability>
+    <ability>PowerCrackshot<tech>Industrialize</tech><rof>90</rof></ability>
+  </despcfodio>
+  <despckassahailu>
+    <ability>deAttackSpeedBoost<rof>90</rof><castonself>true</castonself></ability>
+    <ability>dePowerDodgeEthiopian<rof>60</rof><alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </despckassahailu>
+  <despcmansur>
+    <ability>deSpeedBoost<rof>90</rof><castonself>true</castonself></ability>
+  </despcmansur>
+  <decannonboat>
+    <ability>dePowerLongRangeCannonBoat<rof>60</rof></ability>
+  </decannonboat>
+  <demercxebec>
+    <ability>PowerBroadside<rof>60</rof></ability>
+  </demercxebec>
+  <demercdhow>
+    <ability>PowerBroadside<rof>60</rof></ability>
+  </demercdhow>
+  <denatcamelrider>
+    <ability>deChargeAbilityBerberMusket<tech>DENatBerberMusketCharge</tech><bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+  </denatcamelrider>
+  <demerczenata>
+    <ability>deChargeAbilityBerberMusket<tech>DENatBerberMusketCharge</tech><bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+  </demerczenata>
+  <denatberbersultan>
+    <ability>deChargeAbilityBerberMusket<tech>DENatBerberMusketCharge</tech><bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+    <ability>dePowerChaos<rof>90</rof></ability>
+    <ability>deFealtyAura<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </denatberbersultan>
+  <tradingpost>
+    <ability>deNatSomaliLighthouse<tech>DENatSomaliLighthouses</tech><subciv>Somali</subciv><rof>60</rof><castonself>true</castonself></ability>
+  </tradingpost>
+  <destartingunitprivateer>
+    <ability>PowerBroadside<rof>60</rof></ability>
+  </destartingunitprivateer>
+  <deemir2>
+    <ability>dePowerChaos<rof>90</rof></ability>
+    <ability>dePowerHausaSabotage<tech>DEHCTsetseSabotage</tech><rof>180</rof></ability>
+    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deFealtyAura<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </deemir2>
+  <degranary>
+    <ability>deGranaryAura<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </degranary>
+  <deuniversity>
+    <ability>deSphereOfInfluence<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </deuniversity>
+  <demountainmonastery>
+    <ability>deRockChurch<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </demountainmonastery>
   <dechasqui>
     <ability>ypUnitFrightenAura<tech>DEHCAymaraSupport</tech><alwaysdisabledingrid>true</alwaysdisabledingrid></ability>
   </dechasqui>
@@ -533,5 +613,6 @@
     <ability>PowerHealSwedish<tech>DEREVUnlockHeal</tech><civ>DESwedish</civ><rof>120</rof></ability>
     <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
  </duelist>
+
 
 </abilities>

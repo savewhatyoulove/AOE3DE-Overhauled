@@ -4546,5 +4546,331 @@
       </effect>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DEHCMercsCannoneers" type="Normal">
+    <dbid>8411</dbid>
+    <displaynameid>104529</displaynameid>
+    <cost resourcetype="Influence">500.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\africans\mercenaries\cannoneer\hc_cannoneer_icon.png</icon>
+    <rollovertextid/>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="deMercCannoneer" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCMercsCannoneers2" type="Normal">
+    <dbid>8415</dbid>
+    <displaynameid>104551</displaynameid>
+    <cost resourcetype="Influence">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\africans\mercenaries\cannoneer\hc_cannoneer_icon.png</icon>
+    <rollovertextid/>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="deMercCannoneer" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShipSanga3" type="Normal">
+    <dbid>8268</dbid>
+    <displaynameid>101191</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\hausa\infinite_sanga.png</icon>
+    <rollovertextid>101185</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="deSangaCattle" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deLivestockMarketWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShipZebu3" type="Normal">
+    <dbid>8269</dbid>
+    <displaynameid>101191</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\ethiopians\infinite_zebu.png</icon>
+    <rollovertextid>101185</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data2" amount="8.00" subtype="FreeHomeCityUnitResource" unittype="deZebuCattle" resource="Food" resvalue="150.00" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deLivestockMarketWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShiftas" type="Normal">
+    <dbid>8355</dbid>
+    <displaynameid>102911</displaynameid>
+    <rollovertextid>102912</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\ethiopians\shiftas.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractOutlaw</target>
+      </effect>
+      <effect type="Data" amount="-1.00" subtype="PopulationCount" relativity="Absolute">
+        <target type="ProtoUnit">AbstractOutlaw</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCOromoMigrations" type="Normal">
+    <dbid>8226</dbid>
+    <displaynameid>103348</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\alliances\oromo_migrations.png</icon>
+    <rollovertextid>103347</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+     	    <effect type="Data" amount="4.00" subtype="FreeHomeCityUnitByUnitCount" counttype="dePalace" unittype="deSettlerAfrican" relativity="Absolute">
+        	<target type="Player"/>
+	    </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCZebenyas" type="Normal">
+    <dbid>8347</dbid>
+    <displaynameid>102895</displaynameid>
+    <rollovertextid>102896</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\ethiopians\zebenyas.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deNeftenya</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShewaRiders" type="Normal">
+    <dbid>8379</dbid>
+    <displaynameid>102927</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\ethiopians\shewa_riders.png</icon>
+    <rollovertextid>102928</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deJavelinRider</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deOromoWarrior</target>
+      </effect>
+      <effect type="Data" amount="0.1" subtype="Armor" relativity="Absolute">
+        <target type="ProtoUnit">deJavelinRider</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="DamageBonus" unittype="AbstractInfantry" allactions="1" relativity="Absolute">
+        <target type="ProtoUnit">deOromoWarrior</target>
+      </effect>
+      <effect type="Data" amount="-0.05" subtype="DamageBonus" unittype="AbstractHeavyInfantry" allactions="1" relativity="Absolute">
+        <target type="ProtoUnit">deOromoWarrior</target>
+      </effect>
+      <effect type="Data" action="BuildingAttack" amount="-1.00" subtype="DamageBonus" unittype="AbstractInfantry" relativity="Absolute">
+        <target type="ProtoUnit">deOromoWarrior</target>
+      </effect>
+      <effect type="Data" action="BuildingAttack" amount="0.05" subtype="DamageBonus" unittype="AbstractHeavyInfantry" relativity="Absolute">
+        <target type="ProtoUnit">deOromoWarrior</target>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShipRaiders1" type="Normal">
+    <dbid>6780</dbid>
+    <displaynameid>101301</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\africans\hausa\raider\hc_raider_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="deRaider" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShipLifidiKnights1" type="Normal">
+    <dbid>6782</dbid>
+    <displaynameid>101303</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\africans\hausa\knight\hc_knight_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="deLifidi" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShipLifidiKnights2" type="Normal">
+    <dbid>6783</dbid>
+    <displaynameid>101304</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\africans\hausa\knight\hc_knight_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="deLifidi" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShipLifidiKnights3" type="Normal">
+    <dbid>6784</dbid>
+    <displaynameid>101305</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\africans\hausa\knight\hc_knight_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="deLifidi" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShipLifidiKnightsRepeat" type="Normal">
+    <dbid>6785</dbid>
+    <displaynameid>101306</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\hausa\infinite_knight.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="deLifidi" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCGwandu" type="Normal">
+    <dbid>8377</dbid>
+    <displaynameid>104102</displaynameid>
+    <rollovertextid>103313</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\hausa\gwandu.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="deFulaWarrior" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="deLifidi" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCEarlyLifidi" type="Normal">
+    <dbid>8303</dbid>
+    <displaynameid>102804</displaynameid>
+    <rollovertextid>102844</rollovertextid>
+    <cost resourcetype="Influence">500.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\hausa\early_lifidi.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="deLifidi" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AllowedAge" relativity="Assign">
+        <target type="ProtoUnit">deLifidi</target>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCAminaEpic" type="Normal">
+    <dbid>8328</dbid>
+    <displaynameid>102828</displaynameid>
+    <rollovertextid>102868</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\hausa\epic_amina.png</icon>
+    <flag>HomeCity</flag>
+    <flag>DEHCCardDynamicCountResource</flag>
+    <effects>
+      <effect type="Data2" amount="2.75" subtype="ResourceByUnitCount" unittype="deLifidi" resource="Influence" includedead="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="1.30" subtype="ResourceByUnitCount" unittype="deRaider" resource="Influence" includedead="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCDurbarParadeShadow" type="Normal">
+    <dbid>8374</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <researchpoints>0.0000</researchpoints>
+    <effects>
+      <effect type="Data" action="DefendHandAttack" amount="1.00" subtype="DamageArea" relativity="Absolute">
+        <target type="ProtoUnit">deLifidi</target>
+      </effect>
+      <effect type="Data" action="GuardianAttack" amount="1.00" subtype="DamageArea" relativity="Absolute">
+        <target type="ProtoUnit">deLifidi</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCDurbarParade" type="Normal">
+    <dbid>8307</dbid>
+    <displaynameid>102809</displaynameid>
+    <rollovertextid>102849</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\hausa\festival_durbar.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="0.80" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">deLifidi</target>
+      </effect>
+      <effect type="Data" amount="0.80" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">deRaider</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="DamageBonus" unittype="AbstractVillager" allactions="1" relativity="Absolute">
+        <target type="ProtoUnit">deRaider</target>
+      </effect>
+      <effect type="Data" action="MeleeHandAttack" amount="1.00" subtype="DamageArea" relativity="Absolute">
+        <target type="ProtoUnit">deLifidi</target>
+      </effect>
+      <effect type="Data" action="TrampleHandAttack" amount="2.00" subtype="DamageArea" relativity="Absolute">
+        <target type="ProtoUnit">deLifidi</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">DEHCDurbarParadeShadow</effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
 
 </techtreemods>

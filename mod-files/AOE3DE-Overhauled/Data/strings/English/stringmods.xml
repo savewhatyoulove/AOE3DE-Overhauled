@@ -155,7 +155,15 @@
 	    <string _locid="91791">Tähtitarha</string>
 	    <string _locid="91792">Hussars deal more damage, especially to foot archers and skirmishers.</string>
 	    <string _locid="91849">5 Warrior Priestesses</string>
+	    <string _locid="101301">5 Raiders</string>
+	    <string _locid="101303">4 Lifidi Knights</string>
+	    <string _locid="101304">3 Lifidi Knights</string>
+	    <string _locid="101305">6 Lifidi Knights</string>
+	    <string _locid="101306">4 Lifidi Knights</string>
 	    <string _locid="102553">Armored cannoneer mercenary from Portugal who fires a heavy musket inflicting splash damage.</string>
+	    <string _locid="102849">Lifidi Knights and Raiders train faster. Raiders deal more damage to Villagers and Lifidi Knights gain increased area damage radii, especially in trample mode.</string>
+	    <string _locid="102928">Javelin Rider armor and attack increased. Oromo Riders deal more damage, especially to skirmishers and foot archers.</string>
+	    <string _locid="103347">Receive a shipment of 4 Villagers for each Palace you currently have built.</string>
 	    <string _locid="220000">3 Miners</string>
 	    <string _locid="220001">4 Miners</string>
 	    <string _locid="220002">10 Miners +1 Prospector Wagon</string>
