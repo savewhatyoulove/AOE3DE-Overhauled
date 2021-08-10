@@ -393,5 +393,53 @@ Finland:
   -- Red Guards no longer have a build limit or have a converted default resource cost
 -- Northern Wilderness Reworked: Now converts Red Guards' resource cost into a lesser amount of wood (70) from food/gold, upgrades them to guard status, and increases their speed by +0.5.
 
+
+Ethiopia:
+
+Unit Changes:
+
+Gascenya:
+Armor: Increased to 25 melee from 20
+Speed: Reduced to 4.25 from 4.5
+Ranged Damage: Rescaled to 12 w/ 1.5 ROF from 24 w/ 3.0 ROF; ROF range scaling removed
+Melee Multipliers: AbstractCavalry reduced to 3x from 4x, AbstractLightInfantry reduced to 2.25x from 2.4x
+Siege Damage: Reduced to 24 from 28.
+
+Javelin Rider (shared with Hausa):
+HP: Reduced to 180 from 210
+Armor: Improved to 15 melee from 10 Ranged
+Ranged Attack: Reduced to 9 from 10
+Melee Attack: Reduced to 5 from 10
+Siege: Reduced to 6 from 9
+
+Shotel Warrior:
+Speed: Increased to 6.25 from 6.0
+Melee Damage: Increased to 16 w/1.5 ROF from 13 w/ 1.25 ROF (+0.4 net). 0.8x AbstractHeavyInfantry penalty added (1x net)
+
+Oromo Rider Reworked:
+HP: Reduced to 350 from 380
+Armor: Increased to 50 from 20
+Siege: Increased to 30 from 27
+Ranged Attack: Reduced to 30 from 42. 1 AOE w/ 60 damage cap added. ROF improved to 3.0 from 4.0, range scaling ROF removed.
+Multipliers reworked: Added 4x AbstractArtillery, 4x AbstractInfantry, and 0.25x AbstractHeavyInfantry to all attacks.
+Melee Attack: Reduced to 15 from 42. 
+
+Hausa:
+
+Unit Changes:
+
+Lifidi Knight: absolutely ridiculous for its cost.
+Population: Increased to 3 from 2
+Train Time: Increased to 50 from 40
+Cost: Increased to 100F/175G from 90/110
+HP: Increased to 500 from 460
+Armor: 15 melee armor increased to 30 siege armor
+Melee Attack: 1 aoe added with 1.5x artillery.
+
+Raider: 
+Speed: Reduced to 6.75 from 7
+Cost: Rescaled (and slightly increased) to 90F/40W from 100F/40G
+LOS: Reduced to 15 from 16
 TODO:
 add swedish VOs for longbowmen
+
