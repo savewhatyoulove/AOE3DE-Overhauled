@@ -3774,7 +3774,7 @@
       <effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
         <target type="ProtoUnit">Frigate</target>
       </effect>
-      <effect type="Data" amount="600.00" subtype="Cost" resource="Wood" relativity="Assign">
+      <effect type="Data" amount="550.00" subtype="Cost" resource="Wood" relativity="Assign">
         <target type="ProtoUnit">Galleon</target>
       </effect>
       <effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
