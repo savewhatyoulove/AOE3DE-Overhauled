@@ -4872,5 +4872,435 @@
       <effect type="TextOutputTechName">110130</effect>
     </effects>
   </tech>
-
+	  <!-- USA techs -->
+  <tech mergeMode='replace' name="DEAge0Americans" type="Normal">
+    <dbid>7000</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">AAStandardStartingTechs</effect>
+      <effect type="TechStatus" status="active">DEUSLevy</effect>
+      <effect type="TechStatus" status="active">XPTrickle</effect>
+      <effect type="Data" amount="1.00" subtype="Resource" resource="Ships" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deStateCapitol</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Saloon</target>
+      </effect>
+      <effect type="Data" action="SpawnCannon" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Factory</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Hussar</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">House</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Settler</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deStateMilitia</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deRegular</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deRifleman</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deUSCavalry</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deSloop</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deSteamer</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpIronclad</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deMinuteman</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpPetard</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">HeavyGatlingGun</effect>
+      <effect type="TechStatus" status="obtainable">ImperialGatlingGun</effect>
+      <effect type="TechStatus" status="obtainable">ImperialManOWar</effect>
+      <effect type="TechStatus" status="obtainable">ImperialCannon</effect>
+      <effect type="TechStatus" status="obtainable">VeteranHussars</effect>
+      <effect type="TechStatus" status="obtainable">GuardHussars</effect>
+      <effect type="TechStatus" status="obtainable">ImperialHussars</effect>
+      <effect type="TechStatus" status="obtainable">DEVeteranStateMilitia</effect>
+      <effect type="TechStatus" status="obtainable">DEVolunteers</effect>
+      <effect type="TechStatus" status="obtainable">DEImperialVolunteers</effect>
+      <effect type="TechStatus" status="obtainable">DEVeteranRiflemenShadow</effect>
+      <effect type="TechStatus" status="obtainable">DEGuardRiflemen</effect>
+      <effect type="TechStatus" status="obtainable">DEImperialRiflemen</effect>
+      <effect type="TechStatus" status="obtainable">DEVeteranUSRegulars</effect>
+      <effect type="TechStatus" status="obtainable">DEGuardUSRegulars</effect>
+      <effect type="TechStatus" status="obtainable">DEImperialUSRegulars</effect>
+      <effect type="TechStatus" status="obtainable">DEVeteranUSCavalryShadow</effect>
+      <effect type="TechStatus" status="obtainable">DEGuardUSCavalry</effect>
+      <effect type="TechStatus" status="obtainable">DEImperialUSCavalry</effect>
+      <effect type="TechStatus" status="obtainable">DEImperialIronclads</effect>
+      <effect type="TechStatus" status="obtainable">Bayonet</effect>
+      <effect type="TechStatus" status="obtainable">HeavyHorseArtillery</effect>
+      <effect type="TechStatus" status="obtainable">ImperialHorseArtillery</effect>
+      <effect type="TechStatus" status="obtainable">SaloonWildWest</effect>
+      <effect type="TechStatus" status="obtainable">DECapitolGoldRush</effect>
+      <effect type="TechStatus" status="obtainable">ImpLargeScaleAgricultureAmericans</effect>
+      <effect type="TechStatus" status="obtainable">ImpDeforestationAmericans</effect>
+      <effect type="TechStatus" status="obtainable">DECapitolGeneral</effect>
+      <effect type="TechStatus" status="obtainable">ImpImmigrantsAmericans</effect>
+      <effect type="TechStatus" status="obtainable">DECapitolCadets</effect>
+      <effect type="TechStatus" status="obtainable">DERedoubts</effect>
+      <effect type="TechStatus" status="obtainable">DEMedicalScience</effect>
+      <effect type="TechStatus" status="obtainable">deGeneralChargeCarbine</effect>
+      <effect type="TechStatus" status="obtainable">deGeneralInspiringFlag</effect>
+      <effect type="TechStatus" status="obtainable">DEShipHowitzersAmerican</effect>
+      <effect type="TechStatus" status="obtainable">DESaloonPeacemakers</effect>
+      <effect type="TechStatus" status="obtainable">DESaloonBeverages</effect>
+      <effect type="TechStatus" status="obtainable">DEBillOfRights</effect>
+      <effect type="TechStatus" status="obtainable">DEStatehood</effect>
+      <effect type="TechStatus" status="obtainable">DEConstitution</effect>
+      <effect type="TechStatus" status="obtainable">DEOregonTrail</effect>
+      <effect type="TechStatus" status="active">DEOutlawChargedActions</effect>
+      <effect type="TechStatus" status="obtainable">DEHCUSExpeditionShadow</effect>
+      <effect type="TechStatus" status="obtainable">DEFrontiersmen</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpHorseArtillery</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">ArtilleryDepot</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Stable</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Barracks</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">TradingPost</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Plantation</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Mill</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">LivestockPen</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Arsenal</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Market</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Dock</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Church</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Mortar</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">FishingBoat</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+      <effect type="CommandAdd" proto="Surgeon" page="0" column="0">
+        <target type="ProtoUnit">Church</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AllowedAge" relativity="Absolute">
+        <target type="ProtoUnit">Surgeon</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Frigate</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Culverin</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">CWallGate</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">WallStraight2</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">WallStraight5</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">WallConnector</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpGatlingGun</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Sheep</target>
+      </effect>
+      <effect type="SetName" proto="Church" culture="none" newname="110064"/>
+      <effect type="Data" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="Church" relativity="Absolute">
+        <target type="ProtoUnit">deIconMeetingHouse</target>
+      </effect>
+      <effect type="SetName" proto="SaloonOutlawRider" culture="none" newname="80882"/>
+      <effect type="SetName" proto="SaloonOutlawPistol" culture="none" newname="110091"/>
+      <effect type="SetName" proto="SaloonOutlawRifleman" culture="none" newname="110092"/>
+      <effect type="Data" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="SaloonOutlawRider" relativity="Absolute">
+        <target type="ProtoUnit">deIconUSCowboy</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="SaloonOutlawPistol" relativity="Absolute">
+        <target type="ProtoUnit">deIconUSGunslinger</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="SaloonOutlawRifleman" relativity="Absolute">
+        <target type="ProtoUnit">deIconUSOwlhoot</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">ypBankAsian</target>
+      </effect>
+      <effect type="Data" amount="99.00" subtype="BuildLimit" relativity="Assign">
+        <target type="ProtoUnit">Settler</target>
+      </effect>
+      <effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractConsulateUnit</target>
+      </effect>
+      <effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractConsulateUnit</target>
+      </effect>
+      <effect type="SetName" proto="FortFrontier" culture="none" newname="25270" newrollover="110196" newshortrollover="25639"/>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deStateCapitolTrainCoveredWagon</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deStateCapitolTrainMillWagon</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deStateCapitolTrainPlantationWagon</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deStateCapitolTrainTradingPostWagon</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deStateCapitolTrainOutpostWagon</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Assign">
+        <target type="ProtoUnit">Factory</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">SaloonOutlawPistol</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">SaloonOutlawRider</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">SaloonOutlawRifleman</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">FieldHospital</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">DEFrontierBlockhouseShadow</effect>
+      <effect type="TechStatus" status="obtainable">DEFortifiedBlockhouseShadow</effect>
+      <effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Assign">
+        <target type="ProtoUnit">ypBankAsian</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">DEGuardUSMinutemen</effect>
+      <effect type="TechStatus" status="obtainable">DEImperialUSMinutemen</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpSpy</target>
+      </effect>
+      <effect type="Data" amount="0.00" tactic="QuakerGunFalconet" subtype="TacticEnable" relativity="Absolute">
+        <target type="ProtoUnit">deQuakerGun</target>
+      </effect>
+      <effect type="SetName" proto="ypChurchWagon" culture="none" newname="110289" newrollover="110293" newshortrollover="110292"/>
+      <effect type="Data" amount="1.00" subtype="UnitHelpOverride" proto="deMeetingHouseEntry" relativity="Absolute">
+        <target type="ProtoUnit">Church</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianFederalDelaware</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianFederalPennsylvania</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianFederalMassachusetts</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianFederalVirginia</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianFederalRhodeIsland</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianFederalMaryland</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianFederalTennessee</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianFederalKentucky</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianFederalNewHampshire</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianFederalIndiana</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianFederalNewJersey</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianFederalSouthCarolina</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianFederalVermont</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianFederalOhio</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianFederalCalifornia</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianFederalConnecticut</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianFederalNewYork</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianFederalTexas</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianFederalFlorida</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianFederalIllinois</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEColonializeAmericans" type="Normal">
+    <dbid>7001</dbid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\post_game\time_line_age_2.png</icon>
+    <effects>
+      <effect type="TechStatus" status="active">Colonialize</effect>
+      <effect type="TechStatus" status="active">deGeneralInspiringFlag</effect>
+      <effect type="CommandRemove" tech="deGeneralInspiringFlag">
+        <target type="ProtoUnit">deGeneral</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">DEColonializeStatehoodShadow</effect>
+      <effect type="Data" amount="0.505" subtype="UnitRegenRateLimit" unittype="deMinuteman" relativity="Assign">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEFortressizeAmericans" type="Normal">
+    <dbid>7002</dbid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\post_game\time_line_age_3.png</icon>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Fortressize</effect>
+      <effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">CoveredWagon</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">DEFortressizeStatehoodShadow</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEIndustrializeAmericans" type="Normal">
+    <dbid>7003</dbid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\post_game\time_line_age_4.png</icon>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="unobtainable">DEFedMammothIndustrialShadow</effect>
+      <effect type="TechStatus" status="active">Industrialize</effect>
+      <effect type="TechStatus" status="active">deGeneralChargeCarbine</effect>
+      <effect type="Data" action="ChargeCarbineAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deGeneral</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">DEIndustrializeStatehoodShadow</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEImperializeAmericans" type="Normal">
+    <dbid>7004</dbid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\post_game\time_line_age_5.png</icon>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Imperialize</effect>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deGeneral</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">DEImperializeStatehoodShadow</effect>
+    </effects>
+  </tech>
+  <tech name="HCShipSheep1" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCShipSheep2" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCShipCows" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCXPCapitalism" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCShipCoveredWagons" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCShipCoveredWagons2" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCGeneralAmericans" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShipCows3" type="Normal">
+    <dbid>6635</dbid>
+    <displaynameid>72560</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\animals\cow\cow_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data2" amount="15.00" subtype="FreeHomeCityUnitResource" unittype="Cow" resource="Food" resvalue="150.00" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipSheep3" type="Normal">
+    <dbid>9500</dbid>
+    <displaynameid>79865</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\infinite_sheep.png</icon>
+    <rollovertextid>79863</rollovertextid>
+    <flag>HomeCity</flag>
+    <flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</flag>
+    <effects>
+      <effect tech="AAStandardStartingTechs" type="Data" amount="15.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="Sheep" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deHomesteadWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="ypFreeCoinCrate400Age1" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateSpanishGold" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="deAddFree400CoinToInventory" type="Data" amount="400.00" subtype="ResourceIfTechObtainable" resource="Gold" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
 </techtreemods>

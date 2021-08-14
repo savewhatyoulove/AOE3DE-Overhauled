@@ -418,8 +418,7 @@ Siege Damage: Reduced to 24 from 28.
 Javelin Rider (shared with Hausa):
 HP: Reduced to 180 from 210
 Armor: Improved to 15 melee from 10 Ranged
-Ranged Attack: Reduced to 9 from 10
-Melee Attack: Reduced to 5 from 10
+Melee Attack: Reduced to 6.5 from 10
 Siege: Reduced to 6 from 9
 
 Shotel Warrior:
