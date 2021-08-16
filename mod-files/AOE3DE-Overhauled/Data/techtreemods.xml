@@ -48,7 +48,34 @@
   </tech>
 
 <!-- General Shipments --> 
-  <tech name="HCXPMercsFusiliers" type="Normal">
+  <tech name="HCMercenaryLoyalty" type="Normal">
+    <effects>
+      <effect mergeMode='remove' type="Data" amount="1800.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">HCXPMercsFusiliersRepeat</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="900.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">HCXPMercsFusiliersRepeat</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="HCXPMercsFusiliersRepeat" type="Normal">
+    <dbid>3453</dbid>
+    <displaynameid>47066</displaynameid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\infinite_fusileer.png</icon>
+    <rollovertextid>47065</rollovertextid>
+    <flag>HomeCity</flag>
+    <flag>YPInfiniteTech</flag>
+    <effects>
+      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="MercFusilier" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="HCXPMercsFusiliers" type="Normal">
     <dbid>3352</dbid>
     <displaynameid>46542</displaynameid>
     <cost resourcetype="Gold">1000.0000</cost>
@@ -60,6 +87,25 @@
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="MercFusilier" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="HCXPMercsFusiliersGerman" type="Normal">
+    <dbid>3354</dbid>
+    <displaynameid>46546</displaynameid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\fusilier_icon.png</icon>
+    <rollovertextid>46545</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="14.00" subtype="FreeHomeCityUnit" unittype="MercFusilier" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -289,7 +335,7 @@
       </effect>
     </effects>
   </tech>
-  <tech name="YPNatSufiFasting" type="Normal">
+  <tech mergeMode='replace' name="YPNatSufiFasting" type="Normal">
     <dbid>3729</dbid>
     <displaynameid>61111</displaynameid>
     <cost resourcetype="Wood">200.0000</cost>
@@ -5070,7 +5116,7 @@
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">ypBankAsian</target>
       </effect>
-      <effect type="Data" amount="99.00" subtype="BuildLimit" relativity="Assign">
+      <effect type="Data" amount="65.00" subtype="BuildLimit" relativity="Assign">
         <target type="ProtoUnit">Settler</target>
       </effect>
       <effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
@@ -5390,13 +5436,13 @@
       <effect type="Data" action="Gather" amount="1.10" subtype="Yield" unittype="AbstractMine" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="AbstractMine" relativity="BasePercent">
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="AbstractMine" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
       <effect type="Data" action="Gather" amount="1.10" subtype="Yield" unittype="deMountainMonastery" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="deMountainMonastery" relativity="BasePercent">
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="deMountainMonastery" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
       <effect type="TechStatus" status="obtainable">DEHCImmigrantsDutchShadow</effect>
@@ -5707,30 +5753,22 @@
         <target type="ProtoUnit">deRifleman</target>
       </effect>
       <effect type="TextOutputTechName">110130</effect>
-      <effect type="Data" action="DefendRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+      <effect type="Data" action="DefendRangedAttack" amount="3.00" subtype="MaximumRange" relativity="Absolute">
         <target type="ProtoUnit">deRifleman</target>
       </effect>
-      <effect type="Data" action="StaggerRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+      <effect type="Data" action="StaggerRangedAttack" amount="3.00" subtype="MaximumRange" relativity="Absolute">
         <target type="ProtoUnit">deRifleman</target>
       </effect>
-      <effect type="Data" action="VolleyRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+      <effect type="Data" action="VolleyRangedAttack" amount="3.00" subtype="MaximumRange" relativity="Absolute">
         <target type="ProtoUnit">deRifleman</target>
       </effect>
-      <effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
+      <effect type="Data" amount="3.00" subtype="LOS" relativity="Absolute">
         <target type="ProtoUnit">deRifleman</target>
       </effect>
-      <effect type="Data" action="DefendRangedAttack" amount="4.00" subtype="MaximumRange" relativity="Absolute">
-        <target type="ProtoUnit">deMinuteman</target>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
       </effect>
-      <effect type="Data" action="StaggerRangedAttack" amount="4.00" subtype="MaximumRange" relativity="Absolute">
-        <target type="ProtoUnit">deMinuteman</target>
-      </effect>
-      <effect type="Data" action="VolleyRangedAttack" amount="4.00" subtype="MaximumRange" relativity="Absolute">
-        <target type="ProtoUnit">deMinuteman</target>
-      </effect>
-      <effect type="Data" amount="4.00" subtype="LOS" relativity="Absolute">
-        <target type="ProtoUnit">deMinuteman</target>
-      </effect>
+
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCShipCapturedRockets" type="Normal">
@@ -5927,12 +5965,12 @@
     </effects>
   </tech>
   <tech name="DEHCShipCowsTeam" type="Normal">
-    <dbid>2220</dbid>
-    <displaynameid>35722</displaynameid>
+    <dbid>9503</dbid>
+    <displaynameid>260002</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\art\units\animals\cow\cow_icon_64x64.png</icon>
+    <icon>resources\images\icons\techs\team_cows.png</icon>
     <flag>HomeCity</flag>
     <flag>TeamTech</flag>
     <effects>
@@ -5941,4 +5979,433 @@
       </effect>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DEHCLegionHungarian" type="Normal">
+    <dbid>7186</dbid>
+    <displaynameid>110432</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <cost resourcetype="Food">1000.0000</cost>
+    <cost resourcetype="Wood">1000.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\legion_kovat.png</icon>
+    <rollovertextid>110431</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TextOutputTechName">110130</effect>
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="deLegionMagyarHussar" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCImmigrantsIrish" type="Normal">
+    <dbid>7067</dbid>
+    <displaynameid>110203</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <cost resourcetype="Food">200.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\immigrants\immigrants_irish.png</icon>
+    <rollovertextid>110204</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="Settler" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deHomesteadWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="Mill" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.20" subtype="WorkRateSpecific" resource="Food" unittype="ypRicePaddy" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.20" subtype="WorkRateSpecific" resource="Food" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="TechStatus" status="active">DEHCImmigrantsStateCapitolShadow</effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEPoliticianFederalSouthCarolina" type="Normal">
+    <dbid>7091</dbid>
+    <displaynameid>110234</displaynameid>
+    <cost resourcetype="Food">2000.0000</cost>
+    <cost resourcetype="Gold">1200.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iv.png</icon>
+    <rollovertextid>110626</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age3</effect>
+      <effect type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="Tree" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="ypGroveBuilding" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.25" subtype="Yield" unittype="Tree" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.25" subtype="Yield" unittype="ypGroveBuilding" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="AddHomeCityCard" tech="DEHCFedMoultriesMilitia" maxcount="1" ageprereq="2" unitcount="0" infiniteinlastage="0"/>
+      <effect type="AddHomeCityCard" tech="DEHCFedMarionsDiversions" maxcount="1" ageprereq="2" unitcount="0" infiniteinlastage="0"/>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEPoliticianFederalDelaware" type="Normal">
+    <dbid>7084</dbid>
+    <displaynameid>110260</displaynameid>
+    <cost resourcetype="Food">700.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_ii.png</icon>
+    <rollovertextid>110618</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age1</effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Mill" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="AbstractBerryBush" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Herdable" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="TextOutput">41897</effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="ypBerryBuilding" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.10" subtype="WorkRateSpecific" resource="Food" unittype="ypRicePaddy" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.10" subtype="WorkRateSpecific" resource="Food" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="deTorpBush2" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="AddHomeCityCard" tech="DEHCFedFertileLowlands" maxcount="1" ageprereq="1" unitcount="8" infiniteinlastage="0"/>
+      <effect type="AddHomeCityCard" tech="DEHCFedDelawareBlues" maxcount="1" ageprereq="1" unitcount="0" infiniteinlastage="0"/>
+    </effects>
+  </tech>
+  <tech name="DEPoliticianFederalVermont" type="Normal">
+    <dbid>7094</dbid>
+    <displaynameid>110240</displaynameid>
+    <cost resourcetype="Food">2000.0000</cost>
+    <cost resourcetype="Gold">1200.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iv.png</icon>
+    <rollovertextid>110627</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age3</effect>
+      <effect type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="Tree" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="ypGroveBuilding" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.25" subtype="Yield" unittype="Tree" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.25" subtype="Yield" unittype="ypGroveBuilding" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="AddHomeCityCard" tech="DEHCFedGreenMountainBoys" maxcount="1" ageprereq="3" unitcount="0" infiniteinlastage="0"/>
+      <effect type="AddHomeCityCard" tech="DEHCFedVermontCoppers" maxcount="1" ageprereq="3" unitcount="0" infiniteinlastage="0"/>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEPoliticianFederalIllinois" type="Normal">
+    <dbid>7145</dbid>
+    <displaynameid>110347</displaynameid>
+    <cost resourcetype="Food">4000.0000</cost>
+    <cost resourcetype="Gold">4000.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_v.png</icon>
+    <rollovertextid>110631</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="SetAge">Age4</effect>
+      <effect type="TechStatus" status="active">ImpDeforestationAmericans</effect>
+      <effect type="AddHomeCityCard" tech="DEHCFedDeereSteelPlow" maxcount="1" ageprereq="4" unitcount="0" infiniteinlastage="0"/>
+      <effect type="AddHomeCityCard" tech="DEHCFedLincolnLand" maxcount="1" ageprereq="4" unitcount="0" infiniteinlastage="0"/>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEPoliticianFederalConnecticut" type="Normal">
+    <dbid>7086</dbid>
+    <displaynameid>110264</displaynameid>
+    <cost resourcetype="Food">4000.0000</cost>
+    <cost resourcetype="Gold">4000.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_v.png</icon>
+    <rollovertextid>110632</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age4</effect>
+      <effect type="TechStatus" status="active">ImpDeforestationAmericans</effect>
+      <effect type="AddHomeCityCard" tech="DEHCFedConnecticutShipwrights" maxcount="1" ageprereq="4" unitcount="0" infiniteinlastage="0"/>
+      <effect type="AddHomeCityCard" tech="DEHCFedSapperCorps" maxcount="1" ageprereq="4" unitcount="2" infiniteinlastage="0"/>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCImmigrantsChinese" type="Normal">
+    <dbid>7069</dbid>
+    <displaynameid>110208</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\immigrants\immigrants_chinese.png</icon>
+    <rollovertextid>110209</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="ypGoatFat" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" action="Gather" amount="2.00" subtype="WorkRate" unittype="Herdable" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="TechStatus" status="active">DEHCImmigrantsStateCapitolShadow</effect>
+      <effect type="TextOutputTechName">110130</effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCImmigrantsBritish" type="Normal">
+    <dbid>7017</dbid>
+    <displaynameid>110065</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\immigrants\immigrants_british.png</icon>
+    <rollovertextid>110067</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="deHomesteadWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutput">110066</effect>
+      <effect type="TechStatus" status="active">DEHCImmigrantsStateCapitolShadow</effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCImmigrantsBritishShadow" type="Normal">
+    <dbid>7018</dbid>
+    <researchpoints>0.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">DEHCFedGoldRush</techstatus>
+    </prereqs>
+    <effects>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCImmigrantsFrench" type="Normal">
+    <dbid>7064</dbid>
+    <displaynameid>110188</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <cost resourcetype="Wood">250.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\immigrants\immigrants_french.png</icon>
+    <rollovertextid>110189</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="Coureur" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="AbstractBerryBush" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="Herdable" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="Tree" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="AbstractMine" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="Plantation" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="Mill" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="AbstractWhale" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractFishingBoat</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="AbstractFish" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractFishingBoat</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.15" subtype="WorkRateSpecific" resource="Food" unittype="ypRicePaddy" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.15" subtype="WorkRateSpecific" resource="Gold" unittype="ypRicePaddy" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.15" subtype="WorkRateSpecific" resource="Food" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.15" subtype="WorkRateSpecific" resource="Gold" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.15" subtype="WorkRateSpecific" resource="Wood" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.15" subtype="WorkRateSpecific" resource="Influence" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="ypBerryBuilding" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="ypGroveBuilding" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="deFurTrade" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="deMountainMonastery" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="deMountainMonastery" relativity="BasePercent">
+        <target type="ProtoUnit">deAbun</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="deTorpBush2" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="TechStatus" status="active">DEHCImmigrantsStateCapitolShadow</effect>
+      <effect type="TextOutputTechName">110130</effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCImmigrantsSpanish" type="Normal">
+    <dbid>7061</dbid>
+    <displaynameid>110164</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <cost resourcetype="Food">300.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\immigrants\immigrants_spanish.png</icon>
+    <rollovertextid>110166</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.70" subtype="ResourceTrickleRate" resource="XP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TechStatus" status="active">DEHCImmigrantsStateCapitolShadow</effect>
+    </effects>
+  </tech>
+  <tech name="DEHCImmigrantsRussian" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' type="Data" action="Gather" amount="1.15" subtype="Yield" unittype="Huntable" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCFedNewYorkZouaves" type="Normal">
+    <dbid>7134</dbid>
+    <displaynameid>110329</displaynameid>
+    <cost resourcetype="Gold">1500.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\federal\ny_new_york_zouaves.png</icon>
+    <rollovertextid>110328</rollovertextid>
+    <flag>HomeCity</flag>
+    <flag>YPInfiniteTech</flag>
+    <effects>
+      <effect type="Data" amount="14.00" subtype="FreeHomeCityUnit" unittype="deMercZouave" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCMercsNapoleonGuns" type="Normal">
+    <dbid>9506</dbid>
+    <displaynameid>260003</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\napoleon_gun\napoleon_gun_icon.png</icon>
+    <rollovertextid>260004</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="deMercNapoleonGun" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCMercsZouaves" type="Normal">
+    <dbid>9507</dbid>
+    <displaynameid>260005</displaynameid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\zouave\zouave_icon.png</icon>
+    <rollovertextid>260006</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="deMercZouave" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+
 </techtreemods>

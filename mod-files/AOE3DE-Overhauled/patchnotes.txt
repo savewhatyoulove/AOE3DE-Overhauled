@@ -34,6 +34,7 @@ Units:
   -- Ranged Attack no longer deals siege damage (now ranged); damage increased to 75 from 30 and now has 2 aoe (150 damage cap).
   -- Ship and Artillery multipliers removed.
   -- Outlaw Population cost standardized to 3 for infantry and 4 for cavalry.
+  -- Napoleon Gun speed increased to 3.5 from 3.25; ranged resist increased to 60 from 50
 
 Shipments:
 -- Colonial Militia: Reworked
@@ -458,3 +459,62 @@ LOS: Reduced to 15 from 16
 TODO:
 add swedish VOs for longbowmen
 
+
+USA:
+
+Civ Bonus Changes:
+-- No longer receives XP crates on age up, instead, each shipment provides 100 xp crates.
+-- XP curve reduced to 0.85 from 1.0
+-- Can no longer ship resource crates, instead, most economic improvement shipments have been greatly buffed (+50%)
+-- All military units heal over time outside of combat
+
+Starting Units: Now starts with 6 villagers, a Fattened Cow, and a Homestead Wagon, but no resource crates.
+
+Unit Changes:
+
+Regular:
+Cost: Reduced to 80F/20G from 55F/50G
+HP: Reduced to 120 from 150
+Speed: Increased to 4.5 from 4.0
+Armor: Increased to 35 melee from 20
+Siege: Increased to 26 from 24
+Ranged ATK: Improved to 26 from 25, 1.5x HC/1.25x Shock Infantry added.
+Melee ATK: Reduced to 12 from 14, multipliers removed to 2.5x/2.0x from 3.0x/2.25x 
+
+State Militia: 
+Cost: Increased to 100F/60G from 50F/35W
+Speed: Reduced to 4.5 from 4.75
+Population: Increased to 2 from 1
+HP: Increased to 160 from 120
+Siege: Improved to 20 from 10
+Melee: Improved to 10 from 7, HI multiplier increased to 2x
+Ranged: Improved to 25 from 14, range reduced to 12 from 13, 2 aoe and 50 damage cap added, HI multiplier increased to 2x
+Misc: No longer royal guard units, nor do they get the HP aura
+
+Sharpshooter:
+Cost: Increased to 50F/90G from 40F/75G
+HP: Reduced to 85 from 95
+Speed: Increased to 4.5 from 4.0
+Armor: Increased to 50 from 40
+Melee: Multipliers reduced to standard skirmisher multipliers (HI is 1.5x, much like old state militia)
+Ranged: Increased to 30 from 15, range increased to 22 from 21 (no longer scales), ROF delay increased to 4.0 from 3.0, multipliers reduced to standard skirmishermultipliers (HI is 1.5x much like old state militia)
+
+Shipment Changes:
+-- Age IV 15 sheep + 1 Homestead Wagon INFINITE added
+-- Age IV 15 Semi-Fattened Cows added.
+-- State Militia shipments reduced to 4/6/10/5 INF from 8/12/22/10 INF
+-- Regular shipments increased to 6/9/8/16 from 5/8/7/15
+-- Age IV Sharpshooter shipments decreased to 12 from 14
+-- Age II Ranged Infantry attack added (15% AbstractRangedInfantry)
+-- Age II Cavalry Hitpoints added (15% AbstractCavalry)
+-- Buffalo Soldiers reworked: now provides +25% HP to AbstractCavalry
+-- Continental Rangers Reworked: now provides +25% ATK to AbstractRangedInfantry
+-- United States Army Reworked: Moved to age 2 and now provides +5% HP/ATK to all military units.
+-- 5 Captured Rocket Cost reduced to 600F/600W from 1000F/1000W
+-- 1 Gatling Gun INF increased to 2, 3 gatlings removed.
+-- Age IV 5 Gatling Guns added
+-- Coffee Mill Guns now decreases the range of gatling guns by 4 (24 --> 20)
+-- Age IV 5 Napoleon Guns added
+-- Age III 9 Scottish Highlanders replaced with Age IV 12 Fusiliers
+-- Age IV 10 Fusiliers INF added
+-- Age III 9 Zouave added

@@ -56,15 +56,19 @@
       <maxcount>1</maxcount>
       <level>25</level>
       <prereqtech>HCExoticHardwoods</prereqtech>
-      <age>0</age>
+      <age>1</age>
       <prereqtech>DEHCImmigrantsFrench</prereqtech>
-      <displayunitcount>2</displayunitcount>
+      <displayunitcount>4</displayunitcount>
+      <infiniteinlastage>0</infiniteinlastage>
     </card>
     <card>
       <name>DEHCImmigrantsBritish</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <age>3</age>
+      <prereqtech>HCExoticHardwoods</prereqtech>
+      <age>0</age>
+      <displayunitcount>2</displayunitcount>
+      <infiniteinlastage>0</infiniteinlastage>
     </card>
     <card>
       <name>DEHCImmigrantsDutch</name>
@@ -81,7 +85,7 @@
       <level>2</level>
       <prereqtech>DEHCImmigrantsDutch</prereqtech>
       <age>0</age>
-      <displayunitcount>3</displayunitcount>
+      <displayunitcount>2</displayunitcount>
       <infiniteinlastage>0</infiniteinlastage>
     </card>
     <card>
@@ -116,8 +120,9 @@
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>-1</prereqtech>
-      <age>0</age>
-      <displayunitcount>1</displayunitcount>
+      <age>1</age>
+      <displayunitcount>3</displayunitcount>
+      <infiniteinlastage>0</infiniteinlastage>
     </card>
     <card>
       <name>HCShipFoodCrates1</name>
@@ -296,6 +301,15 @@
       <prereqtech>HCShipSheep1</prereqtech>
       <age>3</age>
       <displayunitcount>15</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCShipCowsTeam</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>DEHCShipCows3</prereqtech>
+      <age>2</age>
+      <displayunitcount>7</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -799,6 +813,13 @@
       <age>1</age>
     </card>
     <card>
+      <name>HCAdvancedTradingPost</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
       <name>HCAdvancedDock</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -1099,12 +1120,39 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCMercsHighlanders</name>
+      <name>HCXPMercsFusiliers</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>12</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCMercsNapoleonGuns</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>5</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCMercsZouaves</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
       <displayunitcount>9</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCXPMercsFusiliersRepeat</name>
+      <maxcount>-1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>10</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1335,7 +1383,6 @@
         <card dbid="7182">DEHCUSMarines</card>
         <card dbid="7194">DEHCMississippiSteamers</card>
         <card dbid="7198">DEHCLumberMills</card>
-        <card dbid="7178">DEHCLegionLee</card>
         <card dbid="2239">HCShipCannons1</card>
         <card dbid="7028">DEHCShipRegulars1</card>
         <card dbid="7040">DEHCShipSloops1</card>
@@ -1391,11 +1438,21 @@
     <displaynamestringid>49181</displaynamestringid>
     <rolloverstringid>25536</rolloverstringid>
     <obtainabletechs>
+      <tech x="0.9" y="1.0">DEHCImmigrantsDutch</tech>
+      <tech x="0.9" y="3.0">DEHCImmigrantsGerman</tech>
+      <tech x="0.9" y="4.0">DEHCImmigrantsRussian</tech>
+      <tech x="0.9" y="5.0">DEHCImmigrantsSpanish</tech>
+      <tech x="0.9" y="7.0">DEHCImmigrantsBritish</tech>
+      <tech x="0.9" y="2.0">DEHCImmigrantsFrench</tech>
+      <tech x="2.5" y="6.0">DEHCImmigrantsIrish</tech>
+      <tech x="3.8" y="3.0">DEHCImmigrantsSwedish</tech>
+      <tech x="6.7" y="3.0">DEHCImmigrantsChinese</tech>
       <tech x="4.3" y="2.0">HCShipSheep1</tech>
       <tech x="4.3" y="2.0">HCShipSheep2</tech>
       <tech x="4.3" y="2.0">DEHCShipSheep3</tech>
       <tech x="5.0" y="2.0">HCShipCows</tech>
       <tech x="5.0" y="3.0">DEHCShipCows3</tech>
+      <tech x="5.0" y="4.0">DEHCShipCowsTeam</tech>
       <tech x="6.0" y="1.0">HCShipCoveredWagons</tech>
       <tech x="6.0" y="1.0">HCShipCoveredWagons2</tech>
       <tech x="6.0" y="3.0">HCShipSurgeons</tech>
@@ -1406,11 +1463,21 @@
       <tech x="7.0" y="5.0">HCShipBalloons</tech>
     </obtainabletechs>
     <activetechs>
+      <tech x="0.9" y="1.0">DEHCImmigrantsDutch</tech>
+      <tech x="0.9" y="3.0">DEHCImmigrantsGerman</tech>
+      <tech x="0.9" y="4.0">DEHCImmigrantsRussian</tech>
+      <tech x="0.9" y="5.0">DEHCImmigrantsSpanish</tech>
+      <tech x="0.9" y="7.0">DEHCImmigrantsBritish</tech>
+      <tech x="0.9" y="2.0">DEHCImmigrantsFrench</tech>
+      <tech x="2.5" y="6.0">DEHCImmigrantsIrish</tech>
+      <tech x="3.8" y="3.0">DEHCImmigrantsSwedish</tech>
+      <tech x="6.7" y="3.0">DEHCImmigrantsChinese</tech>
       <tech x="4.3" y="2.0">HCShipSheep1</tech>
       <tech x="4.3" y="2.0">HCShipSheep2</tech>
       <tech x="4.3" y="2.0">DEHCShipSheep3</tech>
       <tech x="5.0" y="2.0">HCShipCows</tech>
       <tech x="5.0" y="3.0">DEHCShipCows3</tech>
+      <tech x="5.0" y="4.0">DEHCShipCowsTeam</tech>
       <tech x="6.0" y="1.0">HCShipCoveredWagons</tech>
       <tech x="6.0" y="1.0">HCShipCoveredWagons2</tech>
       <tech x="6.0" y="3.0">HCShipSurgeons</tech>
@@ -1451,6 +1518,7 @@
       <tech x="1.7" y="5.0">DEHCRegularCombat</tech>
       <tech x="2.7" y="5.0">DEHCRangedInfantryDamageAmericans</tech>
       <tech x="2.7" y="5.0">DEHCCavalryHitpointsAmericans</tech>
+      <tech x="3.4" y="3.0">DEHCLegionHungarian</tech>
       <tech x="3.4" y="4.0">DEHCMichiganSharpshooters</tech>
       <tech x="5.1" y="1.0">DEHCShipRiflemen1</tech>
       <tech x="5.1" y="2.0">DEHCShipRiflemen2</tech>
@@ -1463,7 +1531,6 @@
       <tech x="5.8" y="7.0">HCXPShipHorseArtillery2</tech>
       <tech x="5.8" y="7.0">DEHCShipHorseArtilleryRepeat1</tech>
       <tech x="5.8" y="7.0">DEHCShipCapturedRockets</tech>
-      <tech x="5.8" y="7.0">DEHCShipQuakerGunsTeam</tech>
       <tech x="5.8" y="7.0">DEHCShipCulverineMortar</tech>
       <tech x="6.5" y="1.0">HCAdvancedArtillery</tech>
       <tech x="6.5" y="2.0">HCShipMortars1</tech>
@@ -1489,6 +1556,7 @@
       <tech x="1.7" y="5.0">DEHCRegularCombat</tech>
       <tech x="2.7" y="5.0">DEHCRangedInfantryDamageAmericans</tech>
       <tech x="2.7" y="5.0">DEHCCavalryHitpointsAmericans</tech>
+      <tech x="3.4" y="3.0">DEHCLegionHungarian</tech>
       <tech x="3.4" y="4.0">DEHCMichiganSharpshooters</tech>
       <tech x="5.1" y="1.0">DEHCShipRiflemen1</tech>
       <tech x="5.1" y="2.0">DEHCShipRiflemen2</tech>
@@ -1501,7 +1569,6 @@
       <tech x="5.8" y="7.0">HCXPShipHorseArtillery2</tech>
       <tech x="5.8" y="7.0">DEHCShipHorseArtilleryRepeat1</tech>
       <tech x="5.8" y="7.0">DEHCShipCapturedRockets</tech>
-      <tech x="5.8" y="7.0">DEHCShipQuakerGunsTeam</tech>
       <tech x="5.8" y="7.0">DEHCShipCulverineMortar</tech>
       <tech x="6.5" y="1.0">HCAdvancedArtillery</tech>
       <tech x="6.5" y="2.0">HCShipMortars1</tech>
@@ -1536,7 +1603,6 @@
       <tech x="7.0" y="3.0">DEHCHamiltonianEconomics</tech>
       <tech x="7.0" y="5.0">DEHCUSExpedition</tech>
       <tech x="0.0" y="1.0">HCNativeLore</tech>
-      <tech x="0.0" y="2.0">DEHCIndianFriendship</tech>
       <tech x="0.0" y="3.0">HCXPBloodBrothers</tech>
       <tech x="0.7" y="1.0">HCXPRanching</tech>
       <tech x="2.4" y="2.0">DEHCTrainTimeUS</tech>
@@ -1555,6 +1621,7 @@
       <tech x="5.3" y="7.0">HCXPAgents</tech>
       <tech x="6.0" y="5.0">HCAdvancedPlantations</tech>
       <tech x="6.7" y="4.0">HCAdvancedDock</tech>
+      <tech x="6.7" y="4.0">HCAdvancedTradingPost</tech>
       <tech x="6.7" y="4.0">DEHCAdvancedSaloon</tech>
       <tech x="6.7" y="4.0">DEHCShotgunMessengers</tech>
       <tech x="4.6" y="1.0">DEHCArkansasPost</tech>
@@ -1568,7 +1635,6 @@
       <tech x="7.0" y="3.0">DEHCHamiltonianEconomics</tech>
       <tech x="7.0" y="5.0">DEHCUSExpedition</tech>
       <tech x="0.0" y="1.0">HCNativeLore</tech>
-      <tech x="0.0" y="2.0">DEHCIndianFriendship</tech>
       <tech x="0.0" y="5.0">HCXPBloodBrothers</tech>
       <tech x="0.7" y="1.0">HCXPRanching</tech>
       <tech x="2.4" y="2.0">DEHCTrainTimeUS</tech>
@@ -1586,6 +1652,7 @@
       <tech x="5.3" y="3.0">HCXPShipSpies2</tech>
       <tech x="5.3" y="7.0">HCXPAgents</tech>
       <tech x="6.7" y="4.0">HCAdvancedDock</tech>
+      <tech x="6.7" y="4.0">HCAdvancedTradingPost</tech>
       <tech x="6.7" y="4.0">DEHCAdvancedSaloon</tech>
       <tech x="6.7" y="4.0">DEHCShotgunMessengers</tech>
       <tech x="4.6" y="1.0">DEHCArkansasPost</tech>
@@ -1626,7 +1693,6 @@
       <tech x="3.4" y="3.0">HCSilversmith</tech>
       <tech x="4.3" y="5.0">HCRefrigeration</tech>
       <tech x="5.2" y="1.0">HCStockyards</tech>
-      <tech x="6.0" y="7.0">HCXPCapitalism</tech>
       <tech x="6.1" y="3.0">HCSpiceTrade</tech>
       <tech x="6.1" y="5.0">HCMedicine</tech>
       <tech x="7.0" y="1.0">HCRumDistillery</tech>
@@ -1686,7 +1752,10 @@
       <tech x="3.1" y="1.0">DEHCVirginiaOak</tech>
       <tech x="3.1" y="1.0">DEHCHulks</tech>
       <tech x="3.1" y="5.0">HCNavalGunners</tech>
-      <tech x="4.1" y="4.0">HCMercsHighlanders</tech>
+      <tech x="4.1" y="4.0">HCXPMercsFusiliers</tech>
+      <tech x="4.1" y="4.0">HCXPMercsFusiliersRepeat</tech>
+      <tech x="5.0" y="4.0">DEHCMercsZouaves</tech>
+      <tech x="5.0" y="4.0">DEHCMercsNapoleonGuns</tech>
       <tech x="5.5" y="6.0">DEHCRenoGang</tech>
       <tech x="5.5" y="6.0">DEHCPoker</tech>
       <tech x="6.3" y="1.0">HCXPDanceHall</tech>
@@ -1696,21 +1765,7 @@
       <tech x="6.3" y="7.0">DEHCSeminoleScouts</tech>
       <tech x="6.3" y="7.0">DEHCApacheScouts</tech>
       <tech x="6.3" y="7.0">DEHCNavajoScouts</tech>
-      <tech x="7.2" y="7.0">DEHCLegionLee</tech>
-      <tech x="3.4" y="4.0">DEHCLegionWashington</tech>
-      <tech x="0.9" y="1.0">DEHCImmigrantsDutch</tech>
-      <tech x="0.9" y="3.0">DEHCImmigrantsGerman</tech>
-      <tech x="0.9" y="4.0">DEHCImmigrantsRussian</tech>
-      <tech x="0.9" y="5.0">DEHCImmigrantsSpanish</tech>
-      <tech x="0.9" y="7.0">DEHCImmigrantsBritish</tech>
-      <tech x="0.9" y="2.0">DEHCImmigrantsFrench</tech>
-      <tech x="2.5" y="6.0">DEHCImmigrantsIrish</tech>
-      <tech x="3.8" y="3.0">DEHCImmigrantsSwedish</tech>
-      <tech x="6.7" y="3.0">DEHCImmigrantsChinese</tech>
-      <tech x="3.8" y="1.0">DEHCLegionFrench</tech>
-      <tech x="3.4" y="3.0">DEHCLegionHungarian</tech>
-      <tech x="3.4" y="4.0">DEHCLegionPolish</tech>
-    </obtainabletechs>
+          </obtainabletechs>
     <activetechs>
       <tech x="1.3" y="1.0">DEHCShipSloopsRepeat1</tech>
       <tech x="1.0" y="2.0">DEHCShipSloops1</tech>
@@ -1724,7 +1779,10 @@
       <tech x="3.1" y="1.0">DEHCVirginiaOak</tech>
       <tech x="3.1" y="1.0">DEHCHulks</tech>
       <tech x="3.1" y="5.0">HCNavalGunners</tech>
-      <tech x="4.1" y="4.0">HCMercsHighlanders</tech>
+      <tech x="4.1" y="4.0">HCXPMercsFusiliers</tech>
+      <tech x="4.1" y="4.0">HCXPMercsFusiliersRepeat</tech>
+      <tech x="5.0" y="4.0">DEHCMercsZouaves</tech>
+      <tech x="5.0" y="4.0">DEHCMercsNapoleonGuns</tech>
       <tech x="5.5" y="6.0">DEHCRenoGang</tech>
       <tech x="5.5" y="6.0">DEHCPoker</tech>
       <tech x="6.3" y="1.0">HCXPDanceHall</tech>
@@ -1734,20 +1792,6 @@
       <tech x="6.3" y="7.0">DEHCSeminoleScouts</tech>
       <tech x="6.3" y="7.0">DEHCApacheScouts</tech>
       <tech x="6.3" y="7.0">DEHCNavajoScouts</tech>
-      <tech x="7.2" y="7.0">DEHCLegionLee</tech>
-      <tech x="3.4" y="4.0">DEHCLegionWashington</tech>
-      <tech x="0.9" y="1.0">DEHCImmigrantsDutch</tech>
-      <tech x="0.9" y="3.0">DEHCImmigrantsGerman</tech>
-      <tech x="0.9" y="4.0">DEHCImmigrantsRussian</tech>
-      <tech x="0.9" y="5.0">DEHCImmigrantsSpanish</tech>
-      <tech x="0.9" y="7.0">DEHCImmigrantsBritish</tech>
-      <tech x="0.9" y="2.0">DEHCImmigrantsFrench</tech>
-      <tech x="2.5" y="6.0">DEHCImmigrantsIrish</tech>
-      <tech x="3.8" y="3.0">DEHCImmigrantsSwedish</tech>
-      <tech x="6.7" y="3.0">DEHCImmigrantsChinese</tech>
-      <tech x="3.8" y="1.0">DEHCLegionFrench</tech>
-      <tech x="3.4" y="3.0">DEHCLegionHungarian</tech>
-      <tech x="3.4" y="4.0">DEHCLegionPolish</tech>
     </activetechs>
     <validunits/>
     <units/>
