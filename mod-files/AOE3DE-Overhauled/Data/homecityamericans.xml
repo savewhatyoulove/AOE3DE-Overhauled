@@ -71,7 +71,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>0</age>
+      <age>1</age>
       <displayunitcount>1</displayunitcount>
       <infiniteinlastage>0</infiniteinlastage>
     </card>
@@ -369,7 +369,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
-      <displayunitcount>8</displayunitcount>
+      <displayunitcount>4</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -378,7 +378,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>11</displayunitcount>
+      <displayunitcount>6</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -387,7 +387,7 @@
       <level>10</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>22</displayunitcount>
+      <displayunitcount>10</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -396,7 +396,7 @@
       <level>10</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>9</displayunitcount>
+      <displayunitcount>5</displayunitcount>
     </card>
     <card>
       <name>DEHCShipCarbineCav1</name>
@@ -413,7 +413,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
-      <displayunitcount>5</displayunitcount>
+      <displayunitcount>6</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -422,7 +422,7 @@
       <level>10</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>8</displayunitcount>
+      <displayunitcount>9</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -431,7 +431,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>7</displayunitcount>
+      <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -440,7 +440,7 @@
       <level>25</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>15</displayunitcount>
+      <displayunitcount>16</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -448,7 +448,21 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>2</age>
+      <age>1</age>
+    </card>
+    <card>
+      <name>DEHCRangedInfantryDamageAmericans</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name>DEHCCavalryHitpointsAmericans</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
     </card>
     <card>
       <name>DEHCMichiganSharpshooters</name>
@@ -491,7 +505,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>9</displayunitcount>
+      <displayunitcount>7</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -508,8 +522,8 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <displayunitcount>3</displayunitcount>
+      <age>3</age>
+      <displayunitcount>5</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -518,7 +532,7 @@
       <level>10</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>1</displayunitcount>
+      <displayunitcount>2</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -629,7 +643,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>2</age>
+      <age>3</age>
     </card>
     <card>
       <name>DEHCBuffaloSoldiers</name>
@@ -1435,6 +1449,8 @@
       <tech x="1.7" y="4.0">DEHCShipRegulars2</tech>
       <tech x="1.7" y="5.0">DEHCShipRegulars4</tech>
       <tech x="1.7" y="5.0">DEHCRegularCombat</tech>
+      <tech x="2.7" y="5.0">DEHCRangedInfantryDamageAmericans</tech>
+      <tech x="2.7" y="5.0">DEHCCavalryHitpointsAmericans</tech>
       <tech x="3.4" y="4.0">DEHCMichiganSharpshooters</tech>
       <tech x="5.1" y="1.0">DEHCShipRiflemen1</tech>
       <tech x="5.1" y="2.0">DEHCShipRiflemen2</tech>
@@ -1471,6 +1487,8 @@
       <tech x="1.7" y="4.0">DEHCShipRegulars2</tech>
       <tech x="1.7" y="5.0">DEHCShipRegulars4</tech>
       <tech x="1.7" y="5.0">DEHCRegularCombat</tech>
+      <tech x="2.7" y="5.0">DEHCRangedInfantryDamageAmericans</tech>
+      <tech x="2.7" y="5.0">DEHCCavalryHitpointsAmericans</tech>
       <tech x="3.4" y="4.0">DEHCMichiganSharpshooters</tech>
       <tech x="5.1" y="1.0">DEHCShipRiflemen1</tech>
       <tech x="5.1" y="2.0">DEHCShipRiflemen2</tech>
