@@ -472,6 +472,9 @@ Starting Units: Now starts with 6 villagers, a Fattened Cow, and a Homestead Wag
 
 Unit Changes:
 
+General:
+-- Inspiring Flag cooldown reduced to 60 seconds from 160
+
 Regular:
 Cost: Reduced to 80F/20G from 55F/50G
 HP: Reduced to 120 from 150
@@ -518,3 +521,5 @@ Shipment Changes:
 -- Age III 9 Scottish Highlanders replaced with Age IV 12 Fusiliers
 -- Age IV 10 Fusiliers INF added
 -- Age III 9 Zouave added
+-- Age IV Alaska Purchase is no longer a team shipment, and cost has been reduced to 1500 Gold from 2500 Wood. Now ships 12 Pet Polar bears instead of 6.
+-- Oklahoma Black Mesa Reworked: Now an age 3 shipment that sends 10 Pistolero (Gunslinger) and 12 Pet Cougars and lets you retrain Cougars from your TC, General, and Gunslingers.

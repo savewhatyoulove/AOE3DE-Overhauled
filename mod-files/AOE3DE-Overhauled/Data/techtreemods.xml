@@ -5402,7 +5402,7 @@
     <flag>HomeCity</flag>
     <flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</flag>
     <effects>
-      <effect tech="AAStandardStartingTechs" type="Data" amount="15.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="Sheep" relativity="Absolute">
+      <effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="Sheep" relativity="Absolute">
         <target type="Player"/>
       </effect>
       <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deHomesteadWagon" relativity="Absolute">
@@ -6234,7 +6234,7 @@
     <dbid>7064</dbid>
     <displaynameid>110188</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
-    <cost resourcetype="Wood">250.0000</cost>
+    <cost resourcetype="Wood">200.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\americans\immigrants\immigrants_french.png</icon>
@@ -6405,6 +6405,120 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCTrainTimeUS" type="Normal">
+    <dbid>7052</dbid>
+    <displaynameid>110139</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\patriotism.png</icon>
+    <rollovertextid>110138</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="0.75" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractInfantry</target>
+      </effect>
+      <effect type="Data" amount="0.75" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractCavalry</target>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCHulks" type="Normal">
+    <dbid>7269</dbid>
+    <displaynameid>110543</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\hulk.png</icon>
+    <flag>HomeCity</flag>
+    <rollovertextid>110542</rollovertextid>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">xpIronclad</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">xpIronclad</target>
+      </effect>
+      <effect type="SetName" proto="xpIronclad" culture="none" newname="110159" newrollover="110222" newshortrollover="110222"/>
+      <effect type="SetName" proto="xpIronclad" culture="none" newname="110016" reqtech="DEShipHowitzersAmerican"/>
+      <effect type="SetName" proto="xpIronclad" culture="none" newname="110020" reqtech="DEImperialIronclads"/>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCUSMarines" type="Normal">
+    <dbid>7182</dbid>
+    <displaynameid>110420</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\united_states_marines.png</icon>
+    <rollovertextid>110419</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data2" amount="1.00" amount2="6.00" subtype="FreeHomeCityUnitShipped" unittype="xpIronclad" unittype2="deRegular" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCBlackMesa" type="Normal">
+    <dbid>7341</dbid>
+    <displaynameid>110600</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <cost resourcetype="Food">1000.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\black_mesa.png</icon>
+    <rollovertextid>110599</rollovertextid>
+    <flag>HomeCity</flag>
+    <flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</flag>
+    <effects>
+      <effect tech="deCardIgnoreBuildLimit" type="Data" amount="10.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="SaloonOutlawPistol" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="deCardIgnoreBuildLimit" type="Data" amount="12.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="PetCougar" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">PetCougar</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="PetCougar" relativity="Absolute">
+        <target type="ProtoUnit">SaloonOutlawPistol</target>
+      </effect>
+
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCAlaskaPurchase" type="Normal">
+    <dbid>7211</dbid>
+    <displaynameid>110484</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <cost resourcetype="Gold">1500.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\alaska_purchase.png</icon>
+    <rollovertextid>110483</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="PetPolarBear" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" action="SpawnProspectorWagonOnce" amount="1.00" subtype="ActionAdd" unittype="TownCenter" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
     </effects>
   </tech>
 

@@ -8479,6 +8479,42 @@
       <damagebonus type="Ship">2.000000</damagebonus>
     </protoaction>
   </unit>
+  <unit mergeMode='replace' id="1753" name="deInspiringFlag">
+    <dbid>2324</dbid>
+    <displaynameid>110179</displaynameid>
+    <editornameid>110180</editornameid>
+    <obstructionradiusx>0.1000</obstructionradiusx>
+    <obstructionradiusz>0.1000</obstructionradiusz>
+    <placementobstructionradiusx>3.0000</placementobstructionradiusx>
+    <placementobstructionradiusz>3.0000</placementobstructionradiusz>
+    <maxvelocity>0.0000</maxvelocity>
+    <movementtype>land</movementtype>
+    <animfile>objects\inspiring_flag\inspiring_flag.xml</animfile>
+    <placementfile>inspiringflag.xml</placementfile>
+    <icon>resources\art\objects\inspiring_flag_portrait.png</icon>
+    <portraiticon>resources\art\objects\inspiring_flag_portrait.png</portraiticon>
+    <rollovertextid>110182</rollovertextid>
+    <shortrollovertextid>110181</shortrollovertextid>
+    <los>14.0000</los>
+    <unittype>Unit</unittype>
+    <flag>NoHPBar</flag>
+    <flag>Immoveable</flag>
+    <flag>NoBloodOnDeath</flag>
+    <flag>NonAutoFormedUnit</flag>
+    <flag>VisibleUnderFog</flag>
+    <flag>DoNotCreateUnitGroupAutomatically</flag>
+    <flag>RMCanRotate</flag>
+    <flag>KillIfConverted</flag>
+    <flag>SelectWithObstruction</flag>
+    <flag>Invulnerable</flag>
+    <flag>Tracked</flag>
+    <flag>NotDeleteable</flag>
+    <flag>DisplayRange</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>NeverCountDeathAsLoss</flag>
+    <flag>DoNotDragSelectWithUnits</flag>
+    <tactics>inspiringflag.tactics</tactics>
+  </unit>
 
 </protomods>
 
