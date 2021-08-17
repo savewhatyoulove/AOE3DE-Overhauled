@@ -43,7 +43,6 @@
       <effect type="Data" amount="0.90" subtype="Cost" resource="Wood" relativity="Percent">
         <target type="techAll"/>
       </effect>
-
     </effects>
   </tech>
 
@@ -4961,7 +4960,7 @@
         <target type="ProtoUnit">deRifleman</target>
       </effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-        <target type="ProtoUnit">deUSCavalry</target>
+        <target type="ProtoUnit">Dragoon</target>
       </effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">deSloop</target>
@@ -4994,9 +4993,9 @@
       <effect type="TechStatus" status="obtainable">DEVeteranUSRegulars</effect>
       <effect type="TechStatus" status="obtainable">DEGuardUSRegulars</effect>
       <effect type="TechStatus" status="obtainable">DEImperialUSRegulars</effect>
-      <effect type="TechStatus" status="obtainable">DEVeteranUSCavalryShadow</effect>
-      <effect type="TechStatus" status="obtainable">DEGuardUSCavalry</effect>
-      <effect type="TechStatus" status="obtainable">DEImperialUSCavalry</effect>
+      <effect type="TechStatus" status="obtainable">VeteranDragoonsShadow</effect>
+      <effect type="TechStatus" status="obtainable">GuardDragoons</effect>
+      <effect type="TechStatus" status="obtainable">ImperialDragoons</effect>
       <effect type="TechStatus" status="obtainable">DEImperialIronclads</effect>
       <effect type="TechStatus" status="obtainable">Bayonet</effect>
       <effect type="TechStatus" status="obtainable">HeavyHorseArtillery</effect>
@@ -5255,13 +5254,6 @@
       <effect type="TechStatus" status="obtainable">DEImperializeStatehoodShadow</effect>
     </effects>
   </tech>
-  <tech name="HCShipSheep1" type="Normal">
-    <effects>
-      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-    </effects>
-  </tech>
   <tech name="HCShipSheep2" type="Normal">
     <effects>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
@@ -5277,6 +5269,13 @@
     </effects>
   </tech>
   <tech name="HCXPCapitalism" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCImmigrantsGerman" type="Normal">
     <effects>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
@@ -5406,15 +5405,6 @@
         <target type="Player"/>
       </effect>
       <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deHomesteadWagon" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect tech="ypFreeCoinCrate400Age1" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateSpanishGold" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect tech="deAddFree400CoinToInventory" type="Data" amount="400.00" subtype="ResourceIfTechObtainable" resource="Gold" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -5880,6 +5870,10 @@
       <effect type="SetName" proto="NatTracker" culture="none" newname="110609" reqtech="ChampionCree"/>
       <effect type="SetName" proto="NatMercTracker" culture="none" newname="110610" reqtech="ImpLegendaryNativesShadow"/>
       <effect type="SetName" proto="NatTracker" culture="none" newname="110610" reqtech="ImpLegendaryNativesShadow"/>
+      <effect type="TechStatus" status="obtainable">ypNativeEmbassyEnableShadow</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">NativeEmbassy</target>
+      </effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
@@ -6031,6 +6025,9 @@
       </effect>
       <effect type="TechStatus" status="active">DEHCImmigrantsStateCapitolShadow</effect>
       <effect type="TextOutputTechName">110130</effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEPoliticianFederalSouthCarolina" type="Normal">
@@ -6088,7 +6085,6 @@
       <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Herdable" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="TextOutput">41897</effect>
       <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
@@ -6518,6 +6514,188 @@
       <effect type="Data" action="SpawnProspectorWagonOnce" amount="1.00" subtype="ActionAdd" unittype="TownCenter" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect type="TextOutputTechName">110130</effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShipGatlingsTeam1" type="Normal">
+    <dbid>7036</dbid>
+    <displaynameid>110112</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\team_gatling_gun.png</icon>
+    <flag>HomeCity</flag>
+    <flag>TeamTech</flag>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="xpGatlingGun" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCImperialism" type="Normal">
+    <dbid>9508</dbid>
+    <displaynameid>260005</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\indentured_labor\indentured_labor.png</icon>
+    <rollovertextid>260006</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.75" subtype="ResourceTrickleRate" resource="Gold" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="ypFreeCoinCrate400Age1" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateSpanishGold" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutput">60890</effect>
+      <effect tech="deGermanLogisticianDiscoveryShadow" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="Uhlan" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="deAddFree400CoinToInventory" type="Data" amount="400.00" subtype="ResourceIfTechObtainable" resource="Gold" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCCommunismTeam" type="Normal">
+    <dbid>9508</dbid>
+    <displaynameid>260007</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\team_communism.png</icon>
+    <rollovertextid>260008</rollovertextid>
+    <flag>HomeCity</flag>
+    <flag>TeamTech</flag>
+    <effects>
+      <effect type="Data" amount="2.75" subtype="ResourceTrickleRate" resource="Gold" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipRiflemen1" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipRiflemen2" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipRiflemen3" type="Normal">
+    <effects> 
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCShipDragoons4" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCKnoxArtilleryTrain" type="Normal">
+    <flag>HomeCity</flag>
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCArkansasPost" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCSpringfieldArmory" type="Normal">
+    <effects>
+    <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCFrontierDefenses2" type="Normal">
+    <effects>
+    <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCFedPlymouthSettlers" type="Normal">
+    <dbid>7117</dbid>
+    <displaynameid>110297</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\federal\ms_plymouth_settlers.png</icon>
+    <rollovertextid>110296</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="TurkeyScout" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" action="SpawnFedImmigrants" amount="1.00" subtype="ActionAdd" unittype="TownCenter" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Mill" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="AbstractBerryBush" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Herdable" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="ypBerryBuilding" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.10" subtype="WorkRateSpecific" resource="Food" unittype="ypRicePaddy" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.10" subtype="WorkRateSpecific" resource="Food" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="deTorpBush2" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCFedPlymouthSettlersShadow" type="Normal">
+    <dbid>7346</dbid>
+    <displaynameid>110297</displaynameid>
+    <researchpoints>0.0000</researchpoints>
+    <status>OBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">DEHCFedPlymouthSettlers</techstatus>
+    </prereqs>
+    <effects>
       <effect type="TextOutputTechName">110130</effect>
     </effects>
   </tech>

@@ -184,6 +184,7 @@
 	    <string _locid="110105">9 Regulars</string>
 	    <string _locid="110106">8 Regulars</string>
 	    <string _locid="110107">16 Regulars</string>
+	    <string _locid="110112">TEAM 3 Gatling Guns</string>
 	    <string _locid="110113">5 Gatling Guns</string>
 	    <string _locid="110114">2 Gatling Guns</string>
 	    <string _locid="110139">Nationalism</string>
@@ -192,12 +193,15 @@
 	    <string _locid="110189">French immigration improves the gather rate of all of your Villagers and delivers 2 Coureur des Bois.</string>
 	    <string _locid="110204">Irish immigration delivers 3 Settlers, 1 Homestead Wagon, and improves Settler gather rate on Mills.</string>
 	    <string _locid="110209">Chinese immigration delivers 3 Fattened Goats and Settlers gather from livestock faster.</string>
+	    <string _locid="110296">Ships 1 Turkey Scout and Villagers gather Food more quickly. All existing Town Centers spawn 3 Pilgrims.</string>
 	    <string _locid="110328">Ships 14 Zouave mercenaries.</string>
 	    <string _locid="110413">Increases the range of Sharpshooters and enables them to be trained in the Commerce Age.</string>
 	    <string _locid="110415">Greatly increases the attack of ranged infantry.</string>
 	    <string _locid="110417">Greatly increases the hitpoints of cavalry.</string>
 	    <string _locid="110419">Ships an Ironclad containing Regulars.</string>
 	    <string _locid="110431">Ships 12 Magyar Hussars.</string>
+	    <string _locid="110483">TEAM Ships 12 Polar Bears which will fight your enemies. All currently existing Town Centers spawn 1 Silver Prospector Wagon, which can open a Silver Mine.</string>
+	    <string _locid="110484">Alaska Purchase</string>
 	    <string _locid="110487">Ships 5 Sharpshooters and 5 Cree Trackers. Also upgrades Sharpshooters to Marksmen and Cree Trackers to Champion and allows you to train them from the Native Embassy.</string>
 	    <string _locid="110527">Ships 2 State Militia and 5 Regulars and researches their Veteran upgrades.</string>
 	    <string _locid="110542">Enables an additional Ironclad to be constructed and grants them additional health.</string>
@@ -309,6 +313,10 @@
 	    <string _locid="260004">Ships 5 French Napoleon Guns.</string>
 	    <string _locid="260005">Hire French Zouaves</string>
 	    <string _locid="260006">Ships 9 French Zouave mercenaries.</string>
+	    <string _locid="260005">Imperialism</string>
+	    <string _locid="260006">The highest stage of Capitalism unlocks a medium gold trickle for the rest of the game.</string>
+	    <string _locid="260007">TEAM Socialism</string>
+	    <string _locid="260008">TEAM The creation of a workers' state unlocks a medium gold trickle for the rest of the game.</string>
 	</Language>
   </StringTable>
 </stringmods>

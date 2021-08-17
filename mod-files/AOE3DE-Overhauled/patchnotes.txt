@@ -523,3 +523,5 @@ Shipment Changes:
 -- Age III 9 Zouave added
 -- Age IV Alaska Purchase is no longer a team shipment, and cost has been reduced to 1500 Gold from 2500 Wood. Now ships 12 Pet Polar bears instead of 6.
 -- Oklahoma Black Mesa Reworked: Now an age 3 shipment that sends 10 Pistolero (Gunslinger) and 12 Pet Cougars and lets you retrain Cougars from your TC, General, and Gunslingers.
+-- Age II Imperialism Added. Adds 2.75 gold/s trickle
+-- Age III Communism Added. Adds 4.5 gold/s trickle
