@@ -533,7 +533,7 @@
       <level>10</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>14</displayunitcount>
+      <displayunitcount>12</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -551,7 +551,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>2</displayunitcount>
+      <displayunitcount>3</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -712,7 +712,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>6</displayunitcount>
+      <displayunitcount>12</displayunitcount>
     </card>
     <card>
       <name>DEHCUSExpedition</name>
@@ -1536,12 +1536,10 @@
     <rolloverstringid>25533</rolloverstringid>
     <obtainabletechs>
       <tech x="0.7" y="1.0">DEHCShipStateMilitia1</tech>
-      <tech x="0.7" y="2.0">DEHCShipStateMilitia2</tech>
       <tech x="0.7" y="3.0">DEHCShipStateMilitia3</tech>
       <tech x="0.7" y="4.0">DEHCShipStateMilitiaRepeat1</tech>
       <tech x="1.2" y="7.0">HCShipDragoons4</tech>
       <tech x="2.0" y="1.0">DEHCShipRegulars1</tech>
-      <tech x="2.0" y="2.0">DEHCShipRegulars3</tech>
       <tech x="1.7" y="4.0">DEHCShipRegulars2</tech>
       <tech x="1.7" y="5.0">DEHCShipRegulars4</tech>
       <tech x="1.7" y="5.0">DEHCRegularCombat</tech>
@@ -1551,7 +1549,6 @@
       <tech x="3.4" y="4.0">DEHCMichiganSharpshooters</tech>
       <tech x="3.8" y="1.0">DEHCKnoxArtilleryTrain</tech>
       <tech x="5.1" y="1.0">DEHCShipRiflemen1</tech>
-      <tech x="5.1" y="2.0">DEHCShipRiflemen2</tech>
       <tech x="5.1" y="3.0">DEHCShipRiflemen3</tech>
       <tech x="5.1" y="3.0">DEHCMassachusettsVolunteers</tech>
       <tech x="5.8" y="1.0">DEHCShipGatlingsTeam1</tech>
@@ -1574,12 +1571,10 @@
     </obtainabletechs>
     <activetechs>
       <tech x="0.7" y="1.0">DEHCShipStateMilitia1</tech>
-      <tech x="0.7" y="2.0">DEHCShipStateMilitia2</tech>
       <tech x="0.7" y="3.0">DEHCShipStateMilitia3</tech>
       <tech x="0.7" y="4.0">DEHCShipStateMilitiaRepeat1</tech>
       <tech x="1.2" y="7.0">HCShipDragoons4</tech>
       <tech x="2.0" y="1.0">DEHCShipRegulars1</tech>
-      <tech x="2.0" y="2.0">DEHCShipRegulars3</tech>
       <tech x="1.7" y="4.0">DEHCShipRegulars2</tech>
       <tech x="1.7" y="5.0">DEHCShipRegulars4</tech>
       <tech x="1.7" y="5.0">DEHCRegularCombat</tech>
@@ -1589,7 +1584,6 @@
       <tech x="3.4" y="4.0">DEHCMichiganSharpshooters</tech>
       <tech x="3.8" y="1.0">DEHCKnoxArtilleryTrain</tech>
       <tech x="5.1" y="1.0">DEHCShipRiflemen1</tech>
-      <tech x="5.1" y="2.0">DEHCShipRiflemen2</tech>
       <tech x="5.1" y="3.0">DEHCShipRiflemen3</tech>
       <tech x="5.1" y="3.0">DEHCMassachusettsVolunteers</tech>
       <tech x="5.8" y="1.0">DEHCShipGatlingsTeam1</tech>
