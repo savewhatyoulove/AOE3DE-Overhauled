@@ -304,7 +304,7 @@
     </unitregen>
     <unitregen>
       <unittype>Military</unittype>
-      <rate>0.25</rate>
+      <rate>0.50</rate>
       <idletimeout>3.5</idletimeout>
     </unitregen>
     <unitregen>

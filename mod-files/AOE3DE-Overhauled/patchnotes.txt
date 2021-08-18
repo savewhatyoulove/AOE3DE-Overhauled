@@ -481,8 +481,8 @@ HP: Reduced to 120 from 150
 Speed: Increased to 4.5 from 4.0
 Armor: Increased to 35 melee from 20
 Siege: Increased to 26 from 24
-Ranged ATK: Improved to 26 from 25, 1.5x HC/1.25x Shock Infantry added.
-Melee ATK: Reduced to 12 from 14, multipliers removed to 2.5x/2.0x from 3.0x/2.25x 
+Ranged ATK: Improved to 26 from 25, 1.5x HC/1.25x Shock Infantry added, scales by +0.25x with each upgrade
+Melee ATK: Reduced to 10 from 14
 
 State Militia: 
 Cost: Increased to 100F/60G from 50F/35W

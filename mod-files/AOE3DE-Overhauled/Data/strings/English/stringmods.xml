@@ -168,13 +168,14 @@
 	    <string _locid="110001" symbol="cStringCivRolloverAmericans">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nFederal states unlock two new cards per age and two Factory cards in Industrial Age. Shipments are earned more quickly and you receive a free XP crate with most shipments. Lower Settler build limit, and cannot ship resource crates, but economic improvement shipments are more powerful. Generals can build Forts instead of Town Centers. Levies can be called repeatedly from multiple buildings. Military units slowly heal over time when outside of combat. Starts with a Fattened Cow, a free shipment and a Homestead Wagon instead of resource crates. \n&lt;color=1.0, 1.0, 0.0&gt;National guard units:&lt;/color&gt;Sharpshooters (Marksmen)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nCarbine Cavalry, Gatling Gun, Ironclad, Minuteman, Regular, Sharpshooter, Sloop, State Militia, Steamer\n\nThe "land of opportunity" provided cheap land for Western European Colonizers to plunder, creating the famous melting pot of cultures by eliminating their individual ethnic identities in service of a national "American Identity". Expanding from militia forces skilled in skirmishing tactics and marksmanship to a professional army, the United States of America ensured its independence and impressive road to prosperity at the expense of non-white peoples.</string>
 	    <string _locid="110009">Skirmisher with a powerful short-ranged splash attack.</string>
 	    <string _locid="110013">Fragile skirmisher with a slow, but powerful long-ranged attack. Good against infantry.</string>
-	    <string _locid="110017">Fragile heavy ranged infantry with greater range, damage, and speed than other Musketeers. Armed with a bayonet to beat cavalry.</string>
+	    <string _locid="110017">Fragile heavy ranged infantry with greater range, melee armor, ranged damage, and speed than other Musketeers. Armed with a bayonet to beat cavalry.</string>
 	    <string _locid="110037">Marksmen</string>
 	    <string _locid="110038">Imperial Marksmen</string>
 	    <string _locid="110039">Sharpshooter hitpoints and attack increased, especially against Heavy Infantry.</string>
 	    <string _locid="110040">Veteran Sharpshooter</string>
 	    <string _locid="110041">Marksmen</string>
 	    <string _locid="110042">Imperial Marksmen</string>
+	    <string _locid="110045">Regular attack and hitpoints increased and they deal more damage to Heavy Cavalry at range.</string>
 	    <string _locid="110067">Immigration from the British Isles delivers 2 Homestead Wagons.</string>
 	    <string _locid="110100">4 State Militia</string>
 	    <string _locid="110101">6 State Militia</string>
@@ -311,12 +312,12 @@
 	    <string _locid="260002">TEAM 7 Semi-Fattened Cows</string>
 	    <string _locid="260003">Hire French Napoleon Guns</string>
 	    <string _locid="260004">Ships 5 French Napoleon Guns.</string>
-	    <string _locid="260005">Hire French Zouaves</string>
-	    <string _locid="260006">Ships 9 French Zouave mercenaries.</string>
 	    <string _locid="260005">Imperialism</string>
 	    <string _locid="260006">The highest stage of Capitalism unlocks a medium gold trickle for the rest of the game.</string>
 	    <string _locid="260007">TEAM Socialism</string>
 	    <string _locid="260008">TEAM The creation of a workers' state unlocks a medium gold trickle for the rest of the game.</string>
+	    <string _locid="260009">Hire French Zouaves</string>
+	    <string _locid="260010">Ships 9 French Zouave mercenaries.</string>
 	</Language>
   </StringTable>
 </stringmods>

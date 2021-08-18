@@ -7645,7 +7645,7 @@
     <cost resourcetype="Food">80.0000</cost>
     <cost resourcetype="Gold">20.0000</cost>
     <allowedage>1</allowedage>
-    <armor type="Hand" value="0.3500"/>
+    <armor type="Hand" value="0.4000"/>
     <unittype>LogicalTypeHealed</unittype>
     <unittype>LogicalTypeValidSharpshoot</unittype>
     <unittype>LogicalTypeNeededForVictory</unittype>
@@ -7691,11 +7691,11 @@
     </protoaction>
     <protoaction>
       <name>DefendHandAttack</name>
-      <damage>12.000000</damage>
+      <damage>10.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractCavalry">2.500000</damagebonus>
-      <damagebonus type="AbstractLightInfantry">2.0000000</damagebonus>
+      <damagebonus type="AbstractCavalry">3.000000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">2.2500000</damagebonus>
     </protoaction>
     <protoaction>
       <name>DefendRangedAttack</name>
@@ -7708,19 +7708,19 @@
     </protoaction>
     <protoaction>
       <name>MeleeHandAttack</name>
-      <damage>12.000000</damage>
+      <damage>10.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractCavalry">2.500000</damagebonus>
-      <damagebonus type="AbstractLightInfantry">2.0000000</damagebonus>
+      <damagebonus type="AbstractCavalry">3.000000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">2.2500000</damagebonus>
     </protoaction>
     <protoaction>
       <name>StaggerHandAttack</name>
-      <damage>12.000000</damage>
+      <damage>10.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractCavalry">2.500000</damagebonus>
-      <damagebonus type="AbstractLightInfantry">2.0000000</damagebonus>
+      <damagebonus type="AbstractCavalry">3.000000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">2.2500000</damagebonus>
     </protoaction>
     <protoaction>
       <name>StaggerRangedAttack</name>
@@ -7733,11 +7733,11 @@
     </protoaction>
     <protoaction>
       <name>VolleyHandAttack</name>
-      <damage>12.000000</damage>
+      <damage>10.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractCavalry">2.500000</damagebonus>
-      <damagebonus type="AbstractLightInfantry">2.0000000</damagebonus>
+      <damagebonus type="AbstractCavalry">3.000000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">2.2500000</damagebonus>
     </protoaction>
     <protoaction>
       <name>VolleyRangedAttack</name>
