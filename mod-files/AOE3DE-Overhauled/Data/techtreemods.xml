@@ -7674,10 +7674,10 @@
     <rollovertextid>260017</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="xpMantlet" relativity="Absolute">
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="deMercMantlet" relativity="Absolute">
         <target type="Player"/>
       </effect>
-      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="xpRam" relativity="Absolute">
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="deMercRam" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
