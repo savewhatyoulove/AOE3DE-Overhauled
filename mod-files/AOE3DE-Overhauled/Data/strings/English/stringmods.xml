@@ -331,6 +331,9 @@
 	    <string _locid="260013">State Militia gain increased splash area of effect damage and radius, but reduced range.</string>
 	    <string _locid="260014">Bourbon Distillery</string>
 	    <string _locid="260015">Federal Reserve</string>
+	    <string _locid="260016">Oneida Allies</string>
+	    <string _locid="260017">The Oneida send 6 Rams and 5 Mantlets.</string>
+
 	</Language>
   </StringTable>
 </stringmods>

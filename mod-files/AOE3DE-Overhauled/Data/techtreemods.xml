@@ -7664,13 +7664,14 @@
   </tech>
   <tech name="DEHCIroquoisOneidaSupport" type="Normal">
     <dbid>9523</dbid>
-    <displaynameid>43808</displaynameid>
-    <cost resourcetype="Gold">1000.0000</cost>
+    <displaynameid>260016</displaynameid>
+    <cost resourcetype="Food">500.0000</cost>
+    <cost resourcetype="Wood">500.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>60.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\native\iroquois_siege_party.png</icon>
-    <rollovertextid>43803</rollovertextid>
+    <icon>resources\images\icons\techs\mercs_siege_party.png</icon>
+    <rollovertextid>260017</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="xpMantlet" relativity="Absolute">
