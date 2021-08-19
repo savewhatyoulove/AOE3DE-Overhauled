@@ -171,7 +171,7 @@
 	    <string _locid="110017">Fragile heavy ranged infantry with greater range, melee armor, ranged damage, and speed than other Musketeers. Armed with a bayonet to beat cavalry.</string>
 	    <string _locid="110037">Marksmen</string>
 	    <string _locid="110038">Imperial Marksmen</string>
-	    <string _locid="110039">Sharpshooter hitpoints and attack increased, especially against Heavy Infantry.</string>
+	    <string _locid="110039">Sharpshooter attack, hitpoints, and ranged armor increased</string>
 	    <string _locid="110040">Veteran Sharpshooter</string>
 	    <string _locid="110041">Marksmen</string>
 	    <string _locid="110042">Imperial Marksmen</string>
@@ -325,7 +325,8 @@
 	    <string _locid="260009">Hire French Zouaves</string>
 	    <string _locid="260010">Ships 9 French Zouave mercenaries.</string>
 	    <string _locid="260011">USA Furrier Bonus</string>
-
+	    <string _locid="260012">Scattershot</string>
+	    <string _locid="260013">State Militia gain increased splash area of effect damage and radius, but reduced range.</string>
 	</Language>
   </StringTable>
 </stringmods>

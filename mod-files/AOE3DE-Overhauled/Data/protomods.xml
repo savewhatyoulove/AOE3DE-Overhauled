@@ -8180,7 +8180,7 @@
       <damage>30.000000</damage>
       <damagetype>Ranged</damagetype>
       <minrange>5.000000</minrange>
-      <maxrange>21.000000</maxrange>
+      <maxrange>18.000000</maxrange>
       <rof>4.000000</rof>
       <damagebonus type="AbstractHeavyInfantry">1.500000</damagebonus>
       <damagebonus type="AbstractLightCavalry">3.000000</damagebonus>
@@ -8215,7 +8215,7 @@
       <damage>30.000000</damage>
       <damagetype>Ranged</damagetype>
       <minrange>5.000000</minrange>
-      <maxrange>21.000000</maxrange>
+      <maxrange>18.000000</maxrange>
       <rof>4.000000</rof>
       <damagebonus type="AbstractHeavyInfantry">1.500000</damagebonus>
       <damagebonus type="AbstractLightCavalry">3.000000</damagebonus>
@@ -8239,7 +8239,7 @@
       <damage>30.000000</damage>
       <damagetype>Ranged</damagetype>
       <minrange>5.000000</minrange>
-      <maxrange>21.000000</maxrange>
+      <maxrange>18.000000</maxrange>
       <rof>4.000000</rof>
       <damagebonus type="AbstractHeavyInfantry">1.500000</damagebonus>
       <damagebonus type="AbstractLightCavalry">3.000000</damagebonus>

@@ -682,7 +682,14 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>1</age>
+      <age>0</age>
+    </card>
+    <card>
+      <name>DEHCStateMilitiaSplashDamage</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
     </card>
     <card>
       <name>DEHCContinentalRangers</name>
@@ -1572,6 +1579,7 @@
       <tech x="7.2" y="5.0">HCShipCannons1</tech>
       <tech x="7.2" y="7.0">HCXPShipCulverins2</tech>
       <tech x="7.2" y="7.0">DEHCLongRifles</tech>
+      <tech x="7.2" y="7.0">DEHCStateMilitiaSplashDamage</tech>
       <tech x="7.2" y="7.0">DEHCContinentalRangers</tech>
       <tech x="7.2" y="7.0">DEHCBuffaloSoldiers</tech>
     </obtainabletechs>
@@ -1607,6 +1615,7 @@
       <tech x="7.2" y="5.0">HCShipCannons1</tech>
       <tech x="7.2" y="7.0">HCXPShipCulverins2</tech>
       <tech x="7.2" y="7.0">DEHCLongRifles</tech>
+      <tech x="7.2" y="7.0">DEHCStateMilitiaSplashDamage</tech>
       <tech x="7.2" y="7.0">DEHCContinentalRangers</tech>
       <tech x="7.2" y="7.0">DEHCBuffaloSoldiers</tech>
     </activetechs>

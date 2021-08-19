@@ -6062,7 +6062,7 @@
       <effect type="Data" amount="1.40" subtype="Damage" allactions="1" relativity="BasePercent">
         <target type="ProtoUnit">deRifleman</target>
       </effect>
-      <effect type="Data" amount="0.25" subtype="DamageBonus" unittype="AbstractHeavyInfantry" allactions="1" relativity="Absolute">
+      <effect type="Data" amount="0.05" subtype="Armor" relativity="Absolute">
         <target type="ProtoUnit">deRifleman</target>
       </effect>
     </effects>
@@ -7157,7 +7157,7 @@
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
       <effect type="Data" action="Gather" amount="1.20" subtype="Yield" unittype="ypGroveBuilding" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractVillager</target>
+         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
       <effect type="TextOutput">110130</effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
@@ -7166,4 +7166,47 @@
 
     </effects>
   </tech>
+  <tech name="DEHCStateMilitiaSplashDamage" type="Normal">
+    <dbid>7172</dbid>
+    <displaynameid>260012</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\scattershot.png</icon>
+    <rollovertextid>260013</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" action="VolleyRangedAttack" amount="1.00" subtype="DamageArea" relativity="Absolute">
+        <target type="ProtoUnit">deStateMilitia</target>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="1.00" subtype="DamageArea" relativity="Absolute">
+        <target type="ProtoUnit">deStateMilitia</target>
+      </effect>
+      <effect type="Data" action="DefendRangedAttack" amount="1.00" subtype="DamageArea" relativity="Absolute">
+        <target type="ProtoUnit">deStateMilitia</target>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="1.30" subtype="DamageCap" relativity="BasePercent">
+        <target type="ProtoUnit">deStateMilitia</target>
+      </effect>
+      <effect type="Data" action="DefendRangedAttack" amount="1.30" subtype="DamageCap" relativity="BasePercent">
+        <target type="ProtoUnit">deStateMilitia</target>
+      </effect>
+      <effect type="Data" action="VolleyRangedAttack" amount="1.30" subtype="DamageCap" relativity="BasePercent">
+        <target type="ProtoUnit">deStateMilitia</target>
+      </effect>
+      <effect type="Data" action="DefendRangedAttack" amount="-2.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deStateMilitia</target>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="-2.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deStateMilitia</target>
+      </effect>
+      <effect type="Data" action="VolleyRangedAttack" amount="-2.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deStateMilitia</target>
+      </effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+
 </techtreemods>
