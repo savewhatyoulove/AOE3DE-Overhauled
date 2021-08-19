@@ -6126,8 +6126,8 @@
     <dbid>7186</dbid>
     <displaynameid>110432</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
-    <cost resourcetype="Food">1000.0000</cost>
-    <cost resourcetype="Wood">1000.0000</cost>
+    <cost resourcetype="Food">750.0000</cost>
+    <cost resourcetype="Wood">750.0000</cost>
     <researchpoints>60.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\americans\legion_kovat.png</icon>
@@ -6135,7 +6135,7 @@
     <flag>HomeCity</flag>
     <effects>
       <effect type="TextOutputTechName">110130</effect>
-      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="deLegionMagyarHussar" relativity="Absolute">
+      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="deLegionMagyarHussar" relativity="Absolute">
         <target type="Player"/>
       </effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
@@ -6628,10 +6628,10 @@
     <flag>HomeCity</flag>
     <flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</flag>
     <effects>
-      <effect tech="deCardIgnoreBuildLimit" type="Data" amount="10.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="SaloonOutlawPistol" relativity="Absolute">
+      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="SaloonOutlawPistol" relativity="Absolute">
         <target type="Player"/>
       </effect>
-      <effect tech="deCardIgnoreBuildLimit" type="Data" amount="12.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="PetCougar" relativity="Absolute">
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="PetCougar" relativity="Absolute">
         <target type="Player"/>
       </effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
@@ -6643,7 +6643,6 @@
       <effect type="Data" amount="1.00" subtype="AddTrain" unittype="PetCougar" relativity="Absolute">
         <target type="ProtoUnit">SaloonOutlawPistol</target>
       </effect>
-
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCAlaskaPurchase" type="Normal">
@@ -6797,6 +6796,91 @@
       </effect>
     </effects>
   </tech>
+  <tech name="DEHCShipSloops1" type="Normal">
+    <effects>
+    <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipSteamers1" type="Normal">
+    <effects>
+    <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipIroncladsSteamers1" type="Normal">
+    <effects>
+    <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCShipFrigates" type="Normal">
+    <effects>
+    <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCNavalGunners" type="Normal">
+    <effects>
+    <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCAdmirality" type="Normal">
+    <effects>
+    <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCMississippiSteamers" type="Normal">
+    <effects>
+    <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCVirginiaOak" type="Normal">
+    <effects>
+    <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCRenoGang" type="Normal">
+    <effects>
+    <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCXPDanceHall" type="Normal">
+    <effects>
+    <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCHireManilamen" type="Normal">
+    <effects>
+    <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCHireManilamenFleet" type="Normal">
+    <effects>
+    <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+
   <tech mergeMode='replace' name="DEHCFedPlymouthSettlers" type="Normal">
     <dbid>7117</dbid>
     <displaynameid>110297</displaynameid>
@@ -7295,7 +7379,7 @@
   </tech>
   <tech name="HCRoyalMintAmericans" type="Normal">
     <dbid>9514</dbid>
-    <displaynameid>260016</displaynameid>
+    <displaynameid>260015</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -7563,6 +7647,36 @@
         <target type="ProtoUnit">AbstractFishingBoat</target>
       </effect>
      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="NatGuerillaWars" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="Data" action="BuildingAttack" amount="10.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">NatSharktoothBowman</target>
+      </effect>
+      <effect mergeMode='add' type="Data" action="BuildingAttack" amount="10.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deNatMercSharktoothBowman</target>
+      </effect>
+
+    </effects>
+  </tech>
+  <tech name="DEHCIroquoisOneidaSupport" type="Normal">
+    <dbid>9523</dbid>
+    <displaynameid>43808</displaynameid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\iroquois_siege_party.png</icon>
+    <rollovertextid>43803</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="xpMantlet" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="xpRam" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>

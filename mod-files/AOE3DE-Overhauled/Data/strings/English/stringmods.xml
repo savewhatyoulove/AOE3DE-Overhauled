@@ -165,7 +165,7 @@
 	    <string _locid="102849">Lifidi Knights and Raiders train faster. Raiders deal more damage to Villagers and Lifidi Knights gain increased area damage radii, especially in trample mode.</string>
 	    <string _locid="102928">Javelin Rider armor and attack increased. Oromo Riders deal more damage, especially to skirmishers and foot archers.</string>
 	    <string _locid="103347">Receive a shipment of 4 Villagers for each Palace you currently have built.</string>
-	    <string _locid="110001" symbol="cStringCivRolloverAmericans">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nFederal states unlock two new cards per age and two Factory cards in Industrial Age. Shipments are earned more quickly and you receive a free XP crate with most shipments. Lower Settler build limit, and cannot ship resource crates, but economic improvement shipments are more powerful. Generals can build Forts instead of Town Centers. Levies can be called repeatedly from multiple buildings. Military units slowly heal over time outside of combat. Starts with a Fattened Sheep, a free shipment and a Homestead Wagon instead of resource crates. \n&lt;color=1.0, 1.0, 0.0&gt;National guard units:&lt;/color&gt;Sharpshooters (Marksmen)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nCarbine Cavalry, Gatling Gun, Ironclad, Minuteman, Regular, Sharpshooter, Sloop, State Militia, Steamer\n\nThe "land of opportunity" provided cheap land for Western European Colonizers to plunder, creating the famous melting pot of cultures by eliminating their individual ethnic identities in service of a national "American Identity". Expanding from militia forces skilled in skirmishing tactics and marksmanship to a professional army, the United States of America ensured its independence and impressive road to prosperity at the expense of non-white peoples.</string>
+	    <string _locid="110001" symbol="cStringCivRolloverAmericans">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nFederal states unlock two new cards per age and two Factory cards in Industrial Age. Shipments are earned more quickly and you receive a free XP crate with most shipments. Lower Settler build limit, and cannot ship resource crates, but economic improvement shipments are more powerful. Generals can build Forts instead of Town Centers. Levies can be called repeatedly from multiple buildings. Military units slowly heal over time outside of combat. Starts with a Fattened Sheep, an XP crate, and a Homestead Wagon instead of resource crates. \n&lt;color=1.0, 1.0, 0.0&gt;National guard units:&lt;/color&gt;Sharpshooters (Marksmen)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nCarbine Cavalry, Gatling Gun, Ironclad, Minuteman, Regular, Sharpshooter, Sloop, State Militia, Steamer\n\nThe "land of opportunity" provided ample land for Settlers to plunder, creating the famous melting pot of cultures by eroding individual ethnic identities. Expanding from militia forces skilled in skirmishing tactics and marksmanship to a professional army, the United States of America ensured its independence and impressive road to prosperity for the few.</string>
 	    <string _locid="110009">Skirmisher with a powerful short-ranged splash attack.</string>
 	    <string _locid="110013">Fragile skirmisher with a slow, but powerful long-ranged attack. Good against infantry.</string>
 	    <string _locid="110017">Fragile heavy ranged infantry with greater range, melee armor, ranged damage, and speed than other Musketeers. Armed with a bayonet to beat cavalry.</string>
@@ -173,8 +173,8 @@
 	    <string _locid="110038">Imperial Marksmen</string>
 	    <string _locid="110039">Sharpshooter attack, hitpoints, and ranged armor increased</string>
 	    <string _locid="110040">Veteran Sharpshooter</string>
-	    <string _locid="110041">Marksmen</string>
-	    <string _locid="110042">Imperial Marksmen</string>
+	    <string _locid="110041">Marksman</string>
+	    <string _locid="110042">Imperial Marksman</string>
 	    <string _locid="110045">Regular attack and hitpoints increased and they deal more damage to Heavy Cavalry at range.</string>
 	    <string _locid="110067">Immigration from the British Isles delivers 2 Homestead Wagons.</string>
 	    <string _locid="110100">4 State Militia</string>
@@ -204,12 +204,14 @@
 	    <string _locid="110415">Greatly increases the attack of ranged infantry.</string>
 	    <string _locid="110417">Greatly increases the hitpoints of cavalry.</string>
 	    <string _locid="110419">Ships an Ironclad containing Regulars.</string>
-	    <string _locid="110431">Ships 12 Magyar Hussars.</string>
+	    <string _locid="110431">Ships 10 Magyar Hussars.</string>
 	    <string _locid="110453">Villagers gather wood faster and trees last longer.\n • Villager: Gather Work Rate for Tree and Grove +25%; Tree Yield +25%</string>
 	    <string _locid="110455">Ships 2 Homestead Wagons. Villagers gather food from Mills faster.\n • Villager: Gather Work Rate for Mill, Farm, Rice Paddy, Field +20%</string>
 	    <string _locid="110483">Ships 12 Polar Bears which will fight your enemies. All currently existing Town Centers spawn 1 Silver Prospector Wagon, which can open a Silver Mine.</string>
 	    <string _locid="110484">Alaska Purchase</string>
 	    <string _locid="110487">Ships 5 Sharpshooters and 5 Cree Trackers. Also upgrades Sharpshooters to Marksmen and Cree Trackers to Champion and allows you to train them from the Native Embassy.</string>
+	    <string _locid="110489">Ships 15 Elite Seminole Sharktooth Guerrillas, who are good against infantry and buildings.</string>
+	    <string _locid="110490">Captured Seminole Guerrillas</string>
 	    <string _locid="110527">Ships 2 State Militia and 5 Regulars and researches their Veteran upgrades.</string>
 	    <string _locid="110542">Enables an additional Ironclad to be constructed and grants them additional health.</string>
 	    <string _locid="110562">Slightly increases the attack and hitpoints of all military units.</string>
