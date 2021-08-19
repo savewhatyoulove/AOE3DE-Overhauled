@@ -248,7 +248,8 @@
     <townstartingunit>Settler</townstartingunit>
     <townstartingunit>Settler</townstartingunit>
     <townstartingunit>deHomesteadWagon</townstartingunit>
-    <townstartingunit>deAutoCow</townstartingunit>
+    <townstartingunit>deAutoSheep</townstartingunit>
+    <townstartingunit>deCrateofXP</townstartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>

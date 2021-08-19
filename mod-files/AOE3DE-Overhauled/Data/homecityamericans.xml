@@ -66,6 +66,15 @@
       <age>2</age>
     </card>
     <card>
+      <name>DEHCImmigrantsSwedish</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <age>1</age>
+      <prereqtech>DEHCImmigrantsFrench</prereqtech>
+      <displayunitcount>4</displayunitcount>
+      <infiniteinlastage>0</infiniteinlastage>
+    </card>
+    <card>
       <name>DEHCImmigrantsIrish</name>
       <maxcount>1</maxcount>
       <level>25</level>
@@ -273,8 +282,8 @@
       <displayunitcount>3</displayunitcount>
     </card>
     <card>
-      <name>HCShipSheep1</name>
-      <maxcount>-1</maxcount>
+      <name>DEHCShipSheep1Americans</name>
+      <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
@@ -294,7 +303,7 @@
       <name>DEHCShipSheep3</name>
       <maxcount>-1</maxcount>
       <level>0</level>
-      <prereqtech>HCShipSheep1</prereqtech>
+      <prereqtech>DEHCShipSheep1Americans</prereqtech>
       <age>3</age>
       <displayunitcount>16</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -312,7 +321,7 @@
       <name>DEHCShipCows3</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCShipSheep1</prereqtech>
+      <prereqtech>DEHCShipSheep1Americans</prereqtech>
       <age>3</age>
       <displayunitcount>15</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -1028,7 +1037,6 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
-      <displayunitcount>400</displayunitcount>
     </card>
     <card>
       <name>DEHCMinneapolisMills</name>
@@ -1036,7 +1044,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>800</displayunitcount>
+      <displayunitcount>2</displayunitcount>
     </card>
     <card>
       <name>DEHCShipSloopsRepeat1</name>
@@ -1333,7 +1341,6 @@
       <name>$$71332$$Beginner</name>
       <cards>
         <card dbid="3382">HCXPAdvancedBalloon</card>
-        <card dbid="2218">HCShipSheep1</card>
         <card dbid="7028">DEHCShipRegulars1</card>
         <card dbid="814">HCUnlockFort</card>
         <card dbid="2220">HCShipCows</card>
@@ -1356,7 +1363,6 @@
       <default/>
       <cards>
         <card dbid="3382">HCXPAdvancedBalloon</card>
-        <card dbid="2218">HCShipSheep1</card>
         <card dbid="7028">DEHCShipRegulars1</card>
         <card dbid="814">HCUnlockFort</card>
         <card dbid="2220">HCShipCows</card>
@@ -1472,7 +1478,7 @@
       <tech x="2.5" y="6.0">DEHCImmigrantsIrish</tech>
       <tech x="3.8" y="3.0">DEHCImmigrantsSwedish</tech>
       <tech x="6.7" y="3.0">DEHCImmigrantsChinese</tech>
-      <tech x="4.3" y="2.0">HCShipSheep1</tech>
+      <tech x="4.3" y="2.0">DEHCShipSheep1Americans</tech>
       <tech x="4.3" y="2.0">HCShipSheep2</tech>
       <tech x="4.3" y="2.0">DEHCShipSheep3</tech>
       <tech x="5.0" y="2.0">HCShipCows</tech>
@@ -1499,7 +1505,7 @@
       <tech x="2.5" y="6.0">DEHCImmigrantsIrish</tech>
       <tech x="3.8" y="3.0">DEHCImmigrantsSwedish</tech>
       <tech x="6.7" y="3.0">DEHCImmigrantsChinese</tech>
-      <tech x="4.3" y="2.0">HCShipSheep1</tech>
+      <tech x="4.3" y="2.0">DEHCShipSheep1Americans</tech>
       <tech x="4.3" y="2.0">HCShipSheep2</tech>
       <tech x="4.3" y="2.0">DEHCShipSheep3</tech>
       <tech x="5.0" y="2.0">HCShipCows</tech>
@@ -1645,7 +1651,6 @@
       <tech x="6.7" y="4.0">HCAdvancedDock</tech>
       <tech x="6.7" y="4.0">HCAdvancedTradingPost</tech>
       <tech x="6.7" y="4.0">DEHCAdvancedSaloon</tech>
-      <tech x="6.7" y="4.0">DEHCShotgunMessengers</tech>
       <tech x="4.6" y="1.0">DEHCArkansasPost</tech>
       <tech x="4.6" y="1.0">DEHCShipHomesteadWagons1</tech>
       <tech x="7.2" y="7.0">DEHCSpringfieldArmory</tech>
@@ -1675,7 +1680,6 @@
       <tech x="6.7" y="4.0">HCAdvancedDock</tech>
       <tech x="6.7" y="4.0">HCAdvancedTradingPost</tech>
       <tech x="6.7" y="4.0">DEHCAdvancedSaloon</tech>
-      <tech x="6.7" y="4.0">DEHCShotgunMessengers</tech>
       <tech x="4.6" y="1.0">DEHCArkansasPost</tech>
       <tech x="4.6" y="1.0">DEHCShipHomesteadWagons1</tech>
       <tech x="7.2" y="7.0">DEHCSpringfieldArmory</tech>

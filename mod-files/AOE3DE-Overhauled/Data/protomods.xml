@@ -7685,7 +7685,7 @@
     <tactics>musketBayonet.tactics</tactics>
     <protoaction>
       <name>BuildingAttack</name>
-      <damage>26.000000</damage>
+      <damage>20.000000</damage>
       <damagetype>Siege</damagetype>
       <rof>3.000000</rof>
     </protoaction>
@@ -7749,7 +7749,7 @@
       <damagebonus type="AbstractCoyoteMan">1.2500000</damagebonus>
     </protoaction>
   </unit>
-  <unit id="2999" name="deAutoCow">
+  <unit id="2999" name="deAutoSheep">
     <dbid>2599</dbid>
     <displaynameid>101087</displaynameid>
     <obstructionradiusx>0.6900</obstructionradiusx>
@@ -7760,25 +7760,25 @@
     <movementtype>land</movementtype>
     <turnrate>18.0000</turnrate>
     <wanderdistance>0</wanderdistance>
-<animfile>units\animals\cow\cow.xml</animfile>
+    <animfile>units\animals\sheep\sheep.xml</animfile>
     <impacttype>Animal</impacttype>
-    <icon>resources\art\units\animals\cow\cow_icon_64x64.png</icon>
-    <portraiticon>resources\art\units\animals\cow\cow_portrait.png</portraiticon>
-    <rollovertextid>28185</rollovertextid>
-    <shortrollovertextid>28184</shortrollovertextid>
+    <icon>resources\art\units\animals\sheep\sheep_icon_64.png</icon>
+    <portraiticon>resources\art\units\animals\sheep\sheep_icon_portrait.png</portraiticon>
+    <rollovertextid>22828</rollovertextid>
+    <shortrollovertextid>25709</shortrollovertextid>
     <initialhitpoints>10.0000</initialhitpoints>
     <maxhitpoints>10.0000</maxhitpoints>
     <los>1.0000</los>
     <unitaitype>HerdAnimal</unitaitype>
     <trainpoints>15.0000</trainpoints>
-    <sharedbuildlimitunit>Cow</sharedbuildlimitunit>
+    <sharedbuildlimitunit>Sheep</sharedbuildlimitunit>
     <sharedbuildlimitunittypes>
-      <unittype>AbstractBovine</unittype>
+      <unittype>AbstractCaprine</unittype>
     </sharedbuildlimitunittypes>
     <bounty>0.0000</bounty>
     <cost resourcetype="Food">100.0000</cost>
-    <carrycapacity resourcetype="Food">500.0001</carrycapacity>
-    <initialresource resourcetype="Food">500.0000</initialresource>
+    <carrycapacity resourcetype="Food">300.0001</carrycapacity>
+    <initialresource resourcetype="Food">300.0000</initialresource>
     <gatherratemultiplier>1.5000</gatherratemultiplier>
     <resourcesubtype>meat</resourcesubtype>
     <allowedage>0</allowedage>
@@ -7786,7 +7786,7 @@
     <minimapcolor red="1.0000" blue="1.0000" green="1.0000"/>
     <gathererlimit>8</gathererlimit>
     <sharedselectionunittypes>
-      <unittype>Cow</unittype>
+      <unittype>Sheep</unittype>
     </sharedselectionunittypes>
     <unittype>LogicalTypeMinimapFilterEconomic</unittype>
     <unittype>LogicalTypeEasySelectAvoid</unittype>
@@ -7800,7 +7800,7 @@
     <unittype>Herdable</unittype>
     <unittype>Food</unittype>
     <unittype>NatureClass</unittype>
-    <unittype>AbstractBovine</unittype>
+    <unittype>AbstractCaprine</unittype>
     <unittype>DrawsGatherers</unittype>
     <flag>CollidesWithProjectiles</flag>
     <flag>ConstrainOrientation</flag>

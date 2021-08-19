@@ -217,6 +217,9 @@
       <effect tech="deAddFree400CoinToInventory" type="Data" amount="400.00" subtype="ResourceIfTechObtainable" resource="Gold" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="YPHCPioneersIndians" type="Normal">
@@ -2566,6 +2569,9 @@
   <tech name="HCHeavyFortifications" type="Normal">
     <effects>
       <effect mergeMode='add' type="TechStatus" status="active">dePaititi</effect>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <!-- Sweden Techs --> 
@@ -4926,9 +4932,6 @@
       <effect type="TechStatus" status="active">AAStandardStartingTechs</effect>
       <effect type="TechStatus" status="active">DEUSLevy</effect>
       <effect type="TechStatus" status="active">XPTrickle</effect>
-      <effect type="Data" amount="1.00" subtype="Resource" resource="Ships" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">TownCenter</target>
       </effect>
@@ -5261,6 +5264,28 @@
       </effect>
     </effects>
   </tech>
+  <tech name="DEHCShipSheep1Americans" type="Normal">
+    <dbid>9510</dbid>
+    <displaynameid>79864</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\animals\sheep\sheep_icon_64.png</icon>
+    <rollovertextid>79863</rollovertextid>
+    <flag>HomeCity</flag>
+    <flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</flag>
+    <effects>
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="Sheep" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deHomesteadWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
   <tech name="HCShipCows" type="Normal">
     <effects>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
@@ -5386,6 +5411,118 @@
         <target type="Player"/>
       </effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCNativeLore" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCXPBloodBrothers" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCNativeTreaties" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCImprovedBuildings" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCKosciuszkoFortifications" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCUnlockFort" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipHomesteadWagons1" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCHamiltonianEconomics" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCAdvancedTradingPost" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCAdvancedDock" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCAdvancedSaloon" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCXPShipSpies1" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCXPShipSpies2" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCXPAgents" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCXPRanching" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCMinutemenCompanies" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -6876,6 +7013,157 @@
       <effect type="Data" action="VolleyRangedAttack" amount="0.25" subtype="DamageBonus" unittype="AbstractCoyoteMan" relativity="Absolute">
         <target type="ProtoUnit">deRegular</target>
       </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCMinneapolisMills" type="Normal">
+    <dbid>7199</dbid>
+    <displaynameid>110456</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\minneapolis_mills.png</icon>
+    <rollovertextid>110455</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="deHomesteadWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="Mill" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.20" subtype="WorkRateSpecific" resource="Food" unittype="ypRicePaddy" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCMinneapolisMillsShadow" type="Normal">
+    <dbid>7201</dbid>
+    <displaynameid>110456</displaynameid>
+    <researchpoints>0.0000</researchpoints>
+    <status>OBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">DEHCMinneapolisMills</techstatus>
+    </prereqs>
+    <effects>
+     <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCLumberMills" type="Normal">
+    <dbid>7198</dbid>
+    <displaynameid>110454</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\washington_lumber_mills.png</icon>
+    <rollovertextid>110453</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="Tree" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="ypGroveBuilding" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.25" subtype="Yield" unittype="Tree" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.25" subtype="Yield" unittype="ypGroveBuilding" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCLumberMillsShadow" type="Normal">
+    <dbid>7200</dbid>
+    <displaynameid>110479</displaynameid>
+    <researchpoints>0.0000</researchpoints>
+    <status>OBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">DEHCLumberMills</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech name="HCFurrier" type="Normal">
+    <effects>
+	<effect mergeMode='add' type="TechStatus" status="obtainable">HCFurrierUSAExtra</effect>
+    </effects>
+  </tech>
+
+  <tech name="HCFurrierUSAExtra" type="Normal">
+    <dbid>9509</dbid>
+    <displaynameid>260011</displaynameid>
+    <researchpoints>0.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">DEAge0Americans</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="AbstractBerryBush" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.025" subtype="Yield" unittype="Huntable" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.05" subtype="Yield" unittype="AbstractBerryBush" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="ypBerryBuilding" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="deTorpBush2" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.05" subtype="Yield" unittype="deTorpBush2" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCImmigrantsSwedish" type="Normal">
+    <dbid>7172</dbid>
+    <displaynameid>110219</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <cost resourcetype="Wood">300.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\immigrants\immigrants_swedish.png</icon>
+    <rollovertextid>110220</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="active">DEHCDominions</effect>
+      <effect type="TechStatus" status="active">DEHCImmigrantsStateCapitolShadow</effect>
+      <effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="Tree" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="ypGroveBuilding" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.20" subtype="Yield" unittype="Tree" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.20" subtype="Yield" unittype="ypGroveBuilding" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="TextOutput">110130</effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+
     </effects>
   </tech>
 </techtreemods>

@@ -165,7 +165,7 @@
 	    <string _locid="102849">Lifidi Knights and Raiders train faster. Raiders deal more damage to Villagers and Lifidi Knights gain increased area damage radii, especially in trample mode.</string>
 	    <string _locid="102928">Javelin Rider armor and attack increased. Oromo Riders deal more damage, especially to skirmishers and foot archers.</string>
 	    <string _locid="103347">Receive a shipment of 4 Villagers for each Palace you currently have built.</string>
-	    <string _locid="110001" symbol="cStringCivRolloverAmericans">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nFederal states unlock two new cards per age and two Factory cards in Industrial Age. Shipments are earned more quickly and you receive a free XP crate with most shipments. Lower Settler build limit, and cannot ship resource crates, but economic improvement shipments are more powerful. Generals can build Forts instead of Town Centers. Levies can be called repeatedly from multiple buildings. Military units slowly heal over time when outside of combat. Starts with a Fattened Cow, a free shipment and a Homestead Wagon instead of resource crates. \n&lt;color=1.0, 1.0, 0.0&gt;National guard units:&lt;/color&gt;Sharpshooters (Marksmen)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nCarbine Cavalry, Gatling Gun, Ironclad, Minuteman, Regular, Sharpshooter, Sloop, State Militia, Steamer\n\nThe "land of opportunity" provided cheap land for Western European Colonizers to plunder, creating the famous melting pot of cultures by eliminating their individual ethnic identities in service of a national "American Identity". Expanding from militia forces skilled in skirmishing tactics and marksmanship to a professional army, the United States of America ensured its independence and impressive road to prosperity at the expense of non-white peoples.</string>
+	    <string _locid="110001" symbol="cStringCivRolloverAmericans">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nFederal states unlock two new cards per age and two Factory cards in Industrial Age. Shipments are earned more quickly and you receive a free XP crate with most shipments. Lower Settler build limit, and cannot ship resource crates, but economic improvement shipments are more powerful. Generals can build Forts instead of Town Centers. Levies can be called repeatedly from multiple buildings. Military units slowly heal over time outside of combat. Starts with a Fattened Sheep, a free shipment and a Homestead Wagon instead of resource crates. \n&lt;color=1.0, 1.0, 0.0&gt;National guard units:&lt;/color&gt;Sharpshooters (Marksmen)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nCarbine Cavalry, Gatling Gun, Ironclad, Minuteman, Regular, Sharpshooter, Sloop, State Militia, Steamer\n\nThe "land of opportunity" provided cheap land for Western European Colonizers to plunder, creating the famous melting pot of cultures by eliminating their individual ethnic identities in service of a national "American Identity". Expanding from militia forces skilled in skirmishing tactics and marksmanship to a professional army, the United States of America ensured its independence and impressive road to prosperity at the expense of non-white peoples.</string>
 	    <string _locid="110009">Skirmisher with a powerful short-ranged splash attack.</string>
 	    <string _locid="110013">Fragile skirmisher with a slow, but powerful long-ranged attack. Good against infantry.</string>
 	    <string _locid="110017">Fragile heavy ranged infantry with greater range, melee armor, ranged damage, and speed than other Musketeers. Armed with a bayonet to beat cavalry.</string>
@@ -194,6 +194,10 @@
 	    <string _locid="110189">French immigration improves the gather rate of all of your Villagers and delivers 2 Coureur des Bois.</string>
 	    <string _locid="110204">Irish immigration delivers 3 Settlers, 1 Homestead Wagon, and improves Settler gather rate on Mills.</string>
 	    <string _locid="110209">Chinese immigration delivers 3 Fattened Goats and Settlers gather from livestock faster.</string>
+	    <string _locid="110220">Swedish immigration delivers 4 Torp Wagons. Torps gain more hitpoints and a ranged attack. Additionally, Villagers gather all Wood faster and Trees last longer.</string>
+    <string _locid="110221">Boston Tea Party</string>
+    <string _locid="110222">Hulk. Advanced armored warship which sometimes takes no damage from incoming attacks</string>
+
 	    <string _locid="110296">Ships 1 Turkey Scout and Villagers gather Food more quickly. All existing Town Centers spawn 3 Pilgrims.</string>
 	    <string _locid="110328">Ships 14 Zouave mercenaries.</string>
 	    <string _locid="110413">Increases the range of Sharpshooters and enables them to be trained in the Commerce Age.</string>
@@ -201,6 +205,8 @@
 	    <string _locid="110417">Greatly increases the hitpoints of cavalry.</string>
 	    <string _locid="110419">Ships an Ironclad containing Regulars.</string>
 	    <string _locid="110431">Ships 12 Magyar Hussars.</string>
+	    <string _locid="110453">Villagers gather wood faster and trees last longer.\n • Villager: Gather Work Rate for Tree and Grove +20%; Tree Yield +20%</string>
+	    <string _locid="110455">Ships 2 Homestead Wagons. Villagers gather food from Mills faster.\n • Villager: Gather Work Rate for Mill, Farm, Rice Paddy, Field +20%</string>
 	    <string _locid="110483">Ships 12 Polar Bears which will fight your enemies. All currently existing Town Centers spawn 1 Silver Prospector Wagon, which can open a Silver Mine.</string>
 	    <string _locid="110484">Alaska Purchase</string>
 	    <string _locid="110487">Ships 5 Sharpshooters and 5 Cree Trackers. Also upgrades Sharpshooters to Marksmen and Cree Trackers to Champion and allows you to train them from the Native Embassy.</string>
@@ -318,6 +324,8 @@
 	    <string _locid="260008">TEAM The creation of a workers' state unlocks a medium gold trickle for the rest of the game.</string>
 	    <string _locid="260009">Hire French Zouaves</string>
 	    <string _locid="260010">Ships 9 French Zouave mercenaries.</string>
+	    <string _locid="260011">USA Furrier Bonus</string>
+
 	</Language>
   </StringTable>
 </stringmods>
