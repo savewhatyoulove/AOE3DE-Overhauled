@@ -195,11 +195,12 @@
 	    <string _locid="110204">Irish immigration delivers 3 Settlers, 1 Homestead Wagon, and improves Settler gather rate on Mills.</string>
 	    <string _locid="110209">Chinese immigration delivers 3 Fattened Goats and Settlers gather from livestock faster.</string>
 	    <string _locid="110220">Swedish immigration delivers 4 Torp Wagons. Torps gain more hitpoints and a ranged attack. Additionally, Villagers gather all Wood faster and Trees last longer.</string>
-    <string _locid="110221">Boston Tea Party</string>
-    <string _locid="110222">Hulk. Advanced armored warship which sometimes takes no damage from incoming attacks</string>
-
+	    <string _locid="110221">Boston Tea Party</string>
+	    <string _locid="110222">Hulk. Advanced armored warship which sometimes takes no damage from incoming attacks</string>
+	    <string _locid="110290">Ships 1 State Capitol Wagon and its improvements are cheaper and research more quickly (Excluding Spies and Blockade).\n • State Capitol, Oregon Trail, Statehood: -35% Cost and Research Time.\n • Capitol Improvements: -10% Cost and Research Time.</string>
 	    <string _locid="110296">Ships 1 Turkey Scout and Villagers gather Food more quickly. All existing Town Centers spawn 3 Pilgrims.</string>
 	    <string _locid="110328">Ships 14 Zouave mercenaries.</string>
+	    <string _locid="110334">Fishing Boats are cheaper, train more quickly, and move faster.</string>
 	    <string _locid="110413">Increases the range of Sharpshooters and enables them to be trained in the Commerce Age.</string>
 	    <string _locid="110415">Greatly increases the attack of ranged infantry.</string>
 	    <string _locid="110417">Greatly increases the hitpoints of cavalry.</string>

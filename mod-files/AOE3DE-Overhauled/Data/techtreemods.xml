@@ -7662,6 +7662,85 @@
 
     </effects>
   </tech>
+  <tech mergeMode='replace' name="ImpLargeScaleAgricultureAmericans" type="Normal">
+    <dbid>7223</dbid>
+    <displaynameid>110012</displaynameid>
+    <cost resourcetype="Wood">1000.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\iowa_farmlands.png</icon>
+    <rollovertextid>31529</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" action="Gather" amount="1.50" subtype="WorkRate" unittype="Mill" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.50" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.50" subtype="WorkRateSpecific" resource="Food" unittype="ypRicePaddy" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="ImpDeforestationAmericans" type="Normal">
+    <dbid>7224</dbid>
+    <displaynameid>110008</displaynameid>
+    <cost resourcetype="Food">1000.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\pine_tree_state.png</icon>
+    <rollovertextid>32361</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" action="Gather" amount="1.50" subtype="WorkRate" unittype="Tree" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.50" subtype="WorkRate" unittype="ypGroveBuilding" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DECapitolGoldRush" type="Normal">
+    <dbid>7051</dbid>
+    <displaynameid>110137</displaynameid>
+    <cost resourcetype="Food">1000.0000</cost>
+    <cost resourcetype="Wood">1000.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\colorado_gold_rush.png</icon>
+    <rollovertextid>110136</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" action="Gather" amount="1.50" subtype="WorkRate" unittype="Plantation" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.50" subtype="WorkRate" unittype="AbstractMine" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.50" subtype="WorkRate" unittype="AbstractWhale" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractFishingBoat</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.50" subtype="WorkRate" unittype="deMountainMonastery" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.50" subtype="WorkRateSpecific" resource="Gold" unittype="ypRicePaddy" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+
   <tech name="DEHCIroquoisOneidaSupport" type="Normal">
     <dbid>9523</dbid>
     <displaynameid>260016</displaynameid>
@@ -7680,6 +7759,138 @@
       <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="deMercRam" relativity="Absolute">
         <target type="Player"/>
       </effect>
+     <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCFedGeneralAssembly" type="Normal">
+    <dbid>7115</dbid>
+    <displaynameid>110291</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\federal\vg_virginia_general_assembly.png</icon>
+    <rollovertextid>110290</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deStateCapitolWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">deStateCapitol</target>
+      </effect>
+      <effect type="Data" amount="-1.00" subtype="AllowedAge" relativity="Absolute">
+        <target type="ProtoUnit">deStateCapitol</target>
+      </effect>
+      <effect type="Data" amount="0.65" subtype="ResearchPoints" relativity="Percent">
+        <target type="Tech">DEStatehood</target>
+      </effect>
+      <effect type="Data" amount="0.65" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEStatehood</target>
+      </effect>
+      <effect type="Data" amount="0.65" subtype="ResearchPoints" relativity="Percent">
+        <target type="Tech">DEConstitution</target>
+      </effect>
+      <effect type="Data" amount="0.65" subtype="Cost" resource="Food" relativity="Percent">
+        <target type="Tech">DEConstitution</target>
+      </effect>
+      <effect type="Data" amount="0.65" subtype="ResearchPoints" relativity="Percent">
+        <target type="Tech">DEOregonTrail</target>
+      </effect>
+      <effect type="Data" amount="0.65" subtype="Cost" resource="Wood" relativity="Percent">
+        <target type="Tech">DEOregonTrail</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">ImpImmigrantsAmericans</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="ResearchPoints" relativity="Percent">
+        <target type="Tech">ImpImmigrantsAmericans</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="Cost" resource="Wood" relativity="Percent">
+        <target type="Tech">ImpLargeScaleAgricultureAmericans</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">ImpLargeScaleAgricultureAmericans</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="ResearchPoints" relativity="Percent">
+        <target type="Tech">ImpLargeScaleAgricultureAmericans</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="Cost" resource="Food" relativity="Percent">
+        <target type="Tech">ImpDeforestationAmericans</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">ImpDeforestationAmericans</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="ResearchPoints" relativity="Percent">
+        <target type="Tech">ImpDeforestationAmericans</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="Cost" resource="Food" relativity="Percent">
+        <target type="Tech">DECapitolGoldRush</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="Cost" resource="Wood" relativity="Percent">
+        <target type="Tech">DECapitolGoldRush</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="ResearchPoints" relativity="Percent">
+        <target type="Tech">DECapitolGoldRush</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="ResearchPoints" relativity="Percent">
+        <target type="Tech">DECapitolCadets</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="Cost" resource="Food" relativity="Percent">
+        <target type="Tech">DECapitolCadets</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="ResearchPoints" relativity="Percent">
+        <target type="Tech">DECapitolGeneral</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="Cost" resource="Food" relativity="Percent">
+        <target type="Tech">DECapitolGeneral</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="Cost" resource="Food" relativity="Percent">
+        <target type="Tech">ImpLegendaryNatives</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="Cost" resource="Wood" relativity="Percent">
+        <target type="Tech">ImpLegendaryNatives</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="ResearchPoints" relativity="Percent">
+        <target type="Tech">ImpLegendaryNatives</target>
+      </effect>
+     <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCFedTextileMill" type="Normal">
+    <dbid>7137</dbid>
+    <displaynameid>110335</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\federal\ri_slater_textile_mill.png</icon>
+    <rollovertextid>110334</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="-20.00" subtype="Cost" resource="Wood" relativity="Absolute">
+        <target type="ProtoUnit">FishingBoat</target>
+      </effect>
+      <effect type="Data" amount="0.70" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">FishingBoat</target>
+      </effect>
+      <effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+        <target type="ProtoUnit">FishingBoat</target>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+     <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCFedCulpeperMinutemen" type="Normal">
+    <effects>
+     <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+
     </effects>
   </tech>
 
