@@ -921,69 +921,69 @@
       <age>3</age>
     </card>
     <card>
-      <name>HCFishMarket</name>
+      <name>HCFishMarketAmericans</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
     </card>
     <card>
-      <name>HCRenderingPlant</name>
+      <name>HCRenderingPlantAmericans</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCFishMarket</prereqtech>
+      <prereqtech>HCFishMarketAmericans</prereqtech>
       <age>1</age>
     </card>
     <card>
-      <name>HCXPWhaleOil</name>
+      <name>HCXPWhaleOilAmericans</name>
       <maxcount>1</maxcount>
       <level>40</level>
-      <prereqtech>HCSchooners</prereqtech>
+      <prereqtech>-1</prereqtech>
       <age>0</age>
     </card>
     <card>
-      <name>HCSawmills</name>
+      <name>HCSawmillsAmericans</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
     </card>
     <card>
-      <name>HCExoticHardwoods</name>
+      <name>HCExoticHardwoodsAmericans</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>HCSawmills</prereqtech>
+      <prereqtech>HCSawmillsAmericans</prereqtech>
       <age>0</age>
     </card>
     <card>
-      <name>HCIronmonger</name>
+      <name>HCIronmongerAmericans</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
     </card>
     <card>
-      <name>HCSilversmith</name>
+      <name>HCSilversmithAmericans</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCIronmonger</prereqtech>
+      <prereqtech>HCIronmongerAmericans</prereqtech>
       <age>1</age>
     </card>
     <card>
-      <name>HCRefrigeration</name>
+      <name>HCRefrigerationAmericans</name>
       <maxcount>1</maxcount>
       <level>25</level>
       <age>2</age>
     </card>
     <card>
-      <name>HCStockyards</name>
+      <name>HCStockyardsAmericans</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
     </card>
     <card>
-      <name>HCSpiceTrade</name>
+      <name>HCSpiceTradeAmericans</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>-1</prereqtech>
@@ -997,24 +997,24 @@
       <age>1</age>
     </card>
     <card>
-      <name>HCRumDistillery</name>
+      <name>DEHCBourbonDistillery</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
     </card>
     <card>
-      <name>HCCigarRoller</name>
+      <name>HCRoyalMintAmericans</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCRumDistillery</prereqtech>
-      <age>1</age>
+      <prereqtech>DEHCBourbonDistillery</prereqtech>
+      <age>2</age>
     </card>
     <card>
-      <name>HCTextileMills</name>
+      <name>HCTextileMillsAmericans</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCCigarRoller</prereqtech>
+      <prereqtech>-1</prereqtech>
       <age>2</age>
     </card>
     <card>
@@ -1032,7 +1032,7 @@
       <age>0</age>
     </card>
     <card>
-      <name>HCFurrier</name>
+      <name>HCFurrierAmericans</name>
       <maxcount>1</maxcount>
       <level>40</level>
       <prereqtech>-1</prereqtech>
@@ -1717,42 +1717,42 @@
     <obtainabletechs>
       <tech x="0.0" y="3.0">HCStonemasons</tech>
       <tech x="0.0" y="5.0">HCXPLandGrab</tech>
-      <tech x="1.3" y="1.0">HCFishMarket</tech>
-      <tech x="0.9" y="3.0">HCRenderingPlant</tech>
-      <tech x="1.6" y="7.0">HCXPWhaleOil</tech>
-      <tech x="3.4" y="7.0">HCFurrier</tech>
-      <tech x="2.5" y="3.0">HCSawmills</tech>
-      <tech x="2.5" y="5.0">HCExoticHardwoods</tech>
-      <tech x="3.4" y="1.0">HCIronmonger</tech>
-      <tech x="3.4" y="3.0">HCSilversmith</tech>
-      <tech x="4.3" y="5.0">HCRefrigeration</tech>
-      <tech x="5.2" y="1.0">HCStockyards</tech>
-      <tech x="6.1" y="3.0">HCSpiceTrade</tech>
+      <tech x="1.3" y="1.0">HCFishMarketAmericans</tech>
+      <tech x="0.9" y="3.0">HCRenderingPlantAmericans</tech>
+      <tech x="1.6" y="7.0">HCXPWhaleOilAmericans</tech>
+      <tech x="3.4" y="7.0">HCFurrierAmericans</tech>
+      <tech x="2.5" y="3.0">HCSawmillsAmericans</tech>
+      <tech x="2.5" y="5.0">HCExoticHardwoodsAmericans</tech>
+      <tech x="3.4" y="1.0">HCIronmongerAmericans</tech>
+      <tech x="3.4" y="3.0">HCSilversmithAmericans</tech>
+      <tech x="4.3" y="5.0">HCRefrigerationAmericans</tech>
+      <tech x="5.2" y="1.0">HCStockyardsAmericans</tech>
+      <tech x="6.1" y="3.0">HCSpiceTradeAmericans</tech>
       <tech x="6.1" y="5.0">HCMedicine</tech>
-      <tech x="7.0" y="1.0">HCRumDistillery</tech>
-      <tech x="7.0" y="2.0">HCCigarRoller</tech>
-      <tech x="7.0" y="3.0">HCTextileMills</tech>
+      <tech x="7.0" y="1.0">DEHCBourbonDistillery</tech>
+      <tech x="7.0" y="2.0">HCRoyalMintAmericans</tech>
+      <tech x="7.0" y="3.0">HCTextileMillsAmericans</tech>
       <tech x="7.0" y="3.0">DEHCLumberMills</tech>
       <tech x="7.0" y="3.0">DEHCMinneapolisMills</tech>
     </obtainabletechs>
     <activetechs>
       <tech x="0.0" y="3.0">HCStonemasons</tech>
       <tech x="0.0" y="5.0">HCXPLandGrab</tech>
-      <tech x="1.3" y="1.0">HCFishMarket</tech>
-      <tech x="0.9" y="3.0">HCRenderingPlant</tech>
-      <tech x="1.6" y="7.0">HCXPWhaleOil</tech>
-      <tech x="3.4" y="7.0">HCFurrier</tech>
-      <tech x="2.5" y="3.0">HCSawmills</tech>
-      <tech x="2.5" y="5.0">HCExoticHardwoods</tech>
-      <tech x="3.4" y="1.0">HCIronmonger</tech>
-      <tech x="3.4" y="3.0">HCSilversmith</tech>
-      <tech x="4.3" y="5.0">HCRefrigeration</tech>
-      <tech x="5.2" y="1.0">HCStockyards</tech>
-      <tech x="6.1" y="3.0">HCSpiceTrade</tech>
+      <tech x="1.3" y="1.0">HCFishMarketAmericans</tech>
+      <tech x="0.9" y="3.0">HCRenderingPlantAmericans</tech>
+      <tech x="1.6" y="7.0">HCXPWhaleOilAmericans</tech>
+      <tech x="3.4" y="7.0">HCFurrierAmericans</tech>
+      <tech x="2.5" y="3.0">HCSawmillsAmericans</tech>
+      <tech x="2.5" y="5.0">HCExoticHardwoodsAmericans</tech>
+      <tech x="3.4" y="1.0">HCIronmongerAmericans</tech>
+      <tech x="3.4" y="3.0">HCSilversmithAmericans</tech>
+      <tech x="4.3" y="5.0">HCRefrigerationAmericans</tech>
+      <tech x="5.2" y="1.0">HCStockyardsAmericans</tech>
+      <tech x="6.1" y="3.0">HCSpiceTradeAmericans</tech>
       <tech x="6.1" y="5.0">HCMedicine</tech>
-      <tech x="7.0" y="1.0">HCRumDistillery</tech>
-      <tech x="7.0" y="2.0">HCCigarRoller</tech>
-      <tech x="7.0" y="3.0">HCTextileMills</tech>
+      <tech x="7.0" y="1.0">DEHCBourbonDistillery</tech>
+      <tech x="7.0" y="2.0">HCRoyalMintAmericans</tech>
+      <tech x="7.0" y="3.0">HCTextileMillsAmericans</tech>
       <tech x="7.0" y="3.0">DEHCLumberMills</tech>
       <tech x="7.0" y="3.0">DEHCMinneapolisMills</tech>
     </activetechs>

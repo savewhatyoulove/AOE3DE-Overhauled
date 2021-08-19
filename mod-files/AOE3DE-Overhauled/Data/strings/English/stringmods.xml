@@ -205,7 +205,7 @@
 	    <string _locid="110417">Greatly increases the hitpoints of cavalry.</string>
 	    <string _locid="110419">Ships an Ironclad containing Regulars.</string>
 	    <string _locid="110431">Ships 12 Magyar Hussars.</string>
-	    <string _locid="110453">Villagers gather wood faster and trees last longer.\n • Villager: Gather Work Rate for Tree and Grove +20%; Tree Yield +20%</string>
+	    <string _locid="110453">Villagers gather wood faster and trees last longer.\n • Villager: Gather Work Rate for Tree and Grove +25%; Tree Yield +25%</string>
 	    <string _locid="110455">Ships 2 Homestead Wagons. Villagers gather food from Mills faster.\n • Villager: Gather Work Rate for Mill, Farm, Rice Paddy, Field +20%</string>
 	    <string _locid="110483">Ships 12 Polar Bears which will fight your enemies. All currently existing Town Centers spawn 1 Silver Prospector Wagon, which can open a Silver Mine.</string>
 	    <string _locid="110484">Alaska Purchase</string>
@@ -327,6 +327,8 @@
 	    <string _locid="260011">USA Furrier Bonus</string>
 	    <string _locid="260012">Scattershot</string>
 	    <string _locid="260013">State Militia gain increased splash area of effect damage and radius, but reduced range.</string>
+	    <string _locid="260014">Bourbon Distillery</string>
+	    <string _locid="260015">Federal Reserve</string>
 	</Language>
   </StringTable>
 </stringmods>

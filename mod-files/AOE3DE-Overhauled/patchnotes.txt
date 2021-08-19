@@ -464,16 +464,16 @@ USA:
 
 Civ Bonus Changes:
 -- No longer receives XP crates on age up, instead, each shipment provides 100 xp crates.
--- XP curve reduced to 0.85 from 1.0
+-- XP curve reduced to 0.86 from 1.0
 -- Can no longer ship resource crates, instead, most economic improvement shipments have been greatly buffed (+50%)
--- All military units heal over time outside of combat
+-- All military units heal over time outside of combat (3.5s idle timeout) at a rate of 0.5% MAX HP/s
 
-Starting Units: Now starts with 6 villagers, a Fattened Cow, and a Homestead Wagon, but no resource crates.
+Starting Units: Now starts with 6 villagers, a Fattened Sheep, Book Crates and a Homestead Wagon, but no resource crates.
 
 Unit Changes:
 
 General:
--- Inspiring Flag cooldown reduced to 60 seconds from 160
+-- Inspiring Flag cooldown reduced to 60 seconds from 160; no longer provides unit buffs
 
 Regular:
 Cost: Reduced to 80F/20G from 55F/50G
