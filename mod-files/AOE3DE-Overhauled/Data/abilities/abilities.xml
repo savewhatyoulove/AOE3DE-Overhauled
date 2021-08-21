@@ -498,12 +498,21 @@
   <degeneral>
     <ability>PowerSharpshooter<rof>60</rof></ability>
     <ability>deAbilityInspiringFlag<tech>deGeneralInspiringFlag</tech><rof>60</rof><donotforcestop>true</donotforcestop></ability>
+    <ability>deAbilityInspiringFlag2<tech>DEHCFedLincolnLand</tech><rof>60</rof><donotforcestop>true</donotforcestop></ability>
     <ability>PowerBalloon<tech>deEnableBalloonPower</tech><rof>240</rof></ability>
     <ability>PowerLOS<tech>DESpyglassEnableShadow</tech><rof>90</rof></ability>
     <ability>deChargeAbilityCarbine<tech>deGeneralChargeCarbine</tech><bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
-    <ability>deChargeAbilityHeavyStrike<tech>deGeneralChargeHeavyStrike</tech><bindtoauxchargeaction>true</bindtoauxchargeaction><forceshowrollover>true</forceshowrollover></ability>
     <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </degeneral>
+  <degeneral2>
+    <ability>PowerSharpshooter<rof>60</rof></ability>
+    <ability>deAbilityInspiringFlag<tech>deGeneralInspiringFlag</tech><rof>60</rof><donotforcestop>true</donotforcestop></ability>
+    <ability>deAbilityInspiringFlag2<tech>DEHCFedLincolnLand</tech><rof>60</rof><donotforcestop>true</donotforcestop></ability>
+    <ability>PowerBalloon<tech>deEnableBalloonPower</tech><rof>240</rof></ability>
+    <ability>PowerLOS<tech>DESpyglassEnableShadow</tech><rof>90</rof></ability>
+    <ability>deChargeAbilityCarbine<tech>deGeneralChargeCarbine</tech><bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </degeneral2>
   <desloop>
     <ability>deChargeAbilityBroadside<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
   </desloop>
@@ -613,6 +622,8 @@
     <ability>PowerHealSwedish<tech>DEREVUnlockHeal</tech><civ>DESwedish</civ><rof>120</rof></ability>
     <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
  </duelist>
-
-
+  <destatemilitia>
+    <ability>deAbilityInspiringFlag<tech>DEHCFedMoultriesMilitia</tech><rof>60</rof><donotforcestop>true</donotforcestop></ability>
+    <ability>deAbilityInspiringFlag2<tech>DEMilitiaLincolnShadow</tech><rof>60</rof><donotforcestop>true</donotforcestop></ability>
+  </destatemilitia>
 </abilities>

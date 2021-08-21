@@ -417,7 +417,7 @@
         <unit>deStateMilitia</unit>
       </units>
       <unitcounts>
-        <count>2</count>
+        <count>1</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
@@ -427,7 +427,7 @@
         <unit>deStateMilitia</unit>
       </units>
       <unitcounts>
-        <count>2</count>
+        <count>1</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
@@ -437,7 +437,7 @@
         <unit>deStateMilitia</unit>
       </units>
       <unitcounts>
-        <count>3</count>
+        <count>2</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
@@ -447,7 +447,7 @@
         <unit>deStateMilitia</unit>
       </units>
       <unitcounts>
-        <count>3</count>
+        <count>2</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
@@ -457,7 +457,7 @@
         <unit>deStateMilitia</unit>
       </units>
       <unitcounts>
-        <count>7</count>
+        <count>4</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
@@ -467,7 +467,7 @@
         <unit>deRegular</unit>
       </units>
       <unitcounts>
-        <count>5</count>
+        <count>6</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
@@ -494,7 +494,7 @@
       <building>FortFrontier</building>
       <multipleblockunit>deFortUSCavalryBatch</multipleblockunit>
       <units>
-        <unit>deUSCavalry</unit>
+        <unit>Dragoon</unit>
       </units>
       <unitcounts>
         <count>4</count>

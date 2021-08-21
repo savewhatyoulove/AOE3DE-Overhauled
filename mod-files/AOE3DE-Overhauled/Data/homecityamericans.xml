@@ -437,11 +437,20 @@
     </card>
     <card>
       <name>DEHCShipCarbineCav1</name>
-      <maxcount>1</maxcount>
+      <maxcount>-1</maxcount>
       <level>40</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>10</displayunitcount>
+      <displayunitcount>9</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCShipCarbineCav2</name>
+      <maxcount>1</maxcount>
+      <level>40</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>6</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1557,6 +1566,8 @@
       <tech x="0.7" y="1.0">DEHCShipStateMilitia1</tech>
       <tech x="0.7" y="3.0">DEHCShipStateMilitia3</tech>
       <tech x="0.7" y="4.0">DEHCShipStateMilitiaRepeat1</tech>
+      <tech x="1.2" y="7.0">DEHCShipCarbineCav1</tech>
+      <tech x="1.2" y="6.0">DEHCShipCarbineCav2</tech>
       <tech x="1.2" y="7.0">HCShipDragoons4</tech>
       <tech x="2.0" y="1.0">DEHCShipRegulars1</tech>
       <tech x="1.7" y="4.0">DEHCShipRegulars2</tech>
@@ -1593,6 +1604,8 @@
       <tech x="0.7" y="1.0">DEHCShipStateMilitia1</tech>
       <tech x="0.7" y="3.0">DEHCShipStateMilitia3</tech>
       <tech x="0.7" y="4.0">DEHCShipStateMilitiaRepeat1</tech>
+      <tech x="1.2" y="7.0">DEHCShipCarbineCav1</tech>
+      <tech x="1.2" y="6.0">DEHCShipCarbineCav2</tech>
       <tech x="1.2" y="7.0">HCShipDragoons4</tech>
       <tech x="2.0" y="1.0">DEHCShipRegulars1</tech>
       <tech x="1.7" y="4.0">DEHCShipRegulars2</tech>
