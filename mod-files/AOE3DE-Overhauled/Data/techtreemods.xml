@@ -8564,7 +8564,7 @@
       </effect>
     </effects>
   </tech>
-  <tech name="DEHCShipCarbineCav2" type="Normal">
+  <tech name="DEHCShipTexasRangers1" type="Normal">
     <dbid>9525</dbid>
     <displaynameid>260022</displaynameid>
     <cost resourcetype="Food">750.0000</cost>
@@ -8582,7 +8582,7 @@
       </effect>
     </effects>
   </tech>
-  <tech mergeMode='replace' name="DEHCShipCarbineCav1" type="Normal">
+  <tech name="DEHCShipTexasRangersRepeat" type="Normal">
     <dbid>7032</dbid>
     <displaynameid>110108</displaynameid>
     <cost resourcetype="Food">1000.0000</cost>
@@ -8691,6 +8691,7 @@
       </effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCFedNewJerseySeaports" type="Normal">
@@ -8709,6 +8710,7 @@
       </effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
+      </effect>
       <effect type="TextOutputTechName">110130</effect>
     </effects>
   </tech>
@@ -8733,6 +8735,7 @@
       </effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
+      </effect>
       <effect type="TextOutputTechName">110130</effect>
     </effects>
   </tech>

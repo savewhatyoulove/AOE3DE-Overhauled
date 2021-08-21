@@ -436,7 +436,7 @@
       <displayunitcount>5</displayunitcount>
     </card>
     <card>
-      <name>DEHCShipCarbineCav1</name>
+      <name>DEHCShipTexasRangersRepeat</name>
       <maxcount>-1</maxcount>
       <level>40</level>
       <prereqtech>-1</prereqtech>
@@ -445,7 +445,7 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>DEHCShipCarbineCav2</name>
+      <name>DEHCShipTexasRangers1</name>
       <maxcount>1</maxcount>
       <level>40</level>
       <prereqtech>-1</prereqtech>
@@ -1566,8 +1566,8 @@
       <tech x="0.7" y="1.0">DEHCShipStateMilitia1</tech>
       <tech x="0.7" y="3.0">DEHCShipStateMilitia3</tech>
       <tech x="0.7" y="4.0">DEHCShipStateMilitiaRepeat1</tech>
-      <tech x="1.2" y="7.0">DEHCShipCarbineCav1</tech>
-      <tech x="1.2" y="6.0">DEHCShipCarbineCav2</tech>
+      <tech x="1.2" y="7.0">DEHCShipTexasRangersRepeat</tech>
+      <tech x="1.2" y="6.0">DEHCShipTexasRangers1</tech>
       <tech x="1.2" y="7.0">HCShipDragoons4</tech>
       <tech x="2.0" y="1.0">DEHCShipRegulars1</tech>
       <tech x="1.7" y="4.0">DEHCShipRegulars2</tech>
@@ -1604,8 +1604,8 @@
       <tech x="0.7" y="1.0">DEHCShipStateMilitia1</tech>
       <tech x="0.7" y="3.0">DEHCShipStateMilitia3</tech>
       <tech x="0.7" y="4.0">DEHCShipStateMilitiaRepeat1</tech>
-      <tech x="1.2" y="7.0">DEHCShipCarbineCav1</tech>
-      <tech x="1.2" y="6.0">DEHCShipCarbineCav2</tech>
+      <tech x="1.2" y="7.0">DEHCShipTexasRangersRepeat</tech>
+      <tech x="1.2" y="6.0">DEHCShipTexasRangers1</tech>
       <tech x="1.2" y="7.0">HCShipDragoons4</tech>
       <tech x="2.0" y="1.0">DEHCShipRegulars1</tech>
       <tech x="1.7" y="4.0">DEHCShipRegulars2</tech>
