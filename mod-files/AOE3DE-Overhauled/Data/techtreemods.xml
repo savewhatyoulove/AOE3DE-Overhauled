@@ -4999,6 +4999,9 @@
       <effect type="TechStatus" status="obtainable">VeteranDragoonsShadow</effect>
       <effect type="TechStatus" status="obtainable">GuardDragoons</effect>
       <effect type="TechStatus" status="obtainable">ImperialDragoons</effect>
+      <effect type="TechStatus" status="obtainable">DEVeteranUSCavalryShadow</effect>
+      <effect type="TechStatus" status="obtainable">DEGuardUSCavalry</effect>
+      <effect type="TechStatus" status="obtainable">DEImperialUSCavalry</effect>
       <effect type="TechStatus" status="obtainable">DEImperialIronclads</effect>
       <effect type="TechStatus" status="obtainable">Bayonet</effect>
       <effect type="TechStatus" status="obtainable">HeavyHorseArtillery</effect>
@@ -5065,6 +5068,9 @@
       </effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">FishingBoat</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deUSCavalry</target>
       </effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">Outpost</target>
@@ -8564,39 +8570,6 @@
       </effect>
     </effects>
   </tech>
-  <tech name="DEHCShipTexasRangers1" type="Normal">
-    <dbid>9525</dbid>
-    <displaynameid>260022</displaynameid>
-    <cost resourcetype="Food">750.0000</cost>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\art\units\cavalry\us_cavalry\hc_us_cavalry_icon.png</icon>
-    <flag>HomeCity</flag>
-    <effects>
-      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="deUSCavalry" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-    </effects>
-  </tech>
-  <tech name="DEHCShipTexasRangersRepeat" type="Normal">
-    <dbid>7032</dbid>
-    <displaynameid>110108</displaynameid>
-    <cost resourcetype="Food">1000.0000</cost>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\americans\infinite_us_cavalry.png</icon>
-    <flag>HomeCity</flag>
-    <effects>
-      <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="deUSCavalry" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-    </effects>
-  </tech>
   <tech mergeMode='replace' name="DEChurchPennsylvaniaCavalry" type="Normal">
     <dbid>7109</dbid>
     <displaynameid>110278</displaynameid>
@@ -8739,4 +8712,36 @@
       <effect type="TextOutputTechName">110130</effect>
     </effects>
   </tech>
+  <tech name="DEHCShipTexasRangers1" type="Normal">
+    <dbid>9525</dbid>
+    <displaynameid>260022</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\cavalry\us_cavalry\hc_us_cavalry_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="deUSCavalry" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipTexasRangersRepeat" type="Normal">
+    <dbid>7032</dbid>
+    <displaynameid>110108</displaynameid>
+    <cost resourcetype="Food">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\infinite_us_cavalry.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="deUSCavalry" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+
 </techtreemods>

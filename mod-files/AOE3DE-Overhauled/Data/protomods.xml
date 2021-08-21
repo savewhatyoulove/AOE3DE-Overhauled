@@ -2,6 +2,15 @@
   <unit id="292" name="TradingPost">
     <train row="0" page="0" column="2">deChasqui</train>
   </unit>
+  <unit id="298" name="Stable">
+    <train mergeMode='remove' row="0" page="0" column="2">deUSCavalry</train>
+  </unit>
+  <unit id="391" name="FortFrontier">
+    <train mergeMode='remove' row="0" page="0" column="7">deUSCavalry</train>
+  </unit>
+  <unit id="1745" name="deSteamer">
+    <train mergeMode='remove' row="0" page="12" column="5">deUSCavalry</train>
+  </unit>
   <unit mergeMode='replace' id="1649" name="deHomesteadWagon">
     <dbid>2220</dbid>
     <displaynameid>91597</displaynameid>

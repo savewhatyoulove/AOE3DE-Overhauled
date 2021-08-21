@@ -1236,22 +1236,6 @@
       <displayunitcount>22</displayunitcount>
     </card>
     <card>
-      <name>DEHCHireManilamen</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>1</age>
-      <displayunitcount>2</displayunitcount>
-    </card>
-    <card>
-      <name>DEHCHireManilamenFleet</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
-      <displayunitcount>3</displayunitcount>
-    </card>
-    <card>
       <name>DEHCIroquoisOneidaSupport</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -1566,8 +1550,6 @@
       <tech x="0.7" y="1.0">DEHCShipStateMilitia1</tech>
       <tech x="0.7" y="3.0">DEHCShipStateMilitia3</tech>
       <tech x="0.7" y="4.0">DEHCShipStateMilitiaRepeat1</tech>
-      <tech x="1.2" y="7.0">DEHCShipTexasRangersRepeat</tech>
-      <tech x="1.2" y="6.0">DEHCShipTexasRangers1</tech>
       <tech x="1.2" y="7.0">HCShipDragoons4</tech>
       <tech x="2.0" y="1.0">DEHCShipRegulars1</tech>
       <tech x="1.7" y="4.0">DEHCShipRegulars2</tech>
@@ -1599,13 +1581,13 @@
       <tech x="7.2" y="7.0">DEHCStateMilitiaSplashDamage</tech>
       <tech x="7.2" y="7.0">DEHCContinentalRangers</tech>
       <tech x="7.2" y="7.0">DEHCBuffaloSoldiers</tech>
+      <tech x="8.0" y="7.0">DEHCShipTexasRangersRepeat</tech>
+      <tech x="8.0" y="7.0">DEHCShipTexasRangers1</tech>
     </obtainabletechs>
     <activetechs>
       <tech x="0.7" y="1.0">DEHCShipStateMilitia1</tech>
       <tech x="0.7" y="3.0">DEHCShipStateMilitia3</tech>
       <tech x="0.7" y="4.0">DEHCShipStateMilitiaRepeat1</tech>
-      <tech x="1.2" y="7.0">DEHCShipTexasRangersRepeat</tech>
-      <tech x="1.2" y="6.0">DEHCShipTexasRangers1</tech>
       <tech x="1.2" y="7.0">HCShipDragoons4</tech>
       <tech x="2.0" y="1.0">DEHCShipRegulars1</tech>
       <tech x="1.7" y="4.0">DEHCShipRegulars2</tech>
@@ -1637,6 +1619,8 @@
       <tech x="7.2" y="7.0">DEHCStateMilitiaSplashDamage</tech>
       <tech x="7.2" y="7.0">DEHCContinentalRangers</tech>
       <tech x="7.2" y="7.0">DEHCBuffaloSoldiers</tech>
+      <tech x="8.0" y="7.0">DEHCShipTexasRangersRepeat</tech>
+      <tech x="8.0" y="7.0">DEHCShipTexasRangers1</tech>
     </activetechs>
     <validunits/>
     <units/>
@@ -1807,8 +1791,6 @@
       <tech x="5.5" y="6.0">DEHCPoker</tech>
       <tech x="6.3" y="1.0">HCXPDanceHall</tech>
       <tech x="6.3" y="1.0">DEHCBlackMesa</tech>
-      <tech x="6.3" y="1.0">DEHCHireManilamen</tech>
-      <tech x="6.3" y="1.0">DEHCHireManilamenFleet</tech>
       <tech x="7.2" y="7.0">DEHCUSMarines</tech>
       <tech x="7.2" y="7.0">DEHCIroquoisOneidaSupport</tech>
     </obtainabletechs>
@@ -1833,8 +1815,6 @@
       <tech x="5.5" y="6.0">DEHCPoker</tech>
       <tech x="6.3" y="1.0">HCXPDanceHall</tech>
       <tech x="6.3" y="1.0">DEHCBlackMesa</tech>
-      <tech x="6.3" y="1.0">DEHCHireManilamen</tech>
-      <tech x="6.3" y="1.0">DEHCHireManilamenFleet</tech>
       <tech x="7.2" y="7.0">DEHCUSMarines</tech>
       <tech x="7.2" y="7.0">DEHCIroquoisOneidaSupport</tech>
     </activetechs>
