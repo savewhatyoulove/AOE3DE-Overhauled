@@ -113,6 +113,9 @@
   <tech name="DEHCHandMortar" type="Normal">
     <effects>
       <effect mergeMode='add' type="TechStatus" status="active">VeteranGrenadiers</effect>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="HCXPColbertism" type="Normal">
@@ -5360,9 +5363,43 @@
       </effect>
     </effects>
   </tech>
-  <tech name="DEHCGeneralAmericans" type="Normal">
+  <tech mergeMode='replace' name="DEHCGeneralAmericans" type="Normal">
+    <dbid>7177</dbid>
+    <displaynameid>110410</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\sheriffs.png</icon>
+    <rollovertextid>110409</rollovertextid>
+    <flag>HomeCity</flag>
     <effects>
-      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Hero</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Hero</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="DamageBonus" unittype="Guardian" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deGeneral</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="DamageBonus" unittype="AbstractOutlaw" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deGeneral</target>
+      </effect>
+      <effect type="Data" action="ChargeCarbineAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deGeneral</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="DamageBonus" unittype="Guardian" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deGeneral2</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="DamageBonus" unittype="AbstractOutlaw" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deGeneral2</target>
+      </effect>
+      <effect type="Data" action="ChargeCarbineAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deGeneral2</target>
+      </effect>
+      <effect type="TechStatus" status="active">deGeneralChargeCarbine</effect>
+      <effect type="TextOutputTechName">110130</effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -8712,9 +8749,10 @@
       <effect type="TextOutputTechName">110130</effect>
     </effects>
   </tech>
-  <tech name="DEHCShipTexasRangers1" type="Normal">
+  <tech mergeMode='replace' name="DEHCShipCarbineCav1" type="Normal">
     <dbid>9525</dbid>
     <displaynameid>260022</displaynameid>
+    <cost resourcetype="Food">750.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -8729,11 +8767,13 @@
       </effect>
     </effects>
   </tech>
-  <tech name="DEHCShipTexasRangersRepeat" type="Normal">
-    <dbid>7032</dbid>
-    <displaynameid>110108</displaynameid>
+    <!-- This is actually Texas Rangers, but I had to use this shipment due to DE's shit engine coding -->
+  <tech mergeMode='replace' name="DEHCShipStateMilitia2" type="Normal">
+    <dbid>7025</dbid>
+    <displaynameid>260023</displaynameid>
     <cost resourcetype="Food">1000.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\americans\infinite_us_cavalry.png</icon>
     <flag>HomeCity</flag>

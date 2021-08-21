@@ -197,6 +197,7 @@
 	    <string _locid="110106">8 Regulars</string>
 	    <string _locid="110107">16 Regulars</string>
 	    <string _locid="110108">9 Texas Rangers</string>
+	    <string _locid="110111">12 Sharpshooters</string>
 	    <string _locid="110112">TEAM 3 Gatling Guns</string>
 	    <string _locid="110113">5 Gatling Guns</string>
 	    <string _locid="110114">2 Gatling Guns</string>
@@ -230,11 +231,11 @@
 	    <string _locid="110342">Delivers 2 Homestead Wagons and buildings grant double XP when built.</string>
 	    <string _locid="110344">Ships an additional Dragoon for each shipment you have sent so far this game. All units and technologies train and research slightly faster (+10%).</string>
 	    <string _locid="110350">Ships an additional General and enables him for the rest of the game. Also, you can build a second Inspiring Flag and their line of Sight is increased.</string>
-	    <string _locid="110353">Cracker Horses</string>
+	    <string _locid="110353">Florida Cracker Horses</string>
 	    <string _locid="110354">Ships a Fattened Cow for each shipment you have sent so far this game.</string>
 	    <string _locid="110376"> Doubles the Kill Bounty XP of enemy soldiers near your Forts. Additionally, when destroyed by enemies, your Forts spawn 8 Minutemen and your Outposts spawn 2 Minutemen.</string>
 	    <string _locid="110378">Ships 1 Gold Prospector Wagon and 8 Miners.</string>
-	    <string _locid="110384">Uprising! Delivers 10 Pet Black Bears, 10 Pet Grizzlies, and  Villagers become Revolutionaries.</string>
+	    <string _locid="110384">Uprising! Delivers an army of Pet Bears and Villagers become Revolutionaries.</string>
 	    <string _locid="110413">Increases the range of Sharpshooters and enables them to be trained in the Commerce Age.</string>
 	    <string _locid="110415">Greatly increases the attack of ranged infantry.</string>
 	    <string _locid="110417">Greatly increases the hitpoints of cavalry.</string>
@@ -373,6 +374,7 @@
 	    <string _locid="260020">Heavy Cavalry</string>
 	    <string _locid="260021">Durable Heavy Cavalry with low damage. Good against Artillery, Skirmishers, and Foot Archers.</string>
 	    <string _locid="260022">6 Texas Rangers</string>
+	    <string _locid="260023">9 Texas Rangers</string>
 	</Language>
   </StringTable>
 </stringmods>

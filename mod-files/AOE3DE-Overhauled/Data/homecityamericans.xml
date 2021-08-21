@@ -409,13 +409,14 @@
       <displayunitcount>4</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
+    <!-- This is actually Texas Rangers, but I had to use this shipment due to DE's shit engine coding -->
     <card>
       <name>DEHCShipStateMilitia2</name>
-      <maxcount>1</maxcount>
+      <maxcount>-1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <displayunitcount>6</displayunitcount>
+      <age>3</age>
+      <displayunitcount>9</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -434,24 +435,6 @@
       <prereqtech>-1</prereqtech>
       <age>2</age>
       <displayunitcount>5</displayunitcount>
-    </card>
-    <card>
-      <name>DEHCShipTexasRangersRepeat</name>
-      <maxcount>-1</maxcount>
-      <level>40</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
-      <displayunitcount>9</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>DEHCShipTexasRangers1</name>
-      <maxcount>1</maxcount>
-      <level>40</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <displayunitcount>6</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>HCShipDragoons4</name>
@@ -591,6 +574,13 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>DEHCHandMortar</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
       <name>DEHCCoffeeMillGun</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -670,6 +660,15 @@
       <level>0</level>
       <age>3</age>
       <displayunitcount>5</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCShipCarbineCav1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>6</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>DEHCShipQuakerGunsTeam</name>
@@ -1550,6 +1549,8 @@
       <tech x="0.7" y="1.0">DEHCShipStateMilitia1</tech>
       <tech x="0.7" y="3.0">DEHCShipStateMilitia3</tech>
       <tech x="0.7" y="4.0">DEHCShipStateMilitiaRepeat1</tech>
+      <tech x="1.2" y="6.0">DEHCShipStateMilitia2</tech>
+      <tech x="1.2" y="7.0">DEHCShipCarbineCav1</tech>
       <tech x="1.2" y="7.0">HCShipDragoons4</tech>
       <tech x="2.0" y="1.0">DEHCShipRegulars1</tech>
       <tech x="1.7" y="4.0">DEHCShipRegulars2</tech>
@@ -1581,13 +1582,14 @@
       <tech x="7.2" y="7.0">DEHCStateMilitiaSplashDamage</tech>
       <tech x="7.2" y="7.0">DEHCContinentalRangers</tech>
       <tech x="7.2" y="7.0">DEHCBuffaloSoldiers</tech>
-      <tech x="8.0" y="7.0">DEHCShipTexasRangersRepeat</tech>
-      <tech x="8.0" y="7.0">DEHCShipTexasRangers1</tech>
+      <tech x="7.2" y="7.0">DEHCHandMortar</tech>
     </obtainabletechs>
     <activetechs>
       <tech x="0.7" y="1.0">DEHCShipStateMilitia1</tech>
       <tech x="0.7" y="3.0">DEHCShipStateMilitia3</tech>
       <tech x="0.7" y="4.0">DEHCShipStateMilitiaRepeat1</tech>
+      <tech x="1.2" y="6.0">DEHCShipStateMilitia2</tech>
+      <tech x="1.2" y="7.0">DEHCShipCarbineCav1</tech>
       <tech x="1.2" y="7.0">HCShipDragoons4</tech>
       <tech x="2.0" y="1.0">DEHCShipRegulars1</tech>
       <tech x="1.7" y="4.0">DEHCShipRegulars2</tech>
@@ -1619,8 +1621,7 @@
       <tech x="7.2" y="7.0">DEHCStateMilitiaSplashDamage</tech>
       <tech x="7.2" y="7.0">DEHCContinentalRangers</tech>
       <tech x="7.2" y="7.0">DEHCBuffaloSoldiers</tech>
-      <tech x="8.0" y="7.0">DEHCShipTexasRangersRepeat</tech>
-      <tech x="8.0" y="7.0">DEHCShipTexasRangers1</tech>
+      <tech x="7.2" y="7.0">DEHCHandMortar</tech>
     </activetechs>
     <validunits/>
     <units/>
