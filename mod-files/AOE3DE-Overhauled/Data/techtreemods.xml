@@ -4948,7 +4948,7 @@
         <target type="ProtoUnit">Factory</target>
       </effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-        <target type="ProtoUnit">Hussar</target>
+        <target type="ProtoUnit">deSpurRider</target>
       </effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">House</target>
@@ -4987,9 +4987,6 @@
       <effect type="TechStatus" status="obtainable">ImperialGatlingGun</effect>
       <effect type="TechStatus" status="obtainable">ImperialManOWar</effect>
       <effect type="TechStatus" status="obtainable">ImperialCannon</effect>
-      <effect type="TechStatus" status="obtainable">VeteranHussars</effect>
-      <effect type="TechStatus" status="obtainable">GuardHussars</effect>
-      <effect type="TechStatus" status="obtainable">ImperialHussars</effect>
       <effect type="TechStatus" status="obtainable">DEVeteranStateMilitia</effect>
       <effect type="TechStatus" status="obtainable">DEVolunteers</effect>
       <effect type="TechStatus" status="obtainable">DEImperialVolunteers</effect>
