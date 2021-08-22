@@ -1568,13 +1568,10 @@
       <tech x="5.8" y="2.0">DEHCShipGatlings1</tech>
       <tech x="5.8" y="3.0">DEHCShipGatlingsRepeat1</tech>
       <tech x="5.8" y="3.0">DEHCCoffeeMillGun</tech>
-      <tech x="5.8" y="7.0">HCXPShipHorseArtillery2</tech>
       <tech x="5.8" y="7.0">DEHCShipHorseArtilleryRepeat1</tech>
-      <tech x="5.8" y="7.0">DEHCShipCapturedRockets</tech>
       <tech x="5.8" y="7.0">DEHCShipCulverineMortar</tech>
       <tech x="6.5" y="1.0">HCAdvancedArtillery</tech>
       <tech x="6.5" y="2.0">HCShipMortars1</tech>
-      <tech x="6.5" y="3.0">HCShipMortars2</tech>
       <tech x="7.2" y="3.0">HCShipCulverins1</tech>
       <tech x="7.2" y="5.0">HCShipCannons1</tech>
       <tech x="7.2" y="7.0">HCXPShipCulverins2</tech>
@@ -1607,13 +1604,10 @@
       <tech x="5.8" y="2.0">DEHCShipGatlings1</tech>
       <tech x="5.8" y="3.0">DEHCShipGatlingsRepeat1</tech>
       <tech x="5.8" y="3.0">DEHCCoffeeMillGun</tech>
-      <tech x="5.8" y="7.0">HCXPShipHorseArtillery2</tech>
       <tech x="5.8" y="7.0">DEHCShipHorseArtilleryRepeat1</tech>
-      <tech x="5.8" y="7.0">DEHCShipCapturedRockets</tech>
       <tech x="5.8" y="7.0">DEHCShipCulverineMortar</tech>
       <tech x="6.5" y="1.0">HCAdvancedArtillery</tech>
       <tech x="6.5" y="2.0">HCShipMortars1</tech>
-      <tech x="6.5" y="3.0">HCShipMortars2</tech>
       <tech x="7.2" y="3.0">HCShipCulverins1</tech>
       <tech x="7.2" y="5.0">HCShipCannons1</tech>
       <tech x="7.2" y="7.0">HCXPShipCulverins2</tech>

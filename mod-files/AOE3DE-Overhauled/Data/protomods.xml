@@ -8259,7 +8259,7 @@
     <buildbounty>18.0000</buildbounty>
     <cost resourcetype="Food">120.0000</cost>
     <cost resourcetype="Gold">60.0000</cost>
-    <allowedage>2</allowedage>
+    <allowedage>1</allowedage>
     <armor type="Siege" value="0.2000"/>
     <armor type="Ranged" value="0.3000"/>
     <unittype>LogicalTypeHealed</unittype>

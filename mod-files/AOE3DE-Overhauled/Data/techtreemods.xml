@@ -8599,7 +8599,7 @@
       <effect type="Data" amount="1.40" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">deSpurRider</target>
       </effect>
-      <effect type="SetName" proto="deSpurRider" culture="none" newname="260032"/>
+      <effect type="SetName" proto="deSpurRider" culture="none" newname="260031"/>
       <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deSpurRider" relativity="Absolute">
         <target type="Player"/>
       </effect>
