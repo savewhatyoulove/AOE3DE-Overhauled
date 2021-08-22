@@ -8583,8 +8583,6 @@
       </effect>
     </effects>
   </tech>
-    </effects>
-  </tech>
   <tech mergeMode='replace' name="DEGuardUSCavalry" type="Normal">
     <dbid>7014</dbid>
     <displaynameid>260028</displaynameid>
