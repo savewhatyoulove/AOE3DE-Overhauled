@@ -622,10 +622,19 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>HCXPShipRocketsRepeat</name>
+      <maxcount>1</maxcount>
+      <level>40</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>2</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
       <name>HCXPShipCulverins2</name>
       <maxcount>1</maxcount>
       <level>40</level>
-      <prereqtech>HCShipCannons1</prereqtech>
+      <prereqtech>-1</prereqtech>
       <age>3</age>
       <displayunitcount>4</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -1390,7 +1399,6 @@
       <cards>
         <card dbid="3438">HCXPCapitalism</card>
         <card dbid="7264">DEHCArkansasPost</card>
-        <card dbid="2239">HCShipCannons1</card>
         <card dbid="7052">DEHCTrainTimeUS</card>
         <card dbid="7180">DEHCContinentalRangers</card>
         <card dbid="7033">DEHCShipRiflemen1</card>
@@ -1419,7 +1427,6 @@
         <card dbid="7182">DEHCUSMarines</card>
         <card dbid="7194">DEHCMississippiSteamers</card>
         <card dbid="7198">DEHCLumberMills</card>
-        <card dbid="2239">HCShipCannons1</card>
         <card dbid="7028">DEHCShipRegulars1</card>
         <card dbid="7040">DEHCShipSloops1</card>
         <card dbid="2223">HCShipFrigates</card>
@@ -1573,8 +1580,7 @@
       <tech x="6.5" y="1.0">HCAdvancedArtillery</tech>
       <tech x="6.5" y="2.0">HCShipMortars1</tech>
       <tech x="7.2" y="3.0">HCShipCulverins1</tech>
-      <tech x="7.2" y="5.0">HCShipCannons1</tech>
-      <tech x="7.2" y="7.0">HCXPShipCulverins2</tech>
+      <tech x="7.2" y="3.0">HCXPShipRocketsRepeat</tech>
       <tech x="7.2" y="7.0">DEHCLongRifles</tech>
       <tech x="7.2" y="7.0">DEHCStateMilitiaSplashDamage</tech>
       <tech x="7.2" y="7.0">DEHCContinentalRangers</tech>
@@ -1609,8 +1615,7 @@
       <tech x="6.5" y="1.0">HCAdvancedArtillery</tech>
       <tech x="6.5" y="2.0">HCShipMortars1</tech>
       <tech x="7.2" y="3.0">HCShipCulverins1</tech>
-      <tech x="7.2" y="5.0">HCShipCannons1</tech>
-      <tech x="7.2" y="7.0">HCXPShipCulverins2</tech>
+      <tech x="7.2" y="3.0">HCXPShipRocketsRepeat</tech>
       <tech x="7.2" y="7.0">DEHCLongRifles</tech>
       <tech x="7.2" y="7.0">DEHCStateMilitiaSplashDamage</tech>
       <tech x="7.2" y="7.0">DEHCContinentalRangers</tech>

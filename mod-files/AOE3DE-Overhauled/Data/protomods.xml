@@ -8261,7 +8261,7 @@
     <cost resourcetype="Gold">60.0000</cost>
     <allowedage>1</allowedage>
     <armor type="Siege" value="0.2000"/>
-    <armor type="Ranged" value="0.3000"/>
+    <armor type="Ranged" value="0.3500"/>
     <unittype>LogicalTypeHealed</unittype>
     <unittype>LogicalTypeValidSharpshoot</unittype>
     <unittype>LogicalTypeNeededForVictory</unittype>
@@ -8806,6 +8806,7 @@
     <command page="10" column="1">Stop</command>
     <command page="10" column="0">Garrison</command>
     <command page="10" column="7">Delete</command>
+    <command page="9" column="0">ToggleStealth</command>
     <tactics>gatlingGun.tactics</tactics>
     <protoaction>
       <name>CannonAttack</name>

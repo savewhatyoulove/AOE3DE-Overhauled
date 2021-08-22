@@ -213,6 +213,8 @@
 	    <string _locid="110222">Hulk. Advanced armored warship.</string>
 	    <string _locid="110237">Mercenary and Outlaw hitpoints and attack greatly increased</string>
 	    <string _locid="110277">Ships a regiment of Texas Rangers.</string>
+	    <string _locid="110279">Ships 1 Native Embassy Travois and allies you with the Tuscarora (Native Haudenosaunee) at your Native Embassy where some of their upgrades and units are available.</string>
+	    <string _locid="110280">Tuscarora Allies</string>
 	    <string _locid="110281">Receive and additional 2 XP crates with each shipments. Additionally, all shipments arrive considerably faster, including this one.</string>
 	    <string _locid="110283">Ships 2 Military Wagons, 2 Homestead Wagons, and 2 Outpost Wagons.</string>
 	    <string _locid="110290">Ships 1 State Capitol Wagon and its improvements are cheaper and research more quickly (Excluding Spies and Blockade).\n • State Capitol, Oregon Trail, Statehood: -40% Cost and Research Time.\n • Capitol Improvements: -10% Cost and Research Time.</string>
@@ -220,6 +222,7 @@
 	    <string _locid="110300">Improves Settler speed and line of sight and speed. Natural resources last 25% longer.</string>
 	    <string _locid="110302">Ships 2 Outpost Wagons. All existing and newly constructed Outposts spawn 1 State Militia and 1 Coureur while supporting +5 population.</string>
 	    <string _locid="110304">Ships 6 State Militia and enables them to construct Military Buildings and place down an Inspiring Flag.</string>
+	    <string _locid="110306">Gatling Gun movement speed slightly increased and are now Stealthy.</string>
 	    <string _locid="110316">Ships 2 Sharpshooters and 2 Deer for each shipment you have sent so far this game. Owlhoot range increased.</string>
 	    <string _locid="110318">Ships 5 Coureurs and 5 Elite Cree Trackers.</string>
 	    <string _locid="110320">Factories have more hitpoints and generate more resources.</string>

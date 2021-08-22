@@ -4944,7 +4944,7 @@
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">Saloon</target>
       </effect>
-      <effect type="Data" action="SpawnCannon" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+      <effect type="Data" action="SpawnRocket" amount="1.00" subtype="ActionEnable" relativity="Absolute">
         <target type="ProtoUnit">Factory</target>
       </effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -4986,7 +4986,7 @@
       <effect type="TechStatus" status="obtainable">HeavyGatlingGun</effect>
       <effect type="TechStatus" status="obtainable">ImperialGatlingGun</effect>
       <effect type="TechStatus" status="obtainable">ImperialManOWar</effect>
-      <effect type="TechStatus" status="obtainable">ImperialCannon</effect>
+      <effect type="TechStatus" status="obtainable">ImperialRocket</effect>
       <effect type="TechStatus" status="obtainable">DEVeteranStateMilitia</effect>
       <effect type="TechStatus" status="obtainable">DEVolunteers</effect>
       <effect type="TechStatus" status="obtainable">DEImperialVolunteers</effect>
@@ -5464,13 +5464,6 @@
     </effects>
   </tech>
   <tech name="HCShipMortars2" type="Normal">
-    <effects>
-      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-    </effects>
-  </tech>
-  <tech name="HCShipCannons1" type="Normal">
     <effects>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
@@ -8606,7 +8599,7 @@
       <effect type="Data" amount="1.40" subtype="Damage" allactions="1" relativity="BasePercent">
         <target type="ProtoUnit">deSpurRider</target>
       </effect>
-      <effect type="Data" amount="0.10" subtype="ArmorSpecific" newtype="Ranged" relativity="Absolute">
+      <effect type="Data" amount="0.05" subtype="ArmorSpecific" newtype="Ranged" relativity="Absolute">
         <target type="ProtoUnit">deSpurRider</target>
       </effect>
 
@@ -8811,6 +8804,76 @@
       <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="deUSCavalry" relativity="Absolute">
         <target type="Player"/>
       </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCFedMarionsDiversions" type="Normal">
+    <dbid>7124</dbid>
+    <displaynameid>110307</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\federal\sc_marions_diversions.png</icon>
+    <rollovertextid>110306</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.05" subtype="MaximumVelocity" relativity="BasePercent">
+        <target type="ProtoUnit">xpGatlingGun</target>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+      <effect type="Data" amount="1.00" tactic="Stealth" subtype="TacticEnable" relativity="Absolute">
+        <target type="ProtoUnit">xpGatlingGun</target>
+      </effect>
+      <effect type="Data" action="Stealth" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">xpGatlingGun</target>
+      </effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCFedTammanyFestival" type="Normal">
+    <dbid>7110</dbid>
+    <displaynameid>110280</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\great_house.png</icon>
+    <rollovertextid>110279</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deEmbassyTravois" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TechStatus" status="obtainable">NatMorningWars</effect>
+      <effect type="TechStatus" status="obtainable">NatLacrosse</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">NatTomahawk</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">NatMantlet</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">ChampionIroquois</effect>
+      <effect type="TechStatus" status="obtainable">NatIroquoisLeague</effect>
+      <effect type="TechStatus" status="obtainable">WarriorSocietyIroquois</effect>
+      <effect type="TechStatus" status="obtainable">NativeTreatyIroquois</effect>
+      <effect type="TechStatus" status="obtainable">ypNativeEmbassyEnableShadow</effect>
+      <effect type="CommandAdd" tech="NatMorningWars" page="1" column="17">
+        <target type="ProtoUnit">NativeEmbassy</target>
+      </effect>
+      <effect type="CommandAdd" tech="NatLacrosse" page="1" column="18">
+        <target type="ProtoUnit">NativeEmbassy</target>
+      </effect>
+      <effect civ="Iroquois" type="Data" amount="1.00" subtype="UpgradeSubCivAlliance" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">NativeEmbassy</target>
+      </effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+
     </effects>
   </tech>
 
