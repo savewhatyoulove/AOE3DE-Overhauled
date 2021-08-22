@@ -623,7 +623,7 @@
     </card>
     <card>
       <name>HCXPShipRocketsRepeat</name>
-      <maxcount>1</maxcount>
+      <maxcount>-1</maxcount>
       <level>40</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
