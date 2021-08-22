@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<protounitsounddef>
+  <protounit name="deUSCavalry">
+    <soundtype name="Select">
+      <soundset name="BillyHolmeSelect"/>
+    </soundtype>
+    <soundtype name="Grunt">
+      <soundset name="BillyHolmeGrunt"/>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="BillyHolmeDeath"/>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="MilitaryBirth"/>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <targetlogic>
+        <choice name="default">
+          <soundset name="BillyHolmeAcknowledge"/>
+        </choice>
+        <choice name="enemy">
+          <soundset name="BillyHolmeAttack"/>
+        </choice>
+      </targetlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

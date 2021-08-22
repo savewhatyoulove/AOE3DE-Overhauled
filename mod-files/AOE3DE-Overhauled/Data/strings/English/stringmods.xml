@@ -375,6 +375,15 @@
 	    <string _locid="260021">Durable Heavy Cavalry with low damage. Good against Artillery, Skirmishers, and Foot Archers.</string>
 	    <string _locid="260022">6 Texas Rangers</string>
 	    <string _locid="260023">9 Texas Rangers</string>
+	    <string _locid="260024">Veteran Spur Riders</string>
+	    <string _locid="260025">Rough Riders</string>
+	    <string _locid="260026">Imperial Rough Riders</string>
+	    <string _locid="260027">Spur Rider attack and hitpoints increased.</string>
+	    <string _locid="260028">Spur Rider attack, hitpoints, and ranged armor increased.</string>
+	    <string _locid="260029">Imperial upgrade for Rough Riders</string>
+	    <string _locid="260030">Veteran Spur Rider</string>
+	    <string _locid="260031">Rough Rider</string>
+	    <string _locid="260032">Imperial Rough Rider</string>
 	</Language>
   </StringTable>
 </stringmods>

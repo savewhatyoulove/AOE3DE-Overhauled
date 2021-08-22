@@ -1,0 +1,956 @@
+diff --git a/mod-files/AOE3DE-Overhauled/Data/homecityamericans.xml b/mod-files/AOE3DE-Overhauled/Data/homecityamericans.xml
+index 7aab823..e28bbda 100644
+--- a/mod-files/AOE3DE-Overhauled/Data/homecityamericans.xml
++++ b/mod-files/AOE3DE-Overhauled/Data/homecityamericans.xml
+@@ -410,6 +410,15 @@
+       <infiniteinlastage>1</infiniteinlastage>
+     </card>
+     <!-- This is actually Texas Rangers, but I had to use this shipment due to DE's shit engine coding -->
++    <card>
++      <name>DEHCShipStateMilitia2</name>
++      <maxcount>-1</maxcount>
++      <level>0</level>
++      <prereqtech>-1</prereqtech>
++      <age>3</age>
++      <displayunitcount>9</displayunitcount>
++      <infiniteinlastage>1</infiniteinlastage>
++    </card>
+     <card>
+       <name>DEHCShipStateMilitia3</name>
+       <maxcount>1</maxcount>
+@@ -661,15 +670,6 @@
+       <displayunitcount>6</displayunitcount>
+       <infiniteinlastage>1</infiniteinlastage>
+     </card>
+-    <card>
+-      <name>DEHCShipStateMilitia2</name>
+-      <maxcount>-1</maxcount>
+-      <level>0</level>
+-      <prereqtech>-1</prereqtech>
+-      <age>3</age>
+-      <displayunitcount>9</displayunitcount>
+-      <infiniteinlastage>1</infiniteinlastage>
+-    </card>
+     <card>
+       <name>DEHCShipQuakerGunsTeam</name>
+       <maxcount>-1</maxcount>
+@@ -1570,6 +1570,7 @@
+       <tech x="5.8" y="3.0">DEHCCoffeeMillGun</tech>
+       <tech x="5.8" y="7.0">HCXPShipHorseArtillery2</tech>
+       <tech x="5.8" y="7.0">DEHCShipHorseArtilleryRepeat1</tech>
++      <tech x="5.8" y="7.0">DEHCShipCapturedRockets</tech>
+       <tech x="5.8" y="7.0">DEHCShipCulverineMortar</tech>
+       <tech x="6.5" y="1.0">HCAdvancedArtillery</tech>
+       <tech x="6.5" y="2.0">HCShipMortars1</tech>
+@@ -1608,6 +1609,7 @@
+       <tech x="5.8" y="3.0">DEHCCoffeeMillGun</tech>
+       <tech x="5.8" y="7.0">HCXPShipHorseArtillery2</tech>
+       <tech x="5.8" y="7.0">DEHCShipHorseArtilleryRepeat1</tech>
++      <tech x="5.8" y="7.0">DEHCShipCapturedRockets</tech>
+       <tech x="5.8" y="7.0">DEHCShipCulverineMortar</tech>
+       <tech x="6.5" y="1.0">HCAdvancedArtillery</tech>
+       <tech x="6.5" y="2.0">HCShipMortars1</tech>
+diff --git a/mod-files/AOE3DE-Overhauled/Data/protomods.xml b/mod-files/AOE3DE-Overhauled/Data/protomods.xml
+index de458d6..73b5260 100644
+--- a/mod-files/AOE3DE-Overhauled/Data/protomods.xml
++++ b/mod-files/AOE3DE-Overhauled/Data/protomods.xml
+@@ -2,147 +2,14 @@
+   <unit id="292" name="TradingPost">
+     <train row="0" page="0" column="2">deChasqui</train>
+   </unit>
+-  <unit mergeMode='replace' id="298" name="Stable">
+-    <dbid>25</dbid>
+-    <displaynameid>22919</displaynameid>
+-    <obstructionradiusx>3.0000</obstructionradiusx>
+-    <obstructionradiusz>5.0000</obstructionradiusz>
+-    <maxvelocity>0.0000</maxvelocity>
+-    <movementtype>land</movementtype>
+-    <animfile>buildings\stables\stables.xml</animfile>
+-    <deadreplacement>BuildingRubble5x3</deadreplacement>
+-    <deadreplacementlifespan>15</deadreplacementlifespan>
+-    <impacttype>Wood</impacttype>
+-    <physicsinfo>stable</physicsinfo>
+-    <placementfile>buildinglarge.xml</placementfile>
+-    <icon>resources\art\buildings\stables\stables_icon.png</icon>
+-    <portraiticon>resources\art\buildings\stables\stables_portrait.png</portraiticon>
+-    <rollovertextid>22918</rollovertextid>
+-    <shortrollovertextid>25727</shortrollovertextid>
+-    <initialhitpoints>2500.0000</initialhitpoints>
+-    <maxhitpoints>2500.0000</maxhitpoints>
+-    <los>14.0000</los>
+-    <buildpoints>30.0000</buildpoints>
+-    <bounty>40.0000</bounty>
+-    <buildbounty>20.0000</buildbounty>
+-    <cost resourcetype="Wood">200.0000</cost>
+-    <buildingworkrate>1.0000</buildingworkrate>
+-    <allowedage>1</allowedage>
+-    <armor type="Siege" value="0.0000"/>
+-    <builderlimit>8</builderlimit>
+-    <unittype>LogicalTypeValidSabotage</unittype>
+-    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+-    <unittype>LogicalTypeBuildingsNotWalls</unittype>
+-    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+-    <unittype>LogicalTypeVillagersAttack</unittype>
+-    <unittype>LogicalTypeHandUnitsAttack</unittype>
+-    <unittype>LogicalTypeShipsAndBuildings</unittype>
+-    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+-    <unittype>LogicalTypeBuildingsNotWallsOrGroves</unittype>
+-    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
+-    <unittype>ConvertsHerds</unittype>
+-    <unittype>AbstractStables</unittype>
+-    <unittype>CountsTowardMilitaryScore</unittype>
+-    <unittype>HasBountyValue</unittype>
+-    <unittype>Building</unittype>
+-    <unittype>BuildingClass</unittype>
+-    <unittype>MilitaryBuilding</unittype>
+-    <train row="0" page="0" column="0">Uhlan</train>
+-    <train row="0" page="0" column="0">deSpurRider</train>
+-    <train row="0" page="0" column="1">Oprichnik</train>
+-    <train row="0" page="0" column="2">CavalryArcher</train>
+-    <train row="0" page="0" column="0">Hussar</train>
+-    <train row="0" page="0" column="1">WarWagon</train>
+-    <train row="0" page="0" column="1">Ruyter</train>
+-    <train row="0" page="0" column="1">deFinnishRider</train>
+-    <train row="0" page="0" column="2">Dragoon</train>
+-    <train row="0" page="0" column="1">Lancer</train>
+-    <train row="0" page="0" column="1">Cuirassier</train>
+-    <train row="0" page="0" column="0">Cossack</train>
+-    <train row="0" page="0" column="0">deBarbaryCavalry</train>
+-    <train row="0" page="0" column="1">deBedouinHorseArcher</train>
+-    <train row="0" page="0" column="0">ypSteppeRider</train>
+-    <train row="0" page="0" column="1">ypKeshik</train>
+-    <train row="0" page="0" column="2">CavalryArcher</train>
+-    <train row="0" page="0" column="3">ypMeteorHammer</train>
+-    <train row="0" page="0" column="4">ypIronFlail</train>
+-    <tech row="0" page="1" column="1">ImperialCarabineer</tech>
+-    <tech row="0" page="1" column="0">ImperialCossack</tech>
+-    <tech row="0" page="1" column="2">ImperialCavalryArchers</tech>
+-    <tech row="0" page="1" column="2">ImperialDragoons</tech>
+-    <tech row="0" page="1" column="0">ImperialHussars</tech>
+-    <tech row="0" page="1" column="2">ImperialJinetes</tech>
+-    <tech row="0" page="1" column="0">ImperialCzapkaUhlans</tech>
+-    <tech row="0" page="1" column="0">RGCzapkaUhlans</tech>
+-    <tech row="0" page="1" column="2">RGTartarLoyalists</tech>
+-    <tech row="0" page="1" column="1">RGGarrochista</tech>
+-    <tech row="0" page="1" column="1">GuardRuyters</tech>
+-    <tech row="0" page="1" column="0">RGGardener</tech>
+-    <tech row="0" page="1" column="0">GuardCossacks</tech>
+-    <tech row="0" page="1" column="0">VeteranCossacks</tech>
+-    <tech row="0" page="1" column="1">GuardWarWagons</tech>
+-    <tech row="0" page="1" column="2">GuardCavalryArchers</tech>
+-    <tech row="0" page="1" column="1">RGGendarmes</tech>
+-    <tech row="0" page="1" column="1">RGCarabineer</tech>
+-    <tech row="0" page="1" column="0">VeteranUhlans</tech>
+-    <tech row="0" page="1" column="2">GuardDragoons</tech>
+-    <tech row="0" page="1" column="0">GuardHussars</tech>
+-    <tech row="0" page="1" column="0">VeteranHussars</tech>
+-    <tech row="0" page="1" column="0">DEVeteranUSCavalryShadow</tech>
+-    <tech row="0" page="1" column="0">DEGuardUSCavalry</tech>
+-    <tech row="0" page="1" column="0">DEImperialUSCavalry</tech>
+-    <tech row="0" page="1" column="0">RGLifeGuardHussars</tech>
+-    <tech row="0" page="1" column="1">ImperialGarrochistas</tech>
+-    <tech row="0" page="1" column="2">ImperialTartarLoyalist</tech>
+-    <tech row="0" page="1" column="0">GuardUhlans</tech>
+-    <tech row="0" page="1" column="0">ImperialGardener</tech>
+-    <tech row="0" page="1" column="0">ImperialLifeGuard</tech>
+-    <tech row="0" page="1" column="2">RGJinetes</tech>
+-    <tech row="0" page="1" column="1">GuardOprichniks</tech>
+-    <tech row="0" page="1" column="1">ImperialOprichniks</tech>
+-    <tech row="0" page="1" column="1">ImperialGendarme</tech>
+-    <tech row="0" page="1" column="1">ImperialWarWagons</tech>
+-    <tech row="0" page="1" column="0">DEVeteranBarbaryCavalry</tech>
+-    <tech row="0" page="1" column="0">DEGuardBarbaryCavalry</tech>
+-    <tech row="0" page="1" column="1">DEGuardBedouinHorseArcher</tech>
+-    <tech row="0" page="1" column="2">DEGuardMameluke</tech>
+-    <tech row="0" page="1" column="0">YPDisciplinedSteppeRider</tech>
+-    <tech row="0" page="1" column="0">YPHonoredSteppeRider</tech>
+-    <tech row="0" page="1" column="0">YPExaltedSteppeRider</tech>
+-    <tech row="0" page="1" column="1">YPDisciplinedKeshik</tech>
+-    <tech row="0" page="1" column="1">YPHonoredKeshik</tech>
+-    <tech row="0" page="1" column="1">YPExaltedKeshik</tech>
+-    <tech row="0" page="1" column="3">YPHonoredMeteorHammer</tech>
+-    <tech row="0" page="1" column="3">YPExaltedMeteorHammer</tech>
+-    <tech row="0" page="1" column="4">YPHonoredIronFlail</tech>
+-    <tech row="0" page="1" column="4">YPExaltedIronFlail</tech>
+-    <tech row="0" page="1" column="1">RGDrabants</tech>
+-    <tech row="0" page="1" column="1">ImperialDrabants</tech>
+-    <flag>CollidesWithProjectiles</flag>
+-    <flag>StartsAtFullEfficiency</flag>
+-    <flag>Immoveable</flag>
+-    <flag>NoBloodOnDeath</flag>
+-    <flag>ObscuresUnits</flag>
+-    <flag>NoIdleActions</flag>
+-    <flag>NonAutoFormedUnit</flag>
+-    <flag>Doppled</flag>
+-    <flag>SelectWithObstruction</flag>
+-    <flag>PaintTextureWhenPlacing</flag>
+-    <flag>FlattenGround</flag>
+-    <flag>HasGatherPoint</flag>
+-    <flag>InitialGarrisonOnly</flag>
+-    <flag>Tracked</flag>
+-    <command page="10" column="3">SetGatherPointMilitary</command>
+-    <command page="10" column="7">Delete</command>
+-    <command page="10" column="8">CancelAllQueued</command>
++  <unit id="298" name="Stable">
++    <train mergeMode='remove' row="0" page="0" column="2">deUSCavalry</train>
+   </unit>
+   <unit id="391" name="FortFrontier">
+     <train mergeMode='remove' row="0" page="0" column="7">deUSCavalry</train>
+-    <train row="0" page="0" column="0">deSpurRider</train>
+   </unit>
+   <unit id="1745" name="deSteamer">
+     <train mergeMode='remove' row="0" page="12" column="5">deUSCavalry</train>
+-    <train row="0" page="0" column="0">deSpurRider</train>
+   </unit>
+   <unit mergeMode='replace' id="1649" name="deHomesteadWagon">
+     <dbid>2220</dbid>
+@@ -1992,6 +1859,32 @@
+     <command page="8" column="1">MarketSell2</command>
+     <tactics>market.tactics</tactics>
+   </unit>
++  <unit id="435" name="FootprintWheel">
++    <dbid>340</dbid>
++    <displaynameid>26818</displaynameid>
++    <obstructionradiusx>0.1000</obstructionradiusx>
++    <obstructionradiusz>0.1000</obstructionradiusz>
++    <maxvelocity>0.0000</maxvelocity>
++    <movementtype>land</movementtype>
++    <animfile>effects\footprints\footprint_wheel.xml</animfile>
++    <los>0.0000</los>
++    <unittype>EmbellishmentClass</unittype>
++    <flag>AlwaysFullColorAsCursor</flag>
++    <flag>NoUnitAI</flag>
++    <flag>TieToWaterSurface</flag>
++    <flag>NotSearchable</flag>
++    <flag>Immoveable</flag>
++    <flag>NotSelectable</flag>
++    <flag>NoBloodOnDeath</flag>
++    <flag>NoHPBar</flag>
++    <flag>NonAutoFormedUnit</flag>
++    <flag>NonCollideable</flag>
++    <flag>ForceToGaia</flag>
++    <flag>DoNotShowOnMiniMap</flag>
++    <flag>DoNotCreateUnitGroupAutomatically</flag>
++    <flag>Tracked</flag>
++  </unit>
++
+   <unit mergeMode='replace' id="981" name="ypSiegeElephant">
+     <dbid>1460</dbid>
+     <displaynameid>61755</displaynameid>
+@@ -8221,7 +8114,7 @@
+     <animfile>units\spc\custer\spc_custer_horse.xml</animfile>
+     <impacttype>Flesh</impacttype>
+     <physicsinfo>cav</physicsinfo>
+-    <icon>resources\art\units\cavalry\spur_rider\spur_rider_icon.png</icon>
++    <icon>resources\art\units\spc\alain\alain_igc_icon.png</icon>
+     <portraiticon>resources\art\units\spc\custer\custer_portrait.png</portraiticon>
+     <rollovertextid>260021</rollovertextid>
+     <shortrollovertextid>260020</shortrollovertextid>
+@@ -8234,7 +8127,7 @@
+     <buildbounty>18.0000</buildbounty>
+     <cost resourcetype="Food">120.0000</cost>
+     <cost resourcetype="Gold">60.0000</cost>
+-    <allowedage>1</allowedage>
++    <allowedage>2</allowedage>
+     <armor type="Siege" value="0.2000"/>
+     <armor type="Ranged" value="0.3000"/>
+     <unittype>LogicalTypeHealed</unittype>
+@@ -8291,6 +8184,7 @@
+       <damage>20.000000</damage>
+       <damagetype>Hand</damagetype>
+       <rof>1.500000</rof>
++      <damagebonus type="AbstractArtillery">2.000000</damagebonus>
+     </protoaction>
+     <protoaction>
+       <name>MeleeHandAttack</name>
+diff --git a/mod-files/AOE3DE-Overhauled/Data/strings/English/stringmods.xml b/mod-files/AOE3DE-Overhauled/Data/strings/English/stringmods.xml
+index f77cea9..1759dff 100644
+--- a/mod-files/AOE3DE-Overhauled/Data/strings/English/stringmods.xml
++++ b/mod-files/AOE3DE-Overhauled/Data/strings/English/stringmods.xml
+@@ -375,16 +375,6 @@
+ 	    <string _locid="260021">Durable Heavy Cavalry with low damage. Good against Artillery, Skirmishers, and Foot Archers.</string>
+ 	    <string _locid="260022">6 Texas Rangers</string>
+ 	    <string _locid="260023">9 Texas Rangers</string>
+-	    <string _locid="210024">Veteran Spur Riders</string>
+-	    <string _locid="210025">Rough Riders</string>
+-	    <string _locid="210026">Imperial Rough Riders</string>
+-	    <string _locid="210027">Spur Rider attack and hitpoints increased.</string>
+-	    <string _locid="210028">Spur Rider attack, hitpoints, and ranged armor increased.</string>
+-	    <string _locid="210029">Imperial upgrade for Rough Riders</string>
+-	    <string _locid="210030">Veteran Spur Rider</string>
+-	    <string _locid="210031">Rough Rider</string>
+-	    <string _locid="210032">Imperial Rough Rider</string>
+-
+ 	</Language>
+   </StringTable>
+ </stringmods>
+diff --git a/mod-files/AOE3DE-Overhauled/Data/techtreemods.xml b/mod-files/AOE3DE-Overhauled/Data/techtreemods.xml
+index 03822f0..ddbdfea 100644
+--- a/mod-files/AOE3DE-Overhauled/Data/techtreemods.xml
++++ b/mod-files/AOE3DE-Overhauled/Data/techtreemods.xml
+@@ -4948,7 +4948,7 @@
+         <target type="ProtoUnit">Factory</target>
+       </effect>
+       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+-        <target type="ProtoUnit">deSpurRider</target>
++        <target type="ProtoUnit">Hussar</target>
+       </effect>
+       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+         <target type="ProtoUnit">House</target>
+@@ -4987,6 +4987,9 @@
+       <effect type="TechStatus" status="obtainable">ImperialGatlingGun</effect>
+       <effect type="TechStatus" status="obtainable">ImperialManOWar</effect>
+       <effect type="TechStatus" status="obtainable">ImperialCannon</effect>
++      <effect type="TechStatus" status="obtainable">VeteranHussars</effect>
++      <effect type="TechStatus" status="obtainable">GuardHussars</effect>
++      <effect type="TechStatus" status="obtainable">ImperialHussars</effect>
+       <effect type="TechStatus" status="obtainable">DEVeteranStateMilitia</effect>
+       <effect type="TechStatus" status="obtainable">DEVolunteers</effect>
+       <effect type="TechStatus" status="obtainable">DEImperialVolunteers</effect>
+@@ -5251,16 +5254,6 @@
+       <effect type="Data" amount="10.00" subtype="LOS" relativity="Absolute">
+         <target type="ProtoUnit">deInspiringFlag2</target>
+       </effect>
+-      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+-        <target type="ProtoUnit">deUSCavalry</target>
+-      </effect>
+-      <effect type="SetName" proto="deUSCavalry" culture="none" newname="110052"/>
+-      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deUSCavalry" relativity="Absolute">
+-        <target type="Player"/>
+-      </effect>
+-      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+-        <target type="ProtoUnit">deUSCavalry</target>
+-      </effect>
+     </effects>
+   </tech>
+   <tech mergeMode='replace' name="DEIndustrializeAmericans" type="Normal">
+@@ -5285,16 +5278,6 @@
+       <effect type="Data" amount="1.40" subtype="Hitpoints" relativity="BasePercent">
+         <target type="ProtoUnit">deGeneral2</target>
+       </effect>
+-      <effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
+-        <target type="ProtoUnit">deUSCavalry</target>
+-      </effect>
+-      <effect type="SetName" proto="deUSCavalry" culture="none" newname="110053"/>
+-      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deUSCavalry" relativity="Absolute">
+-        <target type="Player"/>
+-      </effect>
+-      <effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
+-        <target type="ProtoUnit">deUSCavalry</target>
+-      </effect>
+       <effect type="Data" amount="10.00" subtype="LOS" relativity="Absolute">
+         <target type="ProtoUnit">deInspiringFlag2</target>
+       </effect>
+@@ -5313,13 +5296,6 @@
+       <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+         <target type="ProtoUnit">deGeneral2</target>
+       </effect>
+-      <effect type="SetName" proto="deUSCavalry" culture="none" newname="110054"/>
+-      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+-        <target type="ProtoUnit">deUSCavalry</target>
+-      </effect>
+-      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+-        <target type="ProtoUnit">deUSCavalry</target>
+-      </effect>
+       <effect type="TechStatus" status="obtainable">DEImperializeStatehoodShadow</effect>
+     </effects>
+   </tech>
+@@ -6001,8 +5977,8 @@
+     <dbid>7333</dbid>
+     <displaynameid>110578</displaynameid>
+     <cost resourcetype="Ships">1.0000</cost>
+-    <cost resourcetype="Food">750.0000</cost>
+-    <cost resourcetype="Wood">750.0000</cost>
++    <cost resourcetype="Food">600.0000</cost>
++    <cost resourcetype="Wood">600.0000</cost>
+     <researchpoints>60.0000</researchpoints>
+     <status>UNOBTAINABLE</status>
+     <icon>resources\art\units\artillery\rocket\rocket_icon.png</icon>
+@@ -7359,7 +7335,7 @@
+ 
+     </effects>
+   </tech>
+-  <tech mergeMode='add' name="DEHCStateMilitiaSplashDamage" type="Normal">
++  <tech name="DEHCStateMilitiaSplashDamage" type="Normal">
+     <dbid>9511</dbid>
+     <displaynameid>260012</displaynameid>
+     <cost resourcetype="Ships">1.0000</cost>
+@@ -7369,13 +7345,13 @@
+     <rollovertextid>260013</rollovertextid>
+     <flag>HomeCity</flag>
+     <effects>
+-      <effect type="Data" action="VolleyRangedAttack" amount="3.00" subtype="DamageArea" relativity="Assign">
++      <effect type="Data" action="VolleyRangedAttack" amount="1.00" subtype="DamageArea" relativity="Absolute">
+         <target type="ProtoUnit">deStateMilitia</target>
+       </effect>
+-      <effect type="Data" action="StaggerRangedAttack" amount="3.00" subtype="DamageArea" relativity="Assign">
++      <effect type="Data" action="StaggerRangedAttack" amount="1.00" subtype="DamageArea" relativity="Absolute">
+         <target type="ProtoUnit">deStateMilitia</target>
+       </effect>
+-      <effect type="Data" action="DefendRangedAttack" amount="3.00" subtype="DamageArea" relativity="Assign">
++      <effect type="Data" action="DefendRangedAttack" amount="1.00" subtype="DamageArea" relativity="Absolute">
+         <target type="ProtoUnit">deStateMilitia</target>
+       </effect>
+       <effect type="Data" action="StaggerRangedAttack" amount="1.30" subtype="DamageCap" relativity="BasePercent">
+@@ -8573,78 +8549,62 @@
+   </tech>
+   <tech mergeMode='replace' name="DEVeteranUSCavalryShadow" type="Normal">
+     <dbid>7013</dbid>
+-    <displaynameid>210024</displaynameid>
+-    <cost resourcetype="Wood">200.0000</cost>
+-    <cost resourcetype="Gold">200.0000</cost>
+-    <researchpoints>30.0000</researchpoints>
++    <researchpoints>0.0000</researchpoints>
+     <status>UNOBTAINABLE</status>
+-    <icon>resources\images\icons\techs\veteran_cavalry\veteran_cavalry.png</icon>
+-    <rollovertextid>210027</rollovertextid>
+-    <flag>CountsTowardMilitaryScore</flag>
+-    <flag>UpgradeTech</flag>
++    <flag>Shadow</flag>
+     <prereqs>
+       <techstatus status="Active">Fortressize</techstatus>
+     </prereqs>
+     <effects>
+       <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+-        <target type="ProtoUnit">deSpurRider</target>
++        <target type="ProtoUnit">deUSCavalry</target>
++      </effect>
++      <effect type="SetName" proto="deUSCavalry" culture="none" newname="110052"/>
++      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deUSCavalry" relativity="Absolute">
++        <target type="Player"/>
+       </effect>
+       <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+-        <target type="ProtoUnit">deSpurRider</target>
++        <target type="ProtoUnit">deUSCavalry</target>
+       </effect>
+-      <effect type="SetName" proto="deSpurRider" culture="none" newname="210030"/>
+     </effects>
+-  </tech>  <tech mergeMode='replace' name="DEGuardUSCavalry" type="Normal">
++  </tech>
++  <tech mergeMode='replace' name="DEGuardUSCavalry" type="Normal">
+     <dbid>7014</dbid>
+-    <displaynameid>210025</displaynameid>
+-    <cost resourcetype="Wood">800.0000</cost>
+-    <cost resourcetype="Gold">800.0000</cost>
+-    <researchpoints>30.0000</researchpoints>
++    <researchpoints>0.0000</researchpoints>
+     <status>UNOBTAINABLE</status>
+-    <icon>resources\images\icons\techs\guard_cavalry\guard_cavalry.png</icon>
+-    <rollovertextid>210028</rollovertextid>
+-    <flag>UpgradeTech</flag>
+-    <flag>CountsTowardMilitaryScore</flag>
++    <flag>Shadow</flag>
+     <prereqs>
+       <techstatus status="Active">Industrialize</techstatus>
+-      <techstatus status="Active">DEVeteranUSCavalryShadow</techstatus>
+     </prereqs>
+     <effects>
+-      <effect type="Data" amount="1.40" subtype="Hitpoints" relativity="BasePercent">
+-        <target type="ProtoUnit">deSpurRider</target>
++      <effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
++        <target type="ProtoUnit">deUSCavalry</target>
+       </effect>
+-      <effect type="Data" amount="1.40" subtype="Damage" allactions="1" relativity="BasePercent">
+-        <target type="ProtoUnit">deSpurRider</target>
++      <effect type="SetName" proto="deUSCavalry" culture="none" newname="110053"/>
++      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deUSCavalry" relativity="Absolute">
++        <target type="Player"/>
+       </effect>
+-      <effect type="Data" amount="0.10" subtype="ArmorSpecific" newtype="Ranged" relativity="Absolute">
+-        <target type="ProtoUnit">deSpurRider</target>
++      <effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
++        <target type="ProtoUnit">deUSCavalry</target>
+       </effect>
+-      <effect type="SetName" proto="deSpurRider" culture="none" newname="210031"/>
+     </effects>
+   </tech>
+   <tech mergeMode='replace' name="DEImperialUSCavalry" type="Normal">
+     <dbid>7015</dbid>
+-    <displaynameid>210026</displaynameid>
+-    <cost resourcetype="Wood">1500.0000</cost>
+-    <cost resourcetype="Gold">1500.0000</cost>
+-    <researchpoints>30.0000</researchpoints>
++    <researchpoints>0.0000</researchpoints>
+     <status>UNOBTAINABLE</status>
+-    <icon>resources\images\icons\techs\imperial_cavalry\imperial_cavalry.png</icon>
+-    <rollovertextid>210029</rollovertextid>
+-    <flag>UpgradeTech</flag>
+-    <flag>CountsTowardMilitaryScore</flag>
++    <flag>Shadow</flag>
+     <prereqs>
+       <techstatus status="Active">Imperialize</techstatus>
+-      <techstatus status="Active">DEGuardUSCavalry</techstatus>
+     </prereqs>
+     <effects>
++      <effect type="SetName" proto="deUSCavalry" culture="none" newname="110054"/>
+       <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+-        <target type="ProtoUnit">deSpurRider</target>
++        <target type="ProtoUnit">deUSCavalry</target>
+       </effect>
+       <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+-        <target type="ProtoUnit">deSpurRider</target>
++        <target type="ProtoUnit">deUSCavalry</target>
+       </effect>
+-      <effect type="SetName" proto="deSpurRider" culture="none" newname="210032"/>
+     </effects>
+   </tech>
+   <tech mergeMode='replace' name="DEChurchPennsylvaniaCavalry" type="Normal">
+@@ -8823,4 +8783,5 @@
+       </effect>
+     </effects>
+   </tech>
++
+ </techtreemods>
+diff --git a/mod-files/AOE3DE-Overhauled/Sound/despurrider_snds.xml b/mod-files/AOE3DE-Overhauled/Sound/despurrider_snds.xml
+deleted file mode 100644
+index c4b8d2d..0000000
+--- a/mod-files/AOE3DE-Overhauled/Sound/despurrider_snds.xml
++++ /dev/null
+@@ -1,34 +0,0 @@
+-<?xml version='1.0' encoding='utf-8'?>
+-<protounitsounddef>
+-  <protounit name="deSpurRider">
+-    <soundtype name="Select">
+-      <soundset name="CusterSelect"/>
+-    </soundtype>
+-    <soundtype name="Grunt">
+-      <soundset name="CusterGrunt"/>
+-    </soundtype>
+-    <soundtype name="Death">
+-      <soundset name="CusterDeath"/>
+-    </soundtype>
+-    <soundtype name="Creation">
+-      <soundset name="MilitaryBirth"/>
+-    </soundtype>
+-    <soundtype name="Acknowledge">
+-      <targetlogic>
+-        <choice name="default">
+-          <soundset name="CusterAcknowledge"/>
+-        </choice>
+-        <choice name="enemy">
+-          <soundset name="CusterAttack"/>
+-        </choice>
+-        <choice name="build"/>
+-        <choice name="Huntable"/>
+-        <choice name="Tree"/>
+-        <choice name="AbstractMine"/>
+-        <choice name="AbstractFarm"/>
+-        <choice name="AbstractResourceCrate"/>
+-        <choice name="AbstractFruit"/>
+-      </targetlogic>
+-    </soundtype>
+-  </protounit>
+-</protounitsounddef>
+diff --git a/mod-files/AOE3DE-Overhauled/Sound/deuscavalry_snds.xml b/mod-files/AOE3DE-Overhauled/Sound/deuscavalry_snds.xml
+deleted file mode 100644
+index 8a20dff..0000000
+--- a/mod-files/AOE3DE-Overhauled/Sound/deuscavalry_snds.xml
++++ /dev/null
+@@ -1,27 +0,0 @@
+-<?xml version='1.0' encoding='utf-8'?>
+-<protounitsounddef>
+-  <protounit name="deUSCavalry">
+-    <soundtype name="Select">
+-      <soundset name="BillyHolmeSelect"/>
+-    </soundtype>
+-    <soundtype name="Grunt">
+-      <soundset name="BillyHolmeGrunt"/>
+-    </soundtype>
+-    <soundtype name="Death">
+-      <soundset name="BillyHolmeDeath"/>
+-    </soundtype>
+-    <soundtype name="Creation">
+-      <soundset name="MilitaryBirth"/>
+-    </soundtype>
+-    <soundtype name="Acknowledge">
+-      <targetlogic>
+-        <choice name="default">
+-          <soundset name="BillyHolmeAcknowledge"/>
+-        </choice>
+-        <choice name="enemy">
+-          <soundset name="BillyHolmeAttack"/>
+-        </choice>
+-      </targetlogic>
+-    </soundtype>
+-  </protounit>
+-</protounitsounddef>
+diff --git a/mod-files/AOE3DE-Overhauled/Sound/dragoon_snds.xml b/mod-files/AOE3DE-Overhauled/Sound/dragoon_snds.xml
+deleted file mode 100644
+index 602e028..0000000
+--- a/mod-files/AOE3DE-Overhauled/Sound/dragoon_snds.xml
++++ /dev/null
+@@ -1,370 +0,0 @@
+-<?xml version='1.0' encoding='utf-8'?>
+-<protounitsounddef>
+-  <protounit name="Dragoon">
+-    <soundtype name="Select">
+-      <civlogic>
+-        <choice name="Nature"/>
+-        <choice name="French">
+-          <soundset name="FrenchDragoonSelect"/>
+-        </choice>
+-        <choice name="British">
+-          <soundset name="BritishDragoonSelect"/>
+-        </choice>
+-        <choice name="Russians">
+-          <soundset name="RussianCavalryArcherSelect"/>
+-        </choice>
+-        <choice name="Ottomans">
+-          <soundset name="OttomanAbusGunSelect"/>
+-        </choice>
+-        <choice name="Dutch">
+-          <soundset name="DutchReiterSelect"/>
+-        </choice>
+-        <choice name="Spanish">
+-          <soundset name="SpanishDragoonSelect"/>
+-        </choice>
+-        <choice name="Portuguese">
+-          <soundset name="PortugueseDragoonSelect"/>
+-        </choice>
+-        <choice name="Germans">
+-          <soundset name="GermanCrossbowmanSelect"/>
+-        </choice>
+-        <choice name="Aztecs"/>
+-        <choice name="Incas"/>
+-        <choice name="Maya"/>
+-        <choice name="Seminoles"/>
+-        <choice name="Caribs"/>
+-        <choice name="Cherokee"/>
+-        <choice name="Iroquois"/>
+-        <choice name="Cree"/>
+-        <choice name="Lakota"/>
+-        <choice name="Comanche"/>
+-        <choice name="Nootka"/>
+-        <choice name="Tupi"/>
+-        <choice name="SPCAct3">
+-          <soundset name="BritishHeavyCavalrySelect"/>
+-        </choice>
+-        <choice name="XPSPC">
+-          <soundset name="SPCAmericanSelect"/>
+-        </choice>
+-        <choice name="XPSPCFalcon">
+-          <soundset name="SPCAmericanSelect"/>
+-        </choice>
+-        <choice name="XPSPCLakota">
+-          <soundset name="SPCAmericanSelect"/>
+-        </choice>
+-        <choice name="DESwedish">
+-          <soundset name="DESwedishDragoonSelect"/>
+-        </choice>
+-        <choice name="SPCAmericans">
+-          <soundset name="SPCAmericanSelect"/>
+-        </choice>
+-        <choice name="DEInca">
+-          <soundset name="DEIncaBolasWarriorSelect"/>
+-        </choice>
+-        <choice name="DEAmericans">
+-      	  <soundset name="SPCMinerSelect"/>
+-        </choice>
+-      </civlogic>
+-    </soundtype>
+-    <soundtype name="Grunt">
+-      <soundset name="CavalryGrunt"/>
+-    </soundtype>
+-    <soundtype name="Death">
+-      <soundset name="GenericMaleDeath"/>
+-    </soundtype>
+-    <soundtype name="Creation">
+-      <soundset name="MilitaryBirth"/>
+-    </soundtype>
+-    <soundtype name="Acknowledge">
+-      <civlogic>
+-        <choice name="Nature">
+-          <targetlogic>
+-            <choice name="default"/>
+-            <choice name="enemy"/>
+-          </targetlogic>
+-        </choice>
+-        <choice name="French">
+-          <targetlogic>
+-            <choice name="default">
+-              <soundset name="FrenchDragoonAcknowledge"/>
+-            </choice>
+-            <choice name="enemy">
+-              <soundset name="FrenchDragoonAttack"/>
+-            </choice>
+-          </targetlogic>
+-        </choice>
+-        <choice name="British">
+-          <targetlogic>
+-            <choice name="default">
+-              <soundset name="BritishDragoonAcknowledge"/>
+-            </choice>
+-            <choice name="enemy">
+-              <soundset name="BritishDragoonAcknowledge"/>
+-            </choice>
+-          </targetlogic>
+-        </choice>
+-        <choice name="Russians">
+-          <targetlogic>
+-            <choice name="default">
+-              <soundset name="RussianCavalryArcherAcknowledge"/>
+-            </choice>
+-            <choice name="enemy">
+-              <soundset name="RussianCavalryArcherAttack"/>
+-            </choice>
+-          </targetlogic>
+-        </choice>
+-        <choice name="Ottomans">
+-          <targetlogic>
+-            <choice name="default">
+-              <soundset name="OttomanAbusGunAcknowledge"/>
+-            </choice>
+-            <choice name="enemy">
+-              <soundset name="OttomanAbusGunAttack"/>
+-            </choice>
+-          </targetlogic>
+-        </choice>
+-        <choice name="Dutch">
+-          <targetlogic>
+-            <choice name="default">
+-              <soundset name="DutchReiterAcknowledge"/>
+-            </choice>
+-            <choice name="enemy">
+-              <soundset name="DutchReiterAttack"/>
+-            </choice>
+-          </targetlogic>
+-        </choice>
+-        <choice name="Spanish">
+-          <targetlogic>
+-            <choice name="default">
+-              <soundset name="SpanishDragoonAcknowledge"/>
+-            </choice>
+-            <choice name="enemy">
+-              <soundset name="SpanishDragoonAttack"/>
+-            </choice>
+-          </targetlogic>
+-        </choice>
+-        <choice name="Portuguese">
+-          <targetlogic>
+-            <choice name="default">
+-              <soundset name="PortugueseDragoonAcknowledge"/>
+-            </choice>
+-            <choice name="enemy">
+-              <soundset name="PortugueseDragoonAttack"/>
+-            </choice>
+-          </targetlogic>
+-        </choice>
+-        <choice name="Germans">
+-          <targetlogic>
+-            <choice name="default">
+-              <soundset name="GermanCrossbowmanAcknowledge"/>
+-            </choice>
+-            <choice name="enemy">
+-              <soundset name="GermanCrossbowmanAttack"/>
+-            </choice>
+-          </targetlogic>
+-        </choice>
+-        <choice name="Aztecs">
+-          <targetlogic>
+-            <choice name="default"/>
+-            <choice name="enemy"/>
+-          </targetlogic>
+-        </choice>
+-        <choice name="Incas">
+-          <targetlogic>
+-            <choice name="default"/>
+-            <choice name="enemy"/>
+-          </targetlogic>
+-        </choice>
+-        <choice name="Maya">
+-          <targetlogic>
+-            <choice name="default"/>
+-            <choice name="enemy"/>
+-          </targetlogic>
+-        </choice>
+-        <choice name="Seminoles">
+-          <targetlogic>
+-            <choice name="default"/>
+-            <choice name="enemy"/>
+-          </targetlogic>
+-        </choice>
+-        <choice name="Caribs">
+-          <targetlogic>
+-            <choice name="default"/>
+-            <choice name="enemy"/>
+-          </targetlogic>
+-        </choice>
+-        <choice name="Cherokee">
+-          <targetlogic>
+-            <choice name="default"/>
+-            <choice name="enemy"/>
+-          </targetlogic>
+-        </choice>
+-        <choice name="Iroquois">
+-          <targetlogic>
+-            <choice name="default"/>
+-            <choice name="enemy"/>
+-          </targetlogic>
+-        </choice>
+-        <choice name="Cree">
+-          <targetlogic>
+-            <choice name="default"/>
+-            <choice name="enemy"/>
+-          </targetlogic>
+-        </choice>
+-        <choice name="Lakota">
+-          <targetlogic>
+-            <choice name="default"/>
+-            <choice name="enemy"/>
+-          </targetlogic>
+-        </choice>
+-        <choice name="Comanche">
+-          <targetlogic>
+-            <choice name="default"/>
+-            <choice name="enemy"/>
+-          </targetlogic>
+-        </choice>
+-        <choice name="Nootka">
+-          <targetlogic>
+-            <choice name="default"/>
+-            <choice name="enemy"/>
+-          </targetlogic>
+-        </choice>
+-        <choice name="Tupi">
+-          <targetlogic>
+-            <choice name="default"/>
+-            <choice name="enemy"/>
+-          </targetlogic>
+-        </choice>
+-        <choice name="SPCAct3">
+-          <targetlogic>
+-            <choice name="default">
+-              <soundset name="BritishHeavyCavalryAcknowledge"/>
+-            </choice>
+-            <choice name="enemy">
+-              <soundset name="BritishHeavyCavalryAttack"/>
+-            </choice>
+-            <choice name="build"/>
+-            <choice name="Huntable"/>
+-            <choice name="Tree"/>
+-            <choice name="AbstractMine"/>
+-            <choice name="AbstractFarm"/>
+-            <choice name="AbstractResourceCrate"/>
+-            <choice name="AbstractFruit"/>
+-          </targetlogic>
+-        </choice>
+-        <choice name="XPSPC">
+-          <targetlogic>
+-            <choice name="default">
+-              <soundset name="SPCAmericanAcknowledge"/>
+-            </choice>
+-            <choice name="enemy">
+-              <soundset name="SPCAmericanAttack"/>
+-            </choice>
+-            <choice name="build"/>
+-            <choice name="Huntable"/>
+-            <choice name="Tree"/>
+-            <choice name="AbstractMine"/>
+-            <choice name="AbstractFarm"/>
+-            <choice name="AbstractResourceCrate"/>
+-            <choice name="AbstractFruit"/>
+-          </targetlogic>
+-        </choice>
+-        <choice name="XPSPCFalcon">
+-          <targetlogic>
+-            <choice name="default">
+-              <soundset name="SPCAmericanAcknowledge"/>
+-            </choice>
+-            <choice name="enemy">
+-              <soundset name="SPCAmericanAttack"/>
+-            </choice>
+-            <choice name="build"/>
+-            <choice name="Huntable"/>
+-            <choice name="Tree"/>
+-            <choice name="AbstractMine"/>
+-            <choice name="AbstractFarm"/>
+-            <choice name="AbstractResourceCrate"/>
+-            <choice name="AbstractFruit"/>
+-          </targetlogic>
+-        </choice>
+-        <choice name="XPSPCLakota">
+-          <targetlogic>
+-            <choice name="default">
+-              <soundset name="SPCAmericanAcknowledge"/>
+-            </choice>
+-            <choice name="enemy">
+-              <soundset name="SPCAmericanAttack"/>
+-            </choice>
+-            <choice name="build"/>
+-            <choice name="Huntable"/>
+-            <choice name="Tree"/>
+-            <choice name="AbstractMine"/>
+-            <choice name="AbstractFarm"/>
+-            <choice name="AbstractResourceCrate"/>
+-            <choice name="AbstractFruit"/>
+-          </targetlogic>
+-        </choice>
+-        <choice name="DESwedish">
+-          <targetlogic>
+-            <choice name="default">
+-              <soundset name="DESwedishDragoonAcknowledge"/>
+-            </choice>
+-            <choice name="enemy">
+-              <soundset name="DESwedishDragoonAttack"/>
+-            </choice>
+-          </targetlogic>
+-        </choice>
+-        <choice name="SPCAmericans">
+-          <targetlogic>
+-            <choice name="default">
+-              <soundset name="SPCAmericanAcknowledge"/>
+-            </choice>
+-            <choice name="enemy">
+-              <soundset name="SPCAmericanAttack"/>
+-            </choice>
+-            <choice name="build"/>
+-            <choice name="Huntable"/>
+-            <choice name="Tree"/>
+-            <choice name="AbstractMine"/>
+-            <choice name="AbstractFarm"/>
+-            <choice name="AbstractResourceCrate"/>
+-            <choice name="AbstractFruit"/>
+-          </targetlogic>
+-        </choice>
+-        <choice name="DEInca">
+-          <targetlogic>
+-            <choice name="default">
+-              <soundset name="DEIncaBolasWarriorAcknowledge"/>
+-            </choice>
+-            <choice name="enemy">
+-              <soundset name="DEIncaBolasWarriorAttack"/>
+-            </choice>
+-            <choice name="build"/>
+-            <choice name="Huntable"/>
+-            <choice name="Tree"/>
+-            <choice name="AbstractMine"/>
+-            <choice name="AbstractFarm"/>
+-            <choice name="AbstractResourceCrate"/>
+-            <choice name="AbstractFruit"/>
+-          </targetlogic>
+-        </choice>
+-        <choice name="DEAmericans">
+-          <targetlogic>
+-        <choice name="default">
+-          <soundset name="SPCMinerAcknowledge"/>
+-        </choice>
+-        <choice name="enemy">
+-          <soundset name="SPCMinerAttack"/>
+-        </choice>
+-            <choice name="build"/>
+-            <choice name="Huntable"/>
+-            <choice name="Tree"/>
+-            <choice name="AbstractMine"/>
+-            <choice name="AbstractFarm"/>
+-            <choice name="AbstractResourceCrate"/>
+-            <choice name="AbstractFruit"/>
+-          </targetlogic>
+-        </choice>
+-      </civlogic>
+-    </soundtype>
+-  </protounit>
+-</protounitsounddef>
+diff --git a/mod-files/AOE3DE-Overhauled/UI/resources/art/units/cavalry/spur_rider/spur_rider_icon.png b/mod-files/AOE3DE-Overhauled/UI/resources/art/units/cavalry/spur_rider/spur_rider_icon.png
+deleted file mode 100644
+index 0d17bd3..0000000
+Binary files a/mod-files/AOE3DE-Overhauled/UI/resources/art/units/cavalry/spur_rider/spur_rider_icon.png and /dev/null differ

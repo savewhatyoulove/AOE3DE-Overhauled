@@ -411,15 +411,6 @@
     </card>
     <!-- This is actually Texas Rangers, but I had to use this shipment due to DE's shit engine coding -->
     <card>
-      <name>DEHCShipStateMilitia2</name>
-      <maxcount>-1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
-      <displayunitcount>9</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
       <name>DEHCShipStateMilitia3</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -668,6 +659,15 @@
       <prereqtech>-1</prereqtech>
       <age>2</age>
       <displayunitcount>6</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCShipStateMilitia2</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>9</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>

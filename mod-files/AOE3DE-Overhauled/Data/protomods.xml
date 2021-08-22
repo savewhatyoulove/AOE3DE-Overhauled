@@ -2,9 +2,141 @@
   <unit id="292" name="TradingPost">
     <train row="0" page="0" column="2">deChasqui</train>
   </unit>
-  <unit id="298" name="Stable">
-    <train mergeMode='remove' row="0" page="0" column="2">deUSCavalry</train>
+  <unit mergeMode='replace' id="298" name="Stable">
+    <dbid>25</dbid>
+    <displaynameid>22919</displaynameid>
+    <obstructionradiusx>3.0000</obstructionradiusx>
+    <obstructionradiusz>5.0000</obstructionradiusz>
+    <maxvelocity>0.0000</maxvelocity>
+    <movementtype>land</movementtype>
+    <animfile>buildings\stables\stables.xml</animfile>
+    <deadreplacement>BuildingRubble5x3</deadreplacement>
+    <deadreplacementlifespan>15</deadreplacementlifespan>
+    <impacttype>Wood</impacttype>
+    <physicsinfo>stable</physicsinfo>
+    <placementfile>buildinglarge.xml</placementfile>
+    <icon>resources\art\buildings\stables\stables_icon.png</icon>
+    <portraiticon>resources\art\buildings\stables\stables_portrait.png</portraiticon>
+    <rollovertextid>22918</rollovertextid>
+    <shortrollovertextid>25727</shortrollovertextid>
+    <initialhitpoints>2500.0000</initialhitpoints>
+    <maxhitpoints>2500.0000</maxhitpoints>
+    <los>14.0000</los>
+    <buildpoints>30.0000</buildpoints>
+    <bounty>40.0000</bounty>
+    <buildbounty>20.0000</buildbounty>
+    <cost resourcetype="Wood">200.0000</cost>
+    <buildingworkrate>1.0000</buildingworkrate>
+    <allowedage>1</allowedage>
+    <armor type="Siege" value="0.0000"/>
+    <builderlimit>8</builderlimit>
+    <unittype>LogicalTypeValidSabotage</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeBuildingsNotWalls</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeShipsAndBuildings</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>LogicalTypeBuildingsNotWallsOrGroves</unittype>
+    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
+    <unittype>ConvertsHerds</unittype>
+    <unittype>AbstractStables</unittype>
+    <unittype>CountsTowardMilitaryScore</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>Building</unittype>
+    <unittype>BuildingClass</unittype>
+    <unittype>MilitaryBuilding</unittype>
+    <train row="0" page="0" column="0">Uhlan</train>
+    <train row="0" page="0" column="0">deSpurRider</train>
+    <train row="0" page="0" column="1">Oprichnik</train>
+    <train row="0" page="0" column="2">CavalryArcher</train>
+    <train row="0" page="0" column="0">Hussar</train>
+    <train row="0" page="0" column="1">WarWagon</train>
+    <train row="0" page="0" column="1">Ruyter</train>
+    <train row="0" page="0" column="1">deFinnishRider</train>
+    <train row="0" page="0" column="2">Dragoon</train>
+    <train row="0" page="0" column="1">Lancer</train>
+    <train row="0" page="0" column="1">Cuirassier</train>
+    <train row="0" page="0" column="0">Cossack</train>
+    <train row="0" page="0" column="0">deBarbaryCavalry</train>
+    <train row="0" page="0" column="1">deBedouinHorseArcher</train>
+    <train row="0" page="0" column="0">ypSteppeRider</train>
+    <train row="0" page="0" column="1">ypKeshik</train>
+    <train row="0" page="0" column="2">CavalryArcher</train>
+    <train row="0" page="0" column="3">ypMeteorHammer</train>
+    <train row="0" page="0" column="4">ypIronFlail</train>
+    <tech row="0" page="1" column="1">ImperialCarabineer</tech>
+    <tech row="0" page="1" column="0">ImperialCossack</tech>
+    <tech row="0" page="1" column="2">ImperialCavalryArchers</tech>
+    <tech row="0" page="1" column="2">ImperialDragoons</tech>
+    <tech row="0" page="1" column="0">ImperialHussars</tech>
+    <tech row="0" page="1" column="2">ImperialJinetes</tech>
+    <tech row="0" page="1" column="0">ImperialCzapkaUhlans</tech>
+    <tech row="0" page="1" column="0">RGCzapkaUhlans</tech>
+    <tech row="0" page="1" column="2">RGTartarLoyalists</tech>
+    <tech row="0" page="1" column="1">RGGarrochista</tech>
+    <tech row="0" page="1" column="1">GuardRuyters</tech>
+    <tech row="0" page="1" column="0">DEVeteranUSCavalryShadow</tech>
+    <tech row="0" page="1" column="0">DEGuardUSCavalry</tech>
+    <tech row="0" page="1" column="0">DEImperialUSCavalry</tech>
+    <tech row="0" page="1" column="0">RGGardener</tech>
+    <tech row="0" page="1" column="0">GuardCossacks</tech>
+    <tech row="0" page="1" column="0">VeteranCossacks</tech>
+    <tech row="0" page="1" column="1">GuardWarWagons</tech>
+    <tech row="0" page="1" column="2">GuardCavalryArchers</tech>
+    <tech row="0" page="1" column="1">RGGendarmes</tech>
+    <tech row="0" page="1" column="1">RGCarabineer</tech>
+    <tech row="0" page="1" column="0">VeteranUhlans</tech>
+    <tech row="0" page="1" column="2">GuardDragoons</tech>
+    <tech row="0" page="1" column="0">GuardHussars</tech>
+    <tech row="0" page="1" column="0">VeteranHussars</tech>
+    <tech row="0" page="1" column="0">RGLifeGuardHussars</tech>
+    <tech row="0" page="1" column="1">ImperialGarrochistas</tech>
+    <tech row="0" page="1" column="2">ImperialTartarLoyalist</tech>
+    <tech row="0" page="1" column="0">GuardUhlans</tech>
+    <tech row="0" page="1" column="0">ImperialGardener</tech>
+    <tech row="0" page="1" column="0">ImperialLifeGuard</tech>
+    <tech row="0" page="1" column="2">RGJinetes</tech>
+    <tech row="0" page="1" column="1">GuardOprichniks</tech>
+    <tech row="0" page="1" column="1">ImperialOprichniks</tech>
+    <tech row="0" page="1" column="1">ImperialGendarme</tech>
+    <tech row="0" page="1" column="1">ImperialWarWagons</tech>
+    <tech row="0" page="1" column="0">DEVeteranBarbaryCavalry</tech>
+    <tech row="0" page="1" column="0">DEGuardBarbaryCavalry</tech>
+    <tech row="0" page="1" column="1">DEGuardBedouinHorseArcher</tech>
+    <tech row="0" page="1" column="2">DEGuardMameluke</tech>
+    <tech row="0" page="1" column="0">YPDisciplinedSteppeRider</tech>
+    <tech row="0" page="1" column="0">YPHonoredSteppeRider</tech>
+    <tech row="0" page="1" column="0">YPExaltedSteppeRider</tech>
+    <tech row="0" page="1" column="1">YPDisciplinedKeshik</tech>
+    <tech row="0" page="1" column="1">YPHonoredKeshik</tech>
+    <tech row="0" page="1" column="1">YPExaltedKeshik</tech>
+    <tech row="0" page="1" column="3">YPHonoredMeteorHammer</tech>
+    <tech row="0" page="1" column="3">YPExaltedMeteorHammer</tech>
+    <tech row="0" page="1" column="4">YPHonoredIronFlail</tech>
+    <tech row="0" page="1" column="4">YPExaltedIronFlail</tech>
+    <tech row="0" page="1" column="1">RGDrabants</tech>
+    <tech row="0" page="1" column="1">ImperialDrabants</tech>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>StartsAtFullEfficiency</flag>
+    <flag>Immoveable</flag>
+    <flag>NoBloodOnDeath</flag>
+    <flag>ObscuresUnits</flag>
+    <flag>NoIdleActions</flag>
+    <flag>NonAutoFormedUnit</flag>
+    <flag>Doppled</flag>
+    <flag>SelectWithObstruction</flag>
+    <flag>PaintTextureWhenPlacing</flag>
+    <flag>FlattenGround</flag>
+    <flag>HasGatherPoint</flag>
+    <flag>InitialGarrisonOnly</flag>
+    <flag>Tracked</flag>
+    <command page="10" column="3">SetGatherPointMilitary</command>
+    <command page="10" column="7">Delete</command>
+    <command page="10" column="8">CancelAllQueued</command>
   </unit>
+
   <unit id="391" name="FortFrontier">
     <train mergeMode='remove' row="0" page="0" column="7">deUSCavalry</train>
   </unit>

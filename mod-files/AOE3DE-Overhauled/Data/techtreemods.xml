@@ -5251,6 +5251,16 @@
       <effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
         <target type="ProtoUnit">deGeneral2</target>
       </effect>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deUSCavalry</target>
+      </effect>
+      <effect type="SetName" proto="deUSCavalry" culture="none" newname="110052"/>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deUSCavalry" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deUSCavalry</target>
+      </effect>
       <effect type="Data" amount="10.00" subtype="LOS" relativity="Absolute">
         <target type="ProtoUnit">deInspiringFlag2</target>
       </effect>
@@ -5278,6 +5288,16 @@
       <effect type="Data" amount="1.40" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">deGeneral2</target>
       </effect>
+      <effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deUSCavalry</target>
+      </effect>
+      <effect type="SetName" proto="deUSCavalry" culture="none" newname="110053"/>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deUSCavalry" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deUSCavalry</target>
+      </effect>
       <effect type="Data" amount="10.00" subtype="LOS" relativity="Absolute">
         <target type="ProtoUnit">deInspiringFlag2</target>
       </effect>
@@ -5295,6 +5315,13 @@
       </effect>
       <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">deGeneral2</target>
+      </effect>
+      <effect type="SetName" proto="deUSCavalry" culture="none" newname="110054"/>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deUSCavalry</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deUSCavalry</target>
       </effect>
       <effect type="TechStatus" status="obtainable">DEImperializeStatehoodShadow</effect>
     </effects>
@@ -7160,24 +7187,6 @@
       <effect type="Data" action="VolleyRangedAttack" amount="0.25" subtype="DamageBonus" unittype="AbstractCoyoteMan" relativity="Absolute">
         <target type="ProtoUnit">deRegular</target>
       </effect>
-      <effect type="Data" action="DefendRangedAttack" amount="0.25" subtype="DamageBonus" unittype="AbstractHeavyCavalry" relativity="Absolute">
-        <target type="ProtoUnit">deRegular</target>
-      </effect>
-      <effect type="Data" action="StaggerRangedAttack" amount="0.25" subtype="DamageBonus" unittype="AbstractHeavyCavalry" relativity="Absolute">
-        <target type="ProtoUnit">deRegular</target>
-      </effect>
-      <effect type="Data" action="VolleyRangedAttack" amount="0.25" subtype="DamageBonus" unittype="AbstractHeavyCavalry" relativity="Absolute">
-        <target type="ProtoUnit">deRegular</target>
-      </effect>
-      <effect type="Data" action="DefendRangedAttack" amount="0.25" subtype="DamageBonus" unittype="AbstractCoyoteMan" relativity="Absolute">
-        <target type="ProtoUnit">deRegular</target>
-      </effect>
-      <effect type="Data" action="StaggerRangedAttack" amount="0.25" subtype="DamageBonus" unittype="AbstractCoyoteMan" relativity="Absolute">
-        <target type="ProtoUnit">deRegular</target>
-      </effect>
-      <effect type="Data" action="VolleyRangedAttack" amount="0.25" subtype="DamageBonus" unittype="AbstractCoyoteMan" relativity="Absolute">
-        <target type="ProtoUnit">deRegular</target>
-      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEImperialUSRegulars" type="Normal">
@@ -8549,61 +8558,87 @@
   </tech>
   <tech mergeMode='replace' name="DEVeteranUSCavalryShadow" type="Normal">
     <dbid>7013</dbid>
-    <researchpoints>0.0000</researchpoints>
+    <displaynameid>260024</displaynameid>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <flag>Shadow</flag>
+    <icon>resources\images\icons\techs\veteran_cavalry\veteran_cavalry.png</icon>
+    <rollovertextid>260027</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>UpgradeTech</flag>
     <prereqs>
       <techstatus status="Active">Fortressize</techstatus>
     </prereqs>
     <effects>
       <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">deUSCavalry</target>
-      </effect>
-      <effect type="SetName" proto="deUSCavalry" culture="none" newname="110052"/>
-      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deUSCavalry" relativity="Absolute">
-        <target type="Player"/>
+        <target type="ProtoUnit">deSpurRider</target>
       </effect>
       <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
-        <target type="ProtoUnit">deUSCavalry</target>
+        <target type="ProtoUnit">deSpurRider</target>
       </effect>
+      <effect type="SetName" proto="deSpurRider" culture="none" newname="260030"/>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deSpurRider" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEGuardUSCavalry" type="Normal">
     <dbid>7014</dbid>
-    <researchpoints>0.0000</researchpoints>
+    <displaynameid>260028</displaynameid>
+    <cost resourcetype="Wood">800.0000</cost>
+    <cost resourcetype="Gold">800.0000</cost>
+    <researchpoints>30.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <flag>Shadow</flag>
+    <icon>resources\images\icons\techs\guard_cavalry\guard_cavalry.png</icon>
+    <rollovertextid>260031</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
     <prereqs>
+      <techstatus status="Active">DEVeteranUSCavalryShadow</techstatus>
       <techstatus status="Active">Industrialize</techstatus>
     </prereqs>
     <effects>
-      <effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">deUSCavalry</target>
+      <effect type="Data" amount="1.40" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deSpurRider</target>
       </effect>
-      <effect type="SetName" proto="deUSCavalry" culture="none" newname="110053"/>
-      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deUSCavalry" relativity="Absolute">
+      <effect type="SetName" proto="deSpurRider" culture="none" newname="260032"/>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deSpurRider" relativity="Absolute">
         <target type="Player"/>
       </effect>
-      <effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
-        <target type="ProtoUnit">deUSCavalry</target>
+      <effect type="Data" amount="1.40" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deSpurRider</target>
       </effect>
+      <effect type="Data" amount="0.10" subtype="ArmorSpecific" newtype="Ranged" relativity="Absolute">
+        <target type="ProtoUnit">deSpurRider</target>
+      </effect>
+
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEImperialUSCavalry" type="Normal">
     <dbid>7015</dbid>
-    <researchpoints>0.0000</researchpoints>
+    <displaynameid>260026</displaynameid>
+    <cost resourcetype="Wood">1500.0000</cost>
+    <cost resourcetype="Gold">1500.0000</cost>
+    <researchpoints>30.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <flag>Shadow</flag>
+    <icon>resources\images\icons\techs\imperial_cavalry\imperial_cavalry.png</icon>
+    <rollovertextid>250029</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>UpgradeTech</flag>
     <prereqs>
+      <techstatus status="Active">DEGuardUSCavalry</techstatus>
       <techstatus status="Active">Imperialize</techstatus>
     </prereqs>
     <effects>
-      <effect type="SetName" proto="deUSCavalry" culture="none" newname="110054"/>
+      <effect type="SetName" proto="deSpurRider" culture="none" newname="260032"/>
       <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">deUSCavalry</target>
+        <target type="ProtoUnit">deSpurRider</target>
       </effect>
       <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
-        <target type="ProtoUnit">deUSCavalry</target>
+        <target type="ProtoUnit">deSpurRider</target>
       </effect>
     </effects>
   </tech>
