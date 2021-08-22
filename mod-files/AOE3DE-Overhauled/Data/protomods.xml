@@ -8246,7 +8246,7 @@
     <animfile>units\spc\custer\spc_custer_horse.xml</animfile>
     <impacttype>Flesh</impacttype>
     <physicsinfo>cav</physicsinfo>
-    <icon>resources\art\units\spc\alain\alain_igc_icon.png</icon>
+    <icon>resources\art\units\cavalry\spur_rider\spur_rider_icon.png</icon>
     <portraiticon>resources\art\units\spc\custer\custer_portrait.png</portraiticon>
     <rollovertextid>260021</rollovertextid>
     <shortrollovertextid>260020</shortrollovertextid>
