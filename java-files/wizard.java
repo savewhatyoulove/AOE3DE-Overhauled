@@ -110,9 +110,16 @@ public class wizard extends JFrame implements ActionListener
 			System.out.println("User's current OS is a Windows variant, setting default directory");
 			currentPathSubDirs = new File(home + "Games/Age of Empires 3 DE");
 			currentPathChildList = currentPathSubDirs.list(); 
-			currentPath = Paths.get(home + "Games/Age of Empires 3 DE/" + currentPathChildList[0] + "/mods/local");
+			String pathChecker = "";
+			for ( String s : currentPathChildList) {
+				if (Character.isDigit(s.charAt(0))) {
+					pathChecker = s; 
+				}
+			}
+			System.out.println("pathChecker: " + pathChecker);
+			currentPath = Paths.get(home + "Games/Age of Empires 3 DE/" + pathChecker + "/mods/local");
 			//currently currentPath is hardcoded, this can be changed in the future to allow users to point to a specific directory
-			testPath = Paths.get(home + "Games/Age of Empires 3 DE/" + currentPathChildList[0] + "mods/local");
+			testPath = Paths.get(home + "Games/Age of Empires 3 DE/" + pathChecker + "mods/local");
 			//The backup will be saved in the user's home directory by default
 			backupPath = Paths.get(home + "Documents/MODBAK"); 
 
@@ -123,8 +130,15 @@ public class wizard extends JFrame implements ActionListener
 			System.out.println("User's current OS is a Linux variant, setting default directory"); 
 			currentPathSubDirs = new File(home + "/.local/share/Steam/steamapps/compatdata/933110/pfx/drive_c/users/steamuser/Games/Age of Empires 3 DE"); 
 			currentPathChildList = currentPathSubDirs.list(); 
-			currentPath = Paths.get(home + "/.local/share/Steam/steamapps/compatdata/933110/pfx/drive_c/users/steamuser/Games/Age of Empires 3 DE/" + currentPathChildList[0] + "/mods/local"); 
-			testPath = Paths.get(home + "/.local/share/Steam/steamapps/compatdata/933110/pfx/drive_c/users/steamuser/Games/Age of Empires 3 DE/" + currentPathChildList[0] + "/mods/local"); 
+			String pathChecker = "";
+			for ( String s : currentPathChildList) {
+				if (Character.isDigit(s.charAt(0))) {
+					pathChecker = s; 
+				}
+			}
+			System.out.println("pathChecker: " + pathChecker);
+			currentPath = Paths.get(home + "/.local/share/Steam/steamapps/compatdata/933110/pfx/drive_c/users/steamuser/Games/Age of Empires 3 DE/" + pathChecker + "/mods/local"); 
+			testPath = Paths.get(home + "/.local/share/Steam/steamapps/compatdata/933110/pfx/drive_c/users/steamuser/Games/Age of Empires 3 DE/" + pathChecker + "/mods/local"); 
 			backupPath = Paths.get(home + "/Documents/MODBAK"); 
 		}
 	}

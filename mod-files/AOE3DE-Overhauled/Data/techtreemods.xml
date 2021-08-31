@@ -9330,4 +9330,28 @@
     <status>UNOBTAINABLE</status>
     <flag>YPInfiniteTech</flag>
   </tech>
+  <tech mergeMode='replace' name="YPHCCalltoArms1" type="Normal">
+    <dbid>4351</dbid>
+    <displaynameid>63249</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\home_city\HC_call_to_arms_icon_64.png</icon>
+    <rollovertextid>63248</rollovertextid>
+    <flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</flag>
+    <flag>DEForceLegacyIgnoreBehavior</flag>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TextOutput">63251</effect>
+      <effect tech="ypFreeIndianVillager" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="ypSettlerIndian" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="SetOnBuildingDeathTech" amount="0.00" amount2="1.00">ypSpawnIrregulars</effect>
+      <effect tech="ypFreeIndianSepoy" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="ypSepoy" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="SetOnBuildingDeathTech" amount="1.00" amount2="0.00">ypSpawnPeasants</effect>
+    </effects>
+  </tech>
+
 </techtreemods>
