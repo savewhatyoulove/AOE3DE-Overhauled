@@ -91,6 +91,9 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="HCXPMercsFusiliersGerman" type="Normal">
@@ -114,6 +117,9 @@
     <effects>
       <effect mergeMode='add' type="TechStatus" status="active">VeteranGrenadiers</effect>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -221,6 +227,9 @@
         <target type="Player"/>
       </effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -2573,6 +2582,9 @@
     <effects>
       <effect mergeMode='add' type="TechStatus" status="active">dePaititi</effect>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -5328,6 +5340,9 @@
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="DEHCShipSheep1Americans" type="Normal">
@@ -5350,11 +5365,17 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="HCShipCows" type="Normal">
     <effects>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -5364,11 +5385,17 @@
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="DEHCImmigrantsGerman" type="Normal">
     <effects>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -5378,11 +5405,17 @@
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="HCShipCoveredWagons2" type="Normal">
     <effects>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -5426,11 +5459,17 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="HCShipBalloons" type="Normal">
     <effects>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -5440,11 +5479,17 @@
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="HCXPShipSurgeons2" type="Normal">
     <effects>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -5454,11 +5499,17 @@
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="HCAdvancedArtillery" type="Normal">
     <effects>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -5468,11 +5519,17 @@
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="HCXPShipCulverins2" type="Normal">
     <effects>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -5482,11 +5539,17 @@
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="DEHCShipCulverineMortar" type="Normal">
     <effects>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -5506,11 +5569,17 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="HCNativeLore" type="Normal">
     <effects>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -5520,11 +5589,17 @@
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="HCNativeTreaties" type="Normal">
     <effects>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -5534,11 +5609,17 @@
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="DEHCKosciuszkoFortifications" type="Normal">
     <effects>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -5548,11 +5629,17 @@
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="DEHCShipHomesteadWagons1" type="Normal">
     <effects>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -5562,11 +5649,17 @@
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="HCAdvancedTradingPost" type="Normal">
     <effects>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -5576,11 +5669,17 @@
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="DEHCAdvancedSaloon" type="Normal">
     <effects>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -5590,11 +5689,17 @@
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="HCXPShipSpies2" type="Normal">
     <effects>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -5604,6 +5709,9 @@
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="HCXPRanching" type="Normal">
@@ -5611,11 +5719,17 @@
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="DEHCMinutemenCompanies" type="Normal">
     <effects>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -5635,6 +5749,9 @@
         <target type="Player"/>
       </effect>
       <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deHomesteadWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -5669,6 +5786,9 @@
       <effect type="TechStatus" status="active">DEHCImmigrantsStateCapitolShadow</effect>
       <effect type="TextOutputTechName">110130</effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -5744,6 +5864,9 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCShipStateMilitia3" type="Normal">
@@ -5759,6 +5882,9 @@
         <target type="Player"/>
       </effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -5792,6 +5918,9 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCShipRegulars2" type="Normal">
@@ -5807,6 +5936,9 @@
         <target type="Player"/>
       </effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -5826,6 +5958,9 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCShipRegulars4" type="Normal">
@@ -5841,6 +5976,9 @@
         <target type="Player"/>
       </effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -5865,6 +6003,9 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCContinentalRangers" type="Normal">
@@ -5882,6 +6023,9 @@
         <target type="ProtoUnit">AbstractRangedInfantry</target>
       </effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -5903,6 +6047,9 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="DEHCRangedInfantryDamageAmericans" type="Normal">
@@ -5921,6 +6068,9 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="DEHCCavalryHitpointsAmericans" type="Normal">
@@ -5937,6 +6087,9 @@
         <target type="ProtoUnit">AbstractCavalry</target>
       </effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -5970,7 +6123,9 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
-
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCShipCapturedRockets" type="Normal">
@@ -5988,6 +6143,9 @@
         <target type="Player"/>
       </effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -6014,6 +6172,9 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
 
@@ -6030,6 +6191,9 @@
         <target type="Player"/>
       </effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -6087,6 +6251,9 @@
         <target type="ProtoUnit">NativeEmbassy</target>
       </effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -6216,6 +6383,9 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCImmigrantsIrish" type="Normal">
@@ -6250,6 +6420,9 @@
       <effect type="TechStatus" status="active">DEHCImmigrantsStateCapitolShadow</effect>
       <effect type="TextOutputTechName">110130</effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -6454,6 +6627,9 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCImmigrantsBritish" type="Normal">
@@ -6472,6 +6648,9 @@
       <effect type="TextOutput">110066</effect>
       <effect type="TechStatus" status="active">DEHCImmigrantsStateCapitolShadow</effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -6572,6 +6751,9 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCImmigrantsSpanish" type="Normal">
@@ -6595,6 +6777,9 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
       <effect type="TechStatus" status="active">DEHCImmigrantsStateCapitolShadow</effect>
     </effects>
   </tech>
@@ -6606,7 +6791,9 @@
       <effect mergeMode='add' type="Data" action="Gather" amount="1.15" subtype="Yield" unittype="Huntable" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCFedNewYorkZouaves" type="Normal">
@@ -6643,6 +6830,9 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="DEHCMercsZouaves" type="Normal">
@@ -6660,6 +6850,9 @@
         <target type="Player"/>
       </effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -6682,6 +6875,9 @@
       </effect>
       <effect type="TextOutputTechName">110130</effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -6708,6 +6904,9 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCUSMarines" type="Normal">
@@ -6727,6 +6926,9 @@
         <target type="ProtoUnit">xpIronclad</target>
       </effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -6749,14 +6951,17 @@
       <effect type="Data" amount="12.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="PetCougar" relativity="Absolute">
         <target type="Player"/>
       </effect>
-      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">PetCougar</target>
       </effect>
       <effect type="Data" amount="1.00" subtype="AddTrain" unittype="PetCougar" relativity="Absolute">
         <target type="ProtoUnit">SaloonOutlawPistol</target>
+      </effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
       </effect>
     </effects>
   </tech>
@@ -6781,7 +6986,9 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
-
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCShipGatlingsTeam1" type="Normal">
@@ -6815,14 +7022,7 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
-      <effect tech="ypFreeCoinCrate400Age1" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateSpanishGold" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect type="TextOutput">60890</effect>
-      <effect tech="deGermanLogisticianDiscoveryShadow" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="Uhlan" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect tech="deAddFree400CoinToInventory" type="Data" amount="400.00" subtype="ResourceIfTechObtainable" resource="Gold" relativity="Absolute">
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -6848,11 +7048,17 @@
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="DEHCShipRiflemen2" type="Normal">
     <effects>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -6872,12 +7078,18 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
 
   <tech name="HCShipDragoons4" type="Normal">
     <effects>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -6902,11 +7114,20 @@
         <target type="ProtoUnit">Rocket</target>
       </effect>
       <effect type="TextOutputTechName">110130</effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="DEHCArkansasPost" type="Normal">
     <effects>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -6916,11 +7137,17 @@
     <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="HCFrontierDefenses2" type="Normal">
     <effects>
     <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -6930,11 +7157,17 @@
     <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="DEHCShipSteamers1" type="Normal">
     <effects>
     <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -6944,11 +7177,17 @@
     <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="HCShipFrigates" type="Normal">
     <effects>
     <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -6958,11 +7197,17 @@
     <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="HCAdmirality" type="Normal">
     <effects>
     <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -6972,11 +7217,17 @@
     <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="DEHCVirginiaOak" type="Normal">
     <effects>
     <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -6986,11 +7237,17 @@
     <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="HCXPDanceHall" type="Normal">
     <effects>
     <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -7000,11 +7257,17 @@
     <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="DEHCHireManilamenFleet" type="Normal">
     <effects>
     <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -7053,8 +7316,10 @@
       <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="deTorpBush2" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -7247,6 +7512,9 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCMinneapolisMillsShadow" type="Normal">
@@ -7283,6 +7551,12 @@
       </effect>
       <effect type="Data" action="Gather" amount="1.25" subtype="Yield" unittype="ypGroveBuilding" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
       </effect>
     </effects>
   </tech>
@@ -7328,7 +7602,9 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
-
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="DEHCStateMilitiaSplashDamage" type="Normal">
@@ -7371,11 +7647,17 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="HCXPLandGrab" type="Normal">
     <effects>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -7385,6 +7667,9 @@
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="HCMedicine" type="Normal">
@@ -7392,11 +7677,17 @@
      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="HCStockyards" type="Normal">
     <effects>
      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -7425,6 +7716,9 @@
         <target type="Player"/>
       </effect>
      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -7464,6 +7758,9 @@
      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="HCTextileMillsAmericans" type="Normal">
@@ -7487,6 +7784,9 @@
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -7518,6 +7818,9 @@
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -7556,6 +7859,9 @@
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -7601,6 +7907,9 @@
      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="HCSilversmithAmericans" type="Normal">
@@ -7629,6 +7938,9 @@
      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="HCIronmongerAmericans" type="Normal">
@@ -7651,6 +7963,9 @@
      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="HCExoticHardwoodsAmericans" type="Normal">
@@ -7671,6 +7986,9 @@
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -7701,6 +8019,9 @@
      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="HCXPWhaleOilAmericans" type="Normal">
@@ -7717,6 +8038,9 @@
         <target type="ProtoUnit">AbstractFishingBoat</target>
       </effect>
      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
       <effect type="TextOutput">46882</effect>
@@ -7741,6 +8065,9 @@
      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
       <effect type="TextOutput">41899</effect>
     </effects>
   </tech>
@@ -7763,6 +8090,9 @@
      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="NatGuerillaWars" type="Normal">
@@ -7773,7 +8103,6 @@
       <effect mergeMode='add' type="Data" action="BuildingAttack" amount="10.00" subtype="MaximumRange" relativity="Absolute">
         <target type="ProtoUnit">deNatMercSharktoothBowman</target>
       </effect>
-
     </effects>
   </tech>
   <tech mergeMode='replace' name="ImpLargeScaleAgricultureAmericans" type="Normal">
@@ -7876,6 +8205,9 @@
      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCFedGeneralAssembly" type="Normal">
@@ -7972,6 +8304,9 @@
      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCFedTextileMill" type="Normal">
@@ -7997,11 +8332,17 @@
      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="DEHCFedCulpeperMinutemen" type="Normal">
     <effects>
      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -8027,6 +8368,9 @@
      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
     <tech mergeMode='replace' name="DEHCFedIndianaMobilization" type="Normal">
@@ -8050,10 +8394,13 @@
       <effect type="Data" amount="0.90" subtype="ResearchPoints" relativity="Percent">
         <target type="techAll"/>
       </effect>
+      <effect type="TextOutputTechName">110130</effect>
      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
-      <effect type="TextOutputTechName">110130</effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCFedNewHampshireManufacturing" type="Normal">
@@ -8081,6 +8428,9 @@
      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCFedMammothImprovementAct" type="Normal">
@@ -8102,6 +8452,9 @@
         <target type="Player"/>
       </effect>
      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -8184,6 +8537,9 @@
      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCFedWataugaAssociation" type="Normal">
@@ -8217,6 +8573,9 @@
       </effect>
       <effect type="TextOutputTechName">110130</effect>
      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -8254,11 +8613,17 @@
      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="DEHCFedGreenMountainBoys" type="Normal">
     <effects>
      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -8297,6 +8662,9 @@
      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
       <effect type="TextOutputTechName">110130</effect>
     </effects>
   </tech>
@@ -8321,6 +8689,9 @@
       </effect>
       <effect type="TextOutputTechName">110130</effect>
      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -8362,6 +8733,9 @@
      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCFedDeereSteelPlow" type="Normal">
@@ -8393,6 +8767,9 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="DEMilitiaLincolnShadow" type="Normal">
@@ -8409,11 +8786,14 @@
   </tech>
   <tech name="DEHCFedConnecticutShipwrights" type="Normal">
     <effects>
+      <effect mergeMode='add' type="Data" amount="1.05" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">Rocket</target>
+      </effect>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
-      <effect mergeMode='add' type="Data" amount="1.05" subtype="TrainPoints" relativity="BasePercent">
-        <target type="ProtoUnit">Rocket</target>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
       </effect>
     </effects>
   </tech>
@@ -8431,10 +8811,13 @@
       <effect type="Data2" amount="1.00" amount2="4.00" subtype="FreeHomeCityUnitShipped" unittype="xpIronclad" unittype2="xpPetardNitro" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect type="TextOutputTechName">110130</effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
-      <effect type="TextOutputTechName">110130</effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCFedHamiltonsOwn" type="Normal">
@@ -8455,6 +8838,9 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="DEHCFedTexanForts" type="Normal">
@@ -8472,6 +8858,12 @@
       </effect>
       <effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
         <target type="ProtoUnit">FortFrontier</target>
+      </effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
       </effect>
     </effects>
   </tech>
@@ -8496,6 +8888,9 @@
       </effect>
       <effect type="TextOutputTechName">110130</effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -8525,6 +8920,9 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCFedFloridaCowhunters" type="Normal">
@@ -8543,6 +8941,9 @@
         <target type="Player"/>
       </effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -8691,11 +9092,17 @@
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech name="DEHCFedOysterPirates" type="Normal">
     <effects>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -8741,6 +9148,9 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCFedNewJerseySeaports" type="Normal">
@@ -8757,7 +9167,11 @@
       <effect type="Data" amount="0.50" subtype="ResearchPoints" relativity="Percent">
         <target type="techWithFlag">HomeCity</target>
       </effect>
+     <effect type="TechStatus" status="active">DEHCSeaportsExtraXP</effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
       <effect type="TextOutputTechName">110130</effect>
@@ -8785,6 +9199,9 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
       <effect type="TextOutputTechName">110130</effect>
     </effects>
   </tech>
@@ -8802,6 +9219,9 @@
         <target type="Player"/>
       </effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -8843,6 +9263,9 @@
         <target type="ProtoUnit">xpGatlingGun</target>
       </effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -8895,8 +9318,16 @@
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
-
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
-
+  <tech name="DEHCSeaportsExtraXP" type="Normal">
+    <dbid>9526</dbid>
+    <displaynameid>260033</displaynameid>
+    <researchpoints>0.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <flag>YPInfiniteTech</flag>
+  </tech>
 </techtreemods>
