@@ -236,7 +236,7 @@
 	    <string _locid="110350">Ships an additional General and enables him for the rest of the game. Also, you can build a second Inspiring Flag and their line of Sight is increased.</string>
 	    <string _locid="110353">Florida Cracker Horses</string>
 	    <string _locid="110354">Ships a Fattened Cow for each shipment you have sent so far this game.</string>
-	    <string _locid="110376"> Doubles the Kill Bounty XP of enemy soldiers near your Forts. Additionally, when destroyed by enemies, your Forts spawn 8 Minutemen and your Outposts spawn 2 Minutemen.</string>
+	    <string _locid="110376">Ships 2 Fort Wagons and increases Fort build limit by 2.</string>
 	    <string _locid="110378">Ships 1 Gold Prospector Wagon and 8 Miners.</string>
 	    <string _locid="110384">Uprising! Delivers an army of Pet Bears and Villagers become Revolutionaries.</string>
 	    <string _locid="110413">Increases the range of Sharpshooters and enables them to be trained in the Commerce Age.</string>
@@ -254,6 +254,7 @@
 	    <string _locid="110527">Ships 2 State Militia and 5 Regulars and researches their Veteran upgrades.</string>
 	    <string _locid="110542">Enables an additional Ironclad to be constructed and grants them additional health.</string>
 	    <string _locid="110562">Slightly increases the attack and hitpoints of all military units.</string>
+	    <string _locid="110576">Artillery have more hit points and are trained faster.</string>
 	    <string _locid="110599">Ships 10 Gunslingers and 12 Pet Cougars. Enables Generals, Gunslingers, and Town Centers to retrain Pet Cougars.</string>
 	    <string _locid="110618">Settlers gather Food 10% more quickly</string>
 	    <string _locid="110626">Settlers gather Wood 25% more quickly and Trees last 25% longer</string>

@@ -1,7 +1,0 @@
-Inca Rebalance Ideas:
-
-Jungle Bowmen - Range increased to 18, scaling range upgrades removed. 
-Plumed Spearmen - Siege improved to 52 from 38
-Bolas - Damage improved to 20 (AOE cap is set at 35) w/ all multipliers removed, base HP reduced to 140, armor improved to 40 melee resist, melee increased to 12 w/ 3.5x cav. Shadowtechs 25% now
-Macemen - Speed increased to 5.50 from 4.25, damage type changed to siege from hand, multipliers removed, armor changed from melee to ranged, siege attack nerfed to 60 w/ 3.0 ROF. 
-Huaraca - Damage reduced to 20 from 40, 2x AbstractHI and AbstractArtillery multipliers added. Siege attack ROF improved to 3.0 from 4.0, 1 aoe w/40 damage cap added.  now shadowtechs 25%.

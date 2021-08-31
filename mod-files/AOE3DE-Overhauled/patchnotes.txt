@@ -468,6 +468,15 @@ Civ Bonus Changes:
 -- Can no longer ship resource crates, instead, most economic improvement shipments have been greatly buffed (+50%)
 -- All military units heal over time outside of combat (3.5s idle timeout) at a rate of 0.5% MAX HP/s
 
+Politician Changes:
+-- Delware now increases Food gather rate by +10% instead of shipping food crates.
+-- Vermont and South Carolina now increases Wood gather and yield rates by +25% instead of shipping 600 Wood.
+-- Illionois and Connecticut now instantly research Pine Tree State (Deforestation) instead of shipping 1500 Wood.
+-- New York now provides +50% ATK/HP to merc/outlaws (+35% for Industrial Age) to match European Mercenary Contractor.
+
+Tech Changes:
+-- Imperial Age gathering upgrades improved to +50% from +40%.
+
 Starting Units: Now starts with 6 villagers, a Fattened Sheep, Book Crates and a Homestead Wagon, but no resource crates.
 
 Unit Changes:
@@ -479,9 +488,9 @@ Regular:
 Cost: Reduced to 80F/20G from 55F/50G
 HP: Reduced to 120 from 150
 Speed: Increased to 4.5 from 4.0
-Armor: Increased to 35 melee from 20
-Siege: Increased to 26 from 24
-Ranged ATK: Improved to 26 from 25, 1.5x HC/1.25x Shock Infantry added, scales by +0.25x with each upgrade
+Armor: Increased to 40 melee from 20
+Siege: Reduced to 20 from 24
+Ranged ATK: Improved to 26 from 25, 1.5x HC/1.25x Shock Infantry added, scales by +0.25x with each upgrade up to 2.25/2.0x
 Melee ATK: Reduced to 10 from 14
 
 State Militia: 
@@ -495,35 +504,108 @@ Ranged: Improved to 25 from 14, range reduced to 12 from 13, 2 aoe and 50 damage
 Misc: No longer royal guard units, nor do they get the HP aura
 
 Sharpshooter:
-Cost: Increased to 50F/90G from 40F/75G
+Cost: Increased to 30F/110G from 40F/75G
 HP: Reduced to 85 from 95
 Speed: Increased to 4.5 from 4.0
-Armor: Increased to 50 from 40
 Melee: Multipliers reduced to standard skirmisher multipliers (HI is 1.5x, much like old state militia)
-Ranged: Increased to 30 from 15, range increased to 22 from 21 (no longer scales), ROF delay increased to 4.0 from 3.0, multipliers reduced to standard skirmishermultipliers (HI is 1.5x much like old state militia)
+Ranged: Increased to 30 Ranged Damage from 15, range reduced to 18 from 21 (shadowtechs by +4 in fortress age), ROF delay increased to 4.0 from 3.0, multipliers reduced to standard skirmishermultipliers (HI is 1.5x much like old state militia)
+National Guard Upgrade: +0.05 Ranged armor and +40% ATK/HP (instead of +30%)
+
+New Unit: Spur Rider
+-- Heavy Melee Cavalry with powerful Ranged and Siege armor, but a weak attack. Good against artillery and skirmishers.
+Cost: 120F/60G
+Population: 2
+HP: 260
+Speed: 6.75
+Armor: 0.35 Ranged, 0.2 Siege
+Siege: 20 w/ 3 ROF
+Melee: 20 w/ 2x AbstractArtillery
+National Guard Upgrade: +0.05 Ranged armor, +0.5x AbstractArtillery, and +40% ATK/HP (instead of +30%)
 
 Shipment Changes:
+-- All non-infinite/team shipments now provide a crate of 100 XP.
+-- Age I 7 Sheep + 1 Homestead Wagon is no longer infinite
 -- Age IV 15 sheep + 1 Homestead Wagon INFINITE added
 -- Age IV 15 Semi-Fattened Cows added.
--- State Militia shipments reduced to 4/6/10/5 INF from 8/12/22/10 INF
+-- Age III TEAM 7 Semi-Fattened Cows added
+-- Dutch Immigrants moved to Age II from I; now costs 300 gold and additionally provides +10% mine yield and +15% gather rate; allying with Dutch at the consulate is now free.
+-- Irish Immigrants Reworked: Moved to Age II from I and now costs 200 Food. Ships 3 Villagers, 1 Homstead Wagon, and improves Mill Gather rate by +20%
+-- Chinese Immigrants Reworked: Moved to Age II from I and now ships 3 Fattened Goats and provides +100% gather rate to herdables.
+-- British Immigrants Reworked: Moved to Age I from IV and now ships 2 Homestead Wagons. 
+-- French Immigrants Reworked: Now only ships 2 Coureurs (instead of 3) and provides +15% gather rate to all resources for 250 Wood. Allying with the French at the Consulate is now free.
+-- Swedish Immigrants Added: Now improved Wood chopping Gather/Yield rates by +20% and ships 4 Advanced Torps (see Dominions) for 300 Gold.
+-- Spanish Immigrants: No longer lets you muster Tercios, but now makes allying with the Spanish at the consulate free.
+-- United States Army Reworked: Moved to age 2 and now provides +5% HP/ATK to all military units instead of +15% HP/ATK to some infantry.
+-- Continental Rangers Reworked: now provides +25% ATK to AbstractRangedInfantry instead of +15% ATK/HP to riflemen, and now available in Age IV instead of III
+-- Buffalo Soldiers reworked: now provides +25% HP to AbstractCavalry instead of +25% ATK to Carbine Cav
+-- State Militia shipments reduced to 4/10/5 INF from 8/12/22/10 INF
 -- Regular shipments increased to 6/9/8/16 from 5/8/7/15
 -- Age IV Sharpshooter shipments decreased to 12 from 14
 -- Age II Ranged Infantry attack added (15% AbstractRangedInfantry)
 -- Age II Cavalry Hitpoints added (15% AbstractCavalry)
--- Buffalo Soldiers reworked: now provides +25% HP to AbstractCavalry
--- Continental Rangers Reworked: now provides +25% ATK to AbstractRangedInfantry
--- United States Army Reworked: Moved to age 2 and now provides +5% HP/ATK to all military units.
--- 5 Captured Rocket Cost reduced to 600F/600W from 1000F/1000W
+-- Long Rifles reworked: Now available in the Discovery Age and enables Sharpshooters in the commerce age and increases their range by +2 (20 in commerce, 24 in Fortress+)
+-- 5 Captured Rocket Cost removed
+-- Massachusetts Volunteers now ships 2 State Militia and 5 Regulars instead of 5 State Militia and 4 Regulars. 
+-- Michigan Sharpshooters now costs 500 Food and Wood to ship. Now only sends 5 Trackers and 5 Sharpshooters instead of 8 each. Additionally enables you to train Trackers from the Native Embassy and researches the National Guard upgrade for Sharpshooters (Marksmen).
 -- 1 Gatling Gun INF increased to 2, 3 gatlings removed.
 -- Age IV 5 Gatling Guns added
 -- Coffee Mill Guns now decreases the range of gatling guns by 4 (24 --> 20)
--- Age IV 5 Napoleon Guns added
+-- TEAM 2 Gatlings in Age IV increased to TEAM 3 Gatlings
+-- Age IV 5 Napoleon Guns for 1000 gold added 
 -- Age III 9 Scottish Highlanders replaced with Age IV 12 Fusiliers
 -- Age IV 10 Fusiliers INF added
--- Age III 9 Zouave added
+-- Age III 9 Zouave for 1000 gold added
+-- Patriotism moved to Age 2 and now renamed to "Nationalism". Now only provides -25% train time for AbstractCavalry/Infantry
+-- Hulks moved to Age 3 from 4 and now provides +25% Ironclad HP instead of dodge chance.
 -- Age IV Alaska Purchase is no longer a team shipment, and cost has been reduced to 1500 Gold from 2500 Wood. Now ships 12 Pet Polar bears instead of 6.
 -- Oklahoma Black Mesa Reworked: Now an age 3 shipment that sends 10 Pistolero (Gunslinger) and 12 Pet Cougars and lets you retrain Cougars from your TC, General, and Gunslingers.
 -- Age II Imperialism Added. Adds 2.75 gold/s trickle
 -- Age III  TEAM Socialism Added. Adds TEAM 2.75 gold/s trickle
+-- Kovat's Legion now ships 10 Magyar Hussars instead of 8 and costs 750F/W (instead of 1000 each), but no longer enables them at Forts.
+-- Marines Reworked: Moved to Age IV from III and provides an Ironclad with 6 Regulars in it, alongside increasing Ironclad build limit by +1.
+-- 10 Carbine Cavalry in Age IV replaced with 8 Dragoons
+-- Knox Artillery Train Reworked: No longer provides free Heavy Horse Artillery. Now provides +20% HP for AbstractArtillery and -20% train time for AbstractArtillery (Rockets only get -10%)
+-- Minneapolis Mills now provides 2 Homestead Wagons and +20% Mill gather Rate instead of +10% and 800 Food
+-- Lumber Mills now provides +25% gather/yield rates to Wood Chopping instead of +10% chop and 400 Wood.
+-- Scattershot added in Age III. Increases State Militia aoe by +1 and their aoe damage cap by +30%, but reduces their range by -2 (12 --> 10)
+-- Rum Distillery Replaced with Bourbon Distillery: provides +30% gather rate to Estates and a Turkey Scout.
+-- Furrier now provides +20% Hunt/25% berry rates and +10%/15% Hunt/Berry yields
+-- Textile Mills now provides +35% gather rate on Estates.
+-- Cigar Roller replaced with Royal Mint (buffed to +30% gold rate)
+-- Spice Trade provides +25% Hunt/Berry rates and +15% yield to both.
+-- Refrigeration improved to +25% food gather rate.
+-- Silversmith improved to +25% mine yield/gather rates.
+-- Ironmonger improved to +30% mine gather rate. 
+-- Exotic Hardwoods improved to +30% chopping gather rate.
+-- Sawmills improved to +20% chopping gather/yield rates.
+-- Whale Oil improved to +35% Whale gather rate.
+-- Rendering Plant improved to +35% Whale/Fish gather rates
+-- Fish Market improved to +30% Whale/Fish rates.
+-- Oneida Support now replaces all other native shipments. Costs 500F/W and ships 5 Mantlets and 6 Rams in age III.
 
-moultrie's militia --> 6 state militia, lets them build military buildings and lets them place a flage
+Federal Shipment Changes:
+-- Plymouth Settlers: Now provides a Turkey Scout instead of a Native Scout and +10% Food Gather rate instead of 300 Food.
+-- Virginia General Assembly no longer provides a free upgrade. Instead, Consitutions, Oregon Trails, and Statehood have -40% cost/research time, and all other techs there (except Spies/Blockade) have -10% cost/research time instead.
+-- Textile Mills no longer reduces the cost of Settlers, now reduces train time on fishing boats by -30% and increases their speed by +0.5
+-- French Canadians Reworked: Now costs 250 Gold and ships 5 Coureurs and 5 Elite Trackers.
+-- Indiana Mobilization now ships Dragoons instead of Carbine Cavalry.
+-- New Hampshire Manufacturing Reworked: Now increases Factory hitpoints and gather rates by +30%.
+-- Indiana Mammoth Improvement Act Reworked: Now costs 400 gold and ships 2 Homestead Wagons. Increases the build bounty of all buildings by +100%.
+-- Overmountain Settlers no longer improved ranged attack of villagers; instead it provides +0.25 speed and +4 LOS (alongside yield)
+-- Watauga Association now costs 250 Food and ships 1 Coureur and 1 State Militia instead of 2 State Militia.
+-- Kentucky Hunters cost increased to 750 Wood. Now additionally provides 2 free Deer per shipment count.
+-- Moultrie's Militia: Now provided 6 state militia instead of 12, lets them build military buildings and lets them place a flag
+-- California Gold Rush Reworked: Now provides a gold prospector wagons an 8 Swedish Miners.
+-- Land of Lincoln Reworked: In addition to increasing Inspiring Flag LOS, it lets you build a second one and ships an additional General.
+-- Deer Steele Plow improved to +25% Mill/Estate gather rate from +10%
+-- Bushnell's Sapper Corps reworked: Now costs 400 gold and ships an Ironclad with 4 Nitro Petards on it.
+-- Hamilton's Own: Now only ships 4 Lil' Bombards.
+-- Texan Forts Reworked: Now ships 2 Fort Wagons and increases Fort Build Limit by +2.
+-- Seminole Ponies renamed to Florida Cracker Horses; now provides +20% HP/ATK to AbstractHeavyCavalry instead of 15% to AbstractHandCavalry
+-- Florida Cowhunters now provides Fattened Cows instead of Semi-Fattened Cows
+-- Philadelphia Convention unit shipments reworked: Now ships 5 Texas Rangers for 700 Food and 7 Sharpshooters for 350 Food.
+-- Bear Flag Revolt no longer provides 7 Grizzlies with the flag. Instead, it ships 10 Black Bears and 10 Grizzlies.
+-- New Jersey Seaports Reworked: Now reduces shipment time by 50% and causes all shipments (including itself) to send an additional 2 XP crates.
+-- Morris Canal: No longer has reduced shipment time, but now provides 2 additional Homestead Wagons
+-- Marrion's Diversions Reworked: Now provides +5% speed to Gatling Guns and lets them be stealthy
+-- Tammany Festival renamed to Tuscarora Allies and now allies USA with Haudenosaunne Native instead of Cree.

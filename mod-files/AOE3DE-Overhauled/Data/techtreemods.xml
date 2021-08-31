@@ -5746,23 +5746,6 @@
       </effect>
     </effects>
   </tech>
-  <tech mergeMode='replace' name="DEHCShipStateMilitia2" type="Normal">
-    <dbid>7025</dbid>
-    <displaynameid>110101</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\art\units\infantry_ranged\state_militia\hc_state_militia_icon.png</icon>
-    <flag>HomeCity</flag>
-    <effects>
-      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="deStateMilitia" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-    </effects>
-  </tech>
   <tech mergeMode='replace' name="DEHCShipStateMilitia3" type="Normal">
     <dbid>7026</dbid>
     <displaynameid>110102</displaynameid>
@@ -6508,7 +6491,7 @@
     <dbid>7064</dbid>
     <displaynameid>110188</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
-    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Wood">250.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\americans\immigrants\immigrants_french.png</icon>
@@ -6900,11 +6883,25 @@
     </effects>
   </tech>
   <tech name="DEHCKnoxArtilleryTrain" type="Normal">
+    <dbid>7332</dbid>
+    <displaynameid>110577</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_engineering_school\hc_engineering_school.png</icon>
+    <rollovertextid>110576</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
-      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
-        <target type="Player"/>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractArtillery</target>
       </effect>
+      <effect type="Data" amount="0.80" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractArtillery</target>
+      </effect>
+      <effect type="Data" amount="1.10" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">Rocket</target>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
     </effects>
   </tech>
   <tech name="DEHCArkansasPost" type="Normal">
@@ -7306,7 +7303,7 @@
     <dbid>7172</dbid>
     <displaynameid>110219</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
-    <cost resourcetype="Wood">300.0000</cost>
+    <cost resourcetype="Gold">300.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\americans\immigrants\immigrants_swedish.png</icon>
@@ -7344,13 +7341,13 @@
     <rollovertextid>260013</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" action="VolleyRangedAttack" amount="1.00" subtype="DamageArea" relativity="Absolute">
+      <effect type="Data" action="VolleyRangedAttack" amount="3.00" subtype="DamageArea" relativity="Assign">
         <target type="ProtoUnit">deStateMilitia</target>
       </effect>
-      <effect type="Data" action="StaggerRangedAttack" amount="1.00" subtype="DamageArea" relativity="Absolute">
+      <effect type="Data" action="StaggerRangedAttack" amount="3.00" subtype="DamageArea" relativity="Assign">
         <target type="ProtoUnit">deStateMilitia</target>
       </effect>
-      <effect type="Data" action="DefendRangedAttack" amount="1.00" subtype="DamageArea" relativity="Absolute">
+      <effect type="Data" action="DefendRangedAttack" amount="3.00" subtype="DamageArea" relativity="Assign">
         <target type="ProtoUnit">deStateMilitia</target>
       </effect>
       <effect type="Data" action="StaggerRangedAttack" amount="1.30" subtype="DamageCap" relativity="BasePercent">
@@ -7423,6 +7420,9 @@
       </effect>
       <effect type="Data2" action="Gather" amount="1.30" subtype="WorkRateSpecific" resource="Gold" unittype="deField" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="TurkeyScout" relativity="Absolute">
+        <target type="Player"/>
       </effect>
      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
@@ -7990,7 +7990,7 @@
       <effect type="Data" amount="0.70" subtype="TrainPoints" relativity="BasePercent">
         <target type="ProtoUnit">FishingBoat</target>
       </effect>
-      <effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+      <effect type="Data" amount="0.50" subtype="MaximumVelocity" relativity="Absolute">
         <target type="ProtoUnit">FishingBoat</target>
       </effect>
       <effect type="TextOutputTechName">110130</effect>
@@ -8407,10 +8407,13 @@
     <effects>
     </effects>
   </tech>
-  <tech mergeMode='add' name="DEHCFedConnecticutShipwrights" type="Normal">
+  <tech name="DEHCFedConnecticutShipwrights" type="Normal">
     <effects>
-      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="1.05" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">Rocket</target>
       </effect>
     </effects>
   </tech>
@@ -8455,9 +8458,20 @@
     </effects>
   </tech>
   <tech name="DEHCFedTexanForts" type="Normal">
+    <dbid>7154</dbid>
+    <displaynameid>110375</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>OBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\federal\tx_texan_forts.png</icon>
+    <rollovertextid>110374</rollovertextid>
+    <flag>HomeCity</flag>
     <effects>
-      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="FortWagon" relativity="Absolute">
         <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">FortFrontier</target>
       </effect>
     </effects>
   </tech>
@@ -8497,13 +8511,13 @@
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractHandCavalry</target>
+        <target type="ProtoUnit">AbstractHeavyCavalry</target>
       </effect>
       <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractHandCavalry</target>
+        <target type="ProtoUnit">AbstractHeavyCavalry</target>
       </effect>
       <effect type="Data" amount="1.05" subtype="MaximumVelocity" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractHandCavalry</target>
+        <target type="ProtoUnit">AbstractHeavyCavalry</target>
       </effect>
       <effect type="Data" amount="0.90" subtype="TrainPoints" relativity="BasePercent">
         <target type="ProtoUnit">AbstractCavalry</target>
@@ -8602,7 +8616,9 @@
       <effect type="Data" amount="0.05" subtype="ArmorSpecific" newtype="Ranged" relativity="Absolute">
         <target type="ProtoUnit">deSpurRider</target>
       </effect>
-
+      <effect type="Data" amount="0.50" subtype="DamageBonus" unittype="AbstractArtillery" allactions="1" relativity="Absolute">
+        <target type="ProtoUnit">deSpurRider</target>
+      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEImperialUSCavalry" type="Normal">
@@ -8731,14 +8747,14 @@
     <dbid>7113</dbid>
     <displaynameid>110282</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
+    <researchpoints>20.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\americans\federal\nj_new_jersey_seaports.png</icon>
     <rollovertextid>110281</rollovertextid>
     <flag>HomeCity</flag>
     <flag>YPRecalcHCTrainQueuePointsWhenShipped</flag>
     <effects>
-      <effect type="Data" amount="-30.00" subtype="ResearchPoints" relativity="Absolute">
+      <effect type="Data" amount="0.50" subtype="ResearchPoints" relativity="Percent">
         <target type="techWithFlag">HomeCity</target>
       </effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
@@ -8861,6 +8877,12 @@
         <target type="ProtoUnit">NativeEmbassy</target>
       </effect>
       <effect type="CommandAdd" tech="NatLacrosse" page="1" column="18">
+        <target type="ProtoUnit">NativeEmbassy</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="NatTomahawk" relativity="Absolute">
+        <target type="ProtoUnit">NativeEmbassy</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="NatMantlet" relativity="Absolute">
         <target type="ProtoUnit">NativeEmbassy</target>
       </effect>
       <effect civ="Iroquois" type="Data" amount="1.00" subtype="UpgradeSubCivAlliance" relativity="Absolute">
