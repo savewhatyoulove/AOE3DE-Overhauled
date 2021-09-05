@@ -234,9 +234,10 @@
 	    <string _locid="110342">Delivers 2 Homestead Wagons and buildings grant double XP when built.</string>
 	    <string _locid="110344">Ships an additional Dragoon for each shipment you have sent so far this game. All units and technologies train and research slightly faster (+10%).</string>
 	    <string _locid="110350">Ships an additional General and enables him for the rest of the game. Also, you can build a second Inspiring Flag and their line of Sight is increased.</string>
+	    <string _locid="110352">Heavy Cavalry attack, hitpoints and movement speed increased.\n • ALL Cavalry train faster.</string>
 	    <string _locid="110353">Florida Cracker Horses</string>
 	    <string _locid="110354">Ships a Fattened Cow for each shipment you have sent so far this game.</string>
-	    <string _locid="110376">Ships 2 Fort Wagons and increases Fort build limit by 2.</string>
+	    <string _locid="110374">Ships 2 Fort Wagons and increases Fort build limit by 2.</string>
 	    <string _locid="110378">Ships 1 Gold Prospector Wagon and 8 Miners.</string>
 	    <string _locid="110384">Uprising! Delivers an army of Pet Bears and Villagers become Revolutionaries.</string>
 	    <string _locid="110413">Increases the range of Sharpshooters and enables them to be trained in the Commerce Age.</string>
