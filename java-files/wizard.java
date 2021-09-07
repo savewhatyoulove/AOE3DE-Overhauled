@@ -1,6 +1,3 @@
-//special thanks to Derek Banas' youtube tutorials, mkyong's recursive file copying, Nambi's image drawing, and Oracle's documentation 
-// https://stackoverflow.com/questions/18777893/jframe-background-image for putting on background image. 
-
 import java.awt.event.*; 
 import javax.swing.*; 
 import java.nio.file.*;
@@ -289,10 +286,7 @@ public class wizard extends JFrame implements ActionListener
 }
 
 
-
-
-
-
-
+//special thanks to Derek Banas' youtube tutorials, mkyong's recursive file copying, Nambi's image drawing, and Oracle's documentation 
+// https://stackoverflow.com/questions/18777893/jframe-background-image for putting on background image. 
 
 

@@ -383,7 +383,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>1</age>
+      <age>0</age>
     </card>
     <card>
       <name>HCShipBalloons</name>

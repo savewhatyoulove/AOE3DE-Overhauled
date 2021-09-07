@@ -5549,7 +5549,7 @@
       <effect type="Data" amount="2.00" subtype="DamageBonus" unittype="AbstractOutlaw" allactions="1" relativity="BasePercent">
         <target type="ProtoUnit">deGeneral</target>
       </effect>
-      <effect type="Data" action="ChargeCarbineAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+      <effect type="Data" amount="2.00" subtype="DamageBonus" unittype="AbstractMercenary" allactions="1" relativity="BasePercent">
         <target type="ProtoUnit">deGeneral</target>
       </effect>
       <effect type="Data" amount="2.00" subtype="DamageBonus" unittype="Guardian" allactions="1" relativity="BasePercent">
@@ -5558,10 +5558,15 @@
       <effect type="Data" amount="2.00" subtype="DamageBonus" unittype="AbstractOutlaw" allactions="1" relativity="BasePercent">
         <target type="ProtoUnit">deGeneral2</target>
       </effect>
-      <effect type="Data" action="ChargeCarbineAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+      <effect type="Data" amount="2.00" subtype="DamageBonus" unittype="AbstractMercenary" allactions="1" relativity="BasePercent">
         <target type="ProtoUnit">deGeneral2</target>
       </effect>
-      <effect type="TechStatus" status="active">deGeneralChargeCarbine</effect>
+      <effect type="Data" amount="1.00" subtype="BountyResourceOverride" unittype="AbstractOutlaw" resource="Gold" relativity="Assign">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="BountyResourceOverride" unittype="AbstractMercenary" resource="Gold" relativity="Assign">
+        <target type="Player"/>
+      </effect>
       <effect type="TextOutputTechName">110130</effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>

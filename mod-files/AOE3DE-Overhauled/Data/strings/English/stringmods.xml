@@ -188,6 +188,11 @@
 	    <string _locid="110054">Imperial Texas Ranger</string>
 	    <string _locid="110045">Regular attack and hitpoints increased and they deal more damage to Heavy Cavalry at range.</string>
 	    <string _locid="110067">Immigration from the British Isles delivers 2 Homestead Wagons.</string>
+	    <string _locid="110073">Freedom Cannons</string>
+	    <string _locid="110074">Imperial Freedom Cannons</string>
+	    <string _locid="110076">Imperial upgrade for Freedom Cannons.</string>
+	    <string _locid="110078">Freedom Cannon</string>
+	    <string _locid="110079">Imperial Freedom Cannon</string>
 	    <string _locid="110100">4 State Militia</string>
 	    <string _locid="110101">6 State Militia</string>
 	    <string _locid="110102">10 State Militia</string>
@@ -240,6 +245,7 @@
 	    <string _locid="110374">Ships 2 Fort Wagons and increases Fort build limit by 2.</string>
 	    <string _locid="110378">Ships 1 Gold Prospector Wagon and 8 Miners.</string>
 	    <string _locid="110384">Uprising! Delivers an army of Pet Bears and Villagers become Revolutionaries.</string>
+	    <string _locid="110409">Improves your United States General in combat, unlocks the Stun Bomb ability for your General, and makes him deadly to Mercenaries, Outlaws, and Treasure Guardians. Additionally, Enemy Mercenaries and Outlaws now yield Gold instead of XP when killed.</string>
 	    <string _locid="110413">Increases the range of Sharpshooters and enables them to be trained in the Commerce Age.</string>
 	    <string _locid="110415">Greatly increases the attack of ranged infantry.</string>
 	    <string _locid="110417">Greatly increases the hitpoints of cavalry.</string>
