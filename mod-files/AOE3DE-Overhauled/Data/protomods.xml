@@ -6202,8 +6202,9 @@
     <tech row="0" page="1" column="9">DEChurchVikings</tech>
     <tech row="0" page="1" column="10">DEChurchSwedishColonies</tech>
     <tech row="0" page="1" column="8">DEChurchPennsylvaniaPound</tech>
-    <tech row="0" page="1" column="9">DEChurchPennsylvaniaRifles</tech>
-    <tech row="0" page="1" column="10">DEChurchPennsylvaniaCavalry</tech>
+    <tech row="0" page="1" column="9">DEChurchPennsylvaniaCavalry</tech>
+    <tech row="0" page="1" column="10">DEChurchWashingtonsLegion</tech>
+    <tech row="0" page="1" column="11">DEChurchGuerrillas</tech>
     <flag>CollidesWithProjectiles</flag>
     <flag>StartsAtFullEfficiency</flag>
     <flag>Immoveable</flag>

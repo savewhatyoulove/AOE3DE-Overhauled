@@ -480,6 +480,7 @@
   </denizam>
   <towncenter>
     <ability>deUSLevyMinutemen<rof>160</rof><nevershowingrid>true</nevershowingrid><alwaysdisabledingrid>false</alwaysdisabledingrid></ability>
+    <ability>deUSLevyMinutemenFaster<rof>100</rof><nevershowingrid>true</nevershowingrid><alwaysdisabledingrid>false</alwaysdisabledingrid></ability>
     <ability>deNatSomaliLighthouse<tech>DEAllegianceSomaliLighthouseShadow</tech><rof>60</rof><castonself>true</castonself></ability>
     <ability>deAllegianceSonghaiLevyRaiders<rof>160</rof><nevershowingrid>true</nevershowingrid><alwaysdisabledingrid>false</alwaysdisabledingrid></ability>
   </towncenter>

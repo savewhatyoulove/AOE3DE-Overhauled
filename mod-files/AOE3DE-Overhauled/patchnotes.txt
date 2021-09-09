@@ -464,12 +464,13 @@ USA:
 
 Civ Bonus Changes:
 -- No longer receives XP crates on age up, instead, each shipment provides 100 xp crates.
--- XP curve reduced to 0.86 from 1.0
+-- XP curve improved to 0.86 from 1.0
 -- Can no longer ship resource crates, instead, most economic improvement shipments have been greatly buffed (+50%)
 -- All military units heal over time outside of combat (3.5s idle timeout) at a rate of 0.5% MAX HP/s
 
 Politician Changes:
--- Delware now increases Food gather rate by +10% instead of shipping food crates.
+-- Delaware now increases Food gather rate by +10% instead of shipping food crates.
+-- Rhode Island and Pennsylvania now provide Blockhouse Wagons instead of Outposts.
 -- Vermont and South Carolina now increases Wood gather and yield rates by +25% instead of shipping 600 Wood.
 -- Illionois and Connecticut now instantly research Pine Tree State (Deforestation) instead of shipping 1500 Wood.
 -- New York now provides +50% ATK/HP to merc/outlaws (+35% for Industrial Age) to match European Mercenary Contractor.
@@ -609,3 +610,101 @@ Federal Shipment Changes:
 -- Morris Canal: No longer has reduced shipment time, but now provides 2 additional Homestead Wagons
 -- Marrion's Diversions Reworked: Now provides +5% speed to Gatling Guns and lets them be stealthy
 -- Tammany Festival renamed to Tuscarora Allies and now allies USA with Haudenosaunne Native instead of Cree.
+
+Aztec:
+
+Civ Bonus Changes:
+-- Now starts with +5% gather rate on Farms/Estates by default.
+-- War Chief can now build a single Great Temple in the Industrial Age
+-- Aztec can now build a single Nobles' Hut in the commerce age (but it cannot train any units), this is increased by +6 on the Fortress Age (same as regular cap.
+
+Building Changes:
+
+Great Temple: Industrial Age building that generates a large trickle of Gold over time. Can only be built by your War Chief.
+-- Cost: 500 Food/Wood/Gold
+-- Build Time: 60 Seconds
+-- HP: 4500
+-- Trickle: 7.5 Gold/s while alive
+-- Age: IV
+
+Tribal Council Changes:
+-- Shaman: Instead of providing a HP/Damage bonus to war/noble huts, now provides Warrior Priests. +1 in the Commerce/Fortress Ages, and +2 in the Industrial/Imperial Ages. Industrial/Imperial upgrades provide +10/15% work rate to the Community Plaza as well.
+-- Chief: Now additionally provides 2/5/9/12 Pet Janey Jaguars.
+-- Warrior: Skull Knights additionally have +15%/25%/40% faster train time.
+
+Unit Changes:
+
+Jaguar Prowl Knight - Now a melee skirmisher, similar to an Urumi, but without AOE. Rebalanced to new unit class
+-- HP: Reduced to 210 from 240
+-- Siege: Lowered to 30 from 36
+-- Melee: Changed to ranged damage from melee
+-- Armor: Improved to 20% Ranged from 10% melee
+-- Multipliers: 2x AbstractCavalry/AbstractLightInfantry changed to a 0.75x penalty for each. 3.0x AbstractLightCavalry and 2.5x xpEagleKnight added.
+-- AbstractHeavyInfantry unit tag removed.
+
+Skull Knight - Now a mini-cuirassier and is classified as Hand Shock Infantry.
+-- Armor: Changes from 20% melee to 20% ranged
+-- Multipliers: All multipliers removed (no penalties/strengths vs. any unit type now)
+-- Speed: Increased to 6.25 from 4
+-- Siege: Reduced to 20 from 72
+-- AbstractInfantry and AbstractHeavyInfantry unit tags replaced with AbstractLightInfantry and AbstractCoyoteMan
+-- Damage Cap: Reduced to 45 from 68
+
+Eagle Runner Knight:
+-- Armor: Reduced to 20% from 30%
+-- Multipliers: 1.5x AbstractArtillery added.
+-- Speed: Increased to 6.25 from 6.0
+
+Coyote Runner:
+-- 1.5x AbstractArtillery added.
+
+Puma Spearman: 
+-- Cost reverted to 50F/50G from 45/45
+-- AbstractSiegeTrooper added.
+-- HP reverted to 135 from 125
+-- Siege increased to 50 from 41
+
+
+Arrow Knight:
+-- Cost: Increased to 30F/120G from 50F/75G
+-- HP increased to 160 from 150
+-- Armor: 50% siege resist added (this is effectively the same as now, as artillery have a hidden penalty, which has been removed)
+-- Movement Speed: increased to 4.0 from 3.75
+-- 0.75x AbstractCavalry/AbstractLightInfantry added.
+-- Siege: Increased to 50 from 36
+
+Shipment Changes:
+-- 1000 Gold INFINITE increased to 1200 (IV)
+-- 12 Native Villagers added (IV)
+-- 5 Warrior Priests added (III)
+-- Smoking Mirror increased to +40% speed from +25% (III)
+-- High Priest of Ixtilton reverted to Legacy Status. (I)
+-- 5 Coyote Runners increased to 6 (II)
+-- 15 Coyote Runners increased to 16 (IV)
+-- 8 Otonin Slingers is now infinite (II)
+-- 9 Otoninin Slingers increased to 10 (II)
+-- 7 Puma Spearmen decreased to 6 (II)
+-- 9 Eagle Runner Knights increased to 10 (IV)
+-- 8/9 Jaguar Prowl Knights removed due to being redundant (IV)
+-- 6 Arrow Knight INF increased to 7 (IV)
+-- Ruthlessness moved to age II
+-- War Hut Training (II) replaced with Riding School (II) - -40% train time for Coyote Runners and ERKs
+-- Scorched Earth now additionally affects Skull Knights (IV)
+-- 2 Nobles' Hut travois now additionally increases their HP by 20% (III)
+-- 3 Nobles' Hut travois removed. (IV)
+-- 4 Nobles' Hut travois now additionally increases their HP by 25% (IV)
+-- Sustainable Agriculture removed (II)
+-- Chinampa increased to +15% food/gold on Farms/Estates from +10% (II)
+-- Great Chinampa increased to +25% food/gold on Farms/Estates from +20% (IV)
+-- Agrarian Ways now instantly techs all improvements instead of making them free (III)
+-- Temple of Coatlicue Support now additionally enables area damage for Arrow Knights (1 AoE) (III)
+-- Tlacalhuazcahuitl added. Equips Otonin Slingers with Blowguns with poisoned arrows that deal DOTs. 15 damage, 16 range, same multipliers, 3.0 ROF, 4 second DOT for 1 damage/s (NOTE: this is affected by the Temple shipment and increases their range to 18) (III)
+-- Temple of Huitzilopochtli reworked: No longer increases Skull Knight speed. Now unlocks Obsidian Storm ability and additionally increases their AOE by 1 and Damage cap by 30%. (IV)
+-- Temple of Xolotol now additionally increases villager build rate by +25%. (III)
+-- Temple of Tezcatlipoca cost reduced to 1000 gold from 1500. Pet Janey HP/ATK buff increased to +50% from +35% (IV)
+-- New Ways added (II)
+  -- Unlocks Military Drummers, Counter Infantry Rifling, and Infantry Breastplate
+  -- Unlocks 2 wood trickle shipments (1.25/s, 2.35/s for 150F/150G and 350F/350G in age I/II) and Cacao Cultivation (600F/W  for +30% Estate work rate in age IV)
+
+TODO: 
+Replace Alamo with Walker's Rangers

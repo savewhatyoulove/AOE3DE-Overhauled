@@ -584,6 +584,29 @@
       </effect>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="YPHCCalltoArms1" type="Normal">
+    <dbid>4351</dbid>
+    <displaynameid>63249</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\home_city\HC_call_to_arms_icon_64.png</icon>
+    <rollovertextid>63248</rollovertextid>
+    <flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</flag>
+    <flag>DEForceLegacyIgnoreBehavior</flag>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TextOutput">63251</effect>
+      <effect tech="ypFreeIndianVillager" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="ypSettlerIndian" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="SetOnBuildingDeathTech" amount="0.00" amount2="1.00">ypSpawnIrregulars</effect>
+      <effect tech="ypFreeIndianSepoy" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="ypSepoy" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="SetOnBuildingDeathTech" amount="1.00" amount2="0.00">ypSpawnPeasants</effect>
+    </effects>
+  </tech>
 
 <!-- Inca Techs --> 
 <Tech name="DEAge0Inca" type="Normal">
@@ -761,7 +784,7 @@
   </tech>
   <tech name="DEHCSeasonalLabor1" type="Normal">
     <dbid>8500</dbid>
-    <displaynameid>150002</displaynameid>
+    <displaynameid>250002</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -807,7 +830,7 @@
 
   <tech name="DEHCSeasonalLabor2" type="Normal">
     <dbid>8501</dbid>
-    <displaynameid>150005</displaynameid>
+    <displaynameid>250005</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -830,7 +853,7 @@
 
   <tech name="DEHCSeasonalLabor3" type="Normal">
     <dbid>8501</dbid>
-    <displaynameid>150008</displaynameid>
+    <displaynameid>250008</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -852,7 +875,7 @@
   </tech>
   <tech name="DEHCSeasonalLabor4" type="Normal">
     <dbid>8502</dbid>
-    <displaynameid>150011</displaynameid>
+    <displaynameid>250011</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -1148,9 +1171,6 @@
     </effects>
   </tech>
   <tech name="DEImperializeInca" type="Normal">
-	  <!--<effect mergeMode='add' type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
-        <target type="ProtoUnit">deChinchaRaft</target>
-	  </effect>-->
       <effect mergeMode='add' type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
         <target type="ProtoUnit">SPCIncaOutpost</target>
       </effect>
@@ -1882,7 +1902,7 @@
   </tech>
   <tech name="DEHCShipMacemen4" type="Normal">
     <dbid>6057</dbid>
-    <displaynameid>150050</displaynameid>
+    <displaynameid>250050</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -1896,7 +1916,7 @@
   </tech>
   <tech mergeMode='replace' name="DEHCShipMacemenRepeat" type="Normal">
     <dbid>6057</dbid>
-    <displaynameid>150051</displaynameid>
+    <displaynameid>250051</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -2134,7 +2154,7 @@
   </tech>
   <tech name="DEHCShipGroveWagonInca" type="Normal">
     <dbid>4761</dbid>
-    <displaynameid>140002</displaynameid>
+    <displaynameid>240002</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -2298,13 +2318,13 @@
   </tech>
   <tech name="dePaititi" type="Normal">
     <dbid>6111</dbid>
-    <displaynameid>140050</displaynameid>
+    <displaynameid>240050</displaynameid>
     <cost resourcetype="Wood">200.0000</cost>
     <cost resourcetype="Gold">200.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\inca\monumental_architecture.png</icon>
-    <rollovertextid>140051</rollovertextid>
+    <rollovertextid>240051</rollovertextid>
     <flag>CountsTowardMilitaryScore</flag>
     <prereqs>
       <techstatus status="Active">Fortressize</techstatus>
@@ -2320,13 +2340,13 @@
   </tech>
   <tech name="DEChampionPriestess" type="Normal">
     <dbid>6023</dbid>
-    <displaynameid>150500</displaynameid>
+    <displaynameid>250500</displaynameid>
     <cost resourcetype="Wood">400.0000</cost>
     <cost resourcetype="Gold">200.0000</cost>
     <researchpoints>30.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\native\champion_infantry.png</icon>
-    <rollovertextid>150501</rollovertextid>
+    <rollovertextid>250501</rollovertextid>
     <flag>UpgradeTech</flag>
     <flag>CountsTowardMilitaryScore</flag>
     <prereqs>
@@ -2347,13 +2367,13 @@
   </tech>
   <tech name="DEImpLegendaryPriestess" type="Normal">
     <dbid>6024</dbid>
-    <displaynameid>150503</displaynameid>
+    <displaynameid>250503</displaynameid>
     <cost resourcetype="Wood">1500.0000</cost>
     <cost resourcetype="Gold">1500.0000</cost>
     <researchpoints>30.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\native\legendary_infantry.png</icon>
-    <rollovertextid>150504</rollovertextid>
+    <rollovertextid>250504</rollovertextid>
     <flag>UpgradeTech</flag>
     <flag>CountsTowardMilitaryScore</flag>
     <prereqs>
@@ -2632,13 +2652,13 @@
   </tech>
   <tech mergeMode='add' name="DEHCWillaqUmuSupport" type="Normal">
     <dbid>6131</dbid>
-    <displaynameid>150750</displaynameid>
+    <displaynameid>250750</displaynameid>
     <cost resourcetype="Gold">1000.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>60.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\art\units\natives\inca\priestess_icon.png</icon>
-    <rollovertextid>150751</rollovertextid>
+    <rollovertextid>250751</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="dePriestess" relativity="Absolute">
@@ -4795,6 +4815,29 @@
       </effect>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DEHCDambeWrestling" type="Normal">
+    <dbid>8306</dbid>
+    <displaynameid>102808</displaynameid>
+    <rollovertextid>102848</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\hausa\dambe_wrestling.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.40" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="HandAttack" amount="0.6666" subtype="RateOfFire" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="RangedAttack" amount="8.00" subtype="MinimumRange" relativity="Assign">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+
   <tech mergeMode='replace' name="DEHCOromoMigrations" type="Normal">
     <dbid>8226</dbid>
     <displaynameid>103348</displaynameid>
@@ -5052,6 +5095,9 @@
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">deStateCapitol</target>
       </effect>
+      <effect type="Data" amount="-1.00" subtype="AllowedAge" relativity="Absolute">
+        <target type="ProtoUnit">deStateCapitol</target>
+      </effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">Saloon</target>
       </effect>
@@ -5063,9 +5109,6 @@
       </effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">House</target>
-      </effect>
-      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-        <target type="ProtoUnit">ypConsulate</target>
       </effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">Settler</target>
@@ -5096,6 +5139,9 @@
       </effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">xpPetard</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Assign">
+        <target type="ProtoUnit">Blockhouse</target>
       </effect>
       <effect type="TechStatus" status="obtainable">HeavyGatlingGun</effect>
       <effect type="TechStatus" status="obtainable">ImperialGatlingGun</effect>
@@ -5315,11 +5361,6 @@
       <effect type="TechStatus" status="obtainable">DEPoliticianFederalTexas</effect>
       <effect type="TechStatus" status="obtainable">DEPoliticianFederalFlorida</effect>
       <effect type="TechStatus" status="obtainable">DEPoliticianFederalIllinois</effect>
-      <effect type="TechStatus" status="obtainable">ypBigConsulateBritish</effect>
-      <effect type="TechStatus" status="obtainable">ypBigConsulateFrench</effect>
-      <effect type="TechStatus" status="obtainable">ypBigConsulateDutch</effect>
-      <effect type="TechStatus" status="obtainable">ypBigConsulateSpanish</effect>
-      <effect type="TechStatus" status="obtainable">ypPickConsulateTech</effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEColonializeAmericans" type="Normal">
@@ -5836,16 +5877,6 @@
       </effect>
     </effects>
   </tech>
-  <tech name="DEHCMinutemenCompanies" type="Normal">
-    <effects>
-      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-    </effects>
-  </tech>
   <tech name="DEHCShipSheep3" type="Normal">
     <dbid>9500</dbid>
     <displaynameid>79865</displaynameid>
@@ -5872,7 +5903,7 @@
     <dbid>7056</dbid>
     <displaynameid>110153</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
-    <cost resourcetype="Gold">300.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\americans\immigrants\immigrants_dutch.png</icon>
@@ -6613,6 +6644,52 @@
       <effect type="AddHomeCityCard" tech="DEHCFedDelawareBlues" maxcount="1" ageprereq="1" unitcount="0" infiniteinlastage="0"/>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DEPoliticianFederalPennsylvania" type="Normal">
+    <dbid>7085</dbid>
+    <displaynameid>110262</displaynameid>
+    <cost resourcetype="Food">800.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_ii.png</icon>
+    <rollovertextid>110619</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age1</effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ypBlockhouseWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TechStatus" status="obtainable">DEHCImmigrantsRussianShadow</effect>
+      <effect type="AddHomeCityCard" tech="DEHCFedPhiladelphiaConvention" maxcount="1" ageprereq="1" unitcount="1" infiniteinlastage="0"/>
+      <effect type="AddHomeCityCard" tech="DEHCFedTammanyFestival" maxcount="1" ageprereq="1" unitcount="1" infiniteinlastage="0"/>
+      <effect type="TechStatus" status="obtainable">DEChurchGuerrillas</effect>
+      <effect type="TechStatus" status="obtainable">DEChurchWashingtonsLegion</effect>
+      <effect type="TechStatus" status="obtainable">DEChurchPulaskisLegion</effect>
+    </effects>
+  </tech>
+
+  <tech mergeMode='replace' name="DEPoliticianFederalRhodeIsland" type="Normal">
+    <dbid>7096</dbid>
+    <displaynameid>110248</displaynameid>
+    <cost resourcetype="Food">800.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_ii.png</icon>
+    <rollovertextid>110620</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age1</effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ypBlockhouseWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TechStatus" status="obtainable">DEHCImmigrantsRussianShadow</effect>
+      <effect type="AddHomeCityCard" tech="DEHCFedSteamEngine" maxcount="1" ageprereq="1" unitcount="0" infiniteinlastage="0"/>
+      <effect type="AddHomeCityCard" tech="DEHCFedTextileMill" maxcount="1" ageprereq="1" unitcount="0" infiniteinlastage="0"/>
+    </effects>
+  </tech>
   <tech mergeMode='replace' name="DEPoliticianFederalVermont" type="Normal">
     <dbid>7094</dbid>
     <displaynameid>110240</displaynameid>
@@ -6717,6 +6794,30 @@
       <effect type="AddHomeCityCard" tech="DEHCFedHamiltonsOwn" maxcount="1" ageprereq="4" unitcount="4" infiniteinlastage="0"/>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DEPoliticianFederalTexas" type="Normal">
+    <dbid>7100</dbid>
+    <displaynameid>110252</displaynameid>
+    <cost resourcetype="Food">4000.0000</cost>
+    <cost resourcetype="Gold">4000.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_v.png</icon>
+    <rollovertextid>110634</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="SetAge">Age4</effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FortWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">FortFrontier</target>
+      </effect>
+      <effect type="AddHomeCityCard" tech="DEHCFedTexanForts" maxcount="1" ageprereq="4" unitcount="0" infiniteinlastage="0"/>
+      <effect type="AddHomeCityCard" tech="DEHCFedWalkersRangers" maxcount="1" ageprereq="4" unitcount="12" infiniteinlastage="0"/>
+    </effects>
+  </tech>
 
   <tech mergeMode='replace' name="DEHCImmigrantsChinese" type="Normal">
     <dbid>7069</dbid>
@@ -6782,7 +6883,7 @@
     <dbid>7064</dbid>
     <displaynameid>110188</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
-    <cost resourcetype="Wood">250.0000</cost>
+    <cost resourcetype="Wood">150.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\americans\immigrants\immigrants_french.png</icon>
@@ -6872,7 +6973,7 @@
     <dbid>7061</dbid>
     <displaynameid>110164</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
-    <cost resourcetype="Food">300.0000</cost>
+    <cost resourcetype="Food">250.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\americans\immigrants\immigrants_spanish.png</icon>
@@ -6897,17 +6998,44 @@
   </tech>
   <tech name="DEHCImmigrantsRussian" type="Normal">
     <effects>
-      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect mergeMode='add' type="Data" action="Gather" amount="1.15" subtype="Yield" unittype="Huntable" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractVillager</target>
-      </effect>
-      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DEHCImmigrantsRussian" type="Normal">
+    <dbid>7059</dbid>
+    <displaynameid>110160</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\immigrants\immigrants_russian.png</icon>
+    <rollovertextid>110162</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Blockhouse</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="ypBlockhouseWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.30" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="Yield" unittype="Huntable" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">DEHCImmigrantsRussianShadow</effect>
+      <effect type="TechStatus" status="active">DEHCImmigrantsStateCapitolShadow</effect>
+      <effect type="TechStatus" status="active">FrontierBlockhouse</effect>
+      <effect type="TextOutputTechName">110130</effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+
+    </effects>
+  </tech>
+
   <tech mergeMode='replace' name="DEHCFedNewYorkZouaves" type="Normal">
     <dbid>7134</dbid>
     <displaynameid>110329</displaynameid>
@@ -7206,7 +7334,7 @@
       </effect>
     </effects>
   </tech>
-  <tech name="DEHCKnoxArtilleryTrain" type="Normal">
+  <tech mergeMode='replace' name="DEHCKnoxArtilleryTrain" type="Normal">
     <dbid>7332</dbid>
     <displaynameid>110577</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
@@ -7689,7 +7817,7 @@
     <dbid>7172</dbid>
     <displaynameid>110219</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
-    <cost resourcetype="Gold">300.0000</cost>
+    <cost resourcetype="Food">300.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\americans\immigrants\immigrants_swedish.png</icon>
@@ -8431,7 +8559,7 @@
     <rollovertextid>110334</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" amount="-20.00" subtype="Cost" resource="Wood" relativity="Absolute">
+      <effect type="Data" amount="-30.00" subtype="Cost" resource="Wood" relativity="Absolute">
         <target type="ProtoUnit">FishingBoat</target>
       </effect>
       <effect type="Data" amount="0.70" subtype="TrainPoints" relativity="BasePercent">
@@ -8445,16 +8573,6 @@
         <target type="Player"/>
       </effect>
       <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-    </effects>
-  </tech>
-  <tech name="DEHCFedCulpeperMinutemen" type="Normal">
-    <effects>
-     <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -8492,7 +8610,7 @@
     <cost resourcetype="Wood">500.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>OBTAINABLE</status>
-    <icon>resources\images\icons\techs\americans\legion_armand.png</icon>
+    <icon>resources\art\units\cavalry\dragoon\dragoon_icon_64x64.png</icon>
     <rollovertextid>110344</rollovertextid>
     <flag>HomeCity</flag>
     <flag>DEHCCardDynamicCount</flag>
@@ -9159,46 +9277,6 @@
       </effect>
     </effects>
   </tech>
-  <tech mergeMode='replace' name="DEChurchPennsylvaniaCavalry" type="Normal">
-    <dbid>7109</dbid>
-    <displaynameid>110278</displaynameid>
-    <cost resourcetype="Food">700.0000</cost>
-    <researchpoints>15.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\americans\pennsylvania_cavalry.png</icon>
-    <rollovertextid>110277</rollovertextid>
-    <flag>UniqueTech</flag>
-    <flag>CheckLandHCGatherPoint</flag>
-    <prereqs>
-      <techstatus status="Active">DEHCFedPhiladelphiaConvention</techstatus>
-      <techstatus status="Active">Colonialize</techstatus>
-    </prereqs>
-    <effects>
-      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="deUSCavalry" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-    </effects>
-  </tech>
-  <tech mergeMode='replace' name="DEChurchPennsylvaniaRifles" type="Normal">
-    <dbid>7108</dbid>
-    <displaynameid>110276</displaynameid>
-    <cost resourcetype="Food">350.0000</cost>
-    <researchpoints>15.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\americans\pennsylvania_rifles.png</icon>
-    <rollovertextid>110275</rollovertextid>
-    <flag>UniqueTech</flag>
-    <flag>CheckLandHCGatherPoint</flag>
-    <prereqs>
-      <techstatus status="Active">DEHCFedPhiladelphiaConvention</techstatus>
-      <techstatus status="Active">Colonialize</techstatus>
-    </prereqs>
-    <effects>
-      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="deRifleman" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-    </effects>
-  </tech>
   <tech name="DEHCFedAnnapolisAcademy" type="Normal">
     <effects>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
@@ -9442,192 +9520,270 @@
     <status>UNOBTAINABLE</status>
     <flag>YPInfiniteTech</flag>
   </tech>
-  <tech mergeMode='replace' name="YPHCCalltoArms1" type="Normal">
-    <dbid>4351</dbid>
-    <displaynameid>63249</displaynameid>
+  <tech name="DEChurchGuerrillas" type="Normal">
+    <dbid>9527</dbid>
+    <displaynameid>260034</displaynameid>
+    <researchpoints>15.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\grand_encampment\grand_encampment_icon_64x64.png</icon>
+    <rollovertextid>260035</rollovertextid>
+    <flag>UniqueTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">DEHCFedPhiladelphiaConvention</techstatus>
+      <techstatus status="Active">Colonialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="0.75" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractInfantry</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractInfantry</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCFedWalkersRangers" type="Normal">
+    <dbid>9528</dbid>
+    <displaynameid>110412</displaynameid>
+    <cost resourcetype="Food">1000.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\home_city\HC_call_to_arms_icon_64.png</icon>
-    <rollovertextid>63248</rollovertextid>
-    <flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</flag>
-    <flag>DEForceLegacyIgnoreBehavior</flag>
+    <icon>resources\images\icons\techs\americans\legion_lee.png</icon>
+    <rollovertextid>110411</rollovertextid>
     <flag>HomeCity</flag>
+    <flag>YPInfiniteTech</flag>
     <effects>
-      <effect type="TextOutput">63251</effect>
-      <effect tech="ypFreeIndianVillager" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="ypSettlerIndian" relativity="Absolute">
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="deUSCavalry" relativity="Absolute">
         <target type="Player"/>
       </effect>
-      <effect type="SetOnBuildingDeathTech" amount="0.00" amount2="1.00">ypSpawnIrregulars</effect>
-      <effect tech="ypFreeIndianSepoy" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="ypSepoy" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect type="SetOnBuildingDeathTech" amount="1.00" amount2="0.00">ypSpawnPeasants</effect>
     </effects>
   </tech>
-  <!--
-  <tech name="DEAmericansBigConsulateSpanish" type="Normal">
-    <dbid>4495</dbid>
-    <displaynameid>64158</displaynameid>
+  <tech mergeMode='replace' name="YPNatShaolinClenchedFist" type="Normal">
+    <dbid>3735</dbid>
+    <displaynameid>61123</displaynameid>
+    <cost resourcetype="Wood">200.0000</cost>
     <cost resourcetype="Gold">200.0000</cost>
     <researchpoints>10.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\eso\flag_spanish_icon.png</icon>
-    <rollovertextid>64157</rollovertextid>
-    <flag>YPConsulateTech</flag>
-    <flag>CountsTowardEconomicScore</flag>
-    <flag>NativeDance</flag>
-    <flag>YPInfiniteTech</flag>
+    <icon>resources\images\icons\techs\asians\clenched_fist.png</icon>
+    <rollovertextid>61122</rollovertextid>
+    <flag>YPNativeImprovement</flag>
+    <flag>CountsTowardMilitaryScore</flag>
     <effects>
-      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-        <target type="ProtoUnit">ypConsulateArmySpanish1</target>
+      <effect type="Data" amount="1.25" subtype="DamageForAllHandLogicActions" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractRangedInfantry</target>
       </effect>
-      <effect type="TechStatus" status="obtainable">ypConsulateSpanishMercantilism</effect>
-      <effect type="TechStatus" status="obtainable">ypConsulateSpanishFasterShipments</effect>
-      <effect type="Data" amount="0.80" subtype="ResourceTrickleRate" resource="XP" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect type="TechStatus" status="obtainable">ypConsulateSpanishEnhancedProfits</effect>
-      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-        <target type="ProtoUnit">ypConsulateArmySpanish3</target>
-      </effect>
-      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-        <target type="ProtoUnit">ypConsulateArmySpanish2</target>
-      </effect>
-      <effect type="TechStatus" status="active">ypBigSequesterRemove</effect>
-      <effect type="TechStatus" status="obtainable">ypBigSequesterSpanish</effect>
-      <effect type="TechStatus" status="obtainable">ypConsulateSpanishBrigade</effect>
-      <effect type="TechStatus" status="active">ypBigTradeTaxEnable</effect>
-      <effect civ="Spanish" type="Data" amount="0.00" subtype="SetCivRelation" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect type="TechStatus" status="obtainable">ypConsulateRelationsSpanish</effect>
     </effects>
   </tech>
-  <tech name="ypBigConsulateFrench" type="Normal">
-    <dbid>4496</dbid>
-    <displaynameid>64160</displaynameid>
-    <cost resourcetype="Trade">100.0000</cost>
-    <researchpoints>10.0000</researchpoints>
+  <tech mergeMode='replace' name="DEBillOfRights" type="Normal">
+    <dbid>7204</dbid>
+    <displaynameid>110466</displaynameid>
+    <cost resourcetype="Gold">1200.0000</cost>
+    <researchpoints>5.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\eso\flag_french_icon.png</icon>
-    <rollovertextid>64159</rollovertextid>
-    <flag>YPConsulateTech</flag>
-    <flag>YPInfiniteTech</flag>
+    <icon>resources\images\icons\techs\mercantilism\mercantilism.png</icon>
+    <rollovertextid>110465</rollovertextid>
     <flag>CountsTowardEconomicScore</flag>
-    <flag>YPUseBigButton2</flag>
+    <flag>UniqueTech</flag>
+    <prereqs>
+      <techstatus status="Active">Colonialize</techstatus>
+    </prereqs>
     <effects>
-      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-        <target type="ProtoUnit">ypConsulateArmyFrench3</target>
-      </effect>
-      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-        <target type="ProtoUnit">ypConsulateArmyFrench1</target>
-      </effect>
-      <effect type="TechStatus" status="obtainable">ypConsulateFrenchWoodCrates</effect>
-      <effect type="TechStatus" status="obtainable">ypConsulateFrenchCoinCrates</effect>
-      <effect type="TechStatus" status="obtainable">ypConsulateFrenchFoodCrates</effect>
-      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-        <target type="ProtoUnit">ypConsulateArmyFrench2</target>
-      </effect>
-      <effect type="Data2" action="Gather" amount="1.05" subtype="WorkRateSpecific" resource="Food" unittype="ypRicePaddy" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractVillager</target>
-      </effect>
-      <effect type="Data2" action="Gather" amount="1.05" subtype="WorkRateSpecific" resource="Food" unittype="deField" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractVillager</target>
-      </effect>
-      <effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="AbstractBerryBush" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractVillager</target>
-      </effect>
-      <effect type="Data2" action="Gather" amount="1.05" subtype="WorkRateSpecific" resource="Gold" unittype="ypRicePaddy" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractVillager</target>
-      </effect>
-      <effect type="Data2" action="Gather" amount="1.05" subtype="WorkRateSpecific" resource="Gold" unittype="deField" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractVillager</target>
-      </effect>
-      <effect type="Data2" action="Gather" amount="1.05" subtype="WorkRateSpecific" resource="Wood" unittype="deField" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractVillager</target>
-      </effect>
-      <effect type="Data2" action="Gather" amount="1.05" subtype="WorkRateSpecific" resource="Influence" unittype="deField" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractVillager</target>
-      </effect>
-      <effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="Plantation" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractVillager</target>
-      </effect>
-      <effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractVillager</target>
-      </effect>
-      <effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="Mill" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractWagon</target>
-      </effect>
-      <effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="Herdable" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractVillager</target>
-      </effect>
-      <effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractVillager</target>
-      </effect>
-      <effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="Tree" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractVillager</target>
-      </effect>
-      <effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="AbstractMine" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractVillager</target>
-      </effect>
-      <effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="AbstractWhale" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractFishingBoat</target>
-      </effect>
-      <effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="deMountainMonastery" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractVillager</target>
-      </effect>
-      <effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="AbstractFish" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractFishingBoat</target>
-      </effect>
-      <effect type="TechStatus" status="obtainable">ypBigSequesterFrench</effect>
-      <effect type="TechStatus" status="active">ypBigSequesterRemove</effect>
-      <effect type="TechStatus" status="obtainable">ypConsulateFrenchBrigade</effect>
-      <effect type="TechStatus" status="active">ypBigTradeTaxEnable</effect>
-      <effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="ypBerryBuilding" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractVillager</target>
-      </effect>
-      <effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="ypGroveBuilding" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractVillager</target>
-      </effect>
-      <effect civ="French" type="Data" amount="0.00" subtype="SetCivRelation" relativity="Absolute">
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="deCrateofXPLarge" relativity="Absolute">
         <target type="Player"/>
       </effect>
-      <effect type="TechStatus" status="obtainable">ypConsulateRelationsFrench</effect>
-      <effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="deTorpBush2" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractVillager</target>
+    </effects>
+  </tech>
+  <tech name="DEChurchWashingtonsLegion" type="Normal">
+    <dbid>9529</dbid>
+    <displaynameid>110278</displaynameid>
+    <cost resourcetype="Food">750.0000</cost>
+    <cost resourcetype="Wood">750.0000</cost>
+    <researchpoints>15.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\legion_washington.png</icon>
+    <rollovertextid>110277</rollovertextid>
+    <flag>UniqueTech</flag>
+    <flag>CheckLandHCGatherPoint</flag>
+    <prereqs>
+      <techstatus status="Active">DEHCFedPhiladelphiaConvention</techstatus>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="Grenadier" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TechStatus" status="active">VeteranGrenadiers</effect>
+      <effect type="Data" amount="1.00" subtype="CopyTacticAnims" fromtactic="GrenadierMortar" totactic="Volley" relativity="Assign">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="CopyTacticAnims" fromtactic="GrenadierMortar" totactic="Defend" relativity="Assign">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="CopyTacticAnims" fromtactic="GrenadierMortar" totactic="Stagger" relativity="Assign">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
+      <effect type="Data" action="MortarAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
+      <effect type="Data" action="VolleyRangedAttack" amount="0.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
+      <effect type="Data" action="DefendRangedAttack" amount="0.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="0.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
+      <effect type="Data" action="MortarBuildingAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
+      <effect type="Data" action="BuildingAttack" amount="0.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">IncendiaryGrenades</effect>
+      <effect type="TextOutput">91788</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEChurchPennsylvaniaCavalry" type="Normal">
+    <dbid>7109</dbid>
+    <displaynameid>110278</displaynameid>
+    <cost resourcetype="Food">800.0000</cost>
+    <researchpoints>15.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\pennsylvania_cavalry.png</icon>
+    <rollovertextid>110277</rollovertextid>
+    <flag>UniqueTech</flag>
+    <flag>CheckLandHCGatherPoint</flag>
+    <prereqs>
+      <techstatus status="Active">DEHCFedPhiladelphiaConvention</techstatus>
+      <techstatus status="Active">Colonialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="deUSCavalry" relativity="Absolute">
+        <target type="Player"/>
       </effect>
     </effects>
   </tech>
-  <tech name="ypBigSequester" type="Normal">
-    <dbid>4562</dbid>
-    <displaynameid>64633</displaynameid>
-    <researchpoints>10.0000</researchpoints>
+  <tech name="HCCavalryDamageGermanTeamExtra" type="Normal">
+    <dbid>5278</dbid>
+    <displaynameid>71150</displaynameid>
+    <researchpoints>0.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\abilities\ability_sequester.png</icon>
-    <icontexturecoords>.001953125 .001953125 .7890625 .6015625</icontexturecoords>
-    <rollovertextid>64632</rollovertextid>
-    <flag>YPForceUnapply</flag>
-    <flag>YPInfiniteTech</flag>
-    <flag>NativeDance</flag>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">Age0German</techstatus>
+    </prereqs>
     <effects>
-      <effect type="TechStatus" status="active">ypBigSequesterInitial</effect>
-      <effect type="TechStatus" status="obtainable">ypPickConsulateTech</effect>
-      <effect type="TechStatus" status="unobtainable" deactivate="true">ypBigConsulateBritish</effect>
-      <effect type="TechStatus" status="unobtainable" deactivate="true">ypBigConsulateDutch</effect>
-      <effect type="TechStatus" status="unobtainable" deactivate="true">ypBigConsulateFrench</effect>
-      <effect type="TechStatus" status="unobtainable" deactivate="true">ypBigConsulateOttomans</effect>
-      <effect type="TechStatus" status="unobtainable" deactivate="true">ypBigConsulateRussians</effect>
-      <effect type="TechStatus" status="unobtainable" deactivate="true">ypBigConsulatePortuguese</effect>
-      <effect type="TechStatus" status="unobtainable" deactivate="true">ypBigConsulateSpanish</effect>
-      <effect type="TechStatus" status="obtainable">ypBigConsulateBritish</effect>
-      <effect type="TechStatus" status="obtainable">ypBigConsulateSpanish</effect>
-      <effect type="TechStatus" status="obtainable">ypBigConsulateRussians</effect>
-      <effect type="TechStatus" status="obtainable">ypBigConsulatePortuguese</effect>
-      <effect type="TechStatus" status="obtainable">ypBigConsulateOttomans</effect>
-      <effect type="TechStatus" status="obtainable">ypBigConsulateFrench</effect>
-      <effect type="TechStatus" status="obtainable">ypBigConsulateDutch</effect>
+      <effect type="Data" amount="1.05" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractHeavyCavalry</target>
+      </effect>
+      <effect type="Data" amount="1.05" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractLightCavalry</target>
+      </effect>
+      <effect type="TextOutput">71151</effect>
+      <effect type="Data" amount="1.05" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractLightInfantry</target>
+      </effect>
     </effects>
   </tech>
-  -->
+  <tech mergeMode='replace' name="DEHCFedCulpeperMinutemen" type="Normal">
+    <dbid>7116</dbid>
+    <displaynameid>110295</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>20.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\federal\vg_culpeper_minutemen.png</icon>
+    <rollovertextid>110294</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="0.50" subtype="UnitRegenRate" unittype="deMinuteman" relativity="Percent">
+        <target type="Player"/>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">DEUSLevy</effect>
+      <effect type="TechStatus" status="active">DEUSLevyFaster</effect>
+      <effect type="TechStatus" status="obtainable">DEUSCulpeperMinutemenCompanies</effect>
+      <effect type="TextOutputTechName">110130</effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEUSLevyFaster" type="Normal">
+    <dbid>7016</dbid>
+    <displaynameid>36003</displaynameid>
+    <cost resourcetype="Food">150.0000</cost>
+    <cost resourcetype="Gold">150.0000</cost>
+    <researchpoints>5.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\levy_minutemen.png</icon>
+    <rollovertextid>110058</rollovertextid>
+    <effects>
+      <effect all="true" type="TextOutput">36004</effect>
+    </effects>
+  </tech>
+  <tech name="DEUSConscriptionFaster" type="Normal">
+    <dbid>7047</dbid>
+    <displaynameid>36003</displaynameid>
+    <cost resourcetype="Food">400.0000</cost>
+    <cost resourcetype="Gold">400.0000</cost>
+    <researchpoints>5.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <icon>resources\images\icons\techs\americans\levy_minutemen.png</icon>
+    <rollovertextid>110127</rollovertextid>
+    <effects>
+      <effect all="true" type="TextOutput">36004</effect>
+    </effects>
+  </tech>
+  <tech name="DEUSCulpeperMinutemenCompanies" type="Normal">
+    <dbid>5278</dbid>
+    <displaynameid>260030</displaynameid>
+    <researchpoints>0.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">DEHCMinutemenCompanies</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="TechStatus" status="unobtainable">DEUSLevy</effect>
+      <effect type="TechStatus" status="unobtainable">DEUSLevyFaster</effect>
+      <effect type="TechStatus" status="unobtainable">DEUSConscription</effect>
+      <effect type="TechStatus" status="active">DEUSConscriptionFaster</effect>
+    </effects>
+  </tech>
+  <tech name="DEHCMinutemenCompanies" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="TechStatus" status="obtainable">DEUSMinutemenCompaniesCulpeper</effect>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEUSMinutemenCompaniesCulpeper" type="Normal">
+    <dbid>5278</dbid>
+    <displaynameid>260030</displaynameid>
+    <researchpoints>0.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">DEHCFedCulpeperMinutemen</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="TechStatus" status="unobtainable">DEUSLevy</effect>
+      <effect type="TechStatus" status="unobtainable">DEUSLevyFaster</effect>
+      <effect type="TechStatus" status="unobtainable">DEUSConscription</effect>
+      <effect type="TechStatus" status="active">DEUSConscriptionFaster</effect>
+    </effects>
+    </tech>
 </techtreemods>

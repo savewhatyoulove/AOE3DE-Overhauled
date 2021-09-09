@@ -805,6 +805,10 @@
     <placement forceonmap="1">LOSDontCare</placement>
     <allowduringnorush>1</allowduringnorush>
   </power>
+  <power name="deUSLevyMinutemenFaster" type="GeneralEffect">
+    <placement forceonmap="1">LOSDontCare</placement>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
   <power name="deChargeAbilitySwashbuckler" type="GeneralEffect">
     <displaynameid>110083</displaynameid>
     <rolloverid>110084</rolloverid>

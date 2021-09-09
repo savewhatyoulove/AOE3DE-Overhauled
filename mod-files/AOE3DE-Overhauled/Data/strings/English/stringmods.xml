@@ -217,7 +217,9 @@
 	    <string _locid="110221">Boston Tea Party</string>
 	    <string _locid="110222">Hulk. Advanced armored warship.</string>
 	    <string _locid="110237">Mercenary and Outlaw hitpoints and attack greatly increased</string>
-	    <string _locid="110277">Ships a regiment of Texas Rangers.</string>
+	    <string _locid="110271">Ships 1 Meeting House Wagon and provides your Meeting House with unique American improvements to research.\n • Adds: Washington's Legion\n • Adds: Pennsylvania Cavalry\n • Adds: Guerrillas</string>
+	    <string _locid="110277">Ships 12 Veteran Grenadiers equipped with Grenade Launchers.</string>
+	    <string _locid="110278">Washington's Legion</string>
 	    <string _locid="110279">Ships 1 Native Embassy Travois and allies you with the Tuscarora (Native Haudenosaunee) at your Native Embassy where some of their upgrades and units are available.</string>
 	    <string _locid="110280">Tuscarora Allies</string>
 	    <string _locid="110281">Receive and additional 2 XP crates with each shipments. Additionally, all shipments arrive considerably faster, including this one.</string>
@@ -245,7 +247,9 @@
 	    <string _locid="110374">Ships 2 Fort Wagons and increases Fort build limit by 2.</string>
 	    <string _locid="110378">Ships 1 Gold Prospector Wagon and 8 Miners.</string>
 	    <string _locid="110384">Uprising! Delivers an army of Pet Bears and Villagers become Revolutionaries.</string>
-	    <string _locid="110409">Improves your United States General in combat, unlocks the Stun Bomb ability for your General, and makes him deadly to Mercenaries, Outlaws, and Treasure Guardians. Additionally, Enemy Mercenaries and Outlaws now yield Gold instead of XP when killed.</string>
+	    <string _locid="110409">Improves your United States General in combat, and makes him deadly to Mercenaries, Outlaws, and Treasure Guardians. Additionally, Enemy Mercenaries and Outlaws now yield Gold instead of XP when killed.</string>
+	    <string _locid="110411">Ships 12 Texas Rangers.</string>
+	    <string _locid="110412">Walker's Rangers</string>
 	    <string _locid="110413">Increases the range of Sharpshooters and enables them to be trained in the Commerce Age.</string>
 	    <string _locid="110415">Greatly increases the attack of ranged infantry.</string>
 	    <string _locid="110417">Greatly increases the hitpoints of cavalry.</string>
@@ -264,6 +268,8 @@
 	    <string _locid="110576">Artillery have more hit points and are trained faster.</string>
 	    <string _locid="110599">Ships 10 Gunslingers and 12 Pet Cougars. Enables Generals, Gunslingers, and Town Centers to retrain Pet Cougars.</string>
 	    <string _locid="110618">Settlers gather Food 10% more quickly</string>
+	    <string _locid="110619">1 Blockhouse Wagon</string>
+	    <string _locid="110620">1 Blockhouse Wagon</string>
 	    <string _locid="110626">Settlers gather Wood 25% more quickly and Trees last 25% longer</string>
 	    <string _locid="110627">Settlers gather Wood 25% more quickly and Trees last 25% longer</string>
 	    <string _locid="110631">Pine Tree State researched</string>
@@ -396,6 +402,9 @@
 	    <string _locid="260031">Rough Rider</string>
 	    <string _locid="260032">Imperial Rough Rider</string>
 	    <string _locid="260033">200 XP Crates with every shipment</string>
+	    <string _locid="260034">Guerrillas</string>
+	    <string _locid="260035">Infantry have increased attack, but have reduced hitpoints.</string>
+	    <string _locid="260036">Lower cooldown Conscription if Minutemen Companies has been sent.</string>
 	</Language>
   </StringTable>
 </stringmods>
