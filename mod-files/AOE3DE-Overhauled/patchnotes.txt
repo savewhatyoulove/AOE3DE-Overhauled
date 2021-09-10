@@ -413,7 +413,7 @@ Gascenya:
 Armor: Increased to 25 melee from 20
 Speed: Reduced to 4.25 from 4.5
 Ranged Damage: Rescaled to 12 w/ 1.5 ROF from 24 w/ 3.0 ROF; ROF range scaling removed
-Melee Multipliers: AbstractCavalry reduced to 3x from 4x, AbstractLightInfantry reduced to 2.25x from 2.4x
+Melee Multipliers: AbstractCavalry reduced to 3.25x from 4x, AbstractLightInfantry increased to 2.50x from 2.4x
 Siege Damage: Reduced to 24 from 28.
 
 Javelin Rider (shared with Hausa):
@@ -423,8 +423,9 @@ Melee Attack: Reduced to 6.5 from 10
 Siege: Reduced to 6 from 9
 
 Shotel Warrior:
+Cost: Increased to 50F/55G from 55F/50G
 Speed: Increased to 6.25 from 6.0
-Melee Damage: Increased to 16 w/1.5 ROF from 13 w/ 1.25 ROF (+0.4 net). 0.8x AbstractHeavyInfantry penalty added (1x net)
+Melee Damage: Increased to 16 w/1.5 ROF from 13 w/ 1.25 ROF (+0.4 net). 
 
 Oromo Rider Reworked:
 HP: Reduced to 350 from 380
@@ -432,7 +433,11 @@ Armor: Increased to 50 from 20
 Siege: Increased to 30 from 27
 Ranged Attack: Reduced to 30 from 42. 1 AOE w/ 60 damage cap added. ROF improved to 3.0 from 4.0, range scaling ROF removed.
 Multipliers reworked: Added 4x AbstractArtillery, 4x AbstractInfantry, and 0.25x AbstractHeavyInfantry to all attacks.
-Melee Attack: Reduced to 15 from 42. 
+Melee Attack: Reduced to 15 from 42, same multipliers as melee. 
+
+Sebastopol Mortar:
+Speed: Reduced to 2.5 from 2.75
+Turn Rate: Reduced to 1.0 from 1.5
 
 Shipment Changes:
 -- Oromo Migrations: Moved to Age 4 from Age 1. Now ships 4 villagers for each palace you currently have constructed.
@@ -706,5 +711,4 @@ Shipment Changes:
   -- Unlocks Military Drummers, Counter Infantry Rifling, and Infantry Breastplate
   -- Unlocks 2 wood trickle shipments (1.25/s, 2.35/s for 150F/150G and 350F/350G in age I/II) and Cacao Cultivation (600F/W  for +30% Estate work rate in age IV)
 
-TODO: 
-Replace Alamo with Walker's Rangers
+  TODO: Fix culpeper minutemen

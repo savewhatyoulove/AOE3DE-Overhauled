@@ -1,3 +1,4 @@
 <politicianmods>
   <politicianphilosopherprinceswedish portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_philosopher_prince.png"/>
+  <depoliticianfederaltexas portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_texas.png" hccardtech1="DEHCFedTexanForts" hccardtech2="DEHCFedWalkersRangers"/>
 </politicianmods>

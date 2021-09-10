@@ -157,6 +157,7 @@
 	    <string _locid="91791">Tähtitarha</string>
 	    <string _locid="91792">Hussars deal more damage, especially to foot archers and skirmishers.</string>
 	    <string _locid="91849">5 Warrior Priestesses</string>
+	    <string _locid="101051">Powerful heavy cavalry with a power splash ranged attack. Good against light infantry and artillery.</string>
 	    <string _locid="101301">5 Raiders</string>
 	    <string _locid="101303">4 Lifidi Knights</string>
 	    <string _locid="101304">3 Lifidi Knights</string>
@@ -164,7 +165,9 @@
 	    <string _locid="101306">4 Lifidi Knights</string>
 	    <string _locid="102553">Armored cannoneer mercenary from Portugal who fires a heavy musket inflicting splash damage.</string>
 	    <string _locid="102849">Lifidi Knights and Raiders train faster. Raiders deal more damage to Villagers and Lifidi Knights gain increased area damage radii, especially in trample mode.</string>
+	    <string _locid="102881">Particularly fattened Cattle containing 750 Food.</string>
 	    <string _locid="102928">Javelin Rider armor and attack increased. Oromo Riders deal more damage, especially to skirmishers and foot archers.</string>
+	    <string _locid="103313">The Fulani town of Gwandu sends 9 Fulani Archers and 4 Lifidi Knights.</string>
 	    <string _locid="103347">Receive a shipment of 4 Villagers for each Palace you currently have built.</string>
 	    <string _locid="110001" symbol="cStringCivRolloverAmericans">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nFederal states unlock two new cards per age and two Factory cards in Industrial Age. Shipments are earned more quickly and you receive a free XP crate with most shipments. Economic improvements from the Home City are more powerful, but you have a lower Settler build limit and cannot ship resource crates. Generals can build Forts instead of Town Centers. Levies can be called repeatedly from multiple buildings. Military units slowly heal over time outside of combat. Starts with a Fattened Sheep, an XP crate, and a Homestead Wagon instead of resource crates. \n&lt;color=1.0, 1.0, 0.0&gt;National guard units: &lt;/color&gt;Sharpshooters (Marksmen), Spur Riders (Rough Riders)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nTexas Ranger, Gatling Gun, Ironclad, Minuteman, Regular, Sharpshooter, Sloop, State Militia, Spur Rider, Steamer\n\nThe "land of opportunity" provided ample land for Settlers to plunder, creating the famous melting pot of cultures by eroding individual ethnic identities. Expanding from militia forces skilled in skirmishing tactics and marksmanship to a professional army, the United States of America ensured its independence and impressive road to prosperity for the few.</string>
 	    <string _locid="110009">Skirmisher with a powerful short-ranged splash attack.</string>
@@ -230,7 +233,7 @@
 	    <string _locid="110302">Ships 2 Outpost Wagons. All existing and newly constructed Outposts spawn 1 State Militia and 1 Coureur while supporting +5 population.</string>
 	    <string _locid="110304">Ships 6 State Militia and enables them to construct Military Buildings and place down an Inspiring Flag.</string>
 	    <string _locid="110306">Gatling Gun movement speed slightly increased and are now Stealthy.</string>
-	    <string _locid="110316">Ships 2 Sharpshooters and 2 Deer for each shipment you have sent so far this game. Owlhoot range increased.</string>
+	    <string _locid="110316">Ships 2 Sharpshooters and 2 Deer for each shipment you have sent so far this game.</string>
 	    <string _locid="110318">Ships 5 Coureurs and 5 Elite Cree Trackers.</string>
 	    <string _locid="110320">Factories have more hitpoints and generate more resources.</string>
 	    <string _locid="110326">Ship an Ironclad containing 4 Nitro Petards.</string>
@@ -245,6 +248,7 @@
 	    <string _locid="110353">Florida Cracker Horses</string>
 	    <string _locid="110354">Ships a Fattened Cow for each shipment you have sent so far this game.</string>
 	    <string _locid="110374">Ships 2 Fort Wagons and increases Fort build limit by 2.</string>
+	    <string _locid="110376">When destroyed by enemies, your Forts spawn 8 Minutemen and your Outposts spawn 2 Minutemen. Additionally, you can construct more Outposts and an additional Fort.</string>
 	    <string _locid="110378">Ships 1 Gold Prospector Wagon and 8 Miners.</string>
 	    <string _locid="110384">Uprising! Delivers an army of Pet Bears and Villagers become Revolutionaries.</string>
 	    <string _locid="110409">Improves your United States General in combat, and makes him deadly to Mercenaries, Outlaws, and Treasure Guardians. Additionally, Enemy Mercenaries and Outlaws now yield Gold instead of XP when killed.</string>
@@ -253,17 +257,17 @@
 	    <string _locid="110413">Increases the range of Sharpshooters and enables them to be trained in the Commerce Age.</string>
 	    <string _locid="110415">Greatly increases the attack of ranged infantry.</string>
 	    <string _locid="110417">Greatly increases the hitpoints of cavalry.</string>
-	    <string _locid="110419">Ships an Ironclad containing Regulars. Increases Ironclad built limit by 1.</string>
+	    <string _locid="110419">Ships an Ironclad containing Regulars. Enables an additional Ironclad to be constructed </string>
 	    <string _locid="110431">Ships 10 Magyar Hussars.</string>
 	    <string _locid="110453">Villagers gather wood faster and trees last longer.\n • Villager: Gather Work Rate for Tree and Grove +25%; Tree Yield +25%</string>
 	    <string _locid="110455">Ships 2 Homestead Wagons. Villagers gather food from Mills faster.\n • Villager: Gather Work Rate for Mill, Farm, Rice Paddy, Field +20%</string>
 	    <string _locid="110483">Ships 12 Polar Bears which will fight your enemies. All currently existing Town Centers spawn 1 Silver Prospector Wagon, which can open a Silver Mine.</string>
 	    <string _locid="110484">Alaska Purchase</string>
-	    <string _locid="110487">Ships 5 Sharpshooters and 5 Cree Trackers. Also upgrades Sharpshooters to Marksmen and Cree Trackers to Champion and allows you to train them from the Native Embassy.</string>
+	    <string _locid="110487">Ships 5 Sharpshooters and 5 Cree Trackers. Also upgrades Sharpshooters to Marksmen and Cree Trackers to Champion and allows you to train Trackers from the Native Embassy.</string>
 	    <string _locid="110489">Ships 15 Elite Seminole Sharktooth Guerrillas, who are good against infantry and buildings.</string>
 	    <string _locid="110490">Captured Seminole Guerrillas</string>
 	    <string _locid="110527">Ships 2 State Militia and 5 Regulars and researches their Veteran upgrades.</string>
-	    <string _locid="110542">Enables an additional Ironclad to be constructed and grants them additional health.</string>
+	    <string _locid="110542">Ironclads and Steamers gain increased armor. Additionally, they no longer cost Wood to construct, but now require a greater amount of Gold instead.</string>
 	    <string _locid="110562">Slightly increases the attack and hitpoints of all military units.</string>
 	    <string _locid="110576">Artillery have more hit points and are trained faster.</string>
 	    <string _locid="110599">Ships 10 Gunslingers and 12 Pet Cougars. Enables Generals, Gunslingers, and Town Centers to retrain Pet Cougars.</string>
@@ -405,6 +409,11 @@
 	    <string _locid="260034">Guerrillas</string>
 	    <string _locid="260035">Infantry have increased attack, but have reduced hitpoints.</string>
 	    <string _locid="260036">Lower cooldown Conscription if Minutemen Companies has been sent.</string>
+	    <string _locid="260037">Rockets' Red Glare</string>
+	    <string _locid="260038">Rockets and Mortars deal increased damage to buildings.</string>
+	    <string _locid="260039">5 Homestead Wagons</string>
+	    <string _locid="260040">Delivers 5 Homestead Wagons, which transform into Mills, Estates, Houses, Docks, Markets, or Livestock Pens</string>
+	    <string _locid="260041">TEAM 4 Texas Rangers</string>
 	</Language>
   </StringTable>
 </stringmods>

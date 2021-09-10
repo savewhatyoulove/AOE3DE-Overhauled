@@ -94,6 +94,15 @@
       <infiniteinlastage>0</infiniteinlastage>
     </card>
     <card>
+      <name>DEHCHomesteadWagonsAmericans</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>DEHCImmigrantsBritish</prereqtech>
+      <age>3</age>
+      <displayunitcount>5</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
       <name>DEHCImmigrantsDutch</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -499,7 +508,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>16</displayunitcount>
+      <displayunitcount>10</displayunitcount>
     </card>
     <card>
       <name>DEHCShipRiflemen1</name>
@@ -660,6 +669,22 @@
       <level>0</level>
       <age>3</age>
       <displayunitcount>5</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCRocketSiege</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+    </card>
+    <card>
+      <name>DEHCShipTexasRangersTeam</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>4</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>DEHCShipCarbineCav1</name>
@@ -862,7 +887,13 @@
       <prereqtech>-1</prereqtech>
       <age>3</age>
       <displayunitcount>1</displayunitcount>
-      <revoltcard/>
+    </card>
+    <card>
+      <name>DEHCFedAlamo</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>DEHCKosciuszkoFortifications</prereqtech>
+      <age>3</age>
     </card>
     <card>
       <name>DEHCShipHomesteadWagons1</name>
@@ -1174,7 +1205,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>2</age>
+      <age>3</age>
     </card>
     <card>
       <name>HCMercsHolyRoman</name>
@@ -1351,15 +1382,6 @@
       <displayunitcount>2</displayunitcount>
       <revoltcard/>
     </card>
-    <card>
-      <name>HCREVShipFortWagon</name>
-      <maxcount>-1</maxcount>
-      <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
-      <age>2</age>
-      <displayunitcount>1</displayunitcount>
-      <revoltcard/>
-    </card>
   </cards>
   <decks>
     <deck>
@@ -1501,6 +1523,7 @@
       <tech x="4.3" y="2.0">DEHCShipSheep1Americans</tech>
       <tech x="4.3" y="2.0">HCShipSheep2</tech>
       <tech x="4.3" y="2.0">DEHCShipSheep3</tech>
+      <tech x="4.3" y="4.0">DEHCHomesteadWagonsAmericans</tech>
       <tech x="5.0" y="2.0">HCShipCows</tech>
       <tech x="5.0" y="3.0">DEHCShipCows3</tech>
       <tech x="5.0" y="4.0">DEHCShipCowsTeam</tech>
@@ -1528,6 +1551,7 @@
       <tech x="4.3" y="2.0">DEHCShipSheep1Americans</tech>
       <tech x="4.3" y="2.0">HCShipSheep2</tech>
       <tech x="4.3" y="2.0">DEHCShipSheep3</tech>
+      <tech x="4.3" y="4.0">DEHCHomesteadWagonsAmericans</tech>
       <tech x="5.0" y="2.0">HCShipCows</tech>
       <tech x="5.0" y="3.0">DEHCShipCows3</tech>
       <tech x="5.0" y="4.0">DEHCShipCowsTeam</tech>
@@ -1566,6 +1590,7 @@
       <tech x="0.7" y="4.0">DEHCShipStateMilitiaRepeat1</tech>
       <tech x="1.2" y="6.0">DEHCShipStateMilitia2</tech>
       <tech x="1.2" y="7.0">DEHCShipCarbineCav1</tech>
+      <tech x="1.2" y="7.0">DEHCShipTexasRangersTeam</tech>
       <tech x="1.2" y="7.0">HCShipDragoons4</tech>
       <tech x="2.0" y="1.0">DEHCShipRegulars1</tech>
       <tech x="1.7" y="4.0">DEHCShipRegulars2</tech>
@@ -1589,6 +1614,7 @@
       <tech x="6.5" y="2.0">HCShipMortars1</tech>
       <tech x="7.2" y="3.0">HCShipCulverins1</tech>
       <tech x="7.2" y="3.0">HCXPShipRocketsRepeat</tech>
+      <tech x="7.2" y="4.0">DEHCRocketSiege</tech>
       <tech x="7.2" y="7.0">DEHCLongRifles</tech>
       <tech x="7.2" y="7.0">DEHCStateMilitiaSplashDamage</tech>
       <tech x="7.2" y="7.0">DEHCContinentalRangers</tech>
@@ -1601,6 +1627,7 @@
       <tech x="0.7" y="4.0">DEHCShipStateMilitiaRepeat1</tech>
       <tech x="1.2" y="6.0">DEHCShipStateMilitia2</tech>
       <tech x="1.2" y="7.0">DEHCShipCarbineCav1</tech>
+      <tech x="1.2" y="7.0">DEHCShipTexasRangersTeam</tech>
       <tech x="1.2" y="7.0">HCShipDragoons4</tech>
       <tech x="2.0" y="1.0">DEHCShipRegulars1</tech>
       <tech x="1.7" y="4.0">DEHCShipRegulars2</tech>
@@ -1624,6 +1651,7 @@
       <tech x="6.5" y="2.0">HCShipMortars1</tech>
       <tech x="7.2" y="3.0">HCShipCulverins1</tech>
       <tech x="7.2" y="3.0">HCXPShipRocketsRepeat</tech>
+      <tech x="7.2" y="4.0">DEHCRocketSiege</tech>
       <tech x="7.2" y="7.0">DEHCLongRifles</tech>
       <tech x="7.2" y="7.0">DEHCStateMilitiaSplashDamage</tech>
       <tech x="7.2" y="7.0">DEHCContinentalRangers</tech>
@@ -1660,6 +1688,7 @@
       <tech x="2.4" y="5.0">DEHCKosciuszkoFortifications</tech>
       <tech x="3.1" y="5.0">HCHeavyFortificationsUS</tech>
       <tech x="3.5" y="5.0">HCREVShipFortWagon</tech>
+      <tech x="3.5" y="6.0">DEHCFedAlamo</tech>
       <tech x="6.0" y="1.0">DEHCShipMilitaryWagonsTeam</tech>
       <tech x="3.8" y="4.0">HCFrontierDefenses2</tech>
       <tech x="5.3" y="1.0">HCXPShipSpies1</tech>
@@ -1688,6 +1717,7 @@
       <tech x="2.4" y="5.0">DEHCKosciuszkoFortifications</tech>
       <tech x="3.1" y="5.0">HCHeavyFortificationsUS</tech>
       <tech x="3.5" y="5.0">HCREVShipFortWagon</tech>
+      <tech x="3.5" y="6.0">DEHCFedAlamo</tech>
       <tech x="6.0" y="1.0">DEHCShipMilitaryWagonsTeam</tech>
       <tech x="3.8" y="4.0">HCFrontierDefenses2</tech>
       <tech x="5.3" y="1.0">HCXPShipSpies1</tech>

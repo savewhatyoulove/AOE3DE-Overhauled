@@ -5725,9 +5725,460 @@
       <rate type="Tree">1.000000</rate>
     </protoaction>
   </unit> -->
-  <unit id="294" name="TownCenter">
+  <unit mergeMode='replace' id="294" name="TownCenter">
+    <dbid>16</dbid>
+    <displaynameid>22841</displaynameid>
+    <editornameid>28145</editornameid>
+    <populationcapaddition>10</populationcapaddition>
+    <obstructionradiusx>4.0000</obstructionradiusx>
+    <obstructionradiusz>4.0000</obstructionradiusz>
+    <maxvelocity>0.0000</maxvelocity>
+    <movementtype>land</movementtype>
+    <animfile>buildings\town_center\town_center.xml</animfile>
+    <deadreplacement>BuildingRubble4x4</deadreplacement>
+    <deadreplacementlifespan>15</deadreplacementlifespan>
+    <impacttype>Wood</impacttype>
+    <physicsinfo>house</physicsinfo>
+    <placementfile>buildinglarge.xml</placementfile>
+    <icon>resources\art\buildings\town_center\towncenter_icon.png</icon>
+    <minimapicon>ui\minimap\towncenter</minimapicon>
+    <portraiticon>resources\art\buildings\town_center\towncenter_portrait.png</portraiticon>
+    <rollovertextid>22840</rollovertextid>
+    <shortrollovertextid>25734</shortrollovertextid>
+    <initialhitpoints>6500.0000</initialhitpoints>
+    <maxhitpoints>6500.0000</maxhitpoints>
+    <los>38.0000</los>
+    <projectileprotounit>Cannonball</projectileprotounit>
+    <unitaitype>RangedCombative</unitaitype>
+    <buildpoints>60.0000</buildpoints>
+    <buildlimit>1</buildlimit>
+    <bounty>100.0000</bounty>
+    <buildbounty>50.0000</buildbounty>
+    <cost resourcetype="Wood">500.0000</cost>
+    <buildingworkrate>1.0000</buildingworkrate>
+    <maxcontained>50</maxcontained>
+    <allowedage>0</allowedage>
+    <gathererlimit>4</gathererlimit>
+    <armor type="Siege" value="0.0000"/>
+    <builderlimit>8</builderlimit>
+    <carrycapacity resourcetype="Food">100.0000</carrycapacity>
+    <carrycapacity resourcetype="Wood">100.0000</carrycapacity>
+    <carrycapacity resourcetype="Gold">100.0000</carrycapacity>
+    <unittype>AbstractTypeHuntableMagnet</unittype>
+    <unittype>LogicalTypeValidSabotage</unittype>
+    <unittype>LogicalTypeMinimapFilterEconomic</unittype>
+    <unittype>LogicalTypeNeededForVictory</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeBuildingsNotWalls</unittype>
+    <unittype>LogicalTypeTCBuildLimit</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeShipsAndBuildings</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>LogicalTypeBuildingsNotWallsOrGroves</unittype>
+    <unittype>Building</unittype>
+    <unittype>Economic</unittype>
+    <unittype>BuildingClass</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>CountsTowardEconomicScore</unittype>
+    <unittype>ConvertsHerds</unittype>
+    <unittype>AbstractTownCenter</unittype>
+    <unittype>AbstractCanSeeStealth</unittype>
+    <unittype>AbstractGatherAfterBuild</unittype>
+    <unittype>AbstractCallMinutemen</unittype>
+    <unittype>AbstractCallRaiders</unittype>
+    <train row="0" page="0" column="0">ypSettlerIndian</train>
+    <train row="0" page="0" column="0">ypSettlerJapanese</train>
+    <train row="0" page="0" column="0">ypSettlerAsian</train>
+    <train row="0" page="0" column="0">deSettlerAfrican</train>
+    <train row="0" page="0" column="0">Settler</train>
+    <train row="0" page="0" column="0">Coureur</train>
+    <train row="0" page="0" column="3">HotAirBalloon</train>
+    <train row="0" page="0" column="2">Envoy</train>
     <train row="0" page="0" column="2">Miner</train>
+    <train row="0" page="0" column="2">deChasqui</train>
+    <train row="0" page="0" column="1">xpColonialMilitia</train>
+    <train row="0" page="0" column="0">SettlerNative</train>
+    <train row="0" page="0" column="5">PetCougar</train>
+    <train row="0" page="0" column="5">ypSPCBrahminHealer</train>
+    <train row="0" page="0" column="5">ypMonkChinese</train>
+    <train row="0" page="0" column="6">ypMonkChinese2</train>
+    <train row="0" page="0" column="6">ypMonkIndian2</train>
+    <train row="0" page="0" column="5">ypMonkIndian</train>
+    <train row="0" page="0" column="5">ypMonkJapanese</train>
+    <train row="0" page="0" column="6">ypMonkJapanese2</train>
+    <tech row="0" page="1" column="0">TribalIroquoisWarrior5</tech>
+    <tech row="0" page="1" column="0">TribalIroquoisWisewoman4</tech>
+    <tech row="0" page="1" column="0">TribalIroquoisYouth2</tech>
+    <tech row="0" page="1" column="0">TribalIroquoisYouth3</tech>
+    <tech row="0" page="1" column="1">DERevolutionHaiti</tech>
+    <tech row="0" page="1" column="1">DERevolutionEgypt</tech>
+    <tech row="0" page="1" column="1">DERevolutionFinland</tech>
+    <tech row="0" page="1" column="1">DERevolutionRomania</tech>
+    <tech row="0" page="1" column="1">ImpImmigrantsNative</tech>
+    <tech row="0" page="1" column="1">DEImpImmigrantsAfrican</tech>
+    <tech row="0" page="1" column="0">TribalAztecWarrior2</tech>
+    <tech row="0" page="1" column="0">TribalAztecYouth5</tech>
+    <tech row="0" page="1" column="0">PoliticianAdmiralOttoman</tech>
+    <tech row="0" page="1" column="0">PoliticianViceroyGerman</tech>
+    <tech row="0" page="1" column="0">PoliticianViceroyPortuguese</tech>
+    <tech row="0" page="1" column="0">PoliticianCavalierDutch</tech>
+    <tech row="0" page="1" column="0">PoliticianMusketeerDutch</tech>
+    <tech row="0" page="1" column="0">PoliticianGeneralOttoman</tech>
+    <tech row="0" page="1" column="0">PoliticianViceroyDutch</tech>
+    <tech row="0" page="2" column="0">BigIroquoisWarParty</tech>
+    <tech row="0" page="1" column="2">ImpLegendaryNativesNatives</tech>
+    <tech row="0" page="1" column="0">PoliticianGeneralBritish</tech>
+    <tech row="0" page="1" column="0">PoliticianMarksmanOttoman</tech>
+    <tech row="0" page="1" column="0">TribalIroquoisWisewoman3</tech>
+    <tech row="0" page="1" column="0">PoliticianAdventurerBritish</tech>
+    <tech row="0" page="1" column="0">PoliticianMusketeerBritish</tech>
+    <tech row="0" page="1" column="0">TribalIroquoisChief4</tech>
+    <tech row="0" page="1" column="0">TribalIroquoisShaman2</tech>
+    <tech row="0" page="1" column="0">TribalIroquoisWisewoman2</tech>
+    <tech row="0" page="1" column="0">TribalIroquoisChief5</tech>
+    <tech row="0" page="1" column="0">TribalIroquoisShaman5</tech>
+    <tech row="0" page="2" column="0">BigIroquoisRaidingParty</tech>
+    <tech row="0" page="1" column="0">TribalSiouxYouth5</tech>
+    <tech row="0" page="1" column="0">TribalSiouxShaman4</tech>
+    <tech row="0" page="1" column="0">TribalSiouxShaman3</tech>
+    <tech row="0" page="1" column="0">TribalAztecChief4</tech>
+    <tech row="0" page="1" column="0">TribalAztecShaman3</tech>
+    <tech row="0" page="2" column="0">BigAztecScoutingParty</tech>
+    <tech row="0" page="1" column="0">PoliticianCavalierFrench</tech>
+    <tech row="0" page="1" column="0">PoliticianGeneralSkirmisher</tech>
+    <tech row="0" page="1" column="0">PoliticianBishopGerman</tech>
+    <tech row="0" page="1" column="0">PoliticianWarMinisterAct3</tech>
+    <tech row="0" page="1" column="0">PoliticianMusketeerFrench</tech>
+    <tech row="0" page="1" column="0">PoliticianSergeantGerman</tech>
+    <tech row="0" page="1" column="1">DERevolutionChile</tech>
+    <tech row="0" page="1" column="1">DERevolutionSouthAfrica</tech>
+    <tech row="0" page="1" column="2">SpiesNative</tech>
+    <tech row="0" page="1" column="2">DESpiesAfrican</tech>
+    <tech row="0" page="1" column="0">PoliticianSergeantDutch</tech>
+    <tech row="0" page="1" column="0">TribalIroquoisWisewoman5</tech>
+    <tech row="0" page="1" column="0">TribalIroquoisYouth4</tech>
+    <tech row="0" page="1" column="0">PoliticianAdventurerRussian</tech>
+    <tech row="0" page="1" column="0">PoliticianMusketeerRussian</tech>
+    <tech row="0" page="1" column="0">PoliticianPhilosopherPrince</tech>
+    <tech row="0" page="1" column="0">PoliticianEngineerPortuguese</tech>
+    <tech row="0" page="1" column="0">TribalSiouxYouth2</tech>
+    <tech row="0" page="1" column="0">TribalSiouxWarrior5</tech>
+    <tech row="0" page="1" column="0">TribalSiouxChief3</tech>
+    <tech row="0" page="1" column="0">TribalAztecWarrior4</tech>
+    <tech row="0" page="1" column="0">PoliticianTycoonAct3</tech>
+    <tech row="0" page="1" column="0">PoliticianCavalierGerman</tech>
+    <tech row="0" page="1" column="0">PoliticianCavalierRussian</tech>
+    <tech row="0" page="1" column="0">PoliticianScout</tech>
+    <tech row="0" page="1" column="0">PoliticianMarksmanPortuguese</tech>
+    <tech row="0" page="1" column="0">PoliticianCavalierOttoman</tech>
+    <tech row="0" page="1" column="0">PoliticianMusketeerPortuguese</tech>
+    <tech row="0" page="1" column="0">TribalIroquoisChief2</tech>
+    <tech row="0" page="1" column="0">TribalIroquoisShaman4</tech>
+    <tech row="0" page="1" column="0">TribalIroquoisWarrior4</tech>
+    <tech row="0" page="1" column="1">DERevolutionPeru</tech>
+    <tech row="0" page="1" column="1">DERevolutionBrazil</tech>
+    <tech row="0" page="1" column="1">DERevolutionArgentina</tech>
+    <tech row="0" page="1" column="1">DERevolutionUSA</tech>
+    <tech row="0" page="1" column="1">DERevolutionCanadaFrench</tech>
+    <tech row="0" page="1" column="1">DERevolutionCanadaBritish</tech>
+    <tech row="0" page="1" column="1">DERevolutionIndonesia</tech>
+    <tech row="0" page="1" column="1">DERevolutionBarbaryStates</tech>
+    <tech row="0" page="1" column="1">DERevolutionHungaryRussian</tech>
+    <tech row="0" page="1" column="1">DERevolutionHungaryOttoman</tech>
+    <tech row="0" page="1" column="1">DERevolutionHungaryGerman</tech>
+    <tech row="0" page="1" column="0">TribalIroquoisWarrior2</tech>
+    <tech row="0" page="1" column="0">TribalIroquoisWarrior3</tech>
+    <tech row="0" page="1" column="0">TribalIroquoisChief3</tech>
+    <tech row="0" page="1" column="0">TribalIroquoisShaman3</tech>
+    <tech row="0" page="1" column="0">TribalIroquoisYouth5</tech>
+    <tech row="0" page="1" column="0">PoliticianScoutRussian</tech>
+    <tech row="0" page="1" column="0">PoliticianViceroyBritish</tech>
+    <tech row="0" page="1" column="0">PoliticianWarMinisterRussian</tech>
+    <tech row="0" page="1" column="0">PoliticianAdmiral</tech>
+    <tech row="0" page="1" column="0">PoliticianBishop</tech>
+    <tech row="0" page="1" column="0">PoliticianBishopFortress</tech>
+    <tech row="0" page="1" column="0">PoliticianGeneral</tech>
+    <tech row="0" page="1" column="0">PoliticianMusketeerSpanish</tech>
+    <tech row="0" page="1" column="0">PoliticianQuartermaster</tech>
+    <tech row="0" page="1" column="0">PoliticianEngineer</tech>
+    <tech row="0" page="1" column="0">PoliticianSergeantSpanish</tech>
+    <tech row="0" page="1" column="0">PoliticianPirate</tech>
+    <tech row="0" page="1" column="0">PoliticianPresidente</tech>
+    <tech row="0" page="1" column="0">PoliticianNaturalist</tech>
+    <tech row="0" page="1" column="0">PoliticianNaturalistGerman</tech>
+    <tech row="0" page="1" column="0">PoliticianTycoon</tech>
+    <tech row="0" page="1" column="0">PoliticianWarMinisterSpanish</tech>
+    <tech row="0" page="1" column="0">PoliticianExiledPrince</tech>
+    <tech row="0" page="1" column="2">HCBlockadeNative</tech>
+    <tech row="0" page="1" column="2">DEHCBlockadeAfrican</tech>
+    <tech row="0" page="1" column="0">PoliticianCavalierSpanish</tech>
+    <tech row="0" page="1" column="0">PoliticianGrandVizier</tech>
+    <tech row="0" page="1" column="0">TribalSiouxYouth3</tech>
+    <tech row="0" page="1" column="0">TribalSiouxWisewoman3</tech>
+    <tech row="0" page="1" column="0">TribalSiouxWisewoman2</tech>
+    <tech row="0" page="1" column="0">TribalAztecWisewoman4</tech>
+    <tech row="0" page="1" column="0">TribalAztecYouth2</tech>
+    <tech row="0" page="2" column="0">BigAztecWarParty</tech>
+    <tech row="0" page="1" column="0">TribalSiouxChief5</tech>
+    <tech row="0" page="1" column="0">TribalSiouxChief2</tech>
+    <tech row="0" page="1" column="0">TribalSiouxChief4</tech>
+    <tech row="0" page="1" column="0">TribalAztecChief2</tech>
+    <tech row="0" page="1" column="0">TribalAztecShaman4</tech>
+    <tech row="0" page="1" column="0">TribalAztecWarrior5</tech>
+    <tech row="0" page="1" column="0">TribalAztecWisewoman2</tech>
+    <tech row="0" page="1" column="0">TribalAztecWisewoman3</tech>
+    <tech row="0" page="1" column="0">TribalSiouxWisewoman4</tech>
+    <tech row="0" page="1" column="0">TribalSiouxWisewoman5</tech>
+    <tech row="0" page="1" column="0">TribalSiouxWarrior4</tech>
+    <tech row="0" page="1" column="0">TribalAztecChief3</tech>
+    <tech row="0" page="1" column="0">TribalAztecChief5</tech>
+    <tech row="0" page="1" column="0">TribalAztecShaman2</tech>
+    <tech row="0" page="1" column="0">TribalAztecShaman5</tech>
+    <tech row="0" page="1" column="0">TribalAztecYouth3</tech>
+    <tech row="0" page="2" column="0">BigAztecRaidingParty</tech>
+    <tech row="0" page="2" column="0">BigSiouxDogSoldiers</tech>
+    <tech row="0" page="1" column="1">DERevolutionMexico</tech>
+    <tech row="0" page="1" column="1">DERevolutionColombia</tech>
+    <tech row="0" page="1" column="1">DERevolutionColombiaPortuguese</tech>
+    <tech row="0" page="2" column="0">BigIroquoisScoutingParty</tech>
+    <tech row="0" page="1" column="2">ypImpLegendaryNatives</tech>
+    <tech row="0" page="1" column="2">ypImpLegendaryNatives2</tech>
+    <tech row="0" page="1" column="0">ypFakeColonialAge</tech>
+    <tech row="0" page="1" column="0">ypFakeFortressAge</tech>
+    <tech row="0" page="1" column="0">ypFakeImperialAge</tech>
+    <tech row="0" page="1" column="0">ypFakeIndustrialAge</tech>
+    <tech row="0" page="1" column="0">PoliticianAdventurerSpanish</tech>
+    <tech row="0" page="1" column="0">PoliticianGovernor</tech>
+    <tech row="0" page="1" column="0">PoliticianMohawk</tech>
+    <tech row="0" page="1" column="0">PoliticianMarksman</tech>
+    <tech row="0" page="1" column="0">TribalSiouxYouth4</tech>
+    <tech row="0" page="1" column="0">TribalSiouxWarrior3</tech>
+    <tech row="0" page="1" column="0">TribalSiouxWarrior2</tech>
+    <tech row="0" page="1" column="0">TribalSiouxShaman5</tech>
+    <tech row="0" page="1" column="0">TribalSiouxShaman2</tech>
+    <tech row="0" page="1" column="0">TribalAztecWarrior3</tech>
+    <tech row="0" page="1" column="0">TribalAztecWisewoman5</tech>
+    <tech row="0" page="1" column="0">TribalAztecYouth4</tech>
+    <tech row="0" page="1" column="0">TribalIncaChief2</tech>
+    <tech row="0" page="1" column="0">TribalIncaChief3</tech>
+    <tech row="0" page="1" column="0">TribalIncaChief4</tech>
+    <tech row="0" page="1" column="0">TribalIncaChief5</tech>
+    <tech row="0" page="1" column="0">TribalIncaShaman2</tech>
+    <tech row="0" page="1" column="0">TribalIncaShaman3</tech>
+    <tech row="0" page="1" column="0">TribalIncaShaman4</tech>
+    <tech row="0" page="1" column="0">TribalIncaShaman5</tech>
+    <tech row="0" page="1" column="0">TribalIncaWarrior2</tech>
+    <tech row="0" page="1" column="0">TribalIncaWarrior3</tech>
+    <tech row="0" page="1" column="0">TribalIncaWarrior4</tech>
+    <tech row="0" page="1" column="0">TribalIncaWarrior5</tech>
+    <tech row="0" page="1" column="0">TribalIncaWisewoman2</tech>
+    <tech row="0" page="1" column="0">TribalIncaWisewoman3</tech>
+    <tech row="0" page="1" column="0">TribalIncaWisewoman4</tech>
+    <tech row="0" page="1" column="0">TribalIncaWisewoman5</tech>
+    <tech row="0" page="1" column="0">TribalIncaYouth2</tech>
+    <tech row="0" page="1" column="0">TribalIncaYouth3</tech>
+    <tech row="0" page="1" column="0">TribalIncaYouth4</tech>
+    <tech row="0" page="1" column="0">TribalIncaYouth5</tech>
+    <tech row="0" page="2" column="0">deBigIncaScoutingParty</tech>
+    <tech row="0" page="2" column="0">deBigIncaRaidingParty</tech>
+    <tech row="0" page="2" column="0">deBigIncaWarParty</tech>
+    <tech row="0" page="1" column="0">DEPoliticianMarksmanSwedish</tech>
+    <tech row="0" page="1" column="0">DEPoliticianSergeantSwedish</tech>
+    <tech row="0" page="1" column="0">DEPoliticianCavalierSwedish</tech>
+    <tech row="0" page="1" column="0">DEPoliticianMusketeerSwedish</tech>
+    <tech row="0" page="1" column="0">DEPoliticianGeneralSwedish</tech>
+    <tech row="0" page="1" column="0">DEPoliticianPapalGuard</tech>
+    <tech row="0" page="1" column="0">DEPoliticianMercContractorFortressBritish</tech>
+    <tech row="0" page="1" column="0">DEPoliticianPapalGuardSpanish</tech>
+    <tech row="0" page="1" column="0">DEPoliticianPapalGuardPortuguese</tech>
+    <tech row="0" page="1" column="0">DEPoliticianPapalGuardSwedish</tech>
+    <tech row="0" page="1" column="0">DEPoliticianMercContractor</tech>
+    <tech row="0" page="1" column="0">DEPoliticianMercContractorFortress</tech>
+    <tech row="0" page="1" column="0">DEPoliticianMercContractorFortressDutch</tech>
+    <tech row="0" page="1" column="0">DEPoliticianMercContractorFortressOttoman</tech>
+    <tech row="0" page="1" column="0">DEPoliticianMercContractorFortressPortuguese</tech>
+    <tech row="0" page="1" column="0">DEPoliticianMercContractorFortressSwedish</tech>
+    <tech row="0" page="1" column="0">DEPoliticianKnightColonial</tech>
+    <tech row="0" page="1" column="0">DEPoliticianKnight</tech>
+    <tech row="0" page="1" column="0">DEPoliticianKnightAlt</tech>
+    <tech row="0" page="1" column="0">DEPoliticianInventor</tech>
+    <tech row="0" page="1" column="0">DEPoliticianInventorColonial</tech>
+    <tech row="0" page="1" column="0">DEPoliticianLogisticianFrench</tech>
+    <tech row="0" page="1" column="0">DEPoliticianLogisticianSwedish</tech>
+    <tech row="0" page="1" column="0">DEPoliticianLogisticianColonialBritish</tech>
+    <tech row="0" page="1" column="0">DEPoliticianLogisticianColonialDutch</tech>
+    <tech row="0" page="1" column="0">DEPoliticianLogisticianGerman</tech>
+    <tech row="0" page="1" column="0">DEPoliticianLogisticianPortuguese</tech>
+    <tech row="0" page="1" column="0">DEPoliticianLogisticianColonialRussian</tech>
+    <tech row="0" page="1" column="0">DEPoliticianLogisticianOttoman</tech>
+    <tech row="0" page="1" column="0">DEPoliticianLogisticianSpanish</tech>
+    <tech row="0" page="1" column="0">DEPoliticianLogisticianRussian</tech>
+    <tech row="0" page="1" column="0">DEPoliticianLogistician</tech>
+    <tech row="0" page="1" column="0">DEPoliticianFederalDelaware</tech>
+    <tech row="0" page="1" column="0">DEPoliticianFederalPennsylvania</tech>
+    <tech row="0" page="1" column="0">DEPoliticianFederalConnecticut</tech>
+    <tech row="0" page="1" column="0">DEPoliticianFederalMassachusetts</tech>
+    <tech row="0" page="1" column="0">DEPoliticianFederalNewJersey</tech>
+    <tech row="0" page="1" column="0">DEPoliticianFederalMaryland</tech>
+    <tech row="0" page="1" column="0">DEPoliticianFederalTennessee</tech>
+    <tech row="0" page="1" column="0">DEPoliticianFederalSouthCarolina</tech>
+    <tech row="0" page="1" column="0">DEPoliticianFederalVirginia</tech>
+    <tech row="0" page="1" column="0">DEPoliticianFederalNewYork</tech>
+    <tech row="0" page="1" column="0">DEPoliticianFederalVermont</tech>
+    <tech row="0" page="1" column="0">DEPoliticianFederalNorthCarolina</tech>
+    <tech row="0" page="1" column="0">DEPoliticianFederalRhodeIsland</tech>
+    <tech row="0" page="1" column="0">DEPoliticianFederalKentucky</tech>
+    <tech row="0" page="1" column="0">DEPoliticianFederalNewHampshire</tech>
+    <tech row="0" page="1" column="0">DEPoliticianFederalLouisiana</tech>
+    <tech row="0" page="1" column="0">DEPoliticianFederalTexas</tech>
+    <tech row="0" page="1" column="0">DEPoliticianFederalCalifornia</tech>
+    <tech row="0" page="1" column="0">DEPoliticianFederalMaine</tech>
+    <tech row="0" page="1" column="0">DEPoliticianFederalFlorida</tech>
+    <tech row="0" page="1" column="0">DEPoliticianFederalIndiana</tech>
+    <tech row="0" page="1" column="0">DEPoliticianFederalIllinois</tech>
+    <tech row="0" page="1" column="0">DEPoliticianFederalOhio</tech>
+    <tech row="0" page="1" column="0">DEAllegianceOromo2</tech>
+    <tech row="0" page="1" column="0">DEAllegiancePortuguese2</tech>
+    <tech row="0" page="1" column="0">DEAllegianceHabesha2</tech>
+    <tech row="0" page="1" column="0">DEAllegianceSomali2</tech>
+    <tech row="0" page="1" column="0">DEAllegianceSudanese2</tech>
+    <tech row="0" page="1" column="0">DEAllegianceIndian2</tech>
+    <tech row="0" page="1" column="0">DEAllegianceJesuit2</tech>
+    <tech row="0" page="1" column="0">DEAllegianceArab2</tech>
+    <tech row="0" page="1" column="0">DEAllegianceOromo3</tech>
+    <tech row="0" page="1" column="0">DEAllegiancePortuguese3</tech>
+    <tech row="0" page="1" column="0">DEAllegianceHabesha3</tech>
+    <tech row="0" page="1" column="0">DEAllegianceSomali3</tech>
+    <tech row="0" page="1" column="0">DEAllegianceSudanese3</tech>
+    <tech row="0" page="1" column="0">DEAllegianceIndian3</tech>
+    <tech row="0" page="1" column="0">DEAllegianceJesuit3</tech>
+    <tech row="0" page="1" column="0">DEAllegianceArab3</tech>
+    <tech row="0" page="1" column="0">DEAllegianceOromo4</tech>
+    <tech row="0" page="1" column="0">DEAllegiancePortuguese4</tech>
+    <tech row="0" page="1" column="0">DEAllegianceHabesha4</tech>
+    <tech row="0" page="1" column="0">DEAllegianceSomali4</tech>
+    <tech row="0" page="1" column="0">DEAllegianceSudanese4</tech>
+    <tech row="0" page="1" column="0">DEAllegianceIndian4</tech>
+    <tech row="0" page="1" column="0">DEAllegianceJesuit4</tech>
+    <tech row="0" page="1" column="0">DEAllegianceArab4</tech>
+    <tech row="0" page="1" column="0">DEAllegianceOromo5</tech>
+    <tech row="0" page="1" column="0">DEAllegiancePortuguese5</tech>
+    <tech row="0" page="1" column="0">DEAllegianceHabesha5</tech>
+    <tech row="0" page="1" column="0">DEAllegianceSomali5</tech>
+    <tech row="0" page="1" column="0">DEAllegianceSudanese5</tech>
+    <tech row="0" page="1" column="0">DEAllegianceIndian5</tech>
+    <tech row="0" page="1" column="0">DEAllegianceJesuit5</tech>
+    <tech row="0" page="1" column="0">DEAllegianceArab5</tech>
+    <tech row="0" page="1" column="0">DEAllegianceFulani2</tech>
+    <tech row="0" page="1" column="0">DEAllegianceBerber2</tech>
+    <tech row="0" page="1" column="0">DEAllegianceHausa2</tech>
+    <tech row="0" page="1" column="0">DEAllegianceSonghai2</tech>
+    <tech row="0" page="1" column="0">DEAllegianceYoruba2</tech>
+    <tech row="0" page="1" column="0">DEAllegianceAkan2</tech>
+    <tech row="0" page="1" column="0">DEAllegianceMoroccan2</tech>
+    <tech row="0" page="1" column="0">DEAllegianceBritish2</tech>
+    <tech row="0" page="1" column="0">DEAllegianceFulani3</tech>
+    <tech row="0" page="1" column="0">DEAllegianceBerber3</tech>
+    <tech row="0" page="1" column="0">DEAllegianceHausa3</tech>
+    <tech row="0" page="1" column="0">DEAllegianceSonghai3</tech>
+    <tech row="0" page="1" column="0">DEAllegianceYoruba3</tech>
+    <tech row="0" page="1" column="0">DEAllegianceAkan3</tech>
+    <tech row="0" page="1" column="0">DEAllegianceMoroccan3</tech>
+    <tech row="0" page="1" column="0">DEAllegianceBritish3</tech>
+    <tech row="0" page="1" column="0">DEAllegianceFulani4</tech>
+    <tech row="0" page="1" column="0">DEAllegianceBerber4</tech>
+    <tech row="0" page="1" column="0">DEAllegianceHausa4</tech>
+    <tech row="0" page="1" column="0">DEAllegianceSonghai4</tech>
+    <tech row="0" page="1" column="0">DEAllegianceYoruba4</tech>
+    <tech row="0" page="1" column="0">DEAllegianceAkan4</tech>
+    <tech row="0" page="1" column="0">DEAllegianceMoroccan4</tech>
+    <tech row="0" page="1" column="0">DEAllegianceBritish4</tech>
+    <tech row="0" page="1" column="0">DEAllegianceFulani5</tech>
+    <tech row="0" page="1" column="0">DEAllegianceBerber5</tech>
+    <tech row="0" page="1" column="0">DEAllegianceHausa5</tech>
+    <tech row="0" page="1" column="0">DEAllegianceSonghai5</tech>
+    <tech row="0" page="1" column="0">DEAllegianceYoruba5</tech>
+    <tech row="0" page="1" column="0">DEAllegianceAkan5</tech>
+    <tech row="0" page="1" column="0">DEAllegianceMoroccan5</tech>
+    <tech row="0" page="1" column="0">DEAllegianceBritish5</tech>
+    <tech row="0" page="1" column="0">DEFortifiedCitiesHausa</tech>
+    <tech row="0" page="1" column="0">DEFortifiedCitiesEthiopians</tech>
+    <flag>ShowGarrisonButton</flag>
+    <flag>AllowAutoGarrison</flag>
+    <flag>StartingColonyBuilding</flag>
+    <flag>ColonyPlacementCenter</flag>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>StartsAtFullEfficiency</flag>
+    <flag>Immoveable</flag>
+    <flag>NoBloodOnDeath</flag>
+    <flag>ObscuresUnits</flag>
+    <flag>NonAutoFormedUnit</flag>
+    <flag>Doppled</flag>
+    <flag>SelectWithObstruction</flag>
+    <flag>PaintTextureWhenPlacing</flag>
+    <flag>FlattenGround</flag>
+    <flag>HasGatherPoint</flag>
+    <flag>Tracked</flag>
+    <flag>DisplayRange</flag>
+    <flag>UISkipActiveTechs</flag>
+    <flag>MagnetDoesNotLockUnits</flag>
+    <notcontain>AbstractMonk</notcontain>
+    <notcontain>AbstractFishingBoat</notcontain>
+    <notcontain>deGriot</notcontain>
+    <contain>AbstractVillager</contain>
+    <contain>deHomesteadWagon</contain>
+    <contain>AbstractHealer</contain>
+    <contain>ypDaimyoRegicide</contain>
+    <contain>deChasqui</contain>
+    <command page="0" column="3">Levy</command>
+    <command page="0" column="3">deUSLevy</command>
+    <command page="0" column="3">deUSConscription</command>
+    <command page="0" column="4">deImmigrantsSpanishLevy</command>
+    <command page="10" column="6">TownBell</command>
+    <command page="10" column="7">Delete</command>
+    <command page="10" column="6">ReturnToWork</command>
+    <command page="0" column="4">Conscription</command>
+    <command page="10" column="2">SetGatherPointEconomy</command>
+    <command page="10" column="3">SetGatherPointMilitary</command>
+    <command page="10" column="5">Eject</command>
+    <command page="0" column="5">RansomExplorer</command>
+    <command page="1" column="10">SetBuildingAsHomeCityGatherPointEconomic</command>
+    <command page="1" column="11">SetBuildingAsHomeCityGatherPointMilitary</command>
+    <command page="11" column="0">Abilities</command>
+    <command page="0" column="1">ypAssemble</command>
+    <command page="0" column="2">ypMuster</command>
+    <command page="0" column="3">ypAmass</command>
+    <command page="0" column="4">ypMarshal</command>
+    <command page="0" column="3">ypAmassIndians</command>
+    <command page="0" column="1">ypAssembleIndians</command>
+    <command page="0" column="4">ypMarshalIndians</command>
+    <command page="0" column="2">ypMusterIndians</command>
+    <command page="0" column="1">deConscriptSpearmen</command>
+    <command page="0" column="2">deConscriptBowmen</command>
+    <command page="0" column="2">deAllegianceSonghaiRaid</command>
+    <tactics>towncenter.tactics</tactics>
+    <protoaction>
+      <name>AntiShipAttack</name>
+      <damage>75.000000</damage>
+      <damagetype>Siege</damagetype>
+      <maxrange>40.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="AbstractSiegeTrooper">0.500000</damagebonus>
+      <active>1</active>
+    </protoaction>
+    <protoaction>
+      <name>RangedAttack</name>
+      <damagebonus type="AbstractVillager">2.000000</damagebonus>
+      <damagebonus type="AbstractArtillery">0.500000</damagebonus>
+      <damage>9.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <maxrange>32.000000</maxrange>
+      <rof>3.000000</rof>
+    </protoaction>
   </unit>
+
   <unit mergeMode='replace' id="1624" name="deTorp">
     <dbid>2195</dbid>
     <displaynameid>91523</displaynameid>
@@ -6593,7 +7044,7 @@
     <bounty>10.0000</bounty>
     <buildbounty>10.0000</buildbounty>
     <cost resourcetype="Food">65.0000</cost>
-    <cost resourcetype="Wood">30.0000</cost>
+    <cost resourcetype="Wood">35.0000</cost>
     <allowedage>1</allowedage>
     <armor type="Hand" value="0.2500"/>
     <unittype>LogicalTypeHealed</unittype>
@@ -6796,8 +7247,8 @@
     <trainpoints>27.0000</trainpoints>
     <bounty>11.0000</bounty>
     <buildbounty>11.0000</buildbounty>
-    <cost resourcetype="Food">55.0000</cost>
-    <cost resourcetype="Gold">50.0000</cost>
+    <cost resourcetype="Food">50.0000</cost>
+    <cost resourcetype="Gold">55.0000</cost>
     <allowedage>1</allowedage>
     <armor type="Ranged" value="0.1000"/>
     <unittype>LogicalTypeHealed</unittype>
@@ -6858,7 +7309,6 @@
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
       <damagebonus type="AbstractInfantry">1.250000</damagebonus>
-      <damagebonus type="AbstractHeavyInfantry">0.800000</damagebonus>
     </protoaction>
     <protoaction>
       <name>DefendHandAttack</name>
@@ -6866,7 +7316,6 @@
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
       <damagebonus type="AbstractInfantry">1.250000</damagebonus>
-      <damagebonus type="AbstractHeavyInfantry">0.800000</damagebonus>
     </protoaction>
     <protoaction>
       <name>MeleeHandAttack</name>
@@ -6874,7 +7323,6 @@
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
       <damagebonus type="AbstractInfantry">1.250000</damagebonus>
-      <damagebonus type="AbstractHeavyInfantry">0.800000</damagebonus>
     </protoaction>
   </unit>
   <unit mergeMode='replace' id="1830" name="deLifidi">
@@ -8021,15 +8469,6 @@
       <damagebonus type="AbstractVillager">0.250000</damagebonus>
     </protoaction>
     <protoaction>
-      <name>HeavyHandAttack</name>
-      <damage>50.000000</damage>
-      <damagetype>Hand</damagetype>
-      <rof>2.000000</rof>
-      <damagebonus type="AbstractHeavyInfantry">10.000000</damagebonus>
-      <damagebonus type="Guardian">12.000000</damagebonus>
-      <damagebonus type="AbstractVillager">0.250000</damagebonus>
-    </protoaction>
-    <protoaction>
       <name>VolleyRangedAttack</name>
       <damage>12.000000</damage>
       <damagetype>Ranged</damagetype>
@@ -8202,15 +8641,6 @@
       <auxchargeaction>1</auxchargeaction>
     </protoaction>
     <protoaction>
-      <name>HeavyHandAttack</name>
-      <damage>50.000000</damage>
-      <damagetype>Hand</damagetype>
-      <rof>2.000000</rof>
-      <damagebonus type="AbstractHeavyInfantry">10.000000</damagebonus>
-      <damagebonus type="Guardian">12.000000</damagebonus>
-      <damagebonus type="AbstractVillager">0.250000</damagebonus>
-    </protoaction>
-    <protoaction>
       <name>HandAttack</name>
       <damage>6.000000</damage>
       <damagetype>Hand</damagetype>
@@ -8313,6 +8743,7 @@
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
       <damagebonus type="AbstractArtillery">2.000000</damagebonus>
+      <damagebonus type="AbstractSiegeTrooper">1.500000</damagebonus>
     </protoaction>
     <protoaction>
       <name>GuardianAttack</name>
@@ -8320,6 +8751,7 @@
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
       <damagebonus type="AbstractArtillery">2.000000</damagebonus>
+      <damagebonus type="AbstractSiegeTrooper">1.500000</damagebonus>
     </protoaction>
     <protoaction>
       <name>MeleeHandAttack</name>
@@ -8327,6 +8759,7 @@
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
       <damagebonus type="AbstractArtillery">2.000000</damagebonus>
+      <damagebonus type="AbstractSiegeTrooper">1.500000</damagebonus>
     </protoaction>
     <protoaction>
       <name>TrampleHandAttack</name>
@@ -8337,6 +8770,7 @@
       <damagearea>3.000000</damagearea>
       <damageflags>Enemy</damageflags>
       <damagebonus type="AbstractArtillery">2.000000</damagebonus>
+      <damagebonus type="AbstractSiegeTrooper">1.500000</damagebonus>
     </protoaction>
   </unit>
   <unit id="2997" name="deMercRam">
@@ -9384,6 +9818,229 @@
       <damagebonus type="AbstractHeavyCavalry">3.000000</damagebonus>
       <damagebonus type="AbstractArtillery">5.000000</damagebonus>
       <damagebonus type="AbstractCoyoteMan">2.250000</damagebonus>
+    </protoaction>
+  </unit>
+  <unit mergeMode='replace' id="2025" name="deChonkyCattle">
+    <dbid>2600</dbid>
+    <displaynameid>102865</displaynameid>
+    <obstructionradiusx>0.8900</obstructionradiusx>
+    <obstructionradiusz>1.2900</obstructionradiusz>
+    <idletimeout>3.0000</idletimeout>
+    <maxvelocity>2.5000</maxvelocity>
+    <maxrunvelocity>6.0000</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <wanderdistance>4</wanderdistance>
+    <animfile>units\animals\sanga\sanga.xml</animfile>
+    <impacttype>Animal</impacttype>
+    <icon>resources\images\icons\techs\africans\hausa\prize_bull.png</icon>
+    <portraiticon>resources\art\units\animals\sanga\sanga_portrait.png</portraiticon>
+    <rollovertextid>28185</rollovertextid>
+    <shortrollovertextid>104552</shortrollovertextid>
+    <initialhitpoints>30.0000</initialhitpoints>
+    <maxhitpoints>30.0000</maxhitpoints>
+    <los>9.0000</los>
+    <unitaitype>HerdAnimal</unitaitype>
+    <trainpoints>15.0000</trainpoints>
+    <sharedbuildlimitunit>Cow</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractBovine</unittype>
+    </sharedbuildlimitunittypes>
+    <bounty>0.0000</bounty>
+    <cost resourcetype="Gold">100.0000</cost>
+    <carrycapacity resourcetype="Food">750.0000</carrycapacity>
+    <initialresource resourcetype="Food">750.0000</initialresource>
+    <gatherratemultiplier>4.0000</gatherratemultiplier>
+    <resourcedecay>0.100</resourcedecay>
+    <resourcesubtype>meat</resourcesubtype>
+    <allowedage>0</allowedage>
+    <decay delay="0.0000" duration="0.0000"/>
+    <minimapcolor red="1.0000" blue="1.0000" green="1.0000"/>
+    <gathererlimit>8</gathererlimit>
+    <sharedselectionunittypes>
+      <unittype>deSangaCattle</unittype>
+      <unittype>deAutoSangaCattle</unittype>
+    </sharedselectionunittypes>
+    <unittype>LogicalTypeMinimapFilterEconomic</unittype>
+    <unittype>LogicalTypeEasySelectAvoid</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>Unit</unittype>
+    <unittype>Resource</unittype>
+    <unittype>HuntedResource</unittype>
+    <unittype>AnimalPrey</unittype>
+    <unittype>Herdable</unittype>
+    <unittype>Food</unittype>
+    <unittype>NatureClass</unittype>
+    <unittype>AbstractBovine</unittype>
+    <unittype>ValidIdleVillager</unittype>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ConstrainOrientation</flag>
+    <flag>CorpseDecays</flag>
+    <flag>DieAtZeroResources</flag>
+    <flag>DoNotDieAtZeroHitpoints</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>DoppleOnlyWhenDead</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>OrientUnitWithGround</flag>
+    <flag>RMCanRotate</flag>
+    <flag>Wanders</flag>
+    <flag>ColorTransformNonGaia</flag>
+    <flag>NonAutoFormedUnit</flag>
+    <flag>InvulnerableIfGaia</flag>
+    <flag>CivSpecificText</flag>
+    <flag>Tracked</flag>
+    <flag>UseSharedBuildLimit</flag>
+    <flag>ApplyResourceReturnIfDeleted</flag>
+    <command page="0" column="0">deSellLivestockForWood</command>
+    <command page="0" column="1">deSellLivestockForCoin</command>
+    <command page="10" column="7">Delete</command>
+    <command page="10" column="0">Garrison</command>
+    <command page="10" column="1">Stop</command>
+    <tactics>herd.tactics</tactics>
+    <protoaction>
+      <name>AutoGatherFood</name>
+      <rate type="Food">0.250000</rate>
+    </protoaction>
+    <protoaction>
+      <name>AutoGatherFood2</name>
+      <rate type="Food">0.250000</rate>
+    </protoaction>
+    <protoaction>
+      <name>AutoGatherXP</name>
+      <rate type="XP">0.100000</rate>
+    </protoaction>
+    <protoaction>
+      <name>AutoGatherInfluence</name>
+      <rate type="Influence">0.250000</rate>
+      <fullcapacitymultiplier>3.0</fullcapacitymultiplier>
+    </protoaction>
+    <protoaction>
+      <name>Gather</name>
+      <rate type="LivestockPen">1.000000</rate>
+      <rate type="Farm">1.000000</rate>
+      <rate type="ypVillage">1.000000</rate>
+      <rate type="YPLivestockPenAsian">1.000000</rate>
+      <rate type="deLivestockMarket">0.500000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherXP</name>
+      <rate type="ypSacredField">0.200000</rate>
+    </protoaction>
+    <protoaction>
+      <name>ShrineGather</name>
+      <rate type="AbstractShrine">0.140000</rate>
+    </protoaction>
+  </unit>
+  <unit mergeMode='replace' id="1843" name="deSebastopolMortar">
+    <dbid>2418</dbid>
+    <displaynameid>101105</displaynameid>
+    <editornameid>101106</editornameid>
+    <populationcount>8</populationcount>
+    <obstructionradiusx>0.8900</obstructionradiusx>
+    <obstructionradiusz>0.8900</obstructionradiusz>
+    <formationcategory>Protected</formationcategory>
+    <maxvelocity>2.5000</maxvelocity>
+    <maxrunvelocity>4.5000</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>1.0000</turnrate>
+    <animfile>units\africans\ethiopians\mortar\mortar.xml</animfile>
+    <impacttype>Wood</impacttype>
+    <icon>resources\art\units\africans\ethiopians\mortar\sebastopol_mortar_icon.png</icon>
+    <portraiticon>resources\art\units\africans\ethiopians\mortar\sebastopol_mortar_portrait.png</portraiticon>
+    <rollovertextid>101108</rollovertextid>
+    <shortrollovertextid>101107</shortrollovertextid>
+    <initialhitpoints>475.0000</initialhitpoints>
+    <maxhitpoints>475.0000</maxhitpoints>
+    <los>30.0000</los>
+    <projectileprotounit>MortarShell</projectileprotounit>
+    <unitaitype>RangedCombative</unitaitype>
+    <trainpoints>60.0000</trainpoints>
+    <bounty>100.0000</bounty>
+    <buildbounty>100.0000</buildbounty>
+    <cost resourcetype="Influence">1000.0000</cost>
+    <allowedage>3</allowedage>
+    <armor type="Ranged" value="0.7500"/>
+    <unittype>LogicalTypeHealed</unittype>
+    <unittype>LogicalTypeNeededForVictory</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeLandMilitary</unittype>
+    <unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>Ranged</unittype>
+    <unittype>CountsTowardMilitaryScore</unittype>
+    <unittype>ConvertsHerds</unittype>
+    <unittype>AbstractArtillery</unittype>
+    <unittype>Unit</unittype>
+    <unittype>UnitClass</unittype>
+    <unittype>Military</unittype>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ApplyHandicapTraining</flag>
+    <flag>CorpseDecays</flag>
+    <flag>ShowGarrisonButton</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>RotateInPlace</flag>
+    <flag>ConstrainOrientation</flag>
+    <flag>OrientUnitWithGround</flag>
+    <flag>Tracked</flag>
+    <command page="10" column="1">Stop</command>
+    <command page="10" column="0">Garrison</command>
+    <command page="10" column="7">Delete</command>
+    <tactics>sebastopol.tactics</tactics>
+    <protoaction>
+      <name>SolidAttack</name>
+      <damage>500.000000</damage>
+      <damagetype>Siege</damagetype>
+      <minrange>0.000000</minrange>
+      <maxrange>28.000000</maxrange>
+      <rof>8.000000</rof>
+      <damagecap>2500.000000</damagecap>
+      <damagebonus type="AbstractCavalry">0.500000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.500000</damagebonus>
+      <damagebonus type="AbstractArtillery">0.100000</damagebonus>
+      <damagebonus type="xpArrowKnight">0.100000</damagebonus>
+      <damagebonus type="Herdable">0.000000</damagebonus>
+      <damagearea>4.000000</damagearea>
+      <damageflags>GAIAEnemy</damageflags>
+    </protoaction>
+    <protoaction>
+      <name>ExplosiveAttack</name>
+      <damage>250.000000</damage>
+      <damagetype>Siege</damagetype>
+      <minrange>0.000000</minrange>
+      <maxrange>28.000000</maxrange>
+      <rof>8.000000</rof>
+      <damagecap>2500.000000</damagecap>
+      <damagebonus type="AbstractArtillery">0.100000</damagebonus>
+      <damagebonus type="xpArrowKnight">0.100000</damagebonus>
+      <damagebonus type="Herdable">0.000000</damagebonus>
+      <damagearea>8.000000</damagearea>
+      <damageflags>GAIAEnemy</damageflags>
+    </protoaction>
+    <protoaction>
+      <name>BuildingAttack</name>
+      <damage>500.000000</damage>
+      <damagetype>Siege</damagetype>
+      <minrange>4.000000</minrange>
+      <maxrange>28.000000</maxrange>
+      <rof>8.000000</rof>
+      <damagecap>1000.000000</damagecap>
+      <damagebonus type="AbstractArtillery">0.500000</damagebonus>
+      <damagebonus type="xpArrowKnight">0.500000</damagebonus>
+      <damagebonus type="Ship">0.500000</damagebonus>
+      <damagebonus type="LogicalTypeLandMilitary">0.500000</damagebonus>
+      <damagebonus type="LogicalTypeLandEconomy">0.500000</damagebonus>
+      <damagebonus type="Herdable">0.000000</damagebonus>
+      <damagearea>1.000000</damagearea>
+      <damageflags>GAIAEnemy</damageflags>
     </protoaction>
   </unit>
 
