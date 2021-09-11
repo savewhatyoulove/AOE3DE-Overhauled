@@ -241,7 +241,7 @@
 	    <string _locid="110330">Ships 4 Li'l Bombards and allows you to train them from the Saloon.</string>
 	    <string _locid="110334">Fishing Boats are cheaper, train more quickly, and move faster.</string>
 	    <string _locid="110336">All existing and newly constructed Mills and Estates spawn 2 State Militia. Mills and Estates support +5 population.</string>
-	    <string _locid="110342">Delivers 2 Homestead Wagons and buildings grant double XP when built.</string>
+	    <string _locid="110342">Delivers 2 Homestead Wagons and buildings grant double XP when built. This bonus is retroactive for all buildings you have constructed this game.</string>
 	    <string _locid="110344">Ships an additional Dragoon for each shipment you have sent so far this game. All units and technologies train and research slightly faster (+10%).</string>
 	    <string _locid="110350">Ships an additional General and enables him for the rest of the game. Also, you can build a second Inspiring Flag and their line of Sight is increased.</string>
 	    <string _locid="110352">Heavy Cavalry attack, hitpoints and movement speed increased.\n • ALL Cavalry train faster.</string>
@@ -257,11 +257,11 @@
 	    <string _locid="110413">Increases the range of Sharpshooters and enables them to be trained in the Commerce Age.</string>
 	    <string _locid="110415">Greatly increases the attack of ranged infantry.</string>
 	    <string _locid="110417">Greatly increases the hitpoints of cavalry.</string>
-	    <string _locid="110419">Ships an Ironclad containing Regulars. Enables an additional Ironclad to be constructed </string>
+	    <string _locid="110419">Ships an Ironclad containing Regulars. Enables an additional Ironclad to be constructed.</string>
 	    <string _locid="110431">Ships 10 Magyar Hussars.</string>
 	    <string _locid="110453">Villagers gather wood faster and trees last longer.\n • Villager: Gather Work Rate for Tree and Grove +25%; Tree Yield +25%</string>
-	    <string _locid="110455">Ships 2 Homestead Wagons. Villagers gather food from Mills faster.\n • Villager: Gather Work Rate for Mill, Farm, Rice Paddy, Field +20%</string>
-	    <string _locid="110483">Ships 12 Polar Bears which will fight your enemies. All currently existing Town Centers spawn 1 Silver Prospector Wagon, which can open a Silver Mine.</string>
+	    <string _locid="110455">Delivers 2 Homestead Wagons. Villagers gather food from Mills faster.\n • Villager: Gather Work Rate for Mill, Farm, Rice Paddy, Field +30%</string>
+	    <string _locid="110483">Delivers 12 Polar Bears which will fight your enemies. All currently existing Town Centers spawn 1 Silver Prospector Wagon, which can open a Silver Mine.</string>
 	    <string _locid="110484">Alaska Purchase</string>
 	    <string _locid="110487">Ships 5 Sharpshooters and 5 Cree Trackers. Also upgrades Sharpshooters to Marksmen and Cree Trackers to Champion and allows you to train Trackers from the Native Embassy.</string>
 	    <string _locid="110489">Ships 15 Elite Seminole Sharktooth Guerrillas, who are good against infantry and buildings.</string>
@@ -414,6 +414,7 @@
 	    <string _locid="260039">5 Homestead Wagons</string>
 	    <string _locid="260040">Delivers 5 Homestead Wagons, which transform into Mills, Estates, Houses, Docks, Markets, or Livestock Pens</string>
 	    <string _locid="260041">TEAM 4 Texas Rangers</string>
+	    <string _locid="260042">Delivers a Wild Turkey Scout. Also, Villagers gather Coin from Estates and Rice Paddies faster.</string>
 	</Language>
   </StringTable>
 </stringmods>

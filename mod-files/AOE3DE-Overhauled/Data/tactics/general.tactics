@@ -113,19 +113,7 @@
     <rate type="Unit">1.0 </rate>
     <basedamagecap>1</basedamagecap>
   </action>
-  <action>
-    <name stringid="80783">HeavyHandAttack</name>
-    <type>Attack</type>
-    <attackaction>1</attackaction>
-    <handlogic>1</handlogic>
-    <anim>SwordStrike</anim>
-    <idleanim>CombatIdle</idleanim>
-    <maxrange>2</maxrange>
-    <impacteffect>effects\impacts\melee</impacteffect>
-    <rate type="Unit">1.0 </rate>
-    <basedamagecap>1</basedamagecap>
-  </action>
-  <action>
+   <action>
     <name stringid="70488">Heal</name>
     <type>Heal</type>
     <active>0</active>
@@ -133,8 +121,8 @@
     <rate type="LogicalTypeHealed">50.0 </rate>
     <anim>Heal</anim>
   </action>
-  <tactic>Volley<action priority="100">ChargeCarbineAttack</action><action priority="95">VolleyRangedAttack</action><action priority="75">BuildingAttack</action><action priority="30">ChargeHeavyStrikeAttack</action><action priority="30">HeavyHandAttack</action><action priority="25">HandAttack</action><action priority="3">SharpshooterAttack</action><action>Build</action><action>Discover</action><action>Heal</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway></tactic>
-  <tactic>Melee<action priority="100">BuildingAttack</action><action priority="80">ChargeHeavyStrikeAttack</action><action priority="80">HeavyHandAttack</action><action priority="75">HandAttack</action><action priority="3">SharpshooterAttack</action><action>Build</action><action>Discover</action><action>Heal</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget></tactic>
-  <tactic>Defend<action priority="100">ChargeCarbineAttack</action><action priority="95">VolleyRangedAttack</action><action priority="75">BuildingAttack</action><action priority="30">ChargeHeavyStrikeAttack</action><action priority="30">HeavyHandAttack</action><action priority="25">HandAttack</action><action priority="3">SharpshooterAttack</action><action>Build</action><action>Discover</action><action>Heal</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Defend_idle</idleanim><boredanim>Defend_bored</boredanim><deathanim>Death_by_melee</deathanim><joganim>Defend_jog</joganim><walkanim>Defend_walk</walkanim><runanim>Defend_run</runanim></tactic>
-  <tactic>Stagger<action priority="100">ChargeCarbineAttack</action><action priority="95">VolleyRangedAttack</action><action priority="75">BuildingAttack</action><action priority="30">ChargeHeavyStrikeAttack</action><action priority="30">HeavyHandAttack</action><action priority="25">HandAttack</action><action priority="3">SharpshooterAttack</action><action>Build</action><action>Discover</action><action>Heal</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Cover_ranged_idle</idleanim><boredanim>Cover_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Cover_jog</joganim><runanim>Cover_run</runanim></tactic>
+  <tactic>Volley<action priority="100">ChargeCarbineAttack</action><action priority="95">VolleyRangedAttack</action><action priority="75">BuildingAttack</action><action priority="30">ChargeHeavyStrikeAttack</action><action priority="25">HandAttack</action><action priority="3">SharpshooterAttack</action><action>Build</action><action>Discover</action><action>Heal</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway></tactic>
+  <tactic>Melee<action priority="100">BuildingAttack</action><action priority="80">ChargeHeavyStrikeAttack</action><action priority="75">HandAttack</action><action priority="3">SharpshooterAttack</action><action>Build</action><action>Discover</action><action>Heal</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget></tactic>
+  <tactic>Defend<action priority="100">ChargeCarbineAttack</action><action priority="95">VolleyRangedAttack</action><action priority="75">BuildingAttack</action><action priority="30">ChargeHeavyStrikeAttack</action><action priority="25">HandAttack</action><action priority="3">SharpshooterAttack</action><action>Build</action><action>Discover</action><action>Heal</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Defend_idle</idleanim><boredanim>Defend_bored</boredanim><deathanim>Death_by_melee</deathanim><joganim>Defend_jog</joganim><walkanim>Defend_walk</walkanim><runanim>Defend_run</runanim></tactic>
+  <tactic>Stagger<action priority="100">ChargeCarbineAttack</action><action priority="95">VolleyRangedAttack</action><action priority="75">BuildingAttack</action><action priority="30">ChargeHeavyStrikeAttack</action><action priority="25">HandAttack</action><action priority="3">SharpshooterAttack</action><action>Build</action><action>Discover</action><action>Heal</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Cover_ranged_idle</idleanim><boredanim>Cover_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Cover_jog</joganim><runanim>Cover_run</runanim></tactic>
 </tactics>

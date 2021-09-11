@@ -8237,7 +8237,7 @@
     <cost resourcetype="Food">80.0000</cost>
     <cost resourcetype="Gold">20.0000</cost>
     <allowedage>1</allowedage>
-    <armor type="Hand" value="0.4000"/>
+    <armor type="Hand" value="0.3500"/>
     <unittype>LogicalTypeHealed</unittype>
     <unittype>LogicalTypeValidSharpshoot</unittype>
     <unittype>LogicalTypeNeededForVictory</unittype>

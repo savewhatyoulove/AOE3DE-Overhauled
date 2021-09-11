@@ -5398,6 +5398,7 @@
     <flag>Shadow</flag>
     <effects>
       <effect type="TechStatus" status="active">Fortressize</effect>
+      <effect type="TechStatus" status="active">DEHCNorthernForests</effect>
       <effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
         <target type="ProtoUnit">CoveredWagon</target>
       </effect>
@@ -7805,7 +7806,7 @@
     <dbid>7172</dbid>
     <displaynameid>110219</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
-    <cost resourcetype="Food">300.0000</cost>
+    <cost resourcetype="Gold">300.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\americans\immigrants\immigrants_swedish.png</icon>
@@ -7827,6 +7828,12 @@
          <target type="ProtoUnit">AbstractVillager</target>
       </effect>
       <effect type="TextOutput">110130</effect>
+      <effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Assign">
+        <target type="ProtoUnit">deTorpGeneric</target>
+      </effect>
+      <effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Assign">
+        <target type="ProtoUnit">deTorp</target>
+      </effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
@@ -8675,6 +8682,64 @@
       <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect type="Data2" amount="20.00" subtype="ResourceByUnitCount" unittype="House" resource="XP" includedead="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="20.00" subtype="ResourceByUnitCount" unittype="Market" resource="XP" includedead="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="35.00" subtype="ResourceByUnitCount" unittype="Blockhouse" resource="XP" includedead="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="35.00" subtype="ResourceByUnitCount" unittype="Outpost" resource="XP" includedead="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="25.00" subtype="ResourceByUnitCount" unittype="ArtilleryDepot" resource="XP" includedead="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="20.00" subtype="ResourceByUnitCount" unittype="Saloon" resource="XP" includedead="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="20.00" subtype="ResourceByUnitCount" unittype="Stable" resource="XP" includedead="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="30.00" subtype="ResourceByUnitCount" unittype="Church" resource="XP" includedead="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="140.00" subtype="ResourceByUnitCount" unittype="ypBankAsian" resource="XP" includedead="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="20.00" subtype="ResourceByUnitCount" unittype="Barracks" resource="XP" includedead="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="110.00" subtype="ResourceByUnitCount" unittype="FortFrontier" resource="XP" includedead="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="40.00" subtype="ResourceByUnitCount" unittype="TradingPost" resource="XP" includedead="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="40.00" subtype="ResourceByUnitCount" unittype="FieldHospital" resource="XP" includedead="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="120.00" subtype="ResourceByUnitCount" unittype="Plantation" resource="XP" includedead="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="50.00" subtype="ResourceByUnitCount" unittype="LivestockPen" resource="XP" includedead="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="50.00" subtype="ResourceByUnitCount" unittype="Arsenal" resource="XP" includedead="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="80.00" subtype="ResourceByUnitCount" unittype="Mill" resource="XP" includedead="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="40.00" subtype="ResourceByUnitCount" unittype="Dock" resource="XP" includedead="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="300.00" subtype="ResourceByUnitCount" unittype="deStateCapitol" resource="XP" includedead="True" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEFedMammothIndustrialShadow" type="Normal">
@@ -9800,6 +9865,29 @@
       </effect>
       <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="RiflingShadow" type="Normal">
+    <dbid>7071</dbid>
+    <researchpoints>0.0000</researchpoints>
+    <status>OBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">Rifling</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" action="RangedAttack" amount="1.00" subtype="DamageBonus" unittype="AbstractHeavyInfantry" relativity="Absolute">
+        <target type="ProtoUnit">SaloonPirate</target>
+      </effect>
+      <effect type="Data" action="BuckshotChargeAttack" amount="1.00" subtype="DamageBonus" unittype="AbstractHeavyInfantry" relativity="Absolute">
+        <target type="ProtoUnit">SaloonOutlawRifleman</target>
+      </effect>
+      <effect type="Data" action="VolleyRangedAttack" amount="1.00" subtype="DamageBonus" unittype="AbstractInfantry" relativity="Absolute">
+        <target type="ProtoUnit">deNizam</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="DamageBonus" unittype="AbstractHeavyInfantry" allactions="1" relativity="Absolute">
+        <target type="ProtoUnit">deUSCavalry</target>
       </effect>
     </effects>
   </tech>
