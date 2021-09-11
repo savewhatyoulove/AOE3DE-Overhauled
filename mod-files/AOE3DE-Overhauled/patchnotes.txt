@@ -34,6 +34,7 @@ Units:
   -- Ranged Attack no longer deals siege damage (now ranged); damage increased to 75 from 30 and now has 2 aoe (150 damage cap).
   -- Ship and Artillery multipliers removed.
   -- Outlaw Population cost standardized to 3 for infantry and 4 for cavalry.
+  -- Outlaw Scaling from Wild West Reduced to 20%/20%/40% from 25%/25%/50%
   -- Napoleon Gun speed increased to 3.5 from 3.25; ranged resist increased to 60 from 50
 
 Shipments:

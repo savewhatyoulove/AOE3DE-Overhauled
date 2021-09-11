@@ -9739,10 +9739,16 @@
       <effect type="Data" amount="1.00" subtype="PartisanUnit" unittype="deMinuteman" relativity="Assign">
         <target type="ProtoUnit">House</target>
       </effect>
-      <effect type="Data" action="Spawn" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+      <effect type="Data" action="SpawnDEMinuteman" amount="1.00" subtype="WorkRate" unittype="deMinuteman" relativity="Assign">
         <target type="ProtoUnit">House</target>
       </effect>
-      <effect type="Data" action="SpawnDEMinuteman" amount="1.00" subtype="WorkRate" unittype="deMinuteman" relativity="Assign">
+      <effect type="Data" action="Spawn" amount="0.00" subtype="WorkRate" unittype="Settler" relativity="Assign">
+        <target type="ProtoUnit">House</target>
+      </effect>
+      <effect type="Data" action="Spawn" amount="0.00" subtype="WorkRate" unittype="Longbowman" relativity="Assign">
+        <target type="ProtoUnit">House</target>
+      </effect>
+      <effect type="Data" action="Spawn" amount="1.00" subtype="ActionEnable" relativity="Absolute">
         <target type="ProtoUnit">House</target>
       </effect>
       <effect type="TextOutputTechName">110130</effect>
