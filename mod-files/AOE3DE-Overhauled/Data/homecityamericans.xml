@@ -56,14 +56,14 @@
       <maxcount>1</maxcount>
       <level>40</level>
       <prereqtech>HCXPShipSurgeons2</prereqtech>
-      <age>1</age>
+      <age>2</age>
     </card>
     <card>
       <name>DEHCCommunismTeam</name>
       <maxcount>1</maxcount>
       <level>40</level>
       <prereqtech>HCXPShipSurgeons2</prereqtech>
-      <age>2</age>
+      <age>3</age>
     </card>
     <card>
       <name>DEHCImmigrantsSwedish</name>
@@ -893,7 +893,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>DEHCKosciuszkoFortifications</prereqtech>
-      <age>3</age>
+      <age>2</age>
     </card>
     <card>
       <name>DEHCShipHomesteadWagons1</name>
@@ -930,13 +930,6 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
-    </card>
-    <card>
-      <name>DEHCShotgunMessengers</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
     </card>
     <card>
       <name>HCXPShipSpies1</name>
@@ -1276,12 +1269,55 @@
       <age>1</age>
     </card>
     <card>
+      <name>DEHCShotgunMessengers</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
       <name>DEHCBlackMesa</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
       <displayunitcount>22</displayunitcount>
+    </card>
+    <card>
+      <name>HCXPRenegadoAllies</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>10</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCXPPistoleroAllies</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCXPRenegadoAllies</prereqtech>
+      <age>1</age>
+      <displayunitcount>10</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCXPComancheroAllies</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCXPPistoleroAllies</prereqtech>
+      <age>1</age>
+      <displayunitcount>7</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCXPBanditGang</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>HCXPComancheroAllies</prereqtech>
+      <age>3</age>
+      <displayunitcount>19</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>DEHCIroquoisOneidaSupport</name>
@@ -1828,9 +1864,14 @@
       <tech x="5.0" y="4.0">DEHCMercsZouaves</tech>
       <tech x="5.0" y="4.0">DEHCMercsNapoleonGuns</tech>
       <tech x="5.5" y="6.0">DEHCRenoGang</tech>
+      <tech x="5.5" y="6.0">DEHCShotgunMessengers</tech>
       <tech x="5.5" y="6.0">DEHCPoker</tech>
       <tech x="6.3" y="1.0">HCXPDanceHall</tech>
       <tech x="6.3" y="1.0">DEHCBlackMesa</tech>
+      <tech x="6.3" y="1.0">HCXPRenegadoAllies</tech>
+      <tech x="6.3" y="3.0">HCXPPistoleroAllies</tech>
+      <tech x="6.3" y="4.0">HCXPComancheroAllies</tech>
+      <tech x="6.3" y="5.0">HCXPBanditGang</tech>
       <tech x="7.2" y="7.0">DEHCUSMarines</tech>
       <tech x="7.2" y="7.0">DEHCIroquoisOneidaSupport</tech>
     </obtainabletechs>
@@ -1852,9 +1893,14 @@
       <tech x="5.0" y="4.0">DEHCMercsZouaves</tech>
       <tech x="5.0" y="4.0">DEHCMercsNapoleonGuns</tech>
       <tech x="5.5" y="6.0">DEHCRenoGang</tech>
+      <tech x="5.5" y="6.0">DEHCShotgunMessengers</tech>
       <tech x="5.5" y="6.0">DEHCPoker</tech>
       <tech x="6.3" y="1.0">HCXPDanceHall</tech>
       <tech x="6.3" y="1.0">DEHCBlackMesa</tech>
+      <tech x="6.3" y="1.0">HCXPRenegadoAllies</tech>
+      <tech x="6.3" y="3.0">HCXPPistoleroAllies</tech>
+      <tech x="6.3" y="4.0">HCXPComancheroAllies</tech>
+      <tech x="6.3" y="5.0">HCXPBanditGang</tech>
       <tech x="7.2" y="7.0">DEHCUSMarines</tech>
       <tech x="7.2" y="7.0">DEHCIroquoisOneidaSupport</tech>
     </activetechs>

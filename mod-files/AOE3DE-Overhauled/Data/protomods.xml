@@ -324,7 +324,7 @@
     <tactics>chargeSaloonPistol.tactics</tactics>
     <protoaction>
       <name>BuildingAttack</name>
-      <damage>24.000000</damage>
+      <damage>25.000000</damage>
       <damagetype>Siege</damagetype>
       <rof>3.000000</rof>
     </protoaction>
@@ -334,15 +334,15 @@
       <damagetype>Hand</damagetype>
       <maxrange>1.500000</maxrange>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractCavalry">2.000000</damagebonus>
-      <damagebonus type="AbstractLightInfantry">1.600000</damagebonus>
+      <damagebonus type="AbstractCavalry">3.000000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">2.250000</damagebonus>
     </protoaction>
     <protoaction>
       <name>RangedAttack</name>
-      <damage>15.000000</damage>
+      <damage>20.000000</damage>
       <damagetype>Ranged</damagetype>
       <maxrange>12.000000</maxrange>
-      <rof>1.500000</rof>
+      <rof>2.000000</rof>
     </protoaction>
     <protoaction>
       <name>ChargeQuickDrawAttack</name>
@@ -438,7 +438,7 @@
     </protoaction>
     <protoaction>
       <name>HandAttack</name>
-      <damage>9.000000</damage>
+      <damage>10.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyCavalry">3.000000</damagebonus>
@@ -448,7 +448,7 @@
     </protoaction>
     <protoaction>
       <name>RangedAttack</name>
-      <damage>19.000000</damage>
+      <damage>20.000000</damage>
       <damagetype>Ranged</damagetype>
       <maxrange>12.000000</maxrange>
       <rof>3.000000</rof>
@@ -459,7 +459,7 @@
     </protoaction>
     <protoaction>
       <name>BolasRangedAttack</name>
-      <damage>19.000000</damage>
+      <damage>20.000000</damage>
       <damagetype>Ranged</damagetype>
       <maxrange>12.000000</maxrange>
       <rof>3.000000</rof>
@@ -584,8 +584,8 @@
       <name>HandAttack</name>
       <damage>12.000000</damage>
       <damagetype>Hand</damagetype>
-      <rof>2.000000</rof>
-      <damagebonus type="AbstractHeavyInfantry">1.750000</damagebonus>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="xpEagleKnight">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
@@ -593,12 +593,12 @@
     </protoaction>
     <protoaction>
       <name>LongRangedAttack</name>
-      <damage>18.000000</damage>
+      <damage>40.000000</damage>
       <damagetype>Ranged</damagetype>
       <maxrange>18.000000</maxrange>
       <minrange>12.000000</minrange>
-      <rof>2.000000</rof>
-      <damagebonus type="AbstractHeavyInfantry">1.750000</damagebonus>
+      <rof>3.000000</rof>
+      <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="xpEagleKnight">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
@@ -606,12 +606,12 @@
     </protoaction>
     <protoaction>
       <name>RangedAttack</name>
-      <damage>18.000000</damage>
+      <damage>40.000000</damage>
       <damagetype>Ranged</damagetype>
       <maxrange>12.000000</maxrange>
       <minrange>2.000000</minrange>
-      <rof>2.000000</rof>
-      <damagebonus type="AbstractHeavyInfantry">1.750000</damagebonus>
+      <rof>3.000000</rof>
+      <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="xpEagleKnight">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
@@ -624,7 +624,7 @@
       <maxrange>12.000000</maxrange>
       <rof>3.000000</rof>
       <damagecap>18.000000</damagecap>
-      <damagearea>2.00000</damagearea>
+      <damagearea>3.00000</damagearea>
       <damageflags>GAIAEnemy</damageflags>
     </protoaction>
   </unit>

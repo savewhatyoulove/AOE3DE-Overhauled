@@ -70,7 +70,7 @@
 	    <string _locid="80501">The Chincha ship 5 Chincha Rafts and increase their hitpoints.</string>
 	    <string _locid="80507">The Colla send 17 Bolas Warriors and increase their ranged damage, especially against Heavy Cavalry and Heavy Shock Infantry.</string>
 	    <string _locid="80520">Buildings gain increased line of sight and siege armor.</string>
-	    <string _locid="80530">The Aymara send 5 Chasquis and greatly improve their hitpoints, speed, and line of sight. Chasquis now slow down nearby enemies and can enter stealth with no speed penalty. Increases the build limit for Chasquis.</string>
+	    <string _locid="80530">The Aymara send 5 Chasquis and greatly improve their hitpoints, speed, and line of sight. Chasquis now slow down nearby enemies and can enter stealth with no speed penalty. Increases the build limit for Chasquis by 5.</string>
 	    <string _locid="80533">The Cajamarca send 13 Jungle Bowmen and improve their bonus damage against heavy infantry. Additionally, Jungle Bowmen gain additional damage on their ranged attack and poison.</string>
 	    <string _locid="80547">Kallankas get more hitpoints, build faster, train units more quickly, and cost no coin. Increases build limit.</string>
 	    <string _locid="80552">Trade Monopoly is available an age early and is free.</string>
@@ -211,11 +211,11 @@
 	    <string _locid="110114">2 Gatling Guns</string>
 	    <string _locid="110139">Nationalism</string>
 	    <string _locid="110146">Gatling Guns no longer need to reload, but have reduced range.</string>
-	    <string _locid="110166">Spanish immigration grants a moderate XP trickle and ships an outpost wagon.</string>
+	    <string _locid="110166">Spanish immigration grants a moderate XP trickle and ships an outpost wagon. Outpost build limit increased by 1.</string>
 	    <string _locid="110178">Plants the United States flag to provide line of sight! Flags cannot be planted near starting Town Centers, and only one flag can be planted at a time. Enemies can capture the flag at any time.</string>
 	    <string _locid="110189">French immigration improves the gather rate of all of your Villagers and delivers 2 Coureur des Bois.</string>
 	    <string _locid="110204">Irish immigration delivers 3 Settlers, 1 Homestead Wagon, and improves Settler gather rate on Mills.</string>
-	    <string _locid="110209">Chinese immigration delivers 3 Fattened Goats and Settlers gather from livestock faster.</string>
+	    <string _locid="110209">Chinese immigration delivers 3 Fattened Goats. Livestock fatten more quickly and Settlers gather from them faster.</string>
 	    <string _locid="110220">Swedish immigration delivers 4 Torp Wagons. Torps gain more hitpoints and a ranged attack. Additionally, Villagers gather all Wood faster and Trees last longer.</string>
 	    <string _locid="110221">Boston Tea Party</string>
 	    <string _locid="110222">Hulk. Advanced armored warship.</string>
@@ -228,6 +228,7 @@
 	    <string _locid="110281">Receive and additional 2 XP crates with each shipments. Additionally, all shipments arrive considerably faster, including this one.</string>
 	    <string _locid="110283">Ships 2 Military Wagons, 2 Homestead Wagons, and 2 Outpost Wagons.</string>
 	    <string _locid="110290">Ships 1 State Capitol Wagon and its improvements are cheaper and research more quickly (Excluding Spies and Blockade).\n • State Capitol, Oregon Trail, Statehood: -40% Cost and Research Time.\n • Capitol Improvements: -10% Cost and Research Time.</string>
+	    <string _locid="110294">This Shipment arrives more quickly. Houses spawn a Minuteman when built and when destroyed by enemies. Minutemen retain their hitpoints 75% longer.</string>
 	    <string _locid="110296">Ships 1 Turkey Scout and Villagers gather Food more quickly. All existing Town Centers spawn 3 Pilgrims.</string>
 	    <string _locid="110300">Improves Settler speed and line of sight and speed. Natural resources last 25% longer.</string>
 	    <string _locid="110302">Ships 2 Outpost Wagons. All existing and newly constructed Outposts spawn 1 State Militia and 1 Coureur while supporting +5 population.</string>
@@ -270,6 +271,8 @@
 	    <string _locid="110542">Ironclads and Steamers gain increased armor. Additionally, they no longer cost Wood to construct, but now require a greater amount of Gold instead.</string>
 	    <string _locid="110562">Slightly increases the attack and hitpoints of all military units.</string>
 	    <string _locid="110576">Artillery have more hit points and are trained faster.</string>
+	    <string _locid="110595">Outlaws gain increased hitpoints and attack. Owlhoots gain increased range.</string>
+	    <string _locid="110596">Road Agents</string>
 	    <string _locid="110599">Ships 10 Gunslingers and 12 Pet Cougars. Enables Generals, Gunslingers, and Town Centers to retrain Pet Cougars.</string>
 	    <string _locid="110618">Settlers gather Food 10% more quickly</string>
 	    <string _locid="110619">1 Blockhouse Wagon</string>

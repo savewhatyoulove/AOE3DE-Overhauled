@@ -5181,7 +5181,6 @@
       <effect type="TechStatus" status="obtainable">deGeneralChargeCarbine</effect>
       <effect type="TechStatus" status="obtainable">deGeneralInspiringFlag</effect>
       <effect type="TechStatus" status="obtainable">DEShipHowitzersAmerican</effect>
-      <effect type="TechStatus" status="obtainable">DESaloonPeacemakers</effect>
       <effect type="TechStatus" status="obtainable">DESaloonBeverages</effect>
       <effect type="TechStatus" status="obtainable">DEBillOfRights</effect>
       <effect type="TechStatus" status="obtainable">DEStatehood</effect>
@@ -5890,13 +5889,13 @@
       <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ypBankWagon" relativity="Absolute">
         <target type="Player"/>
       </effect>
-      <effect type="Data" action="Gather" amount="1.10" subtype="Yield" unittype="AbstractMine" relativity="BasePercent">
+      <effect type="Data" action="Gather" amount="1.15" subtype="Yield" unittype="AbstractMine" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
       <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="AbstractMine" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="Data" action="Gather" amount="1.10" subtype="Yield" unittype="deMountainMonastery" relativity="BasePercent">
+      <effect type="Data" action="Gather" amount="1.15" subtype="Yield" unittype="deMountainMonastery" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
       <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="deMountainMonastery" relativity="BasePercent">
@@ -6812,6 +6811,16 @@
       <effect type="Data" action="Gather" amount="2.00" subtype="WorkRate" unittype="Herdable" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="LivestockPen" relativity="BasePercent">
+        <target type="ProtoUnit">Herdable</target>
+      </effect>
+      <effect type="TextOutput">41928</effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+        <target type="ProtoUnit">Herdable</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="ypVillage" relativity="BasePercent">
+        <target type="ProtoUnit">Herdable</target>
+      </effect>
       <effect type="TechStatus" status="active">DEHCImmigrantsStateCapitolShadow</effect>
       <effect type="TextOutputTechName">110130</effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
@@ -6959,6 +6968,9 @@
     <effects>
       <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="OutpostWagon" relativity="Absolute">
         <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
       </effect>
       <effect type="Data" amount="1.70" subtype="ResourceTrickleRate" resource="XP" relativity="Absolute">
         <target type="Player"/>
@@ -7245,7 +7257,7 @@
     <rollovertextid>260006</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" amount="2.75" subtype="ResourceTrickleRate" resource="Gold" relativity="Absolute">
+      <effect type="Data" amount="4.25" subtype="ResourceTrickleRate" resource="Gold" relativity="Absolute">
         <target type="Player"/>
       </effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
@@ -7267,7 +7279,7 @@
     <flag>HomeCity</flag>
     <flag>TeamTech</flag>
     <effects>
-      <effect type="Data" amount="2.75" subtype="ResourceTrickleRate" resource="Gold" relativity="Absolute">
+      <effect type="Data" amount="4.25" subtype="ResourceTrickleRate" resource="Gold" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -9888,6 +9900,206 @@
       </effect>
       <effect type="Data" amount="1.00" subtype="DamageBonus" unittype="AbstractHeavyInfantry" allactions="1" relativity="Absolute">
         <target type="ProtoUnit">deUSCavalry</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCMinutemenCompanies" type="Normal">
+    <effects>
+      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShotgunMessengers" type="Normal">
+    <dbid>7339</dbid>
+    <displaynameid>110596</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\shotgun_messengers.png</icon>
+    <rollovertextid>110595</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractOutlaw</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractOutlaw</target>
+      </effect>
+      <effect type="Data" action="LongRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">SaloonOutlawRifleman</target>
+      </effect>
+      <effect type="Data" action="LongRangedAttack" amount="2.00" subtype="MinimumRange" relativity="Absolute">
+        <target type="ProtoUnit">SaloonOutlawRifleman</target>
+      </effect>
+      <effect type="Data" action="RangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">SaloonOutlawRifleman</target>
+      </effect>
+      <effect type="Data" action="BuckshotChargeAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">SaloonOutlawRifleman</target>
+      </effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TechStatus" status="active">DEHCShotgunMessengersShadow</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="SaloonWildWest" type="Normal">
+    <dbid>3437</dbid>
+    <displaynameid>47002</displaynameid>
+    <cost resourcetype="Food">250.0000</cost>
+    <cost resourcetype="Wood">250.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\Dance_Hall.png</icon>
+    <rollovertextid>47001</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractOutlaw</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractOutlaw</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractOutlaw</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">DEGuardOutlawShadow</effect>
+      <effect type="TechStatus" status="obtainable">DEImperialOutlawShadow</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="ypMonasteryCompunction" type="Normal">
+    <dbid>5187</dbid>
+    <displaynameid>69796</displaynameid>
+    <cost resourcetype="Food">250.0000</cost>
+    <cost resourcetype="Wood">250.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\home_city\hc_Atonement.png</icon>
+    <rollovertextid>69795</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>YPMonasteryTech</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractOutlaw</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractOutlaw</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractOutlaw</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">DEGuardOutlawShadow</effect>
+      <effect type="TechStatus" status="obtainable">DEImperialOutlawShadow</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEGuardOutlawShadow" type="Normal">
+    <dbid>7233</dbid>
+    <researchpoints>0.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractOutlaw</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractOutlaw</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Guardian</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Guardian</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEImperialOutlawShadow" type="Normal">
+    <dbid>7234</dbid>
+    <researchpoints>0.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.40" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractOutlaw</target>
+      </effect>
+      <effect type="Data" amount="1.40" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractOutlaw</target>
+      </effect>
+      <effect type="Data" amount="1.40" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Guardian</target>
+      </effect>
+      <effect type="Data" amount="1.40" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Guardian</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEImprovedOutlaws" type="Normal">
+    <dbid>6834</dbid>
+    <displaynameid>101385</displaynameid>
+    <cost resourcetype="Food">250.0000</cost>
+    <cost resourcetype="Wood">250.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\nomadic_bandits.png</icon>
+    <rollovertextid>47001</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractOutlaw</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractOutlaw</target>
+      </effect>
+      <effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractOutlaw</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">DEGuardOutlawShadow</effect>
+      <effect type="TechStatus" status="obtainable">DEImperialOutlawShadow</effect>
+    </effects>
+  </tech>
+  <tech name="DESaloonPeacemakers" type="Normal">
+    <dbid>7202</dbid>
+    <displaynameid>110462</displaynameid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\saloon\peacemakers.png</icon>
+    <rollovertextid>110461</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractOutlaw</target>
+      </effect>
+      <effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractOutlaw</target>
       </effect>
     </effects>
   </tech>
