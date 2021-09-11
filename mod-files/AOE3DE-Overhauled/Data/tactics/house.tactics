@@ -5,6 +5,7 @@
     <type>Spawn</type>
     <rate type="Settler">1.0 </rate>
     <rate type="Longbowman">1.0 </rate>
+    <rate type="deMinuteman">1.0 </rate>
     <singleuse>1</singleuse>
     <animationrate>1</animationrate>
     <active>0</active>

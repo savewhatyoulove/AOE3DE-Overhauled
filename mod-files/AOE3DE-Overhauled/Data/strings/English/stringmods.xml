@@ -225,7 +225,7 @@
 	    <string _locid="110278">Washington's Legion</string>
 	    <string _locid="110279">Ships 1 Native Embassy Travois and allies you with the Tuscarora (Native Haudenosaunee) at your Native Embassy where some of their upgrades and units are available.</string>
 	    <string _locid="110280">Tuscarora Allies</string>
-	    <string _locid="110281">Receive and additional 2 XP crates with each shipments. Additionally, all shipments arrive considerably faster, including this one.</string>
+	    <string _locid="110281">Receive and additional 2 XP crates with each shipments. Additionally, all shipments arrive faster, including this one.</string>
 	    <string _locid="110283">Ships 2 Military Wagons, 2 Homestead Wagons, and 2 Outpost Wagons.</string>
 	    <string _locid="110290">Ships 1 State Capitol Wagon and its improvements are cheaper and research more quickly (Excluding Spies and Blockade).\n • State Capitol, Oregon Trail, Statehood: -40% Cost and Research Time.\n • Capitol Improvements: -10% Cost and Research Time.</string>
 	    <string _locid="110294">This Shipment arrives more quickly. Houses spawn a Minuteman when built and when destroyed by enemies. Minutemen retain their hitpoints 75% longer.</string>
@@ -233,7 +233,7 @@
 	    <string _locid="110300">Improves Settler speed and line of sight and speed. Natural resources last 25% longer.</string>
 	    <string _locid="110302">Ships 2 Outpost Wagons. All existing and newly constructed Outposts spawn 1 State Militia and 1 Coureur while supporting +5 population.</string>
 	    <string _locid="110304">Ships 6 State Militia and enables them to construct Military Buildings and place down an Inspiring Flag.</string>
-	    <string _locid="110306">Gatling Gun movement speed slightly increased and are now Stealthy.</string>
+	    <string _locid="110306">Gatling Guns are now Stealhy and have slightly increased movement speed.</string>
 	    <string _locid="110316">Ships 2 Sharpshooters and 2 Deer for each shipment you have sent so far this game.</string>
 	    <string _locid="110318">Ships 5 Coureurs and 5 Elite Cree Trackers.</string>
 	    <string _locid="110320">Factories have more hitpoints and generate more resources.</string>
@@ -260,6 +260,7 @@
 	    <string _locid="110417">Greatly increases the hitpoints of cavalry.</string>
 	    <string _locid="110419">Ships an Ironclad containing Regulars. Enables an additional Ironclad to be constructed.</string>
 	    <string _locid="110431">Ships 10 Magyar Hussars.</string>
+	    <string _locid="110451">Saloons train units more quickly and now act as Home City shipment points. Additionally, Saloons support 20 population and can be constructed in the Exploration Age. Saloon Build Limit increased by 2 and Military Wagons can now build Saloons.</string>
 	    <string _locid="110453">Villagers gather wood faster and trees last longer.\n • Villager: Gather Work Rate for Tree and Grove +25%; Tree Yield +25%</string>
 	    <string _locid="110455">Delivers 2 Homestead Wagons. Villagers gather food from Mills faster.\n • Villager: Gather Work Rate for Mill, Farm, Rice Paddy, Field +30%</string>
 	    <string _locid="110483">Delivers 12 Polar Bears which will fight your enemies. All currently existing Town Centers spawn 1 Silver Prospector Wagon, which can open a Silver Mine.</string>

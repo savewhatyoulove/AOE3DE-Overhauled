@@ -5182,6 +5182,7 @@
       <effect type="TechStatus" status="obtainable">deGeneralInspiringFlag</effect>
       <effect type="TechStatus" status="obtainable">DEShipHowitzersAmerican</effect>
       <effect type="TechStatus" status="obtainable">DESaloonBeverages</effect>
+      <effect type="TechStatus" status="obtainable">DESaloonPeacemakers</effect>
       <effect type="TechStatus" status="obtainable">DEBillOfRights</effect>
       <effect type="TechStatus" status="obtainable">DEStatehood</effect>
       <effect type="TechStatus" status="obtainable">DEConstitution</effect>
@@ -5794,16 +5795,6 @@
     </effects>
   </tech>
   <tech name="HCAdvancedDock" type="Normal">
-    <effects>
-      <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect mergeMode='add' tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-    </effects>
-  </tech>
-  <tech name="DEHCAdvancedSaloon" type="Normal">
     <effects>
       <effect mergeMode='add' tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
@@ -6572,7 +6563,7 @@
       <effect type="Data" action="Gather" amount="1.25" subtype="Yield" unittype="ypGroveBuilding" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="AddHomeCityCard" tech="DEHCFedMoultriesMilitia" maxcount="1" ageprereq="2" unitcount="0" infiniteinlastage="0"/>
+      <effect type="AddHomeCityCard" tech="DEHCFedMoultriesMilitia" maxcount="1" ageprereq="2" unitcount="6" infiniteinlastage="0"/>
       <effect type="AddHomeCityCard" tech="DEHCFedMarionsDiversions" maxcount="1" ageprereq="2" unitcount="0" infiniteinlastage="0"/>
     </effects>
   </tech>
@@ -6712,7 +6703,7 @@
       <effect type="SetAge">Age4</effect>
       <effect type="TechStatus" status="active">ImpDeforestationAmericans</effect>
       <effect type="AddHomeCityCard" tech="DEHCFedDeereSteelPlow" maxcount="1" ageprereq="4" unitcount="0" infiniteinlastage="0"/>
-      <effect type="AddHomeCityCard" tech="DEHCFedLincolnLand" maxcount="1" ageprereq="4" unitcount="0" infiniteinlastage="0"/>
+      <effect type="AddHomeCityCard" tech="DEHCFedLincolnLand" maxcount="1" ageprereq="4" unitcount="1" infiniteinlastage="0"/>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEPoliticianFederalConnecticut" type="Normal">
@@ -6731,7 +6722,7 @@
       <effect type="SetAge">Age4</effect>
       <effect type="TechStatus" status="active">ImpDeforestationAmericans</effect>
       <effect type="AddHomeCityCard" tech="DEHCFedConnecticutShipwrights" maxcount="1" ageprereq="4" unitcount="0" infiniteinlastage="0"/>
-      <effect type="AddHomeCityCard" tech="DEHCFedSapperCorps" maxcount="1" ageprereq="4" unitcount="2" infiniteinlastage="0"/>
+      <effect type="AddHomeCityCard" tech="DEHCFedSapperCorps" maxcount="1" ageprereq="4" unitcount="5" infiniteinlastage="0"/>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEPoliticianFederalNewYork" type="Normal">
@@ -6790,7 +6781,7 @@
       <effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
         <target type="ProtoUnit">FortFrontier</target>
       </effect>
-      <effect type="AddHomeCityCard" tech="DEHCFedTexanForts" maxcount="1" ageprereq="4" unitcount="0" infiniteinlastage="0"/>
+      <effect type="AddHomeCityCard" tech="DEHCFedTexanForts" maxcount="1" ageprereq="4" unitcount="2" infiniteinlastage="0"/>
       <effect type="AddHomeCityCard" tech="DEHCFedWalkersRangers" maxcount="1" ageprereq="4" unitcount="12" infiniteinlastage="0"/>
     </effects>
   </tech>
@@ -7186,16 +7177,20 @@
     <flag>HomeCity</flag>
     <flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</flag>
     <effects>
-      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="SaloonOutlawPistol" relativity="Absolute">
+      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="SaloonOutlawPistol" relativity="Absolute">
         <target type="Player"/>
       </effect>
-      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="PetCougar" relativity="Absolute">
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="PetCougar" relativity="Absolute">
         <target type="Player"/>
       </effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">PetCougar</target>
       </effect>
       <effect type="Data" amount="1.00" subtype="AddTrain" unittype="PetCougar" relativity="Absolute">
+        <target type="ProtoUnit">SaloonOutlawPistol</target>
+      </effect>
+      <effect type="SetName" proto="SaloonOutlawPistol" culture="none" newname="110091"/>
+      <effect type="Data" action="ChargeQuickDrawAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
         <target type="ProtoUnit">SaloonOutlawPistol</target>
       </effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
@@ -9126,7 +9121,7 @@
       </effect>
     </effects>
   </tech>
-  <tech name="DEHCFedTexanForts" type="Normal">
+  <tech mergeMode='replace' name="DEHCFedTexanForts" type="Normal">
     <dbid>7154</dbid>
     <displaynameid>110375</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
@@ -9744,6 +9739,9 @@
       <effect type="Data" amount="1.00" subtype="PartisanUnit" unittype="deMinuteman" relativity="Assign">
         <target type="ProtoUnit">House</target>
       </effect>
+      <effect type="Data" action="Spawn" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">House</target>
+      </effect>
       <effect type="Data" action="SpawnDEMinuteman" amount="1.00" subtype="WorkRate" unittype="deMinuteman" relativity="Assign">
         <target type="ProtoUnit">House</target>
       </effect>
@@ -10081,7 +10079,7 @@
       <effect type="TechStatus" status="obtainable">DEImperialOutlawShadow</effect>
     </effects>
   </tech>
-  <tech name="DESaloonPeacemakers" type="Normal">
+  <tech mergeMode='replace' name="DESaloonPeacemakers" type="Normal">
     <dbid>7202</dbid>
     <displaynameid>110462</displaynameid>
     <cost resourcetype="Gold">1000.0000</cost>
@@ -10101,6 +10099,127 @@
       <effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">AbstractOutlaw</target>
       </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCAdvancedSaloon" type="Normal">
+    <dbid>7197</dbid>
+    <displaynameid>110452</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_advanced\advanced_saloon.png</icon>
+    <rollovertextid>110451</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="25.00" subtype="PopulationCapAddition" relativity="Absolute">
+        <target type="ProtoUnit">Saloon</target>
+      </effect>
+      <effect type="Data" amount="-1.00" subtype="AllowedAge" relativity="Absolute">
+        <target type="ProtoUnit">Saloon</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Saloon</target>
+      </effect>
+      <effect type="Data" amount="1.40" subtype="BuildingWorkRate" relativity="BasePercent">
+        <target type="ProtoUnit">Saloon</target>
+      </effect>
+      <effect type="CommandAdd" command="YPSetDaimyoAsHCGatherPoint" page="1" column="3">
+        <target type="ProtoUnit">Saloon</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HCGatherPointPri3" relativity="Assign">
+        <target type="ProtoUnit">Saloon</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="Saloon" relativity="Absolute">
+        <target type="ProtoUnit">deMilitaryWagon</target>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEPoliticianFederalIndiana" type="Normal">
+    <dbid>7140</dbid>
+    <displaynameid>110341</displaynameid>
+    <cost resourcetype="Food">1200.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>105.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iii.png</icon>
+    <rollovertextid>110621</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age2</effect>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="deRegular" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="AddHomeCityCard" tech="DEHCFedMammothImprovementAct" maxcount="1" ageprereq="2" unitcount="2" infiniteinlastage="0"/>
+      <effect type="AddHomeCityCard" tech="DEHCFedIndianaMobilization" maxcount="1" ageprereq="2" unitcount="0" infiniteinlastage="0"/>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEPoliticianFederalNewHampshire" type="Normal">
+    <dbid>7098</dbid>
+    <displaynameid>110244</displaynameid>
+    <cost resourcetype="Food">1200.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>105.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iii.png</icon>
+    <rollovertextid>110622</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age2</effect>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="deRegular" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="AddHomeCityCard" tech="DEHCFedFrenchCanadians" maxcount="1" ageprereq="2" unitcount="10" infiniteinlastage="1"/>
+      <effect type="AddHomeCityCard" tech="DEHCFedNewHampshireManufacturing" maxcount="1" ageprereq="2" unitcount="0" infiniteinlastage="0"/>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEPoliticianFederalNewJersey" type="Normal">
+    <dbid>7088</dbid>
+    <displaynameid>110228</displaynameid>
+    <cost resourcetype="Food">2000.0000</cost>
+    <cost resourcetype="Gold">1200.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iv.png</icon>
+    <rollovertextid>110629</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age3</effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="xpHorseArtillery" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="AddHomeCityCard" tech="DEHCFedNewJerseySeaports" maxcount="1" ageprereq="1" unitcount="0" infiniteinlastage="0"/>
+      <effect type="AddHomeCityCard" tech="DEHCFedMorrisCanal" maxcount="1" ageprereq="1" unitcount="6" infiniteinlastage="0"/>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEPoliticianFederalCalifornia" type="Normal">
+    <dbid>7101</dbid>
+    <displaynameid>110254</displaynameid>
+    <cost resourcetype="Food">2000.0000</cost>
+    <cost resourcetype="Gold">1200.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iv.png</icon>
+    <rollovertextid>110628</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="SetAge">Age3</effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="CoveredWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="AddHomeCityCard" tech="DEHCFedGoldRush" maxcount="1" ageprereq="3" unitcount="9" infiniteinlastage="0"/>
+      <effect type="AddHomeCityCard" tech="DEHCFedBearFlagRevolt" maxcount="1" ageprereq="3" unitcount="0" infiniteinlastage="0"/>
     </effects>
   </tech>
 
