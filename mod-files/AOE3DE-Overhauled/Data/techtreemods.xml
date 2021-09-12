@@ -6486,8 +6486,8 @@
     <dbid>7186</dbid>
     <displaynameid>110432</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
-    <cost resourcetype="Food">750.0000</cost>
-    <cost resourcetype="Wood">750.0000</cost>
+    <cost resourcetype="Food">500.0000</cost>
+    <cost resourcetype="Wood">500.0000</cost>
     <researchpoints>60.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\americans\legion_kovat.png</icon>
@@ -6495,7 +6495,7 @@
     <flag>HomeCity</flag>
     <effects>
       <effect type="TextOutputTechName">110130</effect>
-      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="deLegionMagyarHussar" relativity="Absolute">
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="deLegionMagyarHussar" relativity="Absolute">
         <target type="Player"/>
       </effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
@@ -7213,7 +7213,7 @@
     <dbid>7211</dbid>
     <displaynameid>110484</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
-    <cost resourcetype="Gold">1500.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\americans\alaska_purchase.png</icon>
