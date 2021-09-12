@@ -594,7 +594,7 @@ Shipment Changes:
 -- Long Rifles reworked: Now available in the Discovery Age and enables Sharpshooters in the commerce age and increases their range by +2 (20 in commerce, 24 in Fortress+)
 -- 5 Captured Rocket Cost removed
 -- Scattershot added in Age III. Increases State Militia aoe by +1 and their aoe damage cap by +30%, but reduces their range by -2 (12 --> 10)
--- Kovat's Legion now ships 10 Magyar Hussars instead of 8 and costs 750F/W (instead of 1000 each), but no longer enables them at Forts.
+-- Kovat's Legion now costs 500F/W (instead of 1000 each), but no longer enables them at Forts.
 -- 10 Carbine Cavalry in Age IV replaced with 8 Dragoons
 -- Knox Artillery Train Reworked: No longer provides free Heavy Horse Artillery. Now provides +20% HP for AbstractArtillery and -20% train time for AbstractArtillery (Rockets only get -10%)
 -- Rockets' Red Glare Shipment Added in Age IV. Increases Siege damage of Rockets and Mortars against buildings by 30% (multipliers).
@@ -614,7 +614,7 @@ Shipment Changes:
 -- Age IV Shotgun Messengers Removed.
 -- Minutemen Companies moved to Age III from Age IV.
 -- Advanced Saloon additionally improved building work rate by +40% (~30% train time reduction) and turns them into HC shipment points. 
--- Age IV Alaska Purchase is no longer a team shipment, and cost has been reduced to 1500 Gold from 2500 Wood. Now ships 12 Pet Polar bears instead of 6.
+-- Age IV Alaska Purchase is no longer a team shipment, and cost has been reduced to 1000 Gold from 2500 Wood. Now ships 12 Pet Polar bears instead of 6.
 -- Lewis and Clark Expedition Reworked: Now provides TEAM +15 LOS to all explorers, monks, and hero units.
 -- Minneapolis Mills now provides 2 Homestead Wagons and +30% Mill gather Rate instead of +10% and 800 Food
 -- Lumber Mills now provides +25% gather/yield rates to Wood Chopping instead of +10% chop and 400 Wood.
