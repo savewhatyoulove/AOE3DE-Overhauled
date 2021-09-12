@@ -233,7 +233,7 @@
 	    <string _locid="110300">Improves Settler speed and line of sight and speed. Natural resources last 25% longer.</string>
 	    <string _locid="110302">Ships 2 Outpost Wagons. All existing and newly constructed Outposts spawn 1 State Militia and 1 Coureur while supporting +5 population.</string>
 	    <string _locid="110304">Ships 6 State Militia and enables them to construct Military Buildings and place down an Inspiring Flag.</string>
-	    <string _locid="110306">Gatling Guns are now Stealhy and have slightly increased movement speed.</string>
+	    <string _locid="110306">Gatling Guns are now Stealthy and have slightly increased movement speed.</string>
 	    <string _locid="110316">Ships 2 Sharpshooters and 2 Deer for each shipment you have sent so far this game.</string>
 	    <string _locid="110318">Ships 5 Coureurs and 5 Elite Cree Trackers.</string>
 	    <string _locid="110320">Factories have more hitpoints and generate more resources.</string>
@@ -260,7 +260,7 @@
 	    <string _locid="110417">Greatly increases the hitpoints of cavalry.</string>
 	    <string _locid="110419">Ships an Ironclad containing Regulars. Enables an additional Ironclad to be constructed.</string>
 	    <string _locid="110431">Ships 10 Magyar Hussars.</string>
-	    <string _locid="110451">Saloons train units more quickly and now act as Home City shipment points. Additionally, Saloons support 20 population and can be constructed in the Exploration Age. Saloon Build Limit increased by 2 and Military Wagons can now build Saloons.</string>
+	    <string _locid="110451">Saloons train units more quickly and now act as Home City shipment points. Additionally, Saloons support 25 population and can be constructed in the Exploration Age. Saloon Build Limit increased by 2 and Military Wagons can now build Saloons.</string>
 	    <string _locid="110453">Villagers gather wood faster and trees last longer.\n • Villager: Gather Work Rate for Tree and Grove +25%; Tree Yield +25%</string>
 	    <string _locid="110455">Delivers 2 Homestead Wagons. Villagers gather food from Mills faster.\n • Villager: Gather Work Rate for Mill, Farm, Rice Paddy, Field +30%</string>
 	    <string _locid="110467">The next Federal State you research, or are researching, will Age Up 50 seconds faster.</string>
@@ -272,7 +272,7 @@
 	    <string _locid="110504">TEAM Explorer Line of Sight is greatly increased.</string>
 	    <string _locid="110527">Ships 2 State Militia and 5 Regulars and researches their Veteran upgrades.</string>
 	    <string _locid="110542">Ironclads and Steamers gain increased armor. Additionally, they no longer cost Wood to construct, but now require a greater amount of Gold instead.</string>
-	    <string _locid="110562">Slightly increases the attack and hitpoints of all military units.</string>
+	    <string _locid="110562">Slightly increases the attack and hitpoints of all military units. Additionally, units heal outside of combat more quickly.</string>
 	    <string _locid="110576">Artillery have more hit points and are trained faster.</string>
 	    <string _locid="110595">Outlaws gain increased hitpoints and attack. Owlhoots gain increased range.</string>
 	    <string _locid="110596">Road Agents</string>
@@ -352,7 +352,7 @@
 	    <string _locid="240001">Cloud Forest</string>
 	    <string _locid="240002">4 Cloud Forest Travois</string>
 	    <string _locid="240050">Paititi</string>
-	    <string _locid="240051">Jungle Outposts gain greatly increase hitpoints and line of sight.</string>
+	    <string _locid="240051">Jungle Outposts gain greatly increased hitpoints and line of sight.</string>
 	    <string _locid="250001">Ships 1 villager, 100 Wood and 1 Fattened Llama</string>
 	    <string _locid="250002">Seasonal Labor I</string>
 	    <string _locid="250003">Seasonal Labor I Shipment has arrived.</string>

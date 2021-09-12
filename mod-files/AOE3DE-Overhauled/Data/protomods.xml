@@ -212,6 +212,7 @@
     <train row="0" page="6" column="3">Plantation</train>
     <train row="0" page="6" column="4">Dock</train>
     <train row="0" page="6" column="5">Market</train>
+    <train row="0" page="6" column="6">FieldHospital</train>
     <train row="0" page="6" column="0">deHouseAfrican</train>
     <flag>CollidesWithProjectiles</flag>
     <flag>ApplyHandicapTraining</flag>

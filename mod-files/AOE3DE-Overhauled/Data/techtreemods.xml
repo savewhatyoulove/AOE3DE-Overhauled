@@ -6640,7 +6640,7 @@
       <effect type="AddHomeCityCard" tech="DEHCFedTammanyFestival" maxcount="1" ageprereq="1" unitcount="1" infiniteinlastage="0"/>
       <effect type="TechStatus" status="obtainable">DEChurchGuerrillas</effect>
       <effect type="TechStatus" status="obtainable">DEChurchWashingtonsLegion</effect>
-      <effect type="TechStatus" status="obtainable">DEChurchPulaskisLegion</effect>
+      <effect type="TechStatus" status="obtainable">DEChurchPennsylvaniaCavalry</effect>
     </effects>
   </tech>
 
@@ -8714,6 +8714,9 @@
       </effect>
       <effect type="Data" action="AutoGatherCoin" amount="1.30" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
         <target type="ProtoUnit">Factory</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">Rocket</target>
       </effect>
       <effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">Factory</target>

@@ -574,13 +574,6 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>DEHCHandMortar</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-    </card>
-    <card>
       <name>DEHCCoffeeMillGun</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -1664,7 +1657,6 @@
       <tech x="7.2" y="7.0">DEHCStateMilitiaSplashDamage</tech>
       <tech x="7.2" y="7.0">DEHCContinentalRangers</tech>
       <tech x="7.2" y="7.0">DEHCBuffaloSoldiers</tech>
-      <tech x="7.2" y="7.0">DEHCHandMortar</tech>
     </obtainabletechs>
     <activetechs>
       <tech x="0.7" y="1.0">DEHCShipStateMilitia1</tech>
@@ -1701,7 +1693,6 @@
       <tech x="7.2" y="7.0">DEHCStateMilitiaSplashDamage</tech>
       <tech x="7.2" y="7.0">DEHCContinentalRangers</tech>
       <tech x="7.2" y="7.0">DEHCBuffaloSoldiers</tech>
-      <tech x="7.2" y="7.0">DEHCHandMortar</tech>
     </activetechs>
     <validunits/>
     <units/>
@@ -1881,6 +1872,7 @@
       <tech x="6.3" y="3.0">HCXPPistoleroAllies</tech>
       <tech x="6.3" y="4.0">HCXPComancheroAllies</tech>
       <tech x="6.3" y="5.0">HCXPBanditGang</tech>
+      <tech x="6.3" y="5.0">HCXPBanditGangRepeat</tech>
       <tech x="7.2" y="7.0">DEHCUSMarines</tech>
       <tech x="7.2" y="7.0">DEHCIroquoisOneidaSupport</tech>
     </obtainabletechs>
@@ -1910,6 +1902,7 @@
       <tech x="6.3" y="3.0">HCXPPistoleroAllies</tech>
       <tech x="6.3" y="4.0">HCXPComancheroAllies</tech>
       <tech x="6.3" y="5.0">HCXPBanditGang</tech>
+      <tech x="6.3" y="5.0">HCXPBanditGangRepeat</tech>
       <tech x="7.2" y="7.0">DEHCUSMarines</tech>
       <tech x="7.2" y="7.0">DEHCIroquoisOneidaSupport</tech>
     </activetechs>
