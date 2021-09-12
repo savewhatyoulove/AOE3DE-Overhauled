@@ -8237,7 +8237,7 @@
     <cost resourcetype="Food">80.0000</cost>
     <cost resourcetype="Gold">20.0000</cost>
     <allowedage>1</allowedage>
-    <armor type="Hand" value="0.3500"/>
+    <armor type="Hand" value="0.4000"/>
     <unittype>LogicalTypeHealed</unittype>
     <unittype>LogicalTypeValidSharpshoot</unittype>
     <unittype>LogicalTypeNeededForVictory</unittype>
@@ -8286,8 +8286,8 @@
       <damage>10.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractCavalry">3.000000</damagebonus>
-      <damagebonus type="AbstractLightInfantry">2.2500000</damagebonus>
+      <damagebonus type="AbstractCavalry">3.250000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">2.5000000</damagebonus>
     </protoaction>
     <protoaction>
       <name>DefendRangedAttack</name>
@@ -8303,16 +8303,16 @@
       <damage>10.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractCavalry">3.000000</damagebonus>
-      <damagebonus type="AbstractLightInfantry">2.2500000</damagebonus>
+      <damagebonus type="AbstractCavalry">3.250000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">2.5000000</damagebonus>
     </protoaction>
     <protoaction>
       <name>StaggerHandAttack</name>
       <damage>10.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractCavalry">3.000000</damagebonus>
-      <damagebonus type="AbstractLightInfantry">2.2500000</damagebonus>
+      <damagebonus type="AbstractCavalry">3.250000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">2.5000000</damagebonus>
     </protoaction>
     <protoaction>
       <name>StaggerRangedAttack</name>
@@ -8328,8 +8328,8 @@
       <damage>10.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractCavalry">3.000000</damagebonus>
-      <damagebonus type="AbstractLightInfantry">2.2500000</damagebonus>
+      <damagebonus type="AbstractCavalry">3.250000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">2.5000000</damagebonus>
     </protoaction>
     <protoaction>
       <name>VolleyRangedAttack</name>
@@ -9780,7 +9780,7 @@
     <tactics>musketCavalry.tactics</tactics>
     <protoaction>
       <name>BuildingAttack</name>
-      <damage>12.00000</damage>
+      <damage>14.00000</damage>
       <damagetype>Siege</damagetype>
       <rof>3.000000</rof>
     </protoaction>
