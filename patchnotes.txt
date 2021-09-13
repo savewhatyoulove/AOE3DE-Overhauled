@@ -1,5 +1,6 @@
 General Changes:
 
+
 Villager HP scaling has been nerfed across the board:
 -- Market Techs now only provide +20% villager HP instead of +35%
   -- Spirit and Eastern Medicines now only cost 90 Food instead of 120
@@ -9,6 +10,8 @@ Villager HP scaling has been nerfed across the board:
 -- Nootka Bark Clothing now only provides +30% HP instead of +50%. Cost reduced to 90W/90G from 125W/125G
 -- Apache Cactus Use now only provides + 10% HP instead of +15% (speed bonus unchanged). Cost reduced to 125W/100G from 150W/100G
 EX: The goal of these changes is to promote earlier aggression and prevent easy turtling strats with minimal investment. Before, on a map with Nootka, Regular villagers would cap out at 375 HP, now it is 300 HP. With Coureurs, this used to be 450 HP, now it is 360 HP. 
+
+Dance Hall (and similar shipments) now only provides -1 Outlaw population instead of -2. This is to compensate for the standardization of Outlaw population costs to 3 for Infantry and 4 for Cavalry.
 
 Units: 
 -- All Pikemen units (AbstractPikemen) get +1 melee range to better chase down cavalry.
@@ -24,6 +27,38 @@ Units:
   -- 0.3x villager penalty removed, cavalry penalty lessened to 0.5x from 0.3x, 1.5x AbstractHeavyInfantry added
   -- Grenade Launchers now has a much more significant animation delay and range bonus improved to 16 (from 14). Now techs Veteran Grenadiers if not researched.
   -- Improved Grenades moved to age 2 and siege bonus improved to +50% from +25%
+-- Cannoneer Reworked:
+  -- Cost increased to 250 gold from 140
+  -- Population cost increased to 3 from 1
+  -- HP increased to 210 from 130
+  -- Armor increased to 40 from 30
+  -- Siege increased to 30 from 15
+  -- Melee reduced to 15 from 20
+  -- Ranged Attack no longer deals siege damage (now ranged); damage increased to 75 from 30 and now has 2 aoe (150 damage cap).
+  -- Ship and Artillery multipliers removed.
+-- Renegado (Owlhoot) Rebalanced:
+  -- Melee ROF improved to 1.5 from 2.0 and AbstractHeavyInfantry multiplier improved to 2.0x from 1.75x
+  -- Ranged ROF slowed to 3.0 from 2.0, damage increased to 40 from 18, and AbstractHeavyInfantry multiplier improved to 2.0x from 1.75x
+-- Pistolero (Gunslinger) Rebalanced:
+  -- Siege increased to 25 from 24
+  -- Ranged ROF slowed to 2.0 from 1.5, damage increased to 20 from 15
+  -- Melee cavalry multipliers increased to 2.75x/2.25x for AbstractCavalry/AbstractLightInfantry from 2.0x/1.6x
+-- Comanchero (Cowboy) ranged/melee attack improved by +1 to 20/10 from 19/9.
+-- Outlaw Population cost standardized to 3 for infantry and 4 for cavalry.
+-- Outlaw Scaling from Wild West Reduced to 20%/20%/40% from 25%/25%/50%
+-- Dance Hall/Atonement now only reduced Outlaw population cost by -1 instead of -2
+-- Napoleon Gun speed increased to 3.5 from 3.25; ranged resist increased to 60 from 50
+-- Zouave Reworked: (modeled off of the Japanese Shinobi/Navajo Rifleman)
+  -- Speed increased to 5.0 from 4.5
+  -- HP reduced to 280 from 320
+  -- LOS reduced to 18 from 21
+  -- Cost reduced from 400 Gold to 220
+  -- Armor reduced from 50 Ranged to 30
+  -- Now available in the Fortress Age instead of Industrial
+  -- No longer benefits from Rifling (lacks the AbstractRifleman tag)
+  -- Siege damage improved to 30 from 20
+  -- Melee attack reduced to 16 from 25
+  -- Ranged Attack damage improved to 40 from 35; Ranged reduced to 15 from 17
 
 Shipments:
 -- Colonial Militia: Reworked
@@ -264,7 +299,7 @@ Settler built limit reduced to 60 from 99.
 
 New Unit: Miner, a hardy settler that gathers coin exceptionally quickly, but is worse at all other natural resources. Armed with grenades to fend off infantry, but vulnerable to cavalry raids. Builds defensive buildings more quickly.
 Stats: 
-Unit Tags: AbstractVillager, AbstractInfantry
+Unit Tags: AbstractVillager
 HP: 150
 Armor: 40 Ranged
 Speed: 4.0
@@ -282,16 +317,26 @@ Surstromming Crates:
 -- Build limit removed (TCs have a 30 crate limit each in general) 
 
 Carolean:
-Speed: Reduced to 4.0 from 4.25
-Cost: Increased to 40F/60G from 60F/40G
+Speed: Increased to 4.5 from 4.25
+Hitpoints: Reduced to 140 from 150
+LOS: Increased to 16 from 14
+Cost: Increased to 40F/70G from 60F/40G
+Unit Tags: AbstractHeavyInfantry removed, AbstractRifleman added.
 Carolean Chage: Cooldown reduced to 75 seconds from 90 and now provides +1.5 speed instead of +1.0, but duration reduced to 6 seconds
-Melee Attack: Increased to 20 from 19; 1.5x AbstractCavalry, 2.5x AbstractHeavyInfantry (1.5x net), 1.5x AbstractLightInfantry added. AbstractInfantry penalty increased to 0.6x from 0.8x
+Melee Attack: Reduced to 16 from 19; Standard skirmisher multipliers added
+Ranged Attack: Reduced to 17 w/3.0 ROF and 14 range; Standard skirmisher multiplier replace existing ones.
+Siege: Reduced to 15 from 20
 Ranged Attack: Reduced to 20/3.0 ROF from 19/2.5 ROF, 1.5x AbstractHeavyInfantry multiplier added.
 
 Leather Cannon:
+Now an Age 3 Unit
+HP: Increased to 200 from 170
+Cost: Reduced to 100F/100W from 300F/100W
 Speed: Increased to 3.25 from 3.00
 Range: Increased to 22 from 21
-Upgrades: Now only gains +0.25 speed with (imperial) infantry guns up to a max of 3.75 (from 4.0)
+Cannon Attack: Improved to 120 from 40 (Damage cap is 240). 6x Buildings and 2x Ships added.
+Like Petards, Leather Cannons now die after attacking (they are suicide units).
+Upgrades: Now shadowtech for free.
 
 New Unit: Karabinier (mounted skirmisher)
 Cost: 70F/100G
@@ -337,8 +382,7 @@ Shipment Changes:
 -- Snaplocks now provides +2 range for Caroleans (down from +3), +2 range for Karabiniers (from +1) and increased their AbstractLightCavalry and Eagle Runner Knight multipliers +0.4x (1.8x net)
 -- TEAM Heavy Infantry HP (Age II) removed
 -- Hand Infantry / Hand Cavalry HP (Age II) turned into TEAM Hand Infantry / Hand Cavalry HP (i.e. a team buff)
--
-Controller 0 mapping uses xinput : false- Hand Infantry / Hand Cavalry Combat (Age III) added 
+-- Hand Infantry / Hand Cavalry Combat (Age III) added 
 -- Engelsburg Ironworks reworked:
   -- Now buffs Miner gather rate on mines by +30% and their yield rate by +20%.
   -- Additionally ships a prospector wagon
@@ -402,19 +446,19 @@ Gascenya:
 Armor: Increased to 25 melee from 20
 Speed: Reduced to 4.25 from 4.5
 Ranged Damage: Rescaled to 12 w/ 1.5 ROF from 24 w/ 3.0 ROF; ROF range scaling removed
-Melee Multipliers: AbstractCavalry reduced to 3x from 4x, AbstractLightInfantry reduced to 2.25x from 2.4x
+Melee Multipliers: AbstractCavalry reduced to 3.25x from 4x, AbstractLightInfantry increased to 2.50x from 2.4x
 Siege Damage: Reduced to 24 from 28.
 
 Javelin Rider (shared with Hausa):
 HP: Reduced to 180 from 210
 Armor: Improved to 15 melee from 10 Ranged
-Ranged Attack: Reduced to 9 from 10
-Melee Attack: Reduced to 5 from 10
+Melee Attack: Reduced to 6.5 from 10
 Siege: Reduced to 6 from 9
 
 Shotel Warrior:
+Cost: Increased to 50F/55G from 55F/50G
 Speed: Increased to 6.25 from 6.0
-Melee Damage: Increased to 16 w/1.5 ROF from 13 w/ 1.25 ROF (+0.4 net). 0.8x AbstractHeavyInfantry penalty added (1x net)
+Melee Damage: Increased to 16 w/1.5 ROF from 13 w/ 1.25 ROF (+0.4 net). 
 
 Oromo Rider Reworked:
 HP: Reduced to 350 from 380
@@ -422,8 +466,18 @@ Armor: Increased to 50 from 20
 Siege: Increased to 30 from 27
 Ranged Attack: Reduced to 30 from 42. 1 AOE w/ 60 damage cap added. ROF improved to 3.0 from 4.0, range scaling ROF removed.
 Multipliers reworked: Added 4x AbstractArtillery, 4x AbstractInfantry, and 0.25x AbstractHeavyInfantry to all attacks.
-Melee Attack: Reduced to 15 from 42. 
+Melee Attack: Reduced to 15 from 42, same multipliers as melee. 
 
+Sebastopol Mortar:
+Speed: Reduced to 2.5 from 2.75
+Turn Rate: Reduced to 1.0 from 1.5
+
+Shipment Changes:
+-- Oromo Migrations: Moved to Age 4 from Age 1. Now ships 4 villagers for each palace you currently have constructed.
+-- Shiftas HP buff for villagers reduced to +25% from +35%
+-- Coffee Consumption moved to Discovery Age from Industrial Age. 
+-- Zebenyas no longer provides siege armor to Neftenyas, moved to age 2 
+-- Shewa Riders no longer increases the armor of Oromo Riders, instead, they deal more damage to skirmishers.
 Hausa:
 
 Unit Changes:
@@ -442,4 +496,291 @@ Cost: Rescaled (and slightly increased) to 90F/40W from 100F/40G
 LOS: Reduced to 15 from 16
 TODO:
 add swedish VOs for longbowmen
+
+
+USA:
+
+Civ Bonus Changes:
+-- No longer receives XP crates on age up, instead, each shipment provides 100 xp crates.
+-- XP curve improved to 0.86 from 1.0
+-- Can no longer ship resource crates, instead, most economic improvement shipments have been greatly buffed ()
+-- All military units heal over time outside of combat (3.5s idle timeout) at a rate of 0.25% MAX HP/s
+
+Politician Changes:
+-- Delaware now increases Food gather rate by +10% instead of shipping food crates.
+-- Rhode Island and Pennsylvania now provide Blockhouse Wagons instead of Outposts.
+-- Vermont and South Carolina now increases Wood gather and yield rates by +25% instead of shipping 600 Wood.
+-- Illionois and Connecticut now instantly research Pine Tree State (Deforestation) instead of shipping 1500 Wood.
+-- New York now provides +50% ATK/HP to merc/outlaws (+35% for Industrial Age) to match European Mercenary Contractor.
+
+Tech Changes:
+-- Imperial Age gathering upgrades improved to +50% from +40%.
+-- Statehood cost reduced from 750 gold to 600; no longer provides XP crates.
+-- Bill of Rights cost reduced from 1500 gold to 1200 --> this helps compensate for the gather time of the XP crates instead of a deposit.
+
+Starting Units: Now starts with 6 villagers, a Fattened Sheep, Book Crates and a Homestead Wagon, but no resource crates.
+-- (-300 Food crates, -200 Wood crates, villager count and XP crate unchanged)
+
+Unit Changes:
+
+General:
+-- Inspiring Flag cooldown reduced to 60 seconds from 160; no longer provides unit buffs
+-- Heavy Cannons replaced with Rockets
+
+Regular:
+Cost: Reduced to 80F/20G from 55F/50G
+HP: Reduced to 120 from 150
+Speed: Increased to 4.5 from 4.0
+Armor: Increased to 40 melee from 20
+Siege: Reduced to 20 from 24
+Ranged ATK: Improved to 26 from 25, 1.5x HC/1.25x Shock Infantry added, scales by +0.25x with each upgrade up to 2.25/2.0x
+Melee ATK: Reduced to 10 from 14, multipliers improved to 3.25/2.5x from 3.0x/2.25x
+
+State Militia: 
+Cost: Increased to 100F/60G from 50F/35W
+Speed: Reduced to 4.5 from 4.75
+Population: Increased to 2 from 1
+HP: Increased to 160 from 120
+Siege: Improved to 20 from 10
+Melee: Improved to 10 from 7, HI multiplier increased to 2x
+Ranged: Improved to 25 from 14, range reduced to 12 from 13, 2 aoe and 50 damage cap added, HI multiplier increased to 2x
+Misc: No longer royal guard units, nor do they get the HP aura
+
+Sharpshooter:
+Cost: Increased to 30F/110G from 40F/75G
+HP: Reduced to 85 from 95
+Speed: Increased to 4.5 from 4.0
+Melee: Multipliers reduced to standard skirmisher multipliers (HI is 1.5x, much like old state militia)
+Ranged: Increased to 30 Ranged Damage from 15, range reduced to 18 from 21 (shadowtechs by +4 in fortress age), ROF delay increased to 4.0 from 3.0, multipliers reduced to standard skirmishermultipliers (HI is 1.5x much like old state militia)
+National Guard Upgrade: +0.05 Ranged armor and +40% ATK/HP (instead of +30%)
+
+New Unit: Spur Rider
+-- Heavy Melee Cavalry with powerful Ranged and Siege armor, but a weak attack. Good against artillery and skirmishers.
+Cost: 120F/60G
+Population: 2
+HP: 260
+Speed: 6.75
+Armor: 0.35 Ranged, 0.2 Siege
+Siege: 20 w/ 3 ROF
+Melee: 20 w/ 2x AbstractArtillery
+National Guard Upgrade: +0.05 Ranged armor, +0.5x AbstractArtillery, and +40% ATK/HP (instead of +30%)
+
+New Unit: Texas Ranger
+-- Elite Ranged Heavy and Light Cavalry only available from the Home City. Strong against Heavy Infantry, Artillery, and Heavy Cavalry, but weak against other Light Cavalry and Skirmishers. 
+Cost: 130F/130G
+Population: 3
+HP: 260
+Speed: 7.25
+Armor: 0.20 Ranged
+Siege: 14 w/ 3.0 ROF
+RangedAttack: 28 w/ 2.5 ROF and 16 range. Multipliers: 2x AbstractHeavyInfantry, 3x AbstractHeavyCavalry, 2.25x AbstractCoyoteMan, 5.0x AbstractArtillery
+MeleeAttack: 14 w/ 1.5 ROF and 1 aoe (28 damage cap). Same multipliers as ranged.
+Shadowtechs by 20/30/50% in Fortress/Industrial/Imperial ages.
+
+Shipment Changes:
+-- All non-infinite/team shipments now provide a crate of 100 XP.
+-- Age I 7 Sheep + 1 Homestead Wagon is no longer infinite
+-- Age IV 15 sheep + 1 Homestead Wagon INFINITE added
+-- Age IV 15 Semi-Fattened Cows added.
+-- Age III TEAM 7 Semi-Fattened Cows added
+-- Dutch Immigrants moved to Age II from I; now costs 200 wood and additionally provides +15% mine yield and +15% gather rate.
+-- Irish Immigrants Reworked: Moved to Age II from I and now costs 200 Food. Ships 3 Villagers, 1 Homstead Wagon, and improves Mill Gather rate by +20%
+-- Chinese Immigrants Reworked: Moved to Age II from I and now ships 3 Fattened Goats and provides +100% gather rate to herdables and +15% fattening rate when tasked to a livestock pen.
+-- British Immigrants Reworked: Moved to Age I from IV and now ships 2 Homestead Wagons. 
+-- French Immigrants Reworked: Now only ships 2 Coureurs (instead of 3) and provides +15% gather rate to all resources for 200 Gold.
+-- Swedish Immigrants Added: Now improved Wood chopping Gather/Yield rates by +20% and ships 4 Advanced Torps (see Dominions) for 300 Food.
+-- Spanish Immigrants: No longer lets you muster Tercios, but now provides +1 build limit to Outposts. Cost reduced to 200 Gold from 300 Food
+-- Age III Imperialism Added. Adds 4.25 gold/s trickle
+-- Age IV  TEAM Socialism Added. Adds TEAM 4.25 gold/s trickle
+-- Sheriff Reworked: Now available in Age I and additionally provides +100% damage against Mercenaries. ALL Treasure Guardians, Outlaws, and Mercenaries now yield gold when killed instead of XP.
+-- United States Army Reworked: Moved to age 2 and now provides +5% HP/ATK to all military units instead of +15% HP/ATK to some infantry. Additionally, increases autoheal rate of units by +0.25%/s
+-- Continental Rangers Reworked: now provides +25% ATK to AbstractRangedInfantry instead of +15% ATK/HP to riflemen, and now available in Age IV instead of III
+-- Buffalo Soldiers reworked: now provides +25% HP to AbstractCavalry instead of +25% ATK to Carbine Cav
+-- State Militia shipments reduced to 4/10/5 INF from 8/12/22/10 INF
+-- Regular shipments increased to 6/9/8/16 from 5/8/7/15
+-- Age IV Sharpshooter shipments decreased to 12 from 14
+-- Age II Ranged Infantry attack added (15% AbstractRangedInfantry)
+-- Age II Cavalry Hitpoints added (15% AbstractCavalry)
+-- Long Rifles reworked: Now available in the Discovery Age and enables Sharpshooters in the commerce age and increases their range by +2 (20 in commerce, 24 in Fortress+)
+-- 5 Captured Rocket Cost removed
+-- Scattershot added in Age III. Increases State Militia aoe by +1 and their aoe damage cap by +30%, but reduces their range by -2 (12 --> 10)
+-- Kovat's Legion now costs 500F/W (instead of 1000 each), but no longer enables them at Forts.
+-- 10 Carbine Cavalry in Age IV replaced with 8 Dragoons
+-- Knox Artillery Train Reworked: No longer provides free Heavy Horse Artillery. Now provides +20% HP for AbstractArtillery and -20% train time for AbstractArtillery (Rockets only get -10%)
+-- Rockets' Red Glare Shipment Added in Age IV. Increases Siege damage of Rockets and Mortars against buildings by 30% (multipliers).
+-- Massachusetts Volunteers now ships 2 State Militia and 5 Regulars instead of 5 State Militia and 4 Regulars. 
+-- Michigan Sharpshooters now costs 500 Food and Wood to ship. Now only sends 5 Trackers and 5 Sharpshooters instead of 8 each. Additionally enables you to train Trackers from the Native Embassy and researches the National Guard upgrade for Sharpshooters (Marksmen).
+-- Age III 1 Gatling Gun INF increased to 2
+-- Age III 3 Gatling Guns removed.
+-- Age IV 5 Gatling Guns added
+-- Age III TEAM 4 Texas Rangers for 800 Food added.
+-- Age IV 9 Texas Rangers INF for 1000 Food added.
+-- Age III 6 Texas Rangers for 750 Food added.
+-- Coffee Mill Guns now decreases the range of gatling guns by 4 (24 --> 20)
+-- Brass Beasts added in Age III. Increases Gatling Gun ranged armor to 0.80 from 0.75, and gives them +0.25 siege resist.
+-- TEAM 2 Gatlings in Age IV increased to TEAM 3 Gatlings
+-- Patriotism moved to Age 2 and now renamed to "Nationalism". Now only provides -25% train time for AbstractCavalry/Infantry
+-- Age I Advanced Trading Post Added. 
+-- Age III The Alamo Shipment Added. Increases Outpost build limit by +6 and Fort Build Limit by +1. When Outposts and Forts are destroyed by enemies, they spawn 2 and 8 Minutemen, respectively. 
+-- Age IV Shotgun Messengers Removed.
+-- Minutemen Companies moved to Age III from Age IV.
+-- Advanced Saloon additionally improved building work rate by +40% (~30% train time reduction) and turns them into HC shipment points. 
+-- Age IV Alaska Purchase is no longer a team shipment, and cost has been reduced to 1000 Wood from 2500 Wood. Now ships 12 Pet Polar bears instead of 6.
+-- Lewis and Clark Expedition Reworked: Now provides TEAM +15 LOS to all explorers, monks, and hero units.
+-- Minneapolis Mills now provides 2 Homestead Wagons and +30% Mill gather Rate instead of +10% and 800 Food
+-- Lumber Mills now provides +25% gather/yield rates to Wood Chopping instead of +10% chop and 400 Wood.
+-- Rum Distillery Replaced with Bourbon Distillery: provides +30% gather rate to Estates and a Turkey Scout.
+-- Furrier now provides +20% Hunt/25% berry rates and +10%/15% Hunt/Berry yields
+-- Textile Mills now provides +35% gather rate on Estates.
+-- Cigar Roller replaced with Royal Mint (buffed to +30% gold rate)
+-- Spice Trade provides +25% Hunt/Berry rates and +15% yield to both.
+-- Refrigeration improved to +25% food gather rate.
+-- Silversmith improved to +25% mine yield/gather rates.
+-- Ironmonger improved to +30% mine gather rate. 
+-- Exotic Hardwoods improved to +30% chopping gather rate.
+-- Sawmills improved to +20% chopping gather/yield rates.
+-- Whale Oil improved to +35% Whale gather rate.
+-- Rendering Plant improved to +35% Whale/Fish gather rates
+-- Fish Market improved to +30% Whale/Fish rates.
+-- Marines Reworked: Moved to Age IV from III and provides an Ironclad with 6 Regulars in it, alongside increasing Ironclad build limit by +1.
+-- Hulks reworked: Now provides +0.10 armor to Ironclads and Steamers (0.75 RR --> 0.85) and changes their cost to be only gold (500W/600G for Ironclads --> 1000 Gold, 250W/650G for Steamers --> 750 Gold)
+-- Oneida Support now replaces all other native shipments. Costs 500F/W and ships 5 Mantlets and 6 Rams in age III.
+-- 7 Comanchero (Cowboys), 10 Pistolero (Gunslinger) added in Age II for 500 gold. 
+-- 10 Renegado (Owlhoot) added in Age III for 500 gold.
+-- Bandit Gang (19 Random Outlaws) added in Age IV for 500 gold.
+-- Bandit Gang INF (14 Random Outlaws) added in Age IV for 500 gold.
+-- Oklahoma Black Mesa Reworked: Now an age 3 shipment that sends 10 Pistolero (Gunslinger) and 12 Pet Cougars and lets you retrain Cougars from your TC, General, and Gunslingers.
+-- Age IV 5 Napoleon Guns for 1000 gold added 
+-- Age III 9 Scottish Highlanders replaced with Age IV 12 Fusiliers
+-- Age IV 10 Fusiliers INF added
+-- Age III 9 Zouave for 1000 gold added
+- Age IV 5 Napoleon Guns for 1000 gold added 
+-- Age III 9 Scottish Highlanders replaced with Age IV 12 Fusiliers
+-- Age IV 10 Fusiliers INF added
+-- Age III 9 Zouave for 1000 gold added
+-- Age II Road Agents Added. Improved Outlaw ATK/HP by +20% and increases Renegado (Owlhoot) range by +2 (18 --> 20)
+
+
+Federal Shipment Changes:
+-- Plymouth Settlers: Now provides a Turkey Scout instead of a Native Scout and +10% Food Gather rate instead of 300 Food.
+-- Virginia General Assembly no longer provides a free upgrade. Instead, Consitutions, Oregon Trails, and Statehood have -40% cost/research time, and all other techs there (except Spies/Blockade) have -10% cost/research time instead.
+-- Culpeper Minutemen Reworked: Now takes 20 seconds to arrive instead of 5. Whenever a house is built or destroyed by an enemy, spawn 1 minuteman. Minutemen still have a slower drain on HP.
+-- Tammany Festival renamed to Tuscarora Allies and now allies USA with Haudenosaunne Native instead of Cree.
+-- Textile Mills no longer reduces the cost of Settlers, now reduces train time on fishing boats by -30%, their cost by -30 Wood (increased from -20), and increases their speed by +0.5
+-- French Canadians Reworked: Now costs 250 Gold and ships 5 Coureurs and 5 Elite Trackers.
+-- Indiana Mobilization now ships Dragoons instead of Carbine Cavalry.
+-- New Hampshire Manufacturing Reworked: Now increases Factory hitpoints and gather rates by +30%.
+-- Indiana Mammoth Improvement Act Reworked: Now costs 400 gold and ships 2 Homestead Wagons. Increases the build bounty of all buildings by +100%. This bonus is retroactive and will give you XP for all buildings you've made until this shipment arrives.
+-- Overmountain Settlers no longer improved ranged attack of villagers; instead it provides +0.25 speed and +4 LOS (alongside yield)
+-- Watauga Association now costs 250 Food and ships 1 Coureur and 1 State Militia instead of 2 State Militia.
+-- Kentucky Hunters cost increased to 800 Wood. Now additionally provides 2 free Deer per shipment count.
+-- Moultrie's Militia: Now provided 6 state militia instead of 12, lets them build military buildings and lets them place a flag
+-- California Gold Rush Reworked: Now provides a gold prospector wagons an 8 Swedish Miners.
+-- Land of Lincoln Reworked: In addition to increasing Inspiring Flag LOS, it lets you build a second one and ships an additional General.
+-- Deer Steele Plow improved to +25% Mill/Estate gather rate from +10%
+-- Bushnell's Sapper Corps reworked: Now costs 400 gold and ships an Ironclad with 4 Nitro Petards on it.
+-- Hamilton's Own: Now only ships 4 Lil' Bombards.
+-- Texan Forts Reworked: Now ships 2 Fort Wagons and increases Fort Build Limit by +2.
+-- Seminole Ponies renamed to Florida Cracker Horses; now provides +20% HP/ATK to AbstractHeavyCavalry instead of 15% to AbstractHandCavalry
+-- Florida Cowhunters now provides Fattened Cows instead of Semi-Fattened Cows
+-- Philadelphia Convention unit shipments reworked: Now ships 5 Texas Rangers for 700 Food and 12 'Nade Launcher Grenadiers for 750F/750W. Philadelphia Pound replaced with Guerrillas: +20% Infantry Attack, -25% Infantry HP
+-- Bear Flag Revolt no longer provides 7 Grizzlies with the flag. Instead, it ships 10 Black Bears and 10 Grizzlies.
+-- New Jersey Seaports Reworked: Now reduces shipment time by 50% and causes all shipments (including itself) to send an additional 2 XP crates.
+-- Morris Canal: No longer has reduced shipment time, but now provides 2 additional Homestead Wagons
+-- Marrion's Diversions Reworked: Now provides +5% speed to Gatling Guns and lets them be stealthy
+
+Aztec:
+
+Civ Bonus Changes:
+-- Now starts with +5% gather rate on Farms/Estates by default.
+-- War Chief can now build a single Great Temple in the Industrial Age
+-- Aztec can now build a single Nobles' Hut in the commerce age (but it cannot train any units), this is increased by +6 on the Fortress Age (same as regular cap.
+
+Building Changes:
+
+Great Temple: Industrial Age building that generates a large trickle of Gold over time. Can only be built by your War Chief.
+-- Cost: 500 Food/Wood/Gold
+-- Build Time: 60 Seconds
+-- HP: 4500
+-- Trickle: 7.5 Gold/s while alive
+-- Age: IV
+
+Tribal Council Changes:
+-- Shaman: Instead of providing a HP/Damage bonus to war/noble huts, now provides Warrior Priests. +1 in the Commerce/Fortress Ages, and +2 in the Industrial/Imperial Ages. Industrial/Imperial upgrades provide +10/15% work rate to the Community Plaza as well.
+-- Chief: Now additionally provides 2/5/9/12 Pet Janey Jaguars.
+-- Warrior: Skull Knights additionally have +15%/25%/40% faster train time.
+
+Unit Changes:
+
+Jaguar Prowl Knight - Now a melee skirmisher, similar to an Urumi, but without AOE. Rebalanced to new unit class
+-- HP: Reduced to 210 from 240
+-- Siege: Lowered to 30 from 36
+-- Melee: Changed to ranged damage from melee
+-- Armor: Improved to 20% Ranged from 10% melee
+-- Multipliers: 2x AbstractCavalry/AbstractLightInfantry changed to a 0.75x penalty for each. 3.0x AbstractLightCavalry and 2.5x xpEagleKnight added.
+-- AbstractHeavyInfantry unit tag removed.
+
+Skull Knight - Now a mini-cuirassier and is classified as Hand Shock Infantry.
+-- Armor: Changes from 20% melee to 20% ranged
+-- Multipliers: All multipliers removed (no penalties/strengths vs. any unit type now)
+-- Speed: Increased to 6.25 from 4
+-- Siege: Reduced to 20 from 72
+-- AbstractInfantry and AbstractHeavyInfantry unit tags replaced with AbstractLightInfantry and AbstractCoyoteMan
+-- Damage Cap: Reduced to 45 from 68
+
+Eagle Runner Knight:
+-- Armor: Reduced to 20% from 30%
+-- Multipliers: 1.5x AbstractArtillery added.
+-- Speed: Increased to 6.25 from 6.0
+
+Coyote Runner:
+-- 1.5x AbstractArtillery added.
+
+Puma Spearman: 
+-- Cost reverted to 50F/50G from 45/45
+-- AbstractSiegeTrooper added.
+-- HP reverted to 135 from 125
+-- Siege increased to 50 from 41
+
+
+Arrow Knight:
+-- Cost: Increased to 30F/120G from 50F/75G
+-- HP increased to 160 from 150
+-- Armor: 50% siege resist added (this is effectively the same as now, as artillery have a hidden penalty, which has been removed)
+-- Movement Speed: increased to 4.0 from 3.75
+-- 0.75x AbstractCavalry/AbstractLightInfantry added.
+-- Siege: Increased to 50 from 36
+
+Shipment Changes:
+-- 1000 Gold INFINITE increased to 1200 (IV)
+-- 12 Native Villagers added (IV)
+-- 5 Warrior Priests added (III)
+-- Smoking Mirror increased to +40% speed from +25% (III)
+-- High Priest of Ixtilton reverted to Legacy Status. (I)
+-- 5 Coyote Runners increased to 6 (II)
+-- 15 Coyote Runners increased to 16 (IV)
+-- 8 Otonin Slingers is now infinite (II)
+-- 9 Otoninin Slingers increased to 10 (II)
+-- 7 Puma Spearmen decreased to 6 (II)
+-- 9 Eagle Runner Knights increased to 10 (IV)
+-- 8/9 Jaguar Prowl Knights removed due to being redundant (IV)
+-- 6 Arrow Knight INF increased to 7 (IV)
+-- Ruthlessness moved to age II
+-- War Hut Training (II) replaced with Riding School (II) - -40% train time for Coyote Runners and ERKs
+-- Scorched Earth now additionally affects Skull Knights (IV)
+-- 2 Nobles' Hut travois now additionally increases their HP by 20% (III)
+-- 3 Nobles' Hut travois removed. (IV)
+-- 4 Nobles' Hut travois now additionally increases their HP by 25% (IV)
+-- Sustainable Agriculture removed (II)
+-- Chinampa increased to +15% food/gold on Farms/Estates from +10% (II)
+-- Great Chinampa increased to +25% food/gold on Farms/Estates from +20% (IV)
+-- Agrarian Ways now instantly techs all improvements instead of making them free (III)
+-- Temple of Coatlicue Support now additionally enables area damage for Arrow Knights (1 AoE) (III)
+-- Tlacalhuazcahuitl added. Equips Otonin Slingers with Blowguns with poisoned arrows that deal DOTs. 15 damage, 16 range, same multipliers, 3.0 ROF, 4 second DOT for 1 damage/s (NOTE: this is affected by the Temple shipment and increases their range to 18) (III)
+-- Temple of Huitzilopochtli reworked: No longer increases Skull Knight speed. Now unlocks Obsidian Storm ability and additionally increases their AOE by 1 and Damage cap by 30%. (IV)
+-- Temple of Xolotol now additionally increases villager build rate by +25%. (III)
+-- Temple of Tezcatlipoca cost reduced to 1000 gold from 1500. Pet Janey HP/ATK buff increased to +50% from +35% (IV)
+-- New Ways added (II)
+  -- Unlocks Military Drummers, Counter Infantry Rifling, and Infantry Breastplate
+  -- Unlocks 2 wood trickle shipments (1.25/s, 2.35/s for 150F/150G and 350F/350G in age I/II) and Cacao Cultivation (600F/W  for +30% Estate work rate in age IV)
 
