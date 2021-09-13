@@ -5587,6 +5587,9 @@
       <effect type="Data" amount="1.00" subtype="BountyResourceOverride" unittype="AbstractOutlaw" resource="Gold" relativity="Assign">
         <target type="Player"/>
       </effect>
+      <effect type="Data" amount="1.00" subtype="BountyResourceOverride" unittype="Guardian" resource="Gold" relativity="Assign">
+        <target type="Player"/>
+      </effect>
       <effect type="Data" amount="1.00" subtype="BountyResourceOverride" unittype="AbstractMercenary" resource="Gold" relativity="Assign">
         <target type="Player"/>
       </effect>
@@ -7213,7 +7216,7 @@
     <dbid>7211</dbid>
     <displaynameid>110484</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
-    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Wood">1000.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\americans\alaska_purchase.png</icon>
@@ -10098,7 +10101,7 @@
       </effect>
     </effects>
   </tech>
-  <tech name="DEImperialOutlawShadow" type="Normal">
+  <tech mergeMode='replace' name="DEImperialOutlawShadow" type="Normal">
     <dbid>7234</dbid>
     <researchpoints>0.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -10382,6 +10385,30 @@
     <effects>
       <effect type="Data" amount="-50.00" subtype="ResearchPoints" relativity="Absolute">
         <target type="techWithFlag">AgeUpgrade</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCGatlingGunArmor" type="Normal">
+    <dbid>9536</dbid>
+    <displaynameid>260043</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\armor_plates.png</icon>
+    <rollovertextid>260044</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="0.05" subtype="ArmorSpecific" newtype="Ranged" relativity="Absolute">
+        <target type="ProtoUnit">xpGatlingGun</target>
+      </effect>
+      <effect type="Data" amount="0.25" subtype="ArmorSpecific" newtype="Siege" relativity="Absolute">
+        <target type="ProtoUnit">xpGatlingGun</target>
+      </effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
       </effect>
     </effects>
   </tech>

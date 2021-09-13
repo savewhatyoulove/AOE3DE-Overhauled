@@ -583,6 +583,7 @@ Shipment Changes:
 -- Spanish Immigrants: No longer lets you muster Tercios, but now provides +1 build limit to Outposts. Cost reduced to 200 Gold from 300 Food
 -- Age III Imperialism Added. Adds 4.25 gold/s trickle
 -- Age IV  TEAM Socialism Added. Adds TEAM 4.25 gold/s trickle
+-- Sheriff Reworked: Now available in Age I and additionally provides +100% damage against Mercenaries. ALL Treasure Guardians, Outlaws, and Mercenaries now yield gold when killed instead of XP.
 -- United States Army Reworked: Moved to age 2 and now provides +5% HP/ATK to all military units instead of +15% HP/ATK to some infantry. Additionally, increases autoheal rate of units by +0.25%/s
 -- Continental Rangers Reworked: now provides +25% ATK to AbstractRangedInfantry instead of +15% ATK/HP to riflemen, and now available in Age IV instead of III
 -- Buffalo Soldiers reworked: now provides +25% HP to AbstractCavalry instead of +25% ATK to Carbine Cav
@@ -607,6 +608,7 @@ Shipment Changes:
 -- Age IV 9 Texas Rangers INF for 1000 Food added.
 -- Age III 6 Texas Rangers for 750 Food added.
 -- Coffee Mill Guns now decreases the range of gatling guns by 4 (24 --> 20)
+-- Brass Beasts added in Age III. Increases Gatling Gun ranged armor to 0.80 from 0.75, and gives them +0.25 siege resist.
 -- TEAM 2 Gatlings in Age IV increased to TEAM 3 Gatlings
 -- Patriotism moved to Age 2 and now renamed to "Nationalism". Now only provides -25% train time for AbstractCavalry/Infantry
 -- Age I Advanced Trading Post Added. 
@@ -614,7 +616,7 @@ Shipment Changes:
 -- Age IV Shotgun Messengers Removed.
 -- Minutemen Companies moved to Age III from Age IV.
 -- Advanced Saloon additionally improved building work rate by +40% (~30% train time reduction) and turns them into HC shipment points. 
--- Age IV Alaska Purchase is no longer a team shipment, and cost has been reduced to 1000 Gold from 2500 Wood. Now ships 12 Pet Polar bears instead of 6.
+-- Age IV Alaska Purchase is no longer a team shipment, and cost has been reduced to 1000 Wood from 2500 Wood. Now ships 12 Pet Polar bears instead of 6.
 -- Lewis and Clark Expedition Reworked: Now provides TEAM +15 LOS to all explorers, monks, and hero units.
 -- Minneapolis Mills now provides 2 Homestead Wagons and +30% Mill gather Rate instead of +10% and 800 Food
 -- Lumber Mills now provides +25% gather/yield rates to Wood Chopping instead of +10% chop and 400 Wood.

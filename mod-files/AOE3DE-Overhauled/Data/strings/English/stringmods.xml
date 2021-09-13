@@ -170,9 +170,9 @@
 	    <string _locid="103313">The Fulani town of Gwandu sends 9 Fulani Archers and 4 Lifidi Knights.</string>
 	    <string _locid="103347">Receive a shipment of 4 Villagers for each Palace you currently have built.</string>
 	    <string _locid="110001" symbol="cStringCivRolloverAmericans">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nFederal states unlock two new cards per age and two Factory cards in Industrial Age. Shipments are earned more quickly and you receive a free XP crate with most shipments. Economic improvements from the Home City are more powerful, but you have a lower Settler build limit and cannot ship resource crates. Generals can build Forts instead of Town Centers. Levies can be called repeatedly from multiple buildings with a global cooldown. Military units slowly heal over time outside of combat. Starts with a Fattened Sheep, an XP crate, and a Homestead Wagon instead of resource crates. \n&lt;color=1.0, 1.0, 0.0&gt;National guard units: &lt;/color&gt;Sharpshooters (Marksmen), Spur Riders (Rough Riders)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nTexas Ranger, Gatling Gun, Ironclad, Minuteman, Regular, Sharpshooter, Sloop, State Militia, Spur Rider, Steamer\n\nThe "land of opportunity" provided ample land for Settlers to plunder, creating the famous melting pot of Western European identities. Expanding from militia forces skilled in skirmishing tactics and marksmanship to a professional army, the United States of America ensured its independence and impressive road to prosperity for the owner class.</string>
-	    <string _locid="110009">Skirmisher with a powerful short-ranged splash attack.</string>
+	    <string _locid="110009">Hardy Skirmisher with a powerful short-ranged splash attack.</string>
 	    <string _locid="110013">Fragile skirmisher with a slow, but powerful long-ranged attack. Good against infantry.</string>
-	    <string _locid="110017">Fragile heavy ranged infantry with greater range, melee armor, ranged damage, and speed than other Musketeers. Armed with a bayonet to beat cavalry.</string>
+	    <string _locid="110017">Fragile Musketeer with a powerful ranged attack. Armed with a bayonet to beat cavalry.</string>
 	    <string _locid="110018">Texas Ranger</string>
 	    <string _locid="110019">CAV Texas Ranger</string>
 	    <string _locid="110020">Imperial Hulk</string>
@@ -252,14 +252,14 @@
 	    <string _locid="110376">When destroyed by enemies, your Forts spawn 8 Minutemen and your Outposts spawn 2 Minutemen. Additionally, you can construct more Outposts and an additional Fort.</string>
 	    <string _locid="110378">Ships 1 Gold Prospector Wagon and 8 Miners.</string>
 	    <string _locid="110384">Uprising! Delivers an army of Pet Bears and Villagers become Revolutionaries.</string>
-	    <string _locid="110409">Improves your United States General in combat, and makes him deadly to Mercenaries, Outlaws, and Treasure Guardians. Additionally, Enemy Mercenaries and Outlaws now yield Gold instead of XP when killed.</string>
+	    <string _locid="110409">Improves your United States General in combat, and makes him deadly to Mercenaries, Outlaws, and Treasure Guardians. Additionally, Treasure Guardians and enemy Mercenaries and Outlaws now yield Gold instead of XP when killed.</string>
 	    <string _locid="110411">Ships 12 Texas Rangers.</string>
 	    <string _locid="110412">Walker's Rangers</string>
 	    <string _locid="110413">Increases the range of Sharpshooters and enables them to be trained in the Commerce Age.</string>
 	    <string _locid="110415">Greatly increases the attack of ranged infantry.</string>
 	    <string _locid="110417">Greatly increases the hitpoints of cavalry.</string>
 	    <string _locid="110419">Ships an Ironclad containing Regulars. Enables an additional Ironclad to be constructed.</string>
-	    <string _locid="110431">Ships 10 Magyar Hussars.</string>
+	    <string _locid="110431">Ships 8 Magyar Hussars.</string>
 	    <string _locid="110451">Saloons train units more quickly and now act as Home City shipment points. Additionally, Saloons support 25 population and can be constructed in the Exploration Age. Saloon Build Limit increased by 2 and Military Wagons can now build Saloons.</string>
 	    <string _locid="110453">Villagers gather wood faster and trees last longer.\n • Villager: Gather Work Rate for Tree and Grove +25%; Tree Yield +25%</string>
 	    <string _locid="110455">Delivers 2 Homestead Wagons. Villagers gather food from Mills faster.\n • Villager: Gather Work Rate for Mill, Farm, Rice Paddy, Field +30%</string>
@@ -421,6 +421,9 @@
 	    <string _locid="260040">Delivers 5 Homestead Wagons, which transform into Mills, Estates, Houses, Docks, Markets, or Livestock Pens</string>
 	    <string _locid="260041">TEAM 4 Texas Rangers</string>
 	    <string _locid="260042">Delivers a Wild Turkey Scout. Also, Villagers gather Coin from Estates and Rice Paddies faster.</string>
+	    <string _locid="260043">Brass Beasts</string>
+	    <string _locid="260044">Gatling Guns gain additional ranged and siege armor.</string>
+
 	</Language>
   </StringTable>
 </stringmods>
