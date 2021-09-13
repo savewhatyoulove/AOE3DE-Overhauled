@@ -382,8 +382,7 @@ Shipment Changes:
 -- Snaplocks now provides +2 range for Caroleans (down from +3), +2 range for Karabiniers (from +1) and increased their AbstractLightCavalry and Eagle Runner Knight multipliers +0.4x (1.8x net)
 -- TEAM Heavy Infantry HP (Age II) removed
 -- Hand Infantry / Hand Cavalry HP (Age II) turned into TEAM Hand Infantry / Hand Cavalry HP (i.e. a team buff)
--
-Controller 0 mapping uses xinput : false- Hand Infantry / Hand Cavalry Combat (Age III) added 
+-- Hand Infantry / Hand Cavalry Combat (Age III) added 
 -- Engelsburg Ironworks reworked:
   -- Now buffs Miner gather rate on mines by +30% and their yield rate by +20%.
   -- Additionally ships a prospector wagon
