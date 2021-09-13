@@ -299,7 +299,7 @@ Settler built limit reduced to 60 from 99.
 
 New Unit: Miner, a hardy settler that gathers coin exceptionally quickly, but is worse at all other natural resources. Armed with grenades to fend off infantry, but vulnerable to cavalry raids. Builds defensive buildings more quickly.
 Stats: 
-Unit Tags: AbstractVillager, AbstractInfantry
+Unit Tags: AbstractVillager
 HP: 150
 Armor: 40 Ranged
 Speed: 4.0
@@ -317,16 +317,26 @@ Surstromming Crates:
 -- Build limit removed (TCs have a 30 crate limit each in general) 
 
 Carolean:
-Speed: Reduced to 4.0 from 4.25
-Cost: Increased to 40F/60G from 60F/40G
+Speed: Increased to 4.5 from 4.25
+Hitpoints: Reduced to 140 from 150
+LOS: Increased to 16 from 14
+Cost: Increased to 40F/70G from 60F/40G
+Unit Tags: AbstractHeavyInfantry removed, AbstractRifleman added.
 Carolean Chage: Cooldown reduced to 75 seconds from 90 and now provides +1.5 speed instead of +1.0, but duration reduced to 6 seconds
-Melee Attack: Increased to 20 from 19; 1.5x AbstractCavalry, 2.5x AbstractHeavyInfantry (1.5x net), 1.5x AbstractLightInfantry added. AbstractInfantry penalty increased to 0.6x from 0.8x
+Melee Attack: Reduced to 16 from 19; Standard skirmisher multipliers added
+Ranged Attack: Reduced to 17 w/3.0 ROF and 14 range; Standard skirmisher multiplier replace existing ones.
+Siege: Reduced to 15 from 20
 Ranged Attack: Reduced to 20/3.0 ROF from 19/2.5 ROF, 1.5x AbstractHeavyInfantry multiplier added.
 
 Leather Cannon:
+Now an Age 3 Unit
+HP: Increased to 200 from 170
+Cost: Reduced to 100F/100W from 300F/100W
 Speed: Increased to 3.25 from 3.00
 Range: Increased to 22 from 21
-Upgrades: Now only gains +0.25 speed with (imperial) infantry guns up to a max of 3.75 (from 4.0)
+Cannon Attack: Improved to 120 from 40 (Damage cap is 240). 6x Buildings and 2x Ships added.
+Like Petards, Leather Cannons now die after attacking (they are suicide units).
+Upgrades: Now shadowtech for free.
 
 New Unit: Karabinier (mounted skirmisher)
 Cost: 70F/100G
