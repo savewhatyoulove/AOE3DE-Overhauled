@@ -100,6 +100,7 @@ public class wizard extends JFrame implements ActionListener
 		//method to see what OS the user is on. Due to AoE3 being deprecated on MacOS, it's not a supported platform. And given that the game is no longer sold in retail stores, only Steam is being currently supported for now
 		String thisOS = System.getProperty("os.name"); 
 		String home = System.getProperty("user.home");
+		System.out.println("User's home directory path is: " + home);
 		//There is a unique numerical id, a "common" folder, and a "logs" folder that we will be storing.
 
 		if (thisOS.contains("Windows") || thisOS.contains("windows"))
