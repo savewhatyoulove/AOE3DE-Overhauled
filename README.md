@@ -2,7 +2,9 @@
 
 This mod is a work-in-progress comprehensive balance overhaul for Age of Empires 3: Definitive Edition. It seeks to rebalance every civilization by including new units and techs to make them more unique, alongside applying necessary balance changes and nerfs. 
 
-The included mod manager allows you to install and manage AOE3:DE Overhauled from outside of the game, without the need to restart. This application requires Java 8 to be installed to run and works on Linux and Windows (MacOS is not a supported). If you are running this on a linux distro with a unique desktop environment/standalone window manager like BSPWM or Xmonad, you will need to install wmname from your package manager and add "wmname LG3D" to your config file (or run it via the terminal) or else the application will not display anything. 
+The included mod manager allows you to install and manage AOE3:DE Overhauled from outside of the game, without the need to restart. This application requires at least Java 8 to be installed to run and works on Linux and Windows (MacOS is not a supported). The Default Installer (Installer.jar) has been built with Java 16 and the legacy Installer (Installer-JDK8.jar) has been built with Java 8 for compatibility purposes and is designed for older desktops. Both have identical UIs and functionality. 
+
+If you are running this on a linux distro with a unique desktop environment/standalone window manager like BSPWM or Xmonad, you will need to install wmname from your package manager and add "wmname LG3D" to your config file (or run it via the terminal) or else the application will not display anything. 
 
 <img
 src="https://github.com/SquidTheSid/AOE3DE-Overhauled/blob/master/Aoe3DEInstaller.png">
@@ -33,7 +35,7 @@ install the mod.
 
 Linux: this should be $HOME/.local/share/Steam/steamapps/compatdata/933110/pfx/drive_c/users/steamuser/Games/Age of Empires 3 DE/(16 Digit Unique Numeric ID)/mods/local
 
-Windows: %USERPROFILE%\Games\Age of Empires 3 DE\ (16 Digit Unique Numeric ID)\mods\local 
+Windows: %USERPROFILE%\Games\Age of Empires 3 DE\(16 Digit Unique Numeric ID)\mods\local 
 
 
 <b>License:</b>
