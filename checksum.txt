@@ -1,3 +1,4 @@
 This is the sha256 checkshum for the Installer, you can run sha256sum on the Installer to see if it matches. 
 
 0ad5d2d79a19a7ee9d7c45b004b023889db08a1bbe82b6ff31d76fd6bc70c193  Installer.jar
+3b7ea12c076b46afe8556a3e4a27e481d2c79759f0dd29dbf66616a83301b14a  Installer-JDK8.jar
