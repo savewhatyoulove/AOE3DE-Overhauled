@@ -3,6 +3,10 @@
     <Language name="English">
 	    <string _locid="31143">Elite villager</string>
 	    <string _locid="31144">Hardy villager that gathers coin quickly, but other natrual resources more slowly. Armed with dynamite for a powerful splash attack. Good against infantry but weak against cavalry.</string>
+	    <string _locid="33519">Great Temple</string>
+	    <string _locid="33520">Great Temple of the Aztecs. Generates a large trickle of Gold over time.</string>
+	    <string _locid="33521">Aztec Temple</string>
+	    <string _locid="33523">SPC Aztec temple</string>
 	    <String _locid="34666">Cheap scout building with no attack.</String>
 	    <String _locid="34667">Jungle Outpost</String>
 	    <String _locid="34671">Jungle Outpost</String>
@@ -12,8 +16,26 @@
 	    <string _locid="35000">Town Center attack increased, and you receive a shipment of 6 Minutemen for each Town Center and Fort you have built. This shipment arrives more quickly.</string>
 	    <string _locid="35308">Longbowman range increased and they deal increased damage to Heavy Infantry.</string>
 	    <string _locid="35506">Crates of 400 Food</string>
+	    <string _locid="35719">Chests of 1,200 Coin</string>
 	    <string _locid="35870">12 Grenadiers</string>
 	    <string _locid="36334">TEAM Dragoons can be trained in the Commerce Age. Also benefits Ruyters, Cavalry Archers, Rifle Riders, Musket Riders, Yabusame. For Indian, Aztec, Inca, Swedish and Chinese allies, it makes Zamburaks, Eagle Runner Knights, Bolas Warriors, Black Riders and the 'Ming' and 'Mongolian' Banner Armies train slightly faster.</string>
+	    <string _locid="44079">Improves your War Chief in combat and enables him to train Pet Jaguars.</string>
+	    <string _locid="44142">Hand Skirmisher</string>
+	    <string _locid="44143">Stealthy noble armed with an obsidian sword. Good against light cavalry and heavy infantry.</string>
+	    <string _locid="44225">6 Coyote Runners</string>
+	    <string _locid="44227">16 Coyote Runners</string>
+	    <string _locid="44239">10 Otontin Slingers</string>
+	    <string _locid="45082">2 Pet Jaguars, Better War Chief Strike attack and improves the War Chief's hitpoints by 20%.</string>
+	    <string _locid="45084">4 Pet Jaguars, Better War Chief Strike attack and improves the War Chief's hitpoints by 30%.</string>
+	    <string _locid="45086">7 Pet Jaguars, Better War Chief Strike attack and improves the War Chief's hitpoints by 40%.</string>
+	    <string _locid="45088">12 Pet Jaguars, Best War Chief Strike attack and improves the War Chief's hitpoints by 50%.</string>
+	    <string _locid="45090">1 Warrior Priest and 1 War Hut Travois.</string>
+	    <string _locid="45100">3 Skull Knights; -10% Skull Knight Train Time.</string>
+	    <string _locid="45102">5 Skull Knights; -25% Skull Knight Train Time.</string>
+	    <string _locid="45104">8 Skull Knights; -40% Skull Knight Train Time.</string>
+	    <string _locid="45125">1 Warrior Priest and 2 Nobles Hut Travois.</string>
+	    <string _locid="45127">2 Warrior Priests, 2 Nobles Hut Travois, and +5% Community Plaza Work Rate.</string>
+	    <string _locid="45129">3 Warrior Priests, 3 Nobles Hut Travois, and +10% Community Plaza Work Rate.</string>
 	    <string _locid="60806">Powerful Indian heavy musket infantry that has a large bonus versus cavalry at melee.</string>
 	    <string _locid="72560">15 Semi-fattened Cows</string>
 	    <string _locid="79923">Ages up very fast and allows Jungle Outposts to receive shipments</string>
@@ -425,7 +447,7 @@
 	    <string _locid="260042">Delivers a Wild Turkey Scout. Also, Villagers gather Coin from Estates and Rice Paddies faster.</string>
 	    <string _locid="260043">Brass Beasts</string>
 	    <string _locid="260044">Gatling Guns gain additional ranged and siege armor.</string>
-
+	    <string _locid="260045">5 Warrior Priests</string>
 	</Language>
   </StringTable>
 </stringmods>

@@ -10533,5 +10533,621 @@
       </effect>
     </effects>
   </tech>
+  <!-- Aztec Changes --> 
+  <tech mergeMode='replace' name="Age0XPAztec" type="Normal">
+    <dbid>2750</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpIroquoisWarChief</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpMacehualtin</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="TechStatus" status="active">AANativeStartingTechs</effect>
+      <effect type="TechStatus" status="obtainable">ChampionJaguarKnight</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Sheep</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HouseAztec</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">EliteMacehualtins</effect>
+      <effect type="TechStatus" status="obtainable">ChampionMacehualtins</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpSkullKnight</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">SettlerNative</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Farm</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">ImpLegendaryEagleKnights</effect>
+      <effect type="TechStatus" status="obtainable">ImpLegendaryMacehualtins</effect>
+      <effect type="TechStatus" status="obtainable">ImpLegendaryArrowKnights</effect>
+      <effect type="TechStatus" status="obtainable">ChampionArrowKnight</effect>
+      <effect type="TechStatus" status="obtainable">ChampionCoyotemen</effect>
+      <effect type="TechStatus" status="obtainable">ImpLegendaryJaguarKnights</effect>
+      <effect type="TechStatus" status="obtainable">ElitePumaMen</effect>
+      <effect type="TechStatus" status="obtainable">ImpLegendaryPumaMen</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">WarHut</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">TradingPost</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Dock</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Market</target>
+      </effect>
+      <effect type="TechStatus" status="active">XPTrickle</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpCoyoteMan</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Shrine</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">FishingBoat</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">ChampionEagleKnight</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpMedicineManAztec</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpPumaMan</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpArrowKnight</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpJaguarKnight</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpEagleKnight</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Canoe</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">ChampionPumaMen</effect>
+      <effect type="TechStatus" status="obtainable">EliteCoyotemen</effect>
+      <effect type="TechStatus" status="obtainable">ImpLegendaryCoyoteMen</effect>
+      <effect type="TechStatus" status="obtainable">StrongWarHut</effect>
+      <effect type="TechStatus" status="obtainable">MightyWarHut</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpWarCanoe</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpTlalocCanoe</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">NoblesHut</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">XPAztecSwashbucklerShadow</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpAztecWarchief</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deEagleScout</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">TribalAztecYouth2</effect>
+      <effect type="TechStatus" status="obtainable">TribalAztecYouth3</effect>
+      <effect type="TechStatus" status="obtainable">TribalAztecYouth4</effect>
+      <effect type="TechStatus" status="obtainable">TribalAztecYouth5</effect>
+      <effect type="TechStatus" status="obtainable">TribalAztecWisewoman2</effect>
+      <effect type="TechStatus" status="obtainable">TribalAztecWisewoman3</effect>
+      <effect type="TechStatus" status="obtainable">TribalAztecWisewoman4</effect>
+      <effect type="TechStatus" status="obtainable">TribalAztecWisewoman5</effect>
+      <effect type="TechStatus" status="obtainable">TribalAztecWarrior2</effect>
+      <effect type="TechStatus" status="obtainable">TribalAztecWarrior3</effect>
+      <effect type="TechStatus" status="obtainable">TribalAztecWarrior4</effect>
+      <effect type="TechStatus" status="obtainable">TribalAztecWarrior5</effect>
+      <effect type="TechStatus" status="obtainable">TribalAztecShaman3</effect>
+      <effect type="TechStatus" status="obtainable">TribalAztecShaman4</effect>
+      <effect type="TechStatus" status="obtainable">TribalAztecShaman5</effect>
+      <effect type="TechStatus" status="obtainable">TribalAztecShaman2</effect>
+      <effect type="TechStatus" status="obtainable">TribalAztecChief2</effect>
+      <effect type="TechStatus" status="obtainable">TribalAztecChief3</effect>
+      <effect type="TechStatus" status="obtainable">TribalAztecChief4</effect>
+      <effect type="TechStatus" status="obtainable">TribalAztecChief5</effect>
+      <effect type="Data" action="SpawnAztecDude" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">CommunityPlaza</target>
+      </effect>
+      <effect type="Data" amount="1.00" tactic="WarChiefDanceAztec" subtype="TacticEnable" relativity="Absolute">
+        <target type="ProtoUnit">CommunityPlaza</target>
+      </effect>
+      <effect type="Data" amount="1.00" tactic="GiftDance" subtype="TacticEnable" relativity="Absolute">
+        <target type="ProtoUnit">CommunityPlaza</target>
+      </effect>
+      <effect type="Data" amount="1.00" tactic="FertilityDance" subtype="TacticEnable" relativity="Absolute">
+        <target type="ProtoUnit">CommunityPlaza</target>
+      </effect>
+      <effect type="Data" amount="1.00" tactic="GarlandWarDance" subtype="TacticEnable" relativity="Absolute">
+        <target type="ProtoUnit">CommunityPlaza</target>
+      </effect>
+      <effect type="Data" amount="1.00" tactic="HealingDance" subtype="TacticEnable" relativity="Absolute">
+        <target type="ProtoUnit">CommunityPlaza</target>
+      </effect>
+      <effect type="Data" amount="1.00" tactic="HolyDanceAztec" subtype="TacticEnable" relativity="Absolute">
+        <target type="ProtoUnit">CommunityPlaza</target>
+      </effect>
+      <effect type="Data" amount="1.00" tactic="AlarmDance" subtype="TacticEnable" relativity="Absolute">
+        <target type="ProtoUnit">CommunityPlaza</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">BigWarHutBarometz</effect>
+      <effect type="TechStatus" status="obtainable">BigNoblesHutWarSong</effect>
+      <effect type="TechStatus" status="obtainable">BigAztecScoutingParty</effect>
+      <effect type="TechStatus" status="obtainable">BigAztecRaidingParty</effect>
+      <effect type="TechStatus" status="obtainable">BigAztecWarParty</effect>
+      <effect type="TechStatus" status="obtainable">BigFarmCinteotl</effect>
+      <effect type="TechStatus" status="obtainable">BigPlantationTezcatlipoca</effect>
+      <effect type="TechStatus" status="obtainable">BigFirepitFounder</effect>
+      <effect type="TechStatus" status="obtainable">BigMarketNewYear</effect>
+      <effect type="TechStatus" status="obtainable">BigDockCipactli</effect>
+      <effect type="TechStatus" status="obtainable">BigHouseCoatlicue</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">CommunityPlaza</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpWarrior</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpBuilder</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">MightyNoblesHut</effect>
+      <effect type="TechStatus" status="obtainable">StrongNoblesHut</effect>
+      <effect type="Data" action="SpawnMedicineManAztec" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">CommunityPlaza</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">WallStraight2</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Plantation</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">WallConnector</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">WallStraight5</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">LegendarySkullKnightShadow</effect>
+      <effect type="TechStatus" status="obtainable">ChampionSkullKnightShadow</effect>
+      <effect type="TechStatus" status="obtainable">EliteSkullKnightShadow</effect>
+      <effect type="Data" amount="1.00" tactic="WarDance" subtype="TacticEnable" relativity="Absolute">
+        <target type="ProtoUnit">CommunityPlaza</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">Bastion</effect>
+      <effect type="TechStatus" status="obtainable">ImpImmigrantsNative</effect>
+      <effect type="TechStatus" status="obtainable">PlacerMines</effect>
+      <effect type="TechStatus" status="obtainable">EarthCeremony</effect>
+      <effect type="TechStatus" status="obtainable">EarthGiftCeremony</effect>
+      <effect type="TechStatus" status="obtainable">ImpExcessiveTributeNative</effect>
+      <effect type="Data" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="SettlerNative" relativity="Absolute">
+        <target type="ProtoUnit">deIconSettlerNativeAztec</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">DECapturedHowitzerShadow</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">NativeEmbassy</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">SPCAztecTemple</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">SaloonOutlawPistol</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">SaloonOutlawRider</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">SaloonOutlawRifleman</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deMercCapturedMortar</target>
+      </effect>
+      <effect type="CommandAdd" proto="SaloonOutlawPistol" page="0" column="0">
+        <target type="ProtoUnit">NativeEmbassy</target>
+      </effect>
+      <effect type="CommandAdd" proto="SaloonOutlawRider" page="0" column="1">
+        <target type="ProtoUnit">NativeEmbassy</target>
+      </effect>
+      <effect type="CommandAdd" proto="SaloonOutlawRifleman" page="0" column="2">
+        <target type="ProtoUnit">NativeEmbassy</target>
+      </effect>
+      <effect type="CommandAdd" proto="deMercCapturedMortar" page="0" column="3">
+        <target type="ProtoUnit">NativeEmbassy</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AllowedAge" relativity="Absolute">
+        <target type="ProtoUnit">AbstractOutlaw</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="deEmpireWarsWagon" relativity="Absolute">
+        <target type="ProtoUnit">xpBuilder</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="Plantation" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="TextOutput">44361</effect>
+      <effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="Mill" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.05" subtype="WorkRateSpecific" resource="Gold" unittype="ypRicePaddy" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.05" subtype="WorkRateSpecific" resource="Food" unittype="ypRicePaddy" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.10" subtype="WorkRateSpecific" resource="Gold" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.05" subtype="WorkRateSpecific" resource="Food" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
 
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="TribalAztecShaman2" type="Normal">
+    <dbid>3140</dbid>
+    <displaynameid>45091</displaynameid>
+    <cost resourcetype="Food">800.0000</cost>
+    <researchpoints>80.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_ii.png</icon>
+    <rollovertextid>45090</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age1</effect>
+      <effect type="TechStatus" status="unobtainable">TribalAztecShaman5</effect>
+      <effect type="TechStatus" status="unobtainable">TribalAztecShaman4</effect>
+      <effect type="TechStatus" status="unobtainable">TribalAztecShaman3</effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="WarHutTravois" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="xpMedicineManAztec" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="TribalAztecShaman3" type="Normal">
+    <dbid>3157</dbid>
+    <displaynameid>45126</displaynameid>
+    <cost resourcetype="Food">1200.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>105.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iii.png</icon>
+    <rollovertextid>45125</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age2</effect>
+      <effect type="TechStatus" status="unobtainable">TribalAztecShaman5</effect>
+      <effect type="TechStatus" status="unobtainable">TribalAztecShaman4</effect>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="NoblesHutTravois" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="xpMedicineManAztec" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="TribalAztecShaman4" type="Normal">
+    <dbid>3158</dbid>
+    <displaynameid>45128</displaynameid>
+    <cost resourcetype="Food">2000.0000</cost>
+    <cost resourcetype="Gold">1200.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iv.png</icon>
+    <rollovertextid>45127</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age3</effect>
+      <effect type="TechStatus" status="unobtainable">TribalAztecShaman5</effect>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="NoblesHutTravois" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="xpMedicineManAztec" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="CommunityPlaza" relativity="BasePercent">
+        <target type="ProtoUnit">xpMedicineManAztec</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="CommunityPlaza" relativity="BasePercent">
+        <target type="ProtoUnit">SettlerNative</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="TribalAztecShaman5" type="Normal">
+    <dbid>3159</dbid>
+    <displaynameid>45130</displaynameid>
+    <cost resourcetype="Food">4000.0000</cost>
+    <cost resourcetype="Gold">4000.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_v.png</icon>
+    <rollovertextid>45129</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age4</effect>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="NoblesHutTravois" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="xpMedicineManAztec" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="CommunityPlaza" relativity="BasePercent">
+        <target type="ProtoUnit">xpMedicineManAztec</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="CommunityPlaza" relativity="BasePercent">
+        <target type="ProtoUnit">SettlerNative</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="TribalAztecChief2" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="PetJaguar" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="TribalAztecChief3" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="PetJaguar" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="TribalAztecChief4" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="PetJaguar" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="TribalAztecChief5" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="PetJaguar" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="TribalAztecWarrior3" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="Data" amount="0.90" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">xpSkullKnight</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="TribalAztecWarrior4" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="Data" amount="0.75" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">xpSkullKnight</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="TribalAztecWarrior5" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="Data" amount="0.60" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">xpSkullKnight</target>
+      </effect>
+
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="FortressizeXPAztec" type="Normal">
+    <dbid>2754</dbid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\post_game\time_line_age_3.png</icon>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Fortressize</effect>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">WarDog</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="Data" amount="6.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">NoblesHut</target>
+      </effect>
+      <effect type="Data" amount="2.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief</target>
+      </effect>
+      <effect type="Data" amount="4.00" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">xpMedicineManAztec</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="HCXPCoinCratesAztec5" type="Normal">
+    <dbid>2217</dbid>
+    <displaynameid>35719</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\infinite_gold.png</icon>
+    <rollovertextid>42130</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="CrateofCoinLarge" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="CrateofCoin" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipMedicineMen3Aztec" type="Normal">
+    <dbid>9537</dbid>
+    <displaynameid>260045</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\az_priest_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="xpMedicineManAztec" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="HCXPWarChiefAztec2" type="Normal">
+    <dbid>3081</dbid>
+    <displaynameid>44717</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\Smoking_Mirror.png</icon>
+    <rollovertextid>44716</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TextOutput">48876</effect>
+      <effect type="Data" amount="1.40" subtype="MaximumVelocity" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief</target>
+      </effect>
+      <effect type="Data" action="HandAttack" amount="2.00" subtype="DamageArea" relativity="Assign">
+        <target type="ProtoUnit">xpAztecWarchief</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="HCXPWarChiefAztec1" type="Normal">
+    <dbid>2880</dbid>
+    <displaynameid>44080</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\High_Priest_Ixil.png</icon>
+    <rollovertextid>44079</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TextOutput">48877</effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">PetJaguar</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="HCXPGreatTempleTezcatlipoca" type="Normal">
+    <dbid>2976</dbid>
+    <displaynameid>44343</displaynameid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\temple_tezcatlipoca.png</icon>
+    <rollovertextid>44342</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="PetJaguar" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">PetJaguar</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">PetJaguar</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">PetJaguar</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="HCFencingSchool" type="Normal">
+    <dbid>2037</dbid>
+    <displaynameid>35148</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_fencing_school\hc_fencing_school.png</icon>
+    <rollovertextid>35147</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="0.60" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractInfantry</target>
+      </effect>
+      <effect type="TextOutput">41839</effect>
+      <effect tech="ypFreeCoinCrate400" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateSpanishGold" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="HCXPShipCoyoteMen1" type="Normal">
+    <dbid>2918</dbid>
+    <displaynameid>44225</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\az_coyote_man_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="xpCoyoteMan" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="HCXPShipCoyoteMen5" type="Normal">
+    <dbid>2920</dbid>
+    <displaynameid>44227</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\az_coyote_man_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="16.00" subtype="FreeHomeCityUnit" unittype="xpCoyoteMan" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCXPShipMacehualtins1" type="Normal">
+    <dbid>2926</dbid>
+    <displaynameid>44236</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\infinite_macehuatlin.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="xpMacehualtin" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCXPShipMacehualtins3" type="Normal">
+    <dbid>2929</dbid>
+    <displaynameid>44239</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\az_macehuatlin_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="xpMacehualtin" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
 </techtreemods>
