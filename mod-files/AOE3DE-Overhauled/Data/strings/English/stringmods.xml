@@ -241,7 +241,8 @@
 	    <string _locid="110328">Ships 14 Zouave mercenaries.</string>
 	    <string _locid="110330">Ships 4 Li'l Bombards and allows you to train them from the Saloon.</string>
 	    <string _locid="110334">Fishing Boats are cheaper, train more quickly, and move faster.</string>
-	    <string _locid="110336">All existing and newly constructed Mills and Estates spawn 2 State Militia. Mills and Estates support +5 population.</string>
+	    <string _locid="110336">Delivers 2 State Militia for each Mill and Estates you have currently built. Mills and Estates support +5 population.</string>
+	    <string _locid="110338">Estates are cheaper and have all improvements researched.\n • All coin incomes are slightly improved.</string>
 	    <string _locid="110342">Delivers 2 Homestead Wagons and buildings grant double XP when built. This bonus is retroactive for all buildings you have constructed this game.</string>
 	    <string _locid="110344">Ships an additional Dragoon for each shipment you have sent so far this game. All units and technologies train and research slightly faster (+10%).</string>
 	    <string _locid="110350">Ships an additional General and enables him for the rest of the game. Also, you can build a second Inspiring Flag and their line of Sight is increased.</string>
@@ -256,6 +257,7 @@
 	    <string _locid="110411">Ships 12 Texas Rangers.</string>
 	    <string _locid="110412">Walker's Rangers</string>
 	    <string _locid="110413">Increases the range of Sharpshooters and enables them to be trained in the Commerce Age.</string>
+	    <string _locid="110414">Professionals</string>
 	    <string _locid="110415">Greatly increases the attack of ranged infantry.</string>
 	    <string _locid="110417">Greatly increases the hitpoints of cavalry.</string>
 	    <string _locid="110419">Ships an Ironclad containing Regulars. Enables an additional Ironclad to be constructed.</string>
@@ -390,7 +392,7 @@
 	    <string _locid="260009">Hire French Zouaves</string>
 	    <string _locid="260010">Ships 9 French Zouave mercenaries.</string>
 	    <string _locid="260011">USA Furrier Bonus</string>
-	    <string _locid="260012">Scattershot</string>
+	    <string _locid="260012">Scatterguns</string>
 	    <string _locid="260013">State Militia gain increased splash area of effect damage and radius, but reduced range.</string>
 	    <string _locid="260014">Bourbon Distillery</string>
 	    <string _locid="260015">Federal Reserve</string>

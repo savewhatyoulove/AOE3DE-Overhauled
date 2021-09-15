@@ -551,7 +551,7 @@ Cost: Increased to 30F/110G from 40F/75G
 HP: Reduced to 85 from 95
 Speed: Increased to 4.5 from 4.0
 Melee: Multipliers reduced to standard skirmisher multipliers (HI is 1.5x, much like old state militia)
-Ranged: Increased to 30 Ranged Damage from 15, range reduced to 18 from 21 (shadowtechs by +4 in fortress age), ROF delay increased to 4.0 from 3.0, multipliers reduced to standard skirmishermultipliers (HI is 1.5x much like old state militia)
+Ranged: Increased to 30 Ranged Damage from 15, range reduced to 18 from 21 (shadowtechs by +4 in fortress age), ROF delay increased to 4.0 from 3.0, multipliers changed as follows: AbstractHeavyInfantry 1.5x, 0.5x AbstractCavalry/AbstractCoyoteMan, 2.5x xpEagleKnight, 3x AbstractLightCavalry.
 National Guard Upgrade: +0.05 Ranged armor and +40% ATK/HP (instead of +30%)
 
 New Unit: Spur Rider

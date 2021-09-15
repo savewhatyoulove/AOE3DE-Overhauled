@@ -9063,10 +9063,10 @@
     <flag>HomeCity</flag>
     <effects>
       <effect type="TextOutputTechName">110130</effect>
-      <effect type="Data" amount="50.00" subtype="LOS" relativity="Assign">
+      <effect type="Data" amount="70.00" subtype="LOS" relativity="Assign">
         <target type="ProtoUnit">deInspiringFlag</target>
       </effect>
-      <effect type="Data" amount="50.00" subtype="LOS" relativity="Assign">
+      <effect type="Data" amount="70.00" subtype="LOS" relativity="Assign">
         <target type="ProtoUnit">deInspiringFlag2</target>
       </effect>
       <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deGeneral2" relativity="Absolute">
@@ -10404,6 +10404,127 @@
       <effect type="Data" amount="0.25" subtype="ArmorSpecific" newtype="Siege" relativity="Absolute">
         <target type="ProtoUnit">xpGatlingGun</target>
       </effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCFedVermontCoppers" type="Normal">
+    <dbid>7139</dbid>
+    <displaynameid>110339</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\federal\vm_vermont_coppers.png</icon>
+    <rollovertextid>110338</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.05" subtype="InventoryAmount" resource="Gold" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractCoinCrate</target>
+      </effect>
+      <effect type="Data" action="AutoGatherCoin" amount="1.05" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+        <target type="ProtoUnit">Factory</target>
+      </effect>
+      <effect type="Data" action="Autogather" amount="1.05" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+        <target type="ProtoUnit">ypBankAsian</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="Plantation" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.05" subtype="WorkRateSpecific" resource="Gold" unittype="ypRicePaddy" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.20" subtype="WorkRateSpecific" resource="Gold" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="AbstractMine" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="AbstractWhale" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractFishingBoat</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="deMountainMonastery" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" amount="0.80" subtype="Cost" resource="Wood" relativity="BasePercent">
+        <target type="ProtoUnit">Plantation</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">DEVermontCoppersImprovedOysterPirates</effect>
+      <effect type="TechStatus" status="obtainable">DEVermontCoppersImprovedCapitalismShadow</effect>
+      <effect type="TechStatus" status="obtainable">DEVermontCoppersImprovedPennsylvaniaPoundShadow</effect>
+      <effect type="TechStatus" status="obtainable">DEVermontCoppersImprovedImperialismShadow</effect>
+      <effect type="TechStatus" status="obtainable">DEVermontCoppersImprovedCommunismShadow</effect>
+      <effect type="TechStatus" status="active">Bookkeeping</effect>
+      <effect type="TechStatus" status="active">Homesteading</effect>
+      <effect type="TechStatus" status="active">OreRefining</effect>
+      <effect type="TextOutputTechName">110130</effect>
+      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEVermontCoppersImprovedImperialismShadow" type="Normal">
+    <dbid>7267</dbid>
+    <researchpoints>0.0000</researchpoints>
+    <displaynameid>110532</displaynameid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">DEHCFedVermontCoppers</techstatus>
+      <techstatus status="Active">DEHCImperialism</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="0.2125" subtype="ResourceTrickleRate" resource="Gold" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEVermontCoppersImprovedCommunismShadow" type="Normal">
+    <dbid>7267</dbid>
+    <researchpoints>0.0000</researchpoints>
+    <displaynameid>110532</displaynameid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">DEHCFedVermontCoppers</techstatus>
+      <techstatus status="Active">DEHCCommunismTeam</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="0.2125" subtype="ResourceTrickleRate" resource="Gold" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCFedGreenMountainBoys" type="Normal">
+    <dbid>7138</dbid>
+    <displaynameid>110337</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\federal\vm_green_mountain_boys.png</icon>
+    <rollovertextid>110336</rollovertextid>
+    <flag>HomeCity</flag>
+    <flag>DEHCCardDynamicCount</flag>
+    <effects>
+      <effect type="Data" amount="5.00" subtype="PopulationCapAddition" relativity="Absolute">
+        <target type="ProtoUnit">Mill</target>
+      </effect>
+      <effect type="Data" amount="5.00" subtype="PopulationCapAddition" relativity="Absolute">
+        <target type="ProtoUnit">Plantation</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnitByUnitCount" counttype="Mill" unittype="deStateMilitia" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnitByUnitCount" counttype="Plantation" unittype="deStateMilitia" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
       <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
