@@ -10062,7 +10062,7 @@
     <maxhitpoints>4500.0000</maxhitpoints>
     <los>14.0000</los>
     <buildpoints>60.0000</buildpoints>
-    <buildlimit>2</buildlimit>
+    <buildlimit>1</buildlimit>
     <bounty>600.0000</bounty>
     <buildbounty>300.0000</buildbounty>
     <cost resourcetype="Food">500.0000</cost>
@@ -10088,7 +10088,7 @@
     <unittype>ConvertsHerds</unittype>
     <unittype>CountsTowardEconomicScore</unittype>
     <unittype>HasBountyValue</unittype>
-    <tech row="0" page="2" column="0">BigNoblesHutWarSong</tech>
+    <tech row="0" page="2" column="0">DEBigTempleFlowerWars</tech>
     <flag>CollidesWithProjectiles</flag>
     <flag>StartsAtFullEfficiency</flag>
     <flag>Immoveable</flag>
@@ -10260,9 +10260,9 @@
     <los>12.0000</los>
     <unitaitype>HandCombative</unitaitype>
     <trainpoints>37.0000</trainpoints>
-    <bounty>16.0000</bounty>
-    <buildbounty>16.0000</buildbounty>
-    <cost resourcetype="Food">125.0000</cost>
+    <bounty>15.0000</bounty>
+    <buildbounty>15.0000</buildbounty>
+    <cost resourcetype="Food">120.0000</cost>
     <cost resourcetype="Gold">30.0000</cost>
     <allowedage>2</allowedage>
     <armor type="Ranged" value="0.2500"/>
@@ -10369,7 +10369,7 @@
     <initialhitpoints>320.0000</initialhitpoints>
     <maxhitpoints>320.0000</maxhitpoints>
     <los>12.0000</los>
-    <rechargetime>20.0000</rechargetime>
+    <rechargetime>25.0000</rechargetime>
     <unitaitype>HandCombative</unitaitype>
     <trainpoints>40.0000</trainpoints>
     <bounty>25.0000</bounty>
@@ -10468,7 +10468,7 @@
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
       <damagecap>39.000000</damagecap>
-      <damagearea>4.000000</damagearea>
+      <damagearea>3.000000</damagearea>
       <damageflags>Enemy</damageflags>
     </protoaction>
     <protoaction>
@@ -10476,8 +10476,8 @@
       <damage>25.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagecap>75.000000</damagecap>
-      <damagearea>4.000000</damagearea>
+      <damagecap>60.000000</damagecap>
+      <damagearea>3.000000</damagearea>
       <damageflags>Enemy</damageflags>
     </protoaction>
   </unit>
@@ -10512,7 +10512,7 @@
     <cost resourcetype="Food">75.0000</cost>
     <cost resourcetype="Gold">75.0000</cost>
     <allowedage>2</allowedage>
-    <armor type="Ranged" value="0.2000"/>
+    <armor type="Ranged" value="0.2500"/>
     <unittype>LogicalTypeHealed</unittype>
     <unittype>LogicalTypeValidSharpshoot</unittype>
     <unittype>LogicalTypeNeededForVictory</unittype>
@@ -10551,7 +10551,7 @@
     <tactics>eaglearcher.tactics</tactics>
     <protoaction>
       <name>BuildingAttack</name>
-      <damage>8.000000</damage>
+      <damage>9.000000</damage>
       <damagetype>Siege</damagetype>
       <rof>3.000000</rof>
       <projectile>Javelin</projectile>
@@ -10561,13 +10561,13 @@
       <damage>9.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractHeavyCavalry">3.000000</damagebonus>
-      <damagebonus type="AbstractCoyoteMan">2.000000</damagebonus>
+      <damagebonus type="AbstractHeavyCavalry">4.500000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">3.500000</damagebonus>
       <damagebonus type="AbstractArtillery">1.500000</damagebonus>
     </protoaction>
     <protoaction>
       <name>DefendRangedAttack</name>
-      <damage>15.000000</damage>
+      <damage>14.000000</damage>
       <damagetype>Ranged</damagetype>
       <minrange>2.000000</minrange>
       <maxrange>12.000000</maxrange>
@@ -10583,8 +10583,8 @@
       <damage>9.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractHeavyCavalry">3.000000</damagebonus>
-      <damagebonus type="AbstractCoyoteMan">2.000000</damagebonus>
+      <damagebonus type="AbstractHeavyCavalry">4.500000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">3.500000</damagebonus>
       <damagebonus type="AbstractArtillery">1.500000</damagebonus>
     </protoaction>
     <protoaction>
@@ -10592,13 +10592,13 @@
       <damage>9.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractHeavyCavalry">3.000000</damagebonus>
-      <damagebonus type="AbstractCoyoteMan">2.000000</damagebonus>
+      <damagebonus type="AbstractHeavyCavalry">4.500000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">3.500000</damagebonus>
       <damagebonus type="AbstractArtillery">1.500000</damagebonus>
     </protoaction>
     <protoaction>
       <name>StaggerRangedAttack</name>
-      <damage>15.000000</damage>
+      <damage>14.000000</damage>
       <damagetype>Ranged</damagetype>
       <minrange>2.000000</minrange>
       <maxrange>12.000000</maxrange>
@@ -10614,13 +10614,13 @@
       <damage>9.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractHeavyCavalry">3.000000</damagebonus>
-      <damagebonus type="AbstractCoyoteMan">2.000000</damagebonus>
+      <damagebonus type="AbstractHeavyCavalry">4.500000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">3.500000</damagebonus>
       <damagebonus type="AbstractArtillery">1.500000</damagebonus>
     </protoaction>
     <protoaction>
       <name>VolleyRangedAttack</name>
-      <damage>15.000000</damage>
+      <damage>14.000000</damage>
       <damagetype>Ranged</damagetype>
       <minrange>2.000000</minrange>
       <maxrange>12.000000</maxrange>
@@ -10779,8 +10779,8 @@
     <obstructionradiusx>0.4900</obstructionradiusx>
     <obstructionradiusz>0.4900</obstructionradiusz>
     <formationcategory>Body</formationcategory>
-    <maxvelocity>5.0000</maxvelocity>
-    <maxrunvelocity>6.0000</maxrunvelocity>
+    <maxvelocity>5.2500</maxvelocity>
+    <maxrunvelocity>6.2500</maxrunvelocity>
     <movementtype>land</movementtype>
     <turnrate>18.0000</turnrate>
     <animfile>units\natives\aztec\puma_lord\puma_lord.xml</animfile>
@@ -10797,10 +10797,10 @@
     <trainpoints>30.0000</trainpoints>
     <bounty>10.0000</bounty>
     <buildbounty>10.0000</buildbounty>
-    <cost resourcetype="Food">50.0000</cost>
-    <cost resourcetype="Gold">50.0000</cost>
+    <cost resourcetype="Food">55.0000</cost>
+    <cost resourcetype="Gold">55.0000</cost>
     <allowedage>1</allowedage>
-    <armor type="Hand" value="0.2000"/>
+    <armor type="Hand" value="0.2500"/>
     <unittype>LogicalTypeHealed</unittype>
     <unittype>LogicalTypeValidSharpshoot</unittype>
     <unittype>LogicalTypeNeededForVictory</unittype>
@@ -11128,7 +11128,7 @@
   </unit>
   <unit id="1991" name="xpAztecWarchief2">
     <dbid>1144</dbid>
-    <displaynameid>44160</displaynameid>
+    <displaynameid>43648</displaynameid>
     <editornameid>44161</editornameid>
     <obstructionradiusx>0.4900</obstructionradiusx>
     <obstructionradiusz>0.4900</obstructionradiusz>

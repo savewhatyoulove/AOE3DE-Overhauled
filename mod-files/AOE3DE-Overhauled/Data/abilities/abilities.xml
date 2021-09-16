@@ -274,6 +274,14 @@
     <ability>PowerLOS<tech>DESpyglassEnableShadow</tech><rof>90</rof></ability>
     <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </xpaztecwarchief>
+  <xpaztecwarchief2>
+    <ability>PowerRecruitGuardian<rof>90</rof><sharedcooldown>true</sharedcooldown></ability>
+    <ability>dePowerAscension<rof>60</rof><sharedcooldown>true</sharedcooldown></ability>
+    <ability>PowerSwashbuckler<tech>DEREVAztecSwashbucklerShadow</tech><rof>90</rof><sharedcooldown>true</sharedcooldown></ability>
+    <ability>dePowerAscensionAux<rof>9</rof><nevershowingrid>true</nevershowingrid><alwaysdisabledingrid>false</alwaysdisabledingrid></ability>
+    <ability>PowerLOS<tech>DESpyglassEnableShadow</tech><rof>90</rof></ability>
+    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </xpaztecwarchief2>
   <deincawarchief>
     <ability>PowerRecruitGuardian<rof>90</rof><sharedcooldown>true</sharedcooldown></ability>
     <ability>PowerCondorEye<rof>70</rof><sharedcooldown>true</sharedcooldown></ability>

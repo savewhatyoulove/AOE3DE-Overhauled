@@ -5,7 +5,7 @@
 	    <string _locid="31144">Hardy villager that gathers coin quickly, but other natrual resources more slowly. Armed with dynamite for a powerful splash attack. Good against infantry but weak against cavalry.</string>
 	    <string _locid="33519">Great Temple</string>
 	    <string _locid="33520">Great Temple of the Aztecs. Generates a large trickle of Gold over time.</string>
-	    <string _locid="33521">Aztec Temple</string>
+	    <string _locid="33521">Great Temple</string>
 	    <string _locid="33523">SPC Aztec temple</string>
 	    <String _locid="34666">Cheap scout building with no attack.</String>
 	    <String _locid="34667">Jungle Outpost</String>
@@ -26,7 +26,13 @@
 	    <string _locid="44227">16 Coyote Runners</string>
 	    <string _locid="44239">10 Otontin Slingers</string>
 	    <string _locid="44247">10 Eagle Runner Knights</string>
+	    <string _locid="44330">The priests of Xochipilli send 8 Puma Spearmen and greatly increases their hitpoints.</string>
+	    <string _locid="44332">The priests of Xolotl send 8 Villagers and boost the gather rate for Farms and Estates by 10% and lets them construct buildings quicker.</string>
+	    <string _locid="44334">The priests of Coatlicue send 6 Arrow Knights, boosts all Arrow Knight attacks and unlocks splash damage for their ranged attacks.</string>
+	    <string _locid="44336">The priests of Tlaloc send 14 Eagle Runner Knights and boost all Eagle Runner Knights' range.</string>
 	    <string _locid="44338">The High Priest of Huitzilopochtli sends 7 Skull Knights, unlocks the Obsidian Storm charged ability, and boosts their splash area of effect radius and damage.</string>
+	    <string _locid="44340">The High Priest of Quetzalcoatl sends 7 Jaguar Prowl Knights and enables them to train Pet Jaguars and construct Military Buildings.</string>
+	    <string _locid="44342">The High Priest of Tezcatlipoca sends a group of Pet Jaguars and enhances Pet Jaguars greatly in combat and lets you train more of them.</string>
 	    <string _locid="45082">2 Pet Jaguars, Better War Chief Strike attack and improves the War Chief's hitpoints by 20%.</string>
 	    <string _locid="45084">4 Pet Jaguars, Better War Chief Strike attack and improves the War Chief's hitpoints by 30%.</string>
 	    <string _locid="45086">7 Pet Jaguars, Better War Chief Strike attack and improves the War Chief's hitpoints by 40%.</string>
@@ -192,6 +198,7 @@
 	    <string _locid="102553">Armored cannoneer mercenary from Portugal who fires a heavy musket inflicting splash damage.</string>
 	    <string _locid="102849">Lifidi Knights and Raiders train faster. Raiders deal more damage to Villagers and Lifidi Knights gain increased area damage radii, especially in trample mode.</string>
 	    <string _locid="102881">Particularly fattened Cattle containing 750 Food.</string>
+	    <string _locid="102896">Neftenyas gain additional hitpoints.</string>
 	    <string _locid="102928">Javelin Rider armor and attack increased. Oromo Riders deal more damage, especially to skirmishers and foot archers.</string>
 	    <string _locid="103313">The Fulani town of Gwandu sends 9 Fulani Archers and 4 Lifidi Knights.</string>
 	    <string _locid="103347">Receive a shipment of 4 Villagers for each Palace you currently have built.</string>
@@ -458,6 +465,10 @@
 	    <string _locid="260047">Flower Wars</string>
 	    <string _locid="260048">Villagers gather Coin from Estates faster.</string>
 	    <string _locid="260049">John Brown</string>
+	    <string _locid="260050">Chicomecoatl Worship</string>
+	    <string _locid="260051">Receive a small trickle of Wood for the rest of the game.</string>
+	    <string _locid="260052">Tlaltecuhtli Worship</string>
+	    <string _locid="260053">Receive a moderate trickle of Wood for the rest of the game.</string>
 	</Language>
   </StringTable>
 </stringmods>

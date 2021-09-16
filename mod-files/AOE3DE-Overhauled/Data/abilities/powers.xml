@@ -795,6 +795,9 @@
     <effect type="RateOfFire" action="HandAttack" relativity="Absolute" amount="-0.30">
       <target type="ProtoUnit">xpAztecWarchief</target>
     </effect>
+    <effect type="RateOfFire" action="HandAttack" relativity="Absolute" amount="-0.30">
+      <target type="ProtoUnit">xpAztecWarchief2</target>
+    </effect>
     <messagealertplayerrelation>none</messagealertplayerrelation>
     <placement forceonmap="1">LOSDontCare</placement>
     <allowduringnorush>1</allowduringnorush>

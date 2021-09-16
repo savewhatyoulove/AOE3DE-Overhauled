@@ -10692,6 +10692,7 @@
       <effect type="TechStatus" status="obtainable">BigMarketNewYear</effect>
       <effect type="TechStatus" status="obtainable">BigDockCipactli</effect>
       <effect type="TechStatus" status="obtainable">BigHouseCoatlicue</effect>
+      <effect type="TechStatus" status="obtainable">DEBigTempleFlowerWars</effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">CommunityPlaza</target>
       </effect>
@@ -10872,7 +10873,7 @@
       </effect>
     </effects>
   </tech>
-  <tech name="TribalAztecShaman5" type="Normal">
+  <tech mergeMode='replace' name="TribalAztecShaman5" type="Normal">
     <dbid>3159</dbid>
     <displaynameid>45130</displaynameid>
     <cost resourcetype="Food">4000.0000</cost>
@@ -10988,33 +10989,6 @@
 
     </effects>
   </tech>
-  <tech mergeMode='replace' name="FortressizeXPAztec" type="Normal">
-    <dbid>2754</dbid>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\post_game\time_line_age_3.png</icon>
-    <flag>Shadow</flag>
-    <effects>
-      <effect type="TechStatus" status="active">Fortressize</effect>
-      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">WarDog</target>
-      </effect>
-      <effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
-        <target type="ProtoUnit">TownCenter</target>
-      </effect>
-      <effect type="Data" amount="6.00" subtype="BuildLimit" relativity="Absolute">
-        <target type="ProtoUnit">NoblesHut</target>
-      </effect>
-      <effect type="Data" amount="2.50" subtype="Damage" allactions="1" relativity="BasePercent">
-        <target type="ProtoUnit">xpAztecWarchief</target>
-      </effect>
-      <effect type="Data" amount="2.00" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">xpAztecWarchief</target>
-      </effect>
-      <effect type="Data" amount="4.00" subtype="Damage" allactions="1" relativity="BasePercent">
-        <target type="ProtoUnit">xpMedicineManAztec</target>
-      </effect>
-    </effects>
-  </tech>
   <tech mergeMode='replace' name="HCXPCoinCratesAztec5" type="Normal">
     <dbid>2217</dbid>
     <displaynameid>35719</displaynameid>
@@ -11118,6 +11092,9 @@
         <target type="ProtoUnit">PetJaguar</target>
       </effect>
       <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">PetJaguar</target>
+      </effect>
+      <effect type="Data" amount="6.00" subtype="BuildLimit" relativity="Absolute">
         <target type="ProtoUnit">PetJaguar</target>
       </effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -11479,13 +11456,13 @@
   </tech>
   <tech name="DEDistributivismAztec" type="Normal">
     <dbid>9543</dbid>
-    <displaynameid>260049</displaynameid>
+    <displaynameid>260050</displaynameid>
     <cost resourcetype="Food">150.0000</cost>
     <cost resourcetype="Gold">150.0000</cost>
     <researchpoints>30.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\native\Distributivism.png</icon>
-    <rollovertextid>260050</rollovertextid>
+    <rollovertextid>260051</rollovertextid>
     <flag>CountsTowardEconomicScore</flag>
     <prereqs>
       <techstatus status="Active">DEHCNewWaysAztec</techstatus>
@@ -11499,13 +11476,13 @@
   </tech>
   <tech name="DEForeignLoggingAztec" type="Normal">
     <dbid>9544</dbid>
-    <displaynameid>260049</displaynameid>
+    <displaynameid>260052</displaynameid>
     <cost resourcetype="Food">350.0000</cost>
     <cost resourcetype="Gold">350.0000</cost>
     <researchpoints>30.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\asians\Foreign_Logging.png</icon>
-    <rollovertextid>260050</rollovertextid>
+    <rollovertextid>260053</rollovertextid>
     <flag>CountsTowardEconomicScore</flag>
    <prereqs>
       <techstatus status="Active">Colonialize</techstatus>
@@ -11544,7 +11521,7 @@
       </effect>
     </effects>
   </tech>
-  <tech name="FortressizeXPAztec" type="Normal">
+  <tech mergeMode='replace' name="FortressizeXPAztec" type="Normal">
     <dbid>2754</dbid>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\post_game\time_line_age_3.png</icon>
@@ -11556,6 +11533,9 @@
       </effect>
       <effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
         <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="Data" amount="6.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">NoblesHut</target>
       </effect>
       <effect type="Data" amount="2.50" subtype="Damage" allactions="1" relativity="BasePercent">
         <target type="ProtoUnit">xpAztecWarchief</target>
@@ -11653,7 +11633,118 @@
       <effect type="Data" action="ExtraBounty2" amount="1.00" subtype="ActionEnable" relativity="Absolute">
         <target type="ProtoUnit">xpAztecWarchief2</target>
       </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="HCXPTempleTlaloc" type="Normal">
+    <dbid>2973</dbid>
+    <displaynameid>44337</displaynameid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\temple_tlaloc.png</icon>
+    <rollovertextid>44336</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="14.00" subtype="FreeHomeCityUnit" unittype="xpEagleKnight" relativity="BasePercent">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" action="VolleyRangedAttack" amount="4.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">xpEagleKnight</target>
+      </effect>
+      <effect type="Data" amount="4.00" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">xpEagleKnight</target>
+      </effect>
+      <effect type="Data" action="DefendRangedAttack" amount="4.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">xpEagleKnight</target>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="4.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">xpEagleKnight</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="HCXPGreatTempleQuetzalcoatl" type="Normal">
+    <dbid>2975</dbid>
+    <displaynameid>44341</displaynameid>
+    <cost resourcetype="Gold">500.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\temple_quetzalcoatl.png</icon>
+    <rollovertextid>44340</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="xpJaguarKnight" relativity="BasePercent">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="PetJaguar" relativity="Absolute">
+        <target type="ProtoUnit">xpJaguarKnight</target>
+      </effect>
+      <effect type="Data" action="Build" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">xpJaguarKnight</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="WarHut" relativity="Absolute">
+        <target type="ProtoUnit">xpJaguarKnight</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="NoblesHut" relativity="Absolute">
+        <target type="ProtoUnit">xpJaguarKnight</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="HCXPTempleXochipilli" type="Normal">
+    <dbid>2970</dbid>
+    <displaynameid>44331</displaynameid>
+    <cost resourcetype="Gold">500.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\temple_xochipilli.png</icon>
+    <rollovertextid>44330</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="xpPumaMan" relativity="BasePercent">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.40" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">xpPumaMan</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCXPTempleXolotl" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="Data" action="Build" amount="1.25" subtype="WorkRate" unittype="Building" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
 
     </effects>
   </tech>
+  <tech mergeMode='replace' name="HCXPTempleCoatlicue" type="Normal">
+    <dbid>2972</dbid>
+    <displaynameid>44335</displaynameid>
+    <cost resourcetype="Gold">500.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\temple_coatlicue.png</icon>
+    <rollovertextid>44334</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="xpArrowKnight" relativity="BasePercent">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">xpArrowKnight</target>
+      </effect>
+      <effect type="Data" action="DefendRangedAttack" amount="1.00" subtype="DamageArea" relativity="Assign">
+        <target type="ProtoUnit">xpArrowKnight</target>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="1.00" subtype="DamageArea" relativity="Assign">
+        <target type="ProtoUnit">xpArrowKnight</target>
+      </effect>
+      <effect type="Data" action="VolleyRangedAttack" amount="1.00" subtype="DamageArea" relativity="Assign">
+        <target type="ProtoUnit">xpArrowKnight</target>
+      </effect>
+    </effects>
+  </tech>
+
 </techtreemods>

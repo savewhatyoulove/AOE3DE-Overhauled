@@ -980,6 +980,13 @@
       <age>2</age>
     </card>
     <card>
+      <name>DEHCNewWaysAztec</name>
+      <maxcount>1</maxcount>
+      <level>40</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
       <name>HCXPOldWaysAztec</name>
       <maxcount>1</maxcount>
       <level>40</level>
@@ -1167,7 +1174,7 @@
       <level>25</level>
       <prereqtech>HCXPTempleCoatlicue</prereqtech>
       <age>3</age>
-      <displayunitcount>11</displayunitcount>
+      <displayunitcount>7</displayunitcount>
     </card>
     <card>
       <name>HCXPTempleXipetotec</name>
@@ -1190,8 +1197,8 @@
       <maxcount>1</maxcount>
       <level>25</level>
       <prereqtech>HCXPTempleXolotl</prereqtech>
-      <age>3</age>
-      <displayunitcount>18</displayunitcount>
+      <age>2</age>
+      <displayunitcount>7</displayunitcount>
     </card>
     <card>
       <name>HCXPTempleXochipilli</name>
@@ -1206,8 +1213,8 @@
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>HCXPTempleXochipilli</prereqtech>
-      <age>2</age>
-      <displayunitcount>5</displayunitcount>
+      <age>3</age>
+      <displayunitcount>14</displayunitcount>
     </card>
     <card>
       <name>HCXPGreatTempleTezcatlipoca</name>
@@ -1632,6 +1639,7 @@
     <obtainabletechs>
       <tech x="0.0" y="3.0">HCStonemasons</tech>
       <tech x="0.0" y="5.0">DEHCAgrarianWaysAztec</tech>
+      <tech x="0.0" y="6.0">DEHCNewWaysAztec</tech>
       <tech x="0.0" y="7.0">HCXPOldWaysAztec</tech>
       <tech x="0.8" y="1.0">HCXPShipFarmTravois1</tech>
       <tech x="0.8" y="2.0">HCXPShipFarmTravois2</tech>
@@ -1656,6 +1664,7 @@
     <activetechs>
       <tech x="0.0" y="3.0">HCStonemasons</tech>
       <tech x="0.0" y="5.0">DEHCAgrarianWaysAztec</tech>
+      <tech x="0.0" y="6.0">DEHCNewWaysAztec</tech>
       <tech x="0.0" y="7.0">HCXPOldWaysAztec</tech>
       <tech x="0.8" y="1.0">HCXPShipFarmTravois1</tech>
       <tech x="0.8" y="2.0">HCXPShipFarmTravois2</tech>
