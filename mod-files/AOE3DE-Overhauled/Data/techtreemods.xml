@@ -11409,14 +11409,14 @@
   </tech>
   <tech name="DEBigTempleFlowerWars" type="Normal">
     <dbid>9541</dbid>
-    <displaynameid>33977</displaynameid>
+    <displaynameid>260047</displaynameid>
     <cost resourcetype="Food">500.0000</cost>
     <cost resourcetype="Wood">500.0000</cost>
     <cost resourcetype="Gold">500.0000</cost>
     <researchpoints>10.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <iconwpf>resources\images\icons\techs\native_big_button\native_32.png</iconwpf>
-    <rollovertextid>72577</rollovertextid>
+    <rollovertextid>260048</rollovertextid>
     <flag>CountsTowardEconomicScore</flag>
     <flag>NativeDance</flag>
     <effects>
