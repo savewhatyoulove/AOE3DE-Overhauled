@@ -708,15 +708,15 @@ Great Temple: Industrial Age building that generates a large trickle of Gold ove
 Tribal Council Changes:
 -- Shaman: Instead of providing a HP/Damage bonus to war/noble huts, now provides Warrior Priests. +1 in the Commerce/Fortress Ages, and +2 in the Industrial/Imperial Ages. Industrial/Imperial upgrades provide +10/15% work rate to the Community Plaza as well.
 -- Chief: Now additionally provides 2/5/9/12 Pet Janey Jaguars.
--- Warrior: Skull Knights additionally have +15%/25%/40% faster train time.
+-- Warrior: Skull Knights additionally have +10%/25%/40% faster train time.
 
 Unit Changes:
 
 Jaguar Prowl Knight - Now a melee skirmisher, similar to an Urumi, but without AOE. Rebalanced to new unit class
--- HP: Reduced to 210 from 240
+-- HP: Reduced to 180 from 240
 -- Siege: Lowered to 30 from 36
 -- Melee: Changed to ranged damage from melee
--- Armor: Improved to 20% Ranged from 10% melee
+-- Armor: Improved to 25% Ranged from 10% melee
 -- Multipliers: 2x AbstractCavalry/AbstractLightInfantry changed to a 0.75x penalty for each. 3.0x AbstractLightCavalry and 2.5x xpEagleKnight added.
 -- AbstractHeavyInfantry unit tag removed.
 
@@ -727,6 +727,7 @@ Skull Knight - Now a mini-cuirassier and is classified as Hand Shock Infantry.
 -- Siege: Reduced to 20 from 72
 -- AbstractInfantry and AbstractHeavyInfantry unit tags replaced with AbstractLightInfantry and AbstractCoyoteMan
 -- Damage Cap: Reduced to 45 from 68
+-- Obsidian Storm Cooldown increased to 20 seconds and now requires the Temple Shipment to unlock. Damage reduced to 25 from 30
 
 Eagle Runner Knight:
 -- Armor: Reduced to 20% from 30%

@@ -10905,6 +10905,16 @@
       <effect mergeMode='add' type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="PetJaguar" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' type="Data" action="SwashbucklerAttack" amount="1.00" subtype="DamageArea" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief2</target>
+      </effect>
+      <effect mergeMode='add' type="Data" action="SwashbucklerAttack" amount="1.25" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief2</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief2</target>
+      </effect>
+
     </effects>
   </tech>
   <tech name="TribalAztecChief3" type="Normal">
@@ -10912,6 +10922,16 @@
       <effect mergeMode='add' type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="PetJaguar" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' type="Data" action="SwashbucklerAttack" amount="1.00" subtype="DamageArea" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief2</target>
+      </effect>
+      <effect mergeMode='add' type="Data" action="SwashbucklerAttack" amount="1.50" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief2</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief2</target>
+      </effect>
+
     </effects>
   </tech>
   <tech name="TribalAztecChief4" type="Normal">
@@ -10919,12 +10939,30 @@
       <effect mergeMode='add' type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="PetJaguar" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' type="Data" action="SwashbucklerAttack" amount="1.25" subtype="DamageArea" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief2</target>
+      </effect>
+      <effect mergeMode='add' type="Data" action="SwashbucklerAttack" amount="1.75" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief2</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="1.40" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief2</target>
+      </effect>
     </effects>
   </tech>
   <tech name="TribalAztecChief5" type="Normal">
     <effects>
       <effect mergeMode='add' type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="PetJaguar" relativity="Absolute">
         <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' type="Data" action="SwashbucklerAttack" amount="2.00" subtype="DamageArea" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief2</target>
+      </effect>
+      <effect mergeMode='add' type="Data" action="SwashbucklerAttack" amount="2.00" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief2</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief2</target>
       </effect>
     </effects>
   </tech>
@@ -11026,6 +11064,12 @@
       <effect type="Data" action="HandAttack" amount="2.00" subtype="DamageArea" relativity="Assign">
         <target type="ProtoUnit">xpAztecWarchief</target>
       </effect>
+      <effect type="Data" amount="1.40" subtype="MaximumVelocity" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief2</target>
+      </effect>
+      <effect type="Data" action="HandAttack" amount="2.00" subtype="DamageArea" relativity="Assign">
+        <target type="ProtoUnit">xpAztecWarchief2</target>
+      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="HCXPWarChiefAztec1" type="Normal">
@@ -11044,6 +11088,12 @@
       </effect>
       <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">xpAztecWarchief</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief2</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief2</target>
       </effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">PetJaguar</target>
@@ -11122,7 +11172,7 @@
       </effect>
     </effects>
   </tech>
-  <tech name="HCXPShipMacehualtins1" type="Normal">
+  <tech mergeMode='replace' name="HCXPShipMacehualtins1" type="Normal">
     <dbid>2926</dbid>
     <displaynameid>44236</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
@@ -11136,7 +11186,7 @@
       </effect>
     </effects>
   </tech>
-  <tech name="HCXPShipMacehualtins3" type="Normal">
+  <tech mergeMode='replace' name="HCXPShipMacehualtins3" type="Normal">
     <dbid>2929</dbid>
     <displaynameid>44239</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
@@ -11148,6 +11198,462 @@
       <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="xpMacehualtin" relativity="Absolute">
         <target type="Player"/>
       </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="HCXPShipPumaMen2" type="Normal">
+    <dbid>2925</dbid>
+    <displaynameid>44235</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\az_puma_man_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="xpPumaMan" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="HCXPShipEagleKnights2" type="Normal">
+    <dbid>2935</dbid>
+    <displaynameid>44247</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\az_eagle_knight_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="xpEagleKnight" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="HCXPShipArrowKnightsRepeat" type="Normal">
+    <dbid>2933</dbid>
+    <displaynameid>44245</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\infinite_arrow_knight.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="xpArrowKnight" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCRidingSchoolAztec" type="Normal">
+    <dbid>9538</dbid>
+    <displaynameid>35150</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_riding_school\hc_riding_school.png</icon>
+    <rollovertextid>260046</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="0.60" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractLightInfantry</target>
+      </effect>
+      <effect type="TextOutput">41901</effect>
+      <effect type="Data" amount="1.40" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">xpSkullKnight</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCXPScorchedEarth" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="Data" action="BuildingAttack" amount="1.50" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">xpSkullKnight</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="HCXPChinampa1" type="Normal">
+    <dbid>2982</dbid>
+    <displaynameid>44360</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native_chinampa\nat_chinampa.png</icon>
+    <rollovertextid>44359</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="Plantation" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="TextOutput">44361</effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="Mill" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.15" subtype="WorkRateSpecific" resource="Gold" unittype="ypRicePaddy" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.15" subtype="WorkRateSpecific" resource="Food" unittype="ypRicePaddy" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.15" subtype="WorkRateSpecific" resource="Gold" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.15" subtype="WorkRateSpecific" resource="Food" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="HCXPChinampa2" type="Normal">
+    <dbid>2983</dbid>
+    <displaynameid>44364</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\great_chinampa.png</icon>
+    <rollovertextid>44363</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="Plantation" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="TextOutput">69789</effect>
+      <effect type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="Mill" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.25" subtype="WorkRateSpecific" resource="Gold" unittype="ypRicePaddy" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.25" subtype="WorkRateSpecific" resource="Food" unittype="ypRicePaddy" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.25" subtype="WorkRateSpecific" resource="Gold" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.25" subtype="WorkRateSpecific" resource="Food" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCAgrarianWaysAztec" type="Normal">
+    <dbid>9539</dbid>
+    <displaynameid>47139</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\Agrarian Ways.png</icon>
+    <rollovertextid>47138</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TextOutput">47141</effect>
+      <effect type="TechStatus" status="active">SelectiveBreeding</effect>
+      <effect type="TechStatus" status="active">EarthCeremony</effect>
+      <effect type="TechStatus" status="active">GreenCornCeremony</effect>
+      <effect type="TechStatus" status="active">GreatFeast</effect>
+      <effect type="TechStatus" status="active">HarvestCeremony</effect>
+      <effect type="TechStatus" status="active">EarthGiftCeremony</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="HCXPGreatTempleHuitzilopochtli" type="Normal">
+    <dbid>2974</dbid>
+    <displaynameid>44339</displaynameid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\temple_huitzilopochtli.png</icon>
+    <rollovertextid>44338</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="xpSkullKnight" relativity="BasePercent">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" action="MeleeHandAttack" amount="1.00" subtype="DamageArea" relativity="Absolute">
+        <target type="ProtoUnit">xpSkullKnight</target>
+      </effect>
+      <effect type="Data" action="CoverHandAttack" amount="1.00" subtype="DamageArea" relativity="Absolute">
+        <target type="ProtoUnit">xpSkullKnight</target>
+      </effect>
+      <effect type="Data" action="DefendHandAttack" amount="1.00" subtype="DamageArea" relativity="Absolute">
+        <target type="ProtoUnit">xpSkullKnight</target>
+      </effect>
+      <effect type="Data" action="ObsidianChargeAttack" amount="1.00" subtype="DamageArea" relativity="Absolute">
+        <target type="ProtoUnit">xpSkullKnight</target>
+      </effect>
+      <effect type="Data" amount="1.30" subtype="DamageCap" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">xpSkullKnight</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="HCXPTempleXolotl" type="Normal">
+    <dbid>2971</dbid>
+    <displaynameid>44333</displaynameid>
+    <cost resourcetype="Gold">500.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\temple_xolotl.png</icon>
+    <rollovertextid>44332</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="SettlerNative" relativity="BasePercent">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Plantation" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Mill" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCNewWaysAztec" type="Normal">
+    <dbid>9540</dbid>
+    <displaynameid>47124</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\New_Ways.png</icon>
+    <rollovertextid>47123</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="obtainable">Rifling</effect>
+      <effect type="TechStatus" status="obtainable">MilitaryDrummers</effect>
+      <effect type="TechStatus" status="obtainable">InfantryBreastplate</effect>
+      <effect type="TechStatus" status="obtainable">DECacaoCultivation</effect>
+      <effect type="TechStatus" status="obtainable">DEDistributivismAztec</effect>
+      <effect type="TechStatus" status="obtainable">DEForeignLoggingAztec</effect>
+      <effect type="TextOutput">47126</effect>
+    </effects>
+  </tech>
+  <tech name="DEBigTempleFlowerWars" type="Normal">
+    <dbid>9541</dbid>
+    <displaynameid>33977</displaynameid>
+    <cost resourcetype="Food">500.0000</cost>
+    <cost resourcetype="Wood">500.0000</cost>
+    <cost resourcetype="Gold">500.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <iconwpf>resources\images\icons\techs\native_big_button\native_32.png</iconwpf>
+    <rollovertextid>72577</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <flag>NativeDance</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="xpAztecWarchief2" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpAztecWarchief2</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DECacaoCultivation" type="Normal">
+    <dbid>9542</dbid>
+    <displaynameid>260047</displaynameid>
+    <cost resourcetype="Wood">600.0000</cost>
+    <cost resourcetype="Food">600.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native_chocolate_recipes\nat_chocolate_recipes.png</icon>
+    <rollovertextid>260048</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+      <techstatus status="Active">DEHCNewWaysAztec</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" action="Gather" amount="1.30" subtype="WorkRate" unittype="Plantation" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.30" subtype="WorkRateSpecific" resource="Gold" unittype="ypRicePaddy" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.30" subtype="WorkRateSpecific" resource="Gold" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEDistributivismAztec" type="Normal">
+    <dbid>9543</dbid>
+    <displaynameid>260049</displaynameid>
+    <cost resourcetype="Food">150.0000</cost>
+    <cost resourcetype="Gold">150.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\Distributivism.png</icon>
+    <rollovertextid>260050</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <prereqs>
+      <techstatus status="Active">DEHCNewWaysAztec</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="ResourceTrickleRate" resource="Wood" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutput">47016</effect>
+    </effects>
+  </tech>
+  <tech name="DEForeignLoggingAztec" type="Normal">
+    <dbid>9544</dbid>
+    <displaynameid>260049</displaynameid>
+    <cost resourcetype="Food">350.0000</cost>
+    <cost resourcetype="Gold">350.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\asians\Foreign_Logging.png</icon>
+    <rollovertextid>260050</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+   <prereqs>
+      <techstatus status="Active">Colonialize</techstatus>
+      <techstatus status="Active">DEHCNewWaysAztec</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="2.35" subtype="ResourceTrickleRate" resource="Wood" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutput">47016</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="ColonializeXPAztec" type="Normal">
+    <dbid>2752</dbid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\post_game\time_line_age_2.png</icon>
+    <effects>
+      <effect type="TechStatus" status="active">Colonialize</effect>
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">WarDog</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief2</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief2</target>
+      </effect>
+      <effect type="Data" amount="3.00" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">xpMedicineManAztec</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FortressizeXPAztec" type="Normal">
+    <dbid>2754</dbid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\post_game\time_line_age_3.png</icon>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Fortressize</effect>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">WarDog</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="Data" amount="2.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief</target>
+      </effect>
+      <effect type="Data" amount="2.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief2</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief2</target>
+      </effect>
+      <effect type="Data" amount="4.00" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">xpMedicineManAztec</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="IndustrializeXPAztec" type="Normal">
+    <dbid>2756</dbid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\post_game\time_line_age_4.png</icon>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Industrialize</effect>
+      <effect type="Data" amount="3.00" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief2</target>
+      </effect>
+      <effect type="Data" amount="3.00" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief2</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief</target>
+      </effect>
+      <effect type="Data" amount="4.00" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">xpMedicineManAztec</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="ImperializeXPAztec" type="Normal">
+    <dbid>2758</dbid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\post_game\time_line_age_5.png</icon>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Imperialize</effect>
+      <effect type="Data" amount="2.00" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">WarDog</target>
+      </effect>
+      <effect type="Data" amount="4.00" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief</target>
+      </effect>
+      <effect type="Data" amount="3.75" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief</target>
+      </effect>
+      <effect type="Data" amount="4.00" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief2</target>
+      </effect>
+      <effect type="Data" amount="3.75" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">xpAztecWarchief2</target>
+      </effect>
+      <effect type="Data" amount="4.00" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">xpMedicineManAztec</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="BigFirepitFounder" type="Normal">
+    <dbid>2773</dbid>
+    <displaynameid>43693</displaynameid>
+    <cost resourcetype="Food">50.0000</cost>
+    <cost resourcetype="Wood">50.0000</cost>
+    <cost resourcetype="Gold">50.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\Dance4.png</icon>
+    <icontexturecoords>.599609375 .001953125 .796875 .302734375</icontexturecoords>
+    <iconwpf>resources\images\icons\techs\native_big_button\native_33.png</iconwpf>
+    <rollovertextid>43692</rollovertextid>
+    <flag>NativeDance</flag>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <effects>
+      <effect type="Data" action="ExtraBounty" amount="0.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">xpAztecWarchief</target>
+      </effect>
+      <effect type="Data" action="ExtraBounty2" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">xpAztecWarchief</target>
+      </effect>
+      <effect type="Data" action="ExtraBounty" amount="0.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">xpAztecWarchief2</target>
+      </effect>
+      <effect type="Data" action="ExtraBounty2" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">xpAztecWarchief2</target>
+      </effect>
+
     </effects>
   </tech>
 </techtreemods>

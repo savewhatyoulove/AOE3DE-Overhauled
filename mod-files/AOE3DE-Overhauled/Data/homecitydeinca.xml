@@ -769,7 +769,7 @@
       <age>0</age>
     </card>
     <card>
-      <name>HCXPAgrarianWays</name>
+      <name>DEHCAgrarianWaysAztec</name>
       <maxcount>1</maxcount>
       <level>25</level>
       <prereqtech>-1</prereqtech>
@@ -1665,7 +1665,7 @@
     <rolloverstringid>25535</rolloverstringid>
     <obtainabletechs>
       <tech x="0.0" y="3.0">HCStonemasons</tech>
-      <tech x="0.0" y="5.0">HCXPAgrarianWays</tech>
+      <tech x="0.0" y="5.0">DEHCAgrarianWaysAztec</tech>
       <tech x="0.0" y="7.0">DEHCOldWaysInca</tech>
       <tech x="0.8" y="1.0">HCXPShipFarmTravois1</tech>
       <tech x="0.8" y="2.0">HCXPShipFarmTravois2</tech>
@@ -1687,7 +1687,7 @@
     </obtainabletechs>
     <activetechs>
       <tech>HCStonemasons</tech>
-      <tech>HCXPAgrarianWays</tech>
+      <tech>DEHCAgrarianWaysAztec</tech>
       <tech>DEHCOldWaysInca</tech>
       <tech>HCXPShipFarmTravois1</tech>
       <tech>HCXPShipFarmTravois2</tech>

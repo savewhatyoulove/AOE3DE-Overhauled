@@ -517,7 +517,7 @@
     <ability>deChargeAbilityBroadside<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
   </desloop>
   <xpskullknight>
-    <ability>deChargeAbilityObsidian<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deChargeAbilityObsidian<tech>HCXPGreatTempleHuitzilopochtli</tech><bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
     <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </xpskullknight>
   <desteamer>
@@ -626,4 +626,7 @@
     <ability>deAbilityInspiringFlag<tech>DEHCFedMoultriesMilitia</tech><rof>60</rof><donotforcestop>true</donotforcestop></ability>
     <ability>deAbilityInspiringFlag2<tech>DEMilitiaLincolnShadow</tech><rof>60</rof><donotforcestop>true</donotforcestop></ability>
   </destatemilitia>
+  <demaceman>
+ <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+ </demaceman>
 </abilities>

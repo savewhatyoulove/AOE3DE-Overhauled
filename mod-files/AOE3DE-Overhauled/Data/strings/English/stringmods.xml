@@ -25,6 +25,8 @@
 	    <string _locid="44225">6 Coyote Runners</string>
 	    <string _locid="44227">16 Coyote Runners</string>
 	    <string _locid="44239">10 Otontin Slingers</string>
+	    <string _locid="44247">10 Eagle Runner Knights</string>
+	    <string _locid="44338">The High Priest of Huitzilopochtli sends 7 Skull Knights, unlocks the Obsidian Storm charged ability, and boosts their splash area of effect radius and damage.</string>
 	    <string _locid="45082">2 Pet Jaguars, Better War Chief Strike attack and improves the War Chief's hitpoints by 20%.</string>
 	    <string _locid="45084">4 Pet Jaguars, Better War Chief Strike attack and improves the War Chief's hitpoints by 30%.</string>
 	    <string _locid="45086">7 Pet Jaguars, Better War Chief Strike attack and improves the War Chief's hitpoints by 40%.</string>
@@ -36,6 +38,8 @@
 	    <string _locid="45125">1 Warrior Priest and 2 Nobles Hut Travois.</string>
 	    <string _locid="45127">2 Warrior Priests, 2 Nobles Hut Travois, and +5% Community Plaza Work Rate.</string>
 	    <string _locid="45129">3 Warrior Priests, 3 Nobles Hut Travois, and +10% Community Plaza Work Rate.</string>
+	    <string _locid="47138">All Farm and Estate upgrades available before the Imperial Age are researched.</string>
+
 	    <string _locid="60806">Powerful Indian heavy musket infantry that has a large bonus versus cavalry at melee.</string>
 	    <string _locid="72560">15 Semi-fattened Cows</string>
 	    <string _locid="79923">Ages up very fast and allows Jungle Outposts to receive shipments</string>
@@ -448,6 +452,12 @@
 	    <string _locid="260043">Brass Beasts</string>
 	    <string _locid="260044">Gatling Guns gain additional ranged and siege armor.</string>
 	    <string _locid="260045">5 Warrior Priests</string>
+	    <string _locid="260046">All Shock Infantry train faster.</string>
+	    <string _locid="260047">Cacao Cultivation</string>
+	    <string _locid="260048">Villagers gather Coin from Estates faster.</string>
+	    <string _locid="260047">Flower Wars</string>
+	    <string _locid="260048">Villagers gather Coin from Estates faster.</string>
+	    <string _locid="260049">John Brown</string>
 	</Language>
   </StringTable>
 </stringmods>

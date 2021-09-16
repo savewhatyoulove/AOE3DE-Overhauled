@@ -330,7 +330,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
-      <displayunitcount>5</displayunitcount>
+      <displayunitcount>6</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -366,7 +366,7 @@
       <level>25</level>
       <prereqtech>HCXPShipCoyoteMen4</prereqtech>
       <age>3</age>
-      <displayunitcount>15</displayunitcount>
+      <displayunitcount>16</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -477,7 +477,7 @@
       <level>10</level>
       <prereqtech>HCXPShipEagleKnights1</prereqtech>
       <age>3</age>
-      <displayunitcount>9</displayunitcount>
+      <displayunitcount>10</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -593,7 +593,7 @@
       <level>0</level>
       <prereqtech>HCXPShipArrowKnights1</prereqtech>
       <age>3</age>
-      <displayunitcount>6</displayunitcount>
+      <displayunitcount>7</displayunitcount>
     </card>
     <card>
       <name>HCXPShipSkullKnights1</name>
@@ -706,6 +706,13 @@
     </card>
     <card>
       <name>HCFencingSchool</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCXPCheapWarHuts</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name>DEHCRidingSchoolAztec</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>HCXPCheapWarHuts</prereqtech>
@@ -899,14 +906,14 @@
       <name>HCGrainMarket</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>HCSustainableAgriculture</prereqtech>
+      <prereqtech>-1</prereqtech>
       <age>1</age>
     </card>
     <card>
       <name>HCXPChinampa1</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCSustainableAgriculture</prereqtech>
+      <prereqtech>-1</prereqtech>
       <age>1</age>
     </card>
     <card>
@@ -966,7 +973,7 @@
       <age>0</age>
     </card>
     <card>
-      <name>HCXPAgrarianWays</name>
+      <name>DEHCAgrarianWaysAztec</name>
       <maxcount>1</maxcount>
       <level>25</level>
       <prereqtech>HCStonemasons</prereqtech>
@@ -1297,11 +1304,10 @@
         <card dbid="2983">HCXPChinampa2</card>
         <card dbid="3360">HCXPCoinCratesAztec4</card>
         <card dbid="2880">HCXPWarChiefAztec1</card>
-        <card dbid="2931">HCXPWarHutTraining</card>
         <card dbid="2916">HCXPShipVillagersTeam</card>
         <card dbid="3478">HCXPSilentStrike</card>
         <card dbid="2969">HCXPTempleXipeTotec</card>
-        <card dbid="3474">HCXPAgrarianWays</card>
+        <card dbid="3474">DEHCAgrarianWaysAztec</card>
         <card dbid="2925">HCXPShipPumaMen2</card>
         <card dbid="3285">HCXPTownDance</card>
         <card dbid="2976">HCXPGreatTempleTezcatlipoca</card>
@@ -1473,7 +1479,6 @@
       <tech x="0.8" y="7.0">HCXPSilentStrike</tech>
       <tech x="1.6" y="1.0">HCXPShipPumaMen1</tech>
       <tech x="1.6" y="3.0">HCXPShipPumaMen2</tech>
-      <tech x="1.6" y="4.0">HCXPWarHutTraining</tech>
       <tech x="2.4" y="1.0">HCXPShipMacehualtins1</tech>
       <tech x="2.4" y="2.0">HCXPShipMacehualtins2</tech>
       <tech x="2.4" y="3.0">HCXPShipMacehualtins3</tech>
@@ -1509,7 +1514,6 @@
       <tech x="0.8" y="7.0">HCXPSilentStrike</tech>
       <tech x="1.6" y="1.0">HCXPShipPumaMen1</tech>
       <tech x="1.6" y="3.0">HCXPShipPumaMen2</tech>
-      <tech x="1.6" y="4.0">HCXPWarHutTraining</tech>
       <tech x="2.4" y="1.0">HCXPShipMacehualtins1</tech>
       <tech x="2.4" y="2.0">HCXPShipMacehualtins2</tech>
       <tech x="2.4" y="3.0">HCXPShipMacehualtins3</tech>
@@ -1564,6 +1568,7 @@
       <tech x="1.4" y="6.0">HCXPKinshipTies</tech>
       <tech x="2.1" y="1.0">HCXPCheapWarHuts</tech>
       <tech x="1.4" y="3.0">HCFencingSchool</tech>
+      <tech x="1.4" y="2.0">DEHCRidingSchoolAztec</tech>
       <tech x="2.1" y="4.0">HCXPShipWarHutTravois1</tech>
       <tech x="3.0" y="1.0">HCXPRanching</tech>
       <tech x="3.0" y="3.0">HCXPShipNoblesHutTravois1</tech>
@@ -1590,6 +1595,7 @@
       <tech x="1.4" y="6.0">HCXPKinshipTies</tech>
       <tech x="2.1" y="1.0">HCXPCheapWarHuts</tech>
       <tech x="1.4" y="3.0">HCFencingSchool</tech>
+      <tech x="1.4" y="2.0">DEHCRidingSchoolAztec</tech>
       <tech x="2.1" y="4.0">HCXPShipWarHutTravois1</tech>
       <tech x="3.0" y="1.0">HCXPRanching</tech>
       <tech x="3.0" y="3.0">HCXPShipNoblesHutTravois1</tech>
@@ -1625,7 +1631,7 @@
     <rolloverstringid>25535</rolloverstringid>
     <obtainabletechs>
       <tech x="0.0" y="3.0">HCStonemasons</tech>
-      <tech x="0.0" y="5.0">HCXPAgrarianWays</tech>
+      <tech x="0.0" y="5.0">DEHCAgrarianWaysAztec</tech>
       <tech x="0.0" y="7.0">HCXPOldWaysAztec</tech>
       <tech x="0.8" y="1.0">HCXPShipFarmTravois1</tech>
       <tech x="0.8" y="2.0">HCXPShipFarmTravois2</tech>
@@ -1639,7 +1645,6 @@
       <tech x="4.8" y="5.0">HCXPAztecMining</tech>
       <tech x="5.7" y="1.0">HCFoodSilos</tech>
       <tech x="5.7" y="3.0">HCXPCheapFishingBoatTeam</tech>
-      <tech x="5.7" y="3.0">HCSustainableAgriculture</tech>
       <tech x="5.7" y="5.0">HCGrainMarket</tech>
       <tech x="6.6" y="4.0">HCXPChinampa1</tech>
       <tech x="6.6" y="5.0">HCXPChinampa2</tech>
@@ -1650,7 +1655,7 @@
     </obtainabletechs>
     <activetechs>
       <tech x="0.0" y="3.0">HCStonemasons</tech>
-      <tech x="0.0" y="5.0">HCXPAgrarianWays</tech>
+      <tech x="0.0" y="5.0">DEHCAgrarianWaysAztec</tech>
       <tech x="0.0" y="7.0">HCXPOldWaysAztec</tech>
       <tech x="0.8" y="1.0">HCXPShipFarmTravois1</tech>
       <tech x="0.8" y="2.0">HCXPShipFarmTravois2</tech>
@@ -1664,7 +1669,6 @@
       <tech x="4.8" y="5.0">HCXPAztecMining</tech>
       <tech x="5.7" y="1.0">HCFoodSilos</tech>
       <tech x="5.7" y="3.0">HCXPCheapFishingBoatTeam</tech>
-      <tech x="5.7" y="3.0">HCSustainableAgriculture</tech>
       <tech x="5.7" y="5.0">HCGrainMarket</tech>
       <tech x="6.6" y="4.0">HCXPChinampa1</tech>
       <tech x="6.6" y="5.0">HCXPChinampa2</tech>
