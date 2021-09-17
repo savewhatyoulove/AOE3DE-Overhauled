@@ -9800,9 +9800,6 @@
     <rollovertextid>110294</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" amount="0.50" subtype="UnitRegenRate" unittype="deMinuteman" relativity="Percent">
-        <target type="Player"/>
-      </effect>
       <effect type="Data" amount="1.00" subtype="PartisanUnit" unittype="deMinuteman" relativity="Assign">
         <target type="ProtoUnit">House</target>
       </effect>
@@ -11743,6 +11740,83 @@
       </effect>
       <effect type="Data" action="VolleyRangedAttack" amount="1.00" subtype="DamageArea" relativity="Assign">
         <target type="ProtoUnit">xpArrowKnight</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="HCXPReligiousUnity" type="Normal">
+    <dbid>3480</dbid>
+    <displaynameid>47182</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\Religious_Unity.png</icon>
+    <rollovertextid>47181</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="375.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">HCXPZapotecAllies1</target>
+      </effect>
+      <effect type="Data" amount="900.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">HCXPMayanAlliesRepeat</target>
+      </effect>
+      <effect type="Data" amount="375.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">HCXPMayanAllies1</target>
+      </effect>
+      <effect type="Data" amount="900.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">HCXPZapotecAlliesRepeat</target>
+      </effect>
+      <effect type="Data" amount="375.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">HCXPSpanishAllies1</target>
+      </effect>
+      <effect type="Data" amount="200.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">HCXPTempleCenteotl</target>
+      </effect>
+      <effect type="Data" amount="200.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">HCXPTempleXipeTotec</target>
+      </effect>
+      <effect type="Data" amount="750.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">HCXPTempleTlaloc</target>
+      </effect>
+      <effect type="Data" amount="200.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">HCXPTempleCoatlicue</target>
+      </effect>
+      <effect type="Data" amount="200.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">HCXPTempleXochipilli</target>
+      </effect>
+      <effect type="Data" amount="200.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">HCXPTempleXolotl</target>
+      </effect>
+      <effect type="Data" amount="200.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">HCXPGreatTempleQuetzalcoatl</target>
+      </effect>
+      <effect type="Data" amount="750.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">HCXPSpanishAllies2</target>
+      </effect>
+      <effect type="TextOutput">47184</effect>
+      <effect type="Data" amount="375.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">HCXPBuccaneers</target>
+      </effect>
+      <effect type="Data" amount="750.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">HCXPGreatTempleTezcatlipoca</target>
+      </effect>
+      <effect type="Data" amount="375.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">HCXPBuccaneers2</target>
+      </effect>
+      <effect type="Data" amount="750.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">HCXPMayanAllies2</target>
+      </effect>
+      <effect type="Data" amount="750.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">HCXPZapotecAllies2</target>
+      </effect>
+      <effect type="Data" amount="750.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="Tech">HCXPGreatTempleHuitzilopochtli</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="AAStandardStartingTechs" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="Data" amount="-2.00" subtype="UnitRegenRate" unittype="Minuteman" relativity="Assign">
+        <target type="Player"/>
       </effect>
     </effects>
   </tech>

@@ -5759,7 +5759,6 @@
     <buildingworkrate>1.0000</buildingworkrate>
     <maxcontained>50</maxcontained>
     <allowedage>0</allowedage>
-    <gathererlimit>4</gathererlimit>
     <armor type="Siege" value="0.0000"/>
     <builderlimit>8</builderlimit>
     <carrycapacity resourcetype="Food">100.0000</carrycapacity>
