@@ -104,8 +104,8 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <displayunitcount>5</displayunitcount>
+      <age>1</age>
+      <displayunitcount>4</displayunitcount>
     </card>
     <card>
       <name>DEHCShipVillagers2</name>
@@ -292,6 +292,14 @@
       <displayunitcount>1600</displayunitcount>
     </card>
     <card>
+      <name>DEHCShipInfluenceInfinite2</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>1000</displayunitcount>
+    </card>
+    <card>
       <name>DEHCShipSanga3</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -300,15 +308,23 @@
       <displayunitcount>9</displayunitcount>
     </card>
     <card>
-      <name>DEHCShipChonkyCattle</name>
-      <maxcount>1</maxcount>
+      <name>DEHCRedFulaniCattle</name>
+      <maxcount>2</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>1</age>
-      <displayunitcount>1</displayunitcount>
+      <age>3</age>
+      <displayunitcount>13</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>DEHCKoose</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
+      <name>DEHCKilishiJerky</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -320,6 +336,27 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
+    </card>
+    <card>
+      <name>DEHCRanoIndigoProduction</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>DEHCIndigoDyeworks</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
+      <name>DEHCDraftOxen</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
     </card>
     <card>
       <name>DEHCShipCoveredWagonsAfrica</name>
@@ -369,6 +406,7 @@
       <prereqtech>-1</prereqtech>
       <age>3</age>
       <displayunitcount>17</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>DEHCFutaToro</name>
@@ -377,6 +415,7 @@
       <prereqtech>-1</prereqtech>
       <age>3</age>
       <displayunitcount>18</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>DEHCGwandu</name>
@@ -384,7 +423,8 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>17</displayunitcount>
+      <displayunitcount>14</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>DEHCShipFulaWarriors1</name>
@@ -458,7 +498,7 @@
       <maxcount>-1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>2</age>
+      <age>3</age>
       <displayunitcount>7</displayunitcount>
     </card>
     <card>
@@ -602,15 +642,33 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>0</age>
+      <age>1</age>
     </card>
     <card>
       <name>DEHCShipZenataTeam</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
+      <bindtotech>DEHCREVShipZenataTeam</bindtotech>
       <age>2</age>
-      <displayunitcount>5</displayunitcount>
+      <displayunitcount>4</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCKororofaConfederacy</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>6</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCHadejiaEmirate</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>7</displayunitcount>
     </card>
     <card>
       <name>DEHCTimbuktu</name>
@@ -624,7 +682,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>1</age>
+      <age>3</age>
     </card>
     <card>
       <name>DEHCTEAMHausaGates</name>
@@ -638,14 +696,14 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>3</age>
+      <age>1</age>
     </card>
     <card>
       <name>DEHCSahelianKingdoms</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>0</age>
+      <age>1</age>
     </card>
     <card>
       <name>DEHCHausaKingdom</name>
@@ -659,8 +717,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>1</age>
-      <displayunitcount>1</displayunitcount>
+      <age>0</age>
     </card>
     <card>
       <name>DEHCMassinaMadrasahs</name>
@@ -768,20 +825,20 @@
     </card>
     <card>
       <name>DEHCShipGriots1</name>
-      <maxcount>-1</maxcount>
+      <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
-      <displayunitcount>3</displayunitcount>
+      <displayunitcount>4</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>DEHCShipGriots2</name>
-      <maxcount>-1</maxcount>
+      <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <displayunitcount>5</displayunitcount>
+      <age>3</age>
+      <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -818,7 +875,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>3</age>
+      <age>2</age>
     </card>
     <card>
       <name>DEHCAdvancedLivestockMarket</name>
@@ -839,8 +896,16 @@
       <maxcount>1</maxcount>
       <level>25</level>
       <prereqtech>YPHCNativeTradeTax</prereqtech>
-      <age>0</age>
+      <age>1</age>
       <displayunitcount>1</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCMaraboutNetwork</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>YPHCNativeTradeTax</prereqtech>
+      <age>1</age>
+      <displayunitcount>2</displayunitcount>
     </card>
     <card>
       <name>HCFishMarket</name>
@@ -882,7 +947,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>0</age>
+      <age>1</age>
     </card>
     <card>
       <name>HCXPWoodcrafting</name>
@@ -927,13 +992,6 @@
       <age>0</age>
     </card>
     <card>
-      <name>HCMedicine</name>
-      <maxcount>1</maxcount>
-      <level>25</level>
-      <prereqtech>-1</prereqtech>
-      <age>1</age>
-    </card>
-    <card>
       <name>DEHCFulaniPulaakuCode</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -960,14 +1018,14 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>11</displayunitcount>
+      <displayunitcount>10</displayunitcount>
     </card>
     <card>
       <name>DEHCMercsCannoneers2</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <displayunitcount>7</displayunitcount>
+      <displayunitcount>14</displayunitcount>
       <age>2</age>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
@@ -976,7 +1034,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <displayunitcount>10</displayunitcount>
+      <displayunitcount>11</displayunitcount>
       <age>3</age>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
@@ -1003,7 +1061,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <displayunitcount>7</displayunitcount>
+      <displayunitcount>9</displayunitcount>
       <age>2</age>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
@@ -1012,7 +1070,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <displayunitcount>10</displayunitcount>
+      <displayunitcount>9</displayunitcount>
       <age>3</age>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
@@ -1105,7 +1163,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
-      <displayunitcount>7</displayunitcount>
+      <displayunitcount>6</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1114,7 +1172,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
-      <displayunitcount>10</displayunitcount>
+      <displayunitcount>9</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1137,8 +1195,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>1</age>
-      <displayunitcount>5</displayunitcount>
+      <age>2</age>
     </card>
     <card>
       <name>DEHCShipBerberAllies1</name>
@@ -1150,13 +1207,13 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>DEHCShipBerberAllies2</name>
+      <name>DEHCShipBerberAllies3</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>3</age>
-      <displayunitcount>15</displayunitcount>
-      <infiniteinlastage>3</infiniteinlastage>
+      <age>2</age>
+      <displayunitcount>8</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>DEHCShipSudaneseAllies1</name>
@@ -1176,27 +1233,16 @@
       <displayunitcount>15</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
-    <card>
-      <name>DEHCShipYorubaAllies2</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
-      <displayunitcount>16</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
   </cards>
   <decks>
     <deck>
       <name>$$71332$$Beginner</name>
       <cards>
         <card dbid="8122">DEHCFulaniCrossingFestival</card>
-        <card dbid="6878">DEHCShipVillagers1Repeat</card>
         <card dbid="8268">DEHCShipSanga3</card>
         <card dbid="8300">DEHCShipInfluence2</card>
         <card dbid="8302">DEHCShipInfluence1</card>
         <card dbid="8301">DEHCShipInfluence3</card>
-        <card dbid="6724">DEHCShipCampWagonsRepeat2</card>
         <card dbid="6775">DEHCShipFulaWarriors1</card>
         <card dbid="6780">DEHCShipRaiders1</card>
         <card dbid="6782">DEHCShipLifidiKnights1</card>
@@ -1213,6 +1259,8 @@
         <card dbid="8399">DEHCMercsSennarHorsemen</card>
         <card dbid="8332">DEHCGaananci</card>
         <card dbid="8376">DEHCFutaToro</card>
+        <card dbid="6880">DEHCShipVillagers3</card>
+        <card dbid="8322">DEHCShipSanga2</card>
       </cards>
     </deck>
     <deck>
@@ -1220,12 +1268,10 @@
       <default/>
       <cards>
         <card dbid="8122">DEHCFulaniCrossingFestival</card>
-        <card dbid="6878">DEHCShipVillagers1Repeat</card>
         <card dbid="8268">DEHCShipSanga3</card>
         <card dbid="8300">DEHCShipInfluence2</card>
         <card dbid="8302">DEHCShipInfluence1</card>
         <card dbid="8301">DEHCShipInfluence3</card>
-        <card dbid="6724">DEHCShipCampWagonsRepeat2</card>
         <card dbid="6775">DEHCShipFulaWarriors1</card>
         <card dbid="6780">DEHCShipRaiders1</card>
         <card dbid="6782">DEHCShipLifidiKnights1</card>
@@ -1242,6 +1288,8 @@
         <card dbid="8399">DEHCMercsSennarHorsemen</card>
         <card dbid="8332">DEHCGaananci</card>
         <card dbid="8376">DEHCFutaToro</card>
+        <card dbid="6880">DEHCShipVillagers3</card>
+        <card dbid="8322">DEHCShipSanga2</card>
       </cards>
     </deck>
     <deck>
@@ -1257,22 +1305,21 @@
         <card dbid="8125">DEHCFulaniPulaakuCode</card>
         <card dbid="6747">DEHCFasterTrainingUnitsAfrican</card>
         <card dbid="8307">DEHCDurbarParade</card>
-        <card dbid="6878">DEHCShipVillagers1Repeat</card>
         <card dbid="8331">DEHCBerberNomads</card>
         <card dbid="6879">DEHCShipVillagers2</card>
         <card dbid="8332">DEHCGaananci</card>
-        <card dbid="8377">DEHCGwandu</card>
         <card dbid="8315">DEHCSahelianKingdoms</card>
         <card dbid="6787">DEHCEmirKano</card>
-        <card dbid="8339">DEHCSuyaSkewers</card>
-        <card dbid="8400">DEHCMercsDahomeyAmazons</card>
         <card dbid="8268">DEHCShipSanga3</card>
         <card dbid="8403">DEHCFulaniArcherCombat</card>
         <card dbid="8316">DEHCHausaKingdom</card>
-        <card dbid="8303">DEHCEarlyLifidi</card>
-        <card dbid="8397">DEHCHandCavalryHitpointsHausa</card>
         <card dbid="6786">DEHCSarkinDogarai</card>
         <card dbid="8302">DEHCShipInfluence1</card>
+        <card dbid="6880">DEHCShipVillagers3</card>
+        <card dbid="8312">DEHCAncientKanoWalls</card>
+        <card dbid="8333">DEHCKolaNutCultivation</card>
+        <card dbid="8335">DEHCRanoIndigoProduction</card>
+        <card dbid="8416">DEHCMercsGatlingCamels</card>
       </cards>
     </deck>
     <deck>
@@ -1287,22 +1334,22 @@
         <card dbid="6748">DEHCAdvancedLivestockMarket</card>
         <card dbid="6747">DEHCFasterTrainingUnitsAfrican</card>
         <card dbid="8321">DEHCGatekeepers</card>
-        <card dbid="6878">DEHCShipVillagers1Repeat</card>
         <card dbid="2225">HCNavalCombat</card>
-        <card dbid="8254">DEHCShipMercXebec2</card>
+        <card dbid="8412">DEHCShipMercXebec2</card>
         <card dbid="6879">DEHCShipVillagers2</card>
         <card dbid="8320">DEHCPalaceAmina</card>
         <card dbid="6740">DEHCMassLeviesAfrican</card>
         <card dbid="8144">DEHCSaleRovers</card>
         <card dbid="6755">DEHCShipBattleCanoes2</card>
-        <card dbid="8255">DEHCShipBattleCanoes3</card>
+        <card dbid="8413">DEHCShipBattleCanoes3</card>
         <card dbid="8122">DEHCFulaniCrossingFestival</card>
         <card dbid="8306">DEHCDambeWrestling</card>
         <card dbid="8308">DEHCZazzauCavalry</card>
         <card dbid="8302">DEHCShipInfluence1</card>
-        <card dbid="8314">DEHCKatsinaFortifications</card>
         <card dbid="469">HCFishMarket</card>
         <card dbid="8375">DEHCFutaJallon</card>
+        <card dbid="6880">DEHCShipVillagers3</card>
+        <card dbid="8371">DEHCExtensiveFortificationsHausa</card>
       </cards>
     </deck>
     <revoltdeck>
@@ -1374,11 +1421,13 @@
       <tech x="2.7" y="4.0">HCShipCoinCrates4</tech>
       <tech x="2.0" y="4.0">HCShipWoodCrates6</tech>
       <tech x="3.4" y="2.0">DEHCShipInfluenceInfinite</tech>
+      <tech x="3.4" y="2.0">DEHCShipInfluenceInfinite2</tech>
       <tech x="3.4" y="2.0">DEHCShipInfluence</tech>
       <tech x="3.4" y="2.0">DEHCShipInfluence1</tech>
       <tech x="2.9" y="3.0">DEHCShipInfluence2</tech>
       <tech x="3.4" y="4.0">DEHCShipInfluence3</tech>
       <tech x="4.4" y="2.0">DEHCShipSanga3</tech>
+      <tech x="4.4" y="2.0">DEHCRedFulaniCattle</tech>
       <tech x="6.1" y="3.0">DEHCShipCoveredWagonsAfrica</tech>
     </obtainabletechs>
     <activetechs>
@@ -1405,11 +1454,13 @@
       <tech x="2.7" y="4.0">HCShipCoinCrates4</tech>
       <tech x="2.0" y="4.0">HCShipWoodCrates6</tech>
       <tech x="3.4" y="2.0">DEHCShipInfluenceInfinite</tech>
+      <tech x="3.4" y="2.0">DEHCShipInfluenceInfinite2</tech>
       <tech x="3.4" y="2.0">DEHCShipInfluence</tech>
       <tech x="3.4" y="2.0">DEHCShipInfluence1</tech>
       <tech x="2.9" y="3.0">DEHCShipInfluence2</tech>
       <tech x="3.4" y="4.0">DEHCShipInfluence3</tech>
       <tech x="4.4" y="2.0">DEHCShipSanga3</tech>
+      <tech x="4.4" y="2.0">DEHCRedFulaniCattle</tech>
       <tech x="6.1" y="3.0">DEHCShipCoveredWagonsAfrica</tech>
     </activetechs>
     <validunits/>
@@ -1462,8 +1513,9 @@
       <tech x="0.0" y="3.0">DEHCEarlyLifidi</tech>
       <tech x="0.0" y="3.0">DEHCDurbarParade</tech>
       <tech x="0.0" y="3.0">DEHCZazzauCavalry</tech>
-      <tech x="0.0" y="3.0">DEHCKingslayer</tech>
       <tech x="0.0" y="3.0">DEHCDambeWrestling</tech>
+      <tech x="0.0" y="3.0">DEHCKingslayer</tech>
+      <tech x="0.0" y="3.0">DEHCHadejiaEmirate</tech>
     </obtainabletechs>
     <activetechs>
       <tech x="0.0" y="2.0">DEHCShipJavelinRidersRepeat1</tech>
@@ -1499,7 +1551,7 @@
       <tech x="0.0" y="3.0">DEHCZazzauCavalry</tech>
       <tech x="0.0" y="3.0">DEHCDambeWrestling</tech>
       <tech x="0.0" y="3.0">DEHCKingslayer</tech>
-      <tech x="0.0" y="3.0">DEHCDambeWrestling</tech>
+      <tech x="0.0" y="3.0">DEHCHadejiaEmirate</tech>
     </activetechs>
     <validunits/>
     <units/>
@@ -1533,6 +1585,7 @@
       <tech x="7.4" y="3.0">DEHCFasterTrainingUnitsAfrican</tech>
       <tech x="7.4" y="3.0">DEHCAdvancedLivestockMarket</tech>
       <tech x="7.4" y="3.0">DEHCExpandedTradingPost</tech>
+      <tech x="7.4" y="3.0">DEHCMaraboutNetwork</tech>
       <tech x="0.0" y="3.0">DEHCTimbuktu</tech>
       <tech x="0.0" y="3.0">DEHCTEAMHausaGates</tech>
       <tech x="0.0" y="3.0">DEHCKatsinaFortifications</tech>
@@ -1548,6 +1601,8 @@
       <tech x="0.0" y="3.0">DEHCZumaRockLoreTeam</tech>
       <tech x="0.0" y="3.0">DEHCMoroccanLeather</tech>
       <tech x="4.4" y="2.0">DEHCHabbanaya</tech>
+      <tech x="0.0" y="3.0">DEHCDambeWrestling</tech>
+      <tech x="0.0" y="3.0">DEHCTsetseSabotage</tech>
     </obtainabletechs>
     <activetechs>
       <tech x="3.2" y="2.0">DEHCShipTradeCarts</tech>
@@ -1563,6 +1618,7 @@
       <tech x="7.4" y="3.0">DEHCFasterTrainingUnitsAfrican</tech>
       <tech x="7.4" y="3.0">DEHCAdvancedLivestockMarket</tech>
       <tech x="7.4" y="3.0">DEHCExpandedTradingPost</tech>
+      <tech x="7.4" y="3.0">DEHCMaraboutNetwork</tech>
       <tech x="0.0" y="3.0">DEHCTimbuktu</tech>
       <tech x="0.0" y="3.0">DEHCTEAMHausaGates</tech>
       <tech x="0.0" y="3.0">DEHCKatsinaFortifications</tech>
@@ -1578,6 +1634,8 @@
       <tech x="0.0" y="3.0">DEHCZumaRockLoreTeam</tech>
       <tech x="0.0" y="3.0">DEHCMoroccanLeather</tech>
       <tech x="4.4" y="2.0">DEHCHabbanaya</tech>
+      <tech x="0.0" y="3.0">DEHCDambeWrestling</tech>
+      <tech x="0.0" y="3.0">DEHCTsetseSabotage</tech>
     </activetechs>
     <validunits/>
     <units/>
@@ -1599,7 +1657,6 @@
     <rolloverstringid>25535</rolloverstringid>
     <obtainabletechs>
       <tech x="0.0" y="7.0">DEHCFulaniPulaakuCode</tech>
-      <tech x="0.0" y="7.0">HCMedicine</tech>
       <tech x="1.3" y="1.0">HCFishMarket</tech>
       <tech x="0.9" y="3.0">HCRenderingPlant</tech>
       <tech x="2.5" y="3.0">HCSawmills</tech>
@@ -1614,10 +1671,13 @@
       <tech x="6.1" y="1.0">HCFurrier</tech>
       <tech x="6.1" y="1.0">DEHCFulaniCattleFertilizer</tech>
       <tech x="4.4" y="2.0">DEHCKoose</tech>
+      <tech x="4.4" y="2.0">DEHCKilishiJerky</tech>
+      <tech x="0.0" y="3.0">DEHCRanoIndigoProduction</tech>
+      <tech x="0.0" y="3.0">DEHCIndigoDyeworks</tech>
+      <tech x="0.0" y="3.0">DEHCDraftOxen</tech>
     </obtainabletechs>
     <activetechs>
       <tech x="0.0" y="7.0">DEHCFulaniPulaakuCode</tech>
-      <tech x="0.0" y="7.0">HCMedicine</tech>
       <tech x="1.3" y="1.0">HCFishMarket</tech>
       <tech x="0.9" y="3.0">HCRenderingPlant</tech>
       <tech x="2.5" y="3.0">HCSawmills</tech>
@@ -1632,6 +1692,10 @@
       <tech x="6.1" y="1.0">HCFurrier</tech>
       <tech x="6.1" y="1.0">DEHCFulaniCattleFertilizer</tech>
       <tech x="4.4" y="2.0">DEHCKoose</tech>
+      <tech x="4.4" y="2.0">DEHCKilishiJerky</tech>
+      <tech x="0.0" y="3.0">DEHCRanoIndigoProduction</tech>
+      <tech x="0.0" y="3.0">DEHCIndigoDyeworks</tech>
+      <tech x="0.0" y="3.0">DEHCDraftOxen</tech>
     </activetechs>
     <validunits/>
     <trainbuilding>1</trainbuilding>
@@ -1669,13 +1733,13 @@
       <tech x="4.4" y="1.0">DEHCSaleRovers</tech>
       <tech x="4.4" y="1.0">DEHCOutlawsHausa</tech>
       <tech x="4.4" y="1.0">DEHCShipBerberAllies1</tech>
-      <tech x="4.4" y="1.0">DEHCShipBerberAllies2</tech>
+      <tech x="4.4" y="1.0">DEHCShipBerberAllies3</tech>
       <tech x="4.4" y="1.0">DEHCShipSudaneseAllies1</tech>
       <tech x="4.4" y="1.0">DEHCShipSudaneseAllies2</tech>
-      <tech x="4.4" y="1.0">DEHCShipYorubaAllies2</tech>
       <tech x="0.0" y="3.0">DEHCSahelianKingdoms</tech>
       <tech x="4.4" y="1.0">DEHCCanoeCrafting</tech>
       <tech x="0.0" y="3.0">DEHCShipZenataTeam</tech>
+      <tech x="0.0" y="3.0">DEHCKororofaConfederacy</tech>
       <tech x="0.0" y="3.0">DEHCMercsDahomeyAmazons</tech>
       <tech x="0.0" y="3.0">DEHCMercsCannoneers2</tech>
       <tech x="0.0" y="3.0">DEHCMercsAskari</tech>
@@ -1702,13 +1766,13 @@
       <tech x="4.4" y="1.0">DEHCSaleRovers</tech>
       <tech x="4.4" y="1.0">DEHCOutlawsHausa</tech>
       <tech x="4.4" y="1.0">DEHCShipBerberAllies1</tech>
-      <tech x="4.4" y="1.0">DEHCShipBerberAllies2</tech>
+      <tech x="4.4" y="1.0">DEHCShipBerberAllies3</tech>
       <tech x="4.4" y="1.0">DEHCShipSudaneseAllies1</tech>
       <tech x="4.4" y="1.0">DEHCShipSudaneseAllies2</tech>
-      <tech x="4.4" y="1.0">DEHCShipYorubaAllies2</tech>
       <tech x="0.0" y="3.0">DEHCSahelianKingdoms</tech>
       <tech x="4.4" y="1.0">DEHCCanoeCrafting</tech>
       <tech x="0.0" y="3.0">DEHCShipZenataTeam</tech>
+      <tech x="0.0" y="3.0">DEHCKororofaConfederacy</tech>
       <tech x="0.0" y="3.0">DEHCMercsCannoneers2</tech>
       <tech x="0.0" y="3.0">DEHCMercsDahomeyAmazons</tech>
       <tech x="0.0" y="3.0">DEHCMercsAskari</tech>
@@ -1990,5 +2054,6 @@
     <prop>Hausa_WorkshopsTexture1</prop>
     <prop active="1">Hausa_WaterplaceTexture0</prop>
     <prop>Hausa_WaterplaceTexture1</prop>
+    <prop>HausaExplorer</prop>
   </obtainableprops>
 </homecity>

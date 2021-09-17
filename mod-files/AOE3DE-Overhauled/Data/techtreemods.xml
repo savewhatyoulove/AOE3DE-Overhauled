@@ -4847,6 +4847,7 @@
     <icon>resources\images\icons\techs\africans\alliances\oromo_migrations.png</icon>
     <rollovertextid>103347</rollovertextid>
     <flag>HomeCity</flag>
+    <flag>DEHCCardDynamicCount</flag>
     <effects>
      	    <effect type="Data" amount="4.00" subtype="FreeHomeCityUnitByUnitCount" counttype="dePalace" unittype="deSettlerAfrican" relativity="Absolute">
         	<target type="Player"/>
