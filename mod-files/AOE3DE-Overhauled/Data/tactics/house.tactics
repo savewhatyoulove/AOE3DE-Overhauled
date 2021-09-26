@@ -49,7 +49,7 @@
     <name stringid="70488">Heal</name>
     <type>Heal</type>
     <maxrange>12</maxrange>
-    <rate type="LogicalTypeHealed">5.0 </rate>
+    <rate type="LogicalTypeHealed">10.0 </rate>
     <active>0</active>
     <anim>Heal</anim>
   </action>

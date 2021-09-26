@@ -44,6 +44,7 @@
 	    <string _locid="45125">1 Warrior Priest and 2 Nobles Hut Travois.</string>
 	    <string _locid="45127">2 Warrior Priests, 2 Nobles Hut Travois, and +5% Community Plaza Work Rate.</string>
 	    <string _locid="45129">3 Warrior Priests, 3 Nobles Hut Travois, and +10% Community Plaza Work Rate.</string>
+	    <string _locid="46165">The War God commands! Four Jaguar Prowl Knights assemble at your Home City Gather Point.</string>
 	    <string _locid="47138">All Farm and Estate upgrades available before the Imperial Age are researched.</string>
 
 	    <string _locid="60806">Powerful Indian heavy musket infantry that has a large bonus versus cavalry at melee.</string>
@@ -106,10 +107,10 @@
 	    <string _locid="80533">The Cajamarca send 13 Jungle Bowmen and improve their bonus damage against heavy infantry. Additionally, Jungle Bowmen gain additional damage on their ranged attack and poison.</string>
 	    <string _locid="80547">Kallankas get more hitpoints, build faster, train units more quickly, and cost no coin. Increases build limit.</string>
 	    <string _locid="80552">Trade Monopoly is available an age early and is free.</string>
-	    <string _locid="80560">Doubles the effectiveness of Llamas at the Community Plaza. Additionally, you can now train Llamas and they move more quickly.</string>
+	    <string _locid="80560">Doubles the effectiveness of Llamas at the Community Plaza. Additionally, you can now train Llamas and they move faster.</string>
 	    <string _locid="80890">Red Guard</string>
 	    <string _locid="80892">Turns your Explorer into a powerful melee Duelist and ships an additional one from the Home City alongside a canine companion and 4 Surgeons. Additionally, Duelists gain a Heal ability.</string>
-	    <string _locid="80894">Red Guards now move more quickly, cost a lesser amount of wood to train instead of food and gold, and are upgraded to guard status.</string>
+	    <string _locid="80894">Red Guards now move faster, cost a lesser amount of wood to train instead of food and gold, and are upgraded to guard status.</string>
 	    <string _locid="80898">Delivers 4 Frontier Blockhouse Wagons. Your Settlers become Red Guards (Veteran Skirmishers), who can construct Torps, Blockhouses, and Military Buildings.</string>
 	    <string _locid="90360">8 Karabiniers</string>
 	    <string _locid="91501" symbol="cStringCivRolloverSwedish">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nTrains Miners in addition to Settlers, with a reduced build limit for each. Torps replace houses and gather wood from nearby trees. Crates of Food are replaced by crates of Surströmming, which spawn with less food, but fatten over time. Jaeger and Black Rider mercenaries can always be recruited from the Tavern. All non-native mercenary shipments can be sent an infinite amount of times. Starts off with a Church Wagon.\n&lt;color=1.0, 1.0, 0.0&gt;Royal guard units:&lt;/color&gt;Pikeman (Dalkarl) and Karabinier (Drabant)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nMiner, Carolean, Leather Cannon and Karabinier\n\nThe Swedish Empire became one of the greatest in Europe through innovation in military tactics and logistics. Its artillery and cavalry charges dominated the battlefields, particularly during the Thirty Years War. Despite a relatively small population, the Swedes fielded some of the largest armies in Europe, partly through the recruitment of mercenaries.</string>
@@ -190,17 +191,19 @@
 	    <string _locid="91792">Hussars deal more damage, especially to foot archers and skirmishers.</string>
 	    <string _locid="91849">5 Warrior Priestesses</string>
 	    <string _locid="101051">Powerful heavy cavalry with a power splash ranged attack. Good against light infantry and artillery.</string>
+	    <string _locid="101572">5 Oromo Warriors</string>
 	    <string _locid="101301">5 Raiders</string>
 	    <string _locid="101303">4 Lifidi Knights</string>
 	    <string _locid="101304">3 Lifidi Knights</string>
 	    <string _locid="101305">6 Lifidi Knights</string>
 	    <string _locid="101306">4 Lifidi Knights</string>
 	    <string _locid="102553">Armored cannoneer mercenary from Portugal who fires a heavy musket inflicting splash damage.</string>
-	    <string _locid="102849">Lifidi Knights and Raiders train faster. Raiders deal more damage to Villagers and Lifidi Knights gain increased area damage radii, especially in trample mode.</string>
-	    <string _locid="102881">Particularly fattened Cattle containing 750 Food.</string>
+	    <string _locid="102849">Lifidi Knights and Raiders move faster and deal more damage to Artillery. Raiders gain increased Siege Damage and Lifidi Knights gain increased splash area damage radius, especially in trample mode.</string>
+	    <string _locid="102881">Particularly fattened Cattle containing 800 Food.</string>
 	    <string _locid="102896">Neftenyas gain additional hitpoints.</string>
 	    <string _locid="102928">Javelin Rider armor and attack increased. Oromo Riders deal more damage, especially to skirmishers and foot archers.</string>
 	    <string _locid="103313">The Fulani town of Gwandu sends 9 Fulani Archers and 4 Lifidi Knights.</string>
+	    <string _locid="103232">Ships Harquebusier mercenaries and improves the ranged damage of all Heavy Ranged Cavalry.</string>
 	    <string _locid="103347">Receive a shipment of 4 Villagers for each Palace you currently have built.</string>
 	    <string _locid="110001" symbol="cStringCivRolloverAmericans">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nFederal states unlock two new cards per age and two Factory cards in Industrial Age. Shipments are earned more quickly and you receive a free XP crate with most shipments. Economic improvements from the Home City are more powerful, but you have a lower Settler build limit and cannot ship resource crates. Generals can build Forts instead of Town Centers. Levies can be called repeatedly from multiple buildings with a global cooldown. Military units slowly heal over time outside of combat. Starts with a Fattened Sheep, an XP crate, and a Homestead Wagon instead of resource crates. \n&lt;color=1.0, 1.0, 0.0&gt;National guard units: &lt;/color&gt;Sharpshooters (Marksmen), Spur Riders (Rough Riders)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nTexas Ranger, Gatling Gun, Ironclad, Minuteman, Regular, Sharpshooter, Sloop, State Militia, Spur Rider, Steamer\n\nThe "land of opportunity" provided ample land for Settlers to plunder, creating the famous melting pot of Western European identities. Expanding from militia forces skilled in skirmishing tactics and marksmanship to a professional army, the United States of America ensured its independence and impressive road to prosperity for the owner class.</string>
 	    <string _locid="110009">Hardy Skirmisher with a powerful short-ranged splash attack.</string>
@@ -469,6 +472,18 @@
 	    <string _locid="260051">Receive a small trickle of Wood for the rest of the game.</string>
 	    <string _locid="260052">Tlaltecuhtli Worship</string>
 	    <string _locid="260053">Receive a moderate trickle of Wood for the rest of the game.</string>
+	    <string _locid="260054">Sreevan</string>
+	    <string _locid="260055">Delivers 3 Mango Grove Rickshaws and improves Villager Wood gathering.</string>
+	    <string _locid="260056">13 Disciplined Gurkha</string>
+	    <string _locid="260057">Disciplined Gurkha Regiment</string>
+	    <string _locid="260058">Ships 1 Disciplined Mansabdar Gurkha and 22 Disciplined Gurkha.</string>
+	    <string _locid="260059">13 Honored Gurkha.</string>
+	    <string _locid="260060">Honored Camel Regiment</string>
+	    <string _locid="260061">Ships 8 Honored Sowars and 12 Honored Zamburaks, alongside their respective Mansabdar counterparts.</string>
+	    <string _locid="260062">Honored Elephant Regiment</string>
+	    <string _locid="260063">Ships 1 Honored Flail Elephant, 1 Mahout Lancer, 1 Howdah, and 1 Siege Elephant, alongside their Mansabdar counterparts.</string>
+	    <string _locid="91553">Mercenary and Outlaw hitpoints and attack greatly increased. Researches Exalted upgrades for imported Chinese and Indian soldiers.</string>
+
 	</Language>
   </StringTable>
 </stringmods>

@@ -91,23 +91,6 @@
       <overrideicontech>DEHCVillagerHausaIcon</overrideicontech>
     </card>
     <card>
-      <name>DEHCShipSanga2</name>
-      <maxcount>-1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>0</age>
-      <displayunitcount>4</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>DEHCFulaniCrossingFestival</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>1</age>
-      <displayunitcount>4</displayunitcount>
-    </card>
-    <card>
       <name>DEHCShipVillagers2</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -300,6 +283,23 @@
       <displayunitcount>1000</displayunitcount>
     </card>
     <card>
+      <name>DEHCShipSanga1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>7</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCFulaniCrossingFestival</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>4</displayunitcount>
+    </card>
+    <card>
       <name>DEHCShipSanga3</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -423,7 +423,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>14</displayunitcount>
+      <displayunitcount>13</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1025,7 +1025,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <displayunitcount>14</displayunitcount>
+      <displayunitcount>7</displayunitcount>
       <age>2</age>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
@@ -1260,7 +1260,7 @@
         <card dbid="8332">DEHCGaananci</card>
         <card dbid="8376">DEHCFutaToro</card>
         <card dbid="6880">DEHCShipVillagers3</card>
-        <card dbid="8322">DEHCShipSanga2</card>
+        <card dbid="8322">DEHCShipSanga1</card>
       </cards>
     </deck>
     <deck>
@@ -1289,7 +1289,7 @@
         <card dbid="8332">DEHCGaananci</card>
         <card dbid="8376">DEHCFutaToro</card>
         <card dbid="6880">DEHCShipVillagers3</card>
-        <card dbid="8322">DEHCShipSanga2</card>
+        <card dbid="8322">DEHCShipSanga1</card>
       </cards>
     </deck>
     <deck>
@@ -1403,7 +1403,7 @@
       <tech x="0.2" y="1.0">DEHCShipVillagersGriots</tech>
       <tech x="1.0" y="1.0">DEHCFulaniCrossingFestival</tech>
       <tech x="1.0" y="1.0">DEHCShipVillagers3</tech>
-      <tech x="1.0" y="1.0">DEHCShipSanga2</tech>
+      <tech x="1.0" y="1.0">DEHCShipSanga1</tech>
       <tech x="1.0" y="1.0">DEHCShipVillagers2</tech>
       <tech x="1.3" y="1.0">HCShipFoodCrates1</tech>
       <tech x="2.0" y="1.0">HCShipWoodCrates1</tech>
@@ -1436,7 +1436,7 @@
       <tech x="0.2" y="1.0">DEHCShipVillagersGriots</tech>
       <tech x="1.0" y="1.0">DEHCFulaniCrossingFestival</tech>
       <tech x="1.0" y="1.0">DEHCShipVillagers3</tech>
-      <tech x="1.0" y="1.0">DEHCShipSanga2</tech>
+      <tech x="1.0" y="1.0">DEHCShipSanga1</tech>
       <tech x="1.0" y="1.0">DEHCShipVillagers2</tech>
       <tech x="1.3" y="1.0">HCShipFoodCrates1</tech>
       <tech x="2.0" y="1.0">HCShipWoodCrates1</tech>

@@ -62,15 +62,6 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>DEHCShipZebu2</name>
-      <maxcount>-1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>0</age>
-      <displayunitcount>4</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
       <name>DEHCShipVillagers2</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -82,7 +73,7 @@
     <card>
       <name>DEHCOromoMigrations</name>
       <maxcount>1</maxcount>
-      <age>4</age>
+      <age>3</age>
     </card>
     <card>
       <name>HCShipFoodCrates1</name>
@@ -259,6 +250,15 @@
       <displayunitcount>1600</displayunitcount>
     </card>
     <card>
+      <name>DEHCShipZebu1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>7</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
       <name>DEHCShipZebu3</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -294,8 +294,8 @@
       <maxcount>-1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <displayunitcount>2</displayunitcount>
+      <age>3</age>
+      <displayunitcount>4</displayunitcount>
     </card>
     <card>
       <name>DEHCShipOromo1</name>
@@ -549,7 +549,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <displayunitcount>8</displayunitcount>
+      <displayunitcount>4</displayunitcount>
       <age>1</age>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
@@ -558,7 +558,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <displayunitcount>14</displayunitcount>
+      <displayunitcount>7</displayunitcount>
       <age>2</age>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
@@ -1267,7 +1267,6 @@
         <card dbid="6763">DEHCShipGascenya2</card>
         <card dbid="8392">DEHCRoofAfrica</card>
         <card dbid="8388">DEHCShipMercWarDhows2</card>
-        <card dbid="8349">DEHCEraChaos</card>
       </cards>
     </deck>
     <revoltdeck>
@@ -1318,7 +1317,7 @@
     <obtainabletechs>
       <tech x="1.0" y="1.0">DEHCShipVillagerRepeat</tech>
       <tech x="1.0" y="1.0">DEHCShipVillagersAbunRepeat</tech>
-      <tech x="1.0" y="1.0">DEHCShipZebu2</tech>
+      <tech x="1.0" y="1.0">DEHCShipZebu1</tech>
       <tech x="1.0" y="1.0">DEHCShipVillagers2</tech>
       <tech x="1.0" y="1.0">DEHCOromoMigrations</tech>
       <tech x="1.0" y="1.0">HCShipFoodCrates1</tech>
@@ -1356,7 +1355,7 @@
     <activetechs>
       <tech x="1.0" y="1.0">DEHCShipVillagerRepeat</tech>
       <tech x="1.0" y="1.0">DEHCShipVillagersAbunRepeat</tech>
-      <tech x="1.0" y="1.0">DEHCShipZebu2</tech>
+      <tech x="1.0" y="1.0">DEHCShipZebu1</tech>
       <tech x="1.0" y="1.0">DEHCShipVillagers2</tech>
       <tech x="1.0" y="1.0">DEHCOromoMigrations</tech>
       <tech x="1.0" y="1.0">HCShipFoodCrates1</tech>
@@ -1440,7 +1439,6 @@
       <tech x="0.0" y="3.0">DEHCZebenyas</tech>
       <tech x="0.0" y="3.0">DEHCCartridgeCurrency</tech>
       <tech x="0.0" y="3.0">DEHCTigrayMekonnen</tech>
-      <tech x="0.0" y="3.0">DEHCEraChaos</tech>
       <tech x="0.0" y="3.0">DEHCEraPrinces</tech>
       <tech x="0.0" y="3.0">DEHCBalambaras</tech>
       <tech x="0.0" y="3.0">DEHCDejazmach</tech>
@@ -1478,7 +1476,6 @@
       <tech x="0.0" y="3.0">DEHCZebenyas</tech>
       <tech x="0.0" y="3.0">DEHCCartridgeCurrency</tech>
       <tech x="0.0" y="3.0">DEHCTigrayMekonnen</tech>
-      <tech x="0.0" y="3.0">DEHCEraChaos</tech>
       <tech x="0.0" y="3.0">DEHCEraPrinces</tech>
       <tech x="0.0" y="3.0">DEHCBalambaras</tech>
       <tech x="0.0" y="3.0">DEHCDejazmach</tech>

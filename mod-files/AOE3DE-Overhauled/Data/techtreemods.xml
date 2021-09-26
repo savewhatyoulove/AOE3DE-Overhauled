@@ -1,4 +1,11 @@
 <techtreemods>
+  <tech name="AAStandardStartingTechs" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="Data" amount="-2.00" subtype="UnitRegenRate" unittype="Minuteman" relativity="Assign">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
 <!-- Politician Changes --> 
   <tech mergeMode='replace' name="PoliticianPhilosopherPrince" type="Normal">
     <dbid>2151</dbid>
@@ -45,6 +52,43 @@
       </effect>
     </effects>
   </tech>
+  <tech name="DEPoliticianMercContractorBritishImperial" type="Normal">
+    <dbid>6346</dbid>
+    <displaynameid>91552</displaynameid>
+    <cost resourcetype="Food">4000.0000</cost>
+    <cost resourcetype="Gold">4000.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_v.png</icon>
+    <rollovertextid>91553</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age4</effect>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Mercenary</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Mercenary</target>
+      </effect>
+      <effect type="Data" amount="0.85" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">IndustrialMercenary</target>
+      </effect>
+      <effect type="Data" amount="0.85" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">IndustrialMercenary</target>
+      </effect>
+      <effect type="TechStatus" status="active">YPExaltedGurkha</effect>
+      <effect type="TechStatus" status="active">YPExaltedCamel</effect>
+      <effect type="TechStatus" status="active">YPExaltedCamelGun</effect>
+      <effect type="TechStatus" status="active">YPExaltedSiegeElephant</effect>
+      <effect type="TechStatus" status="active">YPExaltedMahout</effect>
+      <effect type="TechStatus" status="active">YPExaltedHowdah</effect>
+      <effect type="TechStatus" status="active">YPExaltedFlailElephant</effect>
+
+    </effects>
+  </tech>
+
 <!-- General Shipments --> 
   <tech mergeMode='replace' name="ChurchTillysDiscipline" type="Normal">
     <dbid>932</dbid>
@@ -5037,12 +5081,6 @@
     <flag>Shadow</flag>
     <researchpoints>0.0000</researchpoints>
     <effects>
-      <effect type="Data" action="DefendHandAttack" amount="1.00" subtype="DamageArea" relativity="Absolute">
-        <target type="ProtoUnit">deLifidi</target>
-      </effect>
-      <effect type="Data" action="GuardianAttack" amount="1.00" subtype="DamageArea" relativity="Absolute">
-        <target type="ProtoUnit">deLifidi</target>
-      </effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCDurbarParade" type="Normal">
@@ -5055,13 +5093,19 @@
     <icon>resources\images\icons\techs\africans\hausa\festival_durbar.png</icon>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" amount="0.80" subtype="TrainPoints" relativity="BasePercent">
+      <effect type="Data" amount="0.25" subtype="MaximumVelocity" relativity="Absolute">
         <target type="ProtoUnit">deLifidi</target>
       </effect>
-      <effect type="Data" amount="0.80" subtype="TrainPoints" relativity="BasePercent">
+      <effect type="Data" amount="0.25" subtype="MaximumVelocity" relativity="Absolute">
         <target type="ProtoUnit">deRaider</target>
       </effect>
-      <effect type="Data" amount="0.50" subtype="DamageBonus" unittype="AbstractVillager" allactions="1" relativity="Absolute">
+      <effect type="Data" amount="1.50" tactic="Trample" subtype="SpeedModifier" relativity="BasePercent">
+        <target type="ProtoUnit">deRaider</target>
+      </effect>
+      <effect type="Data" amount="1.50" tactic="Trample" subtype="SpeedModifier" relativity="BasePercent">
+        <target type="ProtoUnit">deLifidi</target>
+      </effect>
+      <effect type="Data" action="BuildingAttack" amount="1.50" subtype="Damage" relativity="BasePercent">
         <target type="ProtoUnit">deRaider</target>
       </effect>
       <effect type="Data" action="MeleeHandAttack" amount="1.00" subtype="DamageArea" relativity="Absolute">
@@ -5069,6 +5113,18 @@
       </effect>
       <effect type="Data" action="TrampleHandAttack" amount="2.00" subtype="DamageArea" relativity="Absolute">
         <target type="ProtoUnit">deLifidi</target>
+      </effect>
+      <effect type="Data" action="DefendHandAttack" amount="1.00" subtype="DamageArea" relativity="Absolute">
+        <target type="ProtoUnit">deLifidi</target>
+      </effect>
+      <effect type="Data" action="GuardianAttack" amount="1.00" subtype="DamageArea" relativity="Absolute">
+        <target type="ProtoUnit">deLifidi</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="DamageBonus" unittype="AbstractArtillery" allactions="1" relativity="Absolute">
+        <target type="ProtoUnit">deLifidi</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="DamageBonus" unittype="AbstractArtillery" allactions="1" relativity="Absolute">
+        <target type="ProtoUnit">deRaider</target>
       </effect>
       <effect type="TechStatus" status="obtainable">DEHCDurbarParadeShadow</effect>
       <effect type="TextOutputTechName">110130</effect>
@@ -11499,6 +11555,12 @@
     <icon>resources\images\icons\post_game\time_line_age_2.png</icon>
     <effects>
       <effect type="TechStatus" status="active">Colonialize</effect>
+      <effect type="Data" amount="0.80" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">xpJaguarKnight</target>
+      </effect>
+      <effect type="Data" amount="0.80" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">xpJaguarKnight</target>
+      </effect>
       <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">WarDog</target>
       </effect>
@@ -11526,6 +11588,12 @@
     <flag>Shadow</flag>
     <effects>
       <effect type="TechStatus" status="active">Fortressize</effect>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">xpJaguarKnight</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">xpJaguarKnight</target>
+      </effect>
       <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">WarDog</target>
       </effect>
@@ -11814,12 +11882,294 @@
       </effect>
     </effects>
   </tech>
-  <tech name="AAStandardStartingTechs" type="Normal">
+  <tech mergeMode='replace' name="BigAztecScoutingParty" type="Normal">
+    <dbid>3311</dbid>
+    <displaynameid>46166</displaynameid>
+    <cost resourcetype="Food">500.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\Dance3.png</icon>
+    <icontexturecoords>.599609375 .3046875 .796875 .60546875</icontexturecoords>
+    <iconwpf>resources\images\icons\techs\native_big_button\native_23.png</iconwpf>
+    <rollovertextid>46165</rollovertextid>
+    <flag>CheckLandHCGatherPoint</flag>
+    <flag>NativeDance</flag>
+    <prereqs>
+      <techstatus status="Active">Colonialize</techstatus>
+    </prereqs>
     <effects>
-      <effect mergeMode='add' type="Data" amount="-2.00" subtype="UnitRegenRate" unittype="Minuteman" relativity="Assign">
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="xpJaguarKnight" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
   </tech>
+  <!-- African Civs -->
+  <tech mergeMode='replace' name="DEHCShipOromoRepeat" type="Normal">
+    <dbid>8465</dbid>
+    <displaynameid>101572</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\ethiopians\infinite_oromo_warrior.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="deOromoWarrior" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCFirearmsBritish" type="Normal">
+    <dbid>8462</dbid>
+    <displaynameid>103204</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <cost resourcetype="Influence">1000.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\ethiopians\british_firearms.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="deMercHarquebusier" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractRangedHeavyCavalry</target>
+      </effect>
+      <effect type="Data" amount="0.85" subtype="DamageForAllHandLogicActions" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractRangedHeavyCavalry</target>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShipZebu1" type="Normal">
+    <dbid>6722</dbid>
+    <displaynameid>101180</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\animals\zebu\zebu_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data2" amount="7.00" subtype="FreeHomeCityUnitResource" unittype="deZebuCattle" resource="Food" resvalue="150.00" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShipSanga1" type="Normal">
+    <dbid>6723</dbid>
+    <displaynameid>101180</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\animals\sanga\sanga_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data2" amount="7.00" subtype="FreeHomeCityUnitResource" unittype="deSangaCattle" resource="Food" resvalue="150.00" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <!-- British Changes --> 
+  <tech mergeMode='replace' name="HCImprovedLongbows" type="Normal">
+    <dbid>2078</dbid>
+    <displaynameid>35307</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_yeoman\hc_yeoman.png</icon>
+    <rollovertextid>35308</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" action="VolleyRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">Longbowman</target>
+      </effect>
+      <effect type="Data" action="DefendRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">Longbowman</target>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">Longbowman</target>
+      </effect>
+      <effect type="Data" amount="0.25" subtype="DamageBonus" unittype="AbstractHeavyInfantry" allactions="1" relativity="Absolute">
+        <target type="ProtoUnit">Longbowman</target>
+      </effect>
+      <effect type="TextOutput">41862</effect>
+      <effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">Longbowman</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="ImperialLongbowmen" type="Normal">
+    <dbid>1322</dbid>
+    <displaynameid>31046</displaynameid>
+    <cost resourcetype="Wood">1500.0000</cost>
+    <cost resourcetype="Gold">1500.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_archer_infantry\imperial_archer_infantry.png</icon>
+    <rollovertextid>31045</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>UpgradeTech</flag>
+    <prereqs>
+      <techstatus status="Active">GuardLongbowmen</techstatus>
+      <techstatus status="Active">Imperialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Longbowman</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Longbowman</target>
+      </effect>
+      <effect type="SetName" proto="Longbowman" culture="none" newname="31048"/>
+    </effects>
+  </tech>
+  <tech name="DEHCShipGroveWagonBritish" type="Normal">
+    <dbid>9545</dbid>
+    <displaynameid>260054</displaynameid>
+    <cost resourcetype="Gold">500.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\asians\shared\wagon\indian_castle_grove_icon_64.png</icon>
+    <rollovertextid>260055</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="YPGroveWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="Tree" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="ypGroveBuilding" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipGurkhaBritish1" type="Normal">
+    <dbid>9546</dbid>
+    <displaynameid>260056</displaynameid>
+    <cost resourcetype="Gold">500.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\asians\natives\gurkha\gurkha_icon_64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="active">YPDisciplinedGurkha</effect>
+      <effect type="Data" amount="13.00" subtype="FreeHomeCityUnit" unittype="ypNatMercGurkha" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipGurkhaBritish2" type="Normal">
+    <dbid>9547</dbid>
+    <displaynameid>260057</displaynameid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\asians\indians\mansabdar\gurkha_mansabdar_icon_64.png</icon>
+    <rollovertextid>260058</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="active">YPDisciplinedGurkha</effect>
+      <effect type="Data" amount="22.00" subtype="FreeHomeCityUnit" unittype="ypNatMercGurkha" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ypNatMercGurkhaJemadar" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipGurkhaBritishRepeat" type="Normal">
+    <dbid>9548</dbid>
+    <displaynameid>260059</displaynameid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\asians\chuck\hc_ships_gurkha_2.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="active">YPDisciplinedGurkha</effect>
+      <effect type="TechStatus" status="active">YPHonoredGurkha</effect>
+      <effect type="Data" amount="13.00" subtype="FreeHomeCityUnit" unittype="ypNatMercGurkha" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipCamelRegimentBritish" type="Normal">
+    <dbid>9549</dbid>
+    <displaynameid>260060</displaynameid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\home_city\hc_sowar_regimin.png</icon>
+    <rollovertextid>260061</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="active">YPDisciplinedCamel</effect>
+      <effect type="TechStatus" status="active">YPDisciplinedCamelGun</effect>
+      <effect type="TechStatus" status="active">YPHonoredCamel</effect>
+      <effect type="TechStatus" status="active">YPHonoredCamelGun</effect>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="ypSowar" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ypSowarMansabdar" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="ypZamburak" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="ypZamburakMansabdar" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipElephantRegimentBritish" type="Normal">
+    <dbid>9550</dbid>
+    <displaynameid>260062</displaynameid>
+    <cost resourcetype="Gold">4000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\home_city\hc_howda_regimin.png</icon>
+    <rollovertextid>260063</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="active">ypDisciplinedMahoutShadow</effect>
+      <effect type="TechStatus" status="active">ypDisciplinedHowdahShadow</effect>
+      <effect type="TechStatus" status="active">YPDisciplinedFlailElephant</effect>
+      <effect type="TechStatus" status="active">YPHonoredSiegeElephant</effect>
+      <effect type="TechStatus" status="active">YPHonoredMahout</effect>
+      <effect type="TechStatus" status="active">YPHonoredHowdah</effect>
+      <effect type="TechStatus" status="active">YPHonoredFlailElephant</effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ypHowdah" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ypHowdahMansabdar" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ypMahout" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ypMahoutMansabdar" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ypSiegeElephant" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ypSiegeElephantMansabdar" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ypMercFlailiphant" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ypMercFlailiphantMansabdar" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
 
+    </effects>
+  </tech>
 </techtreemods>

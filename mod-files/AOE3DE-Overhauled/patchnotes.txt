@@ -477,6 +477,9 @@ Shipment Changes:
 -- Coffee Consumption moved to Discovery Age from Industrial Age. 
 -- Zebenyas no longer provides siege armor to Neftenyas, moved to age 2 
 -- Shewa Riders no longer increases the armor of Oromo Riders, instead, they deal more damage to skirmishers.
+-- 4 Zebu + 1 Livestock Market INF (I) replaced with 7 Semi-Fattened Zebu (II)
+-- Prize Bull (Big Benny) Food reduced from 900 to 800
+-- Era of Chaos temporarily removed (until shipment is completely reworked to not be toxic)
 Hausa:
 
 Unit Changes:
@@ -504,12 +507,14 @@ Shipment Changes:
 -- Gwandu (9 Fulani + 5 Lifidi) reduced to 4 Lifidi
 -- Early Lifidi shipment reduced from 5 Lifidi to 4
 -- Amina Epic increased to 2.75 influence per Lifidi from 2
+-- 4 Sanga + 1 Livestock Market INF (I) replaced with 7 Semi-Fattened Sanga (II) 
+-- Big Benny Food reduced from 900 to 800
 
 USA:
 
 Civ Bonus Changes:
 -- No longer receives XP crates on age up, instead, each shipment provides 100 xp crates.
--- XP curve improved to 0.86 from 1.0
+-- XP curve improved to 0.88 from 1.0
 -- Can no longer ship resource crates, instead, most economic improvement shipments have been greatly buffed ()
 -- All military units heal over time outside of combat (3.5s idle timeout) at a rate of 0.25% MAX HP/s
 
@@ -541,7 +546,7 @@ Speed: Increased to 4.5 from 4.0
 Armor: Increased to 40 melee from 20
 Siege: Reduced to 20 from 24
 Ranged ATK: Improved to 26 from 25, 1.5x HC/1.25x Shock Infantry added, scales by +0.25x with each upgrade up to 2.25/2.0x
-Melee ATK: Reduced to 10 from 14, multipliers improved to 3.25/2.5x from 3.0x/2.25x
+Melee ATK: Reduced to 10 from 14, multipliers improved to 3.50/2.5x from 3.0x/2.25x
 
 State Militia: 
 Cost: Increased to 100F/60G from 50F/35W
@@ -701,7 +706,8 @@ Aztec:
 Civ Bonus Changes:
 -- Now starts with +5% gather rate on Farms/Estates by default.
 -- War Chief can now build a single Great Temple in the Industrial Age
--- Aztec can now build a single Nobles' Hut in the commerce age (but it cannot train any units), this is increased by +6 on the Fortress Age (same as regular cap.
+-- Aztec can now build a single Nobles' Hut in the commerce age (but it can only train Jaguar Prowl Knights [JPK] until age 3), this is increased by +6 on the Fortress Age (same as regular cap).
+-- Aztec Scouting Party cost increased to 500F from 450; now ships 4 JPK instead of 3
 
 Building Changes:
 
@@ -722,6 +728,7 @@ Tribal Council Changes:
 Unit Changes:
 
 Jaguar Prowl Knight - Now a melee skirmisher, similar to an Urumi, but without AOE. Rebalanced to new unit class
+-- Now available in age 2 with a 20% HP/ATK penalty (this goes away in Fortress Age).
 -- HP: Reduced to 180 from 240
 -- Siege: Lowered to 30 from 36
 -- Melee: Changed to ranged damage from melee
@@ -802,3 +809,16 @@ Shipment Changes:
   -- Unlocks 2 wood trickle shipments (1.25/s, 2.35/s for 150F/150G and 350F/350G in age I/II) and Cacao Cultivation (600F/W  for +30% Estate work rate in age IV)
 
   Known Issues: JPK don't have a build animation (keeping this because it's funny, but will change if asked)
+
+British: 
+
+Unit Changes:
+
+Longbowman: 
+-- ROF slowed to 2.0 from 1.5.
+-- Windup animation improved to 0.73 from 0.98
+-- No longer gets +0.25x AbstractHeavyInfantry with Imperial upgrade.
+
+Shipment Changes:
+-- Yeomen range bonus reduced from +4 to +2 (caps at 24). Now additionally provides +0.25x AbstractHeavyInfantry
+-- Florence Nightingale's Heal rate doubled to 10.0 from 5.0

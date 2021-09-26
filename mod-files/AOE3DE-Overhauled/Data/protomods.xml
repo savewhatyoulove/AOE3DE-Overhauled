@@ -2,6 +2,114 @@
   <unit id="292" name="TradingPost">
     <train row="0" page="0" column="2">deChasqui</train>
   </unit>
+  <unit mergeMode='replace' id="829" name="xpSpy">
+    <dbid>1233</dbid>
+    <displaynameid>46322</displaynameid>
+    <editornameid>46323</editornameid>
+    <populationcount>1</populationcount>
+    <obstructionradiusx>0.4900</obstructionradiusx>
+    <obstructionradiusz>0.4900</obstructionradiusz>
+    <formationcategory>Body</formationcategory>
+    <maxvelocity>6.2500</maxvelocity>
+    <maxrunvelocity>8.2500</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <animfile>units\spy\spy.xml</animfile>
+    <impacttype>Flesh</impacttype>
+    <physicsinfo>dude</physicsinfo>
+    <icon>resources\art\units\spy_icon.png</icon>
+    <portraiticon>resources\art\units\spy_portrait.png</portraiticon>
+    <rollovertextid>46321</rollovertextid>
+    <shortrollovertextid>46320</shortrollovertextid>
+    <initialhitpoints>150.0000</initialhitpoints>
+    <maxhitpoints>150.0000</maxhitpoints>
+    <los>28.0000</los>
+    <autoattackrange>20.0000</autoattackrange>
+    <unitaitype>Passive</unitaitype>
+    <trainpoints>20.0000</trainpoints>
+    <bounty>13.0000</bounty>
+    <buildbounty>13.0000</buildbounty>
+    <cost resourcetype="Gold">125.0000</cost>
+    <allowedage>1</allowedage>
+    <armor type="Ranged" value="0.2000"/>
+    <unittype>LogicalTypeMinimapFilterEconomic</unittype>
+    <unittype>LogicalTypeHealed</unittype>
+    <unittype>LogicalTypeValidSharpshoot</unittype>
+    <unittype>LogicalTypeNeededForVictory</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeLandMilitary</unittype>
+    <unittype>LogicalTypeScout</unittype>
+    <unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>CountsTowardEconomicScore</unittype>
+    <unittype>MercType2</unittype>
+    <unittype>ConvertsHerds</unittype>
+    <unittype>AbstractHandInfantry</unittype>
+    <unittype>AbstractCanSeeStealth</unittype>
+    <unittype>Unit</unittype>
+    <unittype>UnitClass</unittype>
+    <unittype>Military</unittype>
+    <unittype>Economic</unittype>
+    <unittype>AbstractInfantry</unittype>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ApplyHandicapTraining</flag>
+    <flag>CorpseDecays</flag>
+    <flag>ShowGarrisonButton</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>VisibleUnderFogIfGaia</flag>
+    <flag>Tracked</flag>
+    <command page="9" column="0">ToggleStealth</command>
+    <command page="10" column="1">Stop</command>
+    <command page="10" column="0">Garrison</command>
+    <command page="10" column="7">Delete</command>
+    <tactics>spy.tactics</tactics>
+    <protoaction>
+      <name>BuildingAttack</name>
+      <damage>10.000000</damage>
+      <damagetype>Siege</damagetype>
+      <rof>3.000000</rof>
+    </protoaction>
+    <protoaction>
+      <name>CoverBuildingAttack</name>
+      <damage>5.000000</damage>
+      <damagetype>Siege</damagetype>
+      <rof>3.000000</rof>
+    </protoaction>
+    <protoaction>
+      <name>CoverHandAttack</name>
+      <damage>2.500000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractOutlaw">8.000000</damagebonus>
+      <damagebonus type="Mercenary">20.000000</damagebonus>
+      <damagebonus type="Hero">40.000000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>DefendHandAttack</name>
+      <damage>5.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractOutlaw">8.000000</damagebonus>
+      <damagebonus type="Mercenary">20.000000</damagebonus>
+      <damagebonus type="Hero">40.000000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>MeleeHandAttack</name>
+      <damage>5.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractOutlaw">8.000000</damagebonus>
+      <damagebonus type="Mercenary">20.000000</damagebonus>
+      <damagebonus type="Hero">40.000000</damagebonus>
+    </protoaction>
+  </unit>
   <unit mergeMode='replace' id="298" name="Stable">
     <dbid>25</dbid>
     <displaynameid>22919</displaynameid>
@@ -7511,7 +7619,7 @@
     </protoaction>
     <protoaction>
       <name>BuildingAttack</name>
-      <damage>26.000000</damage>
+      <damage>22.000000</damage>
       <damagetype>Siege</damagetype>
       <rof>3.000000</rof>
     </protoaction>
@@ -8285,7 +8393,7 @@
       <damage>10.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractCavalry">3.250000</damagebonus>
+      <damagebonus type="AbstractCavalry">3.500000</damagebonus>
       <damagebonus type="AbstractLightInfantry">2.5000000</damagebonus>
     </protoaction>
     <protoaction>
@@ -8302,7 +8410,7 @@
       <damage>10.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractCavalry">3.250000</damagebonus>
+      <damagebonus type="AbstractCavalry">3.500000</damagebonus>
       <damagebonus type="AbstractLightInfantry">2.5000000</damagebonus>
     </protoaction>
     <protoaction>
@@ -8310,7 +8418,7 @@
       <damage>10.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractCavalry">3.250000</damagebonus>
+      <damagebonus type="AbstractCavalry">3.500000</damagebonus>
       <damagebonus type="AbstractLightInfantry">2.5000000</damagebonus>
     </protoaction>
     <protoaction>
@@ -8327,7 +8435,7 @@
       <damage>10.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractCavalry">3.250000</damagebonus>
+      <damagebonus type="AbstractCavalry">3.500000</damagebonus>
       <damagebonus type="AbstractLightInfantry">2.5000000</damagebonus>
     </protoaction>
     <protoaction>
@@ -9846,8 +9954,8 @@
     </sharedbuildlimitunittypes>
     <bounty>0.0000</bounty>
     <cost resourcetype="Gold">100.0000</cost>
-    <carrycapacity resourcetype="Food">750.0000</carrycapacity>
-    <initialresource resourcetype="Food">750.0000</initialresource>
+    <carrycapacity resourcetype="Food">800.0000</carrycapacity>
+    <initialresource resourcetype="Food">800.0000</initialresource>
     <gatherratemultiplier>4.0000</gatherratemultiplier>
     <resourcedecay>0.100</resourcedecay>
     <resourcesubtype>meat</resourcesubtype>
@@ -10259,11 +10367,11 @@
     <los>12.0000</los>
     <unitaitype>HandCombative</unitaitype>
     <trainpoints>37.0000</trainpoints>
-    <bounty>15.0000</bounty>
-    <buildbounty>15.0000</buildbounty>
-    <cost resourcetype="Food">120.0000</cost>
+    <bounty>16.0000</bounty>
+    <buildbounty>16.0000</buildbounty>
+    <cost resourcetype="Food">125.0000</cost>
     <cost resourcetype="Gold">30.0000</cost>
-    <allowedage>2</allowedage>
+    <allowedage>1</allowedage>
     <armor type="Ranged" value="0.2500"/>
     <unittype>LogicalTypeHealed</unittype>
     <unittype>LogicalTypeValidSharpshoot</unittype>
