@@ -480,35 +480,60 @@ Shipment Changes:
 -- 4 Zebu + 1 Livestock Market INF (I) replaced with 7 Semi-Fattened Zebu (II)
 -- Prize Bull (Big Benny) Food reduced from 900 to 800
 -- Era of Chaos temporarily removed (until shipment is completely reworked to not be toxic)
+
 Hausa:
+
+Tech Changes:
+-- Songhai Raiders reduced to 4 Gobir Riders from 5 Raiders
+-- Songhai War Parties reduced to 4/8/12 Gobir Riders from 5/10/15
 
 Unit Changes:
 
 Lifidi Knight: absolutely ridiculous for its cost.
-Population: Increased to 3 from 2
-Train Time: Increased to 50 from 40
-Cost: Increased to 100F/175G from 90/110
-HP: Increased to 500 from 460
-Armor: 15 melee armor increased to 30 siege armor
-Melee Attack: 1 aoe added with 1.5x artillery.
+-- Population: Increased to 3 from 2
+-- Train Time: Increased to 50 from 40
+-- Cost: Increased to 100F/175G from 90/110
+-- HP: Increased to 500 from 460
+-- Armor: 15 melee armor increased to 30 siege armor
+-- Melee Attack: 1 aoe added with 1.5x artillery.
 
 Raider: 
-Speed: Reduced to 6.75 from 7
-Cost: Rescaled (and slightly increased) to 90F/40W from 100F/40G
-LOS: Reduced to 15 from 16
-TODO:
-add swedish VOs for longbowmen
+-- Renamed to Gobir Rider
+-- Unit Tags: AbstractHeavyCavalry replaced with AbstractLightCavalry
+-- Speed: Increased to 7.25 from 7
+-- HP: Increased to 300 from 180
+-- Armor: Reduced to 10 melee from 30 Ranged
+-- Population: Increased to 2 from 1
+-- Cost: Increased to 100F/75W from 100F/40G
+-- Siege: Improved to 36 from 22
+-- Melee Attack: Reduced to 12 from 22. All existing multipliers removed. 5x AbstractHeavyCavalry, 1.5x AbstractArtillery, and 3.5x AbstractCoyoteMan added
+
+Fulani Archer:
+-- Range reduced from 17 to 16
+-- Long Range Attack damage improved to 14 from 13, minimum range reduced to 16 from 17, maximum range reduced to 20 from 22
+
+Maigadi:
+-- Cost increased to 250 influence from 200
+-- HP: Increased to 360 from 270
+-- Population: Increased to 2 from 1
+-- Armor: Changed to 20 Melee from 20 Ranged
+-- Damage: Improved to 48 from 36 for all actions
+-- 1.25x AbstractOutlaw and 1.5x AbstractHero added to melee and ranged attack; 1.5x MercType2 removed.
 
 Shipment Changes:
 -- 4 Lifidi reduced to 3
 -- 5 Lifidi reduced to 4
 -- 8 Lifidi reduced to 6
 -- 6 Lifidi INF reduced to 5
+-- 5 Raiders reduced to 4 Gobir Riders
+-- 7 Raiders INF reduced to 6 Gobir Riders INF
 -- Gwandu (9 Fulani + 5 Lifidi) reduced to 4 Lifidi
+-- Futa Toro (9 Fulani + 9 Raiders) reduced to 9 Fulani + 6 Gobir Riders
 -- Early Lifidi shipment reduced from 5 Lifidi to 4
--- Amina Epic increased to 2.75 influence per Lifidi from 2
+-- Amina Epic increased to 11 influence per Lifidi from 6.20; 7 influence per Gobir Rider from 4
 -- 4 Sanga + 1 Livestock Market INF (I) replaced with 7 Semi-Fattened Sanga (II) 
 -- Big Benny Food reduced from 900 to 800
+-- Fodio Tactics now provides +4 range instead of +3
 
 USA:
 
@@ -555,7 +580,7 @@ Population: Increased to 2 from 1
 HP: Increased to 160 from 120
 Siege: Improved to 20 from 10
 Melee: Improved to 10 from 7, HI multiplier increased to 2x
-Ranged: Improved to 25 from 14, range reduced to 12 from 13, 2 aoe and 50 damage cap added, HI multiplier increased to 2x
+Ranged: Improved to 25 from 14, range increased to 14 from 13, 2 aoe and 50 damage cap added, HI multiplier increased to 2x
 Misc: No longer royal guard units, nor do they get the HP aura
 
 Sharpshooter:
@@ -614,8 +639,8 @@ Shipment Changes:
 -- Age II Ranged Infantry attack added (15% AbstractRangedInfantry)
 -- Age II Cavalry Hitpoints added (15% AbstractCavalry)
 -- Long Rifles reworked: Now available in the Discovery Age and enables Sharpshooters in the commerce age and increases their range by +2 (20 in commerce, 24 in Fortress+)
--- 5 Captured Rocket Cost removed
--- Scattershot added in Age III. Increases State Militia aoe by +1 and their aoe damage cap by +30%, but reduces their range by -2 (12 --> 10)
+-- 5 Captured Rocket removed
+-- Frontier Justice added in Age III. Increases State Militia aoe by +1 and their aoe damage cap by +30%, but reduces their range by -2 (12 --> 10)
 -- Kovat's Legion now costs 500F/W (instead of 1000 each), but no longer enables them at Forts.
 -- 10 Carbine Cavalry in Age IV replaced with 8 Dragoons
 -- Knox Artillery Train Reworked: No longer provides free Heavy Horse Artillery. Now provides +20% HP for AbstractArtillery and -20% train time for AbstractArtillery (Rockets only get -10%)
