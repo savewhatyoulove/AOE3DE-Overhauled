@@ -5161,39 +5161,15 @@
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="0.25" subtype="MaximumVelocity" relativity="Absolute">
-        <target type="ProtoUnit">deLifidi</target>
-      </effect>
-      <effect type="Data" amount="0.25" subtype="MaximumVelocity" relativity="Absolute">
-        <target type="ProtoUnit">deRaider</target>
+        <target type="ProtoUnit">AbstractCavalry</target>
       </effect>
       <effect type="Data" action="BuildingAttack" amount="1.25" subtype="DamageBonus" unittype="Building" relativity="BasePercent">
-        <target type="ProtoUnit">deRaider</target>
+        <target type="ProtoUnit">AbstractHandCavalry</target>
       </effect>
-      <effect type="Data" amount="1.50" tactic="Trample" subtype="SpeedModifier" relativity="BasePercent">
-        <target type="ProtoUnit">deRaider</target>
+      <effect type="Data" action="BuildingAttack" amount="1.25" subtype="DamageBonus" unittype="Building" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractCoyoteMan</target>
       </effect>
-      <effect type="Data" amount="1.50" tactic="Trample" subtype="SpeedModifier" relativity="BasePercent">
-        <target type="ProtoUnit">deLifidi</target>
-      </effect>
-      <effect type="Data" action="MeleeHandAttack" amount="1.00" subtype="DamageArea" relativity="Absolute">
-        <target type="ProtoUnit">deLifidi</target>
-      </effect>
-      <effect type="Data" action="TrampleHandAttack" amount="2.00" subtype="DamageArea" relativity="Absolute">
-        <target type="ProtoUnit">deLifidi</target>
-      </effect>
-      <effect type="Data" action="DefendHandAttack" amount="1.00" subtype="DamageArea" relativity="Absolute">
-        <target type="ProtoUnit">deLifidi</target>
-      </effect>
-      <effect type="Data" action="GuardianAttack" amount="1.00" subtype="DamageArea" relativity="Absolute">
-        <target type="ProtoUnit">deLifidi</target>
-      </effect>
-      <effect type="Data" amount="0.50" subtype="DamageBonus" unittype="AbstractArtillery" allactions="1" relativity="Absolute">
-        <target type="ProtoUnit">deLifidi</target>
-      </effect>
-      <effect type="Data" amount="0.50" subtype="DamageBonus" unittype="AbstractArtillery" allactions="1" relativity="Absolute">
-        <target type="ProtoUnit">deRaider</target>
-      </effect>
-      <effect type="TechStatus" status="obtainable">DEHCDurbarParadeShadow</effect>
+      <effect type="TechStatus" status="active">DEHCDurbarParadeShadow</effect>
       <effect type="TextOutputTechName">110130</effect>
     </effects>
   </tech>
