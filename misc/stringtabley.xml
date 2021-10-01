@@ -35124,7 +35124,7 @@
     <string _locid="101068">Fulani Archer</string>
     <string _locid="101069">INF Fulani Archer</string>
     <string _locid="101070">Fast firing Foot Archer</string>
-    <string _locid="101071">Foot Archer armed with a short bow for a fast attack. Good against Heavy Infantry and Ranged Cavalry. Can gather Livestock.</string>
+    <string _locid="101071">Foot Archer armed with a short bow for a fast attack. Good against Heavy Infantry and Light Cavalry. Can gather Livestock.</string>
     <string _locid="101072">Livestock Market</string>
     <string _locid="101073">Trades resources and livestock</string>
     <string _locid="101074">Livestock Market. Combines Market and Livestock Pen. Can fatten and sell Livestock for wood or gold.</string>

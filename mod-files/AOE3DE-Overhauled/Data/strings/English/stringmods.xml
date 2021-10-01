@@ -196,27 +196,24 @@
 	    <string _locid="101051">Powerful heavy cavalry with a power splash ranged attack. Good against light infantry and artillery.</string>
 	    <string _locid="101060">Gobir Rider</string>
 	    <string _locid="101061">CAV Gobir Rider</string>
-	    <string _locid="101063">Mobile Hand Light Cavalry with a powerful siege damage. Good against heavy cavalry, shock infantry, and artillery.</string>
+	    <string _locid="101063">Mobile Hand Light Cavalry with a powerful anti-building attack. Good against heavy cavalry, shock infantry, and artillery.</string>
+	    <string _locid="101067">Powerful heavy ranged infantry bodyguard with a deadly melee attack. Good against Heroes, Mercenaries, and Outlaws.</string>
+	    <string _locid="101071">Foot Archer armed with a short bow for a fast attack. Good against Heavy Infantry and Light Cavalry. Can gather Livestock.</string>
 	    <string _locid="101572">5 Oromo Warriors</string>
 
 	    <string _locid="101301">4 Gobir Riders</string>
 	    <string _locid="101302">5 Gobir Riders</string>
-	    <string _locid="101303">4 Lifidi Knights</string>
-	    <string _locid="101304">3 Lifidi Knights</string>
-	    <string _locid="101305">6 Lifidi Knights</string>
-	    <string _locid="101306">4 Lifidi Knights</string>
 	    <string _locid="101342">Elite Gobir Rider</string>
 	    <string _locid="101345">Champion Gobir Rider</string>
 	    <string _locid="101348">Legendary Gobir Rider</string>
 	    <string _locid="102553">Armored cannoneer mercenary from Portugal who fires a heavy musket inflicting splash damage.</string>
 
-	    <string _locid="102849">Lifidi Knights and Gobir Riders move faster and deal more damage to Artillery. Gobir Riders gain increased Siege Damage and Lifidi Knights gain increased splash area damage radii, especially in trample mode.</string>
+	    <string _locid="102849">All Cavalry move faster and Hand Cavalry deal more damage to buildings.</string>
 	    <string _locid="102850">Ships 1 Lifidi Knight per Palace and 1 Gobir Rider per War Camp and Watch Tower.</string>
 
 	    <string _locid="102881">Particularly fattened Cattle containing 800 Food.</string>
 	    <string _locid="102896">Neftenyas gain additional hitpoints.</string>
 	    <string _locid="102928">Javelin Rider armor and attack increased. Oromo Riders deal more damage, especially to skirmishers and foot archers.</string>
-	    <string _locid="103313">The Fulani town of Gwandu sends 9 Fulani Archers and 4 Lifidi Knights.</string>
 	    <string _locid="103217">Small raiding party! Dispatches 4 Gobir Riders to your Home City Gather Point.</string>
 	    <string _locid="103219">Medium raiding party! Dispatches 8 Gobir Riders to your Home City Gather Point.</string>
 	    <string _locid="103221">Large raiding party! Dispatches 12 Gobir Riders to your Home City Gather Point.</string>

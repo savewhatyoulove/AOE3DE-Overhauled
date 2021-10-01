@@ -489,13 +489,6 @@ Tech Changes:
 
 Unit Changes:
 
-Lifidi Knight: absolutely ridiculous for its cost.
--- Population: Increased to 3 from 2
--- Train Time: Increased to 50 from 40
--- Cost: Increased to 100F/175G from 90/110
--- HP: Increased to 500 from 460
--- Armor: 15 melee armor increased to 30 siege armor
--- Melee Attack: 1 aoe added with 1.5x artillery.
 
 Raider: 
 -- Renamed to Gobir Rider
@@ -510,27 +503,29 @@ Raider:
 
 Fulani Archer:
 -- Range reduced from 17 to 16
+-- Melee damage improved to 5.0 w/ 1.0 ROF from 7 w/ 1.5 ROF
+-- Ranged Attack rescaled to 6 w/ 1.0 ROF from 9 with 1.5 ROF
+-- AbstractHeavyInfantry multiplier improved to 2.0x from 1.5x
 -- Long Range Attack damage improved to 14 from 13, minimum range reduced to 16 from 17, maximum range reduced to 20 from 22
 
 Maigadi:
 -- Cost increased to 250 influence from 200
 -- HP: Increased to 360 from 270
+-- LOS: Reduced to 22 from 28
 -- Population: Increased to 2 from 1
 -- Armor: Changed to 20 Melee from 20 Ranged
 -- Damage: Improved to 48 from 36 for all actions
 -- 1.25x AbstractOutlaw and 1.5x AbstractHero added to melee and ranged attack; 1.5x MercType2 removed.
 
+Lifidi Knight:
+-- 15 Melee Armor changed to 15 Siege Armor
+
 Shipment Changes:
--- 4 Lifidi reduced to 3
--- 5 Lifidi reduced to 4
--- 8 Lifidi reduced to 6
--- 6 Lifidi INF reduced to 5
 -- 5 Raiders reduced to 4 Gobir Riders
 -- 7 Raiders INF reduced to 6 Gobir Riders INF
 -- Gwandu (9 Fulani + 5 Lifidi) reduced to 4 Lifidi
 -- Futa Toro (9 Fulani + 9 Raiders) reduced to 9 Fulani + 6 Gobir Riders
--- Early Lifidi shipment reduced from 5 Lifidi to 4
--- Amina Epic increased to 11 influence per Lifidi from 6.20; 7 influence per Gobir Rider from 4
+-- Amina Epic increased to 8 influence per Lifidi from 6.20; 7 influence per Gobir Rider from 4
 -- 4 Sanga + 1 Livestock Market INF (I) replaced with 7 Semi-Fattened Sanga (II) 
 -- Big Benny Food reduced from 900 to 800
 -- Fodio Tactics now provides +4 range instead of +3
