@@ -448,6 +448,7 @@ Finland:
 -- Northern Wilderness Reworked: Now converts Red Guards' resource cost into a lesser amount of wood (70) from food/gold, upgrades them to guard status, and increases their speed by +0.5.
 
 Africa Changes:
+-- Levy Gunners added to the Town Center. Trains 5 Levied Gunners for 300 Influence. Available in age II.
 -- Huts no longer train Levied Spearmen/Archers
 -- Palaces no longer train Levied Gunners
 -- Towers no longer train Outlaws

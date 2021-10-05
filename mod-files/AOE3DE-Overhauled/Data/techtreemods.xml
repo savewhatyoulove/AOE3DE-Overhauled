@@ -4977,6 +4977,7 @@
       <effect mergeMode='add' type="Data" action="Hunting" amount="1.00" subtype="WorkRate" unittype="Tree" relativity="Assign">
         <target type="ProtoUnit">deFulaWarrior</target>
       </effect>
+      <effect mergeMode='add' type="TechStatus" status="active">DEConscriptGunners</effect>
     </effects>
   </tech>
   <tech name="DEColonializeHausa" type="Normal">
@@ -4987,7 +4988,6 @@
       <effect mergeMode='add' type="Data" amount="0.75" subtype="MaximumVelocity" relativity="Absolute">
         <target type="ProtoUnit">deEmir2</target>
       </effect>
-      <effect mergeMode='add' type="TechStatus" status="active">DEConscriptGunners</effect>
     </effects>
   </tech>
   <tech name="DEFortressizeHausa" type="Normal">
@@ -5327,7 +5327,7 @@
         <target type="ProtoUnit">deFulaWarrior</target>
       </effect>
       <effect type="Data" amount="1.00" subtype="DamageBonus" unittype="AbstractHeavyInfantry" allactions="1" relativity="Absolute">
-        <target type="ProtoUnit">AbstractFootArcher</target>
+        <target type="ProtoUnit">deFulaWarrior</target>
       </effect>
       <effect type="TextOutputTechName">110130</effect>
     </effects>
