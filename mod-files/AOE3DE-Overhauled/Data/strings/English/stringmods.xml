@@ -46,6 +46,7 @@
 	    <string _locid="45129">3 Warrior Priests, 3 Nobles Hut Travois, and +10% Community Plaza Work Rate.</string>
 	    <string _locid="46165">The War God commands! Four Jaguar Prowl Knights assemble at your Home City Gather Point.</string>
 	    <string _locid="47138">All Farm and Estate upgrades available before the Imperial Age are researched.</string>
+	    <string _locid="49519">Inspire a Building with a Griot from your University.\nTips: Griots can increase train and research speed of buildings and heal allies.</string>
 
 	    <string _locid="60806">Powerful Indian heavy musket infantry that has a large bonus versus cavalry at melee.</string>
 	    <string _locid="72560">15 Semi-fattened Cows</string>
@@ -194,26 +195,35 @@
 	    <string _locid="101011" symbol="cStringCivRolloverHausa">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nGets a free Sanga Cattle with all shipments. Universities generate Influence, especially when built in a Kingdom (nearby one Town Center, Palace and Trading Post).\n&lt;color=1.0, 1.0, 0.0&gt;Age-Up Alliances:&lt;/color&gt; (each grant extra bonuses)\n • Two new technologies at the University\n • Units/Builders at the Palace or Town Center\n&lt;color=1.0, 1.0, 0.0&gt;Unique Resource:&lt;/color&gt;\nInfluence is a powerful resource spent primarily at the Palace on Native Warriors and Mercenaries. All unlocked features cost Influence. Generate it with Universities, Trading Posts and by controlling large herds of Livestock.\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nMaigadi, Griot, Fulani Archer, Gobir Rider, and Lifidi Knight\n\nThe wealthy Hausa kingdoms were magnets for merchants, intellectuals, and enemies. Their extensive trade relations and diplomacy enabled them to exert powerful influence over vast stretches of West Africa. The Hausa kings and emirs deployed powerful cavalry armies to compete with each other or conquer neighboring empires.</string>
 
 	    <string _locid="101051">Powerful heavy cavalry with a power splash ranged attack. Good against light infantry and artillery.</string>
+	    <string _locid="101054">Heavy Ranged Cavalry</string>
+	    <string _locid="101055">Heavy Ranged Cavalry. Good against skirmishers and foot archers, particularly at range.</string>
 	    <string _locid="101060">Gobir Rider</string>
 	    <string _locid="101061">CAV Gobir Rider</string>
 	    <string _locid="101063">Mobile Hand Light Cavalry with a powerful anti-building attack. Good against heavy cavalry, shock infantry, and artillery.</string>
-	    <string _locid="101067">Powerful heavy ranged infantry bodyguard with a deadly melee attack. Good against Heroes, Mercenaries, and Outlaws.</string>
-	    <string _locid="101071">Foot Archer armed with a short bow for a fast attack. Good against Heavy Infantry and Light Cavalry. Can gather Livestock.</string>
-	    <string _locid="101572">5 Oromo Warriors</string>
-
+	    <string _locid="101067">Powerful heavy ranged infantry bodyguard with a deadly melee attack. Good against Heroes, Mercenaries, Spies, and Outlaws.</string>
+	    <string _locid="101071">Foot Archer armed with a short bow for a fast attack. Good against Heavy Infantry and Light Cavalry. Can chop Trees to slowly gather Wood.</string>
+	    <string _locid="101165">Musician who can inspire buildings and heal nearby allies.</string>
+	    <string _locid="101166">Griot. Inspiring musician and storyteller who can heal allies, increase the work rate of buildings, and buff the speed of nearby units.</string>
+	    <string _locid="101232">Ships 2 Palace Builders, 3 Camp Builders and increases build limits. Researches Fortified Cities.</string>
 	    <string _locid="101301">4 Gobir Riders</string>
-	    <string _locid="101302">5 Gobir Riders</string>
+	    <string _locid="101302">6 Gobir Riders</string>
+	    <string _locid="101333">Villagers construct buildings and gather resources. Griots can inspire buildings to improve their workrate and heal allied units.</string>
 	    <string _locid="101342">Elite Gobir Rider</string>
 	    <string _locid="101345">Champion Gobir Rider</string>
 	    <string _locid="101348">Legendary Gobir Rider</string>
+	    <string _locid="101572">5 Oromo Warriors</string>
+	    <string _locid="101595">Inviting skilled engineers enables your Villagers to construct Artillery Foundries which can quickly assemble Cannons at the cost of Influence. Delivers an Artillery Foundry Wagon.</string>
 	    <string _locid="102553">Armored cannoneer mercenary from Portugal who fires a heavy musket inflicting splash damage.</string>
-
+	    <string _locid="102561">Egyptian mercenary equipped with an automatic-fire gun mounted on a camel. Good against infantry.</string>
 	    <string _locid="102849">All Cavalry move faster and Hand Cavalry deal more damage to buildings.</string>
-	    <string _locid="102850">Ships 1 Lifidi Knight per Palace and 1 Gobir Rider per War Camp and Watch Tower.</string>
-
+	    <string _locid="102850">Ships 1 Lifidi Knight per Palace and 1 Gobir Rider per War Camp.</string>
+	    <string _locid="102858">Ships 1 Palace Wagon and tokens of 300 Influence. Increases Palace build limit by 1.</string>
+	    <string _locid="102868">Each Gobir Rider and Lifidi trained so far grants a fraction of its cost as Influence into the stockpile.</string>
+	    <string _locid="102870">Griots regenerate hitpoints outside of combat much more quickly and greatly increases the amount they can heal.</string>
 	    <string _locid="102881">Particularly fattened Cattle containing 800 Food.</string>
 	    <string _locid="102896">Neftenyas gain additional hitpoints.</string>
 	    <string _locid="102928">Javelin Rider armor and attack increased. Oromo Riders deal more damage, especially to skirmishers and foot archers.</string>
+	    <string _locid="103110">Fulani Archers gain a long range attack. Enables Fulani Archers to train Goats and harvest Food from Herables. Additionally, they gather Wood from Trees much more quickly and Trees last longer for them.</string>
 	    <string _locid="103217">Small raiding party! Dispatches 4 Gobir Riders to your Home City Gather Point.</string>
 	    <string _locid="103219">Medium raiding party! Dispatches 8 Gobir Riders to your Home City Gather Point.</string>
 	    <string _locid="103221">Large raiding party! Dispatches 12 Gobir Riders to your Home City Gather Point.</string>
@@ -225,12 +235,13 @@
 	    <string _locid="103399">&lt;ttf&gt;&lt;tth&gt;Songhai Raid&lt;ttf&gt;&lt;tti&gt;Small raiding party! Dispatches 4 Gobir Riders at this building.</string>
 	    <string _locid="103400" symbol="cStringSonghaiButtonRollover">Select a building from which to dispatch Gobir Riders</string>
 	    <string _locid="103401" symbol="cStringSonghaiButtonDisabledRollover">You cannot dispatch Gobir Riders right now</string>
-    <string _locid="104021">Gobir Rider attack and hitpoints increased.</string>
-    <string _locid="104541">Gobir Rider and Lifidi Knight attack increased.</string>
-    <string _locid="104542">Hand Cavalry Hitpoints</string>
-    <string _locid="104543">Gobir Rider and Lifidi Knight hitpoints increased.</string>
-    <string _locid="104556">Gobir Rider and Lifidi knight attack and hitpoints improved.</string>
-
+	    <string _locid="104021">Gobir Rider attack and hitpoints increased.</string>
+	    <string _locid="104512">Foot Archer Combat</string>
+	    <string _locid="104539">Foot Archer attack and hitpoints increased.</string>
+	    <string _locid="104541">Gobir Rider and Lifidi Knight attack increased.</string>
+	    <string _locid="104542">Hand Cavalry Hitpoints</string>
+	    <string _locid="104543">Gobir Rider and Lifidi Knight hitpoints increased.</string>
+	    <string _locid="104556">Gobir Rider and Lifidi knight attack and hitpoints improved.</string>
 	    <string _locid="110001" symbol="cStringCivRolloverAmericans">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nFederal states unlock two new cards per age and two Factory cards in Industrial Age. Shipments are earned more quickly and you receive a free XP crate with most shipments. Economic improvements from the Home City are more powerful, but you have a lower Settler build limit and cannot ship resource crates. Generals can build Forts instead of Town Centers. Levies can be called repeatedly from multiple buildings with a global cooldown. Military units slowly heal over time outside of combat. Starts with a Fattened Sheep, an XP crate, and a Homestead Wagon instead of resource crates. \n&lt;color=1.0, 1.0, 0.0&gt;National guard units: &lt;/color&gt;Sharpshooters (Marksmen), Spur Riders (Rough Riders)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nTexas Ranger, Gatling Gun, Ironclad, Minuteman, Regular, Sharpshooter, Sloop, State Militia, Spur Rider, Steamer\n\nThe "land of opportunity" provided ample land for Settlers to plunder, creating the famous melting pot of Western European identities. Expanding from militia forces skilled in skirmishing tactics and marksmanship to a professional army, the United States of America ensured its independence and impressive road to prosperity for the owner class.</string>
 	    <string _locid="110009">Hardy Skirmisher with a powerful short-ranged splash attack.</string>
 	    <string _locid="110013">Fragile skirmisher with a slow, but powerful long-ranged attack. Good against infantry.</string>
@@ -511,6 +522,12 @@
 	    <string _locid="260064">Ships 20 Honored Changdao Swordsmen and 5 Honored Flamethrowers.</string>
 	    <string _locid="260065">Ships 11 Disciplined Changdao Swordsmen and 5 Disciplined Meteor Hammers.</string>
 	    <string _locid="260066">Ships 5 Disciplined Iron Flails and 3 Disciplined Keshiks.</string>
+	    <string _locid="270066">4 Maigadi</string>
+	    <string _locid="270067">12 Maigadi</string>
+	    <string _locid="270068">Counter Infantry Tactics</string>
+	    <string _locid="270069">All Foot Archers deal increased damage to Heavy Infantry and Fulani Archers gain increased speed.</string>
+	    <string _locid="270070">Conscript Gunners: Muster a group of Levied Gunners for defence!</string>
+	    <string _locid="270071">Conscript Gunners</string>
 	</Language>
   </StringTable>
 </stringmods>

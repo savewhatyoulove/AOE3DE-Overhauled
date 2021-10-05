@@ -49,23 +49,6 @@
     <singleuse>1</singleuse>
   </action>
   <action>
-    <name stringid="69158">SpawnBush</name>
-    <type>Spawn</type>
-    <rate type="deTorpBush3">5.0 </rate>
-    <singleuse>1</singleuse>
-    <animationrate>1</animationrate>
-    <active>0</active>
-    <persistent>1</persistent>
-  </action>
-  <action>
-    <name stringid="69158">SpawnBerryBush</name>
-    <type>Spawn</type>
-    <rate type="deTorpBush3">3.0 </rate>
-    <active>0</active>
-    <persistent>0</persistent>
-    <singleuse>1</singleuse>
-  </action>
-  <action>
     <name stringid="68971">SpawnRefugees1</name>
     <type>Maintain</type>
     <rate type="ypMigrantArmySmall">1</rate>
@@ -176,5 +159,16 @@
     <persistent>0</persistent>
     <singleuse>1</singleuse>
   </action>
-  <tactic>Normal<attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">RangedAttack</action><action priority="15">SpawnSaiga</action><action priority="15">SpawnRefugees1</action><action priority="15">SpawnRefugees2</action><action priority="15">SpawnMigrants3</action><action priority="15">SpawnLivestock1</action><action priority="15">SpawnLivestock2</action><action priority="15">SpawnLivestock3</action><action>MaintainSettlersOttoman</action><action>MaintainSettlersFedCalifornia</action><action>MaintainPirateHaiti</action><action>MaintainVoluntarioBrazil</action><action>SpawnBison</action><action>SpawnBush</action></tactic>
+  <action>
+    <name stringid="48954">UniversityAutoGatherBonus</name>
+    <type>AutoRangedModify</type>
+    <maxrange>30</maxrange>
+    <modifyprotoid>deUniversity</modifyprotoid>
+    <persistent>1</persistent>
+    <singleunit>1</singleunit>
+    <nostack>1</nostack>
+    <modifytype>AutoGatherAbsolute</modifytype>
+    <modifyamount>0.75</modifyamount>
+  </action>
+  <tactic>Normal<attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">RangedAttack</action><action priority="15">SpawnSaiga</action><action priority="15">SpawnRefugees1</action><action priority="15">SpawnRefugees2</action><action priority="15">SpawnMigrants3</action><action priority="15">SpawnLivestock1</action><action priority="15">SpawnLivestock2</action><action priority="15">SpawnLivestock3</action><action>MaintainSettlersOttoman</action><action>MaintainSettlersFedCalifornia</action><action>MaintainPirateHaiti</action><action>MaintainVoluntarioBrazil</action><action>SpawnBison</action><action>UniversityAutoGatherBonus</action></tactic>
 </tactics>

@@ -287,7 +287,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>1</age>
+      <age>0</age>
       <displayunitcount>4</displayunitcount>
     </card>
     <card>
@@ -534,7 +534,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>6</displayunitcount>
+      <displayunitcount>5</displayunitcount>
     </card>
     <card>
       <name>DEHCSarkinDogarai</name>
@@ -542,6 +542,29 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
+    </card>
+    <card>
+      <name>DEHCDaneGuns</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name>DEHCShipMaigadi1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>4</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCShipMaigadi2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>12</displayunitcount>
     </card>
     <card>
       <name>DEHCEmirKano</name>
@@ -603,14 +626,7 @@
       <age>1</age>
     </card>
     <card>
-      <name>DEHCDaneGuns</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>1</age>
-    </card>
-    <card>
-      <name>DEHCCounterCavalry</name>
+      <name>DEHCCounterInfantry</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -754,7 +770,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>2</age>
+      <age>0</age>
     </card>
     <card>
       <name>DEHCDodoCult</name>
@@ -947,7 +963,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>1</age>
+      <age>0</age>
     </card>
     <card>
       <name>HCXPWoodcrafting</name>
@@ -1070,7 +1086,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <displayunitcount>9</displayunitcount>
+      <displayunitcount>10</displayunitcount>
       <age>3</age>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
@@ -1497,6 +1513,8 @@
       <tech x="0.0" y="3.0">DEHCShipLifidiKnights3</tech>
       <tech x="0.0" y="3.0">DEHCShipLifidiKnightsRepeat</tech>
       <tech x="0.0" y="3.0">DEHCSarkinDogarai</tech>
+      <tech x="0.0" y="3.0">DEHCShipMaigadi1</tech>
+      <tech x="0.0" y="3.0">DEHCShipMaigadi2</tech>
       <tech x="0.0" y="3.0">DEHCEmirKano</tech>
       <tech x="0.0" y="3.0">DEHCAminaEpic</tech>
       <tech x="0.0" y="3.0">DEHCFutaJallon</tech>
@@ -1505,15 +1523,13 @@
       <tech x="0.0" y="3.0">DEHCDaneGuns</tech>
       <tech x="0.0" y="3.0">DEHCHandCavalryDamageHausa</tech>
       <tech x="0.0" y="3.0">DEHCHandCavalryHitpointsHausa</tech>
-      <tech x="0.0" y="3.0">DEHCCounterCavalry</tech>
+      <tech x="0.0" y="3.0">DEHCCounterInfantry</tech>
       <tech x="0.0" y="3.0">DEHCFulaniArcherCombat</tech>
-      <tech x="0.0" y="3.0">DEHCEmirKatsina</tech>
       <tech x="0.0" y="3.0">DEHCFodioTactics</tech>
       <tech x="0.0" y="3.0">DEHCFulaniInvasion</tech>
       <tech x="0.0" y="3.0">DEHCEarlyLifidi</tech>
       <tech x="0.0" y="3.0">DEHCDurbarParade</tech>
       <tech x="0.0" y="3.0">DEHCZazzauCavalry</tech>
-      <tech x="0.0" y="3.0">DEHCDambeWrestling</tech>
       <tech x="0.0" y="3.0">DEHCKingslayer</tech>
       <tech x="0.0" y="3.0">DEHCHadejiaEmirate</tech>
     </obtainabletechs>
@@ -1533,6 +1549,8 @@
       <tech x="0.0" y="3.0">DEHCShipLifidiKnights3</tech>
       <tech x="0.0" y="3.0">DEHCShipLifidiKnightsRepeat</tech>
       <tech x="0.0" y="3.0">DEHCSarkinDogarai</tech>
+      <tech x="0.0" y="3.0">DEHCShipMaigadi1</tech>
+      <tech x="0.0" y="3.0">DEHCShipMaigadi2</tech>
       <tech x="0.0" y="3.0">DEHCEmirKano</tech>
       <tech x="0.0" y="3.0">DEHCAminaEpic</tech>
       <tech x="0.0" y="3.0">DEHCFutaJallon</tech>
@@ -1541,15 +1559,13 @@
       <tech x="0.0" y="3.0">DEHCDaneGuns</tech>
       <tech x="0.0" y="3.0">DEHCHandCavalryDamageHausa</tech>
       <tech x="0.0" y="3.0">DEHCHandCavalryHitpointsHausa</tech>
-      <tech x="0.0" y="3.0">DEHCCounterCavalry</tech>
+      <tech x="0.0" y="3.0">DEHCCounterInfantry</tech>
       <tech x="0.0" y="3.0">DEHCFulaniArcherCombat</tech>
-      <tech x="0.0" y="3.0">DEHCEmirKatsina</tech>
       <tech x="0.0" y="3.0">DEHCFodioTactics</tech>
       <tech x="0.0" y="3.0">DEHCFulaniInvasion</tech>
       <tech x="0.0" y="3.0">DEHCEarlyLifidi</tech>
       <tech x="0.0" y="3.0">DEHCDurbarParade</tech>
       <tech x="0.0" y="3.0">DEHCZazzauCavalry</tech>
-      <tech x="0.0" y="3.0">DEHCDambeWrestling</tech>
       <tech x="0.0" y="3.0">DEHCKingslayer</tech>
       <tech x="0.0" y="3.0">DEHCHadejiaEmirate</tech>
     </activetechs>
@@ -1588,6 +1604,7 @@
       <tech x="7.4" y="3.0">DEHCMaraboutNetwork</tech>
       <tech x="0.0" y="3.0">DEHCTimbuktu</tech>
       <tech x="0.0" y="3.0">DEHCTEAMHausaGates</tech>
+      <tech x="0.0" y="3.0">DEHCEmirKatsina</tech>
       <tech x="0.0" y="3.0">DEHCKatsinaFortifications</tech>
       <tech x="0.0" y="3.0">DEHCHausaKingdom</tech>
       <tech x="0.0" y="3.0">DEHCGobarauMinaret</tech>
@@ -1621,6 +1638,7 @@
       <tech x="7.4" y="3.0">DEHCMaraboutNetwork</tech>
       <tech x="0.0" y="3.0">DEHCTimbuktu</tech>
       <tech x="0.0" y="3.0">DEHCTEAMHausaGates</tech>
+      <tech x="0.0" y="3.0">DEHCEmirKatsina</tech>
       <tech x="0.0" y="3.0">DEHCKatsinaFortifications</tech>
       <tech x="0.0" y="3.0">DEHCHausaKingdom</tech>
       <tech x="0.0" y="3.0">DEHCGobarauMinaret</tech>

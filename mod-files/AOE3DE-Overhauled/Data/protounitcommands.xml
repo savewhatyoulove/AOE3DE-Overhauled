@@ -1625,4 +1625,14 @@
     <rollovertextid>103424</rollovertextid>
     <disabledrollovertextid>103424</disabledrollovertextid>
   </protounitcommand>
+  <protounitcommand>
+    <dbid>183</dbid>
+    <name>deConscriptGunners</name>
+    <icon>resources\images\icons\techs\africans\conscript_levied_gunners.png</icon>
+    <spawncommand/>
+    <unittype>deGunnerLevy</unittype>
+    <amount>5</amount>
+    <associatedtech>DEConscriptGunners</associatedtech>
+    <rollovertextid>270070</rollovertextid>
+  </protounitcommand>
 </protounitcommands>

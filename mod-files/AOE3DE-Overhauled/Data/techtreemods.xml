@@ -6,6 +6,44 @@
       </effect>
     </effects>
   </tech>
+  <tech name="DEHCCharity" type="Normal">
+    <dbid>6731</dbid>
+    <displaynameid>101201</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\charity.png</icon>
+    <rollovertextid>101200</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TextOutputTechName">101184</effect>
+      <effect type="ResourceExchange" multiplier="0.75" toresource="Influence" fromresource="Food"/>
+      <effect type="ResourceExchange" multiplier="0.75" toresource="Influence" fromresource="Food"/>
+      <effect type="ResourceExchange" multiplier="0.75" toresource="Influence" fromresource="Food"/>
+    </effects>
+  </tech>
+
+  <tech mergeMode='replace' name="DEHCZazzauCavalry" type="Normal">
+    <dbid>8308</dbid>
+    <displaynameid>102810</displaynameid>
+    <rollovertextid>102850</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\hausa\zazzau_cavalry.png</icon>
+    <flag>HomeCity</flag>
+    <flag>DEHCCardDynamicCount</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnitByUnitCount" counttype="deWarCamp" unittype="deRaider" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnitByUnitCount" counttype="dePalace" unittype="deLifidi" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+
 <!-- Politician Changes --> 
   <tech mergeMode='replace' name="PoliticianPhilosopherPrince" type="Normal">
     <dbid>2151</dbid>
@@ -4769,6 +4807,65 @@
       </effect>
     </effects>
   </tech>
+  <tech name="DEConscriptGunners" type="Normal">
+    <dbid>9657</dbid>
+    <displaynameid>270071</displaynameid>
+    <cost resourcetype="Influence">300.0000</cost>
+    <researchpoints>5.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\conscript_levied_gunners.png</icon>
+    <rollovertextid>270070</rollovertextid>
+  </tech>
+  <tech mergeMode='replace' name="DEImportedCannons" type="Normal">
+    <dbid>6835</dbid>
+    <displaynameid>101387</displaynameid>
+    <cost resourcetype="Influence">400.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\imported_cannons.png</icon>
+    <rollovertextid>101595</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deArtilleryFoundryWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">ArtilleryDepot</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Falconet</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Culverin</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Mortar</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech mergeMode='replace' name="DEHCMercsDahomeyAmazons" type="Normal">
+    <dbid>8400</dbid>
+    <displaynameid>104537</displaynameid>
+    <cost resourcetype="Influence">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\africans\mercenaries\dahomey_amazon\hc_dahomey_amazon_icon.png</icon>
+    <rollovertextid/>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="deMercAmazon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+
   <tech mergeMode='replace' name="DEHCMercsCannoneers" type="Normal">
     <dbid>8411</dbid>
     <displaynameid>104529</displaynameid>
@@ -4803,6 +4900,26 @@
       <effect type="TextOutputTechName">110130</effect>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DEHCMaguzawa" type="Normal">
+    <dbid>8330</dbid>
+    <displaynameid>102830</displaynameid>
+    <rollovertextid>102870</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\hausa\griot_damage.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+    <effect type="Data" action="Heal" amount="1.50" subtype="WorkRate" unittype="LogicalTypeHealed" relativity="BasePercent">
+        <target type="ProtoUnit">deGriot</target>
+      </effect>
+      <effect type="Data" amount="0.75" subtype="UnitRegenRate" unittype="deGriot" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+
   <tech mergeMode='replace' name="DEHCShipSanga3" type="Normal">
     <dbid>8268</dbid>
     <displaynameid>101191</displaynameid>
@@ -4821,6 +4938,47 @@
       </effect>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DEHCFulaniCrossingFestival" type="Normal">
+    <dbid>8122</dbid>
+    <displaynameid>103109</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <cost resourcetype="Influence">300.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\alliances\festival_crossing.png</icon>
+    <rollovertextid>103108</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deSangaCattle" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="1.00" subtype="FreeHomeCityUnitResource" unittype="deSangaCattle" resource="Food" resvalue="100.00" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="1.00" subtype="FreeHomeCityUnitResource" unittype="deSangaCattle" resource="Food" resvalue="200.00" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="1.00" subtype="FreeHomeCityUnitResource" unittype="deSangaCattle" resource="Food" resvalue="300.00" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEAge0Hausa" type="Normal">
+    <dbid>6906</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect mergeMode='add' type="Data" action="Hunting" amount="0.00" subtype="WorkRate" unittype="Herdable" relativity="Assign">
+        <target type="ProtoUnit">deFulaWarrior</target>
+      </effect>
+      <effect mergeMode='add' type="Data" action="Gather" amount="0.00" subtype="WorkRate" unittype="Herdable" relativity="Assign">
+        <target type="ProtoUnit">deFulaWarrior</target>
+      </effect>
+      <effect mergeMode='add' type="Data" action="Hunting" amount="1.00" subtype="WorkRate" unittype="Tree" relativity="Assign">
+        <target type="ProtoUnit">deFulaWarrior</target>
+      </effect>
+    </effects>
+  </tech>
   <tech name="DEColonializeHausa" type="Normal">
     <effects>
       <effect mergeMode='add' type="Data" amount="0.75" subtype="MaximumVelocity" relativity="Absolute">
@@ -4829,6 +4987,7 @@
       <effect mergeMode='add' type="Data" amount="0.75" subtype="MaximumVelocity" relativity="Absolute">
         <target type="ProtoUnit">deEmir2</target>
       </effect>
+      <effect mergeMode='add' type="TechStatus" status="active">DEConscriptGunners</effect>
     </effects>
   </tech>
   <tech name="DEFortressizeHausa" type="Normal">
@@ -5088,22 +5247,53 @@
     <icon>resources\images\icons\techs\africans\hausa\dane_guns.png</icon>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
         <target type="ProtoUnit">deMaigadi</target>
       </effect>
-      <effect type="Data" amount="0.75" subtype="TrainPoints" relativity="BasePercent">
+      <effect type="Data" amount="0.80" subtype="TrainPoints" relativity="BasePercent">
         <target type="ProtoUnit">deMaigadi</target>
       </effect>
-      <effect type="Data" amount="150.00" subtype="Cost" resource="Influence" relativity="Assign">
+      <effect type="Data" amount="125.00" subtype="Cost" resource="Influence" relativity="Assign">
         <target type="ProtoUnit">deMaigadi</target>
       </effect>
-      <effect type="Data" amount="100.00" subtype="Cost" resource="Gold" relativity="Assign">
+      <effect type="Data" amount="125.00" subtype="Cost" resource="Gold" relativity="Assign">
         <target type="ProtoUnit">deMaigadi</target>
       </effect>
       <effect type="TextOutputTechName">110130</effect>
     </effects>
   </tech>
-
+  <tech name="DEHCShipMaigadi1" type="Normal">
+    <dbid>9654</dbid>
+    <displaynameid>270066</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <cost resourcetype="Influence">300.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\africans\hausa\bodyguard\bodyguard_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="deMaigadi" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipMaigadi2" type="Normal">
+    <dbid>9655</dbid>
+    <displaynameid>270067</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <cost resourcetype="Influence">1000.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\africans\hausa\bodyguard\bodyguard_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="deMaigadi" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
   <tech mergeMode='replace' name="DEHCFutaToro" type="Normal">
     <dbid>8376</dbid>
     <displaynameid>104030</displaynameid>
@@ -5119,6 +5309,81 @@
       </effect>
       <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="deRaider" relativity="Absolute">
         <target type="Player"/>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech name="DEHCCounterInfantry" type="Normal">
+    <dbid>9656</dbid>
+    <displaynameid>270068</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\hausa\fulani_archer_combat.png</icon>
+    <rollovertextid>270069</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="0.50" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">deFulaWarrior</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="DamageBonus" unittype="AbstractHeavyInfantry" allactions="1" relativity="Absolute">
+        <target type="ProtoUnit">AbstractFootArcher</target>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEAllegianceFulaniMigrations" type="Normal">
+    <dbid>8123</dbid>
+    <displaynameid>103111</displaynameid>
+    <cost resourcetype="Influence">1000.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\alliances\fulani_migrations.png</icon>
+    <rollovertextid>103110</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <effects>
+      <effect type="Data" action="Hunting" amount="1.00" subtype="WorkRate" unittype="Herdable" relativity="Assign">
+        <target type="ProtoUnit">deFulaWarrior</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.00" subtype="WorkRate" unittype="Herdable" relativity="Assign">
+        <target type="ProtoUnit">deFulaWarrior</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.50" subtype="WorkRate" unittype="Tree" relativity="BasePercent">
+        <target type="ProtoUnit">deFulaWarrior</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.25" subtype="Yield" unittype="Tree" relativity="BasePercent">
+        <target type="ProtoUnit">deFulaWarrior</target>
+      </effect>
+      <effect type="Data" action="DefendLongRangedAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deFulaWarrior</target>
+      </effect>
+      <effect type="Data" action="StaggerLongRangedAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deFulaWarrior</target>
+      </effect>
+      <effect type="Data" action="VolleyLongRangedAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deFulaWarrior</target>
+      </effect>
+      <effect type="CommandAdd" proto="ypGoat" page="0" column="1">
+        <target type="ProtoUnit">deFulaWarrior</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech mergeMode='replace' name="DEHCFulaniArcherCombat" type="Normal">
+    <dbid>8403</dbid>
+    <displaynameid>104512</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_infantry_combat\hc_infantry_combat.png</icon>
+    <rollovertextid>104539</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractFootArcher</target>
+      </effect>
+      <effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractFootArcher</target>
       </effect>
       <effect type="TextOutputTechName">110130</effect>
     </effects>
@@ -5173,54 +5438,6 @@
       <effect type="TextOutputTechName">110130</effect>
     </effects>
   </tech>
-  <tech mergeMode='replace' name="DEHCHadejiaEmirate" type="Normal">
-    <dbid>8467</dbid>
-    <displaynameid>101368</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <cost resourcetype="Influence">1000.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\africans\hausa\hadejia_emirate.png</icon>
-    <rollovertextid>103245</rollovertextid>
-    <flag>HomeCity</flag>
-    <effects>
-      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="deRaider" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="deLifidi" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect type="Data" amount="0.0" subtype="Cost" resource="Wood" relativity="Percent">
-        <target type="Tech">DEEliteHeavyCavalryHausa</target>
-      </effect>
-      <effect type="Data" amount="0.0" subtype="Cost" resource="Gold" relativity="Percent">
-        <target type="Tech">DEEliteHeavyCavalryHausa</target>
-      </effect>
-      <effect type="Data" amount="0.50" subtype="Cost" resource="Wood" relativity="Percent">
-        <target type="Tech">DEChampionHeavyCavalryHausa</target>
-      </effect>
-      <effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
-        <target type="Tech">DEChampionHeavyCavalryHausa</target>
-      </effect>
-      <effect type="Data" amount="0.80" subtype="Cost" resource="Wood" relativity="Percent">
-        <target type="Tech">DELegendaryHeavyCavalryHausa</target>
-      </effect>
-      <effect type="Data" amount="0.80" subtype="Cost" resource="Gold" relativity="Percent">
-        <target type="Tech">DELegendaryHeavyCavalryHausa</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="ResearchPoints" relativity="Assign">
-        <target type="Tech">DEEliteHeavyCavalryHausa</target>
-      </effect>
-      <effect type="Data" amount="0.50" subtype="ResearchPoints" relativity="Percent">
-        <target type="Tech">DEChampionHeavyCavalryHausa</target>
-      </effect>
-      <effect type="Data" amount="0.80" subtype="ResearchPoints" relativity="Percent">
-        <target type="Tech">DELegendaryHeavyCavalryHausa</target>
-      </effect>
-      <effect type="TextOutputTechName">110130</effect>
-    </effects>
-  </tech>
-
 	  <!-- USA techs -->
   <tech name="DEFreeXPCratesAmericans" type="Normal">
     <dbid>7336</dbid>
@@ -12330,7 +12547,7 @@
     </effects>
   </tech>
   <tech name="DEHCShipOldHanArmyBritish" type="Normal">
-    <dbid>9551</dbid>
+    <dbid>9552</dbid>
     <displaynameid>62090</displaynameid>
     <cost resourcetype="Gold">1000.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
@@ -12351,7 +12568,7 @@
     </effects>
   </tech>
   <tech name="DEHCShipNewMongolianArmyBritish" type="Normal">
-    <dbid>9551</dbid>
+    <dbid>9553</dbid>
     <displaynameid>66212</displaynameid>
     <cost resourcetype="Gold">1000.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>

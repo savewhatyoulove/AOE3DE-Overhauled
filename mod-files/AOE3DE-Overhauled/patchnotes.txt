@@ -59,7 +59,18 @@ Units:
   -- Siege damage improved to 30 from 20
   -- Melee attack reduced to 16 from 25
   -- Ranged Attack damage improved to 40 from 35; Ranged reduced to 15 from 17
-
+-- Gatling Camel now deals 3x Damage to AbstractInfantry (but no longer has 1.5x AbstractHeavyInfantry), AbstractLightCavalry unit tag removed.
+-- Dahomey Amazon Rebalanced:
+  -- Cost Reduced from 300G to 250
+  -- Population reduced from 3 to 2
+  -- Armor improved to 20 Ranged from 10 melee
+  -- Siege Reduced to 20 from 27
+  -- Melee Reduced to 20 Ranged from 35 Hand, maximum range reduced to 10 from 14, Scaling ROF replaced with a static 1.25 ROF, all multipliers replaced with standard skirmisher mults. 
+  -- Ranged Attack range reduced to 18 from 20
+-- Kanuri Guard Rebalance:
+  -- Ranged Armor reduced by 10 (40 --> 30)
+  -- +0.5x AbstractArtillery added to all attacks
+  -- +15 Siege Armor added.
 Shipments:
 -- Colonial Militia: Reworked
   -- Moved to Age 2 from discovery age
@@ -436,6 +447,23 @@ Finland:
   -- Red Guards no longer have a build limit or have a converted default resource cost
 -- Northern Wilderness Reworked: Now converts Red Guards' resource cost into a lesser amount of wood (70) from food/gold, upgrades them to guard status, and increases their speed by +0.5.
 
+Africa Changes:
+-- Huts no longer train Levied Spearmen/Archers
+-- Palaces no longer train Levied Gunners
+-- Towers no longer train Outlaws
+-- Towers now train Levied Gunners/Spearmen/Archers
+-- Palaces now train Outlaws instead of artillery
+-- Imported Guns now enables artillery depots and ships a Foundry Wagon (Falconets/Culverins/Mortars are trained there instead of at the Palace). Cost increased to 400 Influence from 300.
+
+-- Javelin Rider (shared with Hausa): Reworked to be a ranged anti-skirmisher unit
+  -- HP: Reduced to 160 from 190
+  -- Armor: Improved to 30 Ranged from 10 Ranged
+  -- Speed: Improved to 6.75 from 6.5
+  -- Cost: Improved to 60F/50G from 65F/50G
+  -- Unit Tages: AbstractLightCavalry replaced with AbstractHeavyCavalry and AbstractRangedHeavyCavalry
+  -- Ranged Attack: Reduced from 8 from 10, all multipliers removed, 5.0x AbstractInfantry and 0.2x AbstractHeavyInfantry added
+  -- Melee Attack: Increased to 12 from 10, all multipliers removed
+  -- Siege: Reduced to 8 from 9
 
 Ethiopia:
 
@@ -443,16 +471,11 @@ Unit Changes:
 
 Gascenya:
 Armor: Increased to 25 melee from 20
-Speed: Reduced to 4.25 from 4.5
-Ranged Damage: Rescaled to 12 w/ 1.5 ROF from 24 w/ 3.0 ROF; ROF range scaling removed
-Melee Multipliers: AbstractCavalry reduced to 3.25x from 4x, AbstractLightInfantry increased to 2.50x from 2.4x
+Ranged Damage: Rescaled to 12 w/ 1.5 ROF from 24 w/ 3.0 ROF; ROF range scaling removed, range reduced to 12
+Melee Damage: Reduced to 12 from 15
+Melee Multipliers: AbstractCavalry increased to 3.50x from 3x, AbstractLightInfantry increased to 2.50x from 2.4x
 Siege Damage: Reduced to 24 from 28.
 
-Javelin Rider (shared with Hausa):
-HP: Reduced to 180 from 210
-Armor: Improved to 15 melee from 10 Ranged
-Melee Attack: Reduced to 6.5 from 10
-Siege: Reduced to 6 from 9
 
 Shotel Warrior:
 Cost: Increased to 50F/55G from 55F/50G
@@ -486,9 +509,18 @@ Hausa:
 Tech Changes:
 -- Songhai Raiders reduced to 4 Gobir Riders from 5 Raiders
 -- Songhai War Parties reduced to 4/8/12 Gobir Riders from 5/10/15
+-- Fulani Migrations Reworked: Gives Fulani their meme ranged attack, +50% Wood chop rate and +25% yield, and lets them train Goats and hunt from herdables at full rate.
 
 Unit Changes:
 
+Emir:
+-- No longer tagged as AbstractLightCavalry
+-- Speed reduced to 5.25 from 6.75; shadowtechs by +0.75 in the commerce and fortress ages (up to 6.75)
+-- No longer has damage multipliers for AbstractCoyoteMan or AbstractHeavyCavalry
+
+Griot: 
+-- No longer has access to the vuvuzuela attack or enemy attack slow
+-- Now autoheals for 0.25% HP/s when outside of combat for 3.5s (same as explorer)
 
 Raider: 
 -- Renamed to Gobir Rider
@@ -499,23 +531,27 @@ Raider:
 -- Population: Increased to 2 from 1
 -- Cost: Increased to 100F/75W from 100F/40G
 -- Siege: Improved to 36 from 22
--- Melee Attack: Reduced to 12 from 22. All existing multipliers removed. 5x AbstractHeavyCavalry, 1.5x AbstractArtillery, and 3.5x AbstractCoyoteMan added
+-- Melee Attack: Reduced to 12 from 22. All existing multipliers removed. 5x AbstractHeavyCavalry, 1.75x AbstractArtillery, and 3.5x AbstractCoyoteMan added
 
 Fulani Archer:
+-- Cost increased to 40F/60W from 70F/35W
 -- Range reduced from 17 to 16
--- Melee damage improved to 5.0 w/ 1.0 ROF from 7 w/ 1.5 ROF
--- Ranged Attack rescaled to 6 w/ 1.0 ROF from 9 with 1.5 ROF
+-- Melee damage improved to 6.25 w/ 1.0 ROF from 7 w/ 1.5 ROF
+-- Ranged Attack improved to 8 w/ 1.25 ROF from 9 with 1.5 ROF
 -- AbstractHeavyInfantry multiplier improved to 2.0x from 1.5x
 -- Long Range Attack damage improved to 14 from 13, minimum range reduced to 16 from 17, maximum range reduced to 20 from 22
+-- Can no longer gather livestock by default
+-- Wood chopping  enabled by default, rate reduced to 0.10 from 0.125 (equivalent to 1/5th a villager instead of 1/4th)
 
 Maigadi:
+-- CanSeeStealth unit tag added.
 -- Cost increased to 250 influence from 200
 -- HP: Increased to 360 from 270
 -- LOS: Reduced to 22 from 28
 -- Population: Increased to 2 from 1
--- Armor: Changed to 20 Melee from 20 Ranged
+-- Armor: Changed to 25 Melee from 20 Ranged
 -- Damage: Improved to 48 from 36 for all actions
--- 1.25x AbstractOutlaw and 1.5x AbstractHero added to melee and ranged attack; 1.5x MercType2 removed.
+-- 1.25x AbstractOutlaw and 1.5x AbstractHero added to melee and ranged attack; 1.5x MercType2 increased to 2.0x (0.5x added to Maigadi so they don't counter themselves).
 
 Lifidi Knight:
 -- 15 Melee Armor changed to 15 Siege Armor
@@ -525,10 +561,12 @@ Shipment Changes:
 -- 7 Raiders INF reduced to 6 Gobir Riders INF
 -- Gwandu (9 Fulani + 5 Lifidi) reduced to 4 Lifidi
 -- Futa Toro (9 Fulani + 9 Raiders) reduced to 9 Fulani + 6 Gobir Riders
+-- Fulani Archer Combat renamed to Foot Archer Combat, now affects AbstractFootArcher
 -- Amina Epic increased to 8 influence per Lifidi from 6.20; 7 influence per Gobir Rider from 4
 -- 4 Sanga + 1 Livestock Market INF (I) replaced with 7 Semi-Fattened Sanga (II) 
 -- Big Benny Food reduced from 900 to 800
 -- Fodio Tactics now provides +4 range instead of +3
+-- Maguzawa Reworked: Now an Age I shipment. Increases the healing capacity of Griots by 50% (10 --> 15) and lets them autoheal much more quickly (0.25 --> 1.0)
 
 USA:
 
