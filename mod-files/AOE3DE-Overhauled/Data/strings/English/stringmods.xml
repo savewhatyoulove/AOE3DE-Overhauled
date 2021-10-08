@@ -206,6 +206,7 @@
 	    <string _locid="101165">Musician who can inspire buildings and heal nearby allies.</string>
 	    <string _locid="101166">Griot. Inspiring musician and storyteller who can heal allies, increase the work rate of buildings, and buff the speed of nearby units.</string>
 	    <string _locid="101232">Ships 2 Palace Builders, 3 Camp Builders and increases build limits. Researches Fortified Cities.</string>
+	    <string _locid="101282">10 Griots</string>
 	    <string _locid="101301">4 Gobir Riders</string>
 	    <string _locid="101302">6 Gobir Riders</string>
 	    <string _locid="101333">Villagers construct buildings and gather resources. Griots can inspire buildings to improve their workrate and heal allied units.</string>
@@ -542,6 +543,7 @@
 	    <string _locid="270072">Fulani Archers and Villagers gather all Wood faster. Trees last longer.</string>
 	    <string _locid="270073">Fulani Archers and Villagers gather Wood faster.</string>
 	    <string _locid="270074">Cords of 900 Wood</string>
+	    <string _locid="270075">Delivers 12 Semi-Fattened Sanga Cattle and 1 fattened Cattle containing 800 Food.</string>
 	</Language>
   </StringTable>
 </stringmods>

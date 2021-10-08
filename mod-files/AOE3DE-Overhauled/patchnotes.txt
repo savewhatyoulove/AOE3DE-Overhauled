@@ -576,6 +576,7 @@ Lifidi Knight:
 -- 1.25x AbstractArtillery multiplier added.
 
 Shipment Changes:
+-- 8 Griots +8 Build Limit (IV) improved to 10 Griots +10 Build Limit
 -- 5 Raiders reduced to 4 Gobir Riders
 -- 7 Raiders INF reduced to 6 Gobir Riders INF
 -- Gwandu (9 Fulani + 5 Lifidi) reduced to 4 Lifidi
@@ -601,6 +602,8 @@ Shipment Changes:
 -- 600 Wood INF (II) and 900 Wood INF (III) added.
 -- Hand Cavalry Combat (III) added. 
 -- Sarkin Dogari improved to +1x AbstractCavalry/0.5x AbstractLightInfantry from 0.5/0.3x, respectively.
+-- Durbar Parade Reworked: Now provides +0.25 speed to ALL Cavalry and a +1.25x multiplier against Buildings for AbstractHandCavalry. Moved to Age 2 from 3
+-- Zazzau Cavalry Reworked: Now provides +20% ATK/HP to Javelin Riders, moved to the Fortress Age.
 
 -- TODO: 
   -- Fix African Mercs/Natives

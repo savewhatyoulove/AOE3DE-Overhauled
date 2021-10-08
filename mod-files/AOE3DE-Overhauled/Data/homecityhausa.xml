@@ -128,6 +128,24 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>HCShipFoodCrates4</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipFoodCrates3</prereqtech>
+      <age>2</age>
+      <displayunitcount>1000</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipFoodCrates5</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>HCShipFoodCrates4</prereqtech>
+      <age>3</age>
+      <displayunitcount>1600</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
       <name>HCShipWoodCrates1</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -199,33 +217,6 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipFoodCrates4</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>HCShipFoodCrates3</prereqtech>
-      <age>2</age>
-      <displayunitcount>1000</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>HCShipFoodCrates5</name>
-      <maxcount>1</maxcount>
-      <level>25</level>
-      <prereqtech>HCShipFoodCrates4</prereqtech>
-      <age>3</age>
-      <displayunitcount>1600</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>HCShipCoinCrates5</name>
-      <maxcount>1</maxcount>
-      <level>25</level>
-      <prereqtech>HCShipCoinCrates4</prereqtech>
-      <age>3</age>
-      <displayunitcount>1600</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
       <name>HCShipCoinCrates3</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -241,6 +232,15 @@
       <prereqtech>HCShipCoinCrates3</prereqtech>
       <age>2</age>
       <displayunitcount>1000</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipCoinCrates5</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>HCShipCoinCrates4</prereqtech>
+      <age>3</age>
+      <displayunitcount>1600</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -625,14 +625,14 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>2</age>
+      <age>1</age>
     </card>
     <card>
       <name>DEHCZazzauCavalry</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>1</age>
+      <age>2</age>
     </card>
     <card>
       <name>DEHCCounterInfantry</name>

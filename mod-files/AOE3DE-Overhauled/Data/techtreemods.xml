@@ -5460,6 +5460,42 @@
       </effect>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DEHCRedFulaniCattle" type="Normal">
+    <dbid>8341</dbid>
+    <displaynameid>102841</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\hausa\red_fulani.png</icon>
+    <rollovertextid>270075</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data2" amount="12.00" subtype="FreeHomeCityUnitResource" unittype="deSangaCattle" resource="Food" resvalue="100.00" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deChonkyCattle" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShipGriots2" type="Normal">
+    <dbid>6761</dbid>
+    <displaynameid>101282</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\africans\hausa\griot\griot_icon.png</icon>
+    <flag>HomeCity</flag>
+    <flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</flag>
+    <effects>
+      <effect tech="deCardIgnoreBuildLimit" type="Data" amount="10.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deGriot" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="10.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">deGriot</target>
+      </effect>
+    </effects>
+  </tech>
 
   <tech mergeMode='replace' name="DEHCShipSanga3" type="Normal">
     <dbid>8268</dbid>
