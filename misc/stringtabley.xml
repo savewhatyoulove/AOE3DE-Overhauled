@@ -36738,7 +36738,7 @@
     <string _locid="102875">Villagers gather Coin from Fields, Estates and Rice Paddies faster.</string>
     <string _locid="102876">Grants resources per existing Field.</string>
     <string _locid="102877"/>
-    <string _locid="102878">Grants a small sum of food for each of your fields on the map. Improves food gathering on fields.</string>
+    <string _locid="102878">Grants a small sum of food for each of your fields on the map. Improves food gathering on fields.\n • Deposits 30 Food for each Field you've built, up to 2100 Food.</string>
     <string _locid="102879">Prize Bull</string>
     <string _locid="102880">Increases the maximum food total Herdables can fatten to.</string>
     <string _locid="102881">Particularly fattened Cattle containing 900 Food.</string>
@@ -37232,7 +37232,7 @@
     <string _locid="103421">Tsetse Sabotage</string>
     <string _locid="103422">Sabotages an enemy building, considerably slowing down its production. Cannot be used on a building that is already being affected by this ability.</string>
     <string _locid="103423">Tokens of 100 Jesuit Influence</string>
-    <string _locid="103424">&lt;ttf&gt;&lt;tth&gt;Tokens of Influence&lt;ttf&gt;&lt;tti&gt;Transforms this Kingdom Builder into Tokens of 200 Influence.</string>
+    <string _locid="103424">&lt;ttf&gt;&lt;tth&gt;Tokens of Influence&lt;ttf&gt;&lt;tti&gt;Transforms this Kingdom Builder into Tokens of 400 Influence.</string>
     <string _locid="103425">You receive a Kingdom Builder for every Town Center you currently own. Kingdom Builders can transform into Tokens of Influence.</string>
     <string _locid="103426">Inviting skilled engineers enables Heavy Cannons to be built at the Palace.</string>
     <string _locid="103427">Ships 1 Organ Gun for each of your Mountain Monasteries present on the map.</string>

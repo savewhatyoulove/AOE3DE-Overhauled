@@ -287,6 +287,9 @@ Shipments:
   -- Temple and Spanish shipments are unchanged due to not being affected by inca civ bonus
 -- Age IV 4 Cloud Forest Travois added (4 Mango Groves)
 -- Advanced Tambo no longer provides a Chasqui, cost reduction improved to -50% from -40%
+-- Ranged Infantry Hitpoints/Damage moved to Commerce Age from Fortress and now affects AbstractFootArcher
+-- 8 Bolas/Jungle Bowmen (III) increased to 9 each
+
 
 
 Sweden Changes:
@@ -448,22 +451,30 @@ Finland:
 -- Northern Wilderness Reworked: Now converts Red Guards' resource cost into a lesser amount of wood (70) from food/gold, upgrades them to guard status, and increases their speed by +0.5.
 
 Africa Changes:
+
+Buildings: 
 -- Levy Gunners added to the Town Center. Trains 5 Levied Gunners for 300 Influence. Available in age II.
 -- Huts no longer train Levied Spearmen/Archers
 -- Palaces no longer train Levied Gunners
 -- Towers no longer train Outlaws
 -- Towers now train Levied Gunners/Spearmen/Archers
 -- Palaces now train Outlaws instead of artillery
+
+Techs:
 -- Imported Guns now enables artillery depots and ships a Foundry Wagon (Falconets/Culverins/Mortars are trained there instead of at the Palace). Cost increased to 400 Influence from 300.
+
+Units: 
+
+-- Big Benny Food reduced from 900 to 800
 
 -- Javelin Rider (shared with Hausa): Reworked to be a ranged anti-skirmisher unit
   -- HP: Reduced to 160 from 190
   -- Armor: Improved to 30 Ranged from 10 Ranged
   -- Speed: Improved to 6.75 from 6.5
   -- Cost: Improved to 60F/50G from 65F/50G
-  -- Unit Tages: AbstractLightCavalry replaced with AbstractHeavyCavalry and AbstractRangedHeavyCavalry
-  -- Ranged Attack: Reduced from 8 from 10, all multipliers removed, 5.0x AbstractInfantry and 0.2x AbstractHeavyInfantry added
-  -- Melee Attack: Increased to 12 from 10, all multipliers removed
+  -- Unit Tags: AbstractLightCavalry replaced with AbstractHeavyCavalry and AbstractRangedHeavyCavalry
+  -- Ranged Attack: Reduced from 8 from 10, all multipliers removed, 5.0x AbstractInfantry, 0.2x AbstractHeavyInfantry (1.0x net), and 1.25x AbstractVillager added
+  -- Melee Attack: Increased to 12 from 10, all multipliers removed, 1.25x AbstractVillager added
   -- Siege: Reduced to 8 from 9
 
 Ethiopia:
@@ -510,7 +521,13 @@ Hausa:
 Tech Changes:
 -- Songhai Raiders reduced to 4 Gobir Riders from 5 Raiders
 -- Songhai War Parties reduced to 4/8/12 Gobir Riders from 5/10/15
--- Fulani Migrations Reworked: Gives Fulani their meme ranged attack, +50% Wood chop rate and +25% yield, and lets them train Goats and hunt from herdables at full rate.
+-- Fulani Migrations Reworked: Gives Fulani their meme ranged attack, +25% Wood chop rate and +25% yield, and lets them train Goats and hunt from herdables at full rate.
+-- Arma Garrisons: Now costs 400 Influence instead of 300 and ships 1 Palace Builder instead of a Watch Tower Builder. Corsair Marksmen are now trained from Palaces instead of Watch Towers.
+-- Fortified Cities Cost reduced to 1250 Influence from 3000. (might reduce to 1000)
+-- Bakwai (+3 TC build limit) Cost reduced to 600 Influence from 800 (might reduce to 500)
+
+Building Changes:
+-- Trading Post University Improvement Aura increased to 60 from 30.
 
 Unit Changes:
 
@@ -532,7 +549,7 @@ Raider:
 -- Population: Increased to 2 from 1
 -- Cost: Increased to 100F/75W from 100F/40G
 -- Siege: Improved to 36 from 22
--- Melee Attack: Reduced to 12 from 22. All existing multipliers removed. 5x AbstractHeavyCavalry, 1.75x AbstractArtillery, and 3.5x AbstractCoyoteMan added
+-- Melee Attack: Reduced to 12 from 22. All existing multipliers removed. 5x AbstractHeavyCavalry, 1.5x AbstractVillager, 1.75x AbstractArtillery, and 3.5x AbstractCoyoteMan added
 
 Fulani Archer:
 -- Cost increased to 40F/60W from 70F/35W
@@ -542,7 +559,7 @@ Fulani Archer:
 -- AbstractHeavyInfantry multiplier improved to 2.0x from 1.5x
 -- Long Range Attack damage improved to 14 from 13, minimum range reduced to 16 from 17, maximum range reduced to 20 from 22
 -- Can no longer gather livestock by default
--- Wood chopping  enabled by default, rate reduced to 0.10 from 0.125 (equivalent to 1/5th a villager instead of 1/4th)
+-- Wood chopping enabled by default.
 
 Maigadi:
 -- CanSeeStealth unit tag added.
@@ -552,10 +569,11 @@ Maigadi:
 -- Population: Increased to 2 from 1
 -- Armor: Changed to 25 Melee from 20 Ranged
 -- Damage: Improved to 48 from 36 for all actions
--- 1.25x AbstractOutlaw and 1.5x AbstractHero added to melee and ranged attack; 1.5x MercType2 increased to 2.0x (0.5x added to Maigadi so they don't counter themselves).
+-- 1.50x AbstractOutlaw and 2.0x AbstractHero added to melee and ranged attack; 1.5x MercType2/AbstractMercenary increased to 2.0x (0.5x added to Maigadi so they don't counter themselves, and 0.5x to MercNinja so they don't get double countered).
 
 Lifidi Knight:
 -- 15 Melee Armor changed to 15 Siege Armor
+-- 1.25x AbstractArtillery multiplier added.
 
 Shipment Changes:
 -- 5 Raiders reduced to 4 Gobir Riders
@@ -563,11 +581,29 @@ Shipment Changes:
 -- Gwandu (9 Fulani + 5 Lifidi) reduced to 4 Lifidi
 -- Futa Toro (9 Fulani + 9 Raiders) reduced to 9 Fulani + 6 Gobir Riders
 -- Fulani Archer Combat renamed to Foot Archer Combat, now affects AbstractFootArcher
--- Amina Epic increased to 8 influence per Lifidi from 6.20; 7 influence per Gobir Rider from 4
+-- Amina Epic increased to 20 influence per Lifidi from 6.20; 18 influence per Gobir Rider from 4 (10%)
 -- 4 Sanga + 1 Livestock Market INF (I) replaced with 7 Semi-Fattened Sanga (II) 
--- Big Benny Food reduced from 900 to 800
 -- Fodio Tactics now provides +4 range instead of +3
--- Maguzawa Reworked: Now an Age I shipment. Increases the healing capacity of Griots by 50% (10 --> 15) and lets them autoheal much more quickly (0.25 --> 1.0)
+-- Maguzawa Reworked: Now an Age I shipment. Increases the healing capacity of Griots by 50% (10 --> 15) and lets them autoheal much more quickly (0.25 --> 1.0) (Maybe make it age II or III and see if Griots can buff resource yield of villagers?)
+-- 4 Maigadi (II) for 300 Influence and 12 Maigadi (IV) for 1000 Influence added.
+-- Rano Indigo Production (III) now additionally converts the Wood cost of Gobir Riders and Fulani Archers to Gold at a rate of 1:1.
+-- Dane Guns (II) damage bonus increased to +25% from +20%, Train Time bonus reduced to -20% from -25%, Maigadi Cost conversion increased to 125 Influence/ 125 Gold from 100 each.
+-- Crossing Festival (II) moved to Age 1 and now costs 300 Influence.
+-- Counter Cavalry Tactics replaced with Counter Infantry Tactics. Provides +1.0x AbstractHeavyInfantry multiplier to ALL Foot Archers, and +0.5 speed to Fulani Archers (III)
+-- TEAM Ancient Kano Walls aura radius improved to 24 from 15, aura rate improved to 0.10 from 0.03, moved to Fortress Age from Industrial
+-- Gatekeepers (III) now additionally provides +150% HP for gates, aura radius improved to 24 from 15, Damage Amp Aura improved to 8% from 5%
+-- TEAM Hausa Gates (I) reworked. Now provides +31 LOS to Gates and +150% Gate hitpoints. 
+-- Sokoto Chronicles (IV) now ships 500 Influence for each Town Center you currently own.
+-- Katsina Fortifications now affects Palaces. Shipment moved to the Fortress Age from Commerce
+-- Royal Fortifications (IV) now delivers 2 Palace Builders and increases their build limit by +2, both up from 1.
+-- Palace of Amina (II) now costs 400 Influence and Delivers 3 Maigadi instead of Tokens of 300 Influence
+-- Wood Chopping Shipments (I) (Woodcrafting, Sawmills, and Pulaaku) now affect Fulani Archers
+-- 600 Wood INF (II) and 900 Wood INF (III) added.
+-- Hand Cavalry Combat (III) added. 
+-- Sarkin Dogari improved to +1x AbstractCavalry/0.5x AbstractLightInfantry from 0.5/0.3x, respectively.
+
+-- TODO: 
+  -- Fix African Mercs/Natives
 
 USA:
 

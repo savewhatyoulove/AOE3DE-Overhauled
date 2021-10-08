@@ -102,6 +102,7 @@
 	    <string _locid="80495">The Chancas send 9 Macemen and increase their damage against infantry.</string>
 	    <string _locid="80498">The Chachapoyas send 17 Huaracas and increase their attack range.</string>
 	    <string _locid="80501">The Chincha ship 5 Chincha Rafts and increase their hitpoints.</string>
+	    <string _locid="80504">The Chimu send 16 Chimu Runners and increase their damage, especially against Artillery.</string>
 	    <string _locid="80507">The Colla send 17 Bolas Warriors and increase their ranged damage, especially against Heavy Cavalry and Heavy Shock Infantry.</string>
 	    <string _locid="80520">Buildings gain increased line of sight and siege armor.</string>
 	    <string _locid="80530">The Aymara send 5 Chasquis and greatly improve their hitpoints, speed, and line of sight. Chasquis now slow down nearby enemies and can enter stealth with no speed penalty. Increases the build limit for Chasquis by 5.</string>
@@ -216,14 +217,22 @@
 	    <string _locid="102553">Armored cannoneer mercenary from Portugal who fires a heavy musket inflicting splash damage.</string>
 	    <string _locid="102561">Egyptian mercenary equipped with an automatic-fire gun mounted on a camel. Good against infantry.</string>
 	    <string _locid="102849">All Cavalry move faster and Hand Cavalry deal more damage to buildings.</string>
-	    <string _locid="102850">Ships 1 Lifidi Knight per Palace and 1 Gobir Rider per War Camp.</string>
-	    <string _locid="102858">Ships 1 Palace Wagon and tokens of 300 Influence. Increases Palace build limit by 1.</string>
-	    <string _locid="102868">Each Gobir Rider and Lifidi trained so far grants a fraction of its cost as Influence into the stockpile.</string>
+	    <string _locid="102850">Javelin Riders have increased hitpoints and damage.</string>
+	    <string _locid="102853">Ships 1 Griot and 1 University Builder for educational purposes. Increases University and Griot build limit by +1.</string>
+	    <string _locid="102855">Universities improve the construction speed and work rate of nearby buildings by 25%. Work Rate bonus is reduced for Town Centers.</string>
+	    <string _locid="102858">Ships 1 Palace Wagon and 3 Maigadi. Increases Palace build limit by 1.</string>
+	    <string _locid="102859">Researches City Walls, increases Gate hitpoints, and enables Gates to grant nearby units an 8% attack bonus.\n • Damage Aura scales off of units' CURRENT damage within a 24 radius.</string>
+	    <string _locid="102860">TEAM Wall hitpoints are improved by nearby military units.\n • Hitpoint Improvement Rate is +10% BASE hitpoints for each military unit within a 24 radius.</string>
+	    <string _locid="102861">TEAM Gates have greatly increased Line of Sight and hitpoints.</string>
+	    <string _locid="102862">Allows Levies to garrison inside Watch Towers and Palace. All units garrisoned in a Watch Tower or Palace improve its damage by 10% per unit.\n • Towers can garrison up to 20 units, and Palaces can garrison up to 50 units</string>
+	    <string _locid="102868">Each Gobir Rider and Lifidi trained so far grants a fraction of its cost as Influence into the stockpile.\n • Conversion Rate is 10% of unit cost as influence rounded up, (e.g. 18 per Gobir Rider and 20 per Lifidi Knight).</string>
 	    <string _locid="102870">Griots regenerate hitpoints outside of combat much more quickly and greatly increases the amount they can heal.</string>
+	    <string _locid="102878">Grants a small sum of food for each of your fields on the map. Improves food gathering on fields.\n • Deposits 30 Food for each Field you've built, up to 2100 Food.</string>
 	    <string _locid="102881">Particularly fattened Cattle containing 800 Food.</string>
 	    <string _locid="102896">Neftenyas gain additional hitpoints.</string>
 	    <string _locid="102928">Javelin Rider armor and attack increased. Oromo Riders deal more damage, especially to skirmishers and foot archers.</string>
 	    <string _locid="103110">Fulani Archers gain a long range attack. Enables Fulani Archers to train Goats and harvest Food from Herables. Additionally, they gather Wood from Trees much more quickly and Trees last longer for them.</string>
+	    <string _locid="103114">Villagers gather faster, particularly from natural resources. Fulani Archers gather Wood from Trees more quickly.</string>
 	    <string _locid="103217">Small raiding party! Dispatches 4 Gobir Riders to your Home City Gather Point.</string>
 	    <string _locid="103219">Medium raiding party! Dispatches 8 Gobir Riders to your Home City Gather Point.</string>
 	    <string _locid="103221">Large raiding party! Dispatches 12 Gobir Riders to your Home City Gather Point.</string>
@@ -235,7 +244,9 @@
 	    <string _locid="103399">&lt;ttf&gt;&lt;tth&gt;Songhai Raid&lt;ttf&gt;&lt;tti&gt;Small raiding party! Dispatches 4 Gobir Riders at this building.</string>
 	    <string _locid="103400" symbol="cStringSonghaiButtonRollover">Select a building from which to dispatch Gobir Riders</string>
 	    <string _locid="103401" symbol="cStringSonghaiButtonDisabledRollover">You cannot dispatch Gobir Riders right now</string>
+	    <string _locid="103425">You receive Tokens of 500 Influence for every Town Center you currently own.</string>
 	    <string _locid="104021">Gobir Rider attack and hitpoints increased.</string>
+	    <string _locid="104113">Villagers gather Coin from Fields faster. Gobir Riders and Fulani now cost Gold instead of Wood to train.</string>
 	    <string _locid="104512">Foot Archer Combat</string>
 	    <string _locid="104539">Foot Archer attack and hitpoints increased.</string>
 	    <string _locid="104541">Gobir Rider and Lifidi Knight attack increased.</string>
@@ -525,9 +536,12 @@
 	    <string _locid="270066">4 Maigadi</string>
 	    <string _locid="270067">12 Maigadi</string>
 	    <string _locid="270068">Counter Infantry Tactics</string>
-	    <string _locid="270069">Fulani Archers gain increased speed and deal more damage to Heavy Infantry.</string>
+	    <string _locid="270069">All Foot Archers deal increased damage to Heavy Infantry and Fulani Archers move more quickly.</string>
 	    <string _locid="270070">Conscript Gunners: Muster a group of Levied Gunners for defence!</string>
 	    <string _locid="270071">Conscript Gunners</string>
+	    <string _locid="270072">Fulani Archers and Villagers gather all Wood faster. Trees last longer.</string>
+	    <string _locid="270073">Fulani Archers and Villagers gather Wood faster.</string>
+	    <string _locid="270074">Cords of 900 Wood</string>
 	</Language>
   </StringTable>
 </stringmods>
