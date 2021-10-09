@@ -4845,6 +4845,15 @@
       </effect>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DENatNomadAdjustRatesShadow" type="Normal">
+    <dbid>8404</dbid>
+    <status>OBTAINABLE</status>
+    <flag>Shadow</flag>
+    <researchpoints>0.0000</researchpoints>
+    <effects>
+    </effects>
+  </tech>
+
   <tech name="DEConscriptGunners" type="Normal">
     <dbid>9657</dbid>
     <displaynameid>270071</displaynameid>

@@ -452,6 +452,9 @@ Finland:
 
 Africa Changes:
 
+Natives:
+-- Berber Nomad now has +50% base natural resource rate, and a -33% base estate/mill rate. No longer shadowtechs.
+
 Buildings: 
 -- Levy Gunners added to the Town Center. Trains 5 Levied Gunners for 300 Influence. Available in age II.
 -- Huts no longer train Levied Spearmen/Archers
