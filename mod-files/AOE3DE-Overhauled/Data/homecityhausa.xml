@@ -731,6 +731,13 @@
       <age>2</age>
     </card>
     <card>
+      <name>DEHCImprovedBuildingsTeam</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>DEHCKatsinaFortifications</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
       <name>DEHCSahelianKingdoms</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -870,7 +877,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>8</displayunitcount>
+      <displayunitcount>10</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1137,7 +1144,7 @@
       <maxcount>-1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>3</age>
+      <age>2</age>
       <displayunitcount>2</displayunitcount>
     </card>
     <card>
@@ -1253,7 +1260,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
-      <displayunitcount>12</displayunitcount>
+      <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1262,7 +1269,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>15</displayunitcount>
+      <displayunitcount>10</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
   </cards>
@@ -1626,6 +1633,7 @@
       <tech x="0.0" y="3.0">DEHCTEAMHausaGates</tech>
       <tech x="0.0" y="3.0">DEHCEmirKatsina</tech>
       <tech x="0.0" y="3.0">DEHCKatsinaFortifications</tech>
+      <tech x="0.0" y="3.0">DEHCImprovedBuildingsTeam</tech>
       <tech x="0.0" y="3.0">DEHCHausaKingdom</tech>
       <tech x="0.0" y="3.0">DEHCGobarauMinaret</tech>
       <tech x="0.0" y="3.0">DEHCMassinaMadrasahs</tech>
@@ -1660,6 +1668,7 @@
       <tech x="0.0" y="3.0">DEHCTEAMHausaGates</tech>
       <tech x="0.0" y="3.0">DEHCEmirKatsina</tech>
       <tech x="0.0" y="3.0">DEHCKatsinaFortifications</tech>
+      <tech x="0.0" y="3.0">DEHCImprovedBuildingsTeam</tech>
       <tech x="0.0" y="3.0">DEHCHausaKingdom</tech>
       <tech x="0.0" y="3.0">DEHCGobarauMinaret</tech>
       <tech x="0.0" y="3.0">DEHCMassinaMadrasahs</tech>

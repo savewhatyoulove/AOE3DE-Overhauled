@@ -782,7 +782,23 @@
       </effect>
     </effects>
   </tech>
-
+  <tech name="DEHCImprovedBuildingsTeam" type="Normal">
+    <dbid>9661</dbid>
+    <displaynameid>270076</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\team_improved_buildings.png</icon>
+    <rollovertextid>270077</rollovertextid>
+    <flag>HomeCity</flag>
+    <flag>TeamTech</flag>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Building</target>
+      </effect>
+      <effect type="TextOutput">41860</effect>
+    </effects>
+  </tech>
 <tech mergeMode='replace' name="DEHCTupacRebellion" type="Normal">
     <dbid>6106</dbid>
     <displaynameid>80444</displaynameid>
@@ -4894,6 +4910,36 @@
       </effect>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DEHCShipSudaneseAllies1" type="Normal">
+    <dbid>8427</dbid>
+    <displaynameid>101318</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <cost resourcetype="Influence">500.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\africans\natives\sudanese_dervish\sudanese_dervish_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="deNatMercSudaneseDervish" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShipSudaneseAllies2" type="Normal">
+    <dbid>8428</dbid>
+    <displaynameid>101319</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <cost resourcetype="Influence">500.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\africans\natives\sudanese_dervish\sudanese_dervish_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="deNatMercSudaneseDervish" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
 
   <tech mergeMode='replace' name="DEHCMercsDahomeyAmazons" type="Normal">
     <dbid>8400</dbid>
@@ -5469,6 +5515,36 @@
       </effect>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DEHCZinderKanuris" type="Normal">
+    <dbid>8344</dbid>
+    <displaynameid>102884</displaynameid>
+    <rollovertextid>102885</rollovertextid>
+    <cost resourcetype="Influence">1500.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\hausa\zinder_kanuris.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="deMercKanuri" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="deMercKanuri" relativity="Absolute">
+        <target type="ProtoUnit">dePalace</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deMercKanuri</target>
+      </effect>
+      <effect type="Data" amount="150.00" subtype="Cost" resource="Influence" relativity="Assign">
+        <target type="ProtoUnit">deMercKanuri</target>
+      </effect>
+      <effect type="Data" amount="150.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="ProtoUnit">deMercKanuri</target>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+
   <tech mergeMode='replace' name="DEHCRedFulaniCattle" type="Normal">
     <dbid>8341</dbid>
     <displaynameid>102841</displaynameid>

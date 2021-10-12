@@ -209,14 +209,21 @@
 	    <string _locid="101282">10 Griots</string>
 	    <string _locid="101301">4 Gobir Riders</string>
 	    <string _locid="101302">6 Gobir Riders</string>
+	    <string _locid="101318">8 Sudanese Allies</string>
+	    <string _locid="101319">10 Sudanese Allies</string>
 	    <string _locid="101333">Villagers construct buildings and gather resources. Griots can inspire buildings to improve their workrate and heal allied units.</string>
 	    <string _locid="101342">Elite Gobir Rider</string>
 	    <string _locid="101345">Champion Gobir Rider</string>
 	    <string _locid="101348">Legendary Gobir Rider</string>
 	    <string _locid="101572">5 Oromo Warriors</string>
 	    <string _locid="101595">Inviting skilled engineers enables your Villagers to construct Artillery Foundries which can quickly assemble Cannons at the cost of Influence. Delivers an Artillery Foundry Wagon.</string>
+	    <string _locid="102532">Armored mounted skirmisher mercenary with a powerful long ranged attack. Good versus heavy infantry, light cavalry, and artillery. </string>
+	    <string _locid="102542">Berber warrior riding a fast camel, good at raiding villagers or buildings.</string>
 	    <string _locid="102553">Armored cannoneer mercenary from Portugal who fires a heavy musket inflicting splash damage.</string>
-	    <string _locid="102561">Egyptian mercenary equipped with an automatic-fire gun mounted on a camel. Good against infantry.</string>
+	    <string _locid="102561">Egyptian mercenary equipped with an automatic-fire gun mounted on a camel. Good against infantry.</string> 
+	    <string _locid="102586">Fast Sudanese shock infantry which tosses knives from range. Good against heavy cavalry and hand shock infantry.</string>
+	    <string _locid="102595">Mercenary Rider of the Berber Zenata armed with a shield and javelins. Good against skirmishers, foot archers, and artillery.</string>
+	    <string _locid="102601">Battle-tested female mercenary of the Dahomey armed with knives. Good against heavy cavalry and shock infantry.</string>
 	    <string _locid="102849">All Cavalry move faster and Hand Cavalry deal more damage to buildings.</string>
 	    <string _locid="102850">Javelin Riders have increased hitpoints and damage.</string>
 	    <string _locid="102853">Ships 1 Griot and 1 University Builder for educational purposes. Increases University and Griot build limit by +1.</string>
@@ -230,6 +237,7 @@
 	    <string _locid="102870">Griots regenerate hitpoints outside of combat much more quickly and greatly increases the amount they can heal.</string>
 	    <string _locid="102878">Grants a small sum of food for each of your fields on the map. Improves food gathering on fields.\n • Deposits 30 Food for each Field you've built, up to 2100 Food.</string>
 	    <string _locid="102881">Particularly fattened Cattle containing 800 Food.</string>
+	    <string _locid="102885">Ships a number of Kanuri Guard mercenaries (Mounted Skirmishers). Enables them to be trained from the Palace where they cost partially Coin and Influence.</string>
 	    <string _locid="102896">Neftenyas gain additional hitpoints.</string>
 	    <string _locid="102928">Javelin Rider armor and attack increased. Oromo Riders deal more damage, especially to skirmishers and foot archers.</string>
 	    <string _locid="103110">Fulani Archers gain a long range attack. Enables Fulani Archers to train Goats and harvest Food from Herables. Additionally, they gather Wood from Trees much more quickly and Trees last longer for them.</string>
@@ -544,6 +552,8 @@
 	    <string _locid="270073">Fulani Archers and Villagers gather Wood faster.</string>
 	    <string _locid="270074">Cords of 900 Wood</string>
 	    <string _locid="270075">Delivers 12 Semi-Fattened Sanga Cattle and 1 fattened Cattle containing 800 Food.</string>
+	    <string _locid="270076">TEAM Improved Buildings.</string>
+	    <string _locid="270077">TEAM Building hitpoints increased.</string>
 	</Language>
   </StringTable>
 </stringmods>

@@ -63,14 +63,30 @@ Units:
 -- Dahomey Amazon Rebalanced:
   -- Cost Reduced from 300G to 250
   -- Population reduced from 3 to 2
-  -- Armor improved to 20 Ranged from 10 melee
-  -- Siege Reduced to 20 from 27
-  -- Melee Reduced to 20 Ranged from 35 Hand, maximum range reduced to 10 from 14, Scaling ROF replaced with a static 1.25 ROF, all multipliers replaced with standard skirmisher mults. 
-  -- Ranged Attack range reduced to 18 from 20
--- Kanuri Guard Rebalance:
-  -- Ranged Armor reduced by 10 (40 --> 30)
-  -- +0.5x AbstractArtillery added to all attacks
-  -- +15 Siege Armor added.
+  -- Armor improved to 35 Ranged from 10 melee
+  -- Now Tagged as AbstractLightInfantry and AbstractLightCavalry instead of AbstractInfantry and AbstractRifleman
+  -- Siege Reduced to 12 from 27
+  -- Volley Hand Attack Reduced to 21 Ranged from 35, maximum range increased to 16 from 14, Scaling ROF replaced with a static 1.50 ROF, all multipliers replaced with 2.0x AbstractArtillery, 0.5x AbstractVillager, 3.5x AbstractHeavyCavalry, 2.5x AbstractCoyoteMan.
+  -- Melee Hand Attack Reduced to 21 Hand from 35, 1.5 ROF, all multipliers replaced with 2.0x AbstractArtillery, 3.5x AbstractHeavyCavalry, 2.5x AbstractCoyoteMan.
+  -- Rifle Attack Removed
+-- Zenata Rider Reworked: 
+  -- HP: Reduced to 270 from 400
+  -- LOS: Reduced to 16 from 22
+  -- Armor: Improved to 40 Ranged from 25
+  -- Now Tagged as AbstractHeavyCavalry and AbstractRangedHeavyCavalry instead of AbstractLightCavalry.
+  -- Ranged Attack: Reduced to 15 from 27, range improved to 14 from 12, all multipliers removed. 5x AbstractInfantry, 0.2x AbstractHeavyInfantry, 2x AbstractArtillery
+  -- Melee Attack: Improved to 25 from 14, all multiplies removed, 2x AbstractArtillery added.
+-- Kanuri Guard Reworked:
+  -- Speed: Reduced to 6.25 from 7.25
+  -- HP: Improved to 360 from 300
+  -- Improved to 22 from 16
+  -- Train Time: Increased to 48 seconds from 43
+  -- Cost: Increased to 300 gold from 220
+  -- Population: Increased to 3 from 2
+  -- Siege: Improved to 40 from 15
+  -- Ranged Attack: Improved to 40 w/ 17 range and 2.0 ROF from 30 w/ 12 range and 3.0 ROF. All multipliers removed. 0.5x AbstractVillager, 0.5x AbstractInfantry, 3.5x AbstractHeavyInfantry, 0.75x AbstractCavalry/AbstractLightInfantry, 2.5x AbstractLightCavalry/xpEagleKnight, and 3x AbstractArtillery added.
+ -- Melee Attack: Improved to 30 from 15, All multipliers removed, 0.5x AbstractInfantry, 3.5x AbstractHeavyInfantry, 0.75x AbstractCavalry/AbstractLightInfantry, 2.5x AbstractLightCavalry/xpEagleKnight, and 3x AbstractArtillery added.
+
 Shipments:
 -- Colonial Militia: Reworked
   -- Moved to Age 2 from discovery age
@@ -455,6 +471,19 @@ Africa Changes:
 Natives:
 -- Berber Nomad now has +50% base natural resource rate, and a -33% base estate/mill rate. No longer shadowtechs.
 
+Native Units:
+-- Sudanese Dervish Reworked:
+  -- HP increased to 165 from 110
+  -- Speed increased to 6.25 from 4.75
+  -- Armor reduced to 0.1 Ranged from 0.30
+  -- LOS improved to 18 from 16
+  -- Cost increased to 75 Food/75 Wood from 50/40
+  -- Build limit reduced from 15 to 14
+  -- Siege reduced to 7 from 8
+  -- AbstractInfantry tag removed, AbstractLightInfantry and AbstractLightCavalry tags added.
+  -- Hand Attack reduced to 7 from 14, ROF slowed to 1.5 from 1.0. All multipliers removed, 4.5x AbstractHeavyCavalry, 3.5x AbstractCoyoteMan, and 1.5x AbstractArtillery added.
+  -- Ranged Attack reduced to 12 from 14, ROF changed to a flat 1.5 from 2.5 ROF scaling, All multipliers removed, 3.0x AbstractHeavyCavalry, 2.0x AbstractCoyoteMan, and 1.5x AbstractArtillery added.
+
 Buildings: 
 -- Levy Gunners added to the Town Center. Trains 5 Levied Gunners for 300 Influence. Available in age II.
 -- Huts no longer train Levied Spearmen/Archers
@@ -479,6 +508,10 @@ Units:
   -- Ranged Attack: Reduced from 8 from 10, all multipliers removed, 5.0x AbstractInfantry, 0.2x AbstractHeavyInfantry (1.0x net), and 1.25x AbstractVillager added
   -- Melee Attack: Increased to 12 from 10, all multipliers removed, 1.25x AbstractVillager added
   -- Siege: Reduced to 8 from 9
+
+Shipments:
+-- 12 Sudanese Dervishes reduced to 8
+-- 15 Sudanese Dervishes reduced to 10
 
 Ethiopia:
 
@@ -610,6 +643,7 @@ Shipment Changes:
 
 -- TODO: 
   -- Fix African Mercs/Natives
+  -- Add Battlefield Construction for Hausa
 
 USA:
 
