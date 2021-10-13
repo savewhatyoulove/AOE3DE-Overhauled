@@ -5315,7 +5315,7 @@
       <effect type="TextOutputTechName">110130</effect>
     </effects>
   </tech>
-  <tech name="DEHCFulaniInvasion" type="Normal">
+  <tech mergeMode='replace' name="DEHCFulaniInvasion" type="Normal">
     <dbid>6746</dbid>
     <displaynameid>104121</displaynameid>
     <rollovertextid>102867</rollovertextid>
@@ -5330,7 +5330,7 @@
       <effect type="TransformUnit" toprotoid="deFulaWarrior" fromprotoid="Coureur"/>
       <effect type="TransformUnit" toprotoid="deFulaWarrior" fromprotoid="CoureurCree"/>
       <effect type="TransformUnit" toprotoid="deFulaWarrior" fromprotoid="SettlerNative"/>
-      <effect type="TransformUnit" toprotoid="deFulaWarrior" fromprotoid="SettlerAfrican"/>
+      <effect type="TransformUnit" toprotoid="deFulaWarrior" fromprotoid="deSettlerAfrican"/>
       <effect type="TransformUnit" toprotoid="deFulaWarrior" fromprotoid="Pilgrim"/>
       <effect type="TransformUnit" toprotoid="deFulaWarrior" fromprotoid="ypSettlerAsian"/>
       <effect type="TransformUnit" toprotoid="deFulaWarrior" fromprotoid="ypSettlerJapanese"/>
