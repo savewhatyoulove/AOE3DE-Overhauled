@@ -497,6 +497,8 @@ Techs:
 
 Units: 
 
+-- Starting Auto Zebu/Sanga Food capacity reverted to 400F from 250, and 1.5x gather rate reverted.
+
 -- Big Benny Food reduced from 900 to 800
 
 -- Javelin Rider (shared with Hausa): Reworked to be a ranged anti-skirmisher unit
@@ -553,6 +555,9 @@ Shipment Changes:
 -- Era of Chaos temporarily removed (until shipment is completely reworked to not be toxic)
 
 Hausa:
+
+Starting Changes:
+-- Now starts with 5 semi-fattened goats instead of 3 semi-fattened Sanga Cattle (same net food 750)
 
 Tech Changes:
 -- Songhai Raiders reduced to 4 Gobir Riders from 5 Raiders

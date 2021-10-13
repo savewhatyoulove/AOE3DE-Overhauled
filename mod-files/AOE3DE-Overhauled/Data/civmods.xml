@@ -672,9 +672,11 @@
     <townstartingunit>deAutoSangaCattle</townstartingunit>
     <townstartingunit>deSettlerAfrican</townstartingunit>
     <townstartingunit>deSettlerAfrican</townstartingunit>
-    <townstartingunit resourceamount="250.00">deSangaCattle</townstartingunit>
-    <townstartingunit resourceamount="250.00">deSangaCattle</townstartingunit>
-    <townstartingunit resourceamount="250.00">deSangaCattle</townstartingunit>
+    <townstartingunit resourceamount="150.00">ypGoat</townstartingunit>
+    <townstartingunit resourceamount="150.00">ypGoat</townstartingunit>
+    <townstartingunit resourceamount="150.00">ypGoat</townstartingunit>
+    <townstartingunit resourceamount="150.00">ypGoat</townstartingunit>
+    <townstartingunit resourceamount="150.00">ypGoat</townstartingunit>
     <startingunit>deLivestockMarketWagon</startingunit>
     <empirewarsstartingunit>deSettlerAfrican</empirewarsstartingunit>
     <empirewarsstartingunit>deSettlerAfrican</empirewarsstartingunit>

@@ -5315,6 +5315,31 @@
       <effect type="TextOutputTechName">110130</effect>
     </effects>
   </tech>
+  <tech name="DEHCFulaniInvasion" type="Normal">
+    <dbid>6746</dbid>
+    <displaynameid>104121</displaynameid>
+    <rollovertextid>102867</rollovertextid>
+    <cost resourcetype="Influence">1500.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\hausa\fulani_invasion.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TransformUnit" toprotoid="deFulaWarrior" fromprotoid="Settler"/>
+      <effect type="TransformUnit" toprotoid="deFulaWarrior" fromprotoid="Coureur"/>
+      <effect type="TransformUnit" toprotoid="deFulaWarrior" fromprotoid="CoureurCree"/>
+      <effect type="TransformUnit" toprotoid="deFulaWarrior" fromprotoid="SettlerNative"/>
+      <effect type="TransformUnit" toprotoid="deFulaWarrior" fromprotoid="SettlerAfrican"/>
+      <effect type="TransformUnit" toprotoid="deFulaWarrior" fromprotoid="Pilgrim"/>
+      <effect type="TransformUnit" toprotoid="deFulaWarrior" fromprotoid="ypSettlerAsian"/>
+      <effect type="TransformUnit" toprotoid="deFulaWarrior" fromprotoid="ypSettlerJapanese"/>
+      <effect type="TransformUnit" toprotoid="deFulaWarrior" fromprotoid="ypSettlerIndian"/>
+      <effect type="TextEffectOutput" path="ui\\alerts\\revolution.xml" selfmsg="270078" playermsg="270079"/>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+
   <tech mergeMode='replace' name="DEHCFulaniPulaakuCode" type="Normal">
     <dbid>8125</dbid>
     <displaynameid>103115</displaynameid>

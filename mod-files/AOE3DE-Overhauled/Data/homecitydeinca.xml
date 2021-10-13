@@ -1512,7 +1512,6 @@
       <tech x="4.8" y="5.0">DEHCShipSlingers2</tech>
       <tech x="4.8" y="7.0">DEHCRangedInfHitpointsInca</tech>
       <tech x="5.6" y="3.0">DEHCMeleeInfCombatInca</tech>
-      <tech x="6.3" y="3.0">DEHCShipPriestessTeam</tech>
       <tech x="6.3" y="5.0">DEHCShipPriestesses2</tech>
       <tech x="6.3" y="5.0">DEHCShipPriestessRepeat2</tech>
       <tech x="6.4" y="1.0">DEHCShipSlingers1</tech>
@@ -1551,7 +1550,6 @@
       <tech>DEHCShipSlingers2</tech>
       <tech>DEHCRangedInfHitpointsInca</tech>
       <tech>DEHCMeleeInfCombatInca</tech>
-      <tech>DEHCShipPriestessTeam</tech>
       <tech>DEHCShipPriestesses2</tech>
       <tech>DEHCShipPriestessRepeat2</tech>
       <tech>DEHCShipSlingers1</tech>

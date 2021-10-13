@@ -233,6 +233,7 @@
 	    <string _locid="102860">TEAM Wall hitpoints are improved by nearby military units.\n • Hitpoint Improvement Rate is +10% BASE hitpoints for each military unit within a 24 radius.</string>
 	    <string _locid="102861">TEAM Gates have greatly increased Line of Sight and hitpoints.</string>
 	    <string _locid="102862">Allows Levies to garrison inside Watch Towers and Palace. All units garrisoned in a Watch Tower or Palace improve its damage by 10% per unit.\n • Towers can garrison up to 20 units, and Palaces can garrison up to 50 units</string>
+	    <string _locid="102867">Converts all Villagers into Fulani Archers.</string>
 	    <string _locid="102868">Each Gobir Rider and Lifidi trained so far grants a fraction of its cost as Influence into the stockpile.\n • Conversion Rate is 10% of unit cost as influence rounded up, (e.g. 18 per Gobir Rider and 20 per Lifidi Knight).</string>
 	    <string _locid="102870">Griots regenerate hitpoints outside of combat much more quickly and greatly increases the amount they can heal.</string>
 	    <string _locid="102878">Grants a small sum of food for each of your fields on the map. Improves food gathering on fields.\n • Deposits 30 Food for each Field you've built, up to 2100 Food.</string>
@@ -256,6 +257,7 @@
 	    <string _locid="103425">You receive Tokens of 500 Influence for every Town Center you currently own.</string>
 	    <string _locid="104021">Gobir Rider attack and hitpoints increased.</string>
 	    <string _locid="104113">Villagers gather Coin from Fields faster. Gobir Riders and Fulani now cost Gold instead of Wood to train.</string>
+	    <string _locid="104121">Fulani Rebellion</string>
 	    <string _locid="104512">Foot Archer Combat</string>
 	    <string _locid="104539">Foot Archer attack and hitpoints increased.</string>
 	    <string _locid="104541">Gobir Rider and Lifidi Knight attack increased.</string>
@@ -554,6 +556,8 @@
 	    <string _locid="270075">Delivers 12 Semi-Fattened Sanga Cattle and 1 fattened Cattle containing 800 Food.</string>
 	    <string _locid="270076">TEAM Improved Buildings.</string>
 	    <string _locid="270077">TEAM Building hitpoints increased.</string>
+	    <string _locid="270078">Fulani Rebellion! </string>
+	    <string _locid="270079">%s has REVOLTED!</string>
 	</Language>
   </StringTable>
 </stringmods>
