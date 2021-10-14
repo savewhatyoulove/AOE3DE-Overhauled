@@ -768,16 +768,24 @@
 
     </Effects>
 </Tech>
-
-<tech name="DEHCWarChiefInca1" type="Normal">
+  <tech mergeMode='replace' name="DEHCWarChiefInca1" type="Normal">
+    <dbid>6087</dbid>
+    <displaynameid>80348</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\inca\sapa_inca.png</icon>
+    <rollovertextid>80347</rollovertextid>
+    <flag>HomeCity</flag>
     <effects>
-      <effect mergeMode='remove' type="Data" action="ExtraSiegeDamage" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+      <effect type="TextOutput">80351</effect>
+      <effect type="Data" amount="1.75" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">deIncaWarChief</target>
       </effect>
-      <effect mergeMode='remove' type="Data" action="ExtraDamage" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+      <effect type="Data" amount="1.00" subtype="ArmorType" newtype="Ranged" relativity="Absolute">
         <target type="ProtoUnit">deIncaWarChief</target>
       </effect>
-      <effect mergeMode='add' type="Data" amount="1.00" subtype="ArmorType" newtype="Ranged" relativity="Absolute">
+      <effect type="Data" amount="1.00" subtype="MaximumVelocity" relativity="Absolute">
         <target type="ProtoUnit">deIncaWarChief</target>
       </effect>
     </effects>
@@ -2008,7 +2016,21 @@
       </effect>
     </effects>
   </tech>
-  <tech name="DEHCShipMacemen4" type="Normal">
+  <tech mergeMode='replace' name="DEHCShipMacemen1" type="Normal">
+    <dbid>6057</dbid>
+    <displaynameid>80310</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\natives\inca\maceman_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="deMaceman" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShipMacemen4" type="Normal">
     <dbid>6057</dbid>
     <displaynameid>250050</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
@@ -2283,9 +2305,73 @@
       </effect>
     </effects>
   </tech>
-<tech name="DEHCMapucheAllies1" type="Normal">
+  <tech mergeMode='replace' name="DEHCJesuitAllies2" type="Normal">
+    <dbid>6128</dbid>
+    <displaynameid>80491</displaynameid>
+    <cost resourcetype="Gold">750.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\asians\natives\conquistador\conquistador_icon_64.png</icon>
+    <flag>HomeCity</flag>
+    <flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</flag>
+    <effects>
+      <effect tech="deCardIgnoreBuildLimit" type="Data" amount="10.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="ypNatMercConquistador" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TechStatus" status="active">ypNatDisciplinedJesuit</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCTupiAllies1" type="Normal">
+    <dbid>6124</dbid>
+    <displaynameid>80487</displaynameid>
+    <cost resourcetype="Gold">500.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\natives\tupi_archer_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</flag>
+    <effects>
+      <effect tech="deCardIgnoreBuildLimit" type="Data" amount="14.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="NatMercBlackwoodArcher" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TechStatus" status="active">WarriorSocietyTupi</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCSpanishAllies1" type="Normal">
+    <dbid>6646</dbid>
+    <displaynameid>91798</displaynameid>
+    <cost resourcetype="Gold">600.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\cavalry\lancer\lancer_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="Lancer" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCSpanishAllies2" type="Normal">
+    <dbid>6647</dbid>
+    <displaynameid>91799</displaynameid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\cavalry\lancer\lancer_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="Lancer" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCMapucheAllies1" type="Normal">
     <dbid>6126</dbid>
-    <displaynameid>150075</displaynameid>
+    <displaynameid>250075</displaynameid>
     <cost resourcetype="Gold">1000.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>60.0000</researchpoints>
