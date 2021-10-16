@@ -517,28 +517,47 @@ Shipments:
 
 Ethiopia:
 
+New Civ Bonus: Mountain Monasteries can train villagers in addition to Town Centers, but villagers train more slowly (40s instead of 25). Starts with a Mountain Monastery builder
+
+- 4 Starting Zebu Food increased to 150 from 135.
+
+Building Changes:
+
+Mountain Monastery:
+Cost: Reduced to 150 from 170
+Can now train villagers
+LOS: Reduced to 32 from 38
+Now provides a +15% ATK/HP aura (20% for TCs) to all nearby units. This aura stacks, but affects BASE stats.
+
 Unit Changes:
 
-Gascenya:
-Armor: Increased to 25 melee from 20
-Ranged Damage: Rescaled to 12 w/ 1.5 ROF from 24 w/ 3.0 ROF; ROF range scaling removed, range reduced to 12
-Melee Damage: Reduced to 12 from 15
-Melee Multipliers: AbstractCavalry increased to 3.50x from 3x, AbstractLightInfantry increased to 2.50x from 2.4x
-Siege Damage: Reduced to 24 from 28.
+Gascenya: Reworked to be a hybird of a pikeman and halberdier.
+Cost: Increased to 50F/50W from 65F/35W
+HP: Increased to 160 from 135
+Armor: Increased to 30 melee from 20
+Ranged Attack Removed.
+Tags: AbstractHandInfantry added, AbstractRangedInfantry, AbstractMusketeer removed.
+Melee Damage: Reduced to 14 from 15; multipliers reduced to 2.5x AbstractCavalry and 1.75x AbstractCoyoteMan from 3x and 2.25x
+Siege Damage: Improved to 32 from 24
 
 
 Shotel Warrior:
-Cost: Increased to 50F/55G from 55F/50G
-Speed: Increased to 6.25 from 6.0
-Melee Damage: Increased to 16 w/1.5 ROF from 13 w/ 1.25 ROF (+0.4 net). 
+Cost: Increased to 55F/70G from 55F/50G
+Speed: Increased to 6.50 from 6.0
+Armor: Improved to 20 Melee resist from 10 Ranged
+Unit Tags: AbstractCoyoteMan removed, AbstractLightCavalry added.
+Siege: Reduced to 6 from 11
+Melee: Reduced to 8 from 16, ROF standardized to 1.5 from 1.25, all multiplied removed.
+Multipliers: 5x AbstractHeavyCavalry, 3.5x AbstractCoyoteMan, and 5x AbstractArtillery added.
 
 Oromo Rider Reworked:
-HP: Reduced to 350 from 380
-Armor: Increased to 50 from 20
+Cost: Reduced to 140F/100G from 150/150
+HP: Increased to 400 from 380
+Unit Tags: AbstractRangedHeavyCavalry, AbstractRangedCavalry removed, AbstractHandCavalry added.
 Siege: Increased to 30 from 27
-Ranged Attack: Reduced to 30 from 42. 1 AOE w/ 60 damage cap added. ROF improved to 3.0 from 4.0, range scaling ROF removed.
-Multipliers reworked: Added 4x AbstractArtillery, 4x AbstractInfantry, and 0.25x AbstractHeavyInfantry to all attacks.
-Melee Attack: Reduced to 15 from 42, same multipliers as melee. 
+Speed: Reduced to 6.25 from 6.5
+Ranged Attack: Removed
+Melee Attack: Increased to 50 from 42, all multipliers removed. 0.6x AbstractLightCavalry added.
 
 Sebastopol Mortar:
 Speed: Reduced to 2.25 from 2.75
@@ -553,6 +572,15 @@ Shipment Changes:
 -- 4 Zebu + 1 Livestock Market INF (I) replaced with 7 Semi-Fattened Zebu (II)
 -- Prize Bull (Big Benny) Food reduced from 900 to 800
 -- Era of Chaos temporarily removed (until shipment is completely reworked to not be toxic)
+-- Beekeepers now additional provides +10% yield to berries and huntables
+-- King of Kings Reworked: Now provides +50% HP/ATK to all Rases and +20% HP/ATK to all pet lions and enables them to be trained from Rases. Unlocks the Roar of the Lion ability (unchanged)
+-- Lalibela Rock Church Reworked: Now an age 2 shipment and delivers 3 Mountan Monastery Builders, increases MM build limit by +3, and improves MM HP by +25%.
+-- Ignatian Spirituality Reworked: Now and age 3 shipment. Grants +30% HP to native warriors and lets them heal slowly in combat.
+-- 2 palace wagon shipment (III) now increases palace build limit by +2.
+-- 3/5 Abun increased to 4/6
+-- Medicine Removed
+
+-- TODO: Implement Abun Bonus and Sebastopol Rework
 
 Hausa:
 

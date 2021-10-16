@@ -827,8 +827,8 @@
       <name>HCNativeTreaties</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCNativeLore</prereqtech>
-      <age>3</age>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
     </card>
     <card>
       <name>DEHCShipTradeCarts</name>
@@ -1100,7 +1100,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <displayunitcount>9</displayunitcount>
+      <displayunitcount>7</displayunitcount>
       <age>2</age>
       <infiniteinlastage>1</infiniteinlastage>
     </card>

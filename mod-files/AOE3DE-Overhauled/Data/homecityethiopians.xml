@@ -44,30 +44,12 @@
   </coffers>
   <cards>
     <card>
-      <name>DEHCShipVillagersAbunRepeat</name>
-      <maxcount>-1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>0</age>
-      <displayunitcount>3</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
       <name>DEHCShipVillagerRepeat</name>
       <maxcount>-1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
       <displayunitcount>10</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>DEHCShipVillagers2</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>1</age>
-      <displayunitcount>4</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -112,6 +94,15 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>HCShipFoodCrates5</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>HCShipWoodCrates4</prereqtech>
+      <age>3</age>
+      <displayunitcount>1600</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
       <name>HCShipWoodCrates1</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -148,13 +139,12 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipFoodCrates5</name>
-      <maxcount>1</maxcount>
-      <level>25</level>
-      <prereqtech>HCShipWoodCrates4</prereqtech>
+      <name>HCShipWoodCrates6</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>1600</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
+      <displayunitcount>1200</displayunitcount>
     </card>
     <card>
       <name>HCShipCoinCrates1</name>
@@ -200,14 +190,6 @@
       <age>3</age>
       <displayunitcount>1600</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>HCShipWoodCrates6</name>
-      <maxcount>-1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
-      <displayunitcount>1200</displayunitcount>
     </card>
     <card>
       <name>DEHCShipInfluenceInfinite</name>
@@ -295,7 +277,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>4</displayunitcount>
+      <displayunitcount>5</displayunitcount>
     </card>
     <card>
       <name>DEHCShipOromo1</name>
@@ -303,7 +285,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>3</displayunitcount>
+      <displayunitcount>4</displayunitcount>
     </card>
     <card>
       <name>DEHCShipOromo2</name>
@@ -311,7 +293,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>6</displayunitcount>
+      <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -368,12 +350,20 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>DEHCGascenyaRepeat</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <displayunitcount>12</displayunitcount>
+      <age>3</age>
+    </card>
+    <card>
       <name>DEHCShipShotel1</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
-      <displayunitcount>6</displayunitcount>
+      <displayunitcount>5</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -382,7 +372,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>9</displayunitcount>
+      <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -391,7 +381,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>8</displayunitcount>
+      <displayunitcount>7</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -400,7 +390,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>15</displayunitcount>
+      <displayunitcount>14</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -430,34 +420,8 @@
       <displayunitcount>5</displayunitcount>
     </card>
     <card>
-      <name>DEHCShipSebastopolMortar1</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <displayunitcount>1</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>DEHCShipSebastopolMortar2</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
-      <displayunitcount>2</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
       <name>DEHCShipSebastopolMortarRepeat</name>
       <maxcount>-1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
-      <displayunitcount>1</displayunitcount>
-    </card>
-    <card>
-      <name>DEHCShipSebastopolMortarTeam</name>
-      <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
@@ -478,6 +442,13 @@
       <age>1</age>
     </card>
     <card>
+      <name>DEHCGascenyaCombat</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
       <name>DEHCCoffeeConsumption</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -496,14 +467,14 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>3</age>
+      <age>2</age>
     </card>
     <card>
       <name>DEHCZebenyas</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>1</age>
+      <age>3</age>
     </card>
     <card>
       <name>DEHCCartridgeCurrency</name>
@@ -597,28 +568,6 @@
       <age>3</age>
     </card>
     <card>
-      <name>DEHCEraPrinces</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>0</age>
-    </card>
-    <card>
-      <name>DEHCBalambaras</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-    </card>
-    <card>
-      <name>DEHCDejazmach</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>0</age>
-      <displayunitcount>1</displayunitcount>
-    </card>
-    <card>
       <name>DEHCTigrayMekonnen</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -635,28 +584,12 @@
       <displayunitcount>10</displayunitcount>
     </card>
     <card>
-      <name>DEHCGascenyaRepeat</name>
-      <maxcount>-1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <displayunitcount>12</displayunitcount>
-      <age>3</age>
-    </card>
-    <card>
-      <name>DEHCKingKings</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>0</age>
-      <displayunitcount>1</displayunitcount>
-    </card>
-    <card>
       <name>DEHCLalibelaRockChurch</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
-      <displayunitcount>2</displayunitcount>
+      <displayunitcount>3</displayunitcount>
     </card>
     <card>
       <name>DEHCHeyWat</name>
@@ -684,15 +617,68 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>3</age>
+      <age>2</age>
     </card>
     <card>
       <name>DEHCJesuitInfluence</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>1</age>
+      <age>0</age>
       <displayunitcount>200</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCShipLionsEthiopians1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+      <displayunitcount>2</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCShipLionsEthiopians2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>5</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCShipLionsEthiopians3</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>12</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCKingKings</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
+      <name>DEHCBalambaras</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>DEHCDejazmach</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+      <displayunitcount>1</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCEraPrinces</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
     </card>
     <card>
       <name>DEHCGeez</name>
@@ -712,8 +698,8 @@
       <name>HCNativeTreaties</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCNativeLore</prereqtech>
-      <age>3</age>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
     </card>
     <card>
       <name>DEHCShipTradeCarts</name>
@@ -769,24 +755,6 @@
       <prereqtech>-1</prereqtech>
       <age>2</age>
       <displayunitcount>2</displayunitcount>
-    </card>
-    <card>
-      <name>DEHCShipAbuns1</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>1</age>
-      <displayunitcount>3</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>DEHCShipAbuns2</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <displayunitcount>5</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>DEHCExtensiveFortificationsEthiopian</name>
@@ -903,13 +871,6 @@
       <age>0</age>
     </card>
     <card>
-      <name>HCMedicine</name>
-      <maxcount>1</maxcount>
-      <level>25</level>
-      <prereqtech>-1</prereqtech>
-      <age>1</age>
-    </card>
-    <card>
       <name>DEHCDraftOxen</name>
       <maxcount>1</maxcount>
       <level>25</level>
@@ -928,7 +889,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>2</age>
+      <age>1</age>
     </card>
     <card>
       <name>DEHCCharity</name>
@@ -1159,16 +1120,12 @@
         <card dbid="6727">DEHCFasilidesCastle</card>
         <card dbid="8269">DEHCShipZebu3</card>
         <card dbid="6762">DEHCShipGascenya1</card>
-        <card dbid="6773">DEHCShipSebastopolMortar1</card>
-        <card dbid="6774">DEHCShipSebastopolMortar2</card>
         <card dbid="6748">DEHCAdvancedLivestockMarket</card>
         <card dbid="8359">DEHCShipChonkyCattle</card>
         <card dbid="6763">DEHCShipGascenya2</card>
         <card dbid="6767">DEHCShipShotel2</card>
         <card dbid="2215">HCShipCoinCrates3</card>
         <card dbid="2212">HCShipWoodCrates3</card>
-        <card dbid="8270">DEHCShipVillagersAbunRepeat</card>
-        <card dbid="6879">DEHCShipVillagers2</card>
         <card dbid="8348">DEHCCartridgeCurrency</card>
         <card dbid="6750">DEHCShipVillagerRepeat</card>
         <card dbid="6766">DEHCShipShotel1</card>
@@ -1189,16 +1146,12 @@
         <card dbid="6727">DEHCFasilidesCastle</card>
         <card dbid="8269">DEHCShipZebu3</card>
         <card dbid="6762">DEHCShipGascenya1</card>
-        <card dbid="6773">DEHCShipSebastopolMortar1</card>
-        <card dbid="6774">DEHCShipSebastopolMortar2</card>
         <card dbid="6748">DEHCAdvancedLivestockMarket</card>
         <card dbid="8359">DEHCShipChonkyCattle</card>
         <card dbid="6763">DEHCShipGascenya2</card>
         <card dbid="6767">DEHCShipShotel2</card>
         <card dbid="2215">HCShipCoinCrates3</card>
         <card dbid="2212">HCShipWoodCrates3</card>
-        <card dbid="8270">DEHCShipVillagersAbunRepeat</card>
-        <card dbid="6879">DEHCShipVillagers2</card>
         <card dbid="8348">DEHCCartridgeCurrency</card>
         <card dbid="6750">DEHCShipVillagerRepeat</card>
         <card dbid="6766">DEHCShipShotel1</card>
@@ -1214,19 +1167,15 @@
       <name>$$20310$$Land</name>
       <cards>
         <card dbid="6762">DEHCShipGascenya1</card>
-        <card dbid="6773">DEHCShipSebastopolMortar1</card>
-        <card dbid="6774">DEHCShipSebastopolMortar2</card>
         <card dbid="6747">DEHCFasterTrainingUnitsAfrican</card>
         <card dbid="8269">DEHCShipZebu3</card>
         <card dbid="8302">DEHCShipInfluence1</card>
-        <card dbid="8270">DEHCShipVillagersAbunRepeat</card>
         <card dbid="2212">HCShipWoodCrates3</card>
         <card dbid="8389">DEHCIyasuReforms</card>
         <card dbid="8346">DEHCChewaWarriors</card>
         <card dbid="8440">DEHCBeekeepers</card>
         <card dbid="6770">DEHCShipNeftenya1</card>
         <card dbid="8353">DEHCTigrayMekonnen</card>
-        <card dbid="6879">DEHCShipVillagers2</card>
         <card dbid="8359">DEHCShipChonkyCattle</card>
         <card dbid="8407">DEHCGascenyaHitpoints</card>
         <card dbid="2211">HCShipWoodCrates2</card>
@@ -1245,17 +1194,13 @@
       <cards>
         <card dbid="6762">DEHCShipGascenya1</card>
         <card dbid="6727">DEHCFasilidesCastle</card>
-        <card dbid="6773">DEHCShipSebastopolMortar1</card>
-        <card dbid="6774">DEHCShipSebastopolMortar2</card>
         <card dbid="8348">DEHCCartridgeCurrency</card>
         <card dbid="8360">DEHCLoyalWarriors</card>
         <card dbid="6747">DEHCFasterTrainingUnitsAfrican</card>
         <card dbid="8300">DEHCShipInfluence2</card>
-        <card dbid="8270">DEHCShipVillagersAbunRepeat</card>
         <card dbid="2212">HCShipWoodCrates3</card>
         <card dbid="8346">DEHCChewaWarriors</card>
         <card dbid="6770">DEHCShipNeftenya1</card>
-        <card dbid="6879">DEHCShipVillagers2</card>
         <card dbid="8413">DEHCShipBattleCanoes3</card>
         <card dbid="8269">DEHCShipZebu3</card>
         <card dbid="2225">HCNavalCombat</card>
@@ -1316,9 +1261,7 @@
     <rolloverstringid>25536</rolloverstringid>
     <obtainabletechs>
       <tech x="1.0" y="1.0">DEHCShipVillagerRepeat</tech>
-      <tech x="1.0" y="1.0">DEHCShipVillagersAbunRepeat</tech>
       <tech x="1.0" y="1.0">DEHCShipZebu1</tech>
-      <tech x="1.0" y="1.0">DEHCShipVillagers2</tech>
       <tech x="1.0" y="1.0">DEHCOromoMigrations</tech>
       <tech x="1.0" y="1.0">HCShipFoodCrates1</tech>
       <tech x="1.7" y="1.0">HCShipWoodCrates1</tech>
@@ -1351,12 +1294,17 @@
       <tech x="5.6" y="4.0">DEHCShipCoveredWagonsAfrica</tech>
       <tech x="6.5" y="1.0">HCExplorerPortuguese</tech>
       <tech x="6.5" y="5.0">HCShipBandeirantes</tech>
+      <tech x="0.0" y="3.0">DEHCShipLionsEthiopians1</tech>
+      <tech x="0.0" y="3.0">DEHCShipLionsEthiopians2</tech>
+      <tech x="0.0" y="3.0">DEHCShipLionsEthiopians3</tech>
+      <tech x="0.0" y="3.0">DEHCKingKings</tech>
+      <tech x="0.0" y="3.0">DEHCDejazmach</tech>
+      <tech x="0.0" y="3.0">DEHCEraPrinces</tech>
+      <tech x="0.0" y="3.0">DEHCBalambaras</tech>
     </obtainabletechs>
     <activetechs>
       <tech x="1.0" y="1.0">DEHCShipVillagerRepeat</tech>
-      <tech x="1.0" y="1.0">DEHCShipVillagersAbunRepeat</tech>
       <tech x="1.0" y="1.0">DEHCShipZebu1</tech>
-      <tech x="1.0" y="1.0">DEHCShipVillagers2</tech>
       <tech x="1.0" y="1.0">DEHCOromoMigrations</tech>
       <tech x="1.0" y="1.0">HCShipFoodCrates1</tech>
       <tech x="1.7" y="1.0">HCShipWoodCrates1</tech>
@@ -1389,6 +1337,13 @@
       <tech x="5.6" y="4.0">DEHCShipCoveredWagonsAfrica</tech>
       <tech x="6.5" y="1.0">HCExplorerPortuguese</tech>
       <tech x="6.5" y="5.0">HCShipBandeirantes</tech>
+      <tech x="0.0" y="3.0">DEHCShipLionsEthiopians1</tech>
+      <tech x="0.0" y="3.0">DEHCShipLionsEthiopians2</tech>
+      <tech x="0.0" y="3.0">DEHCShipLionsEthiopians3</tech>
+      <tech x="0.0" y="3.0">DEHCKingKings</tech>
+      <tech x="0.0" y="3.0">DEHCDejazmach</tech>
+      <tech x="0.0" y="3.0">DEHCEraPrinces</tech>
+      <tech x="0.0" y="3.0">DEHCBalambaras</tech>
     </activetechs>
     <validunits/>
     <units/>
@@ -1426,12 +1381,10 @@
       <tech x="0.0" y="3.0">DEHCShipNeftenya1</tech>
       <tech x="0.0" y="3.0">DEHCShipNeftenya2</tech>
       <tech x="0.0" y="3.0">DEHCShipNeftenyaRepeat</tech>
-      <tech x="0.0" y="3.0">DEHCShipSebastopolMortar1</tech>
-      <tech x="0.0" y="3.0">DEHCShipSebastopolMortar2</tech>
       <tech x="0.0" y="3.0">DEHCShipSebastopolMortarRepeat</tech>
-      <tech x="0.0" y="3.0">DEHCShipSebastopolMortarTeam</tech>
       <tech x="0.0" y="3.0">DEHCGascenyaDamage</tech>
       <tech x="0.0" y="3.0">DEHCGascenyaHitpoints</tech>
+      <tech x="0.0" y="3.0">DEHCGascenyaCombat</tech>
       <tech x="0.0" y="3.0">DEHCCoffeeConsumption</tech>
       <tech x="0.0" y="3.0">DEHCShiftas</tech>
       <tech x="0.0" y="3.0">DEHCTemenyas</tech>
@@ -1439,9 +1392,6 @@
       <tech x="0.0" y="3.0">DEHCZebenyas</tech>
       <tech x="0.0" y="3.0">DEHCCartridgeCurrency</tech>
       <tech x="0.0" y="3.0">DEHCTigrayMekonnen</tech>
-      <tech x="0.0" y="3.0">DEHCEraPrinces</tech>
-      <tech x="0.0" y="3.0">DEHCBalambaras</tech>
-      <tech x="0.0" y="3.0">DEHCDejazmach</tech>
       <tech x="0.0" y="3.0">DEHCSefari</tech>
       <tech x="0.0" y="3.0">DEHCGascenyaRepeat</tech>
     </obtainabletechs>
@@ -1463,12 +1413,10 @@
       <tech x="0.0" y="3.0">DEHCShipNeftenya1</tech>
       <tech x="0.0" y="3.0">DEHCShipNeftenya2</tech>
       <tech x="0.0" y="3.0">DEHCShipNeftenyaRepeat</tech>
-      <tech x="0.0" y="3.0">DEHCShipSebastopolMortar1</tech>
-      <tech x="0.0" y="3.0">DEHCShipSebastopolMortar2</tech>
       <tech x="0.0" y="3.0">DEHCShipSebastopolMortarRepeat</tech>
-      <tech x="0.0" y="3.0">DEHCShipSebastopolMortarTeam</tech>
       <tech x="0.0" y="3.0">DEHCGascenyaDamage</tech>
       <tech x="0.0" y="3.0">DEHCGascenyaHitpoints</tech>
+      <tech x="0.0" y="3.0">DEHCGascenyaCombat</tech>
       <tech x="0.0" y="3.0">DEHCCoffeeConsumption</tech>
       <tech x="0.0" y="3.0">DEHCShiftas</tech>
       <tech x="0.0" y="3.0">DEHCTemenyas</tech>
@@ -1476,9 +1424,6 @@
       <tech x="0.0" y="3.0">DEHCZebenyas</tech>
       <tech x="0.0" y="3.0">DEHCCartridgeCurrency</tech>
       <tech x="0.0" y="3.0">DEHCTigrayMekonnen</tech>
-      <tech x="0.0" y="3.0">DEHCEraPrinces</tech>
-      <tech x="0.0" y="3.0">DEHCBalambaras</tech>
-      <tech x="0.0" y="3.0">DEHCDejazmach</tech>
       <tech x="0.0" y="3.0">DEHCSefari</tech>
       <tech x="0.0" y="3.0">DEHCGascenyaRepeat</tech>
     </activetechs>
@@ -1501,7 +1446,6 @@
     <displaynamestringid>101229</displaynamestringid>
     <rolloverstringid>25538</rolloverstringid>
     <obtainabletechs>
-      <tech x="0.0" y="3.0">DEHCKingKings</tech>
       <tech x="0.0" y="2.0">HCNativeTreaties</tech>
       <tech x="0.0" y="3.0">HCNativeWarriors</tech>
       <tech x="0.0" y="5.0">HCAdvancedTradingPost</tech>
@@ -1514,8 +1458,6 @@
       <tech x="2.5" y="3.0">HCImprovedWallsTeam</tech>
       <tech x="3.2" y="1.0">DEHCFasilidesCastle</tech>
       <tech x="3.2" y="1.0">DEHCShipPalaceWagon2</tech>
-      <tech x="3.2" y="1.0">DEHCShipAbuns1</tech>
-      <tech x="3.2" y="1.0">DEHCShipAbuns2</tech>
       <tech x="3.2" y="1.0">DEHCExtensiveFortificationsEthiopian</tech>
       <tech x="3.2" y="5.0">HCXPUnlockFort2</tech>
       <tech x="3.8" y="2.0">DEHCShipCampWagonsRepeat</tech>
@@ -1539,7 +1481,6 @@
       <tech x="0.0" y="3.0">DEHCGondarineArchitecture</tech>
     </obtainabletechs>
     <activetechs>
-      <tech x="0.0" y="3.0">DEHCKingKings</tech>
       <tech x="0.0" y="2.0">HCNativeTreaties</tech>
       <tech x="0.0" y="3.0">HCNativeWarriors</tech>
       <tech x="0.0" y="5.0">HCAdvancedTradingPost</tech>
@@ -1552,8 +1493,6 @@
       <tech x="2.5" y="3.0">HCImprovedWallsTeam</tech>
       <tech x="3.2" y="1.0">DEHCFasilidesCastle</tech>
       <tech x="3.2" y="1.0">DEHCShipPalaceWagon2</tech>
-      <tech x="3.2" y="1.0">DEHCShipAbuns1</tech>
-      <tech x="3.2" y="1.0">DEHCShipAbuns2</tech>
       <tech x="3.2" y="1.0">DEHCExtensiveFortificationsEthiopian</tech>
       <tech x="3.2" y="5.0">HCXPUnlockFort2</tech>
       <tech x="3.8" y="2.0">DEHCShipCampWagonsRepeat</tech>
@@ -1615,7 +1554,6 @@
       <tech x="2.7" y="7.0">DEHCIyasuReforms</tech>
       <tech x="3.6" y="3.0">HCSustainableAgriculture</tech>
       <tech x="3.6" y="5.0">DEHCRoofAfrica</tech>
-      <tech x="4.5" y="5.0">HCMedicine</tech>
       <tech x="5.4" y="3.0">DEHCDraftOxen</tech>
     </obtainabletechs>
     <activetechs>
@@ -1639,7 +1577,6 @@
       <tech x="2.7" y="7.0">DEHCIyasuReforms</tech>
       <tech x="3.6" y="3.0">HCSustainableAgriculture</tech>
       <tech x="3.6" y="5.0">DEHCRoofAfrica</tech>
-      <tech x="4.5" y="5.0">HCMedicine</tech>
       <tech x="5.4" y="3.0">DEHCDraftOxen</tech>
     </activetechs>
     <validunits/>

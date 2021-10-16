@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tactics>
+  <action>
+    <name stringid="48954">AreaHeal</name>
+    <type>AutoRangedModify</type>
+    <maxrange>38</maxrange>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <modifyabstracttype>Building</modifyabstracttype>
+    <forbidunittype>deMountainMonastery</forbidunittype>
+    <persistent>1</persistent>
+    <modifytype>HealRate</modifytype>
+    <modifyamount>0.5</modifyamount>
+    <modelattachment>effects\areaheal.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="48954">BuildingHP</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>AbstractTownCenter</modifyabstracttype>
+    <modifyabstracttype>AbstractOutpost</modifyabstracttype>
+    <active>1</active>
+    <maxrange>38</maxrange>
+    <persistent>1</persistent>
+    <modifytype>BaseHP</modifytype>
+    <modifybase>1.0</modifybase>
+    <modifymultiplier>1.20</modifymultiplier>
+    <modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <tactic>Normal<action>AreaHeal</action><action>BuildingHP</action></tactic>
+</tactics>
