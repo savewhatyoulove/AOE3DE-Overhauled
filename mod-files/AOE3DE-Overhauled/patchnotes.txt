@@ -520,6 +520,12 @@ Ethiopia:
 New Civ Bonus: Mountain Monasteries can train villagers in addition to Town Centers, but villagers train more slowly (40s instead of 25). Starts with a Mountain Monastery builder
 
 - 4 Starting Zebu Food increased to 150 from 135.
+- Now starts witrh an Abun
+
+Tech Changes:
+-- Habesha:
+  -- Now additionally unlocks levied bowmen at War Camps. 
+  -- Timkat Reworked: Now costs 700 Influence (instead of 500). Deposits 1000 XP (same as Zen Meditation)
 
 Building Changes:
 
@@ -527,17 +533,21 @@ Mountain Monastery:
 Cost: Reduced to 150 from 170
 Can now train villagers
 LOS: Reduced to 32 from 38
-Now provides a +15% ATK/HP aura (20% for TCs) to all nearby units. This aura stacks, but affects BASE stats.
+Now provides a +20% HP aura to all nearby Town Centers and Fortifications. This aura does not stack.
+Heal Aura reduced to 0.25/s from 0.5
+
+Hut: 
+Cost: reduced to 80 from 100
 
 Unit Changes:
 
 Gascenya: Reworked to be a hybird of a pikeman and halberdier.
-Cost: Increased to 50F/50W from 65F/35W
+Cost: Increased to 60F/40W from 65F/35W
 HP: Increased to 160 from 135
 Armor: Increased to 30 melee from 20
 Ranged Attack Removed.
 Tags: AbstractHandInfantry added, AbstractRangedInfantry, AbstractMusketeer removed.
-Melee Damage: Reduced to 14 from 15; multipliers reduced to 2.5x AbstractCavalry and 1.75x AbstractCoyoteMan from 3x and 2.25x
+Melee Damage: Reduced to 14 from 15; multipliers reduced to 2.5x AbstractCavalry and 1.75x AbstractCoyoteMan from 3x and 2.25x, 1.5x AbstractHeavyInfantry added.
 Siege Damage: Improved to 32 from 24
 
 
@@ -547,7 +557,7 @@ Speed: Increased to 6.50 from 6.0
 Armor: Improved to 20 Melee resist from 10 Ranged
 Unit Tags: AbstractCoyoteMan removed, AbstractLightCavalry added.
 Siege: Reduced to 6 from 11
-Melee: Reduced to 8 from 16, ROF standardized to 1.5 from 1.25, all multiplied removed.
+Melee: Reduced to 9 from 16, ROF standardized to 1.5 from 1.25, all multiplied removed.
 Multipliers: 5x AbstractHeavyCavalry, 3.5x AbstractCoyoteMan, and 5x AbstractArtillery added.
 
 Oromo Rider Reworked:
@@ -559,15 +569,26 @@ Speed: Reduced to 6.25 from 6.5
 Ranged Attack: Removed
 Melee Attack: Increased to 50 from 42, all multipliers removed. 0.6x AbstractLightCavalry added.
 
+Abun:
+Population Cost: Reduced to 0 from 1.
+Heal: Can no longer heal in combat, default range reduced to 12 from 18.
+Can no longer gather from Mountain Monasteries
+Now has a 5% Building Work Rate and Construction Rate aura within 18 range. This softcaps at 10 Abun
+
 Sebastopol Mortar:
-Speed: Reduced to 2.25 from 2.75
-Turn Rate: Reduced to 1.25 from 1.5
+Now Home City exclusive units, with a build limit of 2.
+Cost: Reduced to 700 from 1000
+Population: Reduced to 7 from 8
+HP: Increased to 750 from 475
+Range: Increased to 40 from 28 (4 minimum range added). 
+Damage: Increased to 1200 from 500, all multipliers removed
+Can now only target buildings and ships with all attacks. 
 
 Shipment Changes:
 -- Oromo Migrations: Moved to Age 4 from Age 1. Now ships 4 villagers for each palace you currently have constructed.
 -- Shiftas HP buff for villagers reduced to +25% from +35%
 -- Coffee Consumption moved to Discovery Age from Industrial Age. 
--- Zebenyas no longer provides siege armor to Neftenyas, moved to age 2 
+-- Zebenyas no longer provides siege armor to Neftenyas, now delivers 2 free Neftenya on all future shipments. 
 -- Shewa Riders no longer increases the armor of Oromo Riders, instead, they deal more damage to skirmishers.
 -- 4 Zebu + 1 Livestock Market INF (I) replaced with 7 Semi-Fattened Zebu (II)
 -- Prize Bull (Big Benny) Food reduced from 900 to 800
@@ -579,8 +600,12 @@ Shipment Changes:
 -- 2 palace wagon shipment (III) now increases palace build limit by +2.
 -- 3/5 Abun increased to 4/6
 -- Medicine Removed
+-- Tabot Reworked: Now improved Abun speed by +25%, increases their LOS by +6, and enables improved building work and construction rate auras (8% per Abun instead of 5% and 24 range instead of 18).
+-- Counter Cavalry Tactics Added: +0.25 speed for AbstractHandInfantry, Gascenya get +0.5x AbstractLightInfantry and AbstractCavalry, and Shotel Warriors get +1.0x AbstractHeavyCavalry and AbstractCoyoteMan
+-- Abun shipments no longer increase build limit. 
+-- 1 Sebastopol Mortar (III) removed.
 
--- TODO: Implement Abun Bonus and Sebastopol Rework
+-- TODO: Implement Abun Bonus and Mountain Guns
 
 Hausa:
 

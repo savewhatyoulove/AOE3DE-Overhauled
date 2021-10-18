@@ -35083,7 +35083,7 @@
     <string _locid="101027">Quick-training foot archer who loses hitpoints over time, but gains attack speed at lower health.</string>
     <string _locid="101028">Levied Gunner</string>
     <string _locid="101029">INF Levied Gunner</string>
-    <string _locid="101030">Quick-training, short-duration heavy infantry</string>
+    <string _locid="101030">Quick-training, short-duration infantry</string>
     <string _locid="101031">Musketeer who loses hitpoints, becoming less effective over time.</string>
     <string _locid="101032">Levied Spearman</string>
     <string _locid="101033">INF Levied Spearman</string>
@@ -35628,7 +35628,7 @@
     <string _locid="101572">2 Oromo Warriors</string>
     <string _locid="101573">TEAM 1 Sebastopol Mortar</string>
     <string _locid="101574" symbol="cStringHUDLivestockValue">Livestock Value (&lt;icon="(32)(%1s)"&gt;): %2.1f %%</string>
-    <string _locid="101575">Gascenya, Shotel Warrior and Neftenya attack and hitpoints increased. Training time decreased.</string>
+    <string _locid="101575">Gascenya, Shotel Warrior, Bowman and Neftenya attack and hitpoints increased. Training time decreased.</string>
     <string _locid="101576">Elite Infantry</string>
     <string _locid="101577">Champion Infantry</string>
     <string _locid="101578">Legendary Infantry</string>
@@ -37122,7 +37122,7 @@
     <string _locid="103311">Timkat: Mountain Monasteries boost hitpoints of nearby units and buildings.</string>
     <string _locid="103312">The Fulani state of Futa Toro sends 9 Fulani Archers and 9 Raiders.</string>
     <string _locid="103313">The Fulani town of Gwandu sends 9 Fulani Archers and 5 Lifidi Knights.</string>
-    <string _locid="103314">Unlocks Kingdom Builders at the Town Center.</string>
+    <string _locid="103314">Unlocks Kingdom Builders at the Town Center and Levied Bowmen at War Camps.</string>
     <string _locid="103315">Habesha Units</string>
     <string _locid="103316">You receive a free Villager with all your future shipments.</string>
     <string _locid="103317">Goa Followership</string>

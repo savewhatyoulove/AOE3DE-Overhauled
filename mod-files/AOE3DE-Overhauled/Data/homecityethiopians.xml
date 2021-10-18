@@ -257,6 +257,22 @@
       <displayunitcount>1</displayunitcount>
     </card>
     <card>
+      <name>DEHCWildElephants1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+      <displayunitcount>3</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCWildElephants2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>6</displayunitcount>
+    </card>
+    <card>
       <name>DEHCShipCoveredWagonsAfrica</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -358,6 +374,57 @@
       <age>3</age>
     </card>
     <card>
+      <name>DEHCShipBowmen1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>9</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCShipBowmen2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>14</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCShipBowmen3</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>30</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCShipLionsEthiopians1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+      <displayunitcount>2</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCShipLionsEthiopians2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>5</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCShipLionsEthiopians3</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>12</displayunitcount>
+    </card>
+    <card>
       <name>DEHCShipShotel1</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -420,6 +487,15 @@
       <displayunitcount>5</displayunitcount>
     </card>
     <card>
+      <name>DEHCShipSebastopolMortar2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>2</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
       <name>DEHCShipSebastopolMortarRepeat</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -443,6 +519,13 @@
     </card>
     <card>
       <name>DEHCGascenyaCombat</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>DEHCCounterCavalry</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -474,7 +557,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>3</age>
+      <age>2</age>
     </card>
     <card>
       <name>DEHCCartridgeCurrency</name>
@@ -589,7 +672,25 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
-      <displayunitcount>3</displayunitcount>
+      <displayunitcount>2</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCShipAbuns1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+      <displayunitcount>2</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCShipAbuns2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>4</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>DEHCHeyWat</name>
@@ -628,35 +729,11 @@
       <displayunitcount>200</displayunitcount>
     </card>
     <card>
-      <name>DEHCShipLionsEthiopians1</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>0</age>
-      <displayunitcount>2</displayunitcount>
-    </card>
-    <card>
-      <name>DEHCShipLionsEthiopians2</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>1</age>
-      <displayunitcount>5</displayunitcount>
-    </card>
-    <card>
-      <name>DEHCShipLionsEthiopians3</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
-      <displayunitcount>12</displayunitcount>
-    </card>
-    <card>
       <name>DEHCKingKings</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>0</age>
+      <age>1</age>
     </card>
     <card>
       <name>DEHCBalambaras</name>
@@ -1292,11 +1369,10 @@
       <tech x="4.9" y="5.0">HCShipBalloons</tech>
       <tech x="5.6" y="3.0">HCDonatarios</tech>
       <tech x="5.6" y="4.0">DEHCShipCoveredWagonsAfrica</tech>
+      <tech x="5.6" y="4.0">DEHCWildElephants1</tech>
+      <tech x="5.6" y="4.0">DEHCWildElephants2</tech>
       <tech x="6.5" y="1.0">HCExplorerPortuguese</tech>
       <tech x="6.5" y="5.0">HCShipBandeirantes</tech>
-      <tech x="0.0" y="3.0">DEHCShipLionsEthiopians1</tech>
-      <tech x="0.0" y="3.0">DEHCShipLionsEthiopians2</tech>
-      <tech x="0.0" y="3.0">DEHCShipLionsEthiopians3</tech>
       <tech x="0.0" y="3.0">DEHCKingKings</tech>
       <tech x="0.0" y="3.0">DEHCDejazmach</tech>
       <tech x="0.0" y="3.0">DEHCEraPrinces</tech>
@@ -1335,11 +1411,10 @@
       <tech x="4.9" y="5.0">HCShipBalloons</tech>
       <tech x="5.6" y="3.0">HCDonatarios</tech>
       <tech x="5.6" y="4.0">DEHCShipCoveredWagonsAfrica</tech>
+      <tech x="5.6" y="4.0">DEHCWildElephants1</tech>
+      <tech x="5.6" y="4.0">DEHCWildElephants2</tech>
       <tech x="6.5" y="1.0">HCExplorerPortuguese</tech>
       <tech x="6.5" y="5.0">HCShipBandeirantes</tech>
-      <tech x="0.0" y="3.0">DEHCShipLionsEthiopians1</tech>
-      <tech x="0.0" y="3.0">DEHCShipLionsEthiopians2</tech>
-      <tech x="0.0" y="3.0">DEHCShipLionsEthiopians3</tech>
       <tech x="0.0" y="3.0">DEHCKingKings</tech>
       <tech x="0.0" y="3.0">DEHCDejazmach</tech>
       <tech x="0.0" y="3.0">DEHCEraPrinces</tech>
@@ -1374,17 +1449,25 @@
       <tech x="0.0" y="3.0">DEHCShipGascenya2</tech>
       <tech x="0.0" y="3.0">DEHCShipGascenya3</tech>
       <tech x="0.0" y="3.0">DEHCShipGascenya4</tech>
+      <tech x="0.0" y="3.0">DEHCShipLionsEthiopians1</tech>
+      <tech x="0.0" y="3.0">DEHCShipLionsEthiopians2</tech>
+      <tech x="0.0" y="3.0">DEHCShipLionsEthiopians3</tech>
       <tech x="0.0" y="3.0">DEHCShipShotel1</tech>
       <tech x="0.0" y="3.0">DEHCShipShotel2</tech>
       <tech x="0.0" y="3.0">DEHCShipShotel3</tech>
       <tech x="0.0" y="3.0">DEHCShipShotel4</tech>
+      <tech x="0.0" y="3.0">DEHCShipBowmen1</tech>
+      <tech x="0.0" y="3.0">DEHCShipBowmen2</tech>
+      <tech x="0.0" y="3.0">DEHCShipBowmen3</tech>
       <tech x="0.0" y="3.0">DEHCShipNeftenya1</tech>
       <tech x="0.0" y="3.0">DEHCShipNeftenya2</tech>
       <tech x="0.0" y="3.0">DEHCShipNeftenyaRepeat</tech>
+      <tech x="0.0" y="3.0">DEHCShipSebastopolMortar2</tech>
       <tech x="0.0" y="3.0">DEHCShipSebastopolMortarRepeat</tech>
       <tech x="0.0" y="3.0">DEHCGascenyaDamage</tech>
       <tech x="0.0" y="3.0">DEHCGascenyaHitpoints</tech>
       <tech x="0.0" y="3.0">DEHCGascenyaCombat</tech>
+      <tech x="0.0" y="3.0">DEHCCounterCavalry</tech>
       <tech x="0.0" y="3.0">DEHCCoffeeConsumption</tech>
       <tech x="0.0" y="3.0">DEHCShiftas</tech>
       <tech x="0.0" y="3.0">DEHCTemenyas</tech>
@@ -1406,17 +1489,25 @@
       <tech x="0.0" y="3.0">DEHCShipGascenya2</tech>
       <tech x="0.0" y="3.0">DEHCShipGascenya3</tech>
       <tech x="0.0" y="3.0">DEHCShipGascenya4</tech>
+      <tech x="0.0" y="3.0">DEHCShipLionsEthiopians1</tech>
+      <tech x="0.0" y="3.0">DEHCShipLionsEthiopians2</tech>
+      <tech x="0.0" y="3.0">DEHCShipLionsEthiopians3</tech>
       <tech x="0.0" y="3.0">DEHCShipShotel1</tech>
       <tech x="0.0" y="3.0">DEHCShipShotel2</tech>
       <tech x="0.0" y="3.0">DEHCShipShotel3</tech>
       <tech x="0.0" y="3.0">DEHCShipShotel4</tech>
+      <tech x="0.0" y="3.0">DEHCShipBowmen1</tech>
+      <tech x="0.0" y="3.0">DEHCShipBowmen2</tech>
+      <tech x="0.0" y="3.0">DEHCShipBowmen3</tech>
       <tech x="0.0" y="3.0">DEHCShipNeftenya1</tech>
       <tech x="0.0" y="3.0">DEHCShipNeftenya2</tech>
       <tech x="0.0" y="3.0">DEHCShipNeftenyaRepeat</tech>
+      <tech x="0.0" y="3.0">DEHCShipSebastopolMortar2</tech>
       <tech x="0.0" y="3.0">DEHCShipSebastopolMortarRepeat</tech>
       <tech x="0.0" y="3.0">DEHCGascenyaDamage</tech>
       <tech x="0.0" y="3.0">DEHCGascenyaHitpoints</tech>
       <tech x="0.0" y="3.0">DEHCGascenyaCombat</tech>
+      <tech x="0.0" y="3.0">DEHCCounterCavalry</tech>
       <tech x="0.0" y="3.0">DEHCCoffeeConsumption</tech>
       <tech x="0.0" y="3.0">DEHCShiftas</tech>
       <tech x="0.0" y="3.0">DEHCTemenyas</tech>
@@ -1474,6 +1565,8 @@
       <tech x="7.4" y="3.0">DEHCAdvancedLivestockMarket</tech>
       <tech x="7.4" y="3.0">DEHCExpandedTradingPost</tech>
       <tech x="0.0" y="3.0">DEHCLalibelaRockChurch</tech>
+      <tech x="3.2" y="1.0">DEHCShipAbuns1</tech>
+      <tech x="3.2" y="1.0">DEHCShipAbuns2</tech>
       <tech x="0.0" y="3.0">DEHCHeyWat</tech>
       <tech x="0.0" y="3.0">DEHCJesuitSpirituality</tech>
       <tech x="0.0" y="3.0">DEHCGeez</tech>
@@ -1509,6 +1602,8 @@
       <tech x="7.4" y="3.0">DEHCAdvancedLivestockMarket</tech>
       <tech x="7.4" y="3.0">DEHCExpandedTradingPost</tech>
       <tech x="0.0" y="3.0">DEHCLalibelaRockChurch</tech>
+      <tech x="3.2" y="1.0">DEHCShipAbuns1</tech>
+      <tech x="3.2" y="1.0">DEHCShipAbuns2</tech>
       <tech x="0.0" y="3.0">DEHCHeyWat</tech>
       <tech x="0.0" y="3.0">DEHCJesuitSpirituality</tech>
       <tech x="0.0" y="3.0">DEHCGeez</tech>

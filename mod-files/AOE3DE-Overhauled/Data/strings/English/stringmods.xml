@@ -193,9 +193,14 @@
 	    <string _locid="91791">Tähtitarha</string>
 	    <string _locid="91792">Hussars deal more damage, especially to foot archers and skirmishers.</string>
 	    <string _locid="91849">5 Warrior Priestesses</string>
-	    <string _locid="101001" symbol="cStringCivRolloverEthiopian">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nMountain Monasteries improve nearby combat buildings and can train Villagers, but all Villagers train more slowly. Starts off with a free Mountain Monastery Builder and receives an additional one with each Age-Up.\n&lt;color=1.0, 1.0, 0.0&gt;Age-Up Alliances:&lt;/color&gt; (each grant extra bonuses)\n • Two new technologies at the Mountain Monastary\n • Units/Builders at the Palace or Town Center\n&lt;color=1.0, 1.0, 0.0&gt;Unique Resource:&lt;/color&gt;\nInfluence is a powerful resource spent primarily at the Palace on Native Warriors and Mercenaries. All unlocked features cost Influence. Generate it with Trading Posts and by controlling large herds of Livestock.\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nSebastopol Mortar, Abun, Gascenya, Shotel Warrior, Neftenya and Oromo Warrior\n\nPlaced on the “Roof of Africa” Ethiopia was able to assert its influence over the surrounding lowlands, thriving in the safety of its mountains. A high ground badly needed against hostile attempts to take the empire down. Ethiopia and its King of kings defied not just its African neighbors but also European colonization attempts rendering it as one of the few African regions that eluded the talons of European imperial colonialism.</string>
+	    <string _locid="101001" symbol="cStringCivRolloverEthiopian">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nMountain Monasteries improve nearby combat buildings and can train Villagers, but all Villagers train more slowly. Starts off with a free Mountain Monastery Builder and receives an additional one with each Age-Up.\n&lt;color=1.0, 1.0, 0.0&gt;Age-Up Alliances:&lt;/color&gt; (each grant extra bonuses)\n • Two new technologies at the Mountain Monastary\n • Units/Builders at the Palace or Town Center\n&lt;color=1.0, 1.0, 0.0&gt;Unique Resource:&lt;/color&gt;\nInfluence is a powerful resource spent primarily at the Palace on Native Warriors and Mercenaries. All unlocked features cost Influence. Generate it with Trading Posts and by controlling large herds of Livestock.\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nSebastopol Mortar, Abun, Gascenya, Shotel Warrior, Neftenya, Bowman, and Oromo Warrior\n\nPlaced on the “Roof of Africa” Ethiopia was able to assert its influence over the surrounding lowlands, thriving in the safety of its mountains. A high ground badly needed against hostile attempts to take the empire down. Ethiopia and its King of kings defied not just its African neighbors but also European colonization attempts rendering it as one of the few African regions that eluded the talons of European imperial colonialism.</string>
 
 	    <string _locid="101011" symbol="cStringCivRolloverHausa">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nGets a free Sanga Cattle with all shipments. Universities generate Influence, especially when built in a Kingdom (nearby one Town Center, Palace and Trading Post).\n&lt;color=1.0, 1.0, 0.0&gt;Age-Up Alliances:&lt;/color&gt; (each grant extra bonuses)\n • Two new technologies at the University\n • Units/Builders at the Palace or Town Center\n&lt;color=1.0, 1.0, 0.0&gt;Unique Resource:&lt;/color&gt;\nInfluence is a powerful resource spent primarily at the Palace on Native Warriors and Mercenaries. All unlocked features cost Influence. Generate it with Universities, Trading Posts and by controlling large herds of Livestock.\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nMaigadi, Griot, Fulani Archer, Gobir Rider, and Lifidi Knight\n\nThe wealthy Hausa kingdoms were magnets for merchants, intellectuals, and enemies. Their extensive trade relations and diplomacy enabled them to exert powerful influence over vast stretches of West Africa. The Hausa kings and emirs deployed powerful cavalry armies to compete with each other or conquer neighboring empires.</string>
+	    <string _locid="101024">Bowman</string>
+	    <string _locid="101025">INF Bowman</string>
+	    <string _locid="101026">Foot Archer</string>
+	    <string _locid="101027">Cheap foot archer with a weak attack, but powerful multipliers. Good against Heavy Infantry and Light Cavalry.</string>
+	    <string _locid="101030">Quick-training, short-duration infantry</string>
 	    <string _locid="101038">Heavy infantry</string>
 	    <string _locid="101039">Heavy infantry armed with a powerful spear. Good against cavalry and buildings.</string>
 	    <string _locid="101042">Light Shock infantry</string>
@@ -209,12 +214,18 @@
 	    <string _locid="101063">Mobile Hand Light Cavalry with a powerful anti-building attack. Good against heavy cavalry, shock infantry, and artillery.</string>
 	    <string _locid="101067">Powerful heavy ranged infantry bodyguard with a deadly melee attack. Good against Heroes, Mercenaries, Spies, and Outlaws.</string>
 	    <string _locid="101071">Foot Archer armed with a short bow for a fast attack. Good against Heavy Infantry and Light Cavalry. Can chop Trees to slowly gather Wood.</string>
+	    <string _locid="101108">Gargantuan mortar which annihilates ships and buildings. Available only from the Home City.</string>
+	    <string _locid="101138">Trains Villagers and Outpost HP aura.</string>
 	    <string _locid="101138">Unique church that improves the hitpoints of nearby combat buildings and can train Villagers.</string>
+	    <string _locid="101143">Abun. Heals injured units from range and improves the work and build rates of nearby buildings.</string>
 	    <string _locid="101165">Musician who can inspire buildings and heal nearby allies.</string>
 	    <string _locid="101166">Griot. Inspiring musician and storyteller who can heal allies, increase the work rate of buildings, and buff the speed of nearby units.</string>
+	    <string _locid="101201">Foreign Aid</string>
+	    <string _locid="101215">Town Center attack increased, especially against Cavalry.</string>
 	    <string _locid="101232">Ships 2 Palace Builders, 3 Camp Builders and increases build limits. Researches Fortified Cities.</string>
-	    <string _locid="101277">4 Abuns</string>
-	    <string _locid="101278">6 Abuns</string>
+	    <string _locid="101233">Levied Spearmen and Levied Gunners no longer lose hitpoints and have all damage penalties removed.</string>
+	    <string _locid="101277">2 Abuns</string>
+	    <string _locid="101278">4 Abuns</string>
 	    <string _locid="101282">10 Griots</string>
 	    <string _locid="101287">5 Shotel Warriors</string>
 	    <string _locid="101288">8 Shotel Warriors</string>
@@ -231,6 +242,7 @@
 	    <string _locid="101345">Champion Gobir Rider</string>
 	    <string _locid="101348">Legendary Gobir Rider</string>
 	    <string _locid="101572">5 Oromo Warriors</string>
+	    <string _locid="101575">Gascenya, Shotel Warrior, Bowman and Neftenya attack and hitpoints increased. Training time decreased.</string>
 	    <string _locid="101595">Inviting skilled engineers enables your Villagers to construct Artillery Foundries which can quickly assemble Cannons at the cost of Influence. Delivers an Artillery Foundry Wagon.</string>
 	    <string _locid="102532">Armored mounted skirmisher mercenary with a powerful long ranged attack. Good versus heavy infantry, light cavalry, and artillery. </string>
 	    <string _locid="102542">Berber warrior riding a fast camel, good at raiding villagers or buildings.</string>
@@ -254,23 +266,26 @@
 	    <string _locid="102878">Grants a small sum of food for each of your fields on the map. Improves food gathering on fields.\n • Deposits 30 Food for each Field you've built, up to 2100 Food.</string>
 	    <string _locid="102881">Particularly fattened Cattle containing 800 Food.</string>
 	    <string _locid="102885">Ships a number of Kanuri Guard mercenaries (Mounted Skirmishers). Enables them to be trained from the Palace where they cost partially Coin and Influence.</string>
-	    <string _locid="102896">Neftenyas gain additional hitpoints.</string>
-	    <string _locid="102910">Improves your Rases and Lions in combat and allows Rases to train Pet Lions. Rases gain the "Roar of the Lion!" ability:\n • Roar of the Lion: Increases the movement and attack speed of units nearby any Ras by 10% for 15 seconds.</string>
+	    <string _locid="102896">Receive 2 free Neftenyas with all future shipments, starting with this one. Neftenya gain additional hitpoints.</string>
+	    <string _locid="102910">Improves your Rases and Lions in combat. Removes all damage penalties from Lions and Rases gain the "Roar of the Lion!" ability:\n • Roar of the Lion: Increases the movement and attack speed of units nearby any Ras by 10% for 15 seconds.</string>
 	    <string _locid="102930">Hand Infantry Damage</string>
 	    <string _locid="102931">Hand Infantry Hitpoints</string>
 	    <string _locid="102932">Improves Gascenya and Shotel Warrior damage.</string>
 	    <string _locid="102933">Improves Gascenya and Shotel Warrior hitpoints.</string>
 	    <string _locid="103110">Fulani Archers gain a long range attack. Enables Fulani Archers to train Goats and harvest Food from Herables. Additionally, they gather Wood from Trees much more quickly and Trees last longer for them.</string>
 	    <string _locid="103114">Villagers gather faster, particularly from natural resources. Fulani Archers gather Wood from Trees more quickly.</string>
-	    <string _locid="103131">Passive Ability: Mountain Monasteries heal nearby Villagers and Buildings and improve the BASE hitpoints of nearby combat buildings.</string>
+	    <string _locid="103131">Passive Ability: Mountain Monasteries heal nearby Villagers and Buildings and improve the BASE hitpoints of nearby combat buildings (this stacks with other Mountain Monasteries).</string>
 	    <string _locid="103217">Small raiding party! Dispatches 4 Gobir Riders to your Home City Gather Point.</string>
 	    <string _locid="103219">Medium raiding party! Dispatches 8 Gobir Riders to your Home City Gather Point.</string>
 	    <string _locid="103221">Large raiding party! Dispatches 12 Gobir Riders to your Home City Gather Point.</string>
 	    <string _locid="103228">Unlocks the 'Songhai Raid' ability in Town Centers and Watch Towers that can repeatedly dispatch 4 Gobir Riders.</string>
 	    <string _locid="103232">Ships Harquebusier mercenaries and improves the ranged damage of all Heavy Ranged Cavalry.</string>
 	    <string _locid="103245">Ships a number of Gobir Riders and Lifidi Knights and makes their upgrades cheaper and research faster.</string>
-	    <string _locid="103293">Ships 3 Mountain Monastery Builders and improves Mountain Monastery hitpoints.</string>
+	    <string _locid="103293">Ships 2 Mountain Monastery Builders.</string>
+	    <string _locid="103297">Timkat Festivals grant 1,000 experience points towards your next Shipment.</string>
+	    <string _locid="103311">Timkat: Deposits 1,000 XP.</string>
 	    <string _locid="103312">The Fulani state of Futa Toro sends 9 Fulani Archers and 6 Gobir Riders.</string>
+	    <string _locid="103314">Unlocks Kingdom Builders at the Town Center.</string>
 	    <string _locid="103334">Native Warriors gain more hitpoints and very slowly heal, even whilst in combat.</string>
 	    <string _locid="103347">Receive a shipment of 4 Villagers for each Palace you currently have built.</string>
 	    <string _locid="103399">&lt;ttf&gt;&lt;tth&gt;Songhai Raid&lt;ttf&gt;&lt;tti&gt;Small raiding party! Dispatches 4 Gobir Riders at this building.</string>
@@ -280,8 +295,10 @@
 	    <string _locid="104021">Gobir Rider attack and hitpoints increased.</string>
 	    <string _locid="104113">Villagers gather Coin from Fields faster. Gobir Riders and Fulani now cost Gold instead of Wood to train.</string>
 	    <string _locid="104121">Fulani Uprising</string>
+	    <string _locid="104511">Improves the effectiveness and range of Abuns' building work and construction rate auras. Additionally, Abuns move more quickly and have more LOS.</string>
 	    <string _locid="104512">Foot Archer Combat</string>
 	    <string _locid="104521">Villagers gather Food faster from hunted animals, berries and fields. Berries and hunted animals last longer.</string>
+	    <string _locid="104534">All Hand Infantry move more quickly. Gascenya and Shotel Warriors deal increased damage to Cavalry.</string>
 	    <string _locid="104539">Foot Archer attack and hitpoints increased.</string>
 	    <string _locid="104541">Gobir Rider and Lifidi Knight attack increased.</string>
 	    <string _locid="104542">Hand Cavalry Hitpoints</string>
@@ -588,6 +605,12 @@
 	    <string _locid="270083">2 Pet Lions</string>
 	    <string _locid="270084">5 Pet Lions</string>
 	    <string _locid="270085">12 Pet Lions</string>
+	    <string _locid="270086">9 Bowmen</string>
+	    <string _locid="270087">14 Bowmen</string>
+	    <string _locid="270088">30 Bowmen</string>
+	    <string _locid="270089">3 Wild Elephants</string>
+	    <string _locid="270090">6 Wild Elephanta</string>
+
 	</Language>
   </StringTable>
 </stringmods>
