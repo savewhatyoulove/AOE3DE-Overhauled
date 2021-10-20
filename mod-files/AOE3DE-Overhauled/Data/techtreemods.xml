@@ -6277,6 +6277,12 @@
       <effect mergeMode='add' type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">ypPetLion</target>
       </effect>
+      <effect mergeMode='add' type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deEthiopiaLightCannon</target>
+      </effect>
+      <effect mergeMode='add' type="CommandAdd" proto="deSettlerAfrican" page="11" column="4">
+        <target type="ProtoUnit">deMountainMonastery</target>
+      </effect>
     </effects>
   </tech>
 
@@ -6300,6 +6306,182 @@
       </effect>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DEAllegiancePortugueseCrusaders" type="Normal">
+    <dbid>8174</dbid>
+    <displaynameid>103259</displaynameid>
+    <cost resourcetype="Influence">700.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\alliances\portuguese_crusaders.png</icon>
+    <rollovertextid>103258</rollovertextid>
+    <flag>CheckLandHCGatherPoint</flag>
+    <flag>UniqueTech</flag>
+    <flag>DEAfricanSpecialTech</flag>
+    <effects>
+      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Crossbowman" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Crossbowman</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="Crossbowman" relativity="Absolute">
+        <target type="ProtoUnit">deWarCamp</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEAllegianceArabCostsShadow" type="Normal">
+    <dbid>8222</dbid>
+    <researchpoints>0.0000</researchpoints>
+    <status>OBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">DEAllegianceArabMercenaryGold</techstatus>
+    </prereqs>
+    <effects>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEAllegianceArabGoldLoyalWarriorsShadow" type="Normal">
+    <dbid>8444</dbid>
+    <researchpoints>0.0000</researchpoints>
+    <status>OBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">DEHCLoyalWarriors</techstatus>
+      <techstatus status="Active">DEAllegianceArabMercenaryGold</techstatus>
+    </prereqs>
+    <effects>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEAllegianceArabMercenaryCost" type="Normal">
+    <dbid>8181</dbid>
+    <displaynameid>103270</displaynameid>
+    <cost resourcetype="Influence">1200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\alliances\blue_nile_ties.png</icon>
+    <rollovertextid>103269</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <flag>DEAfricanSpecialTech</flag>
+    <effects>
+      <effect type="SetOnShipmentSentTech" amount="1.00">DEShipGatlingCamel</effect>
+    </effects>
+  </tech>
+  <tech name="DEShipGatlingCamel" type="Normal">
+    <dbid>9665</dbid>
+    <researchpoints>0.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <flag>YPInfiniteTech</flag>
+    <flag>CheckLandHCGatherPoint</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deMercGatlingCamel" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEAllegianceArabUnlockShadow" type="Normal">
+    <dbid>8184</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">MercMameluke</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deMercGatlingCamel</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">DEAllegianceArabMercenaryCost</effect>
+      <effect type="TechStatus" status="obtainable">DEAllegianceArabMamlukSultanate</effect>
+      <effect type="CommandAdd" tech="DEAllegianceArabMercenaryCost" page="19" column="-1">
+        <target type="ProtoUnit">deMountainMonastery</target>
+      </effect>
+      <effect type="CommandAdd" tech="DEAllegianceArabMamlukSultanate" page="19" column="-1">
+        <target type="ProtoUnit">deMountainMonastery</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEAllegianceOromo4" type="Normal">
+    <dbid>8003</dbid>
+    <displaynameid>103041</displaynameid>
+    <cost resourcetype="Food">2000.0000</cost>
+    <cost resourcetype="Gold">1200.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iv.png</icon>
+    <rollovertextid>103044</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age3</effect>
+      <effect type="Data2" amount="10.00" subtype="FreeHomeCityUnitResource" unittype="ypGoat" resource="Food" resvalue="70.00" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deLivestockMarketWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">DEAllegianceOromo5</effect>
+      <effect type="TechStatus" status="active">DEAllegianceOromoUnlockShadow</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEAllegianceOromo5" type="Normal">
+    <dbid>8004</dbid>
+    <displaynameid>103041</displaynameid>
+    <cost resourcetype="Food">4000.0000</cost>
+    <cost resourcetype="Gold">4000.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_v.png</icon>
+    <rollovertextid>103045</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="SetAge">Age4</effect>
+      <effect type="Data2" amount="20.00" subtype="FreeHomeCityUnitResource" unittype="ypGoat" resource="Food" resvalue="70.00" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="deLivestockMarketWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TechStatus" status="active">DEAllegianceOromoUnlockShadow</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEAllegianceOromoFields" type="Normal">
+    <dbid>8228</dbid>
+    <displaynameid>103352</displaynameid>
+    <cost resourcetype="Influence">200.0000</cost>
+    <researchpoints>20.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\alliances\irreechaa.png</icon>
+    <rollovertextid>103351</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <flag>DEAfricanSpecialTech</flag>
+    <effects>
+      <effect type="Data" action="TrickleFood" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">ypGoat</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEAllegianceOromoUnits" type="Normal">
+    <dbid>8229</dbid>
+    <displaynameid>103354</displaynameid>
+    <cost resourcetype="Influence">750.0000</cost>
+    <researchpoints>20.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\alliances\gadaa_system.png</icon>
+    <rollovertextid>103353</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>DEAfricanSpecialTech</flag>
+    <effects>
+      <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractCavalry</target>
+      </effect>
+      <effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractCavalry</target>
+      </effect>
+    </effects>
+  </tech>
+
   <tech mergeMode='replace' name="DEAllegianceHabeshaTimkat" type="Normal">
     <dbid>8195</dbid>
     <displaynameid>103298</displaynameid>
@@ -6314,6 +6496,100 @@
       <effect type="Data" amount="1000.00" subtype="Resource" resource="XP" relativity="Absolute">
         <target type="Player"/>
       </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEBookOfAxum" type="Normal">
+    <dbid>8196</dbid>
+    <displaynameid>103300</displaynameid>
+    <cost resourcetype="Influence">450.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\alliances\book_of_axum.png</icon>
+    <rollovertextid>103299</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>DEAfricanSpecialTech</flag>
+    <prereqs>
+      <techstatus status="Active">Colonialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">deAbun</target>
+      </effect>
+      <effect type="Data" action="Heal" amount="6.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deAbun</target>
+      </effect>
+      <effect type="Data" amount="6.00" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">deAbun</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DESolomonicDynasty" type="Normal">
+    <dbid>8197</dbid>
+    <displaynameid>103302</displaynameid>
+    <cost resourcetype="Influence">1000.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\alliances\solomonic_dynasty.png</icon>
+    <rollovertextid>103301</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>DEAfricanSpecialTech</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="dePrince2" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="1.00" subtype="BountyResourceOverride" unittype="AbstractInfantry" resource="Influence" extrabounty="true" bountyrate="15.00" relativity="Assign">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="1.00" subtype="BountyResourceOverride" unittype="AbstractCavalry" resource="Influence" extrabounty="true" bountyrate="15.00" relativity="Assign">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="1.00" subtype="BountyResourceOverride" unittype="AbstractLightInfantry" resource="Influence" extrabounty="true" bountyrate="15.00" relativity="Assign">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="1.00" subtype="BountyResourceOverride" unittype="AbstractHealer" resource="Influence" extrabounty="true" bountyrate="15.00" relativity="Assign">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="1.00" subtype="BountyResourceOverride" unittype="AbstractArtillery" resource="Influence" extrabounty="true" bountyrate="15.00" relativity="Assign">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" amount="1.00" subtype="BountyResourceOverride" unittype="AbstractWarShip" resource="Influence" extrabounty="true" bountyrate="15.00" relativity="Assign">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEAllegianceHabeshaRelicEntertainment" type="Normal">
+    <dbid>8194</dbid>
+    <displaynameid>103296</displaynameid>
+    <cost resourcetype="Influence">1000.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\alliances\relic_entertainment.png</icon>
+    <rollovertextid>103295</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <flag>DEAfricanSpecialTech</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="ResourceTrickleRate" resource="Wood" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="ResourceTrickleRate" resource="Gold" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="ResourceTrickleRate" resource="XP" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="ResourceTrickleRate" resource="Food" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="ResourceTrickleRate" resource="Influence" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+
     </effects>
   </tech>
 
@@ -6354,6 +6630,63 @@
       </effect>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DEIndustrialSebastopol" type="Normal">
+    <dbid>6715</dbid>
+    <researchpoints>0.0000</researchpoints>
+    <status>OBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deSebastopolMortar" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" action="SolidAttack" amount="1.00" subtype="DamageArea" relativity="Absolute">
+        <target type="ProtoUnit">deSebastopolMortar</target>
+      </effect>
+      <effect type="Data" action="ExplosiveAttack" amount="2.00" subtype="DamageArea" relativity="Absolute">
+        <target type="ProtoUnit">deSebastopolMortar</target>
+      </effect>
+      <effect type="SetName" proto="deSebastopolMortar" newname="103396"/>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEImperialSebastopol" type="Normal">
+    <dbid>6716</dbid>
+    <researchpoints>0.0000</researchpoints>
+    <status>OBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deSebastopolMortar</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deSebastopolMortar" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deSebastopolMortar</target>
+      </effect>
+      <effect type="SetName" proto="deSebastopolMortar" newname="103397"/>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShipSebastopolMortarRepeat" type="Normal">
+    <dbid>8418</dbid>
+    <displaynameid>104550</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\ethiopians\infinite_mortar.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="deSebastopolMortar" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+
   <tech mergeMode='replace' name="DEHCShipZebu3" type="Normal">
     <dbid>8269</dbid>
     <displaynameid>101191</displaynameid>
@@ -14131,6 +14464,29 @@
       </effect>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DEHCDraftOxen" type="Normal">
+    <dbid>8393</dbid>
+    <displaynameid>104526</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\draft_oxen.png</icon>
+    <rollovertextid>104527</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" action="TrickleFood" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deSangaCattle</target>
+      </effect>
+      <effect type="Data" action="TrickleFood" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deZebuCattle</target>
+      </effect>
+      <effect type="Data" action="TrickleFood" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deChonkyCattle</target>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+
   <tech mergeMode='replace' name="DEHCShipSanga1" type="Normal">
     <dbid>6723</dbid>
     <displaynameid>101180</displaynameid>

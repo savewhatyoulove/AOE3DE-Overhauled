@@ -216,7 +216,8 @@
 	    <string _locid="101071">Foot Archer armed with a short bow for a fast attack. Good against Heavy Infantry and Light Cavalry. Can chop Trees to slowly gather Wood.</string>
 	    <string _locid="101108">Gargantuan mortar which annihilates ships and buildings. Available only from the Home City.</string>
 	    <string _locid="101138">Trains Villagers and Outpost HP aura.</string>
-	    <string _locid="101138">Unique church that improves the hitpoints of nearby combat buildings and can train Villagers.</string>
+	    <string _locid="101138">Unique church that improves the base hitpoints of nearby combat buildings and can train Villagers.</string>
+	    <string _locid="101139">Mountain Monastery. Trains villagers and improves the base hitpoints of nearby combat buildings.</string>
 	    <string _locid="101143">Abun. Heals injured units from range and improves the work and build rates of nearby buildings.</string>
 	    <string _locid="101165">Musician who can inspire buildings and heal nearby allies.</string>
 	    <string _locid="101166">Griot. Inspiring musician and storyteller who can heal allies, increase the work rate of buildings, and buff the speed of nearby units.</string>
@@ -272,22 +273,37 @@
 	    <string _locid="102931">Hand Infantry Hitpoints</string>
 	    <string _locid="102932">Improves Gascenya and Shotel Warrior damage.</string>
 	    <string _locid="102933">Improves Gascenya and Shotel Warrior hitpoints.</string>
+	    <string _locid="103004">10 Semi-fattened Goats and 1 Livestock Market Builder</string>
+	    <string _locid="103005">20 Semi-fattened Goats and 2 Livestock Market Builders</string>
+	    <string _locid="103044">10 Semi-fattened Goats and 1 Livestock Market Builder</string>
+	    <string _locid="103045">20 Semi-fattened Goats and 2 Livestock Market Builders</string>
 	    <string _locid="103110">Fulani Archers gain a long range attack. Enables Fulani Archers to train Goats and harvest Food from Herables. Additionally, they gather Wood from Trees much more quickly and Trees last longer for them.</string>
 	    <string _locid="103114">Villagers gather faster, particularly from natural resources. Fulani Archers gather Wood from Trees more quickly.</string>
-	    <string _locid="103131">Passive Ability: Mountain Monasteries heal nearby Villagers and Buildings and improve the BASE hitpoints of nearby combat buildings (this stacks with other Mountain Monasteries).</string>
+	    <string _locid="103131">Passive Ability: Mountain Monasteries improve the BASE hitpoints of nearby combat buildings (this stacks with other Mountain Monasteries).</string>
+	    <string _locid="103172">Unlocks Corsair Marksmen (Rifle Infantry) at Palaces. Ships 1 Palace Builder.</string>
 	    <string _locid="103217">Small raiding party! Dispatches 4 Gobir Riders to your Home City Gather Point.</string>
 	    <string _locid="103219">Medium raiding party! Dispatches 8 Gobir Riders to your Home City Gather Point.</string>
 	    <string _locid="103221">Large raiding party! Dispatches 12 Gobir Riders to your Home City Gather Point.</string>
 	    <string _locid="103228">Unlocks the 'Songhai Raid' ability in Town Centers and Watch Towers that can repeatedly dispatch 4 Gobir Riders.</string>
 	    <string _locid="103232">Ships Harquebusier mercenaries and improves the ranged damage of all Heavy Ranged Cavalry.</string>
 	    <string _locid="103245">Ships a number of Gobir Riders and Lifidi Knights and makes their upgrades cheaper and research faster.</string>
+	    <string _locid="103269">You receive a free Gatling Camel with all of your future shipments.</string>
+	    <string _locid="103271">Mercenaries now cost a lesser amount of Coin and Influence and are recruited faster.</string>
+	    <string _locid="103280">Blue Nile Ties: All Future Shipments deliver a Gatling Camel.</string>
+	    <string _locid="103281">Mameluke Sultanate: All Future Shipments deliver a Mameluke.</string>
 	    <string _locid="103293">Ships 2 Mountain Monastery Builders.</string>
+	    <string _locid="103295">For the rest of the game, a small trickle of all resources enriches you (excluding Export).\n • This Trickle rate is 1.0 Food, Wood, Gold, XP, and Influence per second.</string>
 	    <string _locid="103297">Timkat Festivals grant 1,000 experience points towards your next Shipment.</string>
+	    <string _locid="103310">Ark of the Covenant: Grants a small trickle of each resource.</string>
 	    <string _locid="103311">Timkat: Deposits 1,000 XP.</string>
 	    <string _locid="103312">The Fulani state of Futa Toro sends 9 Fulani Archers and 6 Gobir Riders.</string>
 	    <string _locid="103314">Unlocks Kingdom Builders at the Town Center.</string>
 	    <string _locid="103334">Native Warriors gain more hitpoints and very slowly heal, even whilst in combat.</string>
 	    <string _locid="103347">Receive a shipment of 4 Villagers for each Palace you currently have built.</string>
+	    <string _locid="103351">Goats now trickle Food in addition to Influence.</string>
+	    <string _locid="103353">Cavalry have improved Hitpoints and Attack.</string>
+	    <string _locid="103363">Irreechaa: Goats now Trickle Food in addition to Influence.</string>
+	    <string _locid="103364">Gadaa System: The Attack and Hitpoints of all Cavalry is improved.</string>
 	    <string _locid="103399">&lt;ttf&gt;&lt;tth&gt;Songhai Raid&lt;ttf&gt;&lt;tti&gt;Small raiding party! Dispatches 4 Gobir Riders at this building.</string>
 	    <string _locid="103400" symbol="cStringSonghaiButtonRollover">Select a building from which to dispatch Gobir Riders</string>
 	    <string _locid="103401" symbol="cStringSonghaiButtonDisabledRollover">You cannot dispatch Gobir Riders right now</string>
@@ -298,11 +314,13 @@
 	    <string _locid="104511">Improves the effectiveness and range of Abuns' building work and construction rate auras. Additionally, Abuns move more quickly and have more LOS.</string>
 	    <string _locid="104512">Foot Archer Combat</string>
 	    <string _locid="104521">Villagers gather Food faster from hunted animals, berries and fields. Berries and hunted animals last longer.</string>
+	    <string _locid="104527">Enables African Cattle to trickle Food in addition to Influence.</string>
 	    <string _locid="104534">All Hand Infantry move more quickly. Gascenya and Shotel Warriors deal increased damage to Cavalry.</string>
 	    <string _locid="104539">Foot Archer attack and hitpoints increased.</string>
 	    <string _locid="104541">Gobir Rider and Lifidi Knight attack increased.</string>
 	    <string _locid="104542">Hand Cavalry Hitpoints</string>
 	    <string _locid="104543">Gobir Rider and Lifidi Knight hitpoints increased.</string>
+	    <string _locid="104550">2 Sebastopol Mortars</string>
 	    <string _locid="104556">Gobir Rider and Lifidi knight attack and hitpoints improved.</string>
 	    <string _locid="110001" symbol="cStringCivRolloverAmericans">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nFederal states unlock two new cards per age and two Factory cards in Industrial Age. Shipments are earned more quickly and you receive a free XP crate with most shipments. Economic improvements from the Home City are more powerful, but you have a lower Settler build limit and cannot ship resource crates. Generals can build Forts instead of Town Centers. Levies can be called repeatedly from multiple buildings with a global cooldown. Military units slowly heal over time outside of combat. Starts with a Fattened Sheep, an XP crate, and a Homestead Wagon instead of resource crates. \n&lt;color=1.0, 1.0, 0.0&gt;National guard units: &lt;/color&gt;Sharpshooters (Marksmen), Spur Riders (Rough Riders)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nTexas Ranger, Gatling Gun, Ironclad, Minuteman, Regular, Sharpshooter, Sloop, State Militia, Spur Rider, Steamer\n\nThe "land of opportunity" provided ample land for Settlers to plunder, creating the famous melting pot of Western European identities. Expanding from militia forces skilled in skirmishing tactics and marksmanship to a professional army, the United States of America ensured its independence and impressive road to prosperity for the owner class.</string>
 	    <string _locid="110009">Hardy Skirmisher with a powerful short-ranged splash attack.</string>
@@ -609,8 +627,12 @@
 	    <string _locid="270087">14 Bowmen</string>
 	    <string _locid="270088">30 Bowmen</string>
 	    <string _locid="270089">3 Wild Elephants</string>
-	    <string _locid="270090">6 Wild Elephanta</string>
-
+	    <string _locid="270090">6 Wild Elephants</string>
+	    <string _locid="270091">Light artillery</string>
+	    <string _locid="270092">Light artillery. Good against infantry, ships, and buildings.</string>
+	    <string _locid="270093">Mountain Gun</string>
+	    <string _locid="270094">AR Mountain Gun</string>
+	    <string _locid="270095">Gather Influence</string>
 	</Language>
   </StringTable>
 </stringmods>
