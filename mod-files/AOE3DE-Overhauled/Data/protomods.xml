@@ -10971,7 +10971,7 @@
     <buildlimit>5</buildlimit>
     <cost resourcetype="Gold">150.0000</cost>
     <carrycapacity resourcetype="Gold">1.0000</carrycapacity>
-    <allowedage>1</allowedage>
+    <allowedage>0</allowedage>
     <armor type="Ranged" value="0.1000"/>
     <unittype>LogicalTypeMinimapFilterMilitary</unittype>
     <unittype>LogicalTypeHealed</unittype>
@@ -11019,9 +11019,14 @@
       <rate type="LogicalTypeHealed">10.000000</rate>
     </protoaction>
     <protoaction>
-      <name>GatherInfluence</name>
-      <rate type="deMountainMonastery">0.500000</rate>
+      <name>Gather</name>
+      <rate type="deMountainMonastery" resource="Influence">0.500000</rate>
     </protoaction>
+    <protoaction>
+      <name>AutoGatherInfluence</name>
+      <rate type="Influence">0.500000</rate>
+    </protoaction>
+
   </unit>
 
   <unit mergeMode='replace' id="565" name="SPCAztecTemple">
@@ -14527,13 +14532,13 @@
       <rate type="XP">0.100000</rate>
     </protoaction>
     <protoaction>
-      <name>AutoGatherInfluence</name>
-      <rate type="Influence">0.150000</rate>
+      <name>TrickleFood</name>
+      <rate type="Food">0.150000</rate>
       <fullcapacitymultiplier>3.334</fullcapacitymultiplier>
     </protoaction>
     <protoaction>
-      <name>TrickleFood</name>
-      <rate type="Food">0.150000</rate>
+      <name>AutoGatherInfluence</name>
+      <rate type="Influence">0.150000</rate>
       <fullcapacitymultiplier>3.334</fullcapacitymultiplier>
     </protoaction>
     <protoaction>

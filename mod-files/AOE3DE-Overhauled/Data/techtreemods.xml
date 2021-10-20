@@ -454,6 +454,50 @@
   </tech>
 
 <!-- General Techs --> 
+  <tech mergeMode='replace' name="ypMarketGangsaw" type="Normal">
+    <dbid>4478</dbid>
+    <displaynameid>63978</displaynameid>
+    <cost resourcetype="Food">50.0000</cost>
+    <researchpoints>15.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\asians\waterwheel.png</icon>
+    <rollovertextid>63977</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <flag>DECostConvertToInfluence</flag>
+    <effects>
+      <effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="Tree" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="ypGroveBuilding" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="ypMarketLogFlume" type="Normal">
+    <dbid>4482</dbid>
+    <displaynameid>63986</displaynameid>
+    <cost resourcetype="Food">75.0000</cost>
+    <cost resourcetype="Gold">75.0000</cost>
+    <researchpoints>15.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\asians\regenerative_forestry.png</icon>
+    <rollovertextid>63985</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <flag>DECostConvertToInfluence</flag>
+    <prereqs>
+      <techstatus status="Active">Colonialize</techstatus>
+      <techstatus status="Active">ypMarketGangsaw</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Tree" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="ypGroveBuilding" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+
 <tech mergeMode='replace' name="GreatCoat" type="Normal">
     <dbid>151</dbid>
     <displaynameid>23420</displaynameid>
@@ -6376,6 +6420,12 @@
       <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deMercGatlingCamel" relativity="Absolute">
         <target type="Player"/>
       </effect>
+    </effects>
+  </tech>
+  <tech name="DEAllegianceIndianUnlockShadow" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="TechStatus" status="obtainable">ypMarketLogFlume</effect>
+      <effect mergeMode='add' type="TechStatus" status="obtainable">ypMarketGangsaw</effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEAllegianceArabUnlockShadow" type="Normal">

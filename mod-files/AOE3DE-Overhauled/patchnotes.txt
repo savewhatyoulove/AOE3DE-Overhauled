@@ -59,7 +59,14 @@ Units:
   -- Siege damage improved to 30 from 20
   -- Melee attack reduced to 16 from 25
   -- Ranged Attack damage improved to 40 from 35; Ranged reduced to 15 from 17
--- Gatling Camel now deals 3x Damage to AbstractInfantry (but no longer has 1.5x AbstractHeavyInfantry), AbstractLightCavalry unit tag removed.
+-- Gatling Camel Reworked: (Modeled off of Squid patch War Wagons)
+  -- HP increased to 400 from 320
+  -- Speed increased from 5.75 to 6
+  -- Armor increased to 60 RR from 30
+  -- LOS increased to 20 from 15
+  -- AbstractCavalry and AbstractLightCavalry unit tags removed.
+  -- Damage: Reduced to 10x6 from 15x6
+  -- Multipliers: 0.5x AbstractVillager removed, 0.5x AbstractArtillery improved to 1.2x AbstractArtillery, 1.5x AbstractHeavyInfantry removed, 2x AbstractInfantry improved to 3x
 -- Dahomey Amazon Rebalanced:
   -- Cost Reduced from 300G to 250
   -- Population reduced from 3 to 2
@@ -495,6 +502,9 @@ Buildings:
 Techs:
 -- Imported Guns now enables artillery depots and ships a Foundry Wagon (Falconets/Culverins/Mortars are trained there instead of at the Palace). Cost increased to 400 Influence from 300.
 
+Shipments:
+-- Draft Oxen now enables a Trickle of Food (0.15 F/s at base, 0.5 when fat) for African Cows.
+
 Units: 
 
 -- Starting Auto Zebu/Sanga Food capacity reverted to 400F from 250, and 1.5x gather rate reverted.
@@ -523,9 +533,14 @@ New Civ Bonus: Mountain Monasteries can train villagers in addition to Town Cent
 - Now starts witrh an Abun
 
 Tech Changes:
+-- Book of Axum: Cost reduced to 450 influence from 500, LOS and Range bonus improved to +6 from +5.
+-- Solomonic Dynasty: Cost reduced to 1000 Influence from 1500, moved to Fortress Age from Industrial.
 -- Habesha:
-  -- Now additionally unlocks levied bowmen at War Camps. 
   -- Timkat Reworked: Now costs 700 Influence (instead of 500). Deposits 1000 XP (same as Zen Meditation)
+  -- Ark of the Covenant Reworked: Now Costs 1000 Influence, moved to Fortress Age. Unlocks a Trickle of 1.0 Food, Wood, Gold, XP, and Influence per second (5.0 in total, 1.0 for each resource.)
+-- Arabs:
+  -- Blue Nile Ties Reworked: Now Costs 1200 Influence and delivers a free Gatling Camel on all Future Shipments
+  -- Yemeni Relations replaced with Mameluke Sultanate: 1200 Influence and delivers a free Mameluke on all Future Shipments
 
 Building Changes:
 
@@ -547,7 +562,7 @@ HP: Increased to 160 from 135
 Armor: Increased to 30 melee from 20
 Ranged Attack Removed.
 Tags: AbstractHandInfantry added, AbstractRangedInfantry, AbstractMusketeer removed.
-Melee Damage: Reduced to 14 from 15; multipliers reduced to 2.5x AbstractCavalry and 1.75x AbstractCoyoteMan from 3x and 2.25x, 1.5x AbstractHeavyInfantry added.
+Melee Damage: Increased to 16 from 15; multipliers reduced to 2.5x AbstractCavalry and 1.75x AbstractCoyoteMan from 3x and 2.25x, 1.5x AbstractHeavyInfantry added.
 Siege Damage: Improved to 32 from 24
 
 
@@ -603,9 +618,10 @@ Shipment Changes:
 -- Tabot Reworked: Now improved Abun speed by +25%, increases their LOS by +6, and enables improved building work and construction rate auras (8% per Abun instead of 5% and 24 range instead of 18).
 -- Counter Cavalry Tactics Added: +0.25 speed for AbstractHandInfantry, Gascenya get +0.5x AbstractLightInfantry and AbstractCavalry, and Shotel Warriors get +1.0x AbstractHeavyCavalry and AbstractCoyoteMan
 -- Abun shipments no longer increase build limit. 
--- 1 Sebastopol Mortar (III) removed.
+-- 1 Sebastopol Mortar (III), 2 Sebastopol Mortars (IV) removed.
+-- 1 Sebastopol Mortar INF (IV) increased to 2.
 
--- TODO: Implement Abun Bonus and Mountain Guns
+-- TODO: Implement Abun Bonus and Mountain Guns, Fix Indian Wood tech not appearing in market
 
 Hausa:
 

@@ -218,7 +218,7 @@
 	    <string _locid="101138">Trains Villagers and Outpost HP aura.</string>
 	    <string _locid="101138">Unique church that improves the base hitpoints of nearby combat buildings and can train Villagers.</string>
 	    <string _locid="101139">Mountain Monastery. Trains villagers and improves the base hitpoints of nearby combat buildings.</string>
-	    <string _locid="101143">Abun. Heals injured units from range and improves the work and build rates of nearby buildings.</string>
+	    <string _locid="101143">Abun. Heals injured units from range and improves the work and build rates of nearby buildings. Can gather Influence from Mountain Monasteries.</string>
 	    <string _locid="101165">Musician who can inspire buildings and heal nearby allies.</string>
 	    <string _locid="101166">Griot. Inspiring musician and storyteller who can heal allies, increase the work rate of buildings, and buff the speed of nearby units.</string>
 	    <string _locid="101201">Foreign Aid</string>
