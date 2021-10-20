@@ -6551,7 +6551,7 @@
   <tech mergeMode='replace' name="DEBookOfAxum" type="Normal">
     <dbid>8196</dbid>
     <displaynameid>103300</displaynameid>
-    <cost resourcetype="Influence">450.0000</cost>
+    <cost resourcetype="Influence">400.0000</cost>
     <researchpoints>30.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\africans\alliances\book_of_axum.png</icon>

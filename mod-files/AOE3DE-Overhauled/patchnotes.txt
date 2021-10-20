@@ -533,7 +533,7 @@ New Civ Bonus: Mountain Monasteries can train villagers in addition to Town Cent
 - Now starts witrh an Abun
 
 Tech Changes:
--- Book of Axum: Cost reduced to 450 influence from 500, LOS and Range bonus improved to +6 from +5.
+-- Book of Axum: Cost reduced to 400 influence from 500, LOS and Range bonus improved to +6 from +5.
 -- Solomonic Dynasty: Cost reduced to 1000 Influence from 1500, moved to Fortress Age from Industrial.
 -- Habesha:
   -- Timkat Reworked: Now costs 700 Influence (instead of 500). Deposits 1000 XP (same as Zen Meditation)
