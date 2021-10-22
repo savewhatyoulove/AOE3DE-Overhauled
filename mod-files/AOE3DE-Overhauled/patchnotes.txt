@@ -475,6 +475,8 @@ Finland:
 
 Africa Changes:
 
+Units:
+-- Goats now trickle 0.08 influence per second up from 0.05 (caps out at 0.25)
 Natives:
 -- Berber Nomad now has +50% base natural resource rate, and a -33% base estate/mill rate. No longer shadowtechs.
 
@@ -494,20 +496,22 @@ Native Units:
 Buildings: 
 -- Levy Gunners added to the Town Center. Trains 5 Levied Gunners for 300 Influence. Available in age II.
 -- Huts no longer train Levied Spearmen/Archers
+-- Hut cost reduced to 80W from 100, HP reduced to 1000 from 1200
 -- Palaces no longer train Levied Gunners
 -- Towers no longer train Outlaws
 -- Towers now train Levied Gunners/Spearmen/Archers
 -- Palaces now train Outlaws instead of artillery
+-- Granaries no longer have a 10% hunt aura and are no longer free to build. They now cost 25 wood and take 10 seconds to build 
 
 Techs:
 -- Imported Guns now enables artillery depots and ships a Foundry Wagon (Falconets/Culverins/Mortars are trained there instead of at the Palace). Cost increased to 400 Influence from 300.
 
 Shipments:
--- Draft Oxen now enables a Trickle of Food (0.15 F/s at base, 0.5 when fat) for African Cows.
+-- Draft Oxen now a 20% Food/Gold improvement for Fields.
 
 Units: 
 
--- Starting Auto Zebu/Sanga Food capacity reverted to 400F from 250, and 1.5x gather rate reverted.
+-- Starting Auto Zebu/Sanga Food capacity increased to 450F from 250, and 1.5x gather rate reverted.
 
 -- Big Benny Food reduced from 900 to 800
 
@@ -530,7 +534,7 @@ Ethiopia:
 New Civ Bonus: Mountain Monasteries can train villagers in addition to Town Centers, but villagers train more slowly (40s instead of 25). Starts with a Mountain Monastery builder
 
 - 4 Starting Zebu Food increased to 150 from 135.
-- Now starts witrh an Abun
+- Now starts with an Abun
 
 Tech Changes:
 -- Book of Axum: Cost reduced to 400 influence from 500, LOS and Range bonus improved to +6 from +5.
@@ -541,18 +545,20 @@ Tech Changes:
 -- Arabs:
   -- Blue Nile Ties Reworked: Now Costs 1200 Influence and delivers a free Gatling Camel on all Future Shipments
   -- Yemeni Relations replaced with Mameluke Sultanate: 1200 Influence and delivers a free Mameluke on all Future Shipments
+-- Oromo: 
+  -- Irreechaa: Now costs 250 Influence instead of 75, provides +15% gather rate to Fields.
+  -- Gadaa System: Now costs 750 Influence instead of 500, provides +15% AbstractCavalry ATK/HP.
+-- India:
+  -- Market now has access to Tier I/II wood chopping techs.
 
 Building Changes:
 
 Mountain Monastery:
 Cost: Reduced to 150 from 170
 Can now train villagers
-LOS: Reduced to 32 from 38
-Now provides a +20% HP aura to all nearby Town Centers and Fortifications. This aura does not stack.
-Heal Aura reduced to 0.25/s from 0.5
-
-Hut: 
-Cost: reduced to 80 from 100
+Now provides a +20% BASE HP aura to all nearby Town Centers and Fortifications.
+Heal Aura removed
+Built Limit: Reduced to 2 from 1, (this is compensated for in the Imperial Age)
 
 Unit Changes:
 
@@ -627,12 +633,20 @@ Hausa:
 
 Starting Changes:
 -- Now starts with 5 semi-fattened goats instead of 3 semi-fattened Sanga Cattle (same net food 750)
+-- Auto Sanga food capacity increased to 450 from 400
 
 Tech Changes:
+Akan:
+-- Gold Economy no longer increases villager mining rate. Base cost increased to 375F/W from 325.
+Songhai: 
 -- Songhai Raiders reduced to 4 Gobir Riders from 5 Raiders
 -- Songhai War Parties reduced to 4/8/12 Gobir Riders from 5/10/15
+Fulani:
 -- Fulani Migrations Reworked: Gives Fulani their meme ranged attack, +25% Wood chop rate and +25% yield, and lets them train Goats and hunt from herdables at full rate.
+Morocco:
 -- Arma Garrisons: Now costs 400 Influence instead of 300 and ships 1 Palace Builder instead of a Watch Tower Builder. Corsair Marksmen are now trained from Palaces instead of Watch Towers.
+-- Marksmen no longer have 4x AbstractWarship
+
 -- Fortified Cities Cost reduced to 1250 Influence from 3000. (might reduce to 1000)
 -- Bakwai (+3 TC build limit) Cost reduced to 600 Influence from 800 (might reduce to 500)
 

@@ -3,6 +3,7 @@
   <action>
     <name stringid="68961">EconomicAuraGranary</name>
     <type>AutoRangedModify</type>
+    <active>0</active>
     <maxrange>20</maxrange>
     <modifyabstracttype>AbstractVillager</modifyabstracttype>
     <persistent>1</persistent>
@@ -16,6 +17,7 @@
   <action>
     <name stringid="68961">NaturalFoodAuraGranary</name>
     <type>AutoRangedModify</type>
+    <active>0</active>
     <maxrange>20</maxrange>
     <modifyabstracttype>AbstractVillager</modifyabstracttype>
     <persistent>1</persistent>
@@ -36,7 +38,7 @@
     <squareaura>1</squareaura>
     <nostack>1</nostack>
     <modifytype>TreeGatherRate</modifytype>
-    <modifymultiplier>1.15</modifymultiplier>
+    <modifymultiplier>1.1</modifymultiplier>
     <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>
@@ -50,7 +52,7 @@
     <squareaura>1</squareaura>
     <nostack>1</nostack>
     <modifytype>NaturalFoodGatherRate</modifytype>
-    <modifymultiplier>1.15</modifymultiplier>
+    <modifymultiplier>1.1</modifymultiplier>
     <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>

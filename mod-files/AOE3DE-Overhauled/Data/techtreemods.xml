@@ -6306,12 +6306,6 @@
       <effect mergeMode='add' type="Data" amount="15.00" subtype="TrainPoints" relativity="Absolute">
         <target type="ProtoUnit">deSettlerAfrican</target>
       </effect>
-      <effect mergeMode='add' type="Data" amount="80.00" subtype="Cost" resource="Wood" relativity="Assign">
-        <target type="ProtoUnit">deHouseAfrican</target>
-      </effect>
-      <effect mergeMode='add' type="Data" amount="16.00" subtype="BuildBounty" relativity="Assign">
-        <target type="ProtoUnit">deHouseAfrican</target>
-      </effect>
       <effect mergeMode='add' type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">deBowmanLevy</target>
       </effect>
@@ -6320,9 +6314,6 @@
       </effect>
       <effect mergeMode='add' type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">ypPetLion</target>
-      </effect>
-      <effect mergeMode='add' type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-        <target type="ProtoUnit">deEthiopiaLightCannon</target>
       </effect>
       <effect mergeMode='add' type="CommandAdd" proto="deSettlerAfrican" page="11" column="4">
         <target type="ProtoUnit">deMountainMonastery</target>
@@ -6350,6 +6341,22 @@
       </effect>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DEImperializeEthiopian" type="Normal">
+    <dbid>6905</dbid>
+    <status>UNOBTAINABLE</status>
+    <icon>ui\post_game\time_line_age_5</icon>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Imperialize</effect>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="deMountainMonasteryBuilder" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">deMountainMonastery</target>
+      </effect>
+    </effects>
+  </tech>
+
   <tech mergeMode='replace' name="DEAllegiancePortugueseCrusaders" type="Normal">
     <dbid>8174</dbid>
     <displaynameid>103259</displaynameid>
@@ -6499,7 +6506,7 @@
   <tech mergeMode='replace' name="DEAllegianceOromoFields" type="Normal">
     <dbid>8228</dbid>
     <displaynameid>103352</displaynameid>
-    <cost resourcetype="Influence">200.0000</cost>
+    <cost resourcetype="Influence">250.0000</cost>
     <researchpoints>20.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\africans\alliances\irreechaa.png</icon>
@@ -6507,8 +6514,14 @@
     <flag>CountsTowardEconomicScore</flag>
     <flag>DEAfricanSpecialTech</flag>
     <effects>
-      <effect type="Data" action="TrickleFood" amount="1.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">ypGoat</target>
+      <effect type="Data2" action="Gather" amount="1.15" subtype="WorkRateSpecific" resource="Food" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.15" subtype="WorkRateSpecific" resource="Gold" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.15" subtype="WorkRateSpecific" resource="Wood" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
       </effect>
     </effects>
   </tech>
@@ -6874,10 +6887,7 @@
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
-        <target type="ProtoUnit">deGascenya</target>
-      </effect>
-      <effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
-        <target type="ProtoUnit">deShotelWarrior</target>
+        <target type="ProtoUnit">AbstractHandInfantry</target>
       </effect>
       <effect type="TextOutputTechName">110130</effect>
     </effects>
@@ -6893,10 +6903,7 @@
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">deGascenya</target>
-      </effect>
-      <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">deShotelWarrior</target>
+        <target type="ProtoUnit">AbstractHandInfantry</target>
       </effect>
       <effect type="TextOutputTechName">110130</effect>
     </effects>
@@ -6912,16 +6919,10 @@
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">deGascenya</target>
+        <target type="ProtoUnit">AbstractHandInfantry</target>
       </effect>
       <effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
-        <target type="ProtoUnit">deGascenya</target>
-      </effect>
-      <effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
-        <target type="ProtoUnit">deShotelWarrior</target>
-      </effect>
-      <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">deShotelWarrior</target>
+        <target type="ProtoUnit">AbstractHandInfantry</target>
       </effect>
       <effect type="TextOutputTechName">110130</effect>
     </effects>
@@ -14524,14 +14525,14 @@
     <rollovertextid>104527</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" action="TrickleFood" amount="1.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">deSangaCattle</target>
+      <effect type="Data2" action="Gather" amount="1.20" subtype="WorkRateSpecific" resource="Food" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="Data" action="TrickleFood" amount="1.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">deZebuCattle</target>
+      <effect type="Data2" action="Gather" amount="1.20" subtype="WorkRateSpecific" resource="Gold" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="Data" action="TrickleFood" amount="1.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">deChonkyCattle</target>
+      <effect type="Data2" action="Gather" amount="1.20" subtype="WorkRateSpecific" resource="Wood" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
       </effect>
       <effect type="TextOutputTechName">110130</effect>
     </effects>
@@ -14927,6 +14928,153 @@
       </effect>
       <effect type="Data" amount="0.7500" subtype="UnitRegenRateLimit" unittype="Minuteman" relativity="Absolute">
         <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DENatSomaliCoinage" type="Normal">
+    <dbid>8078</dbid>
+    <displaynameid>102686</displaynameid>
+    <cost resourcetype="Food">200.0000</cost>
+    <cost resourcetype="Wood">200.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\natives\som_coinage.png</icon>
+    <rollovertextid>102685</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <flag>YPNativeImprovement</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="ResourceTrickleRate" resource="Gold" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DENatSomaliJileDaggers" type="Normal">
+    <dbid>8079</dbid>
+    <displaynameid>102688</displaynameid>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\natives\som_daggers.png</icon>
+    <rollovertextid>102687</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>YPNativeImprovement</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="DamageForAllHandLogicActions" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DENatSomaliEngineers" type="Normal">
+    <dbid>8080</dbid>
+    <displaynameid>102690</displaynameid>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>50.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\natives\som_ajuran.png</icon>
+    <rollovertextid>102689</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>YPNativeImprovement</flag>
+    <effects>
+      <effect type="Data" amount="15.00" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">AbstractOutpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DENatSomaliOryxShields" type="Normal">
+    <dbid>8084</dbid>
+    <displaynameid>102700</displaynameid>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Food">200.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\natives\som_oryx_shields.png</icon>
+    <rollovertextid>102699</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <flag>YPNativeImprovement</flag>
+    <effects>
+      <effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractHandInfantry</target>
+      </effect>
+      <effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractRangedInfantry</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DENatSomaliLighthouses" type="Normal">
+    <dbid>8085</dbid>
+    <displaynameid>102704</displaynameid>
+    <cost resourcetype="Wood">250.0000</cost>
+    <cost resourcetype="Gold">250.0000</cost>
+    <researchpoints>50.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\natives\som_lighthouse.png</icon>
+    <rollovertextid>102703</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <flag>YPNativeImprovement</flag>
+    <effects>
+      <effect type="Data" action="DefendRangedAttack" amount="4.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deNatMercSomaliDarood</target>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="4.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deNatMercSomaliDarood</target>
+      </effect>
+      <effect type="Data" action="VolleyRangedAttack" amount="4.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deNatMercSomaliDarood</target>
+      </effect>
+      <effect type="Data" action="DefendRangedAttack" amount="4.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deNatSomaliDarood</target>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="4.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deNatSomaliDarood</target>
+      </effect>
+      <effect type="Data" action="VolleyRangedAttack" amount="4.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deNatSomaliDarood</target>
+      </effect>
+
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DENatAkanGoldEconomy" type="Normal">
+    <dbid>8064</dbid>
+    <displaynameid>102671</displaynameid>
+    <cost resourcetype="Food">375.0000</cost>
+    <cost resourcetype="Wood">375.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\natives\aka_gold_economy.png</icon>
+    <rollovertextid>102670</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <flag>YPNativeImprovement</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deProspectorWagonGold" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DENatYorubaTwins" type="Normal">
+    <dbid>8053</dbid>
+    <displaynameid>102653</displaynameid>
+    <cost resourcetype="Gold">250.0000</cost>
+    <cost resourcetype="Wood">250.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\natives\yor_twins.png</icon>
+    <rollovertextid>102652</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>YPNativeImprovement</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="BuildLimit" relativity="BasePercent">
+        <target type="ProtoUnit">deNatYorubaLegionary</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="BuildLimit" relativity="BasePercent">
+        <target type="ProtoUnit">deNatMercYorubaLegionary</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="BuildLimit" relativity="BasePercent">
+        <target type="ProtoUnit">deNatYorubaRider</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="BuildLimit" relativity="BasePercent">
+        <target type="ProtoUnit">deNatMercYorubaRider</target>
       </effect>
     </effects>
   </tech>
