@@ -61,8 +61,8 @@
         <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
       </guardian>
     </gaiaempowerdata>
-    <maxrange>10</maxrange>
-    <typedmaxrange type="military">18</typedmaxrange>
+    <maxrange>12</maxrange>
+    <typedmaxrange type="military">12</typedmaxrange>
     <typedmaxrange type="abstractdock">2</typedmaxrange>
     <typedmaxrange type="building">0</typedmaxrange>
     <typedmaxrange type="resource">0</typedmaxrange>
@@ -70,7 +70,7 @@
   <action>
     <name stringid="69155">Heal</name>
     <type>Heal</type>
-    <maxrange>16</maxrange>
+    <maxrange>12</maxrange>
     <rate type="LogicalTypeHealed">10.0</rate>
     <anim>Heal</anim>
   </action>

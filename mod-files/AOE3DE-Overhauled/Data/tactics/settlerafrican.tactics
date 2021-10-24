@@ -34,7 +34,7 @@
       <unittype>AbstractChurch</unittype>
     </donotautogatherunlessgatheringtypes>
     <persistent>1</persistent>
-    <rate type="Influence">0.350000</rate>
+    <rate type="Influence">0.250000</rate>
   </action>
   <action>
     <name stringid="69148">Discover</name>

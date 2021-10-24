@@ -219,15 +219,18 @@
 	    <string _locid="101138">Trains Villagers and Outpost HP aura.</string>
 	    <string _locid="101138">Unique church that improves the base hitpoints of nearby combat buildings and can train Villagers.</string>
 	    <string _locid="101139">Mountain Monastery. Trains villagers and improves the base hitpoints of nearby combat buildings. Gatherers can be tasked to it to generate Influence.</string>
-	    <string _locid="101143">Abun. Heals injured units from range and improves the work and build rates of nearby buildings. Can gather Influence from Mountain Monasteries quicker than a Villager.</string>
+	    <string _locid="101143">Abun. Heals injured units from range and can gather Influence from Mountain Monasteries quicker than a Villager.</string>
 	    <string _locid="101165">Musician who can inspire buildings and heal nearby allies.</string>
 	    <string _locid="101166">Griot. Inspiring musician and storyteller who can heal allies, increase the work rate of buildings, and buff the speed of nearby units.</string>
 	    <string _locid="101201">Foreign Aid</string>
 	    <string _locid="101215">Town Center attack increased, especially against Cavalry.</string>
+	    <string _locid="101221">Desert outlaws take less population, move and train faster.</string>
 	    <string _locid="101232">Ships 2 Palace Builders, 3 Camp Builders and increases build limits. Researches Fortified Cities.</string>
 	    <string _locid="101233">Levied Spearmen and Levied Gunners no longer lose hitpoints and have all damage penalties removed.</string>
 	    <string _locid="101277">2 Abuns</string>
 	    <string _locid="101278">4 Abuns</string>
+	    <string _locid="101281">2 Griots</string>
+	    <string _locid="101282">4 Griots</string>
 	    <string _locid="101282">10 Griots</string>
 	    <string _locid="101287">5 Shotel Warriors</string>
 	    <string _locid="101288">8 Shotel Warriors</string>
@@ -249,10 +252,11 @@
 	    <string _locid="102532">Armored mounted skirmisher mercenary with a powerful long ranged attack. Good versus heavy infantry, light cavalry, and artillery. </string>
 	    <string _locid="102542">Berber warrior riding a fast camel, good at raiding villagers or buildings.</string>
 	    <string _locid="102553">Armored cannoneer mercenary from Portugal who fires a heavy musket inflicting splash damage.</string>
-	    <string _locid="102561">Egyptian mercenary equipped with an automatic-fire gun mounted on a camel. Good against infantry.</string> 
+	    <string _locid="102561">Egyptian mercenary equipped with an automatic-fire gun mounted on a camel. Good against infantry and artillery.</string> 
 	    <string _locid="102578">Somali militiaman of the Darood clan armed with powerful, but slow firing rifles.</string>
 	    <string _locid="102582">Heavy ranged Somali javelineer. Counters Heavy Cavalry and Hand Shock Infantry from range.</string>
 	    <string _locid="102586">Fast Sudanese shock infantry which tosses knives from range. Good against heavy cavalry and hand shock infantry.</string>
+	    <string _locid="102590">Quick-training and fast moving powerful lancer that slowly loses hitpoints.</string>
 	    <string _locid="102595">Mercenary Rider of the Berber Zenata armed with a shield and javelins. Good against skirmishers, foot archers, and artillery.</string>
 	    <string _locid="102601">Battle-tested female mercenary of the Dahomey armed with knives. Good against heavy cavalry and shock infantry.</string>
 	    <string _locid="102652">Increases the amount of Yoruba Legionaries and Eso Riders that you can train.</string>
@@ -263,16 +267,18 @@
 	    <string _locid="102699">All Ranged and Hand Infantry gain additional hitpoints.</string>
 	    <string _locid="102703">Darood Militia gain increased range.</string>
 	    <string _locid="102849">All Cavalry move faster and Hand Cavalry deal more damage to buildings.</string>
+	    <string _locid="102845">Emirs gain more hitpoints and deal more damage, especially against against Heroes. Additionally, slaying Heroes now grants a large sum of Influence and Emirs gain additional attack and hitpoints from nearby enemy military units.</string>
 	    <string _locid="102850">Javelin Riders have increased hitpoints and damage.</string>
-	    <string _locid="102853">Ships 1 Griot and 1 University Builder for educational purposes. Increases University and Griot build limit by +1.</string>
+	    <string _locid="102853">Ships 1 Griot and 1 University Builder for educational purposes. Increases University build limit by +1.</string>
 	    <string _locid="102855">Universities improve the construction speed and work rate of nearby buildings by 25%. Work Rate bonus is reduced for Town Centers.</string>
 	    <string _locid="102858">Ships 1 Palace Wagon and 3 Maigadi. Increases Palace build limit by 1.</string>
 	    <string _locid="102859">Researches City Walls, increases Gate hitpoints, and enables Gates to grant nearby units an 8% attack bonus.\n • Damage Aura scales off of units' CURRENT damage within a 24 radius.</string>
 	    <string _locid="102860">TEAM Wall hitpoints are improved by nearby military units.\n • Hitpoint Improvement Rate is +10% BASE hitpoints for each military unit within a 24 radius.</string>
 	    <string _locid="102861">TEAM Gates have greatly increased Line of Sight and hitpoints.</string>
-	    <string _locid="102862">Allows Levies to garrison inside Watch Towers and Palace. All units garrisoned in a Watch Tower or Palace improve its damage by 10% per unit.\n • Towers can garrison up to 20 units, and Palaces can garrison up to 50 units</string>
+	    <string _locid="102862">Increases the damage of all buildings.</string>
 	    <string _locid="102867">Converts all Villagers into Fulani Archers.</string>
 	    <string _locid="102868">Each Gobir Rider and Lifidi trained so far grants a fraction of its cost as Influence into the stockpile.\n • Conversion Rate is 10% of unit cost as influence rounded up, (e.g. 18 per Gobir Rider and 20 per Lifidi Knight).</string>
+	    <string _locid="102869">Griot speed, healing range, and build limit increased.</string>
 	    <string _locid="102870">Griots regenerate hitpoints outside of combat much more quickly and greatly increases the amount they can heal.</string>
 	    <string _locid="102878">Grants a small sum of food for each of your fields on the map. Improves food gathering on fields.\n • Deposits 30 Food for each Field you've built, up to 2100 Food.</string>
 	    <string _locid="102881">Particularly fattened Cattle containing 800 Food.</string>
@@ -289,7 +295,8 @@
 	    <string _locid="103045">20 Semi-fattened Goats and 2 Livestock Market Builders</string>
 	    <string _locid="103110">Fulani Archers gain a long range attack. Enables Fulani Archers to train Goats and harvest Food from Herdables. Additionally, they gather Wood from Trees much more quickly and Trees last longer for them.</string>
 	    <string _locid="103114">Villagers gather faster, particularly from natural resources. Fulani Archers gather Wood from Trees more quickly.</string>
-	    <string _locid="103131">Passive Ability: Mountain Monasteries improve the BASE hitpoints of nearby combat buildings (this stacks with other Mountain Monasteries).</string>
+	    <string _locid="103124">Fulani Migrations: Fulani Archers can now gather from herdables and train Goats. Additionally, they chop wood more quickly and gain a long-ranged attack.</string>
+	    <string _locid="103131">Passive Ability: Mountain Monasteries improve the BASE hitpoints of nearby combat buildings by 15% (this stacks multiplicatively with other Mountain Monasteries).</string>
 	    <string _locid="103135">Granaries attract huntable animals.</string>
 	    <string _locid="103172">Unlocks Corsair Marksmen (Rifle Infantry) at Palaces. Ships 1 Palace Builder.</string>
 	    <string _locid="103190">Arma Garrisons: Corsair Marksmen unlocked at Palaces. Ships 1 Palace Wagon.</string>
@@ -326,10 +333,9 @@
 	    <string _locid="103401" symbol="cStringSonghaiButtonDisabledRollover">You cannot dispatch Gobir Riders right now</string>
 	    <string _locid="103425">You receive Tokens of 500 Influence for every Town Center you currently own.</string>
 	    <string _locid="104021">Gobir Rider attack and hitpoints increased.</string>
-	    <string _locid="104113">Villagers gather Coin from Fields faster. Gobir Riders and Fulani now cost Gold instead of Wood to train.</string>
 	    <string _locid="104121">Fulani Uprising</string>
 	    <string _locid="104501">Granaries now also improve nearby Food and Wood gathering.\n • Wood Gathering: +10%\n • Animals + Berries: +10%</string>
-	    <string _locid="104511">Improves the effectiveness and range of Abuns' building work and construction rate auras. Additionally, Abuns move more quickly and have more LOS.</string>
+	    <string _locid="104511">Abuns are cheaper, move more quickly, and have more LOS.</string>
 	    <string _locid="104512">Foot Archer Combat</string>
 	    <string _locid="104521">Villagers gather Food faster from hunted animals, berries and fields. Berries and hunted animals last longer.</string>
 	    <string _locid="104527">Villagers gather Coin and Food from Fields faster.</string>
@@ -651,6 +657,7 @@
 	    <string _locid="270093">Mountain Gun</string>
 	    <string _locid="270094">AR Mountain Gun</string>
 	    <string _locid="270095">Gather Influence</string>
+	    <string _locid="270096">Villagers gather Coin from Fields faster. Gobir Riders and Fulani now cost Gold instead of Wood to train.</string>
 	</Language>
   </StringTable>
 </stringmods>

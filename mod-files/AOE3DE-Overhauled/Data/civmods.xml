@@ -735,11 +735,6 @@
       <idletimeout>3.5</idletimeout>
     </unitregen>
     <unitregen>
-      <unittype>deGriot</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
       <unittype>Spahi</unittype>
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>

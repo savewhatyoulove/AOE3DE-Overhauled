@@ -93,6 +93,11 @@ Units:
   -- Siege: Improved to 40 from 15
   -- Ranged Attack: Improved to 40 w/ 17 range and 2.0 ROF from 30 w/ 12 range and 3.0 ROF. All multipliers removed. 0.5x AbstractVillager, 0.5x AbstractInfantry, 3.5x AbstractHeavyInfantry, 0.75x AbstractCavalry/AbstractLightInfantry, 2.5x AbstractLightCavalry/xpEagleKnight, and 3x AbstractArtillery added.
  -- Melee Attack: Improved to 30 from 15, All multipliers removed, 0.5x AbstractInfantry, 3.5x AbstractHeavyInfantry, 0.75x AbstractCavalry/AbstractLightInfantry, 2.5x AbstractLightCavalry/xpEagleKnight, and 3x AbstractArtillery added.
+-- Askari: 
+  -- Speed reduced from 4.5 to 4.25
+  -- LOS improved to 18 from 16
+  -- Ranged Cavalry Multipliers changed to 2.0x AbstractHeavyCavalry and 1.5x AbstractCoyoteMan from 2.0x AbstractCavalry and 1.5x AbstractLightInfantry
+  -- 2.0x AbstractHeavyCavalry and 1.5x AbstractLightInfantry added to melee attacks.
 
 Shipments:
 -- Colonial Militia: Reworked
@@ -531,7 +536,7 @@ Shipments:
 
 Ethiopia:
 
-New Civ Bonus: Mountain Monasteries can train villagers in addition to Town Centers, but villagers train more slowly (40s instead of 25). Starts with a Mountain Monastery builder
+New Civ Bonus: Mountain Monasteries can train villagers in addition to Town Centers, but villagers train more slowly (40s instead of 25). Starts with a Mountain Monastery builder. Gatherers can be tasked to Mountain Monasteries to generate influence (0.35/s for a Villager, 0.5/s for an Abun)
 
 - 4 Starting Zebu Food increased to 150 from 135.
 - Now starts with an Abun
@@ -556,9 +561,9 @@ Building Changes:
 Mountain Monastery:
 Cost: Reduced to 150 from 170
 Can now train villagers
-Now provides a +20% BASE HP aura to all nearby Town Centers and Fortifications.
+Now provides a +15% BASE HP aura to all nearby Town Centers and Fortifications. (this stacks multiplicatively with other Mountain Monasteries)
 Heal Aura removed
-Built Limit: Reduced to 2 from 1, (this is compensated for in the Imperial Age)
+Built Limit: Reduced to 2 from 1, (this is compensated for in the Industrial Age)
 
 Unit Changes:
 
@@ -568,7 +573,7 @@ HP: Increased to 160 from 135
 Armor: Increased to 30 melee from 20
 Ranged Attack Removed.
 Tags: AbstractHandInfantry added, AbstractRangedInfantry, AbstractMusketeer removed.
-Melee Damage: Increased to 16 from 15; multipliers reduced to 2.5x AbstractCavalry and 1.75x AbstractCoyoteMan from 3x and 2.25x, 1.5x AbstractHeavyInfantry added.
+Melee Damage: Increased to 16 from 15; multipliers reduced to 2.5x AbstractCavalry and 1.75x AbstractCoyoteMan from 3x and 2.25x
 Siege Damage: Improved to 32 from 24
 
 
@@ -593,8 +598,7 @@ Melee Attack: Increased to 50 from 42, all multipliers removed. 0.6x AbstractLig
 Abun:
 Population Cost: Reduced to 0 from 1.
 Heal: Can no longer heal in combat, default range reduced to 12 from 18.
-Can no longer gather from Mountain Monasteries
-Now has a 5% Building Work Rate and Construction Rate aura within 18 range. This softcaps at 10 Abun
+Abuns can now directly gather influence from a Mountain Monatery. This is 0.5/s (twice the rate of a villager)
 
 Sebastopol Mortar:
 Now Home City exclusive units, with a build limit of 2.
@@ -621,7 +625,7 @@ Shipment Changes:
 -- 2 palace wagon shipment (III) now increases palace build limit by +2.
 -- 3/5 Abun increased to 4/6
 -- Medicine Removed
--- Tabot Reworked: Now improved Abun speed by +25%, increases their LOS by +6, and enables improved building work and construction rate auras (8% per Abun instead of 5% and 24 range instead of 18).
+-- Tabot Reworked: Now improved Abun speed by +25%, increases their LOS by +6, reduces their cost by 33% (150 --> 100).
 -- Counter Cavalry Tactics Added: +0.25 speed for AbstractHandInfantry, Gascenya get +0.5x AbstractLightInfantry and AbstractCavalry, and Shotel Warriors get +1.0x AbstractHeavyCavalry and AbstractCoyoteMan
 -- Abun shipments no longer increase build limit. 
 -- 1 Sebastopol Mortar (III), 2 Sebastopol Mortars (IV) removed.
@@ -661,6 +665,8 @@ Emir:
 -- No longer has damage multipliers for AbstractCoyoteMan or AbstractHeavyCavalry
 
 Griot: 
+-- Speed: Reduced to 4.5 from 5
+-- Population: Reduced from 1 to 0
 -- No longer has access to the vuvuzuela attack or enemy attack slow
 -- Now autoheals for 0.25% HP/s when outside of combat for 3.5s (same as explorer)
 
@@ -700,7 +706,8 @@ Lifidi Knight:
 -- 1.25x AbstractArtillery multiplier added.
 
 Shipment Changes:
--- 8 Griots +8 Build Limit (IV) improved to 10 Griots +10 Build Limit
+-- 4 Griots (II) changed to 2 Griots (I)
+-- 8 Griots +8 Build Limit (IV) changed to 4 Griots (II)
 -- 5 Raiders reduced to 4 Gobir Riders
 -- 7 Raiders INF reduced to 6 Gobir Riders INF
 -- Gwandu (9 Fulani + 5 Lifidi) reduced to 4 Lifidi
@@ -728,6 +735,8 @@ Shipment Changes:
 -- Sarkin Dogari improved to +1x AbstractCavalry/0.5x AbstractLightInfantry from 0.5/0.3x, respectively.
 -- Durbar Parade Reworked: Now provides +0.25 speed to ALL Cavalry and a +1.25x multiplier against Buildings for AbstractHandCavalry. Moved to Age 2 from 3
 -- Zazzau Cavalry Reworked: Now provides +20% ATK/HP to Javelin Riders, moved to the Fortress Age.
+-- Cult of the Dodo now provides Griots +1.0 speed instead of +25%, build limit increased to +5 from +2
+-- Kingslayer Reworked: Now provides +2.5x Heroes instead of 4.5x. Adds +50% ATK/HP to Emirs and converts all bounties for enemy Heroes into influence (and provides an additonal +100%) Moved to age 2.
 
 -- TODO: 
   -- Fix African Mercs/Natives
