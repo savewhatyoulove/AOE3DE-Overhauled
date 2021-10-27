@@ -253,6 +253,15 @@
     <train mergeMode='remove' row="0" page="12" column="5">deUSCavalry</train>
     <train row="0" page="12" column="5">deSpurRider</train>
   </unit>
+  <unit id="813" name="Saloon">
+    <train mergeMode='remove' row="0" page="0" column="28">deMercNapoleonGun</train>
+  </unit>
+  <unit id="920" name="ypMonastery">
+    <train mergeMode='remove' row="0" page="0" column="28">deMercNapoleonGun</train>
+  </unit>
+  <unit id="1749" name="deTavern">
+    <train mergeMode='remove' row="0" page="0" column="28">deMercNapoleonGun</train>
+  </unit>
   <unit mergeMode='replace' id="1649" name="deHomesteadWagon">
     <dbid>2220</dbid>
     <displaynameid>91597</displaynameid>
@@ -10778,33 +10787,33 @@
   </unit>
   <unit mergeMode='replace' id="1759" name="deMercNapoleonGun">
     <dbid>2330</dbid>
-    <displaynameid>110215</displaynameid>
-    <editornameid>110216</editornameid>
+    <displaynameid>270093</displaynameid>
+    <editornameid>270094</editornameid>
     <populationcount>5</populationcount>
     <obstructionradiusx>0.9900</obstructionradiusx>
     <obstructionradiusz>0.9900</obstructionradiusz>
     <formationcategory>Protected</formationcategory>
-    <maxvelocity>3.5000</maxvelocity>
-    <maxrunvelocity>6.5000</maxrunvelocity>
+    <maxvelocity>3.2500</maxvelocity>
+    <maxrunvelocity>6.2500</maxrunvelocity>
     <movementtype>land</movementtype>
     <turnrate>3.0000</turnrate>
     <animfile>units\mercenaries\napoleon_gun\napoleon_gun.xml</animfile>
     <impacttype>Wood</impacttype>
     <icon>resources\art\units\mercenaries\napoleon_gun\napoleon_gun_icon.png</icon>
     <portraiticon>resources\art\units\mercenaries\napoleon_gun\napoleon_gun_portrait.png</portraiticon>
-    <rollovertextid>110218</rollovertextid>
-    <shortrollovertextid>110217</shortrollovertextid>
-    <initialhitpoints>230.0000</initialhitpoints>
-    <maxhitpoints>230.0000</maxhitpoints>
-    <los>28.0000</los>
+    <rollovertextid>270092</rollovertextid>
+    <shortrollovertextid>270091</shortrollovertextid>
+    <initialhitpoints>250.0000</initialhitpoints>
+    <maxhitpoints>250.0000</maxhitpoints>
+    <los>30.0000</los>
     <projectileprotounit>Cannonball</projectileprotounit>
     <unitaitype>RangedCombative</unitaitype>
     <trainpoints>45.0000</trainpoints>
     <bounty>50.0000</bounty>
     <buildbounty>50.0000</buildbounty>
-    <cost resourcetype="Gold">500.0000</cost>
+    <cost resourcetype="Influence">500.0000</cost>
     <allowedage>2</allowedage>
-    <armor type="Ranged" value="0.6"/>
+    <armor type="Ranged" value="0.75"/>
     <unittype>LogicalTypeHealed</unittype>
     <unittype>LogicalTypeNeededForVictory</unittype>
     <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
@@ -10825,9 +10834,6 @@
     <unittype>Unit</unittype>
     <unittype>UnitClass</unittype>
     <unittype>Military</unittype>
-    <unittype>Mercenary</unittype>
-    <unittype>FortressMercenary</unittype>
-    <unittype>LogicalTypePickableMerc</unittype>
     <flag>CollidesWithProjectiles</flag>
     <flag>ApplyHandicapTraining</flag>
     <flag>CorpseDecays</flag>
@@ -10846,44 +10852,31 @@
     <tactics>napoleongun.tactics</tactics>
     <protoaction>
       <name>CannonAttack</name>
-      <damage>75.000000</damage>
-      <damagetype>Siege</damagetype>
-      <minrange>11.500000</minrange>
-      <maxrange>23.000000</maxrange>
-      <rof>3.000000</rof>
-      <damagecap>200.000000</damagecap>
-      <damagebonus type="AbstractInfantry">3.000000</damagebonus>
-      <damagebonus type="Ship">2.000000</damagebonus>
-      <damagebonus type="xpArrowKnight">0.500000</damagebonus>
-      <damagearea>2.000000</damagearea>
-      <damageflags>GAIAEnemy</damageflags>
-    </protoaction>
-    <protoaction>
-      <name>CaseShotAttack</name>
-      <damage>7.500000</damage>
+      <damage>150.000000</damage>
       <damagetype>Siege</damagetype>
       <minrange>0.000000</minrange>
-      <maxrange>11.500000</maxrange>
+      <maxrange>26.000000</maxrange>
       <rof>3.000000</rof>
-      <damagecap>16.000000</damagecap>
-      <damagearea>3.000000</damagearea>
+      <damagecap>300.000000</damagecap>
+      <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
+      <damagebonus type="AbstractArtillery">0.750000</damagebonus>
+      <damagebonus type="Ship">2.000000</damagebonus>
+      <damagearea>2.000000</damagearea>
       <damageflags>GAIAEnemy</damageflags>
-      <damagebonus type="AbstractInfantry">3.000000</damagebonus>
-      <damagebonus type="xpArrowKnight">0.500000</damagebonus>
-      <damagebonus type="AbstractCavalry">0.500000</damagebonus>
-      <damagebonus type="AbstractLightInfantry">0.500000</damagebonus>
     </protoaction>
     <protoaction>
       <name>BombardAttack</name>
-      <damage>75.000000</damage>
+      <damage>150.000000</damage>
       <damagetype>Siege</damagetype>
       <minrange>0.000000</minrange>
-      <maxrange>11.500000</maxrange>
+      <maxrange>26.000000</maxrange>
       <rof>3.000000</rof>
-      <damagecap>200.000000</damagecap>
+      <damagecap>300.000000</damagecap>
       <damagearea>2.000000</damagearea>
       <damageflags>GAIAEnemy</damageflags>
       <damagebonus type="Ship">2.000000</damagebonus>
+      <damagebonus type="AbstractArtillery">0.750000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
     </protoaction>
   </unit>
   <unit mergeMode='replace' id="1753" name="deInspiringFlag">
@@ -11177,7 +11170,7 @@
     <projectileprotounit>MortarShell</projectileprotounit>
     <unitaitype>RangedCombative</unitaitype>
     <trainpoints>60.0000</trainpoints>
-    <buildlimit>2</buildlimit>
+    <buildlimit>4</buildlimit>
     <bounty>70.0000</bounty>
     <buildbounty>70.0000</buildbounty>
     <cost resourcetype="Wood">100.0000</cost>
@@ -14246,114 +14239,6 @@
       <damageflags>GAIAEnemy</damageflags>
     </protoaction>
   </unit>
-  <unit mergeMode='replace' id="1759" name="deMercNapoleonGun">
-    <dbid>2330</dbid>
-    <displaynameid>110215</displaynameid>
-    <editornameid>110216</editornameid>
-    <populationcount>5</populationcount>
-    <obstructionradiusx>0.9900</obstructionradiusx>
-    <obstructionradiusz>0.9900</obstructionradiusz>
-    <formationcategory>Protected</formationcategory>
-    <maxvelocity>3.2500</maxvelocity>
-    <maxrunvelocity>6.0000</maxrunvelocity>
-    <movementtype>land</movementtype>
-    <turnrate>3.0000</turnrate>
-    <animfile>units\mercenaries\napoleon_gun\napoleon_gun.xml</animfile>
-    <impacttype>Wood</impacttype>
-    <icon>resources\art\units\mercenaries\napoleon_gun\napoleon_gun_icon.png</icon>
-    <portraiticon>resources\art\units\mercenaries\napoleon_gun\napoleon_gun_portrait.png</portraiticon>
-    <rollovertextid>110218</rollovertextid>
-    <shortrollovertextid>110217</shortrollovertextid>
-    <initialhitpoints>230.0000</initialhitpoints>
-    <maxhitpoints>230.0000</maxhitpoints>
-    <los>28.0000</los>
-    <projectileprotounit>Cannonball</projectileprotounit>
-    <unitaitype>RangedCombative</unitaitype>
-    <trainpoints>45.0000</trainpoints>
-    <bounty>50.0000</bounty>
-    <buildbounty>50.0000</buildbounty>
-    <cost resourcetype="Gold">500.0000</cost>
-    <allowedage>2</allowedage>
-    <armor type="Ranged" value="0.5"/>
-    <unittype>LogicalTypeHealed</unittype>
-    <unittype>LogicalTypeNeededForVictory</unittype>
-    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
-    <unittype>LogicalTypeLandMilitary</unittype>
-    <unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
-    <unittype>LogicalTypeGarrisonInShips</unittype>
-    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
-    <unittype>LogicalTypeVillagersAttack</unittype>
-    <unittype>LogicalTypeHandUnitsAttack</unittype>
-    <unittype>LogicalTypeRangedUnitsAttack</unittype>
-    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
-    <unittype>ConvertsHerds</unittype>
-    <unittype>AbstractArtillery</unittype>
-    <unittype>AbstractGunpowderTrooper</unittype>
-    <unittype>CountsTowardMilitaryScore</unittype>
-    <unittype>HasBountyValue</unittype>
-    <unittype>Ranged</unittype>
-    <unittype>Unit</unittype>
-    <unittype>UnitClass</unittype>
-    <unittype>Military</unittype>
-    <unittype>Mercenary</unittype>
-    <unittype>FortressMercenary</unittype>
-    <unittype>LogicalTypePickableMerc</unittype>
-    <flag>CollidesWithProjectiles</flag>
-    <flag>ApplyHandicapTraining</flag>
-    <flag>CorpseDecays</flag>
-    <flag>ShowGarrisonButton</flag>
-    <flag>DontRotateObstruction</flag>
-    <flag>ObscuredByUnits</flag>
-    <flag>RotateInPlace</flag>
-    <flag>ConstrainOrientation</flag>
-    <flag>OrientUnitWithGround</flag>
-    <flag>Tracked</flag>
-    <command page="10" column="1">Stop</command>
-    <command page="10" column="0">Garrison</command>
-    <command page="10" column="7">Delete</command>
-    <command page="9" column="0">Tactic4</command>
-    <command page="9" column="1">Tactic3</command>
-    <tactics>napoleongun.tactics</tactics>
-    <protoaction>
-      <name>CannonAttack</name>
-      <damage>75.000000</damage>
-      <damagetype>Siege</damagetype>
-      <minrange>11.500000</minrange>
-      <maxrange>23.000000</maxrange>
-      <rof>3.000000</rof>
-      <damagecap>200.000000</damagecap>
-      <damagebonus type="AbstractInfantry">3.000000</damagebonus>
-      <damagebonus type="Ship">2.000000</damagebonus>
-      <damagearea>2.000000</damagearea>
-      <damageflags>GAIAEnemy</damageflags>
-    </protoaction>
-    <protoaction>
-      <name>CaseShotAttack</name>
-      <damage>7.500000</damage>
-      <damagetype>Siege</damagetype>
-      <minrange>0.000000</minrange>
-      <maxrange>11.500000</maxrange>
-      <rof>3.000000</rof>
-      <damagecap>16.000000</damagecap>
-      <damagearea>3.000000</damagearea>
-      <damageflags>GAIAEnemy</damageflags>
-      <damagebonus type="AbstractInfantry">3.000000</damagebonus>
-      <damagebonus type="AbstractCavalry">0.500000</damagebonus>
-      <damagebonus type="AbstractLightInfantry">0.500000</damagebonus>
-    </protoaction>
-    <protoaction>
-      <name>BombardAttack</name>
-      <damage>75.000000</damage>
-      <damagetype>Siege</damagetype>
-      <minrange>0.000000</minrange>
-      <maxrange>11.500000</maxrange>
-      <rof>3.000000</rof>
-      <damagecap>200.000000</damagecap>
-      <damagearea>2.000000</damagearea>
-      <damageflags>GAIAEnemy</damageflags>
-      <damagebonus type="Ship">2.000000</damagebonus>
-    </protoaction>
-  </unit>
   <unit mergeMode='replace' id="1820" name="deEmir">
     <dbid>2395</dbid>
     <displaynameid>101016</displaynameid>
@@ -15010,13 +14895,13 @@
     <train row="0" page="0" column="28">MercJaeger</train>
     <train row="0" page="0" column="29">MercStradiot</train>
     <train row="0" page="0" column="30">MercLandsknecht</train>
-    <train row="0" page="0" column="31">deMercNapoleonGun</train>
     <train row="0" page="0" column="33">deMercSudaneseRider</train>
     <train row="0" page="0" column="35">deMercAskari</train>
     <train row="0" page="0" column="36">deMercAmazon</train>
     <train row="0" page="0" column="37">deMercZenata</train>
     <train row="0" page="0" column="39">deMercKanuri</train>
     <tech row="0" page="1" column="0">DEImportedCannons</tech>
+    <tech row="0" page="1" column="0">DEImportedCannonsEthiopia</tech>
     <tech row="0" page="1" column="1">DEPalaceTrainspeed</tech>
     <tech row="0" page="1" column="2">DEImprovedOutlaws</tech>
     <tech row="0" page="1" column="3">DEImperialMercenaries</tech>
@@ -17589,94 +17474,6 @@
       <rate type="Tree">0.000000</rate>
     </protoaction>
   </unit>
-
-  <unit id="2992" name="deEthiopiaLightCannon">
-    <dbid>9871</dbid>
-    <displaynameid>270093</displaynameid>
-    <editornameid>270094</editornameid>
-    <populationcount>5</populationcount>
-    <obstructionradiusx>0.9900</obstructionradiusx>
-    <obstructionradiusz>0.9900</obstructionradiusz>
-    <formationcategory>Protected</formationcategory>
-    <maxvelocity>3.5000</maxvelocity>
-    <maxrunvelocity>5.5000</maxrunvelocity>
-    <movementtype>land</movementtype>
-    <turnrate>3.0000</turnrate>
-    <animfile>units\africans\ethiopians\africa_falconet\african_falconet.xml</animfile>
-    <impacttype>Wood</impacttype>
-    <icon>resources\art\units\sx_light_cannon_icon.png</icon>
-    <portraiticon>resources\art\units\sx_light_cannon_portrait.png</portraiticon>
-    <rollovertextid>270092</rollovertextid>
-    <shortrollovertextid>270091</shortrollovertextid>
-    <initialhitpoints>250.0000</initialhitpoints>
-    <maxhitpoints>250.0000</maxhitpoints>
-    <los>30.0000</los>
-    <projectileprotounit>Cannonball</projectileprotounit>
-    <unitaitype>RangedCombative</unitaitype>
-    <trainpoints>45.0000</trainpoints>
-    <bounty>50.0000</bounty>
-    <buildbounty>50.0000</buildbounty>
-    <cost resourcetype="Wood">200.0000</cost>
-    <cost resourcetype="Gold">300.0000</cost>
-    <allowedage>2</allowedage>
-    <armor type="Ranged" value="0.7500"/>
-    <unittype>LogicalTypeHealed</unittype>
-    <unittype>LogicalTypeNeededForVictory</unittype>
-    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
-    <unittype>LogicalTypeLandMilitary</unittype>
-    <unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
-    <unittype>LogicalTypeGarrisonInShips</unittype>
-    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
-    <unittype>LogicalTypeVillagersAttack</unittype>
-    <unittype>LogicalTypeHandUnitsAttack</unittype>
-    <unittype>LogicalTypeRangedUnitsAttack</unittype>
-    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
-    <unittype>UnitClass</unittype>
-    <unittype>Military</unittype>
-    <unittype>Unit</unittype>
-    <unittype>AbstractArtillery</unittype>
-    <unittype>CountsTowardMilitaryScore</unittype>
-    <unittype>HasBountyValue</unittype>
-    <unittype>Ranged</unittype>
-    <unittype>ConvertsHerds</unittype>
-    <flag>RotateInPlace</flag>
-    <flag>RotateInPlace</flag>
-    <flag>CollidesWithProjectiles</flag>
-    <flag>CollidesWithProjectiles</flag>
-    <flag>ApplyHandicapTraining</flag>
-    <flag>ApplyHandicapTraining</flag>
-    <flag>CorpseDecays</flag>
-    <flag>CorpseDecays</flag>
-    <flag>ShowGarrisonButton</flag>
-    <flag>ShowGarrisonButton</flag>
-    <flag>DontRotateObstruction</flag>
-    <flag>DontRotateObstruction</flag>
-    <flag>ObscuredByUnits</flag>
-    <flag>ObscuredByUnits</flag>
-    <flag>ConstrainOrientation</flag>
-    <flag>OrientUnitWithGround</flag>
-    <flag>Tracked</flag>
-    <command page="10" column="1">Stop</command>
-    <command page="10" column="0">Garrison</command>
-    <command page="10" column="7">Delete</command>
-    <command page="9" column="0">Tactic4</command>
-    <command page="9" column="1">Tactic3</command>
-    <tactics>xplightcannon.tactics</tactics>
-    <protoaction>
-      <name>CannonAttack</name>
-      <damage>200.000000</damage>
-      <damagetype>Siege</damagetype>
-      <minrange>0.000000</minrange>
-      <maxrange>26.000000</maxrange>
-      <rof>5.000000</rof>
-      <damagecap>400.000000</damagecap>
-      <damagearea>3.000000</damagearea>
-      <damageflags>GAIAEnemy</damageflags>
-      <damagebonus type="Ship">2.000000</damagebonus>
-      <damagebonus type="AbstractArtillery">0.750000</damagebonus>
-    </protoaction>
-  </unit>
-
 </protomods>
 
 

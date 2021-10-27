@@ -213,7 +213,7 @@
 	    <string _locid="101063">Mobile Hand Light Cavalry with a powerful anti-building attack. Good against heavy cavalry, shock infantry, and artillery.</string>
 	    <string _locid="101067">Powerful heavy ranged infantry bodyguard with a deadly melee attack. Good against Heroes, Mercenaries, Spies, and Outlaws.</string>
 	    <string _locid="101071">Foot Archer armed with a short bow for a fast attack. Good against Heavy Infantry and Light Cavalry. Can chop Trees to slowly gather Wood.</string>
-	    <string _locid="101108">Gargantuan mortar which annihilates ships and buildings. Available only from the Home City.</string>
+	    <string _locid="101108">Gargantuan imported mortar which annihilates ships and buildings. Available in limited quantities only from the Home City.</string>
 	    <string _locid="101129">Lures nearby hunts</string>
 	    <string _locid="101130">Cheap building that lures nearby hunts. Contains hunting and farming upgrades.</string>
 	    <string _locid="101138">Trains Villagers and Outpost HP aura.</string>
@@ -653,11 +653,15 @@
 	    <string _locid="270089">3 Wild Elephants</string>
 	    <string _locid="270090">6 Wild Elephants</string>
 	    <string _locid="270091">Light artillery</string>
-	    <string _locid="270092">Light artillery. Good against infantry, ships, and buildings.</string>
+	    <string _locid="270092">Imported light artillery. Good against infantry, ships, and buildings.</string>
 	    <string _locid="270093">Mountain Gun</string>
 	    <string _locid="270094">AR Mountain Gun</string>
 	    <string _locid="270095">Gather Influence</string>
 	    <string _locid="270096">Villagers gather Coin from Fields faster. Gobir Riders and Fulani now cost Gold instead of Wood to train.</string>
+	    <string _locid="270097">Guard Mountain Gun</string>
+	    <string _locid="270098">Imperial Mountain Gun</string>
+	    <string _locid="270099">2 Mountain Guns</string>
+	    <string _locid="270100">4 Mountain Guns</string>
 	</Language>
   </StringTable>
 </stringmods>

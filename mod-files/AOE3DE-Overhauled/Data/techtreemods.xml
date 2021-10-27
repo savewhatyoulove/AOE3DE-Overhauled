@@ -930,13 +930,9 @@
       <effect type="Data" amount="1.40" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="Data" amount="0.3" subtype="Armor" relativity="Absolute">
+      <effect type="Data" amount="0.15" subtype="Armor" relativity="Absolute">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="Data" amount="-0.15" subtype="Armor" relativity="Absolute">
-        <target type="ProtoUnit">FishingBoat</target>
-      </effect>
-
       <effect type="TextOutput">80449</effect>
     </effects>
   </tech>
@@ -3204,6 +3200,18 @@
       <effect type="TechStatus" status="active">SaloonBlackRider</effect>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DESaloonNapoleonGun" type="Normal">
+    <dbid>7130</dbid>
+    <displaynameid>110322</displaynameid>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\artillery\leather_cannon\leather_cannon_icon.png</icon>
+    <prereqs>
+      <techstatus status="Active">Colonialize</techstatus>
+    </prereqs>
+    <effects>
+    </effects>
+  </tech>
   <tech name="DEHCShipMiners1" type="Normal">
     <dbid>2796</dbid>
     <displaynameid>220000</displaynameid>
@@ -5040,6 +5048,45 @@
       </effect>
     </effects>
   </tech>
+  <tech name="DEImportedCannonsEthiopia" type="Normal">
+    <dbid>9671</dbid>
+    <displaynameid>101387</displaynameid>
+    <cost resourcetype="Influence">300.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\imported_cannons.png</icon>
+    <rollovertextid>101595</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deArtilleryFoundryWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Culverin</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpPetard</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEAfricanInfluenceCosts" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="Data" amount="1.00" subtype="CalculateInfluenceCost" calctype="1" relativity="Override">
+        <target type="ProtoUnit">xpPetard</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="0.00" subtype="Cost" resource="Food" relativity="Override">
+        <target type="ProtoUnit">xpPetard</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Override">
+        <target type="ProtoUnit">xpPetard</target>
+      </effect>
+    </effects>
+  </tech>
+
   <tech mergeMode='replace' name="DEHCShipSudaneseAllies1" type="Normal">
     <dbid>8427</dbid>
     <displaynameid>101318</displaynameid>
@@ -6373,6 +6420,34 @@
       </effect>
     </effects>
   </tech>
+  <tech name="DEAAAfricanStandardStartingTechs" type="Normal">
+    <effects>
+      <effect type="TechStatus" status="obtainable">DEImportedCannons</effect>
+    </effects>
+  </tech>
+  <tech name="DEIndustrialCannonsAfricanShadow" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deMercNapoleonGun</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deMercNapoleonGun</target>
+      </effect>
+      <effect mergeMode='add' type="SetName" proto="deMercNapoleonGun" culture="none" newname="270097"/>
+    </effects>
+  </tech>
+  <tech name="DEImperialCannonsAfricanShadow" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deMercNapoleonGun</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deMercNapoleonGun</target>
+      </effect>
+      <effect mergeMode='add' type="SetName" proto="deMercNapoleonGun" culture="none" newname="270098"/>
+    </effects>
+  </tech>
+
   <tech name="DEAge0Ethiopian" type="Normal">
     <effects>
       <effect mergeMode='add' type="Data" amount="5000.00" subtype="Hitpoints" relativity="Assign">
@@ -6394,6 +6469,17 @@
       <effect mergeMode='add' type="CommandAdd" proto="deSettlerAfrican" page="11" column="4">
         <target type="ProtoUnit">deMountainMonastery</target>
       </effect>
+      <effect mergeMode='add' type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">ArtilleryDepot</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deMercNapoleonGun</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="1.00" subtype="AddTrain" unittype="deMercNapoleonGun" relativity="Absolute">
+        <target type="ProtoUnit">ArtilleryDepot</target>
+      </effect>
+      <effect mergeMode='add' type="TechStatus" status="obtainable">DEImportedCannonsEthiopia</effect>
+      <effect mergeMode='add' type="TechStatus" status="UNOBTAINABLE">DEImportedCannons</effect>
     </effects>
   </tech>
 
@@ -6736,6 +6822,7 @@
     <status>UNOBTAINABLE</status>
     <flag>Shadow</flag>
     <effects>
+      <effect mergeMode='add' type="TechStatus" status="obtainable">DEImportedCannons</effect>
       <effect mergeMode='add' type="Data" action="Hunting" amount="0.00" subtype="WorkRate" unittype="Herdable" relativity="Assign">
         <target type="ProtoUnit">deFulaWarrior</target>
       </effect>
@@ -9635,28 +9722,6 @@
     <flag>YPInfiniteTech</flag>
     <effects>
       <effect type="Data" amount="14.00" subtype="FreeHomeCityUnit" unittype="deMercZouave" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-    </effects>
-  </tech>
-  <tech name="DEHCMercsNapoleonGuns" type="Normal">
-    <dbid>9506</dbid>
-    <displaynameid>260003</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <cost resourcetype="Gold">1000.0000</cost>
-    <researchpoints>60.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\art\units\mercenaries\napoleon_gun\napoleon_gun_icon.png</icon>
-    <rollovertextid>260004</rollovertextid>
-    <flag>HomeCity</flag>
-    <effects>
-      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="deMercNapoleonGun" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect tech="DEFreeXPCratesAmericans" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect tech="DEHCSeaportsExtraXP" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateofXP" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -15119,7 +15184,7 @@
       </effect>
     </effects>
   </tech>
-  <tech name="DENatYorubaTwins" type="Normal">
+  <tech mergeMode='replace' name="DENatYorubaTwins" type="Normal">
     <dbid>8053</dbid>
     <displaynameid>102653</displaynameid>
     <cost resourcetype="Gold">250.0000</cost>
@@ -15142,6 +15207,34 @@
       </effect>
       <effect type="Data" amount="2.00" subtype="BuildLimit" relativity="BasePercent">
         <target type="ProtoUnit">deNatMercYorubaRider</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipMountainGuns1" type="Normal">
+    <dbid>9672</dbid>
+    <displaynameid>270099</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\napoleon_gun\napoleon_gun_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="deMercNapoleonGun" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipMountainGuns2" type="Normal">
+    <dbid>9673</dbid>
+    <displaynameid>270100</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\napoleon_gun\napoleon_gun_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="deMercNapoleonGun" relativity="Absolute">
+        <target type="Player"/>
       </effect>
     </effects>
   </tech>

@@ -487,6 +487,22 @@
       <displayunitcount>5</displayunitcount>
     </card>
     <card>
+      <name>DEHCShipMountainGuns1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>2</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCShipMountainGuns2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>4</displayunitcount>
+    </card>
+    <card>
       <name>DEHCShipSebastopolMortarRepeat</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -1453,6 +1469,8 @@
       <tech x="0.0" y="3.0">DEHCShipNeftenya1</tech>
       <tech x="0.0" y="3.0">DEHCShipNeftenya2</tech>
       <tech x="0.0" y="3.0">DEHCShipNeftenyaRepeat</tech>
+      <tech x="0.0" y="3.0">DEHCShipMountainGuns1</tech>
+      <tech x="0.0" y="3.0">DEHCShipMountainGuns2</tech>
       <tech x="0.0" y="3.0">DEHCShipSebastopolMortarRepeat</tech>
       <tech x="0.0" y="3.0">DEHCGascenyaDamage</tech>
       <tech x="0.0" y="3.0">DEHCGascenyaHitpoints</tech>
@@ -1492,6 +1510,8 @@
       <tech x="0.0" y="3.0">DEHCShipNeftenya1</tech>
       <tech x="0.0" y="3.0">DEHCShipNeftenya2</tech>
       <tech x="0.0" y="3.0">DEHCShipNeftenyaRepeat</tech>
+      <tech x="0.0" y="3.0">DEHCShipMountainGuns1</tech>
+      <tech x="0.0" y="3.0">DEHCShipMountainGuns2</tech>
       <tech x="0.0" y="3.0">DEHCShipSebastopolMortarRepeat</tech>
       <tech x="0.0" y="3.0">DEHCGascenyaDamage</tech>
       <tech x="0.0" y="3.0">DEHCGascenyaHitpoints</tech>
