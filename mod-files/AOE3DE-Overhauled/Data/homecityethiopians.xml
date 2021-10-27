@@ -374,6 +374,14 @@
       <age>3</age>
     </card>
     <card>
+      <name>DEHCGascenyaRebellion</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <displayunitcount>3</displayunitcount>
+      <age>3</age>
+    </card>
+    <card>
       <name>DEHCShipBowmen1</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -1456,6 +1464,7 @@
       <tech x="0.0" y="3.0">DEHCShipGascenya2</tech>
       <tech x="0.0" y="3.0">DEHCShipGascenya3</tech>
       <tech x="0.0" y="3.0">DEHCShipGascenya4</tech>
+      <tech x="0.0" y="3.0">DEHCGascenyaRebellion</tech>
       <tech x="0.0" y="3.0">DEHCShipLionsEthiopians1</tech>
       <tech x="0.0" y="3.0">DEHCShipLionsEthiopians2</tech>
       <tech x="0.0" y="3.0">DEHCShipLionsEthiopians3</tech>
@@ -1497,6 +1506,7 @@
       <tech x="0.0" y="3.0">DEHCShipGascenya2</tech>
       <tech x="0.0" y="3.0">DEHCShipGascenya3</tech>
       <tech x="0.0" y="3.0">DEHCShipGascenya4</tech>
+      <tech x="0.0" y="3.0">DEHCGascenyaRebellion</tech>
       <tech x="0.0" y="3.0">DEHCShipLionsEthiopians1</tech>
       <tech x="0.0" y="3.0">DEHCShipLionsEthiopians2</tech>
       <tech x="0.0" y="3.0">DEHCShipLionsEthiopians3</tech>

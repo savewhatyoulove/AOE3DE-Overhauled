@@ -15238,5 +15238,36 @@
       </effect>
     </effects>
   </tech>
+  <tech name="DEHCGascenyaRebellion" type="Normal">
+    <dbid>9674</dbid>
+    <displaynameid>270101</displaynameid>
+    <cost resourcetype="Influence">2500.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\revolution.png</icon>
+    <rollovertextid>270102</rollovertextid>
+    <flag>HomeCity</flag>
+    <flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</flag>
+    <effects>
+      <effect tech="deCardIgnoreBuildLimit" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deSebastopolMortar" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="deMercNapoleonGun" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TransformUnit" toprotoid="deGascenya" fromprotoid="Settler"/>
+      <effect type="TransformUnit" toprotoid="deGascenya" fromprotoid="Coureur"/>
+      <effect type="TransformUnit" toprotoid="deGascenya" fromprotoid="CoureurCree"/>
+      <effect type="TransformUnit" toprotoid="deGascenya" fromprotoid="SettlerNative"/>
+      <effect type="TransformUnit" toprotoid="deGascenya" fromprotoid="deSettlerAfrican"/>
+      <effect type="TransformUnit" toprotoid="deGascenya" fromprotoid="Pilgrim"/>
+      <effect type="TransformUnit" toprotoid="deGascenya" fromprotoid="ypSettlerAsian"/>
+      <effect type="TransformUnit" toprotoid="deGascenya" fromprotoid="ypSettlerJapanese"/>
+      <effect type="TransformUnit" toprotoid="deGascenya" fromprotoid="ypSettlerIndian"/>
+      <effect type="TextEffectOutput" path="ui\\alerts\\revolution.xml" selfmsg="270103" playermsg="270104"/>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
 
 </techtreemods>

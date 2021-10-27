@@ -662,6 +662,11 @@
 	    <string _locid="270098">Imperial Mountain Gun</string>
 	    <string _locid="270099">2 Mountain Guns</string>
 	    <string _locid="270100">4 Mountain Guns</string>
+	    <string _locid="270101">Kassa Rebellion</string>
+	    <string _locid="270102">Converts all Villagers into Gascenya. Additionally, you receive a shipment of 2 Mountain Guns and 1 Sebastopol Mortar.</string>
+	    <string _locid="270103">Kassa Rebellion! </string>
+	    <string _locid="270104">%s has REVOLTED!</string>
+
 	</Language>
   </StringTable>
 </stringmods>
