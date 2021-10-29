@@ -11507,8 +11507,8 @@
     <rollovertextid>101139</rollovertextid>
     <shortrollovertextid>101138</shortrollovertextid>
     <legacyhotkeycontext>MonasteryEthiopianAccel</legacyhotkeycontext>
-    <initialhitpoints>2000.0000</initialhitpoints>
-    <maxhitpoints>2000.0000</maxhitpoints>
+    <initialhitpoints>1500.0000</initialhitpoints>
+    <maxhitpoints>1500.0000</maxhitpoints>
     <los>38.0000</los>
     <unitaitype>RangedCombative</unitaitype>
     <displayedrange>38.0000</displayedrange>

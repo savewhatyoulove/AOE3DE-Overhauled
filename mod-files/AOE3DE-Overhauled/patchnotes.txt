@@ -536,7 +536,7 @@ Shipments:
 
 Ethiopia:
 
-New Civ Bonus: Mountain Monasteries can train villagers in addition to Town Centers, but villagers train more slowly (40s instead of 25). Starts with a Mountain Monastery builder. Gatherers can be tasked to Mountain Monasteries to generate influence (0.35/s for a Villager, 0.5/s for an Abun)
+New Civ Bonus: Mountain Monasteries can train villagers in addition to Town Centers, but villagers train more slowly (40s instead of 25). Starts with a Mountain Monastery builder and receive an additional one with each Age up (+2 in Industrial). Gatherers can be tasked to Mountain Monasteries to generate influence (0.35/s for a Villager, 0.5/s for an Abun)
 
 - 4 Starting Zebu Food increased to 150 from 135.
 - Now starts with an Abun
