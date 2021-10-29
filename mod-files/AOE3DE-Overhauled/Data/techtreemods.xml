@@ -5007,7 +5007,15 @@
     <effects>
     </effects>
   </tech>
-
+  <tech mergeMode='replace' name="DEConscriptSpearmen" type="Normal">
+    <dbid>6734</dbid>
+    <displaynameid>101212</displaynameid>
+    <cost resourcetype="Influence">150.0000</cost>
+    <researchpoints>5.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\conscript_levied_spearmen.png</icon>
+    <rollovertextid>101211</rollovertextid>
+  </tech>
   <tech name="DEConscriptGunners" type="Normal">
     <dbid>9657</dbid>
     <displaynameid>270071</displaynameid>
@@ -5444,128 +5452,55 @@
       </effect>
     </effects>
   </tech>
-  <tech mergeMode='replace' name="DEChampionInfantryEthiopian" type="Normal">
-    <dbid>6913</dbid>
-    <displaynameid>101577</displaynameid>
-    <cost resourcetype="Wood">800.0000</cost>
-    <cost resourcetype="Gold">800.0000</cost>
-    <researchpoints>30.0000</researchpoints>
+  <tech mergeMode='replace' name="DEHCFazogli" type="Normal">
+    <dbid>8391</dbid>
+    <displaynameid>104522</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\art\techs\africans\champion_infantry_eth.png</icon>
-    <rollovertextid>101575</rollovertextid>
-    <flag>CountsTowardMilitaryScore</flag>
-    <flag>UpgradeTech</flag>
-    <flag>DEUseMediumButton2</flag>
-    <prereqs>
-      <techstatus status="Active">Industrialize</techstatus>
-      <techstatus status="Active">DEEliteInfantryEthiopian</techstatus>
-    </prereqs>
+    <icon>resources\images\icons\techs\africans\ethiopians\fazogli_gold.png</icon>
+    <rollovertextid>104523</rollovertextid>
+    <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
-        <target type="ProtoUnit">deBowmanLevy</target>
+      <effect type="Data" action="Gather" amount="1.3" subtype="WorkRate" unittype="AbstractMine" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">deBowmanLevy</target>
+      <effect type="Data" action="Gather" amount="1.3" subtype="WorkRate" unittype="Plantation" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
-        <target type="ProtoUnit">deBowmanLevy</target>
+      <effect type="Data" action="Gather" amount="1.3" subtype="WorkRate" unittype="AbstractWhale" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractFishingBoat</target>
       </effect>
-      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">deGascenya</target>
+      <effect type="Data2" action="Gather" amount="1.3" subtype="WorkRateSpecific" resource="Gold" unittype="ypRicePaddy" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
-        <target type="ProtoUnit">deGascenya</target>
+      <effect type="Data2" action="Gather" amount="1.3" subtype="WorkRateSpecific" resource="Gold" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
-        <target type="ProtoUnit">deGascenya</target>
+      <effect type="Data" action="Gather" amount="1.3" subtype="WorkRate" unittype="deFurTrade" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">deShotelWarrior</target>
-      </effect>
-      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
-        <target type="ProtoUnit">deShotelWarrior</target>
-      </effect>
-      <effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
-        <target type="ProtoUnit">deShotelWarrior</target>
-      </effect>
-      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">deNeftenya</target>
-      </effect>
-      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
-        <target type="ProtoUnit">deNeftenya</target>
-      </effect>
-      <effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
-        <target type="ProtoUnit">deNeftenya</target>
-      </effect>
-      <effect type="SetName" proto="deGascenya" culture="none" newname="101373"/>
-      <effect type="SetName" proto="deShotelWarrior" culture="none" newname="101376"/>
-      <effect type="SetName" proto="deNeftenya" culture="none" newname="101379"/>
-      <effect type="SetName" proto="deBowmanLevy" culture="none" newname="101555"/>
-      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deGascenya" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deShotelWarrior" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deNeftenya" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
+      <effect type="TextOutputTechName">110130</effect>
     </effects>
   </tech>
-  <tech mergeMode='replace' name="DELegendaryInfantryEthiopian" type="Normal">
-    <dbid>6914</dbid>
-    <displaynameid>101578</displaynameid>
-    <cost resourcetype="Wood">2000.0000</cost>
-    <cost resourcetype="Gold">2000.0000</cost>
-    <researchpoints>30.0000</researchpoints>
+  <tech mergeMode='replace' name="DEHCCoffeeConsumption" type="Normal">
+    <dbid>8408</dbid>
+    <displaynameid>101465</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\art\techs\africans\legendary_infantry_eth.png</icon>
-    <rollovertextid>101575</rollovertextid>
-    <flag>CountsTowardMilitaryScore</flag>
-    <flag>UpgradeTech</flag>
-    <flag>DEUseMediumButton2</flag>
-    <prereqs>
-      <techstatus status="Active">Imperialize</techstatus>
-      <techstatus status="Active">DEChampionInfantryEthiopian</techstatus>
-    </prereqs>
+    <icon>resources\images\icons\techs\africans\ethiopians\team_coffee_consumption.png</icon>
+    <rollovertextid>101471</rollovertextid>
+    <flag>HomeCity</flag>
+    <flag>TeamTech</flag>
     <effects>
-      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
-        <target type="ProtoUnit">deBowmanLevy</target>
+      <effect type="Data" amount="0.25" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">AbstractRangedInfantry</target>
       </effect>
-      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">deBowmanLevy</target>
+      <effect type="Data" amount="0.25" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">AbstractHandInfantry</target>
       </effect>
-      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">deGascenya</target>
-      </effect>
-      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
-        <target type="ProtoUnit">deGascenya</target>
-      </effect>
-      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">deShotelWarrior</target>
-      </effect>
-      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
-        <target type="ProtoUnit">deShotelWarrior</target>
-      </effect>
-      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">deNeftenya</target>
-      </effect>
-      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
-        <target type="ProtoUnit">deNeftenya</target>
-      </effect>
-      <effect type="SetName" proto="deGascenya" culture="none" newname="101374"/>
-      <effect type="SetName" proto="deShotelWarrior" culture="none" newname="101377"/>
-      <effect type="SetName" proto="deNeftenya" culture="none" newname="101380"/>
-      <effect type="SetName" proto="deBowmanLevy" culture="none" newname="101556"/>
-      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deGascenya" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deShotelWarrior" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deNeftenya" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
+      <effect type="TextOutputTechName">110130</effect>
     </effects>
   </tech>
 
@@ -6251,6 +6186,8 @@
       <effect type="Data" amount="1.00" subtype="DamageBonus" unittype="AbstractVillager" allactions="1" relativity="Assign">
         <target type="ProtoUnit">deGunnerLevy</target>
       </effect>
+      <effect type="TechStatus" status="active">DEConscriptSpearmen</effect>
+      <effect type="TechStatus" status="obtainable">DEBigLevyUIFix</effect>
       <effect type="TextOutputTechName">101184</effect>
     </effects>
   </tech>
@@ -6617,6 +6554,57 @@
       </effect>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DEAllegianceHabesha2" type="Normal">
+    <dbid>8009</dbid>
+    <displaynameid>103051</displaynameid>
+    <cost resourcetype="Food">800.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_ii.png</icon>
+    <rollovertextid>103052</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age1</effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deCampWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="CrateofCoin" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">DEAllegianceHabesha3</effect>
+      <effect type="TechStatus" status="unobtainable">DEAllegianceHabesha4</effect>
+      <effect type="TechStatus" status="unobtainable">DEAllegianceHabesha5</effect>
+      <effect type="TechStatus" status="active">DEAllegianceHabeshaUnlockShadow</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEAllegianceSonghai2" type="Normal">
+    <dbid>6981</dbid>
+    <displaynameid>103016</displaynameid>
+    <cost resourcetype="Food">800.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_ii.png</icon>
+    <rollovertextid>103017</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age1</effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deCampWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="CrateofCoin" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">DEAllegianceSonghai3</effect>
+      <effect type="TechStatus" status="unobtainable">DEAllegianceSonghai4</effect>
+      <effect type="TechStatus" status="unobtainable">DEAllegianceSonghai5</effect>
+      <effect type="TechStatus" status="active">DEAllegianceSonghaiUnlockShadow</effect>
+    </effects>
+  </tech>
+
   <tech mergeMode='replace' name="DEAllegianceOromo4" type="Normal">
     <dbid>8003</dbid>
     <displaynameid>103041</displaynameid>
@@ -7099,13 +7087,13 @@
     <rollovertextid>104521</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
+      <effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="AbstractBerryBush" relativity="BasePercent">
+      <effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="AbstractBerryBush" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="deTorpBush2" relativity="BasePercent">
+      <effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="deTorpBush2" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
       <effect type="Data2" action="Gather" amount="1.15" subtype="WorkRateSpecific" resource="Food" unittype="deField" relativity="BasePercent">
@@ -7355,10 +7343,10 @@
     <flag>HomeCity</flag>
     <effects>
       <effect type="TextOutputTechName">110130</effect>
-      <effect type="Data" amount="0.6667" subtype="Cost" resource="Gold" relativity="BasePercent">
+      <effect type="Data" amount="0.60" subtype="Cost" resource="Gold" relativity="BasePercent">
         <target type="ProtoUnit">deAbun</target>
       </effect>
-      <effect type="Data" amount="1.25" subtype="MaximumVelocity" relativity="BasePercent">
+      <effect type="Data" amount="1.00" subtype="MaximumVelocity" relativity="Absolute">
         <target type="ProtoUnit">deAbun</target>
       </effect>
       <effect type="Data" amount="6.00" subtype="LOS" relativity="Absolute">
@@ -14619,6 +14607,7 @@
     <researchpoints>60.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\africans\ethiopians\british_firearms.png</icon>
+    <rollovertextid>270105</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="deMercHarquebusier" relativity="Absolute">

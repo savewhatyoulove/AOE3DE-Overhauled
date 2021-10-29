@@ -223,10 +223,12 @@
 	    <string _locid="101165">Musician who can inspire buildings and heal nearby allies.</string>
 	    <string _locid="101166">Griot. Inspiring musician and storyteller who can heal allies, increase the work rate of buildings, and buff the speed of nearby units.</string>
 	    <string _locid="101201">Foreign Aid</string>
+	    <string _locid="101211">Conscript Spearmen: Muster a group of Levied Spearmen from the district for defence!</string>
+	    <string _locid="101212">Conscript Spearmen</string>
 	    <string _locid="101215">Town Center attack increased, especially against Cavalry.</string>
 	    <string _locid="101221">Desert outlaws take less population, move and train faster.</string>
 	    <string _locid="101232">Ships 2 Palace Builders, 3 Camp Builders and increases build limits. Researches Fortified Cities.</string>
-	    <string _locid="101233">Levied Spearmen and Levied Gunners no longer lose hitpoints and have all damage penalties removed.</string>
+	    <string _locid="101233">You can now conscript groups of Levied Spearmen from Town Centers. Additionally, Levied Spearmen and Levied Gunners no longer lose hitpoints and have all damage penalties removed.</string>
 	    <string _locid="101277">2 Abuns</string>
 	    <string _locid="101278">4 Abuns</string>
 	    <string _locid="101281">2 Griots</string>
@@ -246,6 +248,7 @@
 	    <string _locid="101342">Elite Gobir Rider</string>
 	    <string _locid="101345">Champion Gobir Rider</string>
 	    <string _locid="101348">Legendary Gobir Rider</string>
+	    <string _locid="101471">TEAM Hand and Ranged Infantry move slightly faster.</string>
 	    <string _locid="101572">5 Oromo Warriors</string>
 	    <string _locid="101575">Gascenya, Shotel Warrior, Bowman and Neftenya attack and hitpoints increased. Training time decreased.</string>
 	    <string _locid="101595">Inviting skilled engineers enables your Villagers to construct Artillery Foundries which can quickly assemble Cannons at the cost of Influence. Delivers an Artillery Foundry Wagon.</string>
@@ -285,14 +288,17 @@
 	    <string _locid="102885">Ships a number of Kanuri Guard mercenaries (Mounted Skirmishers). Enables them to be trained from the Palace where they cost partially Coin and Influence.</string>
 	    <string _locid="102896">Receive 2 free Neftenyas with all future shipments, starting with this one. Neftenya gain additional hitpoints.</string>
 	    <string _locid="102910">Improves your Rases and Lions in combat. Removes all damage penalties from Lions and Rases gain the "Roar of the Lion!" ability:\n • Roar of the Lion: Increases the movement and attack speed of units nearby any Ras by 10% for 15 seconds.</string>
-	    <string _locid="102930">Hand Infantry Damage</string>
+	    <string _locid="102930">Hand Infantry Damage.</string>
+</string>
 	    <string _locid="102931">Hand Infantry Hitpoints</string>
-	    <string _locid="102932">Improves Gascenya and Shotel Warrior damage.</string>
-	    <string _locid="102933">Improves Gascenya and Shotel Warrior hitpoints.</string>
+	    <string _locid="102932">Improves Hand Infantry damage.\n • This also affects Shotel Warriors and all Pets.</string>
+	    <string _locid="102933">Improves Hand Infantry hitpoints.\n • This also affects Shotel Warriors and all Pets.</string>
 	    <string _locid="103004">10 Semi-fattened Goats and 1 Livestock Market Builder</string>
 	    <string _locid="103005">20 Semi-fattened Goats and 2 Livestock Market Builders</string>
+	    <string _locid="103017">1 Camp Wagon and chests of 200 Coin</string>
 	    <string _locid="103044">10 Semi-fattened Goats and 1 Livestock Market Builder</string>
 	    <string _locid="103045">20 Semi-fattened Goats and 2 Livestock Market Builders</string>
+	    <string _locid="103052">1 Camp Builder and chests of 200 Coin</string>
 	    <string _locid="103110">Fulani Archers gain a long range attack. Enables Fulani Archers to train Goats and harvest Food from Herdables. Additionally, they gather Wood from Trees much more quickly and Trees last longer for them.</string>
 	    <string _locid="103114">Villagers gather faster, particularly from natural resources. Fulani Archers gather Wood from Trees more quickly.</string>
 	    <string _locid="103124">Fulani Migrations: Fulani Archers can now gather from herdables and train Goats. Additionally, they chop wood more quickly and gain a long-ranged attack.</string>
@@ -643,7 +649,7 @@
 	    <string _locid="270079">%s has REVOLTED!</string>
 	    <string _locid="270080">Ships 1 Palace Wagon and tokens of 300 Influence. Increases Palace build limit by 1. Builders from the homecity construct quickly.</string>
 	    <string _locid="270081">Hand Infantry Combat</string>
-	    <string _locid="270082">Improves Gascenya and Shotel Warrior hitpoints and damage.</string>
+	    <string _locid="270082">Improves Hand Infantry damage and hitpoints.\n • This also affects Shotel Warriors and all Pets.</string>
 	    <string _locid="270083">2 Pet Lions</string>
 	    <string _locid="270084">5 Pet Lions</string>
 	    <string _locid="270085">12 Pet Lions</string>
@@ -666,7 +672,7 @@
 	    <string _locid="270102">Converts all Villagers into Gascenya. Additionally, you receive a shipment of 2 Mountain Guns and 1 Sebastopol Mortar.</string>
 	    <string _locid="270103">Kassa Rebellion! </string>
 	    <string _locid="270104">%s has REVOLTED!</string>
-
+	    <string _locid="270105">Delivers 6 Harquebusiers and improves the ranged damage of all Heavy Ranged Cavalry.</string>
 	</Language>
   </StringTable>
 </stringmods>

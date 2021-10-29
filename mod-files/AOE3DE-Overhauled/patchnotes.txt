@@ -516,7 +516,7 @@ Shipments:
 
 Units: 
 
--- Starting Auto Zebu/Sanga Food capacity increased to 450F from 250, and 1.5x gather rate reverted.
+-- Starting Auto Zebu/Sanga Food capacity increased to 500F from 250, and 1.5x gather rate reverted. (might revert to 450 for Hausa)
 
 -- Big Benny Food reduced from 900 to 800
 
@@ -542,11 +542,13 @@ New Civ Bonus: Mountain Monasteries can train villagers in addition to Town Cent
 - Now starts with an Abun
 
 Tech Changes:
+-- Imported Artillery now enables Petards instead of Mortars and Falconets. 
 -- Book of Axum: Cost reduced to 400 influence from 500, LOS and Range bonus improved to +6 from +5.
 -- Solomonic Dynasty: Cost reduced to 1000 Influence from 1500, moved to Fortress Age from Industrial.
 -- Habesha:
   -- Timkat Reworked: Now costs 700 Influence (instead of 500). Deposits 1000 XP (same as Zen Meditation)
   -- Ark of the Covenant Reworked: Now Costs 1000 Influence, moved to Fortress Age. Unlocks a Trickle of 1.0 Food, Wood, Gold, XP, and Influence per second (5.0 in total, 1.0 for each resource.)
+  -- Age 2 Habesha Alliance now only provides 200 gold (down from 300)
 -- Arabs:
   -- Blue Nile Ties Reworked: Now Costs 1200 Influence and delivers a free Gatling Camel on all Future Shipments
   -- Yemeni Relations replaced with Mameluke Sultanate: 1200 Influence and delivers a free Mameluke on all Future Shipments
@@ -557,6 +559,8 @@ Tech Changes:
   -- Market now has access to Tier I/II wood chopping techs.
 
 Building Changes:
+
+Artillery Depot now available in Age 3 and can train Mountain Guns by default. 
 
 Mountain Monastery:
 Cost: Reduced to 150 from 170
@@ -601,7 +605,7 @@ Heal: Can no longer heal in combat, default range reduced to 12 from 18.
 Abuns can now directly gather influence from a Mountain Monatery. This is 0.5/s (twice the rate of a villager)
 
 Sebastopol Mortar:
-Now Home City exclusive units, with a build limit of 2.
+Now Home City exclusive units, with a build limit of 4.
 Cost: Reduced to 700 from 1000
 Population: Reduced to 7 from 8
 HP: Increased to 750 from 475
@@ -609,16 +613,39 @@ Range: Increased to 40 from 28 (4 minimum range added).
 Damage: Increased to 1200 from 500, all multipliers removed
 Can now only target buildings and ships with all attacks. 
 
+Mountain Gun Added: A generalist artillery piece. Good against most units, especially ships, infantry, and buildings.
+HP: 250
+Cost: 500 Influence
+Speed: 3.25 (no bombard/limber difference)
+Armor: 75 Ranged
+Range: 26
+LOS: 30
+Train Time: 45 seconds
+Damage: 150 w/ 3.0 ROF, 2x Ships, 0.8x AbstractCoyoteMan, 0.75x AbstractArtillery (300 damage cap)
+Available at the Artillery Depot by default and shadowtechs. 
+
+Bowman Added: Disposable archaic archer with a weak attack, but powerful multipliers: (only receives elite upgrade)
+HP: 100
+Cost: 35F/W
+Speed: 4.5
+Unit Tags: AbstractFootArcher, AbstractInfantry, AbstractRangedInfantry, AbstractArcher
+Armor: 20 Ranged
+LOS: 20
+Train Time: 27 seconds
+Siege: 4 w/ 3.0 ROF
+Melee: 3 melee w/ 1.5 ROF and 4x AbstractLightCavalry/xpEagleKnight + 4x AbstractHeavyInfantry (has 0.75x AbstractCavalry and 0.75x AbstractLightInfantry for 3.0x AbstractLightCavalry net).
+Range: 6 w/ 3.0 ROF and 16 range. Same multipliers as melee. 
+
 Shipment Changes:
 -- Oromo Migrations: Moved to Age 4 from Age 1. Now ships 4 villagers for each palace you currently have constructed.
 -- Shiftas HP buff for villagers reduced to +25% from +35%
--- Coffee Consumption moved to Discovery Age from Industrial Age. 
+-- Coffee Consumption moved to Discovery Age from Industrial Age. Now affects AbstractHandInfantry as well and changed to a flat +0.25 speed from +5%.
 -- Zebenyas no longer provides siege armor to Neftenyas, now delivers 2 free Neftenya on all future shipments. 
 -- Shewa Riders no longer increases the armor of Oromo Riders, instead, they deal more damage to skirmishers.
 -- 4 Zebu + 1 Livestock Market INF (I) replaced with 7 Semi-Fattened Zebu (II)
 -- Prize Bull (Big Benny) Food reduced from 900 to 800
 -- Era of Chaos temporarily removed (until shipment is completely reworked to not be toxic)
--- Beekeepers now additional provides +10% yield to berries and huntables
+-- Beekeepers now additional provides +10% yield to berries and huntables (gather rate for those improved to +20%)
 -- King of Kings Reworked: Now provides +50% HP/ATK to all Rases and +20% HP/ATK to all pet lions and enables them to be trained from Rases. Unlocks the Roar of the Lion ability (unchanged)
 -- Lalibela Rock Church Reworked: Now an age 2 shipment and delivers 3 Mountan Monastery Builders, increases MM build limit by +3, and improves MM HP by +25%.
 -- Ignatian Spirituality Reworked: Now and age 3 shipment. Grants +30% HP to native warriors and lets them heal slowly in combat.
@@ -630,14 +657,13 @@ Shipment Changes:
 -- Abun shipments no longer increase build limit. 
 -- 1 Sebastopol Mortar (III), 2 Sebastopol Mortars (IV) removed.
 -- 1 Sebastopol Mortar INF (IV) increased to 2.
+-- Fazogli Gold moved to Industrial Age from Commerce, now improves gold income by +30% from +20%
 
--- TODO: Implement Abun Bonus and Mountain Guns, Fix Indian Wood tech not appearing in market
-
+-- TODO: Rework Yoruba Legionaries and other native techs. Rework Berber Camel Riders into mini-yojimbo
 Hausa:
 
 Starting Changes:
 -- Now starts with 5 semi-fattened goats instead of 3 semi-fattened Sanga Cattle (same net food 750)
--- Auto Sanga food capacity increased to 450 from 400
 
 Tech Changes:
 Akan:
@@ -645,6 +671,7 @@ Akan:
 Songhai: 
 -- Songhai Raiders reduced to 4 Gobir Riders from 5 Raiders
 -- Songhai War Parties reduced to 4/8/12 Gobir Riders from 5/10/15
+-- Age 2 Songhai Alliance now only provides 200 Gold (down from 300)
 Fulani:
 -- Fulani Migrations Reworked: Gives Fulani their meme ranged attack, +25% Wood chop rate and +25% yield, and lets them train Goats and hunt from herdables at full rate.
 Morocco:
