@@ -250,7 +250,15 @@
 	    <string _locid="101348">Legendary Gobir Rider</string>
 	    <string _locid="101471">TEAM Hand and Ranged Infantry move slightly faster.</string>
 	    <string _locid="101572">5 Oromo Warriors</string>
-	    <string _locid="101575">Gascenya, Shotel Warrior, Bowman and Neftenya attack and hitpoints increased. Training time decreased.</string>
+	    <string _locid="101575">Javelin Riders and Bowman attack and hitpoints increased. Training time decreased for Javelin Riders, Bowmen, and Neftenyas.</string>
+	    <string _locid="101576">Elite Ranged Warriors</string>
+	    <string _locid="101577">Champion Ranged Warriors</string>
+	    <string _locid="101578">Legendary Ranged Warriors</string>
+	    <string _locid="101579">Shotel Warrior and Gascenya attack and hitpoints increased. Training time decreased for Shotel Warriors, Gascenya, and Oromo Warriors.</string>
+	    <string _locid="101580">Elite Hand Warriors</string>
+	    <string _locid="101581">Champion Hand Warriors</string>
+	    <string _locid="101582">Legendary Hand Warriors</string>
+	    <string _locid="101587">Gobir Rider attack and hitpoints increased. Training time decreased for Lifidi Knights and Gobir Riders.</string>
 	    <string _locid="101595">Inviting skilled engineers enables your Villagers to construct Artillery Foundries which can quickly assemble Cannons at the cost of Influence. Delivers an Artillery Foundry Wagon.</string>
 	    <string _locid="102532">Armored mounted skirmisher mercenary with a powerful long ranged attack. Good versus heavy infantry, light cavalry, and artillery. </string>
 	    <string _locid="102538">Hardy Akan skirmisher with a powerful short-ranged splash attack. Good against Heavy Infantry</string>
@@ -675,6 +683,14 @@
 	    <string _locid="270103">Kassa Rebellion! </string>
 	    <string _locid="270104">%s has REVOLTED!</string>
 	    <string _locid="270105">Delivers 6 Harquebusiers and improves the ranged damage of all Heavy Ranged Cavalry.</string>
+	    <string _locid="270106">Javelin Rider and Neftenya attack and hitpoints increased. Training time decreased.</string>
+	    <string _locid="270107">Legendary upgrade for Javelin Rider and Neftenya.</string>
+	    <string _locid="270108">Shotel Warrior, Gascenya, and Oromo Warrior attack and hitpoints increased. Training time decreased.</string>
+	    <string _locid="270109">Legendary upgrade for Shotel Warrior, Gascenya, and Oromo Warrior.</string>
+
+	    <string _locid="270110">Gobir Rider and Lifidi Knight attack and hitpoints increased. Training time decreased.</string>
+	    <string _locid="270111">Legendary upgrade for Gobir Rider and Lifidi Knight.</string>
+
 	</Language>
   </StringTable>
 </stringmods>

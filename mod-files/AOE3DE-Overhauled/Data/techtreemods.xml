@@ -5398,11 +5398,166 @@
       <effect type="SetName" proto="deSpearmanLevy" culture="none" newname="101553"/>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DEEliteCavalryEthiopian" type="Normal">
+    <dbid>6826</dbid>
+    <displaynameid>101580</displaynameid>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\techs\africans\elite_ranged_cav_eth.png</icon>
+    <rollovertextid>101579</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>UpgradeTech</flag>
+    <flag>DEUseMediumButton</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">deOromoWarrior</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deGascenya</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deGascenya</target>
+      </effect>
+      <effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">deGascenya</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deShotelWarrior</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deShotelWarrior</target>
+      </effect>
+      <effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">deShotelWarrior</target>
+      </effect>
+      <effect type="SetName" proto="deGascenya" culture="none" newname="101372"/>
+      <effect type="SetName" proto="deShotelWarrior" culture="none" newname="101375"/>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deGascenya" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deShotelWarrior" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEChampionCavalryEthiopian" type="Normal">
+    <dbid>6827</dbid>
+    <displaynameid>101581</displaynameid>
+    <cost resourcetype="Wood">800.0000</cost>
+    <cost resourcetype="Gold">800.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\techs\africans\champion_ranged_cav_eth.png</icon>
+    <rollovertextid>270108</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>DEUseMediumButton</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+      <techstatus status="Active">DEEliteCavalryEthiopian</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deGascenya</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deGascenya</target>
+      </effect>
+      <effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">deGascenya</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deShotelWarrior</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deShotelWarrior</target>
+      </effect>
+      <effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">deShotelWarrior</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deOromoWarrior</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deOromoWarrior</target>
+      </effect>
+      <effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">deOromoWarrior</target>
+      </effect>
+      <effect type="SetName" proto="deOromoWarrior" culture="none" newname="101370"/>
+      <effect type="SetName" proto="deGascenya" culture="none" newname="101373"/>
+      <effect type="SetName" proto="deShotelWarrior" culture="none" newname="101376"/>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deGascenya" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deShotelWarrior" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deOromoWarrior" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DELegendaryCavalryEthiopian" type="Normal">
+    <dbid>6828</dbid>
+    <displaynameid>101582</displaynameid>
+    <cost resourcetype="Wood">2000.0000</cost>
+    <cost resourcetype="Gold">2000.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\techs\africans\legendary_ranged_cav_eth.png</icon>
+    <rollovertextid>270109</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>DEUseMediumButton</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+      <techstatus status="Active">DEChampionCavalryEthiopian</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deOromoWarrior</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deOromoWarrior</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deGascenya</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deGascenya</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deShotelWarrior</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deShotelWarrior</target>
+      </effect>
+      <effect type="SetName" proto="deOromoWarrior" culture="none" newname="101371"/>
+      <effect type="SetName" proto="deGascenya" culture="none" newname="101374"/>
+      <effect type="SetName" proto="deShotelWarrior" culture="none" newname="101377"/>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deGascenya" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deShotelWarrior" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deOromoWarrior" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
   <tech mergeMode='replace' name="DEEliteInfantryEthiopian" type="Normal">
     <dbid>6912</dbid>
     <displaynameid>101576</displaynameid>
-    <cost resourcetype="Wood">250.0000</cost>
-    <cost resourcetype="Gold">250.0000</cost>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
     <researchpoints>30.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\art\techs\africans\elite_infantry_eth.png</icon>
@@ -5423,41 +5578,63 @@
       <effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
         <target type="ProtoUnit">deBowmanLevy</target>
       </effect>
-      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">deGascenya</target>
-      </effect>
-      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
-        <target type="ProtoUnit">deGascenya</target>
-      </effect>
       <effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
-        <target type="ProtoUnit">deGascenya</target>
+        <target type="ProtoUnit">deNeftenya</target>
       </effect>
       <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">deShotelWarrior</target>
+        <target type="ProtoUnit">deJavelinRider</target>
       </effect>
       <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
-        <target type="ProtoUnit">deShotelWarrior</target>
+        <target type="ProtoUnit">deJavelinRider</target>
       </effect>
       <effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
-        <target type="ProtoUnit">deShotelWarrior</target>
+        <target type="ProtoUnit">deJavelinRider</target>
       </effect>
-      <effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">deNeftenya</target>
-      </effect>
-      <effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
-        <target type="ProtoUnit">deNeftenya</target>
-      </effect>
-      <effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
-        <target type="ProtoUnit">deNeftenya</target>
-      </effect>
-      <effect type="SetName" proto="deGascenya" culture="none" newname="101372"/>
-      <effect type="SetName" proto="deShotelWarrior" culture="none" newname="101375"/>
-      <effect type="SetName" proto="deNeftenya" culture="none" newname="101378"/>
-      <effect type="SetName" proto="deBowmanLevy" culture="none" newname="101554"/>
-      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deGascenya" relativity="Absolute">
+      <effect type="SetName" proto="deJavelinRider" culture="none" newname="101340"/>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deJavelinRider" relativity="Absolute">
         <target type="Player"/>
       </effect>
-      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deShotelWarrior" relativity="Absolute">
+      <effect type="SetName" proto="deBowmanLevy" culture="none" newname="101554"/>
+          </effects>
+  </tech>
+  <tech name="DEChampionInfantryEthiopian" type="Normal">
+    <dbid>6913</dbid>
+    <displaynameid>101577</displaynameid>
+    <cost resourcetype="Wood">800.0000</cost>
+    <cost resourcetype="Gold">800.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\techs\africans\champion_infantry_eth.png</icon>
+    <rollovertextid>270106</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>UpgradeTech</flag>
+    <flag>DEUseMediumButton2</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+      <techstatus status="Active">DEEliteInfantryEthiopian</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deJavelinRider</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deJavelinRider</target>
+      </effect>
+      <effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">deJavelinRider</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deNeftenya</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deNeftenya</target>
+      </effect>
+      <effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">deNeftenya</target>
+      </effect>
+      <effect type="SetName" proto="deNeftenya" culture="none" newname="101379"/>
+      <effect type="SetName" proto="deJavelinRider" culture="none" newname="101343"/>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deJavelinRider" relativity="Absolute">
         <target type="Player"/>
       </effect>
       <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deNeftenya" relativity="Absolute">
@@ -5465,6 +5642,164 @@
       </effect>
     </effects>
   </tech>
+  <tech name="DELegendaryInfantryEthiopian" type="Normal">
+    <dbid>6914</dbid>
+    <displaynameid>101578</displaynameid>
+    <cost resourcetype="Wood">2000.0000</cost>
+    <cost resourcetype="Gold">2000.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\techs\africans\legendary_infantry_eth.png</icon>
+    <rollovertextid>270107</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>UpgradeTech</flag>
+    <flag>DEUseMediumButton2</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+      <techstatus status="Active">DEChampionInfantryEthiopian</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deJavelinRider</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deJavelinRider</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deNeftenya</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deNeftenya</target>
+      </effect>
+      <effect type="SetName" proto="deNeftenya" culture="none" newname="101380"/>
+      <effect type="SetName" proto="deJavelinRider" culture="none" newname="101346"/>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deJavelinRider" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deNeftenya" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEEliteHeavyCavalryHausa" type="Normal">
+    <dbid>6829</dbid>
+    <displaynameid>101588</displaynameid>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\techs\africans\elite_melee_hau.png</icon>
+    <rollovertextid>101587</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>UpgradeTech</flag>
+    <flag>DEUseMediumButton2</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deRaider</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deRaider</target>
+      </effect>
+      <effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">deRaider</target>
+      </effect>
+      <effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">deLifidi</target>
+      </effect>
+      <effect type="SetName" proto="deRaider" culture="none" newname="101342"/>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deRaider" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEChampionHeavyCavalryHausa" type="Normal">
+    <dbid>6830</dbid>
+    <displaynameid>101589</displaynameid>
+    <cost resourcetype="Wood">600.0000</cost>
+    <cost resourcetype="Gold">600.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\techs\africans\champion_melee_hau.png</icon>
+    <rollovertextid>270110</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>DEUseMediumButton2</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+      <techstatus status="Active">DEEliteHeavyCavalryHausa</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deLifidi</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deLifidi</target>
+      </effect>
+      <effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">deLifidi</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deRaider</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deRaider</target>
+      </effect>
+      <effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">deRaider</target>
+      </effect>
+      <effect type="SetName" proto="deLifidi" culture="none" newname="101344"/>
+      <effect type="SetName" proto="deRaider" culture="none" newname="101345"/>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deLifidi" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deRaider" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DELegendaryHeavyCavalryHausa" type="Normal">
+    <dbid>6831</dbid>
+    <displaynameid>101590</displaynameid>
+    <cost resourcetype="Wood">1500.0000</cost>
+    <cost resourcetype="Gold">1500.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\techs\africans\legendary_melee_hau.png</icon>
+    <rollovertextid>270111</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>DEUseMediumButton2</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+      <techstatus status="Active">DEChampionHeavyCavalryHausa</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deLifidi</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deLifidi</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deRaider</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deRaider</target>
+      </effect>
+      <effect type="SetName" proto="deLifidi" culture="none" newname="101347"/>
+      <effect type="SetName" proto="deRaider" culture="none" newname="101348"/>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deLifidi" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deRaider" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+
   <tech mergeMode='replace' name="DEHCFazogli" type="Normal">
     <dbid>8391</dbid>
     <displaynameid>104522</displaynameid>
@@ -6584,6 +6919,69 @@
     <flag>CheckLandHCGatherPoint</flag>
     <effects>
       <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deMercGatlingCamel" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEEliteLifidiShadow" type="Normal">
+    <dbid>8282</dbid>
+    <researchpoints>0.0000</researchpoints>
+    <status>OBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deLifidi</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deLifidi</target>
+      </effect>
+      <effect type="SetName" proto="deLifidi" culture="none" newname="101341"/>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deLifidi" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEEliteOromoWarriorShadow" type="Normal">
+    <dbid>8279</dbid>
+    <researchpoints>0.0000</researchpoints>
+    <status>OBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deOromoWarrior</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deOromoWarrior</target>
+      </effect>
+      <effect type="SetName" proto="deOromoWarrior" culture="none" newname="101369"/>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deOromoWarrior" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEEliteNeftenyaShadow" type="Normal">
+    <dbid>8280</dbid>
+    <researchpoints>0.0000</researchpoints>
+    <status>OBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deNeftenya</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deNeftenya</target>
+      </effect>
+      <effect type="SetName" proto="deNeftenya" culture="none" newname="101378"/>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deNeftenya" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>

@@ -11454,8 +11454,8 @@
     <displayedrange>38.0000</displayedrange>
     <buildpoints>30.0000</buildpoints>
     <buildlimit>1</buildlimit>
-    <bounty>60.0000</bounty>
-    <buildbounty>40.0000</buildbounty>
+    <bounty>50.0000</bounty>
+    <buildbounty>30.0000</buildbounty>
     <cost resourcetype="Wood">150.0000</cost>
     <carrycapacity resourcetype="Influence">100.0000</carrycapacity>
     <initialresource resourcetype="Influence">999.0000</initialresource>
@@ -11515,7 +11515,7 @@
     <tactics>monasteryethiopian.tactics</tactics>
     <protoaction>
       <name>Autogather</name>
-      <rate type="XP">0.300000</rate>
+      <rate type="XP">0.250000</rate>
     </protoaction>
   </unit>
   <unit mergeMode='replace' id="1847" name="deAbun">

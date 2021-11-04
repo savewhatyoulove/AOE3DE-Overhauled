@@ -595,6 +595,10 @@ Tech Changes:
   -- Gadaa System: Now costs 750 Influence instead of 500, provides +15% AbstractCavalry ATK/HP.
 -- India:
   -- Market now has access to Tier I/II wood chopping techs.
+-- Unit upgrades reworked:
+  -- Cavalry upgrades now reworked to "Hand Warrior" --> affects Shotel Warriors, Gascenya, and Oromo Warriors
+  -- Infantry upgrades now reworked to "Ranged Warrior" --> affects Bowmen (Elite only), Javelin Riders, and Neftenya.
+  -- No longer provides +10% HP/ATK to Oromo or Neftenya (now full bonus from shadowtech), cost of upgrades adjusted accordingly.
 
 Building Changes:
 
@@ -607,6 +611,7 @@ Now provides a +15% BASE HP aura to all nearby Town Centers and Fortifications. 
 Heal Aura removed
 Built Limit: Reduced to 2 from 1, (this is compensated for in the Industrial Age)
 HP: Reduced to 1500 from 2000
+Now trickles 0.25 xp/s per monastery
 
 Unit Changes:
 
@@ -718,6 +723,7 @@ Morocco:
 
 -- Fortified Cities Cost reduced to 1250 Influence from 3000. (might reduce to 1000)
 -- Bakwai (+3 TC build limit) Cost reduced to 500 Influence from 800
+-- Elite Hand Cavalry no longer increases the HP/ATK of Lifidi (now receive the full bonus from shadowtech), cost reduced to 200W/G from 250
 
 Building Changes:
 -- Trading Post University Improvement Aura increased to 60 from 30.
