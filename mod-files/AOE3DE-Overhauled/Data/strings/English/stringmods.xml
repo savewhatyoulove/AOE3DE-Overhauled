@@ -73,8 +73,8 @@
 	    <string _locid="80077">Tambos are cheaper and stronger.</string>
 	    <string _locid="80083">Ranged warrior who hurls bolas for a wide area of effect. The bola slows down enemies. Good against cavalry in melee.</string>
 	    <string _locid="80095">Powerful hand infantry that inflicts armor-piercing splash damage with a large bludgeon. Good against buildings and infantry.</string>
-	    <string _locid="80106">Anti-building shock infantry. Good against artillery and skirmishers.</string>
-	    <string _locid="80107">Anti-building and anti-skirmisher shock infantry that deals melee damage from a distance.</string>
+	    <string _locid="80106">Anti-building hand shock infantry. Good against artillery and skirmishers.</string>
+	    <string _locid="80107">Anti-building and anti-skirmisher hand shock infantry that deals melee damage from a distance.</string>
 	    <string _locid="80122">2 Warrior Priestesses</string>
 	    <string _locid="80124">TEAM livestock and pets move much more quickly. Healers, scouts, and civilians gain a reduced bonus.</string>
 	    <string _locid="80126">6 Warrior Priestesses</string>
@@ -103,7 +103,7 @@
 	    <string _locid="80498">The Chachapoyas send 17 Huaracas and increase their attack range.</string>
 	    <string _locid="80501">The Chincha ship 5 Chincha Rafts and increase their hitpoints.</string>
 	    <string _locid="80504">The Chimu send 16 Chimu Runners and increase their damage, especially against Artillery.</string>
-	    <string _locid="80507">The Colla send 17 Bolas Warriors and increase their ranged damage, especially against Heavy Cavalry and Heavy Shock Infantry.</string>
+	    <string _locid="80507">The Colla send 17 Bolas Warriors and increase their ranged damage, especially against Heavy Cavalry and Hand Shock Infantry.</string>
 	    <string _locid="80520">Buildings gain increased line of sight and siege armor.</string>
 	    <string _locid="80530">The Aymara send 5 Chasquis and greatly improve their hitpoints, speed, and line of sight. Chasquis now slow down nearby enemies and can enter stealth with no speed penalty. Increases the build limit for Chasquis by 5.</string>
 	    <string _locid="80533">The Cajamarca send 13 Jungle Bowmen and improve their bonus damage against heavy infantry. Additionally, Jungle Bowmen gain additional damage on their ranged attack and poison.</string>
@@ -203,7 +203,7 @@
 	    <string _locid="101038">Heavy infantry</string>
 	    <string _locid="101039">Heavy infantry armed with a powerful spear. Good against cavalry and buildings.</string>
 	    <string _locid="101042">Light Shock infantry</string>
-	    <string _locid="101043">Fast moving light shock infantry that attacks with two curved swords. Good against heavy cavalry, heavy shock infantry, and artillery.</string>
+	    <string _locid="101043">Fast moving light shock infantry that attacks with two curved swords. Good against heavy cavalry, hand shock infantry, and artillery.</string>
 
 	    <string _locid="101051">Powerful heavy cavalry with a lot of hitpoints. Good against light infantry and artillery.</string>
 	    <string _locid="101054">Heavy Ranged Cavalry</string>
@@ -253,9 +253,11 @@
 	    <string _locid="101575">Gascenya, Shotel Warrior, Bowman and Neftenya attack and hitpoints increased. Training time decreased.</string>
 	    <string _locid="101595">Inviting skilled engineers enables your Villagers to construct Artillery Foundries which can quickly assemble Cannons at the cost of Influence. Delivers an Artillery Foundry Wagon.</string>
 	    <string _locid="102532">Armored mounted skirmisher mercenary with a powerful long ranged attack. Good versus heavy infantry, light cavalry, and artillery. </string>
-	    <string _locid="102542">Berber warrior riding a fast camel, good at raiding villagers or buildings.</string>
+	    <string _locid="102538">Hardy Akan skirmisher with a powerful short-ranged splash attack. Good against Heavy Infantry</string>
+	    <string _locid="102542">Fragile but powerful Berber warrior riding a fast camel, good at flanking skirmishers and raiding villagers.</string>
 	    <string _locid="102553">Armored cannoneer mercenary from Portugal who fires a heavy musket inflicting splash damage.</string>
 	    <string _locid="102561">Egyptian mercenary equipped with an automatic-fire gun mounted on a camel. Good against infantry and artillery.</string> 
+	    <string _locid="102565">Very powerful, but slow training heavy ranged javelin infantry. Attacks closer targets faster. Carries a large shield for extra protection. Good against cavalry.</string>
 	    <string _locid="102578">Somali militiaman of the Darood clan armed with powerful, but slow firing rifles.</string>
 	    <string _locid="102582">Heavy ranged Somali javelineer. Counters Heavy Cavalry and Hand Shock Infantry from range.</string>
 	    <string _locid="102586">Fast Sudanese shock infantry which tosses knives from range. Good against heavy cavalry and hand shock infantry.</string>
@@ -279,10 +281,11 @@
 	    <string _locid="102860">TEAM Wall hitpoints are improved by nearby military units.\n • Hitpoint Improvement Rate is +10% BASE hitpoints for each military unit within a 24 radius.</string>
 	    <string _locid="102861">TEAM Gates have greatly increased Line of Sight and hitpoints.</string>
 	    <string _locid="102862">Increases the damage of all buildings.</string>
-	    <string _locid="102867">Converts all Villagers into Fulani Archers.</string>
+	    <string _locid="102867">Converts all Villagers into Fulani Archers. Additionally, you receive a shipment of 2 Camp Builders.</string>
 	    <string _locid="102868">Each Gobir Rider and Lifidi trained so far grants a fraction of its cost as Influence into the stockpile.\n • Conversion Rate is 10% of unit cost as influence rounded up, (e.g. 18 per Gobir Rider and 20 per Lifidi Knight).</string>
 	    <string _locid="102869">Griot speed, healing range, and build limit increased.</string>
 	    <string _locid="102870">Griots regenerate hitpoints outside of combat much more quickly and greatly increases the amount they can heal.</string>
+	    <string _locid="102872">Ships a number of Akan Ankobias (Skirmishers). Enables them to be trained from War Camps where they cost Population, Food, and Wood.</string>
 	    <string _locid="102878">Grants a small sum of food for each of your fields on the map. Improves food gathering on fields.\n • Deposits 30 Food for each Field you've built, up to 2100 Food.</string>
 	    <string _locid="102881">Particularly fattened Cattle containing 800 Food.</string>
 	    <string _locid="102885">Ships a number of Kanuri Guard mercenaries (Mounted Skirmishers). Enables them to be trained from the Palace where they cost partially Coin and Influence.</string>

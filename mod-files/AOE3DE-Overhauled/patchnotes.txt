@@ -497,6 +497,44 @@ Native Units:
   -- AbstractInfantry tag removed, AbstractLightInfantry and AbstractLightCavalry tags added.
   -- Hand Attack reduced to 7 from 14, ROF slowed to 1.5 from 1.0. All multipliers removed, 4.5x AbstractHeavyCavalry, 3.5x AbstractCoyoteMan, and 1.5x AbstractArtillery added.
   -- Ranged Attack reduced to 12 from 14, ROF changed to a flat 1.5 from 2.5 ROF scaling, All multipliers removed, 3.0x AbstractHeavyCavalry, 2.0x AbstractCoyoteMan, and 1.5x AbstractArtillery added.
+-- Yoruba Legionary Reworked:
+  -- HP reduced to 210 from 220
+  -- Speed increased to 4.5 from 4.0
+  -- Armor improved to 30 Melee from 25 Ranged
+  -- LOS reduced to 12 from 16
+  -- Siege Increased to 40 from 16
+  -- Hand Attack improved to 30 from 16, multipliers reduced to 2x AbstractCavalry/AbstractLightInfantry from 3.0/2.2x
+  -- Ranged attack damage increased to 30 from 26. Range reduced to 6 from 16, ROF delay increased to 4.0 from 3.0 (caps out at 1.5 in  scaling). 1.5x AbstractHeavyCavalry, 1.25x AbstractCoyoteMan added.
+-- Yoruba Rider Reworked:
+  -- Speed reduced to 6.75 from 7.5
+  -- HP increased to 360 from 200
+  -- Build limit increased to 6 from 5
+  -- Armor reduced to 30 Ranged from 50 Ranged, 50 Melee
+  -- Siege Attack improved to 27 from 20, no longer scales off of HP remaining
+  -- Melee Attack ROF fixed to 1.5 from 2.0, no longer scales off of HP remaining. Villager and Artillery multipliers removed. 
+  -- HP decay increased to 2.0% from 0.75%
+-- Berber Camel Rider Reworked:
+  -- Cost increased to 120F/120W from 120F/60G
+  -- HP reduced to 165 from 300
+  -- Build limit reduced to 7 from 9
+  -- Siege reduced to 18 from 20
+  -- Speed reduced to 6.75 from 7.0
+  -- Armor improved to 30 ranged from 20 melee.
+  -- Melee Attack improved to 80 from 24. All multipliers removed.
+-- Somali Darood Reworked: 
+  -- Speed increased to 4.5 from 4.0
+  -- HP reduced to 135 from 140
+  -- LOS reduced to 24 from 30
+  -- Armor reduced to 10 ranged from 30 Ranged/30 Siege
+  -- Ship attack damage reduced to 12 from 14, 4x multiplier against ships removed, and range reduced to 18 from 25.
+  -- Siege Attack reduced to 12 from 20, 4x ships removed.
+  -- Melee multipliers removed. Standard skirmisher multipliers added
+  -- Ranged attack increased to 20 from 14, range reduced to 18 from 25, ROF reduced to 4.0 from 3.0, standard skirmisher multipliers added. 
+-- Somali Issa Warrior Reworked:
+  -- Armor improved to 25 Melee from 20
+  -- Melee multipliers improved to 3.5x AbstractCavalry, 2.75x AbstractLightInfantry
+  -- Ranged attack no longer has scaling ROF (flat 3.0), range reduced from 14 to 12, and Damage multipliers changed to 3.5x AbstractHeavyCavalry and 2.75x AbstractCoyoteMan from 3x AbstractCavalry and 2.2x AbstractLightInfantry
+
 
 Buildings: 
 -- Levy Gunners added to the Town Center. Trains 5 Levied Gunners for 300 Influence. Available in age II.
@@ -526,8 +564,8 @@ Units:
   -- Speed: Improved to 6.75 from 6.5
   -- Cost: Improved to 60F/50G from 65F/50G
   -- Unit Tags: AbstractLightCavalry replaced with AbstractHeavyCavalry and AbstractRangedHeavyCavalry
-  -- Ranged Attack: Reduced from 8 from 10, all multipliers removed, 5.0x AbstractInfantry, 0.2x AbstractHeavyInfantry (1.0x net), and 1.25x AbstractVillager added
-  -- Melee Attack: Increased to 12 from 10, all multipliers removed, 1.25x AbstractVillager added
+  -- Ranged Attack: Reduced from 8 from 10, all multipliers removed, 5.0x AbstractInfantry, 0.2x AbstractHeavyInfantry (1.0x net), range reduced to 10 from 12 (still affected by RCC)
+  -- Melee Attack: Increased to 12 from 10, all multipliers removed
   -- Siege: Reduced to 8 from 9
 
 Shipments:
@@ -660,7 +698,6 @@ Shipment Changes:
 -- 1 Sebastopol Mortar INF (IV) increased to 2.
 -- Fazogli Gold moved to Industrial Age from Commerce, now improves gold income by +30% from +20%
 
--- TODO: Rework Yoruba Legionaries and other native techs. Rework Berber Camel Riders into mini-yojimbo
 Hausa:
 
 Starting Changes:
@@ -680,7 +717,7 @@ Morocco:
 -- Marksmen no longer have 4x AbstractWarship
 
 -- Fortified Cities Cost reduced to 1250 Influence from 3000. (might reduce to 1000)
--- Bakwai (+3 TC build limit) Cost reduced to 600 Influence from 800 (might reduce to 500)
+-- Bakwai (+3 TC build limit) Cost reduced to 500 Influence from 800
 
 Building Changes:
 -- Trading Post University Improvement Aura increased to 60 from 30.
@@ -765,6 +802,7 @@ Shipment Changes:
 -- Zazzau Cavalry Reworked: Now provides +20% ATK/HP to Javelin Riders, moved to the Fortress Age.
 -- Cult of the Dodo now provides Griots +1.0 speed instead of +25%, build limit increased to +5 from +2
 -- Kingslayer Reworked: Now provides +2.5x Heroes instead of 4.5x. Adds +50% ATK/HP to Emirs and converts all bounties for enemy Heroes into influence (and provides an additonal +100%) Moved to age 2.
+-- Massina Madness now additionally improves Fulani Archer chop rate.
 
 -- TODO: 
   -- Fix African Mercs/Natives

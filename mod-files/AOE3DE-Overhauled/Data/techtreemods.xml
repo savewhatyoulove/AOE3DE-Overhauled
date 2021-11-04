@@ -6,6 +6,19 @@
       </effect>
     </effects>
   </tech>
+  <tech name="Colonialize" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="Data" amount="-2.00" subtype="UnitRegenRate" unittype="deNatYorubaRider" relativity="Assign">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-2.00" subtype="UnitRegenRate" unittype="deNatMercYorubaRider" relativity="Assign">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-2.00" subtype="UnitRegenRate" unittype="Minuteman" relativity="Assign">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
 <!-- Politician Changes --> 
   <tech mergeMode='replace' name="PoliticianPhilosopherPrince" type="Normal">
     <dbid>2151</dbid>
@@ -5734,7 +5747,7 @@
   <tech mergeMode='replace' name="DEHausaBakwai" type="Normal">
     <dbid>8132</dbid>
     <displaynameid>103146</displaynameid>
-    <cost resourcetype="Influence">600.0000</cost>
+    <cost resourcetype="Influence">500.0000</cost>
     <researchpoints>30.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\art\techs\africans\hausa_bakwai.png</icon>
@@ -5871,13 +5884,16 @@
     <dbid>6746</dbid>
     <displaynameid>104121</displaynameid>
     <rollovertextid>102867</rollovertextid>
-    <cost resourcetype="Influence">1500.0000</cost>
+    <cost resourcetype="Influence">2000.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\africans\hausa\fulani_invasion.png</icon>
     <flag>HomeCity</flag>
     <effects>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="deCampWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
       <effect type="TransformUnit" toprotoid="deFulaWarrior" fromprotoid="Settler"/>
       <effect type="TransformUnit" toprotoid="deFulaWarrior" fromprotoid="Coureur"/>
       <effect type="TransformUnit" toprotoid="deFulaWarrior" fromprotoid="CoureurCree"/>
@@ -6232,6 +6248,51 @@
       <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deChonkyCattle" relativity="Absolute">
         <target type="Player"/>
       </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCMassinaMadrasahs" type="Normal">
+    <effects>
+      <effect mergeMode='add' type="Data" action="FulaniTreeGatherRateBonus" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deUniversity</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCGaananci" type="Normal">
+    <dbid>8332</dbid>
+    <displaynameid>102832</displaynameid>
+    <rollovertextid>102872</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <cost resourcetype="Influence">300.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\hausa\gaananci.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="deNatMercAkanMusketeer" relativity="Absolute">
+        <target type="ProtoUnit">deWarCamp</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deNatMercAkanMusketeer</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="PopulationCount" relativity="Absolute">
+        <target type="ProtoUnit">deNatMercAkanMusketeer</target>
+      </effect>
+      <effect type="Data" amount="100.00" subtype="Cost" resource="Food" relativity="Assign">
+        <target type="ProtoUnit">deNatMercAkanMusketeer</target>
+      </effect>
+      <effect type="Data" amount="55.00" subtype="Cost" resource="Wood" relativity="Assign">
+        <target type="ProtoUnit">deNatMercAkanMusketeer</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Cost" resource="Influence" relativity="Assign">
+        <target type="ProtoUnit">deNatMercAkanMusketeer</target>
+      </effect>
+      <effect type="Data" amount="-1.00" subtype="BuildLimit" relativity="Assign">
+        <target type="ProtoUnit">deNatMercAkanMusketeer</target>
+      </effect>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="deNatMercAkanMusketeer" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCKingslayer" type="Normal">
@@ -7732,6 +7793,9 @@
     <effects>
       <effect type="Data" amount="0.25" subtype="MaximumVelocity" relativity="Absolute">
         <target type="ProtoUnit">AbstractCavalry</target>
+      </effect>
+      <effect type="Data" amount="0.25" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">AbstractLightInfantry</target>
       </effect>
       <effect type="Data" action="BuildingAttack" amount="1.25" subtype="DamageBonus" unittype="Building" relativity="BasePercent">
         <target type="ProtoUnit">AbstractHandCavalry</target>
@@ -14995,6 +15059,9 @@
     <rollovertextid>102656</rollovertextid>
     <flag>CountsTowardMilitaryScore</flag>
     <flag>YPNativeImprovement</flag>
+    <prereqs>
+      <techstatus status="Active">Colonialize</techstatus>
+    </prereqs>
     <effects>
       <effect type="Data" amount="0.75" subtype="UnitRegenRate" unittype="xpWarrior" relativity="Percent">
         <target type="Player"/>
