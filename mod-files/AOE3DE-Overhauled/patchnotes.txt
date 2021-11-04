@@ -685,23 +685,25 @@ Shipment Changes:
 -- Shiftas HP buff for villagers reduced to +25% from +35%
 -- Coffee Consumption moved to Discovery Age from Industrial Age. Now affects AbstractHandInfantry as well and changed to a flat +0.25 speed from +5%.
 -- Zebenyas no longer provides siege armor to Neftenyas, now delivers 2 free Neftenya on all future shipments. 
--- Shewa Riders no longer increases the armor of Oromo Riders, instead, they deal more damage to skirmishers.
+-- Chewa Elites moved to Age 3 from 4, now only affects Neftenya.
 -- 4 Zebu + 1 Livestock Market INF (I) replaced with 7 Semi-Fattened Zebu (II)
 -- Prize Bull (Big Benny) Food reduced from 900 to 800
--- Era of Chaos temporarily removed (until shipment is completely reworked to not be toxic)
--- Beekeepers now additional provides +10% yield to berries and huntables (gather rate for those improved to +20%)
--- King of Kings Reworked: Now provides +50% HP/ATK to all Rases and +20% HP/ATK to all pet lions and enables them to be trained from Rases. Unlocks the Roar of the Lion ability (unchanged)
--- Lalibela Rock Church Reworked: Now an age 2 shipment and delivers 3 Mountan Monastery Builders, increases MM build limit by +3, and improves MM HP by +25%.
--- Ignatian Spirituality Reworked: Now and age 3 shipment. Grants +30% HP to native warriors and lets them heal slowly in combat.
+-- Era of Chaos removed 
+-- Beekeepers now additional provides +15% yield to berries and huntables 
+-- King of Kings Reworked: Now provides +50% HP/ATK to all Rases and +20% HP/ATK to all pet lions and enables them to be trained from Rases. Unlocks the Roar of the Lion ability (unchanged). Moved to Age 2 from Discovery
+-- Lalibela Rock Church Reworked: Now an age 1 shipment. Delivers 2 Mountan Monastery Builders, increases MM build limit by +2.
+-- Ignatian Spirituality Reworked: Now an age 3 shipment. Grants +30% HP to native warriors and lets them heal slowly in combat.
 -- 2 palace wagon shipment (III) now increases palace build limit by +2.
--- 3/5 Abun increased to 4/6
+-- 3/5 Abun reduced to 2/4, no longer increases build limit, and moved to age 1/2 from 2/3, respectively
 -- Medicine Removed
--- Tabot Reworked: Now improved Abun speed by +25%, increases their LOS by +6, reduces their cost by 33% (150 --> 100).
--- Counter Cavalry Tactics Added: +0.25 speed for AbstractHandInfantry, Gascenya get +0.5x AbstractLightInfantry and AbstractCavalry, and Shotel Warriors get +1.0x AbstractHeavyCavalry and AbstractCoyoteMan
--- Abun shipments no longer increase build limit. 
+-- Tabot Reworked: Now improved Abun speed by +25%, increases their LOS by +6, reduces their cost by 40% (150 --> 90 Gold).
+-- Counter Cavalry Tactics Added: +0.50 speed for AbstractHandInfantry, Gascenya get +0.5x AbstractLightInfantry and AbstractCavalry, and Shotel Warriors get +1.0x AbstractHeavyCavalry and AbstractCoyoteMan
 -- 1 Sebastopol Mortar (III), 2 Sebastopol Mortars (IV) removed.
 -- 1 Sebastopol Mortar INF (IV) increased to 2.
 -- Fazogli Gold moved to Industrial Age from Commerce, now improves gold income by +30% from +20%
+-- Sefari now affects Hand Warrior upgrades (instead of Infantry). Now instantly researches elite upgrades (instead of making them free and have 0 train points), discount/research improvement for Legendary upgrade improved to -25% from 20%.
+-- 3/6 Wild Elephants added in Discovery/Commerce age (food sources, like bison)
+-- Kassa Rebellion added. Costs 2500 Influence and turns all villagers into Gascenya. Delivers 1 Sebastopol Mortar and 2 Mountain Guns.
 
 Hausa:
 
@@ -781,7 +783,6 @@ Shipment Changes:
 -- 8 Griots +8 Build Limit (IV) changed to 4 Griots (II)
 -- 5 Raiders reduced to 4 Gobir Riders
 -- 7 Raiders INF reduced to 6 Gobir Riders INF
--- Gwandu (9 Fulani + 5 Lifidi) reduced to 4 Lifidi
 -- Futa Toro (9 Fulani + 9 Raiders) reduced to 9 Fulani + 6 Gobir Riders
 -- Fulani Archer Combat renamed to Foot Archer Combat, now affects AbstractFootArcher
 -- Amina Epic increased to 20 influence per Lifidi from 6.20; 18 influence per Gobir Rider from 4 (10%)
@@ -789,6 +790,8 @@ Shipment Changes:
 -- Fodio Tactics now provides +4 range instead of +3
 -- Maguzawa Reworked: Now an Age I shipment. Increases the healing capacity of Griots by 50% (10 --> 15) and lets them autoheal much more quickly (0.25 --> 1.0) (Maybe make it age II or III and see if Griots can buff resource yield of villagers?)
 -- 4 Maigadi (II) for 300 Influence and 12 Maigadi (IV) for 1000 Influence added.
+-- Emir of Kano now only ships 8 Maigadi instead of 9.
+-- Hadejia Emirate now instantly researches Elite Hand Cavalry when sent (instead of making it free and have 0 train points), Legendary upgrade cost reduction improved to -25% from -20%.
 -- Rano Indigo Production (III) now additionally converts the Wood cost of Gobir Riders and Fulani Archers to Gold at a rate of 1:1.
 -- Dane Guns (II) damage bonus increased to +25% from +20%, Train Time bonus reduced to -20% from -25%, Maigadi Cost conversion increased to 125 Influence/ 125 Gold from 100 each.
 -- Crossing Festival (II) moved to Age 1 and now costs 300 Influence.
@@ -801,7 +804,8 @@ Shipment Changes:
 -- Royal Fortifications (IV) now delivers 2 Palace Builders and increases their build limit by +2, both up from 1.
 -- Palace of Amina (II) now costs 400 Influence and Delivers 3 Maigadi instead of Tokens of 300 Influence
 -- Wood Chopping Shipments (I) (Woodcrafting, Sawmills, and Pulaaku) now affect Fulani Archers
--- 600 Wood INF (II) and 900 Wood INF (III) added.
+-- 600 Wood INF (II) and 900 Wood INF (III) added, 700 Wood, 1000 Wood removed.
+-- 1600 Food/Gold Crates Removed (IV)
 -- Hand Cavalry Combat (III) added. 
 -- Sarkin Dogari improved to +1x AbstractCavalry/0.5x AbstractLightInfantry from 0.5/0.3x, respectively.
 -- Durbar Parade Reworked: Now provides +0.25 speed to ALL Cavalry and a +1.25x multiplier against Buildings for AbstractHandCavalry. Moved to Age 2 from 3
@@ -809,6 +813,7 @@ Shipment Changes:
 -- Cult of the Dodo now provides Griots +1.0 speed instead of +25%, build limit increased to +5 from +2
 -- Kingslayer Reworked: Now provides +2.5x Heroes instead of 4.5x. Adds +50% ATK/HP to Emirs and converts all bounties for enemy Heroes into influence (and provides an additonal +100%) Moved to age 2.
 -- Massina Madness now additionally improves Fulani Archer chop rate.
+-- Fulani Invasion Reworked: Now named Fulani Uprising and costs 2000 Influence. Delivers 2 Camp Builders and turns all villagers into Fulani Archers.
 
 -- TODO: 
   -- Fix African Mercs/Natives

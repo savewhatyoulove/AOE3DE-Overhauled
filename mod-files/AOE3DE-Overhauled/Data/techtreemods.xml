@@ -5799,6 +5799,124 @@
       </effect>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DEAfricanVillagerFarming1" type="Normal">
+    <dbid>8106</dbid>
+    <displaynameid>104103</displaynameid>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\subsistence_farming.png</icon>
+    <rollovertextid>104106</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <prereqs>
+      <techstatus status="Active">Colonialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data2" action="Gather" amount="1.10" subtype="WorkRateSpecific" resource="Food" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEAfricanVillagerFarming2" type="Normal">
+    <dbid>8107</dbid>
+    <displaynameid>104104</displaynameid>
+    <cost resourcetype="Wood">300.0000</cost>
+    <cost resourcetype="Gold">300.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\swing_plow.png</icon>
+    <rollovertextid>104107</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <prereqs>
+      <techstatus status="Active">DEAfricanVillagerFarming1</techstatus>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data2" action="Gather" amount="1.15" subtype="WorkRateSpecific" resource="Food" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEAfricanVillagerFarming3" type="Normal">
+    <dbid>8108</dbid>
+    <displaynameid>104105</displaynameid>
+    <cost resourcetype="Wood">400.0000</cost>
+    <cost resourcetype="Gold">400.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\vegetable_carbon.png</icon>
+    <rollovertextid>104107</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <prereqs>
+      <techstatus status="Active">DEAfricanVillagerFarming2</techstatus>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data2" action="Gather" amount="1.20" subtype="WorkRateSpecific" resource="Food" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEAfricanVillagerFarmingGold1" type="Normal">
+    <dbid>8111</dbid>
+    <displaynameid>104110</displaynameid>
+    <cost resourcetype="Food">200.0000</cost>
+    <cost resourcetype="Wood">200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\crop_rotation.png</icon>
+    <rollovertextid>104113</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <prereqs>
+      <techstatus status="Active">Colonialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data2" action="Gather" amount="1.10" subtype="WorkRateSpecific" resource="Gold" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEAfricanVillagerFarmingGold2" type="Normal">
+    <dbid>8112</dbid>
+    <displaynameid>104111</displaynameid>
+    <cost resourcetype="Food">400.0000</cost>
+    <cost resourcetype="Wood">400.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\new_world_crops.png</icon>
+    <rollovertextid>104114</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+      <techstatus status="Active">DEAfricanVillagerFarmingGold1</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data2" action="Gather" amount="1.20" subtype="WorkRateSpecific" resource="Gold" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEAfricanVillagerFarmingGold3" type="Normal">
+    <dbid>8113</dbid>
+    <displaynameid>104112</displaynameid>
+    <cost resourcetype="Food">600.0000</cost>
+    <cost resourcetype="Wood">600.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\cash_crops.png</icon>
+    <rollovertextid>104114</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+      <techstatus status="Active">DEAfricanVillagerFarmingGold2</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data2" action="Gather" amount="1.30" subtype="WorkRateSpecific" resource="Gold" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
 
   <tech mergeMode='replace' name="DEHCFazogli" type="Normal">
     <dbid>8391</dbid>
@@ -5977,7 +6095,7 @@
       <effect type="Data" action="Heal" amount="4.00" subtype="MaximumRange" relativity="Absolute">
         <target type="ProtoUnit">deGriot</target>
       </effect>
-      <effect type="Data" amount="5.00" subtype="BuildLimit" relativity="BasePercent">
+      <effect type="Data" amount="2.00" subtype="BuildLimit" relativity="BasePercent">
         <target type="ProtoUnit">deGriot</target>
       </effect>
       <effect type="TextOutputTechName">110130</effect>
@@ -6567,6 +6685,46 @@
       </effect>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DEHCHadejiaEmirate" type="Normal">
+    <dbid>8467</dbid>
+    <displaynameid>101368</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <cost resourcetype="Influence">1000.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\hausa\hadejia_emirate.png</icon>
+    <rollovertextid>103245</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="deRaider" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="deLifidi" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TechStatus" status="active">DEEliteHeavyCavalryHausa</effect>
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Wood" relativity="Percent">
+        <target type="Tech">DEChampionHeavyCavalryHausa</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEChampionHeavyCavalryHausa</target>
+      </effect>
+      <effect type="Data" amount="0.75" subtype="Cost" resource="Wood" relativity="Percent">
+        <target type="Tech">DELegendaryHeavyCavalryHausa</target>
+      </effect>
+      <effect type="Data" amount="0.75" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DELegendaryHeavyCavalryHausa</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="ResearchPoints" relativity="Percent">
+        <target type="Tech">DEChampionHeavyCavalryHausa</target>
+      </effect>
+      <effect type="Data" amount="0.75" subtype="ResearchPoints" relativity="Percent">
+        <target type="Tech">DELegendaryHeavyCavalryHausa</target>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+
   <tech mergeMode='replace' name="DEHCRedFulaniCattle" type="Normal">
     <dbid>8341</dbid>
     <displaynameid>102841</displaynameid>
@@ -7358,6 +7516,45 @@
       </effect>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DEHCSefari" type="Normal">
+    <dbid>8481</dbid>
+    <displaynameid>103197</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <cost resourcetype="Influence">1000.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\ethiopians\sefari.png</icon>
+    <rollovertextid>103199</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="deGascenya" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="deShotelWarrior" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TechStatus" status="active">DEEliteCavalryEthiopian</effect>
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Wood" relativity="Percent">
+        <target type="Tech">DEChampionCavalryEthiopian</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DEChampionCavalryEthiopian</target>
+      </effect>
+      <effect type="Data" amount="0.75" subtype="Cost" resource="Wood" relativity="Percent">
+        <target type="Tech">DELegendaryCavalryEthiopian</target>
+      </effect>
+      <effect type="Data" amount="0.75" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">DELegendaryCavalryEthiopian</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="ResearchPoints" relativity="Percent">
+        <target type="Tech">DEChampionCavalryEthiopian</target>
+      </effect>
+      <effect type="Data" amount="0.75" subtype="ResearchPoints" relativity="Percent">
+        <target type="Tech">DELegendaryCavalryEthiopian</target>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
 
   <tech mergeMode='replace' name="DEHCShipZebu3" type="Normal">
     <dbid>8269</dbid>
@@ -7546,13 +7743,13 @@
     <rollovertextid>104521</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="AbstractBerryBush" relativity="BasePercent">
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="AbstractBerryBush" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="deTorpBush2" relativity="BasePercent">
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="deTorpBush2" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
       <effect type="Data2" action="Gather" amount="1.15" subtype="WorkRateSpecific" resource="Food" unittype="deField" relativity="BasePercent">
@@ -7567,14 +7764,14 @@
       <effect type="Data2" action="Gather" amount="1.15" subtype="WorkRateSpecific" resource="Food" unittype="ypRicePaddy" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="Data" action="Gather" amount="1.10" subtype="Yield" unittype="Huntable" relativity="BasePercent">
+      <effect type="Data" action="Gather" amount="1.15" subtype="Yield" unittype="Huntable" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="Data" action="Gather" amount="1.10" subtype="Yield" unittype="AbstractBerryBush" relativity="BasePercent">
+      <effect type="Data" action="Gather" amount="1.15" subtype="Yield" unittype="AbstractBerryBush" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
       <effect type="TextOutput">41846</effect>
-      <effect type="Data" action="Gather" amount="1.10" subtype="Yield" unittype="deTorpBush2" relativity="BasePercent">
+      <effect type="Data" action="Gather" amount="1.15" subtype="Yield" unittype="deTorpBush2" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
 
@@ -7809,6 +8006,9 @@
         <target type="ProtoUnit">deAbun</target>
       </effect>
       <effect type="Data" amount="6.00" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">deAbun</target>
+      </effect>
+      <effect type="Data" action="Heal" amount="6.00" subtype="MaximumRange" relativity="Absolute">
         <target type="ProtoUnit">deAbun</target>
       </effect>
     </effects>
@@ -15621,6 +15821,27 @@
 
     </effects>
   </tech>
+  <tech name="DENatSudaneseQuiltedArmor" type="Normal">
+    <dbid>8099</dbid>
+    <displaynameid>102721</displaynameid>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\natives\sud_quilted_armor.png</icon>
+    <rollovertextid>102720</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>YPNativeImprovement</flag>
+    <effects>
+      <effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractCavalry</target>
+      </effect>
+      <effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractLightInfantry</target>
+      </effect>
+    </effects>
+  </tech>
+
   <tech mergeMode='replace' name="DENatAkanGoldEconomy" type="Normal">
     <dbid>8064</dbid>
     <displaynameid>102671</displaynameid>
@@ -15638,12 +15859,40 @@
       </effect>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DENatEredoLegacy" type="Normal">
+    <dbid>8055</dbid>
+    <displaynameid>102659</displaynameid>
+    <cost resourcetype="Food">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\natives\yor_eredo.png</icon>
+    <rollovertextid>102658</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>YPNativeImprovement</flag>
+    <flag>CheckLandHCGatherPoint</flag>
+    <effects>
+      <effect type="Data" amount="0.2" subtype="Armor" relativity="Absolute">
+        <target type="ProtoUnit">AbstractWall</target>
+      </effect>
+      <effect type="Data" amount="8.00" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">AbstractWall</target>
+      </effect>
+      <effect type="Data" amount="0.2" subtype="Armor" relativity="Absolute">
+        <target type="ProtoUnit">AbstractOutpost</target>
+      </effect>
+      <effect type="Data" amount="10.00" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">AbstractOutpost</target>
+      </effect>
+    </effects>
+  </tech>
+
   <tech mergeMode='replace' name="DENatYorubaTwins" type="Normal">
     <dbid>8053</dbid>
     <displaynameid>102653</displaynameid>
     <cost resourcetype="Gold">250.0000</cost>
     <cost resourcetype="Wood">250.0000</cost>
-    <researchpoints>60.0000</researchpoints>
+    <researchpoints>30.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\africans\natives\yor_twins.png</icon>
     <rollovertextid>102652</rollovertextid>
@@ -15664,6 +15913,87 @@
       </effect>
     </effects>
   </tech>
+  <tech name="DENativeBerbers" type="Normal">
+    <dbid>8036</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deNatCamelRider</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deNatNomad</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Privateer</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">DEWarriorSocietyBerbers</effect>
+      <effect type="TechStatus" status="obtainable">DEChampionBerbers</effect>
+      <effect type="TechStatus" status="obtainable">DENatBerberMusketCharge</effect>
+      <effect type="TechStatus" status="obtainable">DENatBerberDesertKings</effect>
+      <effect type="TechStatus" status="obtainable">DENatBerberDynasties</effect>
+      <effect type="TechStatus" status="obtainable">DENatBerberSaltCaravans</effect>
+      <effect type="TechStatus" status="obtainable">DENatGhorfas</effect>
+      <effect type="TechStatus" status="obtainable">DENativeTreatyBerbers</effect>
+      <effect type="TechStatus" status="obtainable">DEIndianFriendshipBerbers</effect>
+      <effect type="TechStatus" status="obtainable">ypNativeEmbassyEnableShadow</effect>
+      <effect type="TechStatus" status="obtainable">DENativeTradeTreatyBerbers</effect>
+    </effects>
+  </tech>
+
+  <tech mergeMode='replace' name="DENatBerberMusketCharge" type="Normal">
+    <dbid>8042</dbid>
+    <displaynameid>102631</displaynameid>
+    <cost resourcetype="Food">200.0000</cost>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>50.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\natives\ber_fantasia.png</icon>
+    <rollovertextid>102630</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>YPNativeImprovement</flag>
+    <effects>
+    </effects>
+  </tech>
+
+  <tech mergeMode='replace' name="DENatBerberDesertKings" type="Normal">
+    <dbid>8043</dbid>
+    <displaynameid>102633</displaynameid>
+    <cost resourcetype="Wood">500.0000</cost>
+    <cost resourcetype="Gold">500.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\natives\ber_desert_kings.png</icon>
+    <rollovertextid>102632</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>YPNativeImprovement</flag>
+    <effects>
+      <effect type="Data" amount="0.50" subtype="DamageBonus" unittype="AbstractVillager" allactions="1" relativity="Absolute">
+        <target type="ProtoUnit">AbstractHandCavalry</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="DamageBonus" unittype="AbstractVillager" allactions="1" relativity="Absolute">
+        <target type="ProtoUnit">AbstractCoyoteMan</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech mergeMode='replace' name="DENatGhorfas" type="Normal">
+    <dbid>8067</dbid>
+    <displaynameid>102639</displaynameid>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\natives\ber_ghorfas.png</icon>
+    <rollovertextid>102638</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>YPNativeImprovement</flag>
+    <effects>
+      <effect type="ResourceExchange" multiplier="1.35" toresource="Food" fromresource="Food"/>
+    </effects>
+  </tech>
+
   <tech name="DEHCShipMountainGuns1" type="Normal">
     <dbid>9672</dbid>
     <displaynameid>270099</displaynameid>

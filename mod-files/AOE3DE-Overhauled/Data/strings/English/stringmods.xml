@@ -233,7 +233,6 @@
 	    <string _locid="101278">4 Abuns</string>
 	    <string _locid="101281">2 Griots</string>
 	    <string _locid="101282">4 Griots</string>
-	    <string _locid="101282">10 Griots</string>
 	    <string _locid="101287">5 Shotel Warriors</string>
 	    <string _locid="101288">8 Shotel Warriors</string>
 	    <string _locid="101289">7 Shotel Warriors</string>
@@ -272,18 +271,22 @@
 	    <string _locid="102590">Quick-training and fast moving powerful lancer that slowly loses hitpoints.</string>
 	    <string _locid="102595">Mercenary Rider of the Berber Zenata armed with a shield and javelins. Good against skirmishers, foot archers, and artillery.</string>
 	    <string _locid="102601">Battle-tested female mercenary of the Dahomey armed with knives. Good against heavy cavalry and shock infantry.</string>
+	    <string _locid="102638">Exchanges all your current Food for 35% more Food.</string>
 	    <string _locid="102652">Increases the amount of Yoruba Legionaries and Eso Riders that you can train.</string>
+	    <string _locid="102658">Walls and Outposts gain additional line of sight and siege armor.</string>
 	    <string _locid="102670">Ships 1 Gold Prospector Wagon.</string>
 	    <string _locid="102685">Unlocks a modest trickle of Coin for the rest of the game.</string>
 	    <string _locid="102687">Villagers gain greatly increased melee damage.</string>
 	    <string _locid="102689">Increases Frontier Fortifications Line of Sight(Outpost, War Hut, Castle, etc).</string>
 	    <string _locid="102699">All Ranged and Hand Infantry gain additional hitpoints.</string>
 	    <string _locid="102703">Darood Militia gain increased range.</string>
+	    <string _locid="102720">All Cavalry and Shock Infantry get additional hitpoints.</string>
 	    <string _locid="102849">All Cavalry move faster and Hand Cavalry deal more damage to buildings.</string>
 	    <string _locid="102845">Emirs gain more hitpoints and deal more damage, especially against against Heroes. Additionally, slaying Heroes now grants a large sum of Influence and Emirs gain additional attack and hitpoints from nearby enemy military units.</string>
 	    <string _locid="102850">Javelin Riders have increased hitpoints and damage.</string>
 	    <string _locid="102853">Ships 1 Griot and 1 University Builder for educational purposes. Increases University build limit by +1.</string>
 	    <string _locid="102855">Universities improve the construction speed and work rate of nearby buildings by 25%. Work Rate bonus is reduced for Town Centers.</string>
+	    <string _locid="102856">Villagers gather mines and trees around Universities 30% faster. Additionally, Fulani Archers gather from trees around Universities 30% faster and University line of sight significantly increased.</string>
 	    <string _locid="102858">Ships 1 Palace Wagon and 3 Maigadi. Increases Palace build limit by 1.</string>
 	    <string _locid="102859">Researches City Walls, increases Gate hitpoints, and enables Gates to grant nearby units an 8% attack bonus.\n • Damage Aura scales off of units' CURRENT damage within a 24 radius.</string>
 	    <string _locid="102860">TEAM Wall hitpoints are improved by nearby military units.\n • Hitpoint Improvement Rate is +10% BASE hitpoints for each military unit within a 24 radius.</string>
@@ -297,6 +300,7 @@
 	    <string _locid="102878">Grants a small sum of food for each of your fields on the map. Improves food gathering on fields.\n • Deposits 30 Food for each Field you've built, up to 2100 Food.</string>
 	    <string _locid="102881">Particularly fattened Cattle containing 800 Food.</string>
 	    <string _locid="102885">Ships a number of Kanuri Guard mercenaries (Mounted Skirmishers). Enables them to be trained from the Palace where they cost partially Coin and Influence.</string>
+	    <string _locid="102894">Neftenya attack and hitpoints increased.</string>
 	    <string _locid="102896">Receive 2 free Neftenyas with all future shipments, starting with this one. Neftenya gain additional hitpoints.</string>
 	    <string _locid="102910">Improves your Rases and Lions in combat. Removes all damage penalties from Lions and Rases gain the "Roar of the Lion!" ability:\n • Roar of the Lion: Increases the movement and attack speed of units nearby any Ras by 10% for 15 seconds.</string>
 	    <string _locid="102930">Hand Infantry Damage.</string>
@@ -351,7 +355,7 @@
 	    <string _locid="104021">Gobir Rider attack and hitpoints increased.</string>
 	    <string _locid="104121">Fulani Uprising</string>
 	    <string _locid="104501">Granaries now also improve nearby Food and Wood gathering.\n • Wood Gathering: +10%\n • Animals + Berries: +10%</string>
-	    <string _locid="104511">Abuns are cheaper, move more quickly, and have more LOS.</string>
+	    <string _locid="104511">Abuns are cheaper, move more quickly, and have increased healing range and line of sight.</string>
 	    <string _locid="104512">Foot Archer Combat</string>
 	    <string _locid="104521">Villagers gather Food faster from hunted animals, berries and fields. Berries and hunted animals last longer.</string>
 	    <string _locid="104527">Villagers gather Coin and Food from Fields faster.</string>
@@ -361,7 +365,7 @@
 	    <string _locid="104542">Hand Cavalry Hitpoints</string>
 	    <string _locid="104543">Gobir Rider and Lifidi Knight hitpoints increased.</string>
 	    <string _locid="104550">2 Sebastopol Mortars</string>
-	    <string _locid="104556">Gobir Rider and Lifidi knight attack and hitpoints improved.</string>
+	    <string _locid="104556">Gobir Rider and Lifidi Knight attack and hitpoints improved.</string>
 	    <string _locid="110001" symbol="cStringCivRolloverAmericans">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nFederal states unlock two new cards per age and two Factory cards in Industrial Age. Shipments are earned more quickly and you receive a free XP crate with most shipments. Economic improvements from the Home City are more powerful, but you have a lower Settler build limit and cannot ship resource crates. Generals can build Forts instead of Town Centers. Levies can be called repeatedly from multiple buildings with a global cooldown. Military units slowly heal over time outside of combat. Starts with a Fattened Sheep, an XP crate, and a Homestead Wagon instead of resource crates. \n&lt;color=1.0, 1.0, 0.0&gt;National guard units: &lt;/color&gt;Sharpshooters (Marksmen), Spur Riders (Rough Riders)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nTexas Ranger, Gatling Gun, Ironclad, Minuteman, Regular, Sharpshooter, Sloop, State Militia, Spur Rider, Steamer\n\nThe "land of opportunity" provided ample land for Settlers to plunder, creating the famous melting pot of Western European identities. Expanding from militia forces skilled in skirmishing tactics and marksmanship to a professional army, the United States of America ensured its independence and impressive road to prosperity for the owner class.</string>
 	    <string _locid="110009">Hardy Skirmisher with a powerful short-ranged splash attack.</string>
 	    <string _locid="110013">Fragile skirmisher with a slow, but powerful long-ranged attack. Good against infantry.</string>
