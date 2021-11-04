@@ -5405,7 +5405,7 @@
     <cost resourcetype="Gold">200.0000</cost>
     <researchpoints>30.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\art\techs\africans\elite_ranged_cav_eth.png</icon>
+    <icon>resources\art\techs\africans\elite_infantry_eth.png</icon>
     <rollovertextid>101579</rollovertextid>
     <flag>CountsTowardMilitaryScore</flag>
     <flag>UpgradeTech</flag>
@@ -5452,7 +5452,7 @@
     <cost resourcetype="Gold">800.0000</cost>
     <researchpoints>30.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\art\techs\africans\champion_ranged_cav_eth.png</icon>
+    <icon>resources\art\techs\africans\champion_infantry_eth.png</icon>
     <rollovertextid>270108</rollovertextid>
     <flag>UpgradeTech</flag>
     <flag>CountsTowardMilitaryScore</flag>
@@ -5503,14 +5503,14 @@
       </effect>
     </effects>
   </tech>
-  <tech name="DELegendaryCavalryEthiopian" type="Normal">
+  <tech mergeMode='replace' name="DELegendaryCavalryEthiopian" type="Normal">
     <dbid>6828</dbid>
     <displaynameid>101582</displaynameid>
     <cost resourcetype="Wood">2000.0000</cost>
     <cost resourcetype="Gold">2000.0000</cost>
     <researchpoints>30.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\art\techs\africans\legendary_ranged_cav_eth.png</icon>
+    <icon>resources\art\techs\africans\legendary_infantry_eth.png</icon>
     <rollovertextid>270109</rollovertextid>
     <flag>UpgradeTech</flag>
     <flag>CountsTowardMilitaryScore</flag>
@@ -5560,7 +5560,7 @@
     <cost resourcetype="Gold">200.0000</cost>
     <researchpoints>30.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\art\techs\africans\elite_infantry_eth.png</icon>
+    <icon>resources\art\techs\africans\elite_ranged_cav_eth.png</icon>
     <rollovertextid>101575</rollovertextid>
     <flag>CountsTowardMilitaryScore</flag>
     <flag>UpgradeTech</flag>
@@ -5569,6 +5569,9 @@
       <techstatus status="Active">Fortressize</techstatus>
     </prereqs>
     <effects>
+      <effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">deNeftenya</target>
+      </effect>
       <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
         <target type="ProtoUnit">deBowmanLevy</target>
       </effect>
@@ -5577,9 +5580,6 @@
       </effect>
       <effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
         <target type="ProtoUnit">deBowmanLevy</target>
-      </effect>
-      <effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
-        <target type="ProtoUnit">deNeftenya</target>
       </effect>
       <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">deJavelinRider</target>
@@ -5597,14 +5597,14 @@
       <effect type="SetName" proto="deBowmanLevy" culture="none" newname="101554"/>
           </effects>
   </tech>
-  <tech name="DEChampionInfantryEthiopian" type="Normal">
+  <tech mergeMode='replace' name="DEChampionInfantryEthiopian" type="Normal">
     <dbid>6913</dbid>
     <displaynameid>101577</displaynameid>
     <cost resourcetype="Wood">800.0000</cost>
     <cost resourcetype="Gold">800.0000</cost>
     <researchpoints>30.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\art\techs\africans\champion_infantry_eth.png</icon>
+    <icon>resources\art\techs\africans\champion_ranged_cav_eth.png</icon>
     <rollovertextid>270106</rollovertextid>
     <flag>CountsTowardMilitaryScore</flag>
     <flag>UpgradeTech</flag>
@@ -5642,14 +5642,14 @@
       </effect>
     </effects>
   </tech>
-  <tech name="DELegendaryInfantryEthiopian" type="Normal">
+  <tech mergeMode='replace' name="DELegendaryInfantryEthiopian" type="Normal">
     <dbid>6914</dbid>
     <displaynameid>101578</displaynameid>
     <cost resourcetype="Wood">2000.0000</cost>
     <cost resourcetype="Gold">2000.0000</cost>
     <researchpoints>30.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\art\techs\africans\legendary_infantry_eth.png</icon>
+    <icon>resources\art\techs\africans\legendary_ranged_cav_eth.png</icon>
     <rollovertextid>270107</rollovertextid>
     <flag>CountsTowardMilitaryScore</flag>
     <flag>UpgradeTech</flag>
