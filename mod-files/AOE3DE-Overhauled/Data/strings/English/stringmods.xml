@@ -239,8 +239,11 @@
 	    <string _locid="101290">14 Shotel Warriors</string>
 	    <string _locid="101301">4 Gobir Riders</string>
 	    <string _locid="101302">6 Gobir Riders</string>
+	    <string _locid="101316">5 Berber Allies</string>
+	    <string _locid="101317">12 Berber Allies</string>
 	    <string _locid="101318">8 Sudanese Allies</string>
 	    <string _locid="101319">10 Sudanese Allies</string>
+	    <string _locid="101323">6 Berber Allies</string>
 	    <string _locid="101333">Villagers construct buildings and gather resources. Griots can inspire buildings to improve their workrate and heal allied units.</string>
 	    <string _locid="101338">4 Oromo Warriors</string>
 	    <string _locid="101339">8 Oromo Warriors</string>
@@ -271,6 +274,7 @@
 	    <string _locid="102590">Quick-training and fast moving powerful lancer that slowly loses hitpoints.</string>
 	    <string _locid="102595">Mercenary Rider of the Berber Zenata armed with a shield and javelins. Good against skirmishers, foot archers, and artillery.</string>
 	    <string _locid="102601">Battle-tested female mercenary of the Dahomey armed with knives. Good against heavy cavalry and shock infantry.</string>
+	    <string _locid="102615">Nimble but fragile Berber Villager that excels at gathering natural resources but cannot gather from agricultural buildings.</string>
 	    <string _locid="102638">Exchanges all your current Food for 35% more Food.</string>
 	    <string _locid="102652">Increases the amount of Yoruba Legionaries and Eso Riders that you can train.</string>
 	    <string _locid="102658">Walls and Outposts gain additional line of sight and siege armor.</string>
@@ -309,6 +313,9 @@
 	    <string _locid="102933">Improves Hand Infantry hitpoints.\n • This also affects Shotel Warriors and all Pets.</string>
 	    <string _locid="103004">10 Semi-fattened Goats and 1 Livestock Market Builder</string>
 	    <string _locid="103005">20 Semi-fattened Goats and 2 Livestock Market Builders</string>
+	    <string _locid="103008">3 Berber Camel Riders</string>
+	    <string _locid="103009">4 Berber Camel Riders</string>
+	    <string _locid="103010">8 Berber Camel Riders</string>
 	    <string _locid="103017">1 Camp Wagon and chests of 200 Coin</string>
 	    <string _locid="103044">10 Semi-fattened Goats and 1 Livestock Market Builder</string>
 	    <string _locid="103045">20 Semi-fattened Goats and 2 Livestock Market Builders</string>
@@ -316,6 +323,8 @@
 	    <string _locid="103110">Fulani Archers gain a long range attack. Enables Fulani Archers to train Goats and harvest Food from Herdables. Additionally, they gather Wood from Trees much more quickly and Trees last longer for them.</string>
 	    <string _locid="103114">Villagers gather faster, particularly from natural resources. Fulani Archers gather Wood from Trees more quickly.</string>
 	    <string _locid="103124">Fulani Migrations: Fulani Archers can now gather from herdables and train Goats. Additionally, they chop wood more quickly and gain a long-ranged attack.</string>
+	    <string _locid="103127">Unlocks Berber Camel Riders at the Palace. Unlocks Berber Nomads at the Town Center. And unlocks both units: Berber Camel Riders and Berber Nomads at the Native Embassy.</string>
+
 	    <string _locid="103131">Passive Ability: Mountain Monasteries improve the BASE hitpoints of nearby combat buildings by 15% (this stacks multiplicatively with other Mountain Monasteries).</string>
 	    <string _locid="103135">Granaries attract huntable animals.</string>
 	    <string _locid="103172">Unlocks Corsair Marksmen (Rifle Infantry) at Palaces. Ships 1 Palace Builder.</string>

@@ -17,6 +17,9 @@
       <effect mergeMode='add' type="Data" amount="-2.00" subtype="UnitRegenRate" unittype="Minuteman" relativity="Assign">
         <target type="Player"/>
       </effect>
+      <effect mergeMode='add' type="Data" action="NoWork" amount="1.00" subtype="WorkRate" unittype="Building" relativity="Assign">
+        <target type="ProtoUnit">deNatNomad</target>
+      </effect>
     </effects>
   </tech>
 <!-- Politician Changes --> 
@@ -6671,13 +6674,13 @@
     <flag>HomeCity</flag>
     <effects>
       <effect type="TechStatus" status="OBTAINABLE">DEReduceOutlawPopShadow</effect>
-      <effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+      <effect type="Data" amount="0.25" subtype="MaximumVelocity" relativity="Absolute">
         <target type="ProtoUnit">deOutlawDesertWarrior</target>
       </effect>
-      <effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+      <effect type="Data" amount="0.25" subtype="MaximumVelocity" relativity="Absolute">
         <target type="ProtoUnit">deOutlawDesertArcher</target>
       </effect>
-      <effect type="Data" amount="1.05" subtype="MaximumVelocity" relativity="BasePercent">
+      <effect type="Data" amount="0.25" subtype="MaximumVelocity" relativity="Absolute">
         <target type="ProtoUnit">deOutlawDesertRaider</target>
       </effect>
       <effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
@@ -6722,6 +6725,93 @@
         <target type="Tech">DELegendaryHeavyCavalryHausa</target>
       </effect>
       <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShipBerberAllies1" type="Normal">
+    <dbid>8425</dbid>
+    <displaynameid>101316</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <cost resourcetype="Influence">500.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\africans\natives\tuareg\berber_camel_rider_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="deNatMercCamelRider" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipBerberAllies2" type="Normal">
+    <dbid>8426</dbid>
+    <displaynameid>101317</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <cost resourcetype="Influence">1000.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\africans\natives\tuareg\berber_camel_rider_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="deNatMercCamelRider" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShipBerberAllies3" type="Normal">
+    <dbid>8453</dbid>
+    <displaynameid>101323</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <cost resourcetype="Influence">500.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\africans\natives\tuareg\berber_camel_rider_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="deNatMercCamelRider" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCBerberNomads" type="Normal">
+    <dbid>8331</dbid>
+    <displaynameid>102831</displaynameid>
+    <rollovertextid>102929</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\hausa\air_nomads.png</icon>
+    <flag>HomeCity</flag>
+    <flag>DEHCCardDynamicCount</flag>
+    <flag>DEAccumulateUnitCount</flag>
+    <flag>DEDoNotCheckUnitCapWhenShipping</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnitByUnitCount" counttype="AbstractTradingPost" unittype="deNatNomad" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnitByUnitCount" counttype="TownCenter" unittype="deNatNomad" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCREVBerberNomads" type="Normal">
+    <dbid>8476</dbid>
+    <displaynameid>102831</displaynameid>
+    <rollovertextid>102929</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\hausa\air_nomads.png</icon>
+    <flag>HomeCity</flag>
+    <flag>DEHCCardDynamicCount</flag>
+    <flag>DEAccumulateUnitCount</flag>
+    <flag>DEDoNotCheckUnitCapWhenShipping</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnitByUnitCount" counttype="AbstractTradingPost" unittype="deNatNomad" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnitByUnitCount" counttype="TownCenter" unittype="deNatNomad" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
     </effects>
   </tech>
 
@@ -7144,6 +7234,17 @@
       </effect>
     </effects>
   </tech>
+  <tech name="DEAllegianceBerberUnlockShadow" type="Normal">
+    <effects>
+      <effect mergeMode='remove' type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deNatSaltCamel</target>
+      </effect>
+      <effect mergeMode='remove' type="CommandAdd" proto="deNatSaltCamel" page="2" column="1">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+    </effects>
+  </tech>
+
   <tech name="DEAllegianceIndianUnlockShadow" type="Normal">
     <effects>
       <effect mergeMode='add' type="TechStatus" status="obtainable">ypMarketLogFlume</effect>
@@ -7267,6 +7368,69 @@
         <target type="Player"/>
       </effect>
       <effect type="TechStatus" status="active">DEAllegianceOromoUnlockShadow</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEAllegianceBerber3" type="Normal">
+    <dbid>6974</dbid>
+    <displaynameid>103006</displaynameid>
+    <cost resourcetype="Food">1200.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>105.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iii.png</icon>
+    <rollovertextid>103008</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age2</effect>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="deNatCamelRider" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">DEAllegianceBerber4</effect>
+      <effect type="TechStatus" status="unobtainable">DEAllegianceBerber5</effect>
+      <effect type="TechStatus" status="active">DEAllegianceBerberUnlockShadow</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEAllegianceBerber4" type="Normal">
+    <dbid>6975</dbid>
+    <displaynameid>103006</displaynameid>
+    <cost resourcetype="Food">2000.0000</cost>
+    <cost resourcetype="Gold">1200.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iv.png</icon>
+    <rollovertextid>103009</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age3</effect>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="deNatCamelRider" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">DEAllegianceBerber5</effect>
+      <effect type="TechStatus" status="active">DEAllegianceBerberUnlockShadow</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEAllegianceBerber5" type="Normal">
+    <dbid>6976</dbid>
+    <displaynameid>103006</displaynameid>
+    <cost resourcetype="Food">4000.0000</cost>
+    <cost resourcetype="Gold">4000.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_v.png</icon>
+    <rollovertextid>103010</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="SetAge">Age4</effect>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="deNatCamelRider" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TechStatus" status="active">DEAllegianceBerberUnlockShadow</effect>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEAllegianceOromoFields" type="Normal">
@@ -15913,7 +16077,7 @@
       </effect>
     </effects>
   </tech>
-  <tech name="DENativeBerbers" type="Normal">
+  <tech mergeMode='replace' name="DENativeBerbers" type="Normal">
     <dbid>8036</dbid>
     <status>UNOBTAINABLE</status>
     <flag>Shadow</flag>
