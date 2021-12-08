@@ -8,7 +8,6 @@
   <action>
     <name stringid="48954">BuildingHP</name>
     <type>AutoRangedModify</type>
-    <modifyabstracttype>AbstractOutpost</modifyabstracttype>
     <modifyabstracttype>AbstractTownCenter</modifyabstracttype>
     <active>1</active>
     <maxrange>38</maxrange>
@@ -30,5 +29,5 @@
     <modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>
-  <tactic>Normal<action>AutoGather</action><action>BuildingHP</action><action>OutpostHP</action></tactic>
+  <tactic>MonasteryInfluence50<action>AutoGather</action><action>BuildingHP</action><action>OutpostHP</action></tactic>
 </tactics>
