@@ -29,5 +29,5 @@
     <modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>
-  <tactic>MonasteryInfluence50<action>AutoGather</action><action>BuildingHP</action><action>OutpostHP</action></tactic>
+  <tactic>Normal<action>AutoGather</action><action>BuildingHP</action><action>OutpostHP</action></tactic>
 </tactics>

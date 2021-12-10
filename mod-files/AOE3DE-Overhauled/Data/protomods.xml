@@ -111,140 +111,12 @@
     </protoaction>
   </unit>
   <unit mergeMode='replace' id="298" name="Stable">
-    <dbid>25</dbid>
-    <displaynameid>22919</displaynameid>
-    <obstructionradiusx>3.0000</obstructionradiusx>
-    <obstructionradiusz>5.0000</obstructionradiusz>
-    <maxvelocity>0.0000</maxvelocity>
-    <movementtype>land</movementtype>
-    <animfile>buildings\stables\stables.xml</animfile>
-    <deadreplacement>BuildingRubble5x3</deadreplacement>
-    <deadreplacementlifespan>15</deadreplacementlifespan>
-    <impacttype>Wood</impacttype>
-    <physicsinfo>stable</physicsinfo>
-    <placementfile>buildinglarge.xml</placementfile>
-    <icon>resources\art\buildings\stables\stables_icon.png</icon>
-    <portraiticon>resources\art\buildings\stables\stables_portrait.png</portraiticon>
-    <rollovertextid>22918</rollovertextid>
-    <shortrollovertextid>25727</shortrollovertextid>
-    <initialhitpoints>2500.0000</initialhitpoints>
-    <maxhitpoints>2500.0000</maxhitpoints>
-    <los>14.0000</los>
-    <buildpoints>30.0000</buildpoints>
-    <bounty>40.0000</bounty>
-    <buildbounty>20.0000</buildbounty>
-    <cost resourcetype="Wood">200.0000</cost>
-    <buildingworkrate>1.0000</buildingworkrate>
-    <allowedage>1</allowedage>
-    <armor type="Siege" value="0.0000"/>
-    <builderlimit>8</builderlimit>
-    <unittype>LogicalTypeValidSabotage</unittype>
-    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
-    <unittype>LogicalTypeBuildingsNotWalls</unittype>
-    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
-    <unittype>LogicalTypeVillagersAttack</unittype>
-    <unittype>LogicalTypeHandUnitsAttack</unittype>
-    <unittype>LogicalTypeShipsAndBuildings</unittype>
-    <unittype>LogicalTypeRangedUnitsAttack</unittype>
-    <unittype>LogicalTypeBuildingsNotWallsOrGroves</unittype>
-    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
-    <unittype>ConvertsHerds</unittype>
-    <unittype>AbstractStables</unittype>
-    <unittype>CountsTowardMilitaryScore</unittype>
-    <unittype>HasBountyValue</unittype>
-    <unittype>Building</unittype>
-    <unittype>BuildingClass</unittype>
-    <unittype>MilitaryBuilding</unittype>
-    <train row="0" page="0" column="0">Uhlan</train>
     <train row="0" page="0" column="0">deSpurRider</train>
-    <train row="0" page="0" column="1">Oprichnik</train>
-    <train row="0" page="0" column="2">CavalryArcher</train>
-    <train row="0" page="0" column="0">Hussar</train>
-    <train row="0" page="0" column="1">WarWagon</train>
-    <train row="0" page="0" column="1">Ruyter</train>
-    <train row="0" page="0" column="1">deFinnishRider</train>
-    <train row="0" page="0" column="2">Dragoon</train>
-    <train row="0" page="0" column="1">Lancer</train>
-    <train row="0" page="0" column="1">Cuirassier</train>
-    <train row="0" page="0" column="0">Cossack</train>
-    <train row="0" page="0" column="0">deBarbaryCavalry</train>
-    <train row="0" page="0" column="1">deBedouinHorseArcher</train>
-    <train row="0" page="0" column="0">ypSteppeRider</train>
-    <train row="0" page="0" column="1">ypKeshik</train>
-    <train row="0" page="0" column="2">CavalryArcher</train>
-    <train row="0" page="0" column="3">ypMeteorHammer</train>
-    <train row="0" page="0" column="4">ypIronFlail</train>
-    <tech row="0" page="1" column="1">ImperialCarabineer</tech>
-    <tech row="0" page="1" column="0">ImperialCossack</tech>
-    <tech row="0" page="1" column="2">ImperialCavalryArchers</tech>
-    <tech row="0" page="1" column="2">ImperialDragoons</tech>
-    <tech row="0" page="1" column="0">ImperialHussars</tech>
-    <tech row="0" page="1" column="2">ImperialJinetes</tech>
-    <tech row="0" page="1" column="0">ImperialCzapkaUhlans</tech>
-    <tech row="0" page="1" column="0">RGCzapkaUhlans</tech>
-    <tech row="0" page="1" column="2">RGTartarLoyalists</tech>
-    <tech row="0" page="1" column="1">RGGarrochista</tech>
-    <tech row="0" page="1" column="1">GuardRuyters</tech>
+    <train mergeMode='remove' row="0" page="0" column="2">deUSCavalry</train>
     <tech row="0" page="1" column="0">DEVeteranUSCavalryShadow</tech>
     <tech row="0" page="1" column="0">DEGuardUSCavalry</tech>
     <tech row="0" page="1" column="0">DEImperialUSCavalry</tech>
-    <tech row="0" page="1" column="0">RGGardener</tech>
-    <tech row="0" page="1" column="0">GuardCossacks</tech>
-    <tech row="0" page="1" column="0">VeteranCossacks</tech>
-    <tech row="0" page="1" column="1">GuardWarWagons</tech>
-    <tech row="0" page="1" column="2">GuardCavalryArchers</tech>
-    <tech row="0" page="1" column="1">RGGendarmes</tech>
-    <tech row="0" page="1" column="1">RGCarabineer</tech>
-    <tech row="0" page="1" column="0">VeteranUhlans</tech>
-    <tech row="0" page="1" column="2">GuardDragoons</tech>
-    <tech row="0" page="1" column="0">GuardHussars</tech>
-    <tech row="0" page="1" column="0">VeteranHussars</tech>
-    <tech row="0" page="1" column="0">RGLifeGuardHussars</tech>
-    <tech row="0" page="1" column="1">ImperialGarrochistas</tech>
-    <tech row="0" page="1" column="2">ImperialTartarLoyalist</tech>
-    <tech row="0" page="1" column="0">GuardUhlans</tech>
-    <tech row="0" page="1" column="0">ImperialGardener</tech>
-    <tech row="0" page="1" column="0">ImperialLifeGuard</tech>
-    <tech row="0" page="1" column="2">RGJinetes</tech>
-    <tech row="0" page="1" column="1">GuardOprichniks</tech>
-    <tech row="0" page="1" column="1">ImperialOprichniks</tech>
-    <tech row="0" page="1" column="1">ImperialGendarme</tech>
-    <tech row="0" page="1" column="1">ImperialWarWagons</tech>
-    <tech row="0" page="1" column="0">DEVeteranBarbaryCavalry</tech>
-    <tech row="0" page="1" column="0">DEGuardBarbaryCavalry</tech>
-    <tech row="0" page="1" column="1">DEGuardBedouinHorseArcher</tech>
-    <tech row="0" page="1" column="2">DEGuardMameluke</tech>
-    <tech row="0" page="1" column="0">YPDisciplinedSteppeRider</tech>
-    <tech row="0" page="1" column="0">YPHonoredSteppeRider</tech>
-    <tech row="0" page="1" column="0">YPExaltedSteppeRider</tech>
-    <tech row="0" page="1" column="1">YPDisciplinedKeshik</tech>
-    <tech row="0" page="1" column="1">YPHonoredKeshik</tech>
-    <tech row="0" page="1" column="1">YPExaltedKeshik</tech>
-    <tech row="0" page="1" column="3">YPHonoredMeteorHammer</tech>
-    <tech row="0" page="1" column="3">YPExaltedMeteorHammer</tech>
-    <tech row="0" page="1" column="4">YPHonoredIronFlail</tech>
-    <tech row="0" page="1" column="4">YPExaltedIronFlail</tech>
-    <tech row="0" page="1" column="1">RGDrabants</tech>
-    <tech row="0" page="1" column="1">ImperialDrabants</tech>
-    <flag>CollidesWithProjectiles</flag>
-    <flag>StartsAtFullEfficiency</flag>
-    <flag>Immoveable</flag>
-    <flag>NoBloodOnDeath</flag>
-    <flag>ObscuresUnits</flag>
-    <flag>NoIdleActions</flag>
-    <flag>NonAutoFormedUnit</flag>
-    <flag>Doppled</flag>
-    <flag>SelectWithObstruction</flag>
-    <flag>PaintTextureWhenPlacing</flag>
-    <flag>FlattenGround</flag>
-    <flag>HasGatherPoint</flag>
-    <flag>InitialGarrisonOnly</flag>
-    <flag>Tracked</flag>
-    <command page="10" column="3">SetGatherPointMilitary</command>
-    <command page="10" column="7">Delete</command>
-    <command page="10" column="8">CancelAllQueued</command>
   </unit>
-
   <unit id="391" name="FortFrontier">
     <train mergeMode='remove' row="0" page="0" column="7">deUSCavalry</train>
     <train row="0" page="0" column="5">deSpurRider</train>
@@ -601,7 +473,7 @@
       <name>BullseyeChargeAttack</name>
       <damage>48.000000</damage>
       <damagetype>Ranged</damagetype>
-      <maxrange>18.000000</maxrange>
+      <maxrange>16.000000</maxrange>
       <rof>3.000000</rof>
       <damagebonus type="AbstractHeavyCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractCoyoteMan">1.600000</damagebonus>
@@ -704,7 +576,7 @@
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
@@ -717,7 +589,7 @@
       <minrange>12.000000</minrange>
       <rof>3.000000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
@@ -730,7 +602,7 @@
       <minrange>2.000000</minrange>
       <rof>3.000000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
@@ -858,7 +730,7 @@
       <rof>3.000000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
@@ -1244,7 +1116,7 @@
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
@@ -1256,7 +1128,7 @@
       <maxrange>18.000000</maxrange>
       <rof>3.000000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
@@ -1533,7 +1405,7 @@
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">1.500000</damagebonus>
-      <damagebonus type="xpEagleKnight">1.500000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">1.500000</damagebonus>
       <damagebonus type="AbstractLightCavalry">1.500000</damagebonus>
     </protoaction>
     <protoaction>
@@ -1543,7 +1415,7 @@
       <maxrange>18.000000</maxrange>
       <rof>3.000000</rof>
       <damagebonus type="AbstractHeavyInfantry">1.500000</damagebonus>
-      <damagebonus type="xpEagleKnight">1.500000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">1.500000</damagebonus>
       <damagebonus type="AbstractLightCavalry">1.500000</damagebonus>
     </protoaction>
   </unit>
@@ -1816,7 +1688,7 @@
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">1.500000</damagebonus>
-      <damagebonus type="xpEagleKnight">1.500000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">1.500000</damagebonus>
       <damagebonus type="AbstractLightCavalry">1.500000</damagebonus>
     </protoaction>
     <protoaction>
@@ -1826,7 +1698,7 @@
       <maxrange>18.000000</maxrange>
       <rof>3.000000</rof>
       <damagebonus type="AbstractHeavyInfantry">1.500000</damagebonus>
-      <damagebonus type="xpEagleKnight">1.500000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">1.500000</damagebonus>
       <damagebonus type="AbstractLightCavalry">1.500000</damagebonus>
     </protoaction>
   </unit>
@@ -2111,32 +1983,6 @@
     <command page="8" column="1">MarketSell2</command>
     <tactics>market.tactics</tactics>
   </unit>
-  <unit id="435" name="FootprintWheel">
-    <dbid>340</dbid>
-    <displaynameid>26818</displaynameid>
-    <obstructionradiusx>0.1000</obstructionradiusx>
-    <obstructionradiusz>0.1000</obstructionradiusz>
-    <maxvelocity>0.0000</maxvelocity>
-    <movementtype>land</movementtype>
-    <animfile>effects\footprints\footprint_wheel.xml</animfile>
-    <los>0.0000</los>
-    <unittype>EmbellishmentClass</unittype>
-    <flag>AlwaysFullColorAsCursor</flag>
-    <flag>NoUnitAI</flag>
-    <flag>TieToWaterSurface</flag>
-    <flag>NotSearchable</flag>
-    <flag>Immoveable</flag>
-    <flag>NotSelectable</flag>
-    <flag>NoBloodOnDeath</flag>
-    <flag>NoHPBar</flag>
-    <flag>NonAutoFormedUnit</flag>
-    <flag>NonCollideable</flag>
-    <flag>ForceToGaia</flag>
-    <flag>DoNotShowOnMiniMap</flag>
-    <flag>DoNotCreateUnitGroupAutomatically</flag>
-    <flag>Tracked</flag>
-  </unit>
-
   <unit mergeMode='replace' id="981" name="ypSiegeElephant">
     <dbid>1460</dbid>
     <displaynameid>61755</displaynameid>
@@ -2302,7 +2148,7 @@
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">1.500000</damagebonus>
@@ -2315,7 +2161,7 @@
       <maxrange>16.000000</maxrange>
       <rof>3.000000</rof>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">1.500000</damagebonus>
@@ -2326,7 +2172,7 @@
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">1.500000</damagebonus>
@@ -2337,7 +2183,7 @@
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">1.500000</damagebonus>
@@ -2350,7 +2196,7 @@
       <maxrange>16.000000</maxrange>
       <rof>3.000000</rof>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">1.500000</damagebonus>
@@ -2361,7 +2207,7 @@
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">1.500000</damagebonus>
@@ -2374,7 +2220,7 @@
       <maxrange>16.000000</maxrange>
       <rof>3.000000</rof>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">1.500000</damagebonus>
@@ -2882,7 +2728,7 @@
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">1.250000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
@@ -2895,7 +2741,7 @@
       <maxrange>22.000000</maxrange>
       <rof>2.000000</rof>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">1.250000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
@@ -2906,7 +2752,7 @@
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">1.250000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
@@ -2917,7 +2763,7 @@
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">1.250000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
@@ -2930,7 +2776,7 @@
       <maxrange>22.000000</maxrange>
       <rof>2.000000</rof>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">1.250000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
@@ -2941,7 +2787,7 @@
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">1.250000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
@@ -2954,7 +2800,7 @@
       <maxrange>22.000000</maxrange>
       <rof>2.000000</rof>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">1.250000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
@@ -3467,7 +3313,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
@@ -3479,7 +3325,7 @@
       <rof>3.000000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
@@ -3490,7 +3336,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
     </protoaction>
@@ -3501,7 +3347,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
     </protoaction>
@@ -3513,7 +3359,7 @@
       <rof>3.000000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
@@ -3524,7 +3370,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
@@ -3536,7 +3382,7 @@
       <rof>3.000000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
@@ -4163,7 +4009,7 @@
       <damagebonus type="deFinnishRider">2.000000</damagebonus>
       <damagebonus type="deMercKanuri">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">0.500000</damagebonus>
-      <damagebonus type="xpEagleKnight">0.500000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">0.500000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">0.500000</damagebonus>
     </protoaction>
     <protoaction>
@@ -4177,7 +4023,7 @@
       <damagebonus type="deFinnishRider">2.000000</damagebonus>
       <damagebonus type="deMercKanuri">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">0.500000</damagebonus>
-      <damagebonus type="xpEagleKnight">0.500000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">0.500000</damagebonus>
       <damagebonus type="AbstractVillager">0.750000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">0.500000</damagebonus>
     </protoaction>
@@ -4189,7 +4035,7 @@
       <damagebonus type="deFinnishRider">2.000000</damagebonus>
       <damagebonus type="deMercKanuri">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">0.500000</damagebonus>
-      <damagebonus type="xpEagleKnight">0.500000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">0.500000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">0.500000</damagebonus>
     </protoaction>
     <protoaction>
@@ -4200,7 +4046,7 @@
       <damagebonus type="deFinnishRider">2.000000</damagebonus>
       <damagebonus type="deMercKanuri">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">0.500000</damagebonus>
-      <damagebonus type="xpEagleKnight">0.500000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">0.500000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">0.500000</damagebonus>
     </protoaction>
     <protoaction>
@@ -4214,7 +4060,7 @@
       <damagebonus type="deFinnishRider">2.000000</damagebonus>
       <damagebonus type="deMercKanuri">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">0.500000</damagebonus>
-      <damagebonus type="xpEagleKnight">0.500000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">0.500000</damagebonus>
       <damagebonus type="AbstractVillager">0.750000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">0.500000</damagebonus>
     </protoaction>
@@ -4226,7 +4072,7 @@
       <damagebonus type="deFinnishRider">2.000000</damagebonus>
       <damagebonus type="deMercKanuri">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">0.500000</damagebonus>
-      <damagebonus type="xpEagleKnight">0.500000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">0.500000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">0.500000</damagebonus>
     </protoaction>
     <protoaction>
@@ -4240,7 +4086,7 @@
       <damagebonus type="deFinnishRider">2.000000</damagebonus>
       <damagebonus type="deMercKanuri">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">0.500000</damagebonus>
-      <damagebonus type="xpEagleKnight">0.500000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">0.500000</damagebonus>
       <damagebonus type="AbstractVillager">0.750000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">0.500000</damagebonus>
     </protoaction>
@@ -5232,9 +5078,9 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
-      <damagebonus type="AbstractCoyoteMan">0.625000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.625000</damagebonus>
     </protoaction>
     <protoaction>
       <name>DefendRangedAttack</name>
@@ -5245,7 +5091,7 @@
       <rof>3.000000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
@@ -5256,9 +5102,9 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
-      <damagebonus type="AbstractCoyoteMan">0.625000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
     <protoaction>
       <name>StaggerHandAttack</name>
@@ -5267,9 +5113,9 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
-      <damagebonus type="AbstractCoyoteMan">0.625000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
     <protoaction>
       <name>BayonetAttack</name>
@@ -5278,9 +5124,9 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
-      <damagebonus type="AbstractCoyoteMan">0.625000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
     <protoaction>
       <name>StaggerRangedAttack</name>
@@ -5291,7 +5137,7 @@
       <rof>3.000000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
@@ -5302,20 +5148,20 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
-      <damagebonus type="AbstractCoyoteMan">0.625000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
     <protoaction>
       <name>VolleyRangedAttack</name>
-      <damage>16.000000</damage>
+      <damage>17.000000</damage>
       <damagetype>Ranged</damagetype>
       <minrange>3.000000</minrange>
       <maxrange>14.000000</maxrange>
       <rof>3.000000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
@@ -5948,7 +5794,7 @@
       <damagebonus type="AbstractPet">2.000000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">1.250000</damagebonus>
       <damagebonus type="AbstractLightCavalry">1.250000</damagebonus>
-      <damagebonus type="xpEagleKnight">1.250000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">1.250000</damagebonus>
       <damagebonus type="AbstractHeavyCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractVillager">0.500000</damagebonus>
@@ -6018,460 +5864,14 @@
       <rate type="Tree">1.000000</rate>
     </protoaction>
   </unit> -->
-  <unit mergeMode='replace' id="294" name="TownCenter">
-    <dbid>16</dbid>
-    <displaynameid>22841</displaynameid>
-    <editornameid>28145</editornameid>
-    <populationcapaddition>10</populationcapaddition>
-    <obstructionradiusx>4.0000</obstructionradiusx>
-    <obstructionradiusz>4.0000</obstructionradiusz>
-    <maxvelocity>0.0000</maxvelocity>
-    <movementtype>land</movementtype>
-    <animfile>buildings\town_center\town_center.xml</animfile>
-    <deadreplacement>BuildingRubble4x4</deadreplacement>
-    <deadreplacementlifespan>15</deadreplacementlifespan>
-    <impacttype>Wood</impacttype>
-    <physicsinfo>house</physicsinfo>
-    <placementfile>buildinglarge.xml</placementfile>
-    <icon>resources\art\buildings\town_center\towncenter_icon.png</icon>
-    <minimapicon>ui\minimap\towncenter</minimapicon>
-    <portraiticon>resources\art\buildings\town_center\towncenter_portrait.png</portraiticon>
-    <rollovertextid>22840</rollovertextid>
-    <shortrollovertextid>25734</shortrollovertextid>
-    <initialhitpoints>6500.0000</initialhitpoints>
-    <maxhitpoints>6500.0000</maxhitpoints>
-    <los>38.0000</los>
-    <projectileprotounit>Cannonball</projectileprotounit>
-    <unitaitype>RangedCombative</unitaitype>
-    <buildpoints>60.0000</buildpoints>
-    <buildlimit>1</buildlimit>
-    <bounty>100.0000</bounty>
-    <buildbounty>50.0000</buildbounty>
-    <cost resourcetype="Wood">500.0000</cost>
-    <buildingworkrate>1.0000</buildingworkrate>
-    <maxcontained>50</maxcontained>
-    <allowedage>0</allowedage>
-    <armor type="Siege" value="0.0000"/>
-    <builderlimit>8</builderlimit>
-    <carrycapacity resourcetype="Food">100.0000</carrycapacity>
-    <carrycapacity resourcetype="Wood">100.0000</carrycapacity>
-    <carrycapacity resourcetype="Gold">100.0000</carrycapacity>
-    <unittype>AbstractTypeHuntableMagnet</unittype>
-    <unittype>LogicalTypeValidSabotage</unittype>
-    <unittype>LogicalTypeMinimapFilterEconomic</unittype>
-    <unittype>LogicalTypeNeededForVictory</unittype>
-    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
-    <unittype>LogicalTypeBuildingsNotWalls</unittype>
-    <unittype>LogicalTypeTCBuildLimit</unittype>
-    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
-    <unittype>LogicalTypeVillagersAttack</unittype>
-    <unittype>LogicalTypeHandUnitsAttack</unittype>
-    <unittype>LogicalTypeShipsAndBuildings</unittype>
-    <unittype>LogicalTypeRangedUnitsAttack</unittype>
-    <unittype>LogicalTypeBuildingsNotWallsOrGroves</unittype>
-    <unittype>Building</unittype>
-    <unittype>Economic</unittype>
-    <unittype>BuildingClass</unittype>
-    <unittype>HasBountyValue</unittype>
-    <unittype>CountsTowardEconomicScore</unittype>
-    <unittype>ConvertsHerds</unittype>
-    <unittype>AbstractTownCenter</unittype>
-    <unittype>AbstractCanSeeStealth</unittype>
-    <unittype>AbstractGatherAfterBuild</unittype>
-    <unittype>AbstractCallMinutemen</unittype>
-    <unittype>AbstractCallRaiders</unittype>
-    <train row="0" page="0" column="0">ypSettlerIndian</train>
-    <train row="0" page="0" column="0">ypSettlerJapanese</train>
-    <train row="0" page="0" column="0">ypSettlerAsian</train>
-    <train row="0" page="0" column="0">deSettlerAfrican</train>
-    <train row="0" page="0" column="0">Settler</train>
-    <train row="0" page="0" column="0">Coureur</train>
-    <train row="0" page="0" column="3">HotAirBalloon</train>
-    <train row="0" page="0" column="2">Envoy</train>
-    <train row="0" page="0" column="2">Miner</train>
-    <train row="0" page="0" column="2">deChasqui</train>
-    <train row="0" page="0" column="1">xpColonialMilitia</train>
-    <train row="0" page="0" column="0">SettlerNative</train>
-    <train row="0" page="0" column="5">PetCougar</train>
-    <train row="0" page="0" column="5">ypSPCBrahminHealer</train>
-    <train row="0" page="0" column="5">ypMonkChinese</train>
-    <train row="0" page="0" column="6">ypMonkChinese2</train>
-    <train row="0" page="0" column="6">ypMonkIndian2</train>
-    <train row="0" page="0" column="5">ypMonkIndian</train>
-    <train row="0" page="0" column="5">ypMonkJapanese</train>
-    <train row="0" page="0" column="6">ypMonkJapanese2</train>
-    <tech row="0" page="1" column="0">TribalIroquoisWarrior5</tech>
-    <tech row="0" page="1" column="0">TribalIroquoisWisewoman4</tech>
-    <tech row="0" page="1" column="0">TribalIroquoisYouth2</tech>
-    <tech row="0" page="1" column="0">TribalIroquoisYouth3</tech>
-    <tech row="0" page="1" column="1">DERevolutionHaiti</tech>
-    <tech row="0" page="1" column="1">DERevolutionEgypt</tech>
-    <tech row="0" page="1" column="1">DERevolutionFinland</tech>
-    <tech row="0" page="1" column="1">DERevolutionRomania</tech>
-    <tech row="0" page="1" column="1">ImpImmigrantsNative</tech>
-    <tech row="0" page="1" column="1">DEImpImmigrantsAfrican</tech>
-    <tech row="0" page="1" column="0">TribalAztecWarrior2</tech>
-    <tech row="0" page="1" column="0">TribalAztecYouth5</tech>
-    <tech row="0" page="1" column="0">PoliticianAdmiralOttoman</tech>
-    <tech row="0" page="1" column="0">PoliticianViceroyGerman</tech>
-    <tech row="0" page="1" column="0">PoliticianViceroyPortuguese</tech>
-    <tech row="0" page="1" column="0">PoliticianCavalierDutch</tech>
-    <tech row="0" page="1" column="0">PoliticianMusketeerDutch</tech>
-    <tech row="0" page="1" column="0">PoliticianGeneralOttoman</tech>
-    <tech row="0" page="1" column="0">PoliticianViceroyDutch</tech>
-    <tech row="0" page="2" column="0">BigIroquoisWarParty</tech>
-    <tech row="0" page="1" column="2">ImpLegendaryNativesNatives</tech>
-    <tech row="0" page="1" column="0">PoliticianGeneralBritish</tech>
-    <tech row="0" page="1" column="0">PoliticianMarksmanOttoman</tech>
-    <tech row="0" page="1" column="0">TribalIroquoisWisewoman3</tech>
-    <tech row="0" page="1" column="0">PoliticianAdventurerBritish</tech>
-    <tech row="0" page="1" column="0">PoliticianMusketeerBritish</tech>
-    <tech row="0" page="1" column="0">TribalIroquoisChief4</tech>
-    <tech row="0" page="1" column="0">TribalIroquoisShaman2</tech>
-    <tech row="0" page="1" column="0">TribalIroquoisWisewoman2</tech>
-    <tech row="0" page="1" column="0">TribalIroquoisChief5</tech>
-    <tech row="0" page="1" column="0">TribalIroquoisShaman5</tech>
-    <tech row="0" page="2" column="0">BigIroquoisRaidingParty</tech>
-    <tech row="0" page="1" column="0">TribalSiouxYouth5</tech>
-    <tech row="0" page="1" column="0">TribalSiouxShaman4</tech>
-    <tech row="0" page="1" column="0">TribalSiouxShaman3</tech>
-    <tech row="0" page="1" column="0">TribalAztecChief4</tech>
-    <tech row="0" page="1" column="0">TribalAztecShaman3</tech>
-    <tech row="0" page="2" column="0">BigAztecScoutingParty</tech>
-    <tech row="0" page="1" column="0">PoliticianCavalierFrench</tech>
-    <tech row="0" page="1" column="0">PoliticianGeneralSkirmisher</tech>
-    <tech row="0" page="1" column="0">PoliticianBishopGerman</tech>
-    <tech row="0" page="1" column="0">PoliticianWarMinisterAct3</tech>
-    <tech row="0" page="1" column="0">PoliticianMusketeerFrench</tech>
-    <tech row="0" page="1" column="0">PoliticianSergeantGerman</tech>
-    <tech row="0" page="1" column="1">DERevolutionChile</tech>
-    <tech row="0" page="1" column="1">DERevolutionSouthAfrica</tech>
-    <tech row="0" page="1" column="2">SpiesNative</tech>
-    <tech row="0" page="1" column="2">DESpiesAfrican</tech>
-    <tech row="0" page="1" column="0">PoliticianSergeantDutch</tech>
-    <tech row="0" page="1" column="0">TribalIroquoisWisewoman5</tech>
-    <tech row="0" page="1" column="0">TribalIroquoisYouth4</tech>
-    <tech row="0" page="1" column="0">PoliticianAdventurerRussian</tech>
-    <tech row="0" page="1" column="0">PoliticianMusketeerRussian</tech>
-    <tech row="0" page="1" column="0">PoliticianPhilosopherPrince</tech>
-    <tech row="0" page="1" column="0">PoliticianEngineerPortuguese</tech>
-    <tech row="0" page="1" column="0">TribalSiouxYouth2</tech>
-    <tech row="0" page="1" column="0">TribalSiouxWarrior5</tech>
-    <tech row="0" page="1" column="0">TribalSiouxChief3</tech>
-    <tech row="0" page="1" column="0">TribalAztecWarrior4</tech>
-    <tech row="0" page="1" column="0">PoliticianTycoonAct3</tech>
-    <tech row="0" page="1" column="0">PoliticianCavalierGerman</tech>
-    <tech row="0" page="1" column="0">PoliticianCavalierRussian</tech>
-    <tech row="0" page="1" column="0">PoliticianScout</tech>
-    <tech row="0" page="1" column="0">PoliticianMarksmanPortuguese</tech>
-    <tech row="0" page="1" column="0">PoliticianCavalierOttoman</tech>
-    <tech row="0" page="1" column="0">PoliticianMusketeerPortuguese</tech>
-    <tech row="0" page="1" column="0">TribalIroquoisChief2</tech>
-    <tech row="0" page="1" column="0">TribalIroquoisShaman4</tech>
-    <tech row="0" page="1" column="0">TribalIroquoisWarrior4</tech>
-    <tech row="0" page="1" column="1">DERevolutionPeru</tech>
-    <tech row="0" page="1" column="1">DERevolutionBrazil</tech>
-    <tech row="0" page="1" column="1">DERevolutionArgentina</tech>
-    <tech row="0" page="1" column="1">DERevolutionUSA</tech>
-    <tech row="0" page="1" column="1">DERevolutionCanadaFrench</tech>
-    <tech row="0" page="1" column="1">DERevolutionCanadaBritish</tech>
-    <tech row="0" page="1" column="1">DERevolutionIndonesia</tech>
-    <tech row="0" page="1" column="1">DERevolutionBarbaryStates</tech>
-    <tech row="0" page="1" column="1">DERevolutionHungaryRussian</tech>
-    <tech row="0" page="1" column="1">DERevolutionHungaryOttoman</tech>
-    <tech row="0" page="1" column="1">DERevolutionHungaryGerman</tech>
-    <tech row="0" page="1" column="0">TribalIroquoisWarrior2</tech>
-    <tech row="0" page="1" column="0">TribalIroquoisWarrior3</tech>
-    <tech row="0" page="1" column="0">TribalIroquoisChief3</tech>
-    <tech row="0" page="1" column="0">TribalIroquoisShaman3</tech>
-    <tech row="0" page="1" column="0">TribalIroquoisYouth5</tech>
-    <tech row="0" page="1" column="0">PoliticianScoutRussian</tech>
-    <tech row="0" page="1" column="0">PoliticianViceroyBritish</tech>
-    <tech row="0" page="1" column="0">PoliticianWarMinisterRussian</tech>
-    <tech row="0" page="1" column="0">PoliticianAdmiral</tech>
-    <tech row="0" page="1" column="0">PoliticianBishop</tech>
-    <tech row="0" page="1" column="0">PoliticianBishopFortress</tech>
-    <tech row="0" page="1" column="0">PoliticianGeneral</tech>
-    <tech row="0" page="1" column="0">PoliticianMusketeerSpanish</tech>
-    <tech row="0" page="1" column="0">PoliticianQuartermaster</tech>
-    <tech row="0" page="1" column="0">PoliticianEngineer</tech>
-    <tech row="0" page="1" column="0">PoliticianSergeantSpanish</tech>
-    <tech row="0" page="1" column="0">PoliticianPirate</tech>
-    <tech row="0" page="1" column="0">PoliticianPresidente</tech>
-    <tech row="0" page="1" column="0">PoliticianNaturalist</tech>
-    <tech row="0" page="1" column="0">PoliticianNaturalistGerman</tech>
-    <tech row="0" page="1" column="0">PoliticianTycoon</tech>
-    <tech row="0" page="1" column="0">PoliticianWarMinisterSpanish</tech>
-    <tech row="0" page="1" column="0">PoliticianExiledPrince</tech>
-    <tech row="0" page="1" column="2">HCBlockadeNative</tech>
-    <tech row="0" page="1" column="2">DEHCBlockadeAfrican</tech>
-    <tech row="0" page="1" column="0">PoliticianCavalierSpanish</tech>
-    <tech row="0" page="1" column="0">PoliticianGrandVizier</tech>
-    <tech row="0" page="1" column="0">TribalSiouxYouth3</tech>
-    <tech row="0" page="1" column="0">TribalSiouxWisewoman3</tech>
-    <tech row="0" page="1" column="0">TribalSiouxWisewoman2</tech>
-    <tech row="0" page="1" column="0">TribalAztecWisewoman4</tech>
-    <tech row="0" page="1" column="0">TribalAztecYouth2</tech>
-    <tech row="0" page="2" column="0">BigAztecWarParty</tech>
-    <tech row="0" page="1" column="0">TribalSiouxChief5</tech>
-    <tech row="0" page="1" column="0">TribalSiouxChief2</tech>
-    <tech row="0" page="1" column="0">TribalSiouxChief4</tech>
-    <tech row="0" page="1" column="0">TribalAztecChief2</tech>
-    <tech row="0" page="1" column="0">TribalAztecShaman4</tech>
-    <tech row="0" page="1" column="0">TribalAztecWarrior5</tech>
-    <tech row="0" page="1" column="0">TribalAztecWisewoman2</tech>
-    <tech row="0" page="1" column="0">TribalAztecWisewoman3</tech>
-    <tech row="0" page="1" column="0">TribalSiouxWisewoman4</tech>
-    <tech row="0" page="1" column="0">TribalSiouxWisewoman5</tech>
-    <tech row="0" page="1" column="0">TribalSiouxWarrior4</tech>
-    <tech row="0" page="1" column="0">TribalAztecChief3</tech>
-    <tech row="0" page="1" column="0">TribalAztecChief5</tech>
-    <tech row="0" page="1" column="0">TribalAztecShaman2</tech>
-    <tech row="0" page="1" column="0">TribalAztecShaman5</tech>
-    <tech row="0" page="1" column="0">TribalAztecYouth3</tech>
-    <tech row="0" page="2" column="0">BigAztecRaidingParty</tech>
-    <tech row="0" page="2" column="0">BigSiouxDogSoldiers</tech>
-    <tech row="0" page="1" column="1">DERevolutionMexico</tech>
-    <tech row="0" page="1" column="1">DERevolutionColombia</tech>
-    <tech row="0" page="1" column="1">DERevolutionColombiaPortuguese</tech>
-    <tech row="0" page="2" column="0">BigIroquoisScoutingParty</tech>
-    <tech row="0" page="1" column="2">ypImpLegendaryNatives</tech>
-    <tech row="0" page="1" column="2">ypImpLegendaryNatives2</tech>
-    <tech row="0" page="1" column="0">ypFakeColonialAge</tech>
-    <tech row="0" page="1" column="0">ypFakeFortressAge</tech>
-    <tech row="0" page="1" column="0">ypFakeImperialAge</tech>
-    <tech row="0" page="1" column="0">ypFakeIndustrialAge</tech>
-    <tech row="0" page="1" column="0">PoliticianAdventurerSpanish</tech>
-    <tech row="0" page="1" column="0">PoliticianGovernor</tech>
-    <tech row="0" page="1" column="0">PoliticianMohawk</tech>
-    <tech row="0" page="1" column="0">PoliticianMarksman</tech>
-    <tech row="0" page="1" column="0">TribalSiouxYouth4</tech>
-    <tech row="0" page="1" column="0">TribalSiouxWarrior3</tech>
-    <tech row="0" page="1" column="0">TribalSiouxWarrior2</tech>
-    <tech row="0" page="1" column="0">TribalSiouxShaman5</tech>
-    <tech row="0" page="1" column="0">TribalSiouxShaman2</tech>
-    <tech row="0" page="1" column="0">TribalAztecWarrior3</tech>
-    <tech row="0" page="1" column="0">TribalAztecWisewoman5</tech>
-    <tech row="0" page="1" column="0">TribalAztecYouth4</tech>
-    <tech row="0" page="1" column="0">TribalIncaChief2</tech>
-    <tech row="0" page="1" column="0">TribalIncaChief3</tech>
-    <tech row="0" page="1" column="0">TribalIncaChief4</tech>
-    <tech row="0" page="1" column="0">TribalIncaChief5</tech>
-    <tech row="0" page="1" column="0">TribalIncaShaman2</tech>
-    <tech row="0" page="1" column="0">TribalIncaShaman3</tech>
-    <tech row="0" page="1" column="0">TribalIncaShaman4</tech>
-    <tech row="0" page="1" column="0">TribalIncaShaman5</tech>
-    <tech row="0" page="1" column="0">TribalIncaWarrior2</tech>
-    <tech row="0" page="1" column="0">TribalIncaWarrior3</tech>
-    <tech row="0" page="1" column="0">TribalIncaWarrior4</tech>
-    <tech row="0" page="1" column="0">TribalIncaWarrior5</tech>
-    <tech row="0" page="1" column="0">TribalIncaWisewoman2</tech>
-    <tech row="0" page="1" column="0">TribalIncaWisewoman3</tech>
-    <tech row="0" page="1" column="0">TribalIncaWisewoman4</tech>
-    <tech row="0" page="1" column="0">TribalIncaWisewoman5</tech>
-    <tech row="0" page="1" column="0">TribalIncaYouth2</tech>
-    <tech row="0" page="1" column="0">TribalIncaYouth3</tech>
-    <tech row="0" page="1" column="0">TribalIncaYouth4</tech>
-    <tech row="0" page="1" column="0">TribalIncaYouth5</tech>
-    <tech row="0" page="2" column="0">deBigIncaScoutingParty</tech>
-    <tech row="0" page="2" column="0">deBigIncaRaidingParty</tech>
-    <tech row="0" page="2" column="0">deBigIncaWarParty</tech>
-    <tech row="0" page="1" column="0">DEPoliticianMarksmanSwedish</tech>
-    <tech row="0" page="1" column="0">DEPoliticianSergeantSwedish</tech>
-    <tech row="0" page="1" column="0">DEPoliticianCavalierSwedish</tech>
-    <tech row="0" page="1" column="0">DEPoliticianMusketeerSwedish</tech>
-    <tech row="0" page="1" column="0">DEPoliticianGeneralSwedish</tech>
-    <tech row="0" page="1" column="0">DEPoliticianPapalGuard</tech>
-    <tech row="0" page="1" column="0">DEPoliticianMercContractorFortressBritish</tech>
-    <tech row="0" page="1" column="0">DEPoliticianPapalGuardSpanish</tech>
-    <tech row="0" page="1" column="0">DEPoliticianPapalGuardPortuguese</tech>
-    <tech row="0" page="1" column="0">DEPoliticianPapalGuardSwedish</tech>
-    <tech row="0" page="1" column="0">DEPoliticianMercContractor</tech>
-    <tech row="0" page="1" column="0">DEPoliticianMercContractorFortress</tech>
-    <tech row="0" page="1" column="0">DEPoliticianMercContractorFortressDutch</tech>
-    <tech row="0" page="1" column="0">DEPoliticianMercContractorFortressOttoman</tech>
-    <tech row="0" page="1" column="0">DEPoliticianMercContractorFortressPortuguese</tech>
-    <tech row="0" page="1" column="0">DEPoliticianMercContractorFortressSwedish</tech>
-    <tech row="0" page="1" column="0">DEPoliticianKnightColonial</tech>
-    <tech row="0" page="1" column="0">DEPoliticianKnight</tech>
-    <tech row="0" page="1" column="0">DEPoliticianKnightAlt</tech>
-    <tech row="0" page="1" column="0">DEPoliticianInventor</tech>
-    <tech row="0" page="1" column="0">DEPoliticianInventorColonial</tech>
-    <tech row="0" page="1" column="0">DEPoliticianLogisticianFrench</tech>
-    <tech row="0" page="1" column="0">DEPoliticianLogisticianSwedish</tech>
-    <tech row="0" page="1" column="0">DEPoliticianLogisticianColonialBritish</tech>
-    <tech row="0" page="1" column="0">DEPoliticianLogisticianColonialDutch</tech>
-    <tech row="0" page="1" column="0">DEPoliticianLogisticianGerman</tech>
-    <tech row="0" page="1" column="0">DEPoliticianLogisticianPortuguese</tech>
-    <tech row="0" page="1" column="0">DEPoliticianLogisticianColonialRussian</tech>
-    <tech row="0" page="1" column="0">DEPoliticianLogisticianOttoman</tech>
-    <tech row="0" page="1" column="0">DEPoliticianLogisticianSpanish</tech>
-    <tech row="0" page="1" column="0">DEPoliticianLogisticianRussian</tech>
-    <tech row="0" page="1" column="0">DEPoliticianLogistician</tech>
-    <tech row="0" page="1" column="0">DEPoliticianFederalDelaware</tech>
-    <tech row="0" page="1" column="0">DEPoliticianFederalPennsylvania</tech>
-    <tech row="0" page="1" column="0">DEPoliticianFederalConnecticut</tech>
-    <tech row="0" page="1" column="0">DEPoliticianFederalMassachusetts</tech>
-    <tech row="0" page="1" column="0">DEPoliticianFederalNewJersey</tech>
-    <tech row="0" page="1" column="0">DEPoliticianFederalMaryland</tech>
-    <tech row="0" page="1" column="0">DEPoliticianFederalTennessee</tech>
-    <tech row="0" page="1" column="0">DEPoliticianFederalSouthCarolina</tech>
-    <tech row="0" page="1" column="0">DEPoliticianFederalVirginia</tech>
-    <tech row="0" page="1" column="0">DEPoliticianFederalNewYork</tech>
-    <tech row="0" page="1" column="0">DEPoliticianFederalVermont</tech>
-    <tech row="0" page="1" column="0">DEPoliticianFederalNorthCarolina</tech>
-    <tech row="0" page="1" column="0">DEPoliticianFederalRhodeIsland</tech>
-    <tech row="0" page="1" column="0">DEPoliticianFederalKentucky</tech>
-    <tech row="0" page="1" column="0">DEPoliticianFederalNewHampshire</tech>
-    <tech row="0" page="1" column="0">DEPoliticianFederalLouisiana</tech>
-    <tech row="0" page="1" column="0">DEPoliticianFederalTexas</tech>
-    <tech row="0" page="1" column="0">DEPoliticianFederalCalifornia</tech>
-    <tech row="0" page="1" column="0">DEPoliticianFederalMaine</tech>
-    <tech row="0" page="1" column="0">DEPoliticianFederalFlorida</tech>
-    <tech row="0" page="1" column="0">DEPoliticianFederalIndiana</tech>
-    <tech row="0" page="1" column="0">DEPoliticianFederalIllinois</tech>
-    <tech row="0" page="1" column="0">DEPoliticianFederalOhio</tech>
-    <tech row="0" page="1" column="0">DEAllegianceOromo2</tech>
-    <tech row="0" page="1" column="0">DEAllegiancePortuguese2</tech>
-    <tech row="0" page="1" column="0">DEAllegianceHabesha2</tech>
-    <tech row="0" page="1" column="0">DEAllegianceSomali2</tech>
-    <tech row="0" page="1" column="0">DEAllegianceSudanese2</tech>
-    <tech row="0" page="1" column="0">DEAllegianceIndian2</tech>
-    <tech row="0" page="1" column="0">DEAllegianceJesuit2</tech>
-    <tech row="0" page="1" column="0">DEAllegianceArab2</tech>
-    <tech row="0" page="1" column="0">DEAllegianceOromo3</tech>
-    <tech row="0" page="1" column="0">DEAllegiancePortuguese3</tech>
-    <tech row="0" page="1" column="0">DEAllegianceHabesha3</tech>
-    <tech row="0" page="1" column="0">DEAllegianceSomali3</tech>
-    <tech row="0" page="1" column="0">DEAllegianceSudanese3</tech>
-    <tech row="0" page="1" column="0">DEAllegianceIndian3</tech>
-    <tech row="0" page="1" column="0">DEAllegianceJesuit3</tech>
-    <tech row="0" page="1" column="0">DEAllegianceArab3</tech>
-    <tech row="0" page="1" column="0">DEAllegianceOromo4</tech>
-    <tech row="0" page="1" column="0">DEAllegiancePortuguese4</tech>
-    <tech row="0" page="1" column="0">DEAllegianceHabesha4</tech>
-    <tech row="0" page="1" column="0">DEAllegianceSomali4</tech>
-    <tech row="0" page="1" column="0">DEAllegianceSudanese4</tech>
-    <tech row="0" page="1" column="0">DEAllegianceIndian4</tech>
-    <tech row="0" page="1" column="0">DEAllegianceJesuit4</tech>
-    <tech row="0" page="1" column="0">DEAllegianceArab4</tech>
-    <tech row="0" page="1" column="0">DEAllegianceOromo5</tech>
-    <tech row="0" page="1" column="0">DEAllegiancePortuguese5</tech>
-    <tech row="0" page="1" column="0">DEAllegianceHabesha5</tech>
-    <tech row="0" page="1" column="0">DEAllegianceSomali5</tech>
-    <tech row="0" page="1" column="0">DEAllegianceSudanese5</tech>
-    <tech row="0" page="1" column="0">DEAllegianceIndian5</tech>
-    <tech row="0" page="1" column="0">DEAllegianceJesuit5</tech>
-    <tech row="0" page="1" column="0">DEAllegianceArab5</tech>
-    <tech row="0" page="1" column="0">DEAllegianceFulani2</tech>
-    <tech row="0" page="1" column="0">DEAllegianceBerber2</tech>
-    <tech row="0" page="1" column="0">DEAllegianceHausa2</tech>
-    <tech row="0" page="1" column="0">DEAllegianceSonghai2</tech>
-    <tech row="0" page="1" column="0">DEAllegianceYoruba2</tech>
-    <tech row="0" page="1" column="0">DEAllegianceAkan2</tech>
-    <tech row="0" page="1" column="0">DEAllegianceMoroccan2</tech>
-    <tech row="0" page="1" column="0">DEAllegianceBritish2</tech>
-    <tech row="0" page="1" column="0">DEAllegianceFulani3</tech>
-    <tech row="0" page="1" column="0">DEAllegianceBerber3</tech>
-    <tech row="0" page="1" column="0">DEAllegianceHausa3</tech>
-    <tech row="0" page="1" column="0">DEAllegianceSonghai3</tech>
-    <tech row="0" page="1" column="0">DEAllegianceYoruba3</tech>
-    <tech row="0" page="1" column="0">DEAllegianceAkan3</tech>
-    <tech row="0" page="1" column="0">DEAllegianceMoroccan3</tech>
-    <tech row="0" page="1" column="0">DEAllegianceBritish3</tech>
-    <tech row="0" page="1" column="0">DEAllegianceFulani4</tech>
-    <tech row="0" page="1" column="0">DEAllegianceBerber4</tech>
-    <tech row="0" page="1" column="0">DEAllegianceHausa4</tech>
-    <tech row="0" page="1" column="0">DEAllegianceSonghai4</tech>
-    <tech row="0" page="1" column="0">DEAllegianceYoruba4</tech>
-    <tech row="0" page="1" column="0">DEAllegianceAkan4</tech>
-    <tech row="0" page="1" column="0">DEAllegianceMoroccan4</tech>
-    <tech row="0" page="1" column="0">DEAllegianceBritish4</tech>
-    <tech row="0" page="1" column="0">DEAllegianceFulani5</tech>
-    <tech row="0" page="1" column="0">DEAllegianceBerber5</tech>
-    <tech row="0" page="1" column="0">DEAllegianceHausa5</tech>
-    <tech row="0" page="1" column="0">DEAllegianceSonghai5</tech>
-    <tech row="0" page="1" column="0">DEAllegianceYoruba5</tech>
-    <tech row="0" page="1" column="0">DEAllegianceAkan5</tech>
-    <tech row="0" page="1" column="0">DEAllegianceMoroccan5</tech>
-    <tech row="0" page="1" column="0">DEAllegianceBritish5</tech>
-    <tech row="0" page="1" column="0">DEFortifiedCitiesHausa</tech>
-    <tech row="0" page="1" column="0">DEFortifiedCitiesEthiopians</tech>
-    <flag>ShowGarrisonButton</flag>
-    <flag>AllowAutoGarrison</flag>
-    <flag>StartingColonyBuilding</flag>
-    <flag>ColonyPlacementCenter</flag>
-    <flag>CollidesWithProjectiles</flag>
-    <flag>StartsAtFullEfficiency</flag>
-    <flag>Immoveable</flag>
-    <flag>NoBloodOnDeath</flag>
-    <flag>ObscuresUnits</flag>
-    <flag>NonAutoFormedUnit</flag>
-    <flag>Doppled</flag>
-    <flag>SelectWithObstruction</flag>
-    <flag>PaintTextureWhenPlacing</flag>
-    <flag>FlattenGround</flag>
-    <flag>HasGatherPoint</flag>
-    <flag>Tracked</flag>
-    <flag>DisplayRange</flag>
-    <flag>UISkipActiveTechs</flag>
-    <flag>MagnetDoesNotLockUnits</flag>
-    <notcontain>AbstractMonk</notcontain>
-    <notcontain>AbstractFishingBoat</notcontain>
-    <notcontain>deGriot</notcontain>
-    <contain>AbstractVillager</contain>
-    <contain>deHomesteadWagon</contain>
-    <contain>AbstractHealer</contain>
-    <contain>ypDaimyoRegicide</contain>
-    <contain>deChasqui</contain>
-    <command page="0" column="3">Levy</command>
-    <command page="0" column="3">deUSLevy</command>
-    <command page="0" column="3">deUSConscription</command>
-    <command page="0" column="4">deImmigrantsSpanishLevy</command>
-    <command page="10" column="6">TownBell</command>
-    <command page="10" column="7">Delete</command>
-    <command page="10" column="6">ReturnToWork</command>
-    <command page="0" column="4">Conscription</command>
-    <command page="10" column="2">SetGatherPointEconomy</command>
-    <command page="10" column="3">SetGatherPointMilitary</command>
-    <command page="10" column="5">Eject</command>
-    <command page="0" column="5">RansomExplorer</command>
-    <command page="1" column="10">SetBuildingAsHomeCityGatherPointEconomic</command>
-    <command page="1" column="11">SetBuildingAsHomeCityGatherPointMilitary</command>
-    <command page="11" column="0">Abilities</command>
-    <command page="0" column="1">ypAssemble</command>
-    <command page="0" column="2">ypMuster</command>
-    <command page="0" column="3">ypAmass</command>
-    <command page="0" column="4">ypMarshal</command>
-    <command page="0" column="3">ypAmassIndians</command>
-    <command page="0" column="1">ypAssembleIndians</command>
-    <command page="0" column="4">ypMarshalIndians</command>
-    <command page="0" column="2">ypMusterIndians</command>
-    <command page="0" column="1">deConscriptSpearmen</command>
-    <command page="0" column="2">deConscriptBowmen</command>
-    <command page="0" column="3">deConscriptGunners</command>
-    <command page="0" column="2">deAllegianceSonghaiRaid</command>
-    <tactics>towncenter.tactics</tactics>
-    <protoaction>
-      <name>AntiShipAttack</name>
-      <damage>75.000000</damage>
-      <damagetype>Siege</damagetype>
-      <maxrange>40.000000</maxrange>
-      <rof>3.000000</rof>
-      <damagebonus type="AbstractSiegeTrooper">0.500000</damagebonus>
-      <active>1</active>
-    </protoaction>
-    <protoaction>
-      <name>RangedAttack</name>
-      <damagebonus type="AbstractVillager">2.000000</damagebonus>
-      <damagebonus type="AbstractArtillery">0.500000</damagebonus>
-      <damage>9.000000</damage>
-      <damagetype>Ranged</damagetype>
-      <maxrange>32.000000</maxrange>
-      <rof>3.000000</rof>
-    </protoaction>
+  <unit id="294" name="TownCenter">
+    <command mergeMode='remove' page="0" column="2">deConscriptBowmen</command>
+    <command mergeMode='add' page="0" column="3">deConscriptGunners</command>
   </unit>
-
+  <unit id="296" name="Barracks">
+    <tech row="0" page="1" column="0">DEGuardInsurgentes</tech>
+    <tech row="0" page="1" column="0">DEImperialInsurgentes</tech>
+  </unit>
   <unit mergeMode='replace' id="1624" name="deTorp">
     <dbid>2195</dbid>
     <displaynameid>91523</displaynameid>
@@ -6764,7 +6164,7 @@
       <damagebonus type="AbstractInfantry">0.500000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">3.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractArtillery">2.500000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
@@ -6780,7 +6180,7 @@
       <damagebonus type="AbstractInfantry">0.500000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">3.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractArtillery">2.500000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
@@ -6793,7 +6193,7 @@
       <damagebonus type="AbstractInfantry">0.500000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">3.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractArtillery">2.500000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
@@ -6809,7 +6209,7 @@
       <damagebonus type="AbstractInfantry">0.500000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">3.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractArtillery">2.500000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
@@ -6822,7 +6222,7 @@
       <damagebonus type="AbstractInfantry">0.500000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">3.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractArtillery">2.500000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
@@ -6838,7 +6238,7 @@
       <damagebonus type="AbstractVillager">0.500000</damagebonus>
       <damagebonus type="AbstractInfantry">0.500000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">3.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractArtillery">2.500000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
@@ -7543,7 +6943,7 @@
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
       <damagebonus type="AbstractLightCavalry">4.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">4.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">4.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">4.000000</damagebonus>
@@ -7556,7 +6956,7 @@
       <maxrange>16.000000</maxrange>
       <rof>3.000000</rof>
       <damagebonus type="AbstractLightCavalry">4.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">4.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">4.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">4.000000</damagebonus>
@@ -7567,7 +6967,7 @@
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
       <damagebonus type="AbstractLightCavalry">4.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">4.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">4.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">4.000000</damagebonus>
@@ -7578,7 +6978,7 @@
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
       <damagebonus type="AbstractLightCavalry">4.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">4.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">4.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">4.000000</damagebonus>
@@ -7591,7 +6991,7 @@
       <maxrange>16.000000</maxrange>
       <rof>3.000000</rof>
       <damagebonus type="AbstractLightCavalry">4.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">4.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">4.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">4.000000</damagebonus>
@@ -7602,7 +7002,7 @@
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
       <damagebonus type="AbstractLightCavalry">4.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">4.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">4.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">4.000000</damagebonus>
@@ -7615,7 +7015,7 @@
       <maxrange>16.000000</maxrange>
       <rof>3.000000</rof>
       <damagebonus type="AbstractLightCavalry">4.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">4.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">4.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">4.000000</damagebonus>
@@ -8379,7 +7779,7 @@
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
       <damagebonus type="AbstractLightCavalry">0.600000</damagebonus>
-      <damagebonus type="xpEagleKnight">0.500000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">0.500000</damagebonus>
     </protoaction>
     <protoaction>
       <name>GuardianAttack</name>
@@ -8393,7 +7793,7 @@
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
       <damagebonus type="AbstractLightCavalry">0.600000</damagebonus>
-      <damagebonus type="xpEagleKnight">0.500000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">0.500000</damagebonus>
     </protoaction>
     <protoaction>
       <name>TrampleHandAttack</name>
@@ -8404,7 +7804,7 @@
       <damagearea>3.000000</damagearea>
       <damageflags>Enemy</damageflags>
       <damagebonus type="AbstractLightCavalry">0.600000</damagebonus>
-      <damagebonus type="xpEagleKnight">0.500000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">0.500000</damagebonus>
     </protoaction>
   </unit>
   <unit mergeMode='replace' id="1892" name="deMercCannoneer">
@@ -8493,7 +7893,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractCavalry">0.500000</damagebonus>
       <damagebonus type="AbstractLightCavalry">1.750000</damagebonus>
-      <damagebonus type="xpEagleKnight">1.750000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">1.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.500000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">1.750000</damagebonus>
     </protoaction>
@@ -8509,7 +7909,7 @@
       <damageflags>GAIAEnemy</damageflags>
       <damagebonus type="AbstractCavalry">0.500000</damagebonus>
       <damagebonus type="AbstractLightCavalry">1.750000</damagebonus>
-      <damagebonus type="xpEagleKnight">1.750000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">1.750000</damagebonus>
       <damagebonus type="AbstractVillager">0.500000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.500000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">1.750000</damagebonus>
@@ -8521,7 +7921,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractCavalry">0.500000</damagebonus>
       <damagebonus type="AbstractLightCavalry">1.750000</damagebonus>
-      <damagebonus type="xpEagleKnight">1.500000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">1.500000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.500000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">1.750000</damagebonus>
     </protoaction>
@@ -8532,7 +7932,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractCavalry">0.500000</damagebonus>
       <damagebonus type="AbstractLightCavalry">1.750000</damagebonus>
-      <damagebonus type="xpEagleKnight">1.750000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">1.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.500000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">1.750000</damagebonus>
     </protoaction>
@@ -8548,7 +7948,7 @@
       <damageflags>GAIAEnemy</damageflags>
       <damagebonus type="AbstractCavalry">0.500000</damagebonus>
       <damagebonus type="AbstractLightCavalry">1.750000</damagebonus>
-      <damagebonus type="xpEagleKnight">1.750000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">1.750000</damagebonus>
       <damagebonus type="AbstractVillager">0.500000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.500000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">1.750000</damagebonus>
@@ -8560,7 +7960,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractCavalry">0.500000</damagebonus>
       <damagebonus type="AbstractLightCavalry">1.750000</damagebonus>
-      <damagebonus type="xpEagleKnight">1.750000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">1.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.500000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">1.750000</damagebonus>
     </protoaction>
@@ -8576,7 +7976,7 @@
       <damageflags>GAIAEnemy</damageflags>
       <damagebonus type="AbstractCavalry">0.500000</damagebonus>
       <damagebonus type="AbstractLightCavalry">1.750000</damagebonus>
-      <damagebonus type="xpEagleKnight">1.750000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">1.750000</damagebonus>
       <damagebonus type="AbstractVillager">0.500000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.500000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">1.750000</damagebonus>
@@ -8786,7 +8186,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
     </protoaction>
@@ -8799,7 +8199,7 @@
       <rof>4.000000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
     </protoaction>
@@ -8810,7 +8210,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
     </protoaction>
@@ -8821,7 +8221,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
     </protoaction>
@@ -8834,7 +8234,7 @@
       <rof>4.000000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
     </protoaction>
@@ -8845,7 +8245,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
     </protoaction>
@@ -8858,7 +8258,7 @@
       <rof>4.000000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
     </protoaction>
@@ -9274,7 +8674,7 @@
       <maxrange>16.000000</maxrange>
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.00000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
@@ -9285,7 +8685,7 @@
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.00000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
@@ -9298,7 +8698,7 @@
       <maxrange>22.000000</maxrange>
       <rof>3.000000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.00000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
@@ -10420,7 +9820,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
@@ -10436,7 +9836,7 @@
       <damageflags>GAIAEnemy</damageflags>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
@@ -10447,7 +9847,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
     </protoaction>
@@ -10458,7 +9858,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
     </protoaction>
@@ -10474,7 +9874,7 @@
       <damageflags>GAIAEnemy</damageflags>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
     </protoaction>
@@ -10485,7 +9885,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">1.500000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
@@ -10501,7 +9901,7 @@
       <damageflags>GAIAEnemy</damageflags>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
     </protoaction>
@@ -10687,7 +10087,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">1.500000</damagebonus>
       <damagebonus type="AbstractLightCavalry">3.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.5000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.5000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.500000</damagebonus>
       <damagebonus type="AbstractCoyoteMan">0.500000</damagebonus>
     </protoaction>
@@ -10700,7 +10100,7 @@
       <rof>4.000000</rof>
       <damagebonus type="AbstractHeavyInfantry">1.500000</damagebonus>
       <damagebonus type="AbstractLightCavalry">3.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.5000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.5000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.500000</damagebonus>
       <damagebonus type="AbstractCoyoteMan">0.500000</damagebonus>
     </protoaction>
@@ -10711,7 +10111,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">1.500000</damagebonus>
       <damagebonus type="AbstractLightCavalry">3.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.5000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.5000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.500000</damagebonus>
       <damagebonus type="AbstractCoyoteMan">0.500000</damagebonus>
     </protoaction>
@@ -10722,7 +10122,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">1.500000</damagebonus>
       <damagebonus type="AbstractLightCavalry">3.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.5000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.5000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.500000</damagebonus>
       <damagebonus type="AbstractCoyoteMan">0.500000</damagebonus>
     </protoaction>
@@ -10735,7 +10135,7 @@
       <rof>4.000000</rof>
       <damagebonus type="AbstractHeavyInfantry">1.500000</damagebonus>
       <damagebonus type="AbstractLightCavalry">3.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.5000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.5000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.500000</damagebonus>
       <damagebonus type="AbstractCoyoteMan">0.500000</damagebonus>
     </protoaction>
@@ -10746,7 +10146,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">1.500000</damagebonus>
       <damagebonus type="AbstractLightCavalry">3.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.5000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.5000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.500000</damagebonus>
       <damagebonus type="AbstractCoyoteMan">0.500000</damagebonus>
     </protoaction>
@@ -10759,7 +10159,7 @@
       <rof>4.000000</rof>
       <damagebonus type="AbstractHeavyInfantry">1.500000</damagebonus>
       <damagebonus type="AbstractLightCavalry">3.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.5000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.5000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.500000</damagebonus>
       <damagebonus type="AbstractCoyoteMan">0.500000</damagebonus>
     </protoaction>
@@ -11883,7 +11283,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">3.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">3.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.500000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.500000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
@@ -11894,7 +11294,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">3.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">3.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.500000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.500000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
@@ -11905,7 +11305,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">3.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">3.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.500000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.500000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
@@ -14737,7 +14137,7 @@
       <damagetype>Hand</damagetype>
       <rof>1.250000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
@@ -14749,7 +14149,7 @@
       <maxrange>16.000000</maxrange>
       <rof>1.250000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
@@ -14762,7 +14162,7 @@
       <minrange>16.000000</minrange>
       <rof>3.000000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.0000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
@@ -15435,7 +14835,7 @@
       <damagebonus type="AbstractInfantry">0.500000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">3.500000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.500000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.500000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.500000</damagebonus>
       <damagebonus type="AbstractArtillery">3.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
@@ -15449,7 +14849,7 @@
       <damagebonus type="AbstractInfantry">0.500000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">3.500000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.500000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.500000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.500000</damagebonus>
       <damagebonus type="AbstractArtillery">3.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
@@ -15464,7 +14864,7 @@
       <damagebonus type="AbstractInfantry">0.500000</damagebonus>
       <damagebonus type="AbstractHeavyInfantry">3.500000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.500000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.500000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.500000</damagebonus>
       <damagebonus type="AbstractArtillery">3.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
@@ -15694,7 +15094,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
@@ -15710,7 +15110,7 @@
       <damageflags>GAIAEnemy</damageflags>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
@@ -15721,7 +15121,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
     </protoaction>
@@ -15732,7 +15132,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
     </protoaction>
@@ -15748,7 +15148,7 @@
       <damageflags>GAIAEnemy</damageflags>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
     </protoaction>
@@ -15759,7 +15159,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">1.500000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
@@ -15775,7 +15175,7 @@
       <damageflags>GAIAEnemy</damageflags>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
     </protoaction>
@@ -17103,7 +16503,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
@@ -17119,7 +16519,7 @@
       <damageflags>GAIAEnemy</damageflags>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
@@ -17130,7 +16530,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
     </protoaction>
@@ -17141,7 +16541,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
     </protoaction>
@@ -17157,7 +16557,7 @@
       <damageflags>GAIAEnemy</damageflags>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
     </protoaction>
@@ -17168,7 +16568,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">1.500000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
@@ -17184,7 +16584,7 @@
       <damageflags>GAIAEnemy</damageflags>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
     </protoaction>
@@ -17286,7 +16686,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
     </protoaction>
@@ -17299,7 +16699,7 @@
       <rof>4.000000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
     </protoaction>
@@ -17310,7 +16710,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
     </protoaction>
@@ -17321,7 +16721,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
     </protoaction>
@@ -17334,7 +16734,7 @@
       <rof>4.000000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
     </protoaction>
@@ -17345,7 +16745,7 @@
       <rof>1.500000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
     </protoaction>
@@ -17358,7 +16758,7 @@
       <rof>4.000000</rof>
       <damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
     </protoaction>
@@ -17997,7 +17397,7 @@
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractVillager">1.250000</damagebonus>
       <damagebonus type="Guardian">3.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
@@ -18011,7 +17411,7 @@
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractVillager">1.250000</damagebonus>
       <damagebonus type="Guardian">3.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
@@ -18024,7 +17424,7 @@
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractVillager">1.250000</damagebonus>
       <damagebonus type="Guardian">3.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
@@ -18037,7 +17437,7 @@
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractVillager">1.250000</damagebonus>
       <damagebonus type="Guardian">3.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
@@ -18051,7 +17451,7 @@
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractVillager">1.250000</damagebonus>
       <damagebonus type="Guardian">3.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
@@ -18064,7 +17464,7 @@
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractVillager">1.250000</damagebonus>
       <damagebonus type="Guardian">3.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
@@ -18078,7 +17478,7 @@
       <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractVillager">1.250000</damagebonus>
       <damagebonus type="Guardian">3.000000</damagebonus>
-      <damagebonus type="xpEagleKnight">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
       <damagebonus type="AbstractCavalry">0.750000</damagebonus>
       <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
     </protoaction>
@@ -18105,6 +17505,443 @@
       <rate type="Tree">0.000000</rate>
     </protoaction>
   </unit>
+  <unit mergeMode='replace' id="2081" name="deEmboscador">
+    <dbid>2656</dbid>
+    <displaynameid>112015</displaynameid>
+    <editornameid>112016</editornameid>
+    <populationcount>1</populationcount>
+    <obstructionradiusx>0.4900</obstructionradiusx>
+    <obstructionradiusz>0.4900</obstructionradiusz>
+    <formationcategory>Ranged</formationcategory>
+    <maxvelocity>4.500</maxvelocity>
+    <maxrunvelocity>6.5000</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <animfile>units\infantry_ranged\emboscador\emboscador.xml</animfile>
+    <impacttype>Flesh</impacttype>
+    <physicsinfo>dude</physicsinfo>
+    <icon>resources\art\units\infantry_ranged\emboscador\emboscador_icon.png</icon>
+    <portraiticon>resources\art\units\infantry_ranged\emboscador\emboscador_portrait.png</portraiticon>
+    <rollovertextid>112018</rollovertextid>
+    <shortrollovertextid>112017</shortrollovertextid>
+    <initialhitpoints>100.0000</initialhitpoints>
+    <maxhitpoints>100.0000</maxhitpoints>
+    <los>22.0000</los>
+    <projectileprotounit>InvisibleProjectile</projectileprotounit>
+    <autoattackrange>16.0000</autoattackrange>
+    <unitaitype>RangedCombative</unitaitype>
+    <trainpoints>30.0000</trainpoints>
+    <bounty>12.0000</bounty>
+    <buildbounty>12.0000</buildbounty>
+    <cost resourcetype="Food">70.0000</cost>
+    <cost resourcetype="Gold">50.0000</cost>
+    <allowedage>1</allowedage>
+    <armor type="Ranged" value="0.3000"/>
+    <unittype>LogicalTypeHealed</unittype>
+    <unittype>LogicalTypeValidSharpshoot</unittype>
+    <unittype>LogicalTypeNeededForVictory</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeLandMilitary</unittype>
+    <unittype>LogicalTypeScout</unittype>
+    <unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
+    <unittype>AbstractRangedInfantry</unittype>
+    <unittype>LogicalTypeInfantryVolleyTactic</unittype>
+    <unittype>ConvertsHerds</unittype>
+    <unittype>Ranged</unittype>
+    <unittype>AbstractGunpowderTrooper</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>AbstractCavalryInfantry</unittype>
+    <unittype>CountsTowardMilitaryScore</unittype>
+    <unittype>AbstractInfantry</unittype>
+    <unittype>Unit</unittype>
+    <unittype>Military</unittype>
+    <unittype>UnitClass</unittype>
+    <unittype>AbstractRifleman</unittype>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ApplyHandicapTraining</flag>
+    <flag>CorpseDecays</flag>
+    <flag>ShowGarrisonButton</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>Tracked</flag>
+    <command page="10" column="1">Stop</command>
+    <command page="10" column="0">Garrison</command>
+    <command page="10" column="7">Delete</command>
+    <command page="11" column="0">Abilities</command>
+    <tactics>guerrilla.tactics</tactics>
+    <protoaction>
+      <name>BuildingAttack</name>
+      <damage>12.000000</damage>
+      <damagetype>Siege</damagetype>
+      <rof>3.000000</rof>
+    </protoaction>
+    <protoaction>
+      <name>DefendHandAttack</name>
+      <damage>8.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
+      <damagebonus type="AbstractCavalry">0.750000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>DefendRangedAttack</name>
+      <damage>20.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <minrange>1.000000</minrange>
+      <maxrange>16.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
+      <damagebonus type="AbstractCavalry">0.750000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>MeleeHandAttack</name>
+      <damage>8.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
+      <damagebonus type="AbstractCavalry">0.750000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>StaggerHandAttack</name>
+      <damage>8.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
+      <damagebonus type="AbstractCavalry">0.750000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>StaggerRangedAttack</name>
+      <damage>20.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <minrange>0.000000</minrange>
+      <maxrange>16.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
+      <damagebonus type="AbstractCavalry">0.750000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>VolleyHandAttack</name>
+      <damage>8.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
+      <damagebonus type="AbstractCavalry">0.750000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>VolleyRangedAttack</name>
+      <damage>20.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <minrange>1.000000</minrange>
+      <maxrange>16.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
+      <damagebonus type="AbstractCavalry">0.750000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
+    </protoaction>
+  </unit>
+
+  <unit mergeMode='replace' id="2082" name="deSoldado">
+    <dbid>2657</dbid>
+    <displaynameid>112019</displaynameid>
+    <editornameid>112020</editornameid>
+    <populationcount>2</populationcount>
+    <obstructionradiusx>0.5900</obstructionradiusx>
+    <obstructionradiusz>0.5900</obstructionradiusz>
+    <formationcategory>Ranged</formationcategory>
+    <maxvelocity>4.0000</maxvelocity>
+    <maxrunvelocity>6.0000</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <animfile>units\infantry_ranged\soldado\soldado.xml</animfile>
+    <impacttype>Flesh</impacttype>
+    <physicsinfo>dude</physicsinfo>
+    <icon>resources\art\units\infantry_ranged\soldado\soldado_icon.png</icon>
+    <portraiticon>resources\art\units\infantry_ranged\soldado\soldado_portrait.png</portraiticon>
+    <rollovertextid>112022</rollovertextid>
+    <shortrollovertextid>25669</shortrollovertextid>
+    <initialhitpoints>300.0000</initialhitpoints>
+    <maxhitpoints>300.0000</maxhitpoints>
+    <los>16.0000</los>
+    <projectileprotounit>InvisibleProjectile</projectileprotounit>
+    <autoattackrange>16.0000</autoattackrange>
+    <unitaitype>RangedCombative</unitaitype>
+    <trainpoints>45.0000</trainpoints>
+    <bounty>17.0000</bounty>
+    <buildbounty>17.0000</buildbounty>
+    <cost resourcetype="Food">90.0000</cost>
+    <cost resourcetype="Gold">80.0000</cost>
+    <allowedage>1</allowedage>
+    <armor type="Hand" value="0.2500"/>
+    <unittype>LogicalTypeHealed</unittype>
+    <unittype>LogicalTypeValidSharpshoot</unittype>
+    <unittype>LogicalTypeNeededForVictory</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeLandMilitary</unittype>
+    <unittype>LogicalTypeScout</unittype>
+    <unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
+    <unittype>Military</unittype>
+    <unittype>UnitClass</unittype>
+    <unittype>Unit</unittype>
+    <unittype>AbstractHeavyInfantry</unittype>
+    <unittype>AbstractGrenadier</unittype>
+    <unittype>AbstractInfantry</unittype>
+    <unittype>CountsTowardMilitaryScore</unittype>
+    <unittype>AbstractCavalryInfantry</unittype>
+    <unittype>Ranged</unittype>
+    <unittype>AbstractGunpowderTrooper</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>AbstractRangedInfantry</unittype>
+    <unittype>LogicalTypeInfantryVolleyTactic</unittype>
+    <unittype>ConvertsHerds</unittype>
+    <unittype>AbstractMusketeer</unittype>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ApplyHandicapTraining</flag>
+    <flag>CorpseDecays</flag>
+    <flag>ShowGarrisonButton</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>Tracked</flag>
+    <command page="10" column="1">Stop</command>
+    <command page="10" column="0">Garrison</command>
+    <command page="10" column="7">Delete</command>
+    <tactics>soldado.tactics</tactics>
+    <protoaction>
+      <name>BuildingAttack</name>
+      <damage>32.000000</damage>
+      <damagetype>Siege</damagetype>
+      <maxrange>9.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagecap>64.000000</damagecap>
+      <damagearea>0.000000</damagearea>
+      <damageflags>GAIAEnemy</damageflags>
+    </protoaction>
+    <protoaction>
+      <name>MortarBuildingAttack</name>
+      <damage>36.000000</damage>
+      <damagetype>Siege</damagetype>
+      <maxrange>15.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagecap>72.000000</damagecap>
+      <damagearea>0.000000</damagearea>
+      <damageflags>GAIAEnemy</damageflags>
+    </protoaction>
+    <protoaction>
+      <name>MortarAttack</name>
+      <damage>36.000000</damage>
+      <damagetype>Siege</damagetype>
+      <maxrange>15.000000</maxrange>
+      <minrange>12.000000</minrange>
+      <rof>3.000000</rof>
+      <damagecap>72.000000</damagecap>
+      <damagearea>1.000000</damagearea>
+      <damageflags>GAIAEnemy</damageflags>
+      <damagebonus type="AbstractInfantry">0.600000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>DefendHandAttack</name>
+      <damage>25.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractCavalry">3.000000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">2.250000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>DefendRangedAttack</name>
+      <damage>36.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <maxrange>12.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagecap>72.000000</damagecap>
+      <damageflags>GAIAEnemy</damageflags>
+      <damagearea>0.000000</damagearea>
+    </protoaction>
+    <protoaction>
+      <name>MeleeHandAttack</name>
+      <damage>25.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractCavalry">3.000000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">2.250000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>StaggerHandAttack</name>
+      <damage>25.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractCavalry">3.000000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">2.250000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>StaggerRangedAttack</name>
+      <damage>36.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <maxrange>12.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagecap>72.000000</damagecap>
+      <damageflags>GAIAEnemy</damageflags>
+      <damagearea>0.000000</damagearea>
+    </protoaction>
+    <protoaction>
+      <name>VolleyHandAttack</name>
+      <damage>25.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractCavalry">3.000000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">2.250000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>VolleyRangedAttack</name>
+      <damage>36.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <maxrange>12.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagecap>72.000000</damagecap>
+      <damageflags>GAIAEnemy</damageflags>
+      <damagearea>0.000000</damagearea>
+    </protoaction>
+  </unit>
+  <unit mergeMode='replace' id="2085" name="deHacienda">
+    <dbid>2660</dbid>
+    <displaynameid>112065</displaynameid>
+    <obstructionradiusx>3.9000</obstructionradiusx>
+    <obstructionradiusz>4.5000</obstructionradiusz>
+    <placementobstructionradiusx>8.6000</placementobstructionradiusx>
+    <placementobstructionradiusz>8.6000</placementobstructionradiusz>
+    <maxvelocity>0.0000</maxvelocity>
+    <movementtype>land</movementtype>
+    <animfile>buildings\hacienda\hacienda.xml</animfile>
+    <deadreplacement>BuildingRubble3x3</deadreplacement>
+    <deadreplacementlifespan>15</deadreplacementlifespan>
+    <impacttype>Wood</impacttype>
+    <physicsinfo>house</physicsinfo>
+    <placementfile>mill.xml</placementfile>
+    <icon>resources\art\buildings\hacienda\hacienda_icon.png</icon>
+    <portraiticon>resources\art\buildings\hacienda\hacienda_portrait.png</portraiticon>
+    <rollovertextid>112067</rollovertextid>
+    <shortrollovertextid>112066</shortrollovertextid>
+    <legacyhotkeycontext>RicePaddyAccel</legacyhotkeycontext>
+    <initialhitpoints>4000.0000</initialhitpoints>
+    <maxhitpoints>4000.0000</maxhitpoints>
+    <los>12.0000</los>
+    <buildpoints>30.0000</buildpoints>
+    <bounty>240.0000</bounty>
+    <buildbounty>120.0000</buildbounty>
+    <cost resourcetype="Wood">600.0000</cost>
+    <unitsellcommand>deSellHacienda</unitsellcommand>
+    <unitsellrate>1.0</unitsellrate>
+    <carrycapacity resourcetype="Food">100.0000</carrycapacity>
+    <carrycapacity resourcetype="Gold">100.0000</carrycapacity>
+    <initialresource resourcetype="Food">999.0000</initialresource>
+    <initialresource resourcetype="Gold">0.0000</initialresource>
+    <resourcesubtype>Gold</resourcesubtype>
+    <buildingworkrate>1.0000</buildingworkrate>
+    <maxcontained>20</maxcontained>
+    <allowedage>0</allowedage>
+    <armor type="Siege" value="0.0000"/>
+    <gathererlimit>20</gathererlimit>
+    <builderlimit>20</builderlimit>
+    <unittype>LogicalTypeValidSabotage</unittype>
+    <unittype>LogicalTypeMinimapFilterEconomic</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeBuildingsNotWalls</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeShipsAndBuildings</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>LogicalTypeBuildingsNotWallsOrGroves</unittype>
+    <unittype>CountsTowardEconomicScore</unittype>
+    <unittype>AbstractFarm</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>ConvertsHerds</unittype>
+    <unittype>Gold</unittype>
+    <unittype>Resource</unittype>
+    <unittype>Building</unittype>
+    <unittype>Economic</unittype>
+    <unittype>BuildingClass</unittype>
+    <unittype>AbstractTypeHerdableMagnet</unittype>
+    <unittype>AbstractMapControlBuilding</unittype>
+    <tech row="1" page="1" column="0">SeedDrill</tech>
+    <tech row="1" page="1" column="0">ArtificialFertilizer</tech>
+    <tech row="0" page="1" column="1">Homesteading</tech>
+    <tech row="0" page="1" column="1">Bookkeeping</tech>
+    <tech row="0" page="1" column="1">OreRefining</tech>
+    <tech row="0" page="1" column="2">SelectiveBreeding</tech>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>StartsAtFullEfficiency</flag>
+    <flag>Immoveable</flag>
+    <flag>NoBloodOnDeath</flag>
+    <flag>ObscuresUnits</flag>
+    <flag>NonAutoFormedUnit</flag>
+    <flag>Doppled</flag>
+    <flag>SelectWithObstruction</flag>
+    <flag>PaintTextureWhenPlacing</flag>
+    <flag>FlattenGround</flag>
+    <flag>UnlimitedSupply</flag>
+    <flag>ColonyBuilding</flag>
+    <flag>HasGatherPoint</flag>
+    <flag>Tracked</flag>
+    <flag>UseStaticFarmingAnims</flag>
+    <flag>ForceGatherSiteResource</flag>
+    <flag>BuildingShowTactics</flag>
+    <flag>UseDanceActions</flag>
+    <flag>HerdablesIgnoreGatherPoint</flag>
+    <flag>EnterHotkeyContext</flag>
+    <flag>GatherersContributeToResourceRate</flag>
+    <flag>AllowGatheringWhenFull</flag>
+    <flag>ShowUnitResourceActionRates</flag>
+    <flag>MagnetDoesNotLockUnits</flag>
+    <flag>ForceFullTechUpdate</flag>
+    <command page="10" column="7">Delete</command>
+    <command page="9" column="0">deHaciendaFood</command>
+    <command page="9" column="1">deHaciendaCoin</command>
+    <command page="9" column="2">deHaciendaWood</command>
+    <command page="9" column="3">deHaciendaCow</command>
+    <command page="19" column="3">deSellHacienda</command>
+    <tactics>hacienda.tactics</tactics>
+    <protoaction>
+      <name>ModifyGatherCoin</name>
+      <rate type="Gold">1.000000</rate>
+    </protoaction>
+    <protoaction>
+      <name>ModifyGatherFood</name>
+      <rate type="Food">1.000000</rate>
+    </protoaction>
+    <protoaction>
+      <name>ModifyGatherWood</name>
+      <rate type="Wood">1.000000</rate>
+    </protoaction>
+    <protoaction>
+      <name>ModifyGatherNoResource</name>
+      <rate type="None">1.000000</rate>
+    </protoaction>
+  </unit>
+
 </protomods>
 
 

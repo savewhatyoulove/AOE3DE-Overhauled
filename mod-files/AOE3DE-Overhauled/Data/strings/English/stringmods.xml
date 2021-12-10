@@ -492,6 +492,28 @@
 	    <string _locid="110627">Settlers gather Wood 25% more quickly and Trees last 25% longer</string>
 	    <string _locid="110631">Pine Tree State researched</string>
 	    <string _locid="110632">Pine Tree State researched</string>
+	    <string _locid="112018">Skirmisher with a powerful rifle attack. Good against Infantry and Light Cavalry.</string>
+	    <string _locid="112265">Ships 1 Hacienda Wagon and 3 Settlers.</string>
+	    <string _locid="112340">Ships 1 Hacienda Wagon and increases Hacienda hitpoints.</string>
+	    <string _locid="112342">Arrives fast! Deposits 250 Coin and exchanges all your current Wood for 50% more Coin.</string>
+	    <string _locid="112344">Trading Routes supply greatly increased XP income and ships have increased experience point build bounty.</string>
+	    <string _locid="112346">Ships 1 Dock Wagon. Ships an additional Fishing Boat for each shipment sent so far this game.</string>
+	    <string _locid="112353">Ships 1 Native Embassy Travois. Unlocks Conquistadores and Jesuit improvements at your Native Embassy.</string>
+	    <string _locid="112355">Ships 2 Settlers for each Hacienda you have constructed, up to 20.</string>
+	    <string _locid="112357">Enables Maya Holcan Javelineers to be trained from Barracks where they cost Population, Food, and Wood.</string>
+	    <string _locid="112358">Tzotzil Renegades</string>
+	    <string _locid="112359">Villagers gather Food from Haciendas more quickly.</string>
+	    <string _locid="112361">Infantry upgrades at the Barracks are cheaper and research more quickly.</string>
+	    <string _locid="112365">Ships an additional Salteador for each shipment you have sent so far this game.</string>
+	    <string _locid="112367">Villagers gather Food and Coin from Haciendas more quickly.</string>
+	    <string _locid="112369">Ships 8 Cuatreros.</string>
+	    <string _locid="112680">Improves Salteadores and other rifle infantry in combat.</string>
+	    <string _locid="112682">Salteadores gain more range and line of sight.</string>
+	    <string _locid="112684">Insurgentes have more hitpoints and train more quickly.</string>
+	    <string _locid="112686">Insurgente and Villager melee attack increased.</string>
+	    <string _locid="113060">Lancer Cavalry inflict more damage.</string>
+	    <string _locid="113062">All Cavalry and Infantry have slightly increased armor.</string>
+	    <string _locid="113168">Salteadores deal more damage to Villagers.</string>
 	    <string _locid="220000">3 Miners</string>
 	    <string _locid="220001">4 Miners</string>
 	    <string _locid="220002">10 Miners +1 Prospector Wagon</string>
@@ -703,7 +725,13 @@
 
 	    <string _locid="270110">Gobir Rider and Lifidi Knight attack and hitpoints increased. Training time decreased.</string>
 	    <string _locid="270111">Legendary upgrade for Gobir Rider and Lifidi Knight.</string>
-
+	    <string _locid="270112">Crates of 900 Food</string>
+	    <string _locid="270113">Crates of 1,500 Food</string>
+	    <string _locid="270114">Crates of 400 Wood</string>
+	    <string _locid="270115">Crates of 200 Wood</string>
+	    <string _locid="270116">Crates of 500 Wood</string>
+	    <string _locid="270117">Crates of 800 Wood</string>
+	    <string _locid="270118">Crates of 1300 Wood</string>
 	</Language>
   </StringTable>
 </stringmods>

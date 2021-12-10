@@ -1131,3 +1131,50 @@ Longbowman:
 Shipment Changes:
 -- Yeomen range bonus reduced from +4 to +2 (caps at 24). Now additionally provides +0.25x AbstractHeavyInfantry
 -- Florence Nightingale's Heal rate doubled to 10.0 from 5.0
+
+Mexico:
+
+Civ Bonus Changes: Mexico now earns shipments drastically faster (1.0 xp curve --> 0.65) and they arrive more quickly (40s --> 30, 75% reduction for unique times), but they are weaker in terms of value (200/500/800/1300 on average).
+
+Villager build limit improved to 99 from 80 
+
+Starting Crates: 100F/100G removed (now 300F/200W and a starting cow)
+
+Building Changes:
+
+Hacienda: Obscenely OP, nerfed to be a more standard farm building.
+-- LOS: Reduced to 12 from 34
+-- HP: Reduced to 4000 from 5000
+-- Build Points: Improved to 30 from 40
+-- No longer trickles resources
+-- Build limit removed
+-- No longer garrisons villagers
+-- No longer acts as a military or economic shipment point
+
+Unit Changes:
+
+Insurgente: Now has access to Guard and Imperial upgrades.
+
+Shipments:
+-- Algondiga De Granaditas (1 Hacienda Wagon + 2 Vills) now delivers 3 vills. Moved to the Fortress Age from Discovery.
+-- 1 Hacienda Wagon is now INFINITE. Moved to commerce age from Discovery. 
+-- Food Crates reduced to 500/600/900/1500 Food (from 600/700/1000/1600)
+-- Wood Crates reduced to 200/400/500/800/1300 Wood (from 300/600/700/1000/1600)
+-- Machetes Reworked: Now provides +20% melee ATK to Insurgentes and Villagers.
+-- Reservistas Reworked: Now provides +15% Insurgente HP and -15% Insurgente train time. 
+-- Caballeros no longer increases Chinaco attack vs. Heavy Infantry.
+-- Presidial Lancers Reworked: Now provides +20% ATK to AbstractLancer. Moved to the Fortress Age from Industrial
+-- Queen's Dragoons Removed
+-- Ambuscade Reworked: Now provides Salteadors 1.25x AbstractVillager
+-- Leather Soldiers Reworked: Now provides +10% armor (1.1x, not a flat +10) to all Infantry and Cavalry. Moved to Commerce Age from Fortress. 
+
+Federal States:
+-- Fortified Haciendas no longer unlocks a ranged attack for Haciendas. Instead, it improves their HP by +25%. 
+-- Cerro De Mercado now only deposits 250 Gold instead of 350 (exchange rate unchanged).
+-- Michoacan Fishermen now only delivers 1 Dock Wagon instead of 2
+-- Colegio de San Nicolas Reworked. Now provides +100% XP income from Trading Posts and +20% Ship XP Build Bounty
+-- Tlaxcala Alliance no longer unlocks Mesoamerican upgrades, just Jesuit units/upgrades
+-- Tzotzil Uprising renamed to Tzotzil Renegades. Now unlocks Maya Holcan Javelineers and their Vet/Guard upgrades at the barracks. Removes build limit, but makes them cost 1 pop. 
+-- Mayan Crops Reworked: now provides +10% Food/Gold gather rates on Haciendas for villagers. 
+-- Arteaga Reforms Reworked: Now reduces the cost of train time of Mexican Infantry upgrades by -20% (this affects Holcan Javelineers if Tzotzil Renegades has been sent)
+-- Sonora Cuatreros now delivers 7 Cuatreros (down from 8) with no other effects.

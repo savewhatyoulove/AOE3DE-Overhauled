@@ -510,17 +510,9 @@
     <ability>PowerBalloon<tech>deEnableBalloonPower</tech><rof>240</rof></ability>
     <ability>PowerLOS<tech>DESpyglassEnableShadow</tech><rof>90</rof></ability>
     <ability>deChargeAbilityCarbine<tech>deGeneralChargeCarbine</tech><bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deChargeAbilityHeavyStrike<tech>deGeneralChargeHeavyStrike</tech><bindtoauxchargeaction>true</bindtoauxchargeaction><forceshowrollover>true</forceshowrollover></ability>
     <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </degeneral>
-  <degeneral2>
-    <ability>PowerSharpshooter<rof>60</rof></ability>
-    <ability>deAbilityInspiringFlag<tech>deGeneralInspiringFlag</tech><rof>60</rof><donotforcestop>true</donotforcestop></ability>
-    <ability>deAbilityInspiringFlag2<tech>DEHCFedLincolnLand</tech><rof>60</rof><donotforcestop>true</donotforcestop></ability>
-    <ability>PowerBalloon<tech>deEnableBalloonPower</tech><rof>240</rof></ability>
-    <ability>PowerLOS<tech>DESpyglassEnableShadow</tech><rof>90</rof></ability>
-    <ability>deChargeAbilityCarbine<tech>deGeneralChargeCarbine</tech><bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
-    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
-  </degeneral2>
   <desloop>
     <ability>deChargeAbilityBroadside<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
   </desloop>
@@ -637,4 +629,81 @@
   <demaceman>
  <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
  </demaceman>
+  <denatspclenaperifleman>
+    <ability>deChargeAbilityStun<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+  </denatspclenaperifleman>
+  <despcmilitiaofficer>
+    <ability>PowerSharpshooter<rof>60</rof></ability>
+    <ability>deAbilityInspiringFlagCanada<rof>180</rof><donotforcestop>true</donotforcestop></ability>
+    <ability>PowerBalloon<tech>deEnableBalloonPower</tech><rof>240</rof><activetimecooldown>true</activetimecooldown></ability>
+    <ability>PowerLOS<tech>DESpyglassEnableShadow</tech><rof>90</rof><activetimecooldown>true</activetimecooldown></ability>
+    <ability>deChargeAbilityCarbine<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </despcmilitiaofficer>
+  <deemboscador>
+    <ability>deBigStealth<tech>DEAutoStealthShadow</tech><rof>90</rof><usebigabilitybutton>true</usebigabilitybutton><donotforcestop>true</donotforcestop><castonself>true</castonself><activetimecooldown>true</activetimecooldown><allowwhilestealthed>true</allowwhilestealthed><forceshowrollover>true</forceshowrollover></ability>
+  </deemboscador>
+  <despccorsairship>
+    <ability>deSPCBarbaryFlag<rof>40</rof><castonself>true</castonself><donotforcestop>true</donotforcestop><activetimecooldown>true</activetimecooldown><forceshowrollover>true</forceshowrollover></ability>
+  </despccorsairship>
+  <despcrowboat>
+    <ability>deSPCStealthHide<rof>40</rof><castonself>true</castonself><donotforcestop>true</donotforcestop><activetimecooldown>true</activetimecooldown><forceshowrollover>true</forceshowrollover></ability>
+  </despcrowboat>
+  <despcmarineofficer>
+    <ability>deSPCInspiringFlag<rof>180</rof><donotforcestop>true</donotforcestop><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deSPCThrowGrenade<rof>60</rof></ability>
+    <ability>PowerBalloon<tech>deEnableBalloonPower</tech><rof>240</rof><activetimecooldown>true</activetimecooldown></ability>
+    <ability>deChargeAbilityCarbine<tech>deGeneralChargeCarbine</tech><bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </despcmarineofficer>
+  <despchidalgo>
+    <ability>dePowerDamageHidalgo<rof>90</rof><castonself>true</castonself><activetimecooldown>true</activetimecooldown></ability>
+  </despchidalgo>
+  <despcallende>
+    <ability>dePowerSwashbucklerAllende<rof>90</rof></ability>
+    <ability>deAllendeHitpointAura<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </despcallende>
+  <degeneral2>
+    <ability>PowerSharpshooter<rof>60</rof></ability>
+    <ability>deAbilityInspiringFlag<tech>DEGeneralInspiringFlagShadow</tech><rof>180</rof><donotforcestop>true</donotforcestop></ability>
+    <ability>deAbilityInspiringFlagBounty<tech>DEInspiringFlagBountyShadow</tech><rof>180</rof><donotforcestop>true</donotforcestop></ability>
+    <ability>PowerBalloon<tech>deEnableBalloonPower</tech><rof>240</rof><activetimecooldown>true</activetimecooldown></ability>
+    <ability>PowerLOS<tech>DESpyglassEnableShadow</tech><rof>90</rof><activetimecooldown>true</activetimecooldown></ability>
+    <ability>deChargeAbilityHeavyStrike<tech>deGeneralChargeHeavyStrike</tech><bindtoauxchargeaction>true</bindtoauxchargeaction><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deChargeAbilityCarbine<tech>deGeneralChargeCarbine</tech><bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </degeneral2>
+  <depadre>
+    <ability>dePowerPacify<tech>DEPacifyGuardiansShadow</tech><rof>60</rof><sharedcooldown>true</sharedcooldown><activetimecooldown>true</activetimecooldown></ability>
+    <ability>dePowerPacifyUnits<tech>DEPacifyUnitsShadow</tech><rof>60</rof><sharedcooldown>true</sharedcooldown><activetimecooldown>true</activetimecooldown></ability>
+    <ability>dePowerDolores<tech>DEDoloresShadow</tech><rof>300</rof><castonself>true</castonself><activetimecooldown>true</activetimecooldown><forceshowrollover>true</forceshowrollover></ability>
+    <ability>dePowerDoloresImproved<tech>DEDoloresImprovedShadow</tech><rof>300</rof><castonself>true</castonself><activetimecooldown>true</activetimecooldown><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deChargeAbilityHeavyStrike<tech>dePadreChargeHeavyStrike</tech><bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </depadre>
+  <desaloondesperado>
+    <ability>deChargeAbilityShootout<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+    <ability>dePassiveAbilityStandoff<tech>DEHCMexicanStandoff</tech><alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </desaloondesperado>
+  <desaloonvaquero>
+    <ability>deChargeAbilityLasso<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+    <ability>dePassiveAbilityStandoff<tech>DEHCMexicanStandoff</tech><alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </desaloonvaquero>
+  <desaloonbandido>
+    <ability>deChargeAbilityDynamite<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+    <ability>dePassiveAbilityStandoff<tech>DEHCMexicanStandoff</tech><alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </desaloonbandido>
+  <desaloonowlhoot>
+    <ability>deChargeAbilityBuckshot<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+  </desaloonowlhoot>
+  <desaloongunslinger>
+    <ability>deChargeAbilityQuickdraw<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+  </desaloongunslinger>
+  <desalooncowboy>
+    <ability>deChargeAbilityBullsEye<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+  </desalooncowboy>
+  <deinsurgente>
+    <ability>deChargeAbilityLassoInsurgente<tech>DERevolutionMXYucatan</tech><bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+  </deinsurgente>
+
 </abilities>

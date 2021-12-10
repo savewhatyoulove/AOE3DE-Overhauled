@@ -1186,4 +1186,441 @@
     <allowduringnorush>1</allowduringnorush>
     <startsoundset>BattlecryMedium</startsoundset>
   </power>
+  <power name="dePowerChaosEnemyPlayer" type="TempUnit">
+    <displaynameid>101559</displaynameid>
+    <rolloverid>101560</rolloverid>
+    <icon>resources\images\icons\techs\africans\ethiopians\era_chaos.png</icon>
+    <minimapeventtime sendalertto="all">1</minimapeventtime>
+    <activetime>5</activetime>
+    <radius>3.0</radius>
+    <placement forceonmap="1" ally="">full</placement>
+    <createunit quantity="1" radius="0" delay="0.0" chaos="1">deEraOfChaosToken</createunit>
+    <rangeindicatorprotoid radius="3.0" indicatorcount="8" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <allowduringnorush>0</allowduringnorush>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+  </power>
+  <power name="dePowerChaosEnemy" type="UnitAction">
+    <displaynameid>101559</displaynameid>
+    <rolloverid>101560</rolloverid>
+    <icon>resources\images\icons\abilities\ability_mayhem.png</icon>
+    <minimapeventtime sendalertto="all">1</minimapeventtime>
+    <activetime>5</activetime>
+    <radius>3.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">full</placement>
+    <unitaction>EnemyChaos</unitaction>
+    <castingpower>dePowerChaosEnemyPlayer</castingpower>
+    <rangeindicatorprotoid radius="3.0" indicatorcount="8" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <allowduringnorush>0</allowduringnorush>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <forceglobalcooldown>1</forceglobalcooldown>
+  </power>
+  <power name="deFealtyAuraBerbers" type="UnitAction">
+    <displaynameid>101445</displaynameid>
+    <rolloverid>101476</rolloverid>
+    <icon>resources\images\icons\abilities\tech_passive_fealty_aura.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deFealtyAuraAkan" type="UnitAction">
+    <displaynameid>101445</displaynameid>
+    <rolloverid>101487</rolloverid>
+    <icon>resources\images\icons\abilities\tech_passive_fealty_aura.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePowerHausaSabotage" type="UnitAction">
+    <displaynameid>103421</displaynameid>
+    <rolloverid>103422</rolloverid>
+    <icon>resources\images\icons\abilities\ability_tsetse.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>40</activetime>
+    <powerplayerrelation>enemy</powerplayerrelation>
+    <abstractattacktargettype>MilitaryBuilding</abstractattacktargettype>
+    <placement forceonmap="1" enemy="">unit</placement>
+    <unitaction>HausaSabotage</unitaction>
+    <castingpower>dePowerHausaSabotageAux</castingpower>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+  </power>
+  <power name="deAbilityInspiringFlagMexican" type="TempUnit">
+    <displaynameid>110177</displaynameid>
+    <rolloverid>112006</rolloverid>
+    <icon>resources\images\icons\abilities\ability_inspiring_flag_mx.png</icon>
+  </power>
+  <power name="deChargeAbilityStun" type="GeneralEffect">
+    <displaynameid>112092</displaynameid>
+    <rolloverid>112093</rolloverid>
+    <icon>resources\images\icons\abilities\passive_lenape_warcry.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deAbilityInspiringFlagCanada" type="TempUnit">
+    <displaynameid>110177</displaynameid>
+    <rolloverid>112148</rolloverid>
+    <icon>resources\images\icons\abilities\ability_inspiring_flag_canada.png</icon>
+    <minimapeventtime sendalertto="ally">1</minimapeventtime>
+    <activetime>5</activetime>
+    <createunit quantity="1" radius="0" delay="0.0" permanent="" singleinstance="">deInspiringFlag</createunit>
+    <placement forceonmap="1">full</placement>
+    <rangeindicatorprotoid radius="24.0" indicatorcount="16" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <allowduringnorush>1</allowduringnorush>
+    <displayplacementruleserrors>1</displayplacementruleserrors>
+  </power>
+  <power name="deSPCBarbaryFlag" type="SelfModify">
+    <displaynameid>112165</displaynameid>
+    <rolloverid>112166</rolloverid>
+    <icon>resources\images\icons\abilities\ability_barbary_flag.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>30</activetime>
+    <unitmodify flagoverrideunit="deFlagBarbary" apply="set">PeaceFlag</unitmodify>
+    <allowduringnorush>1</allowduringnorush>
+    <allowwhileattacking>0</allowwhileattacking>
+  </power>
+  <power name="deSPCStealthHide" type="ActionAdd">
+    <displaynameid>112167</displaynameid>
+    <rolloverid>112168</rolloverid>
+    <icon>resources\images\icons\abilities\ability_hide_rowboat_us.png</icon>
+    <minimapeventtime sendalertto="all">1</minimapeventtime>
+    <activetime>30</activetime>
+    <radius>0</radius>
+    <unitaction>AutoStealth</unitaction>
+    <allowduringnorush>1</allowduringnorush>
+    <allowwhileattacking>0</allowwhileattacking>
+  </power>
+  <power name="deSPCThrowGrenade" type="UnitAction">
+    <displaynameid>112182</displaynameid>
+    <rolloverid>112183</rolloverid>
+    <icon>resources\images\icons\abilities\ability_japan_kayakujutin_icon_64.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>10.0</radius>
+    <placement forceonmap="1">LOSDontCare</placement>
+    <abstractattacktargettype>Military</abstractattacktargettype>
+    <abstractattacktargettype>Guardian</abstractattacktargettype>
+    <unitaction>GrenadeAttack</unitaction>
+  </power>
+  <power name="deSPCInspiringFlag" type="TempUnit">
+    <displaynameid>112177</displaynameid>
+    <rolloverid>110178</rolloverid>
+    <icon>resources\images\icons\abilities\ability_inspiring_flag_us.png</icon>
+    <minimapeventtime sendalertto="ally">1</minimapeventtime>
+    <activetime>5</activetime>
+    <createunit quantity="1" radius="0" delay="0.0" permanent="" singleinstance="">deInspiringFlag</createunit>
+    <placement forceonmap="1">full</placement>
+    <rangeindicatorprotoid radius="24.0" indicatorcount="16" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <allowduringnorush>1</allowduringnorush>
+    <displayplacementruleserrors>1</displayplacementruleserrors>
+  </power>
+  <power name="dePowerDamageHidalgo" type="GeneralEffect">
+    <displaynameid>112192</displaynameid>
+    <rolloverid>112193</rolloverid>
+    <icon>resources\images\icons\abilities\ability_hidalgo.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>10</activetime>
+    <effect type="ActionEnable" action="ExtraAttackHidalgo">
+      <target type="ProtoUnit">deSPCHidalgo</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <startsoundset>PowerAttackAura</startsoundset>
+  </power>
+  <power name="dePowerSwashbucklerAllende" type="UnitAction">
+    <displaynameid>112194</displaynameid>
+    <rolloverid>34136</rolloverid>
+    <icon>resources\images\icons\abilities\ability_swashbuckler_allende.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>All</abstractattacktargettype>
+    <explicitlyrestrictedattacktargettype>WaterGuardian</explicitlyrestrictedattacktargettype>
+    <unitaction>SwashbucklerAttack</unitaction>
+  </power>
+  <power name="deAllendeHitpointAura" type="UnitAction">
+    <displaynameid>112195</displaynameid>
+    <rolloverid>112196</rolloverid>
+    <icon>resources\images\icons\abilities\passive_professionalism.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePowerMXCartography" type="Informers">
+    <displaynameid>110502</displaynameid>
+    <rolloverid>110501</rolloverid>
+    <msgenemystringid>112348</msgenemystringid>
+    <msgselfstringid>112350</msgselfstringid>
+    <msgallystringid>112349</msgallystringid>
+    <icon>resources\images\icons\abilities\ability_informers.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>20</activetime>
+    <effect type="SharedLOS">
+      <target type="General"/>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <allowduringnorush>1</allowduringnorush>
+    <startsoundset>PowerInformers</startsoundset>
+  </power>
+  <power name="dePowerMXTabascoFruits" type="GeneralEffect">
+    <timerrolloverid>112417</timerrolloverid>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>60</activetime>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Food" relativity="BasePercent" amount="3.5">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Gold" relativity="BasePercent" amount="3.5">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <soundset type="StartSound" listenertype="Caster">GatherFarm</soundset>
+  </power>
+  <power name="dePowerMXJalapenoPeppers" type="GeneralEffect">
+    <timerrolloverid>112695</timerrolloverid>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>30</activetime>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Food" relativity="BasePercent" amount="3.5">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Gold" relativity="BasePercent" amount="3.5">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <soundset type="StartSound" listenertype="Caster">GatherFarm</soundset>
+  </power>
+  <power name="dePowerMXHabaneroPeppers" type="GeneralEffect">
+    <timerrolloverid>112696</timerrolloverid>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>60</activetime>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Food" relativity="BasePercent" amount="3.5">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Gold" relativity="BasePercent" amount="3.5">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <soundset type="StartSound" listenertype="Caster">GatherFarm</soundset>
+  </power>
+  <power name="dePowerDolores" type="GeneralEffect">
+    <displaynameid>112707</displaynameid>
+    <rolloverid>112709</rolloverid>
+    <timerrolloverid>112770</timerrolloverid>
+    <icon>resources\images\icons\abilities\ability_hidalgo.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>20</activetime>
+    <effect type="ActionEnable" action="AreaHealDolores">
+      <target type="ProtoUnit">dePadre</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <soundset type="StartSound" listenertype="Caster">DEPowerDolores</soundset>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+  </power>
+  <power name="deChargeAbilityShootout" type="GeneralEffect">
+    <displaynameid>112727</displaynameid>
+    <rolloverid>112728</rolloverid>
+    <icon>resources\images\icons\abilities\passive_desperado_shootout.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deChargeAbilityLasso" type="GeneralEffect">
+    <displaynameid>112729</displaynameid>
+    <rolloverid>112730</rolloverid>
+    <icon>resources\images\icons\abilities\passive_vaquero_lasso.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deChargeAbilityDynamite" type="GeneralEffect">
+    <displaynameid>112731</displaynameid>
+    <rolloverid>112732</rolloverid>
+    <icon>resources\images\icons\abilities\passive_bandido_demolition.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePowerPacifyAux" type="SingleModify">
+    <displaynameid>112736</displaynameid>
+    <rolloverid>112737</rolloverid>
+    <activetime>20</activetime>
+    <unitmodify amount="2" apply="multiply">ROF</unitmodify>
+    <unitmodify amount="0.25" apply="multiply">Speed</unitmodify>
+    <modelattachment>units\attachments\stun_stars.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>Guardian</abstractattacktargettype>
+    <explicitlyrestrictedattacktargettype>WaterGuardian</explicitlyrestrictedattacktargettype>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePowerPacify" type="UnitAction">
+    <displaynameid>112736</displaynameid>
+    <rolloverid>112737</rolloverid>
+    <icon>resources\images\icons\abilities\ability_pacify.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>20</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <unitaction>PacifyAttack</unitaction>
+    <castingpower>dePowerPacifyAux</castingpower>
+    <forceattacktarget>1</forceattacktarget>
+    <startsoundset>PowerStun</startsoundset>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <allowduringnorush>1</allowduringnorush>
+    <forceglobalcooldown>1</forceglobalcooldown>
+  </power>
+  <power name="dePowerPacifyUnitsAux" type="SingleModify">
+    <displaynameid>112736</displaynameid>
+    <rolloverid>112737</rolloverid>
+    <activetime>20</activetime>
+    <unitmodify amount="2" apply="multiply">ROF</unitmodify>
+    <unitmodify amount="0.25" apply="multiply">Speed</unitmodify>
+    <modelattachment>units\attachments\stun_stars.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>LogicalTypeValidSharpshoot</abstractattacktargettype>
+    <explicitlyrestrictedattacktargettype>WaterGuardian</explicitlyrestrictedattacktargettype>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePowerPacifyUnits" type="UnitAction">
+    <displaynameid>112736</displaynameid>
+    <rolloverid>112737</rolloverid>
+    <icon>resources\images\icons\abilities\ability_pacify.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>20</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <unitaction>PacifyAttack</unitaction>
+    <castingpower>dePowerPacifyUnitsAux</castingpower>
+    <forceattacktarget>1</forceattacktarget>
+    <startsoundset>PowerStun</startsoundset>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <forceglobalcooldown>1</forceglobalcooldown>
+  </power>
+  <power name="dePowerREVSalvadoranCoffee" type="GeneralEffect">
+    <timerrolloverid>112838</timerrolloverid>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>50</activetime>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Food" relativity="BasePercent" amount="3.5">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Gold" relativity="BasePercent" amount="3.5">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <soundset type="StartSound" listenertype="Caster">GatherFarm</soundset>
+  </power>
+  <power name="dePowerREVBlockade" type="BlockHcTransport">
+    <timerrolloverid>112856</timerrolloverid>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>120</activetime>
+    <allplayers>1</allplayers>
+    <placement forceonmap="1" ally="">full</placement>
+    <startsoundset>AttackNotification</startsoundset>
+  </power>
+  <power name="deStealthHide" type="ActionAdd">
+    <displaynameid>112167</displaynameid>
+    <rolloverid>112168</rolloverid>
+    <icon>resources\images\icons\abilities\ability_hide_rowboat_us.png</icon>
+    <minimapeventtime sendalertto="all">1</minimapeventtime>
+    <activetime>20</activetime>
+    <radius>0</radius>
+    <unitaction>AutoStealth</unitaction>
+    <allowduringnorush>1</allowduringnorush>
+    <allowwhileattacking>0</allowwhileattacking>
+  </power>
+  <power name="deAbilityInspiringFlagBounty" type="TempUnit">
+    <displaynameid>110177</displaynameid>
+    <rolloverid>113005</rolloverid>
+    <icon>resources\images\icons\abilities\ability_inspiring_flag_yucatan.png</icon>
+    <minimapeventtime sendalertto="ally">1</minimapeventtime>
+    <activetime>5</activetime>
+    <createunit quantity="1" radius="0" delay="0.0" permanent="" singleinstance="" buildbounty="">deInspiringFlag</createunit>
+    <placement forceonmap="1">full</placement>
+    <rangeindicatorprotoid radius="24.0" indicatorcount="16" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <allowduringnorush>1</allowduringnorush>
+    <displayplacementruleserrors>1</displayplacementruleserrors>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+  </power>
+  <power name="deChargeAbilityLassoInsurgente" type="GeneralEffect">
+    <displaynameid>112981</displaynameid>
+    <rolloverid>112982</rolloverid>
+    <icon>resources\images\icons\abilities\passive_lasso_yucateco.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deInspiringFlagCentralAmericaData" type="TempUnit">
+    <displaynameid>110177</displaynameid>
+    <rolloverid>113003</rolloverid>
+    <icon>resources\images\icons\abilities\ability_inspiring_flag_central america.png</icon>
+  </power>
+  <power name="deFlagBajaCaliforniaData" type="TempUnit">
+    <displaynameid>110177</displaynameid>
+    <rolloverid>113004</rolloverid>
+    <icon>resources\images\icons\abilities\ability_inspiring_flag_baja_california.png</icon>
+  </power>
+  <power name="deFlagYucatanData" type="TempUnit">
+    <displaynameid>110177</displaynameid>
+    <rolloverid>113005</rolloverid>
+    <icon>resources\images\icons\abilities\ability_inspiring_flag_yucatan.png</icon>
+  </power>
+  <power name="deFlagRioGrandeData" type="TempUnit">
+    <displaynameid>110177</displaynameid>
+    <rolloverid>113006</rolloverid>
+    <icon>resources\images\icons\abilities\ability_inspiring_flag_rio.png</icon>
+  </power>
+  <power name="deFlagCaliforniaData" type="TempUnit">
+    <displaynameid>110177</displaynameid>
+    <rolloverid>113007</rolloverid>
+    <icon>resources\images\icons\abilities\ability_inspiring_flag_california.png</icon>
+  </power>
+  <power name="deFlagTexasData" type="TempUnit">
+    <displaynameid>110177</displaynameid>
+    <rolloverid>113008</rolloverid>
+    <icon>resources\images\icons\abilities\ability_inspiring_flag_texas.png</icon>
+  </power>
+  <power name="deFlagMayaData" type="TempUnit">
+    <displaynameid>110177</displaynameid>
+    <rolloverid>113009</rolloverid>
+    <icon>resources\images\icons\abilities\ability_inspiring_flag_maya.png</icon>
+  </power>
+  <power name="deLibertyCryData" type="GeneralEffect">
+    <displaynameid>113018</displaynameid>
+    <rolloverid>113019</rolloverid>
+    <icon>resources\images\icons\abilities\ability_padre_rev.png</icon>
+  </power>
+  <power name="deLibertyCryMayaData" type="GeneralEffect">
+    <displaynameid>113018</displaynameid>
+    <rolloverid>113089</rolloverid>
+    <icon>resources\images\icons\abilities\ability_padre_maya.png</icon>
+  </power>
+  <power name="dePowerMariachi" type="TeamEffect">
+    <timerrolloverid>113073</timerrolloverid>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>30</activetime>
+    <effect type="MaximumVelocity" relativity="BasePercent" amount="1.1">
+      <target type="ProtoUnit">Unit</target>
+    </effect>
+    <effect type="BuildingWorkRate" relativity="BasePercent" amount="5.0">
+      <target type="ProtoUnit">MilitaryBuilding</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <soundset type="StartSound" listenertype="All">DEPowerMXMariachi</soundset>
+  </power>
+  <power name="dePowerDoloresImproved" type="GeneralEffect">
+    <displaynameid>112707</displaynameid>
+    <rolloverid>113081</rolloverid>
+    <timerrolloverid>112770</timerrolloverid>
+    <icon>resources\images\icons\abilities\ability_hidalgo.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>20</activetime>
+    <effect type="ActionEnable" action="AreaHealDoloresImproved">
+      <target type="ProtoUnit">dePadre</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <soundset type="StartSound" listenertype="Caster">DEPowerDolores</soundset>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+  </power>
+  <power name="deLibertyCryImprovedData" type="GeneralEffect">
+    <displaynameid>113018</displaynameid>
+    <rolloverid>113082</rolloverid>
+    <icon>resources\images\icons\abilities\ability_padre_rev.png</icon>
+  </power>
+  <power name="deLibertyCryMayaImprovedData" type="GeneralEffect">
+    <displaynameid>113018</displaynameid>
+    <rolloverid>113090</rolloverid>
+    <icon>resources\images\icons\abilities\ability_padre_maya.png</icon>
+  </power>
+  <power name="dePassiveAbilityStandoff" type="GeneralEffect">
+    <displaynameid>112753</displaynameid>
+    <rolloverid>112754</rolloverid>
+    <icon>resources\images\icons\abilities\passive_mexican_standoff.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+
 </powers>
