@@ -16243,7 +16243,7 @@
   </tech>
   <tech name="DEHCShipFoodCrates2Mexicans" type="Normal">
     <dbid>9675</dbid>
-    <displaynameid>35506</displaynameid>
+    <displaynameid>270124</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -16384,6 +16384,87 @@
         <target type="Player"/>
       </effect>
       <effect tech="deCardDeliverCreateShadow" type="Data" amount="3.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofWood" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipCoinCrates1Mexicans" type="Normal">
+    <dbid>9682</dbid>
+    <displaynameid>270120</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\infinite_gold.png</icon>
+    <rollovertextid>42123</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect tech="deDefaultCratesShadow" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofCoin" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipCoinCrates2Mexicans" type="Normal">
+    <dbid>9683</dbid>
+    <displaynameid>270119</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_coin_crate\hc_coin_crate.png</icon>
+    <rollovertextid>42124</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect tech="deCardDeliverCreateShadow" type="Data" amount="4.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofCoin" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipCoinCrates3Mexicans" type="Normal">
+    <dbid>9684</dbid>
+    <displaynameid>270121</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_coin_crate\hc_coin_crate.png</icon>
+    <rollovertextid>42126</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect tech="deCardDeliverCreateShadow" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofCoinLarge" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipCoinCrates4Mexicans" type="Normal">
+    <dbid>9685</dbid>
+    <displaynameid>270122</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_coin_crate\hc_coin_crate.png</icon>
+    <rollovertextid>42128</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect tech="deCardDeliverCreateShadow" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofCoinLarge" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="deCardDeliverCreateShadow" type="Data" amount="3.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofCoin" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipCoinCrates5Mexicans" type="Normal">
+    <dbid>9686</dbid>
+    <displaynameid>270123</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_coin_crate\hc_coin_crate.png</icon>
+    <rollovertextid>48926</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect tech="deCardDeliverCreateShadow" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofCoinLarge" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect tech="deCardDeliverCreateShadow" type="Data" amount="3.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofCoin" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -17125,9 +17206,6 @@
     <flag>DEHCCardDynamicCount</flag>
     <flag>DEIgnorePopCostBuildLimitFreeHCUnitByCount</flag>
     <effects>
-      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnitByUnitCount" counttype="deHacienda" unittype="deNatHolcanJavelineer" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
       <effect type="Data" amount="1.00" subtype="AddTrain" unittype="deNatMercHolcanJavelineer" relativity="Absolute">
         <target type="ProtoUnit">Barracks</target>
       </effect>
@@ -17356,604 +17434,12 @@
     <rollovertextid>112377</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deHaciendaWagon" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
-        <target type="ProtoUnit">Settler</target>
-      </effect>
-      <effect type="TextOutputTechName">110130</effect>
-    </effects>
-  </tech>
-  <tech name="DEHCFedMXZaragozaLands" type="Normal">
-    <dbid>7537</dbid>
-    <displaynameid>112380</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\mexicans\federal\co_land_of_zaragoza.png</icon>
-    <rollovertextid>112379</rollovertextid>
-    <flag>HomeCity</flag>
-    <effects>
-      <effect type="Data" amount="0.025" subtype="PowerROF" protopower="deAbilityInspiringFlag" relativity="Percent">
-        <target type="Player"/>
-      </effect>
-      <effect type="Data" amount="0.025" subtype="PowerROF" protopower="deAbilityInspiringFlagBounty" relativity="Percent">
-        <target type="Player"/>
-      </effect>
-      <effect type="Data" action="FlagBuildingWorkRateBonus" amount="0.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">deInspiringFlag</target>
-      </effect>
-      <effect type="Data" action="FlagBuildingWorkRateBonusImprovedMX" amount="1.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">deInspiringFlag</target>
-      </effect>
-      <effect type="Data" amount="1.00" subtype="PlacementRulesOverride" unittype="deInspiringFlagRuleOverride" relativity="Absolute">
-        <target type="ProtoUnit">deInspiringFlag</target>
-      </effect>
-      <effect type="TextOutputTechName">110130</effect>
-    </effects>
-  </tech>
-  <tech name="DEHCFedMXSanLuisPatriots" type="Normal">
-    <dbid>7538</dbid>
-    <displaynameid>112382</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\mexicans\federal\sl_san_luis_patriots.png</icon>
-    <rollovertextid>112381</rollovertextid>
-    <flag>HomeCity</flag>
-    <flag>DEHCCardDynamicCount</flag>
-    <effects>
-      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnitByShipmentCount" unittype="deChinaco" includeself="true" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect type="Data" amount="0.90" subtype="TrainPoints" relativity="BasePercent">
-        <target type="ProtoUnit">deChinaco</target>
-      </effect>
-      <effect type="TextOutputTechName">110130</effect>
-    </effects>
-  </tech>
-  <tech name="DEHCFedMXBustamante" type="Normal">
-    <dbid>7539</dbid>
-    <displaynameid>112384</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\mexicans\federal\sl_bustamante.png</icon>
-    <rollovertextid>112383</rollovertextid>
-    <flag>HomeCity</flag>
-    <effects>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
-        <target type="ProtoUnit">FieldHospital</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="BuildBounty" relativity="Assign">
-        <target type="ProtoUnit">FieldHospital</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="KillBounty" relativity="Assign">
-        <target type="ProtoUnit">FieldHospital</target>
-      </effect>
-      <effect type="CommandAdd" proto="FieldHospital" page="6" column="-1">
-        <target type="ProtoUnit">deGeneral</target>
-      </effect>
-      <effect type="CommandAdd" proto="FieldHospital" page="6" column="-1">
-        <target type="ProtoUnit">deGeneral2</target>
-      </effect>
-      <effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractMusketeer</target>
-      </effect>
-      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="deSoldado" relativity="Absolute">
-        <target type="ProtoUnit">FieldHospital</target>
-      </effect>
-      <effect type="TextOutputTechName">110130</effect>
-    </effects>
-  </tech>
-  <tech name="DEHCFedMXZacatecasSilver" type="Normal">
-    <dbid>7540</dbid>
-    <displaynameid>112386</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\mexicans\federal\za_zacatecas_silver.png</icon>
-    <rollovertextid>112385</rollovertextid>
-    <flag>HomeCity</flag>
-    <flag>DEHCCardDynamicCount</flag>
-    <effects>
-      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="deProspectorWagonSilver" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect tech="DEZacatecasSilverExtraMines" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deProspectorWagonSilver" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect type="TextOutputTechName">110130</effect>
-    </effects>
-  </tech>
-  <tech name="DEZacatecasSilverShadow" type="Normal">
-    <dbid>7541</dbid>
-    <researchpoints>0.0000</researchpoints>
-    <status>OBTAINABLE</status>
-    <flag>Shadow</flag>
-    <prereqs>
-      <techstatus status="Active">DEHCFedMXZacatecasSilver</techstatus>
-    </prereqs>
-    <effects>
-      <effect type="Data" action="Gather" amount="1.40" subtype="WorkRate" unittype="AbstractMine" relativity="BasePercent">
+      <effect mergeMode='replace' type="Data" amount="0.80" subtype="TrainPoints" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="TechStatus" status="unobtainable">DEZacatecasSilverExtraMines</effect>
-      <effect type="SetName" tech="DEHCFedMXZacatecasSilver" newname="112386" newrollover="112387"/>
     </effects>
   </tech>
-  <tech name="DEHCFedMXZacatecasRebellion" type="Normal">
-    <dbid>7542</dbid>
-    <displaynameid>112389</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\mexicans\federal\za_zacatecas_rebellion.png</icon>
-    <rollovertextid>112388</rollovertextid>
-    <flag>HomeCity</flag>
-    <flag>DEHCCardDynamicCount</flag>
-    <effects>
-      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnitByShipmentCount" unittype="deInsurgente" includeself="true" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-    </effects>
-  </tech>
-  <tech name="DEHCFedMXTampicoCustoms" type="Normal">
-    <dbid>7543</dbid>
-    <displaynameid>112391</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\mexicans\federal\tp_tampico_customs.png</icon>
-    <rollovertextid>112390</rollovertextid>
-    <flag>HomeCity</flag>
-    <effects>
-      <effect type="Data" amount="4.50" subtype="ResearchPoints" relativity="Percent">
-        <target type="Tech">GillNets</target>
-      </effect>
-      <effect type="Data" amount="4.50" subtype="ResearchPoints" relativity="Percent">
-        <target type="Tech">LongLines</target>
-      </effect>
-      <effect type="Data" amount="4.50" subtype="ResearchPoints" relativity="Percent">
-        <target type="Tech">ArmorPlating</target>
-      </effect>
-      <effect type="Data" amount="4.50" subtype="ResearchPoints" relativity="Percent">
-        <target type="Tech">Carronade</target>
-      </effect>
-      <effect type="Data" amount="4.50" subtype="ResearchPoints" relativity="Percent">
-        <target type="Tech">PercussionLocks</target>
-      </effect>
-      <effect type="Data" amount="4.50" subtype="ResearchPoints" relativity="Percent">
-        <target type="Tech">DEShipHowitzersAmerican</target>
-      </effect>
-      <effect type="Data" amount="4.50" subtype="ResearchPoints" relativity="Percent">
-        <target type="Tech">ImperialManOWar</target>
-      </effect>
-      <effect type="Data" amount="4.50" subtype="ResearchPoints" relativity="Percent">
-        <target type="Tech">DEImperialIronclads</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
-        <target type="Tech">GillNets</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
-        <target type="Tech">GillNets</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
-        <target type="Tech">LongLines</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
-        <target type="Tech">LongLines</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
-        <target type="Tech">ArmorPlating</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
-        <target type="Tech">ArmorPlating</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
-        <target type="Tech">Carronade</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
-        <target type="Tech">Carronade</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
-        <target type="Tech">PercussionLocks</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
-        <target type="Tech">PercussionLocks</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
-        <target type="Tech">DEShipHowitzersAmerican</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
-        <target type="Tech">DEShipHowitzersAmerican</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
-        <target type="Tech">ImperialManOWar</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
-        <target type="Tech">ImperialManOWar</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
-        <target type="Tech">DEImperialIronclads</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
-        <target type="Tech">DEImperialIronclads</target>
-      </effect>
-      <effect type="TextOutputTechName">110130</effect>
-    </effects>
-  </tech>
-  <tech name="DEHCFedMXPanucoWaterway" type="Normal">
-    <dbid>7544</dbid>
-    <displaynameid>112393</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\mexicans\federal\tp_panuco_waterway.png</icon>
-    <rollovertextid>112392</rollovertextid>
-    <flag>HomeCity</flag>
-    <effects>
-      <effect type="Data" amount="3.00" subtype="ResearchPoints" relativity="Percent">
-        <target type="Tech">HCShipFoodCrates1</target>
-      </effect>
-      <effect type="Data" amount="3.00" subtype="ResearchPoints" relativity="Percent">
-        <target type="Tech">HCShipWoodCrates1</target>
-      </effect>
-      <effect type="Data" amount="3.00" subtype="ResearchPoints" relativity="Percent">
-        <target type="Tech">HCShipCoinCrates1</target>
-      </effect>
-      <effect type="Data" amount="3.00" subtype="ResearchPoints" relativity="Percent">
-        <target type="Tech">HCShipFoodCrates2</target>
-      </effect>
-      <effect type="Data" amount="3.00" subtype="ResearchPoints" relativity="Percent">
-        <target type="Tech">HCShipWoodCrates2</target>
-      </effect>
-      <effect type="Data" amount="3.00" subtype="ResearchPoints" relativity="Percent">
-        <target type="Tech">HCShipCoinCrates2</target>
-      </effect>
-      <effect type="Data" amount="3.00" subtype="ResearchPoints" relativity="Percent">
-        <target type="Tech">HCShipFoodCrates3</target>
-      </effect>
-      <effect type="Data" amount="3.00" subtype="ResearchPoints" relativity="Percent">
-        <target type="Tech">HCShipWoodCrates3</target>
-      </effect>
-      <effect type="Data" amount="3.00" subtype="ResearchPoints" relativity="Percent">
-        <target type="Tech">HCShipCoinCrates3</target>
-      </effect>
-      <effect type="Data" amount="3.00" subtype="ResearchPoints" relativity="Percent">
-        <target type="Tech">HCShipFoodCrates4</target>
-      </effect>
-      <effect type="Data" amount="3.00" subtype="ResearchPoints" relativity="Percent">
-        <target type="Tech">HCShipWoodCrates4</target>
-      </effect>
-      <effect type="Data" amount="3.00" subtype="ResearchPoints" relativity="Percent">
-        <target type="Tech">HCShipCoinCrates4</target>
-      </effect>
-      <effect type="Data" amount="3.00" subtype="ResearchPoints" relativity="Percent">
-        <target type="Tech">HCShipFoodCrates5</target>
-      </effect>
-      <effect type="Data" amount="3.00" subtype="ResearchPoints" relativity="Percent">
-        <target type="Tech">HCShipWoodCrates5</target>
-      </effect>
-      <effect type="Data" amount="3.00" subtype="ResearchPoints" relativity="Percent">
-        <target type="Tech">HCShipCoinCrates5</target>
-      </effect>
-      <effect type="Data" amount="3.00" subtype="ResearchPoints" relativity="Percent">
-        <target type="Tech">DEHCREVMXhipCoinCrates4</target>
-      </effect>
-      <effect type="Data" amount="3.00" subtype="ResearchPoints" relativity="Percent">
-        <target type="Tech">DEHCREVMXShipFoodCrates5</target>
-      </effect>
-      <effect type="Data" amount="3.00" subtype="ResearchPoints" relativity="Percent">
-        <target type="Tech">DEHCREVMXShipWoodCrates5</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Ships" relativity="Assign">
-        <target type="Tech">HCShipFoodCrates1</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Ships" relativity="Assign">
-        <target type="Tech">HCShipWoodCrates1</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Ships" relativity="Assign">
-        <target type="Tech">HCShipCoinCrates1</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Ships" relativity="Assign">
-        <target type="Tech">HCShipFoodCrates2</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Ships" relativity="Assign">
-        <target type="Tech">HCShipWoodCrates2</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Ships" relativity="Assign">
-        <target type="Tech">HCShipCoinCrates2</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Ships" relativity="Assign">
-        <target type="Tech">HCShipFoodCrates3</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Ships" relativity="Assign">
-        <target type="Tech">HCShipWoodCrates3</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Ships" relativity="Assign">
-        <target type="Tech">HCShipCoinCrates3</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Ships" relativity="Assign">
-        <target type="Tech">HCShipFoodCrates4</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Ships" relativity="Assign">
-        <target type="Tech">HCShipWoodCrates4</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Ships" relativity="Assign">
-        <target type="Tech">HCShipCoinCrates4</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Ships" relativity="Assign">
-        <target type="Tech">HCShipFoodCrates5</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Ships" relativity="Assign">
-        <target type="Tech">HCShipWoodCrates5</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Ships" relativity="Assign">
-        <target type="Tech">HCShipCoinCrates5</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Ships" relativity="Assign">
-        <target type="Tech">DEHCREVMXhipCoinCrates4</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Ships" relativity="Assign">
-        <target type="Tech">DEHCREVMXShipFoodCrates5</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Ships" relativity="Assign">
-        <target type="Tech">DEHCREVMXShipWoodCrates5</target>
-      </effect>
-      <effect type="ResetHomeCityCardCount" tech="HCShipFoodCrates2"/>
-      <effect type="ResetHomeCityCardCount" tech="HCShipFoodCrates3"/>
-      <effect type="ResetHomeCityCardCount" tech="HCShipWoodCrates2"/>
-      <effect type="ResetHomeCityCardCount" tech="HCShipWoodCrates3"/>
-      <effect type="ResetHomeCityCardCount" tech="HCShipCoinCrates2"/>
-      <effect type="ResetHomeCityCardCount" tech="HCShipCoinCrates3"/>
-      <effect type="ResetHomeCityCardCount" tech="HCShipFoodCrates1"/>
-      <effect type="ResetHomeCityCardCount" tech="HCShipWoodCrates1"/>
-      <effect type="ResetHomeCityCardCount" tech="HCShipCoinCrates1"/>
-      <effect type="ResetHomeCityCardCount" tech="HCShipFoodCrates4"/>
-      <effect type="ResetHomeCityCardCount" tech="HCShipWoodCrates4"/>
-      <effect type="ResetHomeCityCardCount" tech="HCShipCoinCrates4"/>
-      <effect type="ResetHomeCityCardCount" tech="HCShipFoodCrates5"/>
-      <effect type="ResetHomeCityCardCount" tech="HCShipWoodCrates5"/>
-      <effect type="ResetHomeCityCardCount" tech="HCShipCoinCrates5"/>
-      <effect type="ResetHomeCityCardCount" tech="DEHCREVMXhipCoinCrates4"/>
-      <effect type="ResetHomeCityCardCount" tech="DEHCREVMXShipFoodCrates5"/>
-      <effect type="ResetHomeCityCardCount" tech="DEHCREVMXShipWoodCrates5"/>
-      <effect type="TextOutputTechName">110130</effect>
-    </effects>
-  </tech>
-  <tech name="DEFedMXOutpostLevy" type="Normal">
-    <dbid>7545</dbid>
-    <displaynameid>23459</displaynameid>
-    <cost resourcetype="Food">150.0000</cost>
-    <cost resourcetype="Gold">150.0000</cost>
-    <researchpoints>5.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\levy\levy.png</icon>
-    <rollovertextid>23458</rollovertextid>
-  </tech>
-  <tech name="DEFedMXFortConscription" type="Normal">
-    <dbid>7546</dbid>
-    <displaynameid>36107</displaynameid>
-    <cost resourcetype="Food">400.0000</cost>
-    <cost resourcetype="Gold">400.0000</cost>
-    <researchpoints>5.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\conscription\conscription.png</icon>
-    <rollovertextid>36108</rollovertextid>
-  </tech>
-  <tech name="DEHCFedMXTriasFortifications" type="Normal">
-    <dbid>7547</dbid>
-    <displaynameid>112395</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>5.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\mexicans\federal\ch_trias_fortifications.png</icon>
-    <rollovertextid>112394</rollovertextid>
-    <flag>HomeCity</flag>
-    <effects>
-      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FortWagon" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
-        <target type="ProtoUnit">FortFrontier</target>
-      </effect>
-      <effect type="TechStatus" status="active">DEFedMXOutpostLevy</effect>
-      <effect type="TechStatus" status="active">DEFedMXFortConscription</effect>
-      <effect type="TextOutputTechName">110130</effect>
-    </effects>
-  </tech>
-  <tech name="DEHCFedMXSierraMadre" type="Normal">
-    <dbid>7548</dbid>
-    <displaynameid>112397</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\mexicans\federal\ch_sierra_madre_forests.png</icon>
-    <rollovertextid>112396</rollovertextid>
-    <flag>HomeCity</flag>
-    <effects>
-      <effect type="Data" action="Gather" amount="1.30" subtype="WorkRate" unittype="Tree" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractVillager</target>
-      </effect>
-      <effect type="Data" action="Gather" amount="1.30" subtype="Yield" unittype="Tree" relativity="BasePercent">
-        <target type="ProtoUnit">AbstractVillager</target>
-      </effect>
-      <effect type="Data" amount="3.00" subtype="ResourceTrickleRate" resource="Wood" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect type="TextOutputTechName">110130</effect>
-    </effects>
-  </tech>
-  <tech name="DEHCFedMXElBajio" type="Normal">
-    <dbid>7549</dbid>
-    <displaynameid>112399</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\mexicans\federal\gj_el_bajio.png</icon>
-    <rollovertextid>112398</rollovertextid>
-    <flag>HomeCity</flag>
-    <effects>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Food" relativity="Assign">
-        <target type="Tech">Bookkeeping</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
-        <target type="Tech">Bookkeeping</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Food" relativity="Assign">
-        <target type="Tech">Homesteading</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
-        <target type="Tech">Homesteading</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Food" relativity="Assign">
-        <target type="Tech">OreRefining</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
-        <target type="Tech">OreRefining</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
-        <target type="Tech">SeedDrill</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
-        <target type="Tech">SeedDrill</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
-        <target type="Tech">ArtificialFertilizer</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
-        <target type="Tech">ArtificialFertilizer</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
-        <target type="Tech">SelectiveBreeding</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
-        <target type="Tech">SelectiveBreeding</target>
-      </effect>
-      <effect type="Data" amount="0.50" subtype="ResearchPoints" relativity="Assign">
-        <target type="Tech">Bookkeeping</target>
-      </effect>
-      <effect type="Data" amount="0.50" subtype="ResearchPoints" relativity="Assign">
-        <target type="Tech">Homesteading</target>
-      </effect>
-      <effect type="Data" amount="0.50" subtype="ResearchPoints" relativity="Assign">
-        <target type="Tech">OreRefining</target>
-      </effect>
-      <effect type="Data" amount="0.50" subtype="ResearchPoints" relativity="Assign">
-        <target type="Tech">SeedDrill</target>
-      </effect>
-      <effect type="Data" amount="0.50" subtype="ResearchPoints" relativity="Assign">
-        <target type="Tech">ArtificialFertilizer</target>
-      </effect>
-      <effect type="Data" amount="0.50" subtype="ResearchPoints" relativity="Assign">
-        <target type="Tech">SelectiveBreeding</target>
-      </effect>
-      <effect type="TextOutputTechName">110130</effect>
-    </effects>
-  </tech>
-  <tech name="DEHCFedMXOurLadyOfLight" type="Normal">
-    <dbid>7550</dbid>
-    <displaynameid>112401</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\mexicans\federal\gj_our_lady_of_the_light.png</icon>
-    <rollovertextid>112400</rollovertextid>
-    <flag>HomeCity</flag>
-    <effects>
-      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ypChurchWagon" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
-        <target type="ProtoUnit">deCathedral</target>
-      </effect>
-      <effect type="Data" action="AutoGather" amount="2.00" subtype="WorkRate" unittype="XP" relativity="BasePercent">
-        <target type="ProtoUnit">deCathedral</target>
-      </effect>
-      <effect type="TextOutputTechName">110130</effect>
-    </effects>
-  </tech>
-  <tech name="DEHCFedMXIndependenceHero" type="Normal">
-    <dbid>7551</dbid>
-    <displaynameid>112406</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\mexicans\federal\gu_independence_hero.png</icon>
-    <rollovertextid>112405</rollovertextid>
-    <flag>HomeCity</flag>
-    <effects>
-      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deGeneral2" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect type="TextOutputTechName">110130</effect>
-    </effects>
-  </tech>
-  <tech name="DEHCFedMXAztecPueblos" type="Normal">
-    <dbid>7552</dbid>
-    <displaynameid>112408</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\mexicans\federal\gu_aztec_pueblos.png</icon>
-    <rollovertextid>112407</rollovertextid>
-    <flag>HomeCity</flag>
-    <effects>
-      <effect type="Data" action="RangedAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">NativeEmbassy</target>
-      </effect>
-      <effect type="Data" action="AntiShipAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">NativeEmbassy</target>
-      </effect>
-      <effect civ="Aztecs" type="Data" amount="1.00" subtype="UpgradeSubCivAlliance" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-        <target type="ProtoUnit">NatJaguarWarrior</target>
-      </effect>
-      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-        <target type="ProtoUnit">NatEagleWarrior</target>
-      </effect>
-      <effect type="TechStatus" status="obtainable">ypNativeEmbassyEnableShadow</effect>
-      <effect type="CommandAdd" proto="NatJaguarWarrior" page="0" column="26">
-        <target type="ProtoUnit">NativeEmbassy</target>
-      </effect>
-      <effect type="CommandAdd" proto="NatEagleWarrior" page="0" column="27">
-        <target type="ProtoUnit">NativeEmbassy</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="NativeEmbassy" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect type="TechStatus" status="active">WarriorSocietyAztecs</effect>
-      <effect type="TechStatus" status="active">ChampionAztecs</effect>
-      <effect civ="Aztecs" type="Data" amount="1.00" subtype="UpgradeSubCivAlliance" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect type="TechStatus" status="obtainable">NativeTreatyAztec</effect>
-      <effect type="TechStatus" status="obtainable">DEIndianFriendshipAztec</effect>
-      <effect type="TextOutputTechName">110130</effect>
-    </effects>
-  </tech>
-  <tech name="DEHCFedMXRanching" type="Normal">
-    <dbid>7553</dbid>
-    <displaynameid>112410</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>OBTAINABLE</status>
-    <icon>resources\images\icons\techs\mexicans\federal\ja_guadalajara_ranching.png</icon>
-    <rollovertextid>112409</rollovertextid>
-    <flag>HomeCity</flag>
-    <flag>DEIgnorePopCostBuildLimitFreeHCUnitByCount</flag>
-    <flag>DEHCCardDynamicCount</flag>
-    <effects>
-      <effect type="Data2" amount="1.00" subtype="FreeHomeCityUnitByShipmentCountResource" unittype="Cow" includeself="true" resource="Food" resvalue="150.00" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-    </effects>
-  </tech>
-  <tech name="DEHCFedMXTonalaCeramics" type="Normal">
+  <tech mergeMode='replace' name="DEHCFedMXTonalaCeramics" type="Normal">
     <dbid>7554</dbid>
     <displaynameid>112412</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
@@ -17963,44 +17449,25 @@
     <rollovertextid>112411</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data2" action="Gather" amount="1.15" subtype="WorkRateSpecific" resource="Gold" unittype="deHacienda" relativity="BasePercent">
+      <effect type="Data2" action="Gather" amount="1.25" subtype="WorkRateSpecific" resource="Gold" unittype="deHacienda" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="Plantation" relativity="BasePercent">
+      <effect type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="Plantation" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="Data2" action="Gather" amount="1.15" subtype="WorkRateSpecific" resource="Gold" unittype="ypRicePaddy" relativity="BasePercent">
+      <effect type="Data2" action="Gather" amount="1.25" subtype="WorkRateSpecific" resource="Gold" unittype="ypRicePaddy" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="Data2" action="Gather" amount="1.15" subtype="WorkRateSpecific" resource="Gold" unittype="deField" relativity="BasePercent">
+      <effect type="Data2" action="Gather" amount="1.25" subtype="WorkRateSpecific" resource="Gold" unittype="deField" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
       <effect type="TextOutputTechName">110130</effect>
     </effects>
   </tech>
-  <tech name="DEHCFedMXNationalServant" type="Normal">
-    <dbid>7555</dbid>
-    <displaynameid>112414</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>OBTAINABLE</status>
-    <icon>resources\images\icons\techs\mexicans\federal\mx_national_servant.png</icon>
-    <rollovertextid>112413</rollovertextid>
-    <flag>HomeCity</flag>
-    <effects>
-      <effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">UnitClass</target>
-      </effect>
-      <effect type="Data" action="Heal" amount="3.00" subtype="WorkRate" unittype="LogicalTypeHealed" relativity="BasePercent">
-        <target type="ProtoUnit">dePadre</target>
-      </effect>
-      <effect type="TextOutputTechName">110130</effect>
-    </effects>
-  </tech>
-  <tech name="DEHCFedMXThreeGuarantees" type="Normal">
+  <tech mergeMode='replace' name="DEHCFedMXThreeGuarantees" type="Normal">
     <dbid>7556</dbid>
     <displaynameid>112416</displaynameid>
-    <cost resourcetype="Ships">3.0000</cost>
+    <cost resourcetype="Ships">4.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>OBTAINABLE</status>
     <icon>resources\images\icons\techs\mexicans\federal\mx_army_of_the_three_guarantees.png</icon>
@@ -18019,251 +17486,6 @@
       <effect type="TextOutputTechName">110130</effect>
     </effects>
   </tech>
-  <tech name="DEMediumFlagMXZaragozaShadow" type="Normal">
-    <dbid>7557</dbid>
-    <researchpoints>0.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <flag>Shadow</flag>
-  </tech>
-  <tech name="DEBiggerFlagMXZaragozaShadow" type="Normal">
-    <dbid>7558</dbid>
-    <researchpoints>0.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <flag>Shadow</flag>
-  </tech>
-  <tech name="DEZacatecasSilverExtraMines" type="Normal">
-    <dbid>7559</dbid>
-    <status>OBTAINABLE</status>
-    <flag>Shadow</flag>
-  </tech>
-  <tech name="DEHCFedMXPortVeracruz" type="Normal">
-    <dbid>7560</dbid>
-    <displaynameid>112425</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>OBTAINABLE</status>
-    <icon>resources\images\icons\techs\mexicans\federal\vc_port_veracruz.png</icon>
-    <rollovertextid>112424</rollovertextid>
-    <flag>HomeCity</flag>
-    <effects>
-      <effect type="Data" action="CannonAttack" amount="8.00" subtype="MaximumRange" relativity="Absolute">
-        <target type="ProtoUnit">FortFrontier</target>
-      </effect>
-      <effect type="Data" action="AntiShipAttack" amount="8.00" subtype="MaximumRange" relativity="Absolute">
-        <target type="ProtoUnit">FortFrontier</target>
-      </effect>
-      <effect type="Data" action="BuildingAttack" amount="8.00" subtype="MaximumRange" relativity="Absolute">
-        <target type="ProtoUnit">FortFrontier</target>
-      </effect>
-      <effect type="Data" action="BuildingAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">FortFrontier</target>
-      </effect>
-      <effect type="Data" amount="8.00" subtype="LOS" relativity="Absolute">
-        <target type="ProtoUnit">FortFrontier</target>
-      </effect>
-      <effect type="TextOutputTechName">110130</effect>
-    </effects>
-  </tech>
-  <tech name="DEHCFedMXNationalGuard" type="Normal">
-    <dbid>7561</dbid>
-    <displaynameid>112427</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>OBTAINABLE</status>
-    <icon>resources\images\icons\techs\mexicans\federal\vc_veracruz_national_guard.png</icon>
-    <rollovertextid>112426</rollovertextid>
-    <flag>HomeCity</flag>
-    <effects>
-      <effect type="Data" amount="3.00" subtype="BuildingWorkRate" relativity="BasePercent">
-        <target type="ProtoUnit">FortFrontier</target>
-      </effect>
-      <effect type="TextOutputTechName">110130</effect>
-    </effects>
-  </tech>
-  <tech name="DEHCFedMXCincoDeMayo" type="Normal">
-    <dbid>7562</dbid>
-    <displaynameid>112429</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>OBTAINABLE</status>
-    <icon>resources\images\icons\techs\mexicans\federal\pu_cinco_de_mayo.png</icon>
-    <rollovertextid>112428</rollovertextid>
-    <flag>HomeCity</flag>
-    <effects>
-      <effect type="Data" action="ExtraDamageInfantry" amount="1.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">FortFrontier</target>
-      </effect>
-      <effect type="Data" action="ExtraDamageCavalry" amount="1.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">FortFrontier</target>
-      </effect>
-      <effect type="Data" action="ExtraHPInfantry" amount="1.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">FortFrontier</target>
-      </effect>
-      <effect type="Data" action="ExtraHPCavalry" amount="1.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">FortFrontier</target>
-      </effect>
-      <effect type="TextOutputTechName">110130</effect>
-    </effects>
-  </tech>
-  <tech name="DEHCFedMXTalaveraArchitecture" type="Normal">
-    <dbid>7563</dbid>
-    <displaynameid>112431</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>OBTAINABLE</status>
-    <icon>resources\images\icons\techs\mexicans\federal\pu_talavera_architecture.png</icon>
-    <rollovertextid>112430</rollovertextid>
-    <flag>HomeCity</flag>
-    <effects>
-      <effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">Building</target>
-      </effect>
-      <effect type="Data" amount="0.70" subtype="BuildPoints" relativity="BasePercent">
-        <target type="ProtoUnit">Building</target>
-      </effect>
-      <effect type="Data" amount="1.00" subtype="BuildBountySpecific" resource="Gold" relativity="DefaultValue">
-        <target type="ProtoUnit">Building</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="BuildBounty" relativity="Assign">
-        <target type="ProtoUnit">Building</target>
-      </effect>
-      <effect type="TextOutputTechName">110130</effect>
-    </effects>
-  </tech>
-  <tech name="DEHCFedMXJuarezLand" type="Normal">
-    <dbid>7564</dbid>
-    <displaynameid>112450</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>OBTAINABLE</status>
-    <icon>resources\images\icons\techs\mexicans\federal\oa_land_of_juarez.png</icon>
-    <rollovertextid>112449</rollovertextid>
-    <flag>HomeCity</flag>
-    <effects>
-      <effect type="TextOutputTechName">110130</effect>
-      <effect type="TechStatus" status="unobtainable">DEImperialFlagShadow</effect>
-      <effect type="TechStatus" status="unobtainable">DEBanderasMonumentalesShadow</effect>
-      <effect type="Data" action="FlagBuildRateBonus" amount="70.00" subtype="MaximumRange" relativity="Assign">
-        <target type="ProtoUnit">deInspiringFlag</target>
-      </effect>
-      <effect type="Data" action="FlagWagonBuildRateBonus" amount="70.00" subtype="MaximumRange" relativity="Assign">
-        <target type="ProtoUnit">deInspiringFlag</target>
-      </effect>
-      <effect type="Data" action="FlagBuildingWorkRateBonus" amount="70.00" subtype="MaximumRange" relativity="Assign">
-        <target type="ProtoUnit">deInspiringFlag</target>
-      </effect>
-      <effect type="Data" action="FlagExtraDamage" amount="70.00" subtype="MaximumRange" relativity="Assign">
-        <target type="ProtoUnit">deInspiringFlag</target>
-      </effect>
-      <effect type="Data" action="FlagExtraDamageBuilding" amount="70.00" subtype="MaximumRange" relativity="Assign">
-        <target type="ProtoUnit">deInspiringFlag</target>
-      </effect>
-      <effect type="Data" action="FlagExtraDamageStateMilitia" amount="70.00" subtype="MaximumRange" relativity="Assign">
-        <target type="ProtoUnit">deInspiringFlag</target>
-      </effect>
-      <effect type="Data" action="FlagBuildingWorkRateBonusImprovedMX" amount="70.00" subtype="MaximumRange" relativity="Assign">
-        <target type="ProtoUnit">deInspiringFlag</target>
-      </effect>
-      <effect type="Data" action="FlagBuildingWorkRateBonusTownCenterMX" amount="70.00" subtype="MaximumRange" relativity="Assign">
-        <target type="ProtoUnit">deInspiringFlag</target>
-      </effect>
-      <effect type="Data" action="FlagExtraSpeed" amount="70.00" subtype="MaximumRange" relativity="Assign">
-        <target type="ProtoUnit">deInspiringFlag</target>
-      </effect>
-      <effect type="Data" action="FlagExtraDamageMercenary" amount="70.00" subtype="MaximumRange" relativity="Assign">
-        <target type="ProtoUnit">deInspiringFlag</target>
-      </effect>
-      <effect type="Data" action="FlagExtraDamageOutlaw" amount="70.00" subtype="MaximumRange" relativity="Assign">
-        <target type="ProtoUnit">deInspiringFlag</target>
-      </effect>
-      <effect type="Data" action="FlagRechargeTime" amount="70.00" subtype="MaximumRange" relativity="Assign">
-        <target type="ProtoUnit">deInspiringFlag</target>
-      </effect>
-      <effect type="Data" action="FlagRechargeTimeBuilding" amount="70.00" subtype="MaximumRange" relativity="Assign">
-        <target type="ProtoUnit">deInspiringFlag</target>
-      </effect>
-      <effect type="Data" action="FlagGatherRate" amount="70.00" subtype="MaximumRange" relativity="Assign">
-        <target type="ProtoUnit">deInspiringFlag</target>
-      </effect>
-      <effect type="Data" action="FlagExtraHitpoints" amount="70.00" subtype="MaximumRange" relativity="Assign">
-        <target type="ProtoUnit">deInspiringFlag</target>
-      </effect>
-      <effect type="Data" action="FlagExtraHitpointsBuilding" amount="70.00" subtype="MaximumRange" relativity="Assign">
-        <target type="ProtoUnit">deInspiringFlag</target>
-      </effect>
-      <effect type="Data" action="FlagExtraDamageMX" amount="70.00" subtype="MaximumRange" relativity="Assign">
-        <target type="ProtoUnit">deInspiringFlag</target>
-      </effect>
-      <effect type="Data" action="FlagExtraDamageBuildingMX" amount="70.00" subtype="MaximumRange" relativity="Assign">
-        <target type="ProtoUnit">deInspiringFlag</target>
-      </effect>
-      <effect type="Data" action="FlagExtraHitpointsTeam" amount="70.00" subtype="MaximumRange" relativity="Assign">
-        <target type="ProtoUnit">deInspiringFlag</target>
-      </effect>
-      <effect type="Data" action="FlagExtraHitpointsBuildingTeam" amount="70.00" subtype="MaximumRange" relativity="Assign">
-        <target type="ProtoUnit">deInspiringFlag</target>
-      </effect>
-      <effect type="Data" action="FlagExtraDamage" amount="0.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">deInspiringFlag</target>
-      </effect>
-      <effect type="Data" action="FlagExtraDamageBuilding" amount="0.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">deInspiringFlag</target>
-      </effect>
-      <effect type="Data" action="FlagExtraDamageMX" amount="1.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">deInspiringFlag</target>
-      </effect>
-      <effect type="Data" action="FlagExtraDamageBuildingMX" amount="1.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">deInspiringFlag</target>
-      </effect>
-      <effect type="Data" amount="70.00" subtype="LOS" relativity="Assign">
-        <target type="ProtoUnit">deInspiringFlag</target>
-      </effect>
-      <effect type="Data" action="AreaHealDolores" amount="70.00" subtype="MaximumRange" relativity="Absolute">
-        <target type="ProtoUnit">deInspiringFlag</target>
-      </effect>
-    </effects>
-  </tech>
-  <tech name="DEFlagZaragozaJuarezShadow" type="Normal">
-    <dbid>7565</dbid>
-    <researchpoints>0.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <flag>Shadow</flag>
-  </tech>
-  <tech name="DEHCFedMXZapotecValley" type="Normal">
-    <dbid>7566</dbid>
-    <displaynameid>112452</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>OBTAINABLE</status>
-    <icon>resources\images\icons\techs\native\Food_of_the_gods.png</icon>
-    <rollovertextid>112451</rollovertextid>
-    <flag>HomeCity</flag>
-    <effects>
-      <effect type="TechStatus" status="obtainable">NatXPZapotecCloudPeople</effect>
-      <effect type="TechStatus" status="obtainable">NatXPZapotecCultOfTheDead</effect>
-      <effect type="TechStatus" status="obtainable">NatXPZapotecFoodOfTheGods</effect>
-      <effect type="TechStatus" status="obtainable">NativeTreatyZapotec</effect>
-      <effect type="TechStatus" status="obtainable">DEIndianFriendshipZapotec</effect>
-      <effect type="CommandAdd" tech="NatXPZapotecCloudPeople" page="1" column="20">
-        <target type="ProtoUnit">NativeEmbassy</target>
-      </effect>
-      <effect type="CommandAdd" tech="NatXPZapotecCultOfTheDead" page="1" column="21">
-        <target type="ProtoUnit">NativeEmbassy</target>
-      </effect>
-      <effect type="CommandAdd" tech="NatXPZapotecFoodOfTheGods" page="1" column="22">
-        <target type="ProtoUnit">NativeEmbassy</target>
-      </effect>
-      <effect civ="Zapotec" type="Data" amount="1.00" subtype="UpgradeSubCivAlliance" relativity="Absolute">
-        <target type="Player"/>
-      </effect>
-      <effect type="TechStatus" status="obtainable">ypNativeEmbassyEnableShadow</effect>
-      <effect type="TextOutputTechName">110130</effect>
-      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-        <target type="ProtoUnit">NativeEmbassy</target>
-      </effect>
-      <effect type="TextOutputTechName">110130</effect>
-    </effects>
-  </tech>
   <tech name="DEPoliticianFederalMXSonora" type="Normal">
     <effects>
       <effect mergeMode='replace' type="AddHomeCityCard" tech="DEHCFedMXVaqueros" maxcount="1" ageprereq="2" unitcount="7" infiniteinlastage="1"/>
@@ -18275,5 +17497,188 @@
       <effect mergeMode='replace' type="AddHomeCityCard" tech="DEHCFedMXHirePrivateers" maxcount="1" ageprereq="2" unitcount="3" infiniteinlastage="0"/>
     </effects>
   </tech>
-
+  <tech name="DEHCShipSheep3Mexicans" type="Normal">
+    <dbid>2591</dbid>
+    <displaynameid>270125</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\animals\sheep\sheep_icon_64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="Sheep" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipTradingPostWagonsMexicans" type="Normal">
+    <dbid>7023</dbid>
+    <displaynameid>270126</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\buildings\trading_post\trading_post_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="deTradingPostWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCCavalryCombatMexican" type="Normal">
+    <dbid>7858</dbid>
+    <displaynameid>113024</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_cavalry_combat\hc_cavalry_combat.png</icon>
+    <rollovertextid>113023</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractLancer</target>
+      </effect>
+      <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractLancer</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Dragoon</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Dragoon</target>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShipInsurgente1" type="Normal">
+    <dbid>7569</dbid>
+    <displaynameid>112229</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry\insurgente\hc_insurgente_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="deInsurgente" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShipInsurgente2" type="Normal">
+    <dbid>7570</dbid>
+    <displaynameid>112230</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry\insurgente\hc_insurgente_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="25.00" subtype="FreeHomeCityUnit" unittype="deInsurgente" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShipSoldado1" type="Normal">
+    <dbid>7571</dbid>
+    <displaynameid>112231</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\soldado\hc_soldado_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="deSoldado" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShipSoldado2" type="Normal">
+    <dbid>7572</dbid>
+    <displaynameid>112232</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\soldado\hc_soldado_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="deSoldado" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShipEmboscador1" type="Normal">
+    <dbid>7573</dbid>
+    <displaynameid>112233</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\emboscador\hc_emboscador_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="deEmboscador" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShipEmboscador2" type="Normal">
+    <dbid>7574</dbid>
+    <displaynameid>112234</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\emboscador\hc_emboscador_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="deEmboscador" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShipEmboscador3" type="Normal">
+    <dbid>7575</dbid>
+    <displaynameid>112235</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\emboscador\hc_emboscador_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="deEmboscador" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShipChinaco2" type="Normal">
+    <dbid>7577</dbid>
+    <displaynameid>112237</displaynameid>
+    <cost resourcetype="Food">100.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\cavalry\chinaco\hc_chinaco_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="deChinaco" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShipLosColoradosBattalion" type="Normal">
+    <dbid>7580</dbid>
+    <displaynameid>112242</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\mexicans\soldado_falconet.png</icon>
+    <rollovertextid>112241</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect mergeMode='replace' type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="deSoldado" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='replace' type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="Falconet" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
 </techtreemods>

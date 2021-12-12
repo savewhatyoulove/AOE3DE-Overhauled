@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tactics>
+  <action>
+    <name stringid="43294">ModifyGatherCoin</name>
+    <type>ModifyGather</type>
+    <modifyamount>999.0</modifyamount>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43295">ModifyGatherFood</name>
+    <type>ModifyGather</type>
+    <modifyamount>999.0</modifyamount>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43294">ModifyGatherWood</name>
+    <type>ModifyGather</type>
+    <modifyamount>999.0</modifyamount>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43295">ModifyGatherNoResource</name>
+    <type>ModifyGather</type>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnBajaCaliforniaTerritory</name>
+    <type>Maintain</type>
+    <active>0</active>
+    <rate type="deSpawnBajaCaliforniaTerritoryBatch">1</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <persistent>1</persistent>
+    <keepalive>1</keepalive>
+  </action>
+  <action>
+    <name stringid="69158">SpawnREVNatVillager</name>
+    <type>Maintain</type>
+    <rate type="deREVNativeVillager">2</rate>
+    <maintaintrainpoints>0.0000</maintaintrainpoints>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+    <keepalive>1</keepalive>
+  </action>
+  <tactic>HaciendaFood<action>ModifyGatherFood</action><action>SpawnBajaCaliforniaTerritory</action><action>SpawnREVNatVillager</action><transition><tactic>HaciendaCoin</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaWood</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>HaciendaCoin<action>ModifyGatherCoin</action><action>AutoGatherCoin</action><action>SpawnBajaCaliforniaTerritory</action><action>SpawnREVNatVillager</action><transition><tactic>HaciendaFood</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaWood</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>HaciendaWood<active>0</active><action>ModifyGatherWood</action><action>SpawnBajaCaliforniaTerritory</action><action>SpawnREVNatVillager</action><transition><tactic>HaciendaFood</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaCoin</tactic><length>2</length><exit>1</exit></transition></tactic>
+</tactics>

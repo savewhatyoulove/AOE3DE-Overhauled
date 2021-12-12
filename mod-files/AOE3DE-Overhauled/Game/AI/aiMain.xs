@@ -9032,7 +9032,7 @@ minInterval 5
       if (cMyCiv == cCivDEEthiopians)
       {
          aiAddGathererType(cUnitTypedeAbun);
-         xsEnableRule("setMountainMonasteryTactic");
+         //xsEnableRule("setMountainMonasteryTactic");
       }
 
       if (cDifficultyCurrent >= gDifficultyExpert)
@@ -13542,8 +13542,8 @@ minInterval 2
          xsDisableRule("houseMonitor");
    }
 
- //  if (cMyCiv == cCivDEMexicans)
-   //   xsEnableRule("haciendaMonitor");
+   if (cMyCiv == cCivDEMexicans)
+      xsEnableRule("haciendaMonitor");
 
    if (aiGetGameMode() == cGameModeDeathmatch)
       deathMatchStartupBegin(); // Add a bunch of custom stuff for a DM jump-start.
@@ -31876,95 +31876,97 @@ minInterval 20
 //==============================================================================
 // setMountainMonasteryTactic
 //==============================================================================
-//rule setMountainMonasteryTactic
-//inactive
-//minInterval 5
-//{
-//   int unitID = getUnit(cUnitTypedeMountainMonastery);
-//   if (unitID < 0)
-//      return;
-//   aiUnitSetTactic(unitID, cTacticMonasteryInfluence50);
-//   aiEcho("Setting Mountain Monasteries to gather 50 percent Influence/Coin");
-//   xsDisableSelf();
-//}
+rule setMountainMonasteryTactic
+inactive
+minInterval 5
+{
+   int unitID = getUnit(cUnitTypedeMountainMonastery);
+   if (unitID < 0)
+      return;
+   //aiUnitSetTactic(unitID, cTacticMonasteryInfluence50);
+   //aiEcho("Setting Mountain Monasteries to gather 50 percent Influence/Coin");
+   xsDisableSelf();
+}
 
 //==============================================================================
 // haciendaMonitor
 //
 // Grab idle haciendas and put them on cow or villager production.
 //==============================================================================
-//rule haciendaMonitor
-//inactive
-//minInterval 20
-//{
- //  static int idleHaciendas = -1;
+rule haciendaMonitor
+inactive
+minInterval 20
+{
+   static int idleHaciendas = -1;
 
-//   if (idleHaciendas < 0)
-//   {
-//      idleHaciendas = xsArrayCreateBool(10, false, "Idle haciendas");
-//   }
+   if (idleHaciendas < 0)
+   {
+      idleHaciendas = xsArrayCreateBool(10, false, "Idle haciendas");
+   }
 
-  // int haciendaQuery = createSimpleUnitQuery(cUnitTypedeHacienda, cMyID, cUnitStateAlive);
-  // int numberFound = kbUnitQueryExecute(haciendaQuery);
+   int haciendaQuery = createSimpleUnitQuery(cUnitTypedeHacienda, cMyID, cUnitStateAlive);
+   int numberFound = kbUnitQueryExecute(haciendaQuery);
 
-   //if (numberFound == 0)
-     // return;
+   if (numberFound == 0)
+      return;
 
-   //int numFarmPlans = aiPlanGetNumberByTypeAndVariableType(
-     //  cPlanGather, cGatherPlanResourceSubType, cAIResourceSubTypeFarm, true);
-   //int planID = -1;
-   //int unitID = -1;
+   int numFarmPlans = aiPlanGetNumberByTypeAndVariableType(
+       cPlanGather, cGatherPlanResourceSubType, cAIResourceSubTypeFarm, true);
+   int planID = -1;
+   int unitID = -1;
 
-  // for (i = 0; < numberFound)
-    //  xsArraySetBool(idleHaciendas, i, true);
+   for (i = 0; < numberFound)
+      xsArraySetBool(idleHaciendas, i, true);
 
-   //for (i = 0; < numFarmPlans)
-   //{
-     // planID = aiPlanGetIDByTypeAndVariableType(cPlanGather, cGatherPlanResourceSubType, cAIResourceSubTypeFarm, true, i);
+   for (i = 0; < numFarmPlans)
+   {
+      planID = aiPlanGetIDByTypeAndVariableType(cPlanGather, cGatherPlanResourceSubType, cAIResourceSubTypeFarm, true, i);
 
       // Make sure there are no villagers assigned.
-      //if (aiPlanGetNumberNeededUnits(planID) == 0 && aiPlanGetNumberWantedUnits(planID) == 0 &&
-        //  aiPlanGetNumberMaxUnits(planID) == 0)
-         //continue;
+      if (aiPlanGetNumberNeededUnits(planID) == 0 && aiPlanGetNumberWantedUnits(planID) == 0 &&
+          aiPlanGetNumberMaxUnits(planID) == 0)
+         continue;
 
-      //unitID = kbResourceGetUnit(aiPlanGetVariableInt(planID, cGatherPlanKBResourceID, 0), 0);
+      unitID = kbResourceGetUnit(aiPlanGetVariableInt(planID, cGatherPlanKBResourceID, 0), 0);
 
-      //for (j = 0; < numberFound)
-      //{
-        // if (unitID == kbUnitQueryGetResult(haciendaQuery, j))
-         //{
-          //  xsArraySetBool(idleHaciendas, j, false);
-           // break;
-        // }
-     // }
-   //}
+      for (j = 0; < numberFound)
+      {
+         if (unitID == kbUnitQueryGetResult(haciendaQuery, j))
+         {
+            xsArraySetBool(idleHaciendas, j, false);
+            break;
+         }
+      }
+   }
 
-  // int numberVillagersWanted = 0;
-   //int tacticID = -1;
-   //int age = kbGetAge();
-   //if (age >= cAge3)
-   //{
-    //  numberVillagersWanted = getSettlerShortfall();
-     // if (kbGetPopCap() - kbGetPop() <= 0)
-       //  numberVillagersWanted = 0;
-   //}
+   int numberVillagersWanted = 0;
+   int tacticID = -1;
+   int age = kbGetAge();
+   if (age >= cAge3)
+   {
+      numberVillagersWanted = getSettlerShortfall();
+      if (kbGetPopCap() - kbGetPop() <= 0)
+         numberVillagersWanted = 0;
+   }
 
-   //for (i = 0; < numberFound)
-   //{
-    //  if (xsArrayGetBool(idleHaciendas, i) == false)
-      //   continue;
-      //if (numberVillagersWanted > 0)
-      //{
-       //  tacticID = cTacticHaciendaSettler;
-        // numberVillagersWanted--;
-     // }
-      //else
-     // {
-       //  tacticID = cTacticHaciendaCow;
-     // }
-      //aiUnitSetTactic(kbUnitQueryGetResult(haciendaQuery, i), tacticID);
-  // }
-//}
+   for (i = 0; < numberFound)
+   {
+      if (xsArrayGetBool(idleHaciendas, i) == false)
+         continue;
+      if (numberVillagersWanted > 0)
+      {
+         //tacticID = cTacticHaciendaSettler;
+         //numberVillagersWanted--;
+	 continue;
+      }
+      else
+      {
+	 continue;
+         //tacticID = cTacticHaciendaCow;
+      }
+      aiUnitSetTactic(kbUnitQueryGetResult(haciendaQuery, i), tacticID);
+   }
+}
 
 //==============================================================================
 // treatyCheckStartMakingArmy

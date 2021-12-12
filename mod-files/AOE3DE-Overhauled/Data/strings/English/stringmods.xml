@@ -492,7 +492,19 @@
 	    <string _locid="110627">Settlers gather Wood 25% more quickly and Trees last 25% longer</string>
 	    <string _locid="110631">Pine Tree State researched</string>
 	    <string _locid="110632">Pine Tree State researched</string>
+	    <string _locid="112001" symbol="cStringCivRolloverMexicans">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nShipments are earned more quickly and arrive sooner, but are weaker. Livestock and Settlers may be tasked to Haciendas to produce resources. Can revolt in earlier ages and return to Mexico afterwards. Gains an additional Padre hero in the Commerce Age.\n&lt;color=1.0, 1.0, 0.0&gt;Culture Bonus:&lt;/color&gt;\nStarts with a General who can plant an Inspiring Flag and build Forts instead of Town Centers. Advances in Age by choosing a Federal State that unlocks two powerful unique cards. Has access to Saloons, Sloops, Steamers, and unique Outlaws.\n&lt;color=1.0, 1.0, 0.0&gt;National guard units:&lt;/color&gt;\nChinaco (Charro), Salteador (Vigilante)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nPadre, Insurgente, Salteador, Soldado, Chinaco\n&lt;color=1.0, 1.0, 0.0&gt;Unique buildings:&lt;/color&gt;\nCan build Haciendas and a Cathedral which may research unique improvements.\n\nBorn in fiery insurgency against Spanish colonial rule the young Mexican nation asserted itself against numerous revolutions and invasions.</string>
 	    <string _locid="112018">Skirmisher with a powerful rifle attack. Good against Infantry and Light Cavalry.</string>
+	    <string _locid="112229">9 Insurgentes</string>
+	    <string _locid="112230">25 Insurgentes</string>
+	    <string _locid="112231">5 Soldados</string>
+	    <string _locid="112232">4 Soldados</string>
+	    <string _locid="112233">4 Salteadores</string>
+	    <string _locid="112234">7 Salteadores</string>
+	    <string _locid="112235">6 Salteadores</string>
+	    <string _locid="112236">3 Chinacos</string>
+	    <string _locid="112237">5 Chinacos</string>
+	    <string _locid="112238">4 Chinacos</string>
+	    <string _locid="112241">Ships 6 Soldados and 1 Falconet.</string>
 	    <string _locid="112265">Ships 1 Hacienda Wagon and 3 Settlers.</string>
 	    <string _locid="112340">Ships 1 Hacienda Wagon and increases Hacienda hitpoints.</string>
 	    <string _locid="112342">Arrives fast! Deposits 250 Coin and exchanges all your current Wood for 50% more Coin.</string>
@@ -507,11 +519,15 @@
 	    <string _locid="112365">Ships an additional Salteador for each shipment you have sent so far this game.</string>
 	    <string _locid="112367">Villagers gather Food and Coin from Haciendas more quickly.</string>
 	    <string _locid="112369">Ships 8 Cuatreros.</string>
+	    <string _locid="112381">Ships an additional Chinaco for each shipment you have sent so far this game.</string>
+	    <string _locid="112415">&lt;color=1.0, 0.0, 0.0&gt;Costs 4 shipments to send!&lt;/color&gt; Ships a powerful army of 2 Heavy Cannons, 15 Soldados and 10 Chinacos.</string>
 	    <string _locid="112680">Improves Salteadores and other rifle infantry in combat.</string>
 	    <string _locid="112682">Salteadores gain more range and line of sight.</string>
 	    <string _locid="112684">Insurgentes have more hitpoints and train more quickly.</string>
 	    <string _locid="112686">Insurgente and Villager melee attack increased.</string>
-	    <string _locid="113060">Lancer Cavalry inflict more damage.</string>
+	    <string _locid="113023">Lancer Cavalry and Dragoon attack and hitpoints increased.</string>
+	    <string _locid="113024">Cavalry Combat</string>
+	    <string _locid="113060">Lancer Cavalry deal more damage.</string>
 	    <string _locid="113062">All Cavalry and Infantry have slightly increased armor.</string>
 	    <string _locid="113168">Salteadores deal more damage to Villagers.</string>
 	    <string _locid="220000">3 Miners</string>
@@ -732,6 +748,14 @@
 	    <string _locid="270116">Crates of 500 Wood</string>
 	    <string _locid="270117">Crates of 800 Wood</string>
 	    <string _locid="270118">Crates of 1300 Wood</string>
+	    <string _locid="270119">Crates of 400 Coin</string>
+	    <string _locid="270120">Crates of 200 Coin</string>
+	    <string _locid="270121">Crates of 500 Coin</string>
+	    <string _locid="270122">Crates of 800 Coin</string>
+	    <string _locid="270123">Crates of 1300 Coin</string>
+	    <string _locid="270124">Crates of 500 Food</string>
+	    <string _locid="270125">15 Sheep</string>
+	    <string _locid="270126">2 Trading Post Wagons</string>
 	</Language>
   </StringTable>
 </stringmods>

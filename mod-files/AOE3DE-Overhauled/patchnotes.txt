@@ -1178,3 +1178,11 @@ Federal States:
 -- Mayan Crops Reworked: now provides +10% Food/Gold gather rates on Haciendas for villagers. 
 -- Arteaga Reforms Reworked: Now reduces the cost of train time of Mexican Infantry upgrades by -20% (this affects Holcan Javelineers if Tzotzil Renegades has been sent)
 -- Sonora Cuatreros now delivers 7 Cuatreros (down from 8) with no other effects.
+-- Empresario Contracts buffed to -20% Villager train time from -15%
+-- San Luis Patriots no longer reduces Chinaco train time.
+-- Tonalo Ceramics buffed to +30% hacienda gold gather rate
+-- Cavalry Combat now affects only Lancer Cavalry and Dragoons. Dragoons get +20% HP/ATK. Shipment moved to Age IV from 3.
+-- Pinatas removed from Mexico
+-- Liberty Dragoon Regiment Removed
+-- All Plan shipments except for Salteadors --> Soldados have been removed
+-- Charreada and Cantinas (Haciendas spawn Chinacos and Comancheroes) have been removed.
