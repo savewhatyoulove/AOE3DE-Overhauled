@@ -16687,6 +16687,9 @@
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">TownCenter</target>
       </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Cow</target>
+      </effect>
       <effect type="Data" amount="0.75" subtype="ResearchPoints" relativity="Percent">
         <target type="techWithFlag">HomeCity</target>
       </effect>
@@ -17386,10 +17389,10 @@
     <rollovertextid>104626</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data2" action="Gather" amount="1.10" subtype="WorkRateSpecific" resource="Gold" unittype="deHacienda" relativity="BasePercent">
+      <effect type="Data2" action="Gather" amount="1.08" subtype="WorkRateSpecific" resource="Gold" unittype="deHacienda" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="Data2" action="Gather" amount="1.10" subtype="WorkRateSpecific" resource="Food" unittype="deHacienda" relativity="BasePercent">
+      <effect type="Data2" action="Gather" amount="1.08" subtype="WorkRateSpecific" resource="Food" unittype="deHacienda" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
       <effect type="TextOutputTechName">110130</effect>
@@ -17838,7 +17841,7 @@
         <target type="Player"/>
       </effect>
       <effect type="AddHomeCityCard" tech="DEHCFedMXTzotzilUprising" maxcount="1" ageprereq="1" unitcount="0" infiniteinlastage="0"/>
-      <effect type="AddHomeCityCard" tech="DEHCFedMXMayaCrops" maxcount="1" ageprereq="1" unitcount="400" infiniteinlastage="0"/>
+      <effect type="AddHomeCityCard" tech="HCNativeCombat" maxcount="1" ageprereq="1" unitcount="0" infiniteinlastage="0"/>
     </effects>
   </tech>
   <tech mergeMode='replace' name="DEHCShipFishingBoats2" type="Normal">
@@ -17890,6 +17893,61 @@
         <target type="ProtoUnit">Cow</target>
       </effect>
       <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEGuardInsurgentes" type="Normal">
+    <dbid>7409</dbid>
+    <displaynameid>112030</displaynameid>
+    <cost resourcetype="Wood">600.0000</cost>
+    <cost resourcetype="Gold">600.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_infantry\guard_infantry.png</icon>
+    <rollovertextid>112028</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>ForceLastInLine</flag>
+    <prereqs>
+      <techstatus status="Active">DEVeteranInsurgentes</techstatus>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deInsurgente</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deInsurgente" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deInsurgente</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEImperialInsurgentes" type="Normal">
+    <dbid>7410</dbid>
+    <displaynameid>112032</displaynameid>
+    <cost resourcetype="Wood">1500.0000</cost>
+    <cost resourcetype="Gold">1500.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_infantry\imperial_infantry.png</icon>
+    <rollovertextid>112028</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>UpgradeTech</flag>
+    <flag>ForceLastInLine</flag>
+    <prereqs>
+      <techstatus status="Active">DEGuardInsurgentes</techstatus>
+      <techstatus status="Active">Imperialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="SetName" proto="deInsurgente" culture="none" newname="112033"/>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deInsurgente</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deInsurgente</target>
+      </effect>
+      <effect type="SetName" proto="deInsurgente" culture="none" newname="112862" reqtech="DERevolutionMXMaya"/>
     </effects>
   </tech>
 

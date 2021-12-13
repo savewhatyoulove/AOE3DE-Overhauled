@@ -13,7 +13,7 @@
   <transportroundtriptime>1</transportroundtriptime>
   <transportactivationtime>0</transportactivationtime>
   <level>1</level>
-  <maxcardsperdeck>21</maxcardsperdeck>
+  <maxcardsperdeck>22</maxcardsperdeck>
   <skillpoints>9</skillpoints>
   <lightset>Mexico</lightset>
   <watertype>Seville</watertype>
@@ -253,7 +253,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>3</age>
+      <age>0</age>
     </card>
     <card>
       <name>DEHCBarbacoa</name>
@@ -425,6 +425,15 @@
       <prereqtech>-1</prereqtech>
       <age>3</age>
       <displayunitcount>6</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCSpanishSympathizers</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>15</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -631,6 +640,15 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>HCShipCannons1</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCXPShipMortarsTeam</prereqtech>
+      <age>3</age>
+      <displayunitcount>2</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
       <name>HCAdvancedArtillery</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -653,15 +671,6 @@
       <prereqtech>HCShipCannons1</prereqtech>
       <age>3</age>
       <displayunitcount>4</displayunitcount>
-    </card>
-    <card>
-      <name>HCShipCannons1</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>HCXPShipMortarsTeam</prereqtech>
-      <age>3</age>
-      <displayunitcount>2</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>DEHCMariachiTeam</name>
@@ -2819,6 +2828,7 @@
       <tech x="4.8" y="4.2">DEHCShipChinaco2</tech>
       <tech x="4.9" y="4.3">DEHCShipChinaco4</tech>
       <tech x="4.9" y="4.3">DEHCShipChinaco5</tech>
+      <tech x="7.2" y="1.0">DEHCSpanishSympathizers</tech>
       <tech x="4.6" y="3.0">DEHCLeatherSoldiers</tech>
       <tech x="4.6" y="3.0">DEHCPresidialLancers</tech>
       <tech x="4.6" y="5.0">DEHCCavalryCombatMexican</tech>
@@ -2851,6 +2861,7 @@
       <tech x="2.5" y="5.0">HCShipDragoons2</tech>
       <tech x="3.9" y="1.0">DEHCShipChinaco4</tech>
       <tech x="4.9" y="4.3">DEHCShipChinaco5</tech>
+      <tech x="7.2" y="1.0">DEHCSpanishSympathizers</tech>
       <tech x="3.9" y="3.0">DEHCShipEmboscador2</tech>
       <tech x="3.9" y="4.0">DEHCShipChinaco2</tech>
       <tech x="4.6" y="3.0">DEHCLeatherSoldiers</tech>
@@ -3046,12 +3057,10 @@
       <tech x="2.8" y="1.0">HCAdmirality</tech>
       <tech x="6.5" y="1.0">DEHCShipCapturedGalleons1</tech>
       <tech x="6.5" y="1.0">DEHCShipCapturedGalleons2</tech>
-      <tech x="7.2" y="1.0">DEHCSpanishSympathizers</tech>
       <tech x="7.2" y="1.0">HCXPMayanAllies2</tech>
       <tech x="7.2" y="1.0">DEHCRenegadeNavajo</tech>
       <tech x="7.2" y="1.0">DEHCRenegadeComanche</tech>
       <tech x="7.2" y="3.0">DEHCRenegadeApache</tech>
-      <tech x="5.3" y="5.0">DEHCTulancingoCuirassiers</tech>
       <tech x="0.9" y="3.0">DEHCGulfOfMexicoTeam</tech>
     </obtainabletechs>
     <activetechs>
@@ -3069,12 +3078,10 @@
       <tech x="2.8" y="1.0">HCAdmirality</tech>
       <tech x="6.5" y="1.0">DEHCShipCapturedGalleons1</tech>
       <tech x="6.5" y="1.0">DEHCShipCapturedGalleons2</tech>
-      <tech x="7.2" y="1.0">DEHCSpanishSympathizers</tech>
       <tech x="7.2" y="1.0">HCXPMayanAllies2</tech>
       <tech x="7.2" y="1.0">DEHCRenegadeNavajo</tech>
       <tech x="7.2" y="1.0">DEHCRenegadeComanche</tech>
       <tech x="7.2" y="3.0">DEHCRenegadeApache</tech>
-      <tech x="5.3" y="5.0">DEHCTulancingoCuirassiers</tech>
       <tech x="0.9" y="3.0">DEHCGulfOfMexicoTeam</tech>
     </activetechs>
     <validunits/>

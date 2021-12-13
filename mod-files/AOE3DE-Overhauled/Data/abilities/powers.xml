@@ -1356,7 +1356,7 @@
   <power name="dePowerMXTabascoFruits" type="GeneralEffect">
     <timerrolloverid>112417</timerrolloverid>
     <minimapeventtime sendalertto="none">1</minimapeventtime>
-    <activetime>60</activetime>
+    <activetime>45</activetime>
     <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Food" relativity="BasePercent" amount="3.5">
       <target type="ProtoUnit">AbstractVillager</target>
     </effect>
@@ -1582,12 +1582,12 @@
   <power name="dePowerMariachi" type="TeamEffect">
     <timerrolloverid>113073</timerrolloverid>
     <minimapeventtime sendalertto="none">1</minimapeventtime>
-    <activetime>30</activetime>
+    <activetime>45</activetime>
     <effect type="MaximumVelocity" relativity="BasePercent" amount="1.1">
       <target type="ProtoUnit">Unit</target>
     </effect>
-    <effect type="BuildingWorkRate" relativity="BasePercent" amount="5.0">
-      <target type="ProtoUnit">MilitaryBuilding</target>
+    <effect type="BuildingWorkRate" relativity="BasePercent" amount="1.25">
+      <target type="ProtoUnit">Building</target>
     </effect>
     <placement forceonmap="1" ally="">full</placement>
     <soundset type="StartSound" listenertype="All">DEPowerMXMariachi</soundset>

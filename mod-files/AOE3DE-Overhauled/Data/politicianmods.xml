@@ -1,4 +1,6 @@
 <politicianmods>
   <politicianphilosopherprinceswedish portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_philosopher_prince.png"/>
   <depoliticianfederaltexas portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_texas.png" hccardtech1="DEHCFedTexanForts" hccardtech2="DEHCFedWalkersRangers"/>
+  <depoliticianfederalmxchiapas portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_chiapas.png" hccardtech1="DEHCFedMXTzotzilUprising" hccardtech2="HCNativeCombat"/>
+
 </politicianmods>

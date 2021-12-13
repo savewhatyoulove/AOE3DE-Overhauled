@@ -375,6 +375,7 @@
 	    <string _locid="104543">Gobir Rider and Lifidi Knight hitpoints increased.</string>
 	    <string _locid="104550">2 Sebastopol Mortars</string>
 	    <string _locid="104556">Gobir Rider and Lifidi Knight attack and hitpoints improved.</string>
+	    <string _locid="104626">Arrives fast! For a modest period of time, Villagers gather resources significantly faster from Haciendas. Slightly improves rates permanently.\n • Time limited Boost: Hacienda gathering +250% for 45 seconds</string>
 	    <string _locid="110001" symbol="cStringCivRolloverAmericans">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nFederal states unlock two new cards per age and two Factory cards in Industrial Age. Shipments are earned more quickly and you receive a free XP crate with most shipments. Economic improvements from the Home City are more powerful, but you have a lower Settler build limit and cannot ship resource crates. Generals can build Forts instead of Town Centers. Levies can be called repeatedly from multiple buildings with a global cooldown. Military units slowly heal over time outside of combat. Starts with a Fattened Sheep, an XP crate, and a Homestead Wagon instead of resource crates. \n&lt;color=1.0, 1.0, 0.0&gt;National guard units: &lt;/color&gt;Sharpshooters (Marksmen), Spur Riders (Rough Riders)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nTexas Ranger, Gatling Gun, Ironclad, Minuteman, Regular, Sharpshooter, Sloop, State Militia, Spur Rider, Steamer\n\nThe "land of opportunity" provided ample land for Settlers to plunder, creating the famous melting pot of Western European identities. Expanding from militia forces skilled in skirmishing tactics and marksmanship to a professional army, the United States of America ensured its independence and impressive road to prosperity for the owner class.</string>
 	    <string _locid="110009">Hardy Skirmisher with a powerful short-ranged splash attack.</string>
 	    <string _locid="110013">Fragile skirmisher with a slow, but powerful long-ranged attack. Good against infantry.</string>
@@ -522,6 +523,7 @@
 	    <string _locid="112365">Ships an additional Salteador for each shipment you have sent so far this game.</string>
 	    <string _locid="112367">Villagers gather Food and Coin from Haciendas more quickly.</string>
 	    <string _locid="112369">Ships 8 Cuatreros.</string>
+	    <string _locid="112375">Ships 3 Privateers.</string>
 	    <string _locid="112381">Ships an additional Chinaco for each shipment you have sent so far this game.</string>
 	    <string _locid="112415">&lt;color=1.0, 0.0, 0.0&gt;Costs 4 shipments to send!&lt;/color&gt; Ships a powerful army of 2 Heavy Cannons, 15 Soldados and 10 Chinacos.</string>
 	    <string _locid="112680">Improves Salteadores and other rifle infantry in combat.</string>
@@ -535,6 +537,7 @@
 	    <string _locid="113040">Improves market food sell rate by 20%. Delivers a free cow with every shipment, starting with this one.</string>
 	    <string _locid="113060">Lancer Cavalry deal more damage.</string>
 	    <string _locid="113062">All Cavalry and Infantry have slightly increased armor.</string>
+	    <string _locid="113074">Arrives fast! For 45 seconds, all Buildings work 25% faster and units move 10% more quickly.</string>
 	    <string _locid="113168">Salteadores deal more damage to Villagers.</string>
 	    <string _locid="220000">3 Miners</string>
 	    <string _locid="220001">4 Miners</string>
