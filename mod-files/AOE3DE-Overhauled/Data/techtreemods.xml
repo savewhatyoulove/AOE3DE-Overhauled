@@ -17626,14 +17626,13 @@
   <tech mergeMode='replace' name="DEHCShipEmboscador2" type="Normal">
     <dbid>7574</dbid>
     <displaynameid>112234</displaynameid>
-    <cost resourcetype="Food">200.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\art\units\infantry_ranged\emboscador\hc_emboscador_icon.png</icon>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="deEmboscador" relativity="Absolute">
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="deEmboscador" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -17647,7 +17646,7 @@
     <icon>resources\images\icons\techs\mexicans\infinite_emboscador.png</icon>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="deEmboscador" relativity="Absolute">
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="deEmboscador" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
