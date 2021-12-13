@@ -17837,7 +17837,7 @@
     <flag>CountsTowardEconomicScore</flag>
     <effects>
       <effect type="SetAge">Age1</effect>
-      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deMilitaryWagon" relativity="Absolute">
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="deNatHolcanJavelineer" relativity="Absolute">
         <target type="Player"/>
       </effect>
       <effect type="AddHomeCityCard" tech="DEHCFedMXTzotzilUprising" maxcount="1" ageprereq="1" unitcount="0" infiniteinlastage="0"/>
@@ -17895,6 +17895,34 @@
       <effect type="TextOutputTechName">110130</effect>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DEVeteranInsurgentes" type="Normal">
+    <dbid>7408</dbid>
+    <displaynameid>112027</displaynameid>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\veteran_infantry\veteran_infantry.png</icon>
+    <rollovertextid>112028</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deInsurgente</target>
+      </effect>
+      <effect type="SetName" proto="deInsurgente" culture="none" newname="112029"/>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deInsurgente" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deInsurgente</target>
+      </effect>
+    </effects>
+  </tech>
+
   <tech mergeMode='replace' name="DEGuardInsurgentes" type="Normal">
     <dbid>7409</dbid>
     <displaynameid>112030</displaynameid>
@@ -17906,7 +17934,6 @@
     <rollovertextid>112028</rollovertextid>
     <flag>UpgradeTech</flag>
     <flag>CountsTowardMilitaryScore</flag>
-    <flag>ForceLastInLine</flag>
     <prereqs>
       <techstatus status="Active">DEVeteranInsurgentes</techstatus>
       <techstatus status="Active">Industrialize</techstatus>
@@ -17934,7 +17961,6 @@
     <rollovertextid>112028</rollovertextid>
     <flag>CountsTowardMilitaryScore</flag>
     <flag>UpgradeTech</flag>
-    <flag>ForceLastInLine</flag>
     <prereqs>
       <techstatus status="Active">DEGuardInsurgentes</techstatus>
       <techstatus status="Active">Imperialize</techstatus>
@@ -17948,6 +17974,105 @@
         <target type="ProtoUnit">deInsurgente</target>
       </effect>
       <effect type="SetName" proto="deInsurgente" culture="none" newname="112862" reqtech="DERevolutionMXMaya"/>
+    </effects>
+  </tech>
+  <tech name="DEHCFedMXWoodcrafting" type="Normal">
+    <dbid>9689</dbid>
+    <displaynameid>44626</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\Wood_Crafting.png</icon>
+    <rollovertextid>35353</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" action="Gather" amount="1.30" subtype="WorkRate" unittype="Tree" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="TextOutput">44628</effect>
+      <effect type="Data" action="Gather" amount="1.30" subtype="WorkRate" unittype="ypGroveBuilding" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEPoliticianFederalMXDurango" type="Normal">
+    <dbid>7500</dbid>
+    <displaynameid>112301</displaynameid>
+    <cost resourcetype="Food">800.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_ii.png</icon>
+    <rollovertextid>112300</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age1</effect>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="CrateofWood" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="AddHomeCityCard" tech="DEHCFedMXWoodcrafting" maxcount="1" ageprereq="1" unitcount="0" infiniteinlastage="0"/>
+      <effect type="AddHomeCityCard" tech="DEHCFedMXCerroDeMercado" maxcount="1" ageprereq="1" unitcount="0" infiniteinlastage="0"/>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEPoliticianFederalMXMichoacan" type="Normal">
+    <dbid>7501</dbid>
+    <displaynameid>112303</displaynameid>
+    <cost resourcetype="Food">800.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_ii.png</icon>
+    <rollovertextid>112302</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age1</effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deSloop" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="AddHomeCityCard" tech="DEHCFedMXFishermen" maxcount="1" ageprereq="1" unitcount="0" infiniteinlastage="0"/>
+      <effect type="AddHomeCityCard" tech="DEHCFedMXColegioSanNicolas" maxcount="1" ageprereq="1" unitcount="500" infiniteinlastage="0"/>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEPoliticianFederalMXQueretaro" type="Normal">
+    <dbid>7504</dbid>
+    <displaynameid>112309</displaynameid>
+    <cost resourcetype="Food">800.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_ii.png</icon>
+    <rollovertextid>112308</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age1</effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deMilitaryWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="AddHomeCityCard" tech="DEHCFedMXArteagaReforms" maxcount="1" ageprereq="1" unitcount="0" infiniteinlastage="0"/>
+      <effect type="AddHomeCityCard" tech="HCDuelingSchoolTeam" maxcount="1" ageprereq="1" unitcount="0" infiniteinlastage="0"/>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEPoliticianFederalMXTlaxcala" type="Normal">
+    <dbid>7502</dbid>
+    <displaynameid>112305</displaynameid>
+    <cost resourcetype="Food">800.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_ii.png</icon>
+    <rollovertextid>112304</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age1</effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deHaciendaWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="AddHomeCityCard" tech="DEHCFedMXTlaxcalaTextiles" maxcount="1" ageprereq="1" unitcount="0" infiniteinlastage="0"/>
+      <effect type="AddHomeCityCard" tech="DEHCFedMXQueretaroHaciendas" maxcount="1" ageprereq="1" unitcount="1" infiniteinlastage="0"/>
     </effects>
   </tech>
 

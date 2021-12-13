@@ -510,6 +510,10 @@
 	    <string _locid="112265">Ships 1 Hacienda Wagon and 3 Settlers.</string>
 	    <string _locid="112277">All defensive buildings are cheaper and build faster.</string>
 	    <string _locid="112281">Villagers gather Food from all sources more quickly.</string>
+	    <string _locid="112300">Cords of 400 Wood</string>
+	    <string _locid="112302">1 Sloop</string>
+	    <string _locid="112304">1 Hacienda Wagon</string>
+	    <string _locid="112306">3 Holcan Javelineers</string>
 	    <string _locid="112340">Ships 1 Hacienda Wagon and increases Hacienda hitpoints.</string>
 	    <string _locid="112342">Arrives fast! Deposits 250 Coin and exchanges all your current Wood for 50% more Coin.</string>
 	    <string _locid="112344">Trading Routes supply greatly increased XP income and ships have increased experience point build bounty.</string>
@@ -520,6 +524,7 @@
 	    <string _locid="112358">Tzotzil Renegades</string>
 	    <string _locid="112359">Delivers 4 Crates of Food. Villagers gather Food from Haciendas slightly more quickly.</string>
 	    <string _locid="112361">Infantry upgrades at the Barracks are cheaper and research more quickly.</string>
+	    <string _locid="112364">Tlaxcala Haciendas</string>
 	    <string _locid="112365">Ships an additional Salteador for each shipment you have sent so far this game.</string>
 	    <string _locid="112367">Villagers gather Food and Coin from Haciendas more quickly.</string>
 	    <string _locid="112369">Ships 8 Cuatreros.</string>
@@ -766,6 +771,9 @@
 	    <string _locid="270125">15 Sheep</string>
 	    <string _locid="270126">2 Trading Post Wagons</string>
 	    <string _locid="270127">6 Chinacos</string>
+	    <string _locid="270128">Congress of The Union</string>
+	    <string _locid="270129"></string>
+
 	</Language>
   </StringTable>
 </stringmods>

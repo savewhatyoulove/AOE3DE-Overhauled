@@ -673,13 +673,6 @@
       <displayunitcount>4</displayunitcount>
     </card>
     <card>
-      <name>DEHCMariachiTeam</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>0</age>
-    </card>
-    <card>
       <name>HCNativeLore</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -914,13 +907,6 @@
       <prereqtech>-1</prereqtech>
       <bindtotech>DEHCLiberationMarch</bindtotech>
       <age>2</age>
-    </card>
-    <card>
-      <name>HCDuelingSchoolTeam</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>0</age>
     </card>
     <card>
       <name>DEHCSevenLaws</name>
@@ -2838,7 +2824,6 @@
       <tech x="5.3" y="5.0">DEHCObservers</tech>
       <tech x="5.3" y="5.0">DEHCAmbuscade</tech>
       <tech x="5.3" y="5.0">DEHCGuerillaTactics</tech>
-      <tech x="5.3" y="5.0">DEHCMariachiTeam</tech>
       <tech x="5.3" y="5.0">DEHCPlanTuxtepec</tech>
       <tech x="6.7" y="1.0">HCShipFalconets1</tech>
       <tech x="6.7" y="2.0">HCShipFalconets2</tech>
@@ -2872,7 +2857,6 @@
       <tech x="5.3" y="5.0">DEHCObservers</tech>
       <tech x="5.3" y="5.0">DEHCAmbuscade</tech>
       <tech x="5.3" y="5.0">DEHCGuerillaTactics</tech>
-      <tech x="5.3" y="5.0">DEHCMariachiTeam</tech>
       <tech x="5.3" y="5.0">DEHCPlanTuxtepec</tech>
       <tech x="6.7" y="1.0">HCShipFalconets1</tech>
       <tech x="6.7" y="2.0">HCShipFalconets2</tech>
@@ -2903,7 +2887,6 @@
       <tech x="0.0" y="3.0">HCNativeWarriors</tech>
       <tech x="0.9" y="5.0">HCXPBloodBrothers</tech>
       <tech x="0.0" y="5.0">HCAdvancedTradingPost</tech>
-      <tech x="0.9" y="1.0">HCDuelingSchoolTeam</tech>
       <tech x="2.8" y="1.0">HCFrontierDefenses</tech>
       <tech x="2.5" y="2.0">HCPioneers</tech>
       <tech x="2.5" y="3.0">DEHCCathedralConstruction</tech>
@@ -2934,7 +2917,6 @@
       <tech x="0.0" y="3.0">HCNativeWarriors</tech>
       <tech x="0.9" y="5.0">HCXPBloodBrothers</tech>
       <tech x="0.0" y="5.0">HCAdvancedTradingPost</tech>
-      <tech x="0.9" y="1.0">HCDuelingSchoolTeam</tech>
       <tech x="2.8" y="1.0">HCFrontierDefenses</tech>
       <tech x="2.5" y="2.0">HCPioneers</tech>
       <tech x="2.5" y="3.0">DEHCCathedralConstruction</tech>

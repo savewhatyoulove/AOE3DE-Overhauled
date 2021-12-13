@@ -2,5 +2,9 @@
   <politicianphilosopherprinceswedish portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_philosopher_prince.png"/>
   <depoliticianfederaltexas portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_texas.png" hccardtech1="DEHCFedTexanForts" hccardtech2="DEHCFedWalkersRangers"/>
   <depoliticianfederalmxchiapas portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_chiapas.png" hccardtech1="DEHCFedMXTzotzilUprising" hccardtech2="HCNativeCombat"/>
+  <depoliticianfederalmxdurango portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_durango.png" hccardtech1="DEHCFedMXWoodcrafting" hccardtech2="DEHCFedMXCerroDeMercado"/>
+  <depoliticianfederalmxtlaxcala portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_tlaxcala.png" hccardtech1="DEHCFedMXQueretaroHaciendas" hccardtech2="DEHCFedMXTlaxcalaTextiles"/>
+  <depoliticianfederalmxqueretaro portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_queretaro.png" hccardtech1="DEHCFedMXArteagaReforms" hccardtech2="HCDuelingSchoolTeam"/>
+
 
 </politicianmods>

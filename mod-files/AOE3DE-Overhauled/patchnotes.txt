@@ -1136,6 +1136,8 @@ Mexico:
 
 Civ Bonus Changes: Mexico now earns shipments drastically faster (1.0 xp curve --> 0.65) and they arrive more quickly (40s --> 30, 75% reduction for unique times), but they are weaker in terms of value (200/500/800/1300 on average).
 
+Can now have 22 cards in deck by default (instead of 21)
+
 Villager build limit improved to 99 from 80 
 
 Starting Crates: 100F/100G removed (now 300F/200W and a starting cow)
@@ -1177,20 +1179,6 @@ Shipments:
 -- Queen's Dragoons Removed
 -- Ambuscade Reworked: Now provides Salteadors 1.25x AbstractVillager
 -- Leather Soldiers Reworked: Now provides +10% armor (1.1x, not a flat +10) to all Infantry and Cavalry. Moved to Discovery Age from Fortress. 
-
-Federal States:
--- Fortified Haciendas no longer unlocks a ranged attack for Haciendas. Instead, it improves their HP by +25%. 
--- Cerro De Mercado now only deposits 250 Gold instead of 350 (exchange rate unchanged).
--- Michoacan Fishermen now only delivers 1 Dock Wagon instead of 2
--- Colegio de San Nicolas Reworked. Now provides +100% XP income from Trading Posts and +20% Ship XP Build Bounty
--- Tlaxcala Alliance no longer unlocks Mesoamerican upgrades, just Jesuit units/upgrades
--- Tzotzil Uprising renamed to Tzotzil Renegades. Now unlocks Maya Holcan Javelineers and their Vet/Guard upgrades at the barracks. Removes build limit, but makes them cost 1 pop. 
--- Mayan Crops Reworked: now provides +10% Food/Gold gather rates on Haciendas for villagers. 
--- Arteaga Reforms Reworked: Now reduces the cost of train time of Mexican Infantry upgrades by -20% (this affects Holcan Javelineers if Tzotzil Renegades has been sent)
--- Sonora Cuatreros now delivers 7 Cuatreros (down from 8) with no other effects.
--- Empresario Contracts buffed to -20% Villager train time from -15%
--- San Luis Patriots no longer reduces Chinaco train time.
--- Tonalo Ceramics buffed to +30% hacienda gold gather rate
 -- Cavalry Combat now affects only Lancer Cavalry and Dragoons. Dragoons get +20% HP/ATK. Shipment moved to Age IV from 3.
 -- Pinatas removed from Mexico
 -- Liberty Dragoon Regiment Removed
@@ -1214,3 +1202,31 @@ Federal States:
 -- 1 Whale removed.
 -- Criollos removed.
 -- European Cannons removed. 
+-- Refurbished Firearms Mortar Attack Range increased to 15 from 14; animation delay multiplier nerfed to 0.45 from 0.18
+-- Mariachi now lasts 45 seconds (up from 30). Now affects Buildings instead of MilitaryBuilding. Building Work Rate improvement reduced from 500% to 125%.
+
+Federal States:
+-- Fortified Haciendas no longer unlocks a ranged attack for Haciendas. Instead, it improves their HP by +25%. 
+-- Cerro De Mercado now only deposits 250 Gold instead of 350 (exchange rate unchanged).
+-- Michoacan Fishermen now only delivers 1 Dock Wagon instead of 2
+-- Colegio de San Nicolas Reworked. Now provides +100% XP income from Trading Posts and +20% Ship XP Build Bounty
+-- Tlaxcala Alliance no longer unlocks Mesoamerican upgrades, just Jesuit units/upgrades
+-- Tzotzil Uprising renamed to Tzotzil Renegades. Now unlocks Maya Holcan Javelineers and their Vet/Guard upgrades at the barracks. Removes build limit, but makes them cost 1 pop. 
+-- Mayan Crops Reworked: now provides +10% Food/Gold gather rates on Haciendas for villagers. 
+-- Arteaga Reforms Reworked: Now reduces the cost of train time of Mexican Infantry upgrades by -20% (this affects Holcan Javelineers if Tzotzil Renegades has been sent)
+-- Sonora Cuatreros now delivers 7 Cuatreros (down from 8) with no other effects.
+-- Empresario Contracts buffed to -20% Villager train time from -15%
+-- San Luis Patriots no longer reduces Chinaco train time.
+-- Tonalo Ceramics buffed to +30% hacienda gold gather rate
+
+TODO: 
+update reservistas icon to be a gold border.
+update leather soldiers icon to be a gold border
+update observers icon to be a gold border
+update guerilla tactics icon to be a gold border
+update Chapultec Castle to do something that doesn't suck
+update 7 laws to do something that doesn't suck
+update ninos heroes to do something that doesn't suck
+update Chipotle Tactics icon to have a gold border
+update kabd grab to be TEAM land grab
+remove copper canyon

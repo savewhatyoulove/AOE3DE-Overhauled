@@ -18237,10 +18237,10 @@
     <buildlimit>17</buildlimit>
     <bounty>10.0000</bounty>
     <buildbounty>10.0000</buildbounty>
-    <cost resourcetype="Food">75.0000</cost>
-    <cost resourcetype="Wood">25.0000</cost>
+    <cost resourcetype="Food">50.0000</cost>
+    <cost resourcetype="Wood">50.0000</cost>
     <allowedage>1</allowedage>
-    <armor type="Hand" value="0.1000"/>
+    <armor type="Hand" value="0.2500"/>
     <unittype>LogicalTypeHealed</unittype>
     <unittype>LogicalTypeValidSharpshoot</unittype>
     <unittype>LogicalTypeNeededForVictory</unittype>
@@ -18261,6 +18261,7 @@
     <unittype>Military</unittype>
     <unittype>Unit</unittype>
     <unittype>AbstractPikeman</unittype>
+    <unittype>AbstractHandInfantry</unittype>
     <unittype>HasBountyValue</unittype>
     <unittype>AbstractCavalryInfantry</unittype>
     <unittype>CountsTowardMilitaryScore</unittype>
@@ -18292,8 +18293,8 @@
       <damage>10.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractCavalry">4.000000</damagebonus>
-      <damagebonus type="AbstractLightInfantry">3.000000</damagebonus>
+      <damagebonus type="AbstractCavalry">4.500000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">3.500000</damagebonus>
     </protoaction>
     <protoaction>
       <name>DefendRangedAttack</name>
@@ -18309,16 +18310,16 @@
       <damage>10.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractCavalry">4.000000</damagebonus>
-      <damagebonus type="AbstractLightInfantry">3.000000</damagebonus>
+      <damagebonus type="AbstractCavalry">4.500000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">3.500000</damagebonus>
     </protoaction>
     <protoaction>
       <name>StaggerHandAttack</name>
       <damage>10.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractCavalry">4.000000</damagebonus>
-      <damagebonus type="AbstractLightInfantry">3.000000</damagebonus>
+      <damagebonus type="AbstractCavalry">4.500000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">3.500000</damagebonus>
     </protoaction>
     <protoaction>
       <name>StaggerRangedAttack</name>
@@ -18334,8 +18335,8 @@
       <damage>10.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractCavalry">4.000000</damagebonus>
-      <damagebonus type="AbstractLightInfantry">3.000000</damagebonus>
+      <damagebonus type="AbstractCavalry">4.500000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">3.500000</damagebonus>
     </protoaction>
     <protoaction>
       <name>VolleyRangedAttack</name>
@@ -18374,10 +18375,10 @@
     <buildlimit>17</buildlimit>
     <bounty>10.0000</bounty>
     <buildbounty>10.0000</buildbounty>
-    <cost resourcetype="Food">75.0000</cost>
-    <cost resourcetype="Wood">25.0000</cost>
+    <cost resourcetype="Food">50.0000</cost>
+    <cost resourcetype="Wood">50.0000</cost>
     <allowedage>1</allowedage>
-    <armor type="Hand" value="0.2000"/>
+    <armor type="Hand" value="0.2500"/>
     <unittype>LogicalTypeHealed</unittype>
     <unittype>LogicalTypeValidSharpshoot</unittype>
     <unittype>LogicalTypeNeededForVictory</unittype>
@@ -18405,6 +18406,7 @@
     <unittype>AbstractRangedInfantry</unittype>
     <unittype>LogicalTypeInfantryVolleyTactic</unittype>
     <unittype>AbstractMusketeer</unittype>
+    <unittype>AbstractHandInfantry</unittype>
     <unittype>MercType1</unittype>
     <flag>CollidesWithProjectiles</flag>
     <flag>ApplyHandicapTraining</flag>
@@ -18429,8 +18431,8 @@
       <damage>10.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractCavalry">4.000000</damagebonus>
-      <damagebonus type="AbstractLightInfantry">3.000000</damagebonus>
+      <damagebonus type="AbstractCavalry">4.500000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">3.500000</damagebonus>
     </protoaction>
     <protoaction>
       <name>DefendRangedAttack</name>
@@ -18446,16 +18448,16 @@
       <damage>10.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractCavalry">4.000000</damagebonus>
-      <damagebonus type="AbstractLightInfantry">3.000000</damagebonus>
+      <damagebonus type="AbstractCavalry">4.500000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">3.500000</damagebonus>
     </protoaction>
     <protoaction>
       <name>StaggerHandAttack</name>
       <damage>10.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractCavalry">4.000000</damagebonus>
-      <damagebonus type="AbstractLightInfantry">3.000000</damagebonus>
+      <damagebonus type="AbstractCavalry">4.500000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">3.500000</damagebonus>
     </protoaction>
     <protoaction>
       <name>StaggerRangedAttack</name>
@@ -18471,8 +18473,8 @@
       <damage>10.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractCavalry">4.000000</damagebonus>
-      <damagebonus type="AbstractLightInfantry">3.000000</damagebonus>
+      <damagebonus type="AbstractCavalry">4.500000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">3.500000</damagebonus>
     </protoaction>
     <protoaction>
       <name>VolleyRangedAttack</name>

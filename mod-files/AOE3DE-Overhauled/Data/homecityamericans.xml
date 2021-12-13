@@ -896,6 +896,13 @@
       <age>2</age>
     </card>
     <card>
+      <name>DEHCFedGeneralAssembly</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
       <name>DEHCShipHomesteadWagons1</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -1725,6 +1732,7 @@
       <tech x="3.1" y="5.0">HCHeavyFortificationsUS</tech>
       <tech x="3.5" y="5.0">HCREVShipFortWagon</tech>
       <tech x="3.5" y="6.0">DEHCFedAlamo</tech>
+      <tech x="3.5" y="6.0">DEHCFedGeneralAssembly</tech>
       <tech x="6.0" y="1.0">DEHCShipMilitaryWagonsTeam</tech>
       <tech x="3.8" y="4.0">HCFrontierDefenses2</tech>
       <tech x="5.3" y="1.0">HCXPShipSpies1</tech>
@@ -1754,6 +1762,7 @@
       <tech x="3.1" y="5.0">HCHeavyFortificationsUS</tech>
       <tech x="3.5" y="5.0">HCREVShipFortWagon</tech>
       <tech x="3.5" y="6.0">DEHCFedAlamo</tech>
+      <tech x="3.5" y="6.0">DEHCFedGeneralAssembly</tech>
       <tech x="6.0" y="1.0">DEHCShipMilitaryWagonsTeam</tech>
       <tech x="3.8" y="4.0">HCFrontierDefenses2</tech>
       <tech x="5.3" y="1.0">HCXPShipSpies1</tech>
