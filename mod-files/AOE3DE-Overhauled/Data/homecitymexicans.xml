@@ -13,7 +13,7 @@
   <transportroundtriptime>1</transportroundtriptime>
   <transportactivationtime>0</transportactivationtime>
   <level>1</level>
-  <maxcardsperdeck>21</maxcardsperdeck>
+  <maxcardsperdeck>22</maxcardsperdeck>
   <skillpoints>9</skillpoints>
   <lightset>Mexico</lightset>
   <watertype>Seville</watertype>
@@ -96,7 +96,6 @@
       <prereqtech>-1</prereqtech>
       <bindtotech>DEHCChipotles</bindtotech>
       <age>1</age>
-      <displayunitcount>500</displayunitcount>
     </card>
     <card>
       <name>DEHCShipFoodCrates2Mexicans</name>
@@ -355,12 +354,12 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipDragoons3</name>
+      <name>HCShipDragoons2</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <displayunitcount>5</displayunitcount>
+      <age>3</age>
+      <displayunitcount>6</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -374,7 +373,7 @@
     </card>
     <card>
       <name>DEHCShipEmboscador3</name>
-      <maxcount>1</maxcount>
+      <maxcount>-1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
@@ -387,7 +386,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>7</displayunitcount>
+      <displayunitcount>9</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -426,6 +425,24 @@
       <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
+    <card>
+      <name>DEHCShipChinaco5</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>6</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCXPMayanAllies2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>24</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+
     <card>
       <name>DEHCShipSanBlasBattalion</name>
       <maxcount>1</maxcount>
@@ -480,7 +497,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>1</age>
+      <age>0</age>
     </card>
     <card>
       <name>DEHCPresidialLancers</name>
@@ -731,13 +748,14 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>3</age>
+      <age>2</age>
     </card>
     <card>
-      <name>DEHCIturbidePalace</name>
+      <name>HCColonialMilitia</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
+      <bindtotech>DEHCREVMXColonialMilitia</bindtotech>
       <age>0</age>
     </card>
     <card>
@@ -839,7 +857,7 @@
       <displayunitcount>1</displayunitcount>
     </card>
     <card>
-      <name>DEHCPorfiriato</name>
+      <name>HCXPIndustrialRevolution</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -971,7 +989,7 @@
       <level>25</level>
       <prereqtech>HCSilversmith</prereqtech>
       <age>2</age>
-      <displayunitcount>500</displayunitcount>
+      <displayunitcount>300</displayunitcount>
     </card>
     <card>
       <name>HCSustainableAgriculture</name>
@@ -1082,7 +1100,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>17</displayunitcount>
+      <displayunitcount>12</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1215,22 +1233,6 @@
       <age>2</age>
       <displayunitcount>6</displayunitcount>
     </card>
-    <card>
-      <name>DEHCSpanishSympathizers</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
-      <displayunitcount>15</displayunitcount>
-    </card>
-    <card>
-      <name>HCXPMayanAllies2</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
-      <displayunitcount>24</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>DEHCRenegadeNavajo</name>
@@ -2426,8 +2428,6 @@
         <card dbid="7600">DEHCAlhondigaDeGranaditas</card>
         <card dbid="7864">DEHCBarbacoa</card>
         <card dbid="2206">HCShipSettlers2</card>
-        <card dbid="2236">HCShipFalconets3</card>
-        <card dbid="7613">DEHCPorfiriato</card>
         <card dbid="625">HCUnlockFactory</card>
         <card dbid="7467">DEHCShipHaciendaWagon1</card>
         <card dbid="7626">DEHCLiberationMarch</card>
@@ -2451,8 +2451,6 @@
         <card dbid="7600">DEHCAlhondigaDeGranaditas</card>
         <card dbid="7864">DEHCBarbacoa</card>
         <card dbid="2206">HCShipSettlers2</card>
-        <card dbid="2236">HCShipFalconets3</card>
-        <card dbid="7613">DEHCPorfiriato</card>
         <card dbid="625">HCUnlockFactory</card>
         <card dbid="7467">DEHCShipHaciendaWagon1</card>
         <card dbid="7626">DEHCLiberationMarch</card>
@@ -2476,8 +2474,6 @@
         <card dbid="7864">DEHCBarbacoa</card>
         <card dbid="2206">HCShipSettlers2</card>
         <card dbid="7618">DEHCChipotles</card>
-        <card dbid="2236">HCShipFalconets3</card>
-        <card dbid="7613">DEHCPorfiriato</card>
         <card dbid="625">HCUnlockFactory</card>
         <card dbid="7467">DEHCShipHaciendaWagon1</card>
         <card dbid="7626">DEHCLiberationMarch</card>
@@ -2501,12 +2497,9 @@
         <card dbid="7600">DEHCAlhondigaDeGranaditas</card>
         <card dbid="7864">DEHCBarbacoa</card>
         <card dbid="2206">HCShipSettlers2</card>
-        <card dbid="2236">HCShipFalconets3</card>
-        <card dbid="7613">DEHCPorfiriato</card>
         <card dbid="625">HCUnlockFactory</card>
         <card dbid="7626">DEHCLiberationMarch</card>
         <card dbid="7610">DEHCPlanVeracruz</card>
-        <card dbid="7867">DEHCIturbidePalace</card>
         <card dbid="7819">DEHCGulfOfMexicoTeam</card>
         <card dbid="2212">HCShipWoodCrates3</card>
         <card dbid="2211">HCShipWoodCrates2</card>
@@ -2514,7 +2507,7 @@
         <card dbid="7569">DEHCShipInsurgente1</card>
         <card dbid="2215">HCShipCoinCrates3</card>
         <card dbid="2223">HCShipFrigates</card>
-        <card dbid="2376">HCShipDragoons3</card>
+        <card dbid="2376">HCShipDragoons2</card>
         <card dbid="7619">DEHCGuerillaTactics</card>
         <card dbid="7040">DEHCShipSloops1</card>
         <card dbid="7574">DEHCShipEmboscador2</card>
@@ -2773,7 +2766,6 @@
       <tech x="6.0" y="1.0">HCShipCoveredWagons2</tech>
       <tech x="6.0" y="1.0">DEHCShipHaciendaWagon1</tech>
       <tech x="6.0" y="1.0">DEHCAlhondigaDeGranaditas</tech>
-      <tech x="6.0" y="3.0">DEHCShipMissionaries1</tech>
       <tech x="7.0" y="1.0">DEHCGeneralMexicans</tech>
       <tech x="7.0" y="5.0">HCXPAdvancedBalloon</tech>
       <tech x="7.0" y="5.0">HCShipBalloons</tech>
@@ -2803,7 +2795,6 @@
       <tech x="6.0" y="1.0">HCShipCoveredWagons2</tech>
       <tech x="6.0" y="1.0">DEHCShipHaciendaWagon1</tech>
       <tech x="6.0" y="1.0">DEHCAlhondigaDeGranaditas</tech>
-      <tech x="6.0" y="3.0">DEHCShipMissionaries1</tech>
       <tech x="7.0" y="1.0">DEHCGeneralMexicans</tech>
       <tech x="7.0" y="5.0">HCXPAdvancedBalloon</tech>
       <tech x="7.0" y="5.0">HCShipBalloons</tech>
@@ -2836,14 +2827,14 @@
       <tech x="1.0" y="7.0">DEHCMachetes</tech>
       <tech x="1.0" y="7.0">DEHCReservistas</tech>
       <tech x="2.5" y="1.0">DEHCShipEmboscador1</tech>
-      <tech x="2.5" y="3.0">DEHCShipSanBlasBattalion</tech>
       <tech x="2.5" y="4.0">DEHCShipSoldado1</tech>
       <tech x="2.5" y="5.0">DEHCShipChinaco1</tech>
       <tech x="2.5" y="5.0">HCShipDragoons1</tech>
-      <tech x="2.5" y="5.0">HCShipDragoons3</tech>
+      <tech x="2.5" y="5.0">HCShipDragoons2</tech>
       <tech x="4.7" y="4.1">DEHCShipChinaco3</tech>
       <tech x="4.8" y="4.2">DEHCShipChinaco2</tech>
       <tech x="4.9" y="4.3">DEHCShipChinaco4</tech>
+      <tech x="4.9" y="4.3">DEHCShipChinaco5</tech>
       <tech x="4.6" y="3.0">DEHCLeatherSoldiers</tech>
       <tech x="4.6" y="3.0">DEHCPresidialLancers</tech>
       <tech x="4.6" y="5.0">DEHCCavalryCombatMexican</tech>
@@ -2857,11 +2848,8 @@
       <tech x="5.3" y="5.0">DEHCPlanTuxtepec</tech>
       <tech x="6.7" y="1.0">HCShipFalconets1</tech>
       <tech x="6.7" y="2.0">HCShipFalconets2</tech>
-      <tech x="6.7" y="3.0">HCShipFalconets3</tech>
       <tech x="7.4" y="1.0">HCAdvancedArtillery</tech>
-      <tech x="7.4" y="3.0">HCXPShipMortarsTeam</tech>
       <tech x="7.4" y="4.0">HCShipCannons1</tech>
-      <tech x="7.4" y="7.0">DEHCShipCulverineMortar</tech>
     </obtainabletechs>
     <activetechs>
       <tech x="0.7" y="1.0">DEHCShipInsurgente1</tech>
@@ -2873,12 +2861,12 @@
       <tech x="1.0" y="7.0">DEHCMachetes</tech>
       <tech x="1.0" y="7.0">DEHCReservistas</tech>
       <tech x="2.5" y="1.0">DEHCShipEmboscador1</tech>
-      <tech x="2.5" y="3.0">DEHCShipSanBlasBattalion</tech>
       <tech x="2.5" y="4.0">DEHCShipSoldado1</tech>
       <tech x="2.5" y="5.0">DEHCShipChinaco1</tech>
       <tech x="2.5" y="5.0">HCShipDragoons1</tech>
-      <tech x="2.5" y="5.0">HCShipDragoons3</tech>
+      <tech x="2.5" y="5.0">HCShipDragoons2</tech>
       <tech x="3.9" y="1.0">DEHCShipChinaco4</tech>
+      <tech x="4.9" y="4.3">DEHCShipChinaco5</tech>
       <tech x="3.9" y="3.0">DEHCShipEmboscador2</tech>
       <tech x="3.9" y="4.0">DEHCShipChinaco2</tech>
       <tech x="4.6" y="3.0">DEHCLeatherSoldiers</tech>
@@ -2893,11 +2881,8 @@
       <tech x="5.3" y="5.0">DEHCPlanTuxtepec</tech>
       <tech x="6.7" y="1.0">HCShipFalconets1</tech>
       <tech x="6.7" y="2.0">HCShipFalconets2</tech>
-      <tech x="6.7" y="3.0">HCShipFalconets3</tech>
       <tech x="7.4" y="1.0">HCAdvancedArtillery</tech>
-      <tech x="7.4" y="3.0">HCXPShipMortarsTeam</tech>
       <tech x="7.4" y="4.0">HCShipCannons1</tech>
-      <tech x="7.4" y="7.0">DEHCShipCulverineMortar</tech>
     </activetechs>
     <validunits/>
     <units/>
@@ -2919,18 +2904,15 @@
     <rolloverstringid>25538</rolloverstringid>
     <obtainabletechs>
       <tech x="0.0" y="1.0">HCNativeLore</tech>
-      <tech x="0.0" y="1.0">DEHCIndianFriendshipMexican</tech>
       <tech x="0.0" y="2.0">HCNativeTreaties</tech>
       <tech x="0.0" y="3.0">HCNativeWarriors</tech>
       <tech x="0.9" y="5.0">HCXPBloodBrothers</tech>
       <tech x="0.0" y="5.0">HCAdvancedTradingPost</tech>
-      <tech x="0.0" y="5.0">DEHCIndependenceMovements</tech>
       <tech x="0.9" y="1.0">HCDuelingSchoolTeam</tech>
       <tech x="2.8" y="1.0">HCFrontierDefenses</tech>
       <tech x="2.5" y="2.0">HCPioneers</tech>
       <tech x="2.5" y="3.0">DEHCCathedralConstruction</tech>
       <tech x="2.5" y="3.0">DEHCHidalgoLand</tech>
-      <tech x="2.5" y="3.0">DEHCIturbidePalace</tech>
       <tech x="2.5" y="3.0">HCImprovedBuildings</tech>
       <tech x="3.9" y="5.0">HCHeavyFortificationsUS</tech>
       <tech x="3.2" y="3.0">HCAdvancedArsenal</tech>
@@ -2938,7 +2920,6 @@
       <tech x="3.9" y="1.0">DEHCPresidios</tech>
       <tech x="3.9" y="1.0">HCUnlockFort</tech>
       <tech x="3.9" y="1.0">DEHCChapultepecCastle</tech>
-      <tech x="3.9" y="2.0">DEHCCampecheFortifications</tech>
       <tech x="3.9" y="7.0">HCXPAssassins</tech>
       <tech x="4.6" y="1.0">HCXPShipSpies1</tech>
       <tech x="4.6" y="3.0">HCXPShipSpies2</tech>
@@ -2947,27 +2928,22 @@
       <tech x="6.0" y="5.0">DEHCAdvancedSaloon</tech>
       <tech x="6.7" y="3.0">HCAdvancedDock</tech>
       <tech x="7.4" y="1.0">HCUnlockFactory</tech>
-      <tech x="7.4" y="3.0">DEHCPorfiriato</tech>
-      <tech x="7.4" y="5.0">HCColonialEstancias</tech>
+      <tech x="7.4" y="3.0">HCXPIndustrialRevolution</tech>
       <tech x="5.3" y="5.0">DEHCBanderasMonumentales</tech>
       <tech x="4.6" y="3.0">DEHCLiberationMarch</tech>
       <tech x="4.6" y="3.0">DEHCSevenLaws</tech>
-      <tech x="4.6" y="3.0">DEHCNinosHeroes</tech>
     </obtainabletechs>
     <activetechs>
       <tech x="0.0" y="1.0">HCNativeLore</tech>
-      <tech x="0.0" y="1.0">DEHCIndianFriendshipMexican</tech>
       <tech x="0.0" y="2.0">HCNativeTreaties</tech>
       <tech x="0.0" y="3.0">HCNativeWarriors</tech>
       <tech x="0.9" y="5.0">HCXPBloodBrothers</tech>
       <tech x="0.0" y="5.0">HCAdvancedTradingPost</tech>
-      <tech x="0.0" y="5.0">DEHCIndependenceMovements</tech>
       <tech x="0.9" y="1.0">HCDuelingSchoolTeam</tech>
       <tech x="2.8" y="1.0">HCFrontierDefenses</tech>
       <tech x="2.5" y="2.0">HCPioneers</tech>
       <tech x="2.5" y="3.0">DEHCCathedralConstruction</tech>
       <tech x="2.5" y="3.0">DEHCHidalgoLand</tech>
-      <tech x="2.5" y="3.0">DEHCIturbidePalace</tech>
       <tech x="2.5" y="3.0">HCImprovedBuildings</tech>
       <tech x="3.9" y="5.0">HCHeavyFortificationsUS</tech>
       <tech x="3.2" y="3.0">HCAdvancedArsenal</tech>
@@ -2975,7 +2951,6 @@
       <tech x="3.9" y="1.0">DEHCPresidios</tech>
       <tech x="3.9" y="1.0">HCUnlockFort</tech>
       <tech x="3.9" y="1.0">DEHCChapultepecCastle</tech>
-      <tech x="3.9" y="2.0">DEHCCampecheFortifications</tech>
       <tech x="3.9" y="7.0">HCXPAssassins</tech>
       <tech x="4.6" y="1.0">HCXPShipSpies1</tech>
       <tech x="4.6" y="3.0">HCXPShipSpies2</tech>
@@ -2984,12 +2959,10 @@
       <tech x="6.0" y="5.0">DEHCAdvancedSaloon</tech>
       <tech x="6.7" y="3.0">HCAdvancedDock</tech>
       <tech x="7.4" y="1.0">HCUnlockFactory</tech>
-      <tech x="7.4" y="3.0">DEHCPorfiriato</tech>
-      <tech x="7.4" y="5.0">HCColonialEstancias</tech>
+      <tech x="7.4" y="3.0">HCXPIndustrialRevolution</tech>
       <tech x="5.3" y="5.0">DEHCBanderasMonumentales</tech>
       <tech x="4.6" y="3.0">DEHCLiberationMarch</tech>
       <tech x="4.6" y="3.0">DEHCSevenLaws</tech>
-      <tech x="4.6" y="3.0">DEHCNinosHeroes</tech>
     </activetechs>
     <validunits/>
     <units/>
@@ -3020,7 +2993,6 @@
       <tech x="3.4" y="1.0">HCIronmonger</tech>
       <tech x="3.4" y="3.0">HCSilversmith</tech>
       <tech x="3.4" y="5.0">DEHCMexicanMint</tech>
-      <tech x="4.3" y="3.0">HCSustainableAgriculture</tech>
       <tech x="4.3" y="5.0">HCRefrigeration</tech>
       <tech x="4.3" y="5.0">DEHCJalapenoPeppers</tech>
       <tech x="4.3" y="5.0">DEHCHabaneroPeppers</tech>
@@ -3028,12 +3000,10 @@
       <tech x="4.3" y="5.0">DEHCAltaCalifornia</tech>
       <tech x="4.3" y="5.0">DEHCNuevoMexico</tech>
       <tech x="6.1" y="1.0">HCFurrier</tech>
-      <tech x="6.1" y="3.0">HCSpiceTrade</tech>
       <tech x="6.1" y="3.0">DEHCChipotles</tech>
       <tech x="7.0" y="1.0">HCRumDistillery</tech>
       <tech x="7.0" y="2.0">HCCigarRoller</tech>
       <tech x="7.0" y="3.0">HCTextileMills</tech>
-      <tech x="5.3" y="5.0">DEHCRancheros</tech>
       <tech x="5.1" y="2.0">DEHCBarbacoa</tech>
     </obtainabletechs>
     <activetechs>
@@ -3047,7 +3017,6 @@
       <tech x="3.4" y="1.0">HCIronmonger</tech>
       <tech x="3.4" y="3.0">HCSilversmith</tech>
       <tech x="3.4" y="5.0">DEHCMexicanMint</tech>
-      <tech x="4.3" y="3.0">HCSustainableAgriculture</tech>
       <tech x="4.3" y="5.0">HCRefrigeration</tech>
       <tech x="4.3" y="5.0">DEHCJalapenoPeppers</tech>
       <tech x="4.3" y="5.0">DEHCHabaneroPeppers</tech>
@@ -3055,12 +3024,10 @@
       <tech x="4.3" y="5.0">DEHCAltaCalifornia</tech>
       <tech x="4.3" y="5.0">DEHCNuevoMexico</tech>
       <tech x="6.1" y="1.0">HCFurrier</tech>
-      <tech x="6.1" y="3.0">HCSpiceTrade</tech>
       <tech x="6.1" y="3.0">DEHCChipotles</tech>
       <tech x="7.0" y="1.0">HCRumDistillery</tech>
       <tech x="7.0" y="2.0">HCCigarRoller</tech>
       <tech x="7.0" y="3.0">HCTextileMills</tech>
-      <tech x="5.3" y="5.0">DEHCRancheros</tech>
       <tech x="5.1" y="2.0">DEHCBarbacoa</tech>
     </activetechs>
     <validunits/>
@@ -3083,12 +3050,10 @@
     <obtainabletechs>
       <tech x="1.3" y="1.0">DEHCShipFishingBoats1</tech>
       <tech x="1.3" y="1.0">DEHCShipFishingBoats2</tech>
-      <tech x="6.0" y="1.0">DEHCShipWhale</tech>
       <tech x="1.3" y="1.0">DEHCShipSloopsRepeat1</tech>
       <tech x="1.0" y="2.0">DEHCShipSloops1</tech>
       <tech x="1.0" y="3.0">HCCoastalDefensesTeam</tech>
-      <tech x="1.7" y="3.0">HCNavalGunners</tech>
-      <tech x="1.7" y="4.0">YPHCEuropeanCannons</tech>
+      <tech x="1.7" y="4.0">HCNavalGunners</tech>
       <tech x="3.6" y="1.0">DEHCMexicanStandoff</tech>
       <tech x="2.8" y="3.0">HCShipFrigates</tech>
       <tech x="2.4" y="4.0">HCNavalCombat</tech>
@@ -3103,18 +3068,15 @@
       <tech x="7.2" y="1.0">DEHCRenegadeComanche</tech>
       <tech x="7.2" y="3.0">DEHCRenegadeApache</tech>
       <tech x="5.3" y="5.0">DEHCTulancingoCuirassiers</tech>
-      <tech x="5.3" y="5.0">DEHCCriollos</tech>
       <tech x="0.9" y="3.0">DEHCGulfOfMexicoTeam</tech>
     </obtainabletechs>
     <activetechs>
       <tech x="1.3" y="1.0">DEHCShipFishingBoats1</tech>
       <tech x="1.3" y="1.0">DEHCShipFishingBoats2</tech>
-      <tech x="6.0" y="1.0">DEHCShipWhale</tech>
       <tech x="1.3" y="1.0">DEHCShipSloopsRepeat1</tech>
       <tech x="1.0" y="2.0">DEHCShipSloops1</tech>
       <tech x="1.0" y="3.0">HCCoastalDefensesTeam</tech>
-      <tech x="1.7" y="3.0">HCNavalGunners</tech>
-      <tech x="1.7" y="4.0">YPHCEuropeanCannons</tech>
+      <tech x="1.7" y="4.0">HCNavalGunners</tech>
       <tech x="3.6" y="1.0">DEHCMexicanStandoff</tech>
       <tech x="2.8" y="3.0">HCShipFrigates</tech>
       <tech x="2.4" y="4.0">HCNavalCombat</tech>
@@ -3129,7 +3091,6 @@
       <tech x="7.2" y="1.0">DEHCRenegadeComanche</tech>
       <tech x="7.2" y="3.0">DEHCRenegadeApache</tech>
       <tech x="5.3" y="5.0">DEHCTulancingoCuirassiers</tech>
-      <tech x="5.3" y="5.0">DEHCCriollos</tech>
       <tech x="0.9" y="3.0">DEHCGulfOfMexicoTeam</tech>
     </activetechs>
     <validunits/>

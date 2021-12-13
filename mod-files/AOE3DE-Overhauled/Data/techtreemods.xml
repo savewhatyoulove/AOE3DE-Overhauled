@@ -17240,7 +17240,10 @@
     <flag>HomeCity</flag>
     <effects>
       <effect type="TextOutputTechName">110130</effect>
-      <effect type="Data2" action="Gather" amount="1.20" subtype="WorkRateSpecific" resource="Food" unittype="deHacienda" relativity="BasePercent">
+      <effect tech="deCardDeliverCreateShadow" type="Data" amount="4.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofFood" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.10" subtype="WorkRateSpecific" resource="Food" unittype="deHacienda" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
     </effects>
@@ -17373,7 +17376,7 @@
       <effect mergeMode='remove' type="TechStatus" status="active">DEVeteranEmboscadors</effect>
     </effects>
   </tech>
-  <tech name="DEHCFedMXTabascoFruits" type="Normal">
+  <tech mergeMode='replace' name="DEHCFedMXTabascoFruits" type="Normal">
     <dbid>7531</dbid>
     <displaynameid>112368</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
@@ -17623,13 +17626,14 @@
   <tech mergeMode='replace' name="DEHCShipEmboscador2" type="Normal">
     <dbid>7574</dbid>
     <displaynameid>112234</displaynameid>
+    <cost resourcetype="Food">200.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\art\units\infantry_ranged\emboscador\hc_emboscador_icon.png</icon>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="deEmboscador" relativity="Absolute">
+      <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="deEmboscador" relativity="Absolute">
         <target type="Player"/>
       </effect>
     </effects>
@@ -17640,7 +17644,7 @@
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\art\units\infantry_ranged\emboscador\hc_emboscador_icon.png</icon>
+    <icon>resources\images\icons\techs\mexicans\infinite_emboscador.png</icon>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="deEmboscador" relativity="Absolute">
@@ -17663,6 +17667,36 @@
       </effect>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DEHCShipChinaco4" type="Normal">
+    <dbid>7812</dbid>
+    <displaynameid>113022</displaynameid>
+    <cost resourcetype="Food">300.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\cavalry\chinaco\hc_chinaco_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="deChinaco" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipChinaco5" type="Normal">
+    <dbid>9688</dbid>
+    <displaynameid>270127</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\cavalry\chinaco\hc_chinaco_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="deChinaco" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+
   <tech mergeMode='replace' name="DEHCShipLosColoradosBattalion" type="Normal">
     <dbid>7580</dbid>
     <displaynameid>112242</displaynameid>
@@ -17681,4 +17715,183 @@
       </effect>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DEHCSanMarcosFair" type="Normal">
+    <dbid>7822</dbid>
+    <displaynameid>113041</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\mexicans\san_marcos_fair.png</icon>
+    <rollovertextid>113040</rollovertextid>
+    <flag>HomeCity</flag>
+    <flag>DEHCCardDynamicCount</flag>
+    <flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</flag>
+    <effects>
+      <effect type="SetOnShipmentSentTech" amount="1.00">DEShipCowsMexicans</effect>
+      <effect type="Data" amount="1.20" subtype="Market" component="SellFactorSpecific" resource="Food" relativity="Percent">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech name="DEShipCowsMexicans" type="Normal">
+    <dbid>9687</dbid>
+    <researchpoints>0.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <flag>YPInfiniteTech</flag>
+    <flag>CheckLandHCGatherPoint</flag>
+    <flag>DECheckBuildLimit</flag>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data2" amount="1.00" subtype="FreeHomeCityUnitToGatherPoint" unittype="Cow" gpunittype="deHacienda" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCPresidios" type="Normal">
+    <effects>
+      <effect mergeMode='remove' type="CommandAdd" proto="Outpost" page="6" column="-1">
+        <target type="ProtoUnit">deGeneral</target>
+      </effect>
+      <effect mergeMode='remove' type="CommandAdd" proto="Outpost" page="6" column="-1">
+        <target type="ProtoUnit">deGeneral2</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">FortFrontier</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" action="Build" amount="1.00" subtype="WorkRate" unittype="Outpost" relativity="Assign">
+        <target type="ProtoUnit">deGeneral</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" action="Build" amount="1.00" subtype="WorkRate" unittype="Outpost" relativity="Assign">
+        <target type="ProtoUnit">deGeneral2</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCChipotles" type="Normal">
+    <dbid>7618</dbid>
+    <displaynameid>112282</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\mexicans\chipotle_tactics.png</icon>
+    <rollovertextid>112281</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Mill" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="AbstractBerryBush" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Herdable" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="TextOutput">41897</effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="ypBerryBuilding" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.10" subtype="WorkRateSpecific" resource="Food" unittype="ypRicePaddy" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.10" subtype="WorkRateSpecific" resource="Food" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.10" subtype="WorkRateSpecific" resource="Food" unittype="deHacienda" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="AutoGatherFood" amount="1.10" subtype="WorkRate" unittype="Food" relativity="BasePercent">
+        <target type="ProtoUnit">deHacienda</target>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech name="DEHCMexicanMint" type="Normal">
+    <effects>
+      <effect mergeMode='remove' type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="CrateofCoinLarge" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect mergeMode='add' tech="deDefaultCratesShadow" type="Data" amount="3.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofCoin" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEPoliticianFederalMXChiapas" type="Normal">
+    <dbid>7503</dbid>
+    <displaynameid>112307</displaynameid>
+    <cost resourcetype="Food">800.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_ii.png</icon>
+    <rollovertextid>112306</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age1</effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deMilitaryWagon" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="AddHomeCityCard" tech="DEHCFedMXTzotzilUprising" maxcount="1" ageprereq="1" unitcount="0" infiniteinlastage="0"/>
+      <effect type="AddHomeCityCard" tech="DEHCFedMXMayaCrops" maxcount="1" ageprereq="1" unitcount="400" infiniteinlastage="0"/>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCShipFishingBoats2" type="Normal">
+    <dbid>7821</dbid>
+    <displaynameid>113039</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\naval\fishing_ship\fishing_ship_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="FishingBoat" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCSpanishSympathizers" type="Normal">
+    <dbid>7627</dbid>
+    <displaynameid>112212</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <cost resourcetype="Food">750.0000</cost>
+    <cost resourcetype="Wood">750.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\mexicans\spanish_sympathizers.png</icon>
+    <flag>HomeCity</flag>
+    <rollovertextid>112705</rollovertextid>
+    <effects>
+      <effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="ypConsulateGarrochista" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech mergeMode='replace' name="DEHCBarbacoa" type="Normal">
+    <dbid>7864</dbid>
+    <displaynameid>113038</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\mexicans\barbacoa.png</icon>
+    <rollovertextid>113037</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="0.90" subtype="Cost" resource="Food" relativity="BasePercent">
+        <target type="ProtoUnit">Cow</target>
+      </effect>
+      <effect type="Data" action="GatherHacienda" amount="1.25" subtype="InventoryRate" unittype="deHacienda" relativity="BasePercent">
+        <target type="ProtoUnit">Cow</target>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+
 </techtreemods>
