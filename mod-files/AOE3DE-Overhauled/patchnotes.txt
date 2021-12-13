@@ -1155,6 +1155,16 @@ Unit Changes:
 
 Insurgente: Now has access to Guard and Imperial upgrades.
 
+Chinaco: 1.34x AbstractCavalry changed to 1.34x AbstractHeavyCavalry
+
+Salteador Reworked:
+-- HP: Reduced to 100 from 110
+-- Melee: Reduced to 8.0 from 8.5
+-- No longer has access to stealth
+-- LOS reduced to 22 from 24
+-- Range reduced to 16 from 17
+-- Ranged attack increased to 20 from 17; 2x AbstractHeavyInfantry removed.
+
 Shipments:
 -- Algondiga De Granaditas (1 Hacienda Wagon + 2 Vills) now delivers 3 vills. Moved to the Fortress Age from Discovery.
 -- 1 Hacienda Wagon is now INFINITE. Moved to commerce age from Discovery. 
@@ -1166,7 +1176,7 @@ Shipments:
 -- Presidial Lancers Reworked: Now provides +20% ATK to AbstractLancer. Moved to the Fortress Age from Industrial
 -- Queen's Dragoons Removed
 -- Ambuscade Reworked: Now provides Salteadors 1.25x AbstractVillager
--- Leather Soldiers Reworked: Now provides +10% armor (1.1x, not a flat +10) to all Infantry and Cavalry. Moved to Commerce Age from Fortress. 
+-- Leather Soldiers Reworked: Now provides +10% armor (1.1x, not a flat +10) to all Infantry and Cavalry. Moved to Discovery Age from Fortress. 
 
 Federal States:
 -- Fortified Haciendas no longer unlocks a ranged attack for Haciendas. Instead, it improves their HP by +25%. 
@@ -1186,3 +1196,21 @@ Federal States:
 -- Liberty Dragoon Regiment Removed
 -- All Plan shipments except for Salteadors --> Soldados have been removed
 -- Charreada and Cantinas (Haciendas spawn Chinacos and Comancheroes) have been removed.
+-- 2 Falconets (III) removed.
+-- TEAM 2 Mortars (IV) removed.
+-- 2 Culverins + 2 Mortars removed.
+-- Independence Movements removed.
+-- Land of Hidalgo moved up to the Fortress Age from Industrial
+-- Palace of Iturbide replaced with Town Militia.
+-- Campeche Fortifications removed.
+-- Colonial Estancias removed.
+-- Porfiratio replaced with Industrial Revolution.
+-- Presidios no longer enables Generals to build outposts nor increases Fort build limit
+-- Habaneros buffed to +250% gather rate from Haciendas for 60 seconds, from +100%
+-- Sustainable Agriculture and Spice trade removed.
+-- Chipotle Tactics Reworked: Now a flat +10% to Food gather rates.
+-- Mexican Mint now delivers 300 Coin instead of 500.
+-- 17 Fishing Boats (IV) reduced to 12.
+-- 1 Whale removed.
+-- Criollos removed.
+-- European Cannons removed. 
