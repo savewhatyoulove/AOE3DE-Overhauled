@@ -18075,5 +18075,27 @@
       <effect type="AddHomeCityCard" tech="DEHCFedMXQueretaroHaciendas" maxcount="1" ageprereq="1" unitcount="1" infiniteinlastage="0"/>
     </effects>
   </tech>
+  <tech mergeMode='replace' name="DEPoliticianFederalMXSonora" type="Normal">
+    <dbid>7506</dbid>
+    <displaynameid>112313</displaynameid>
+    <cost resourcetype="Food">1200.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>105.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iii.png</icon>
+    <rollovertextid>270129</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</flag>
+    <effects>
+      <effect type="SetAge">Age2</effect>
+      <effect type="Data2" amount="6.00" subtype="FreeHomeCityUnitResource" unittype="Cow" resource="Food" resvalue="150.00" relativity="Absolute">
+        <target type="Player"/>
+      </effect>
+      <effect type="AddHomeCityCard" tech="DEHCFedMXVaqueros" maxcount="1" ageprereq="2" unitcount="8" infiniteinlastage="0"/>
+      <effect type="AddHomeCityCard" tech="DEHCFedMXSonoraValleys" maxcount="1" ageprereq="2" unitcount="0" infiniteinlastage="0"/>
+    </effects>
+  </tech>
 
 </techtreemods>

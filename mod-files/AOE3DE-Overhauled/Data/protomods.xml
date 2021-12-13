@@ -18189,7 +18189,6 @@
     <command page="9" column="0">deHaciendaFood</command>
     <command page="9" column="1">deHaciendaCoin</command>
     <command page="9" column="2">deHaciendaWood</command>
-    <command page="9" column="3">deHaciendaCow</command>
     <command page="19" column="3">deSellHacienda</command>
     <tactics>hacienda.tactics</tactics>
     <protoaction>
