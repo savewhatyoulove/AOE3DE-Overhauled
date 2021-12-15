@@ -5,6 +5,13 @@
   <depoliticianfederalmxdurango portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_durango.png" hccardtech1="DEHCFedMXWoodcrafting" hccardtech2="DEHCFedMXCerroDeMercado"/>
   <depoliticianfederalmxtlaxcala portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_tlaxcala.png" hccardtech1="DEHCFedMXQueretaroHaciendas" hccardtech2="DEHCFedMXTlaxcalaTextiles"/>
   <depoliticianfederalmxqueretaro portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_queretaro.png" hccardtech1="DEHCFedMXArteagaReforms" hccardtech2="HCDuelingSchoolTeam"/>
+  <depoliticianfederalmxsonora portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_sonora.png" hccardtech1="DEHCBarbacoa" hccardtech2="DEHCFedMXSonoraRanching"/>
+  <depoliticianfederalmxcoahuila portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_coahuila.png" hccardtech1="DEHCFedMXCoahuilaMining" hccardtech2="DEHCFedMXAlamoMiners"/>
+  <depoliticianfederalmxsinaloa portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_sinaloa.png" hccardtech1="DEHCFedMXFrenchFusiliers" hccardtech2="DEHCFedMXHirePrivateers"/>
+  <depoliticianfederalmxsanluispotosi portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_san_luis_potosi.png" hccardtech1="DEHCFedMXSanLuisPatriots" hccardtech2="DEHCFedMXMustangs"/>
+  <depoliticianfederalmxguerrero portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_guerrero.png" hccardtech1="DEHCFedMXWokouRonin" hccardtech2="DEHCFedMXHandInfantryCombat"/>
+  <depoliticianfederalmxtabasco portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_tabasco.png" hccardtech1="DEHCFedMXHaciendas" hccardtech2="DEHCFedMXTabascoFruits"/>
+  <depoliticianfederalmxguanajuato portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_guanajuato.png" hccardtech1="DEHCFedMXMissionaryCombat" hccardtech2="DEHCFedMXOurLadyOfLight"/>
 
 
 </politicianmods>

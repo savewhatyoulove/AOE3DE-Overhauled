@@ -1057,7 +1057,7 @@
       </unitcounts>
     </multipleblocktrain>
   </civ>
-  <civ>
+  <civ mergeMode='replace'>
     <name>DEMexicans</name>
     <main>1</main>
     <statsid>MX</statsid>

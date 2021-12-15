@@ -1153,11 +1153,29 @@ Hacienda: Obscenely OP, nerfed to be a more standard farm building.
 -- No longer garrisons villagers
 -- No longer acts as a military or economic shipment point
 
+Cathedral: Gimmicky and not used often.
+-- HP: Reduced to 4000 from 5000
+-- LOS: Reduced to 12 from 34
+-- No longer has building heal aura
+-- XP Trickle: Increased to 2.5 XP/s from 1.0
+
 Unit Changes:
 
 Insurgente: Now has access to Guard and Imperial upgrades.
 
 Chinaco: 1.34x AbstractCavalry changed to 1.34x AbstractHeavyCavalry
+
+Age Up Changes:
+-- Chipas now sends 3 Maya Holcan Javelineers instead of 1 military wagon
+-- Durango now ships 400 Wood instead of 1 military wagon
+-- Michoacan now ships 1 Sloop instead of 1 military wagon
+-- Queretaro now additionally ships 1 Arsenal Wagon. Cost increased to 900 Food. 
+-- Tlaxcala now ships 1 Hacienda Wagon instead of 1 military wagon. 
+-- Sonora now ships 7 Semi-Fattened Cows instead of 500 Wood.
+-- Coahuila now ships 1 Coal Prospector Wagon + 200 Gold instead of 500 Wood. 
+-- San Luis Potosi now delivers 4 Chinacos instead of 500 Gold. 
+-- Tabasco now ships 1 Covered Wagon instead of 500 Gold.
+-- Guerrero now ships 5 Wokou Ronin instead of 5 Soldados.
 
 Salteador Reworked:
 -- HP: Reduced to 100 from 110
@@ -1168,45 +1186,50 @@ Salteador Reworked:
 -- Ranged attack increased to 20 from 17; 2x AbstractHeavyInfantry removed.
 
 Shipments:
--- Algondiga De Granaditas (1 Hacienda Wagon + 2 Vills) now delivers 3 vills. Moved to the Fortress Age from Discovery.
+-- Algondiga De Granaditas (1 Hacienda Wagon + 2 Vills) now delivers 4 vills. Moved to the Fortress Age from Discovery.
 -- 1 Hacienda Wagon is now INFINITE. Moved to commerce age from Discovery. 
 -- Food Crates reduced to 500/600/900/1500 Food (from 600/700/1000/1600)
 -- Wood Crates reduced to 200/400/500/800/1300 Wood (from 300/600/700/1000/1600)
--- Machetes Reworked: Now provides +20% melee ATK to Insurgentes and Villagers.
+-- Machetes Reworked: Now provides +15% melee ATK to Insurgentes and Villagers.
 -- Reservistas Reworked: Now provides +15% Insurgente HP and -15% Insurgente train time. 
 -- Caballeros no longer increases Chinaco attack vs. Heavy Infantry.
--- Presidial Lancers Reworked: Now provides +20% ATK to AbstractLancer. Moved to the Fortress Age from Industrial
--- Queen's Dragoons Removed
+-- Presidial Lancers Reworked: Now provides +15% ATK to AbstractLancer. Moved to the Fortress Age from Industrial
 -- Ambuscade Reworked: Now provides Salteadors 1.25x AbstractVillager
 -- Leather Soldiers Reworked: Now provides +10% armor (1.1x, not a flat +10) to all Infantry and Cavalry. Moved to Discovery Age from Fortress. 
--- Cavalry Combat now affects only Lancer Cavalry and Dragoons. Dragoons get +20% HP/ATK. Shipment moved to Age IV from 3.
+-- Cavalry Combat moved to Age IV from III. Now only affects Hand Cavalry.
+-- Land of Hidalgo moved up to the Fortress Age from Industrial
+-- Palace of Iturbide replaced with Town Militia.
+-- Porfiratio replaced with Industrial Revolution.
+-- Presidios no longer enables Generals to build outposts nor increases Fort build limit
+-- Habaneros buffed to +250% gather rate from Haciendas for 60 seconds, from +100%
+-- Queen's Dragoons Reworked: Now provides +15% HP/ATK to Dragoons. Moved to the Industrial Age from Discovery.
+-- Refurbished Firearms Mortar Attack Range increased to 15 from 14; animation delay multiplier nerfed to 0.45 from 0.18
+-- Chipotle Tactics Reworked: Now a flat +10% to Food gather rates.
+-- Mexican Mint now delivers 300 Coin instead of 500.
+-- 17 Fishing Boats (IV) reduced to 12.
+-- Independence Movements removed. (will add back in once I fix revolts)
+-- Liberation March now adds a flat +0.25 speed to all Infantry/Cavalry (instead of +5% speed)
 -- Pinatas removed from Mexico
 -- Liberty Dragoon Regiment Removed
 -- All Plan shipments except for Salteadors --> Soldados have been removed
 -- Charreada and Cantinas (Haciendas spawn Chinacos and Comancheroes) have been removed.
 -- 2 Falconets (III) removed.
--- TEAM 2 Mortars (IV) removed.
--- 2 Culverins + 2 Mortars removed.
--- Independence Movements removed.
--- Land of Hidalgo moved up to the Fortress Age from Industrial
--- Palace of Iturbide replaced with Town Militia.
--- Campeche Fortifications removed.
 -- Colonial Estancias removed.
--- Porfiratio replaced with Industrial Revolution.
--- Presidios no longer enables Generals to build outposts nor increases Fort build limit
--- Habaneros buffed to +250% gather rate from Haciendas for 60 seconds, from +100%
+-- Campeche Fortifications removed.
 -- Sustainable Agriculture and Spice trade removed.
--- Chipotle Tactics Reworked: Now a flat +10% to Food gather rates.
--- Mexican Mint now delivers 300 Coin instead of 500.
--- 17 Fishing Boats (IV) reduced to 12.
 -- 1 Whale removed.
 -- Criollos removed.
+-- 2 Culverins + 2 Mortars removed.
 -- European Cannons removed. 
--- Refurbished Firearms Mortar Attack Range increased to 15 from 14; animation delay multiplier nerfed to 0.45 from 0.18
--- Mariachi now lasts 45 seconds (up from 30). Now affects Buildings instead of MilitaryBuilding. Building Work Rate improvement reduced from 500% to 125%.
+-- Ironmonger removed
+-- Copper Canyon removed
+-- Stockyards added.
+-- Mariachi Removed
+-- Mestizos added as a regular shipment (I). Allies you with the Jesuits and unlocks their technologies. 
+-- Sonora Valleys added as a regular shipment (II). Provides +20% yield rate to ALL natural resources. (might buff to 20%)
 
 Federal States:
--- Fortified Haciendas no longer unlocks a ranged attack for Haciendas. Instead, it improves their HP by +25%. 
+-- Fortified Haciendas removed.
 -- Cerro De Mercado now only deposits 250 Gold instead of 350 (exchange rate unchanged).
 -- Michoacan Fishermen now only delivers 1 Dock Wagon instead of 2
 -- Colegio de San Nicolas Reworked. Now provides +100% XP income from Trading Posts and +20% Ship XP Build Bounty
@@ -1217,16 +1240,16 @@ Federal States:
 -- Sonora Cuatreros now delivers 7 Cuatreros (down from 8) with no other effects.
 -- Empresario Contracts buffed to -20% Villager train time from -15%
 -- San Luis Patriots no longer reduces Chinaco train time.
--- Tonalo Ceramics buffed to +30% hacienda gold gather rate
+-- Tonalo Ceramics buffed to +25% hacienda gold gather rate
+-- Barbacoa is now part of Sonora. Now ships Big Benny and increases Villager gather rate on livestock by 2x.
+-- Coahuila Mining added. Increases Mining/Yield rates of villagers by +30% each
+-- Tsunenaga's Samurai added to Guerrero: Ships 11 Wokou Ronin. Can be sent twice. Costs 1000 Gold.
+-- Hand Infantry Combat added to Guerrero: Increases AbstractHandInfantry ATK/HP by +15%
 
 TODO: 
-update reservistas icon to be a gold border.
-update leather soldiers icon to be a gold border
-update observers icon to be a gold border
-update guerilla tactics icon to be a gold border
 update Chapultec Castle to do something that doesn't suck
 update 7 laws to do something that doesn't suck
 update ninos heroes to do something that doesn't suck
-update Chipotle Tactics icon to have a gold border
-update kabd grab to be TEAM land grab
-remove copper canyon
+update kabd grab to be TEAM land grab (need to figure out stats)
+nerf native apache/comanche/navajo shipments.
+

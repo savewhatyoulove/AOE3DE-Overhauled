@@ -850,7 +850,7 @@
     <allowduringnorush>1</allowduringnorush>
     <displayplacementruleserrors>1</displayplacementruleserrors>
   </power>
-  <power name="deAbilityInspiringFlag2" type="TempUnit">
+  <!-- <power name="deAbilityInspiringFlag2" type="TempUnit">
     <displaynameid>110177</displaynameid>
     <rolloverid>110178</rolloverid>
     <icon>resources\images\icons\abilities\ability_old_hickory.png</icon>
@@ -861,7 +861,7 @@
     <rangeindicatorprotoid radius="24.0" indicatorcount="16" speed="0.6">PowerRanger</rangeindicatorprotoid>
     <allowduringnorush>1</allowduringnorush>
     <displayplacementruleserrors>1</displayplacementruleserrors>
-  </power>
+  </power> -->
   <power name="deChargeAbilityBullsEye" type="GeneralEffect">
     <displaynameid>110470</displaynameid>
     <rolloverid>110636</rolloverid>
@@ -1582,12 +1582,34 @@
   <power name="dePowerMariachi" type="TeamEffect">
     <timerrolloverid>113073</timerrolloverid>
     <minimapeventtime sendalertto="none">1</minimapeventtime>
-    <activetime>45</activetime>
-    <effect type="MaximumVelocity" relativity="BasePercent" amount="1.1">
-      <target type="ProtoUnit">Unit</target>
+    <activetime>30</activetime>
+    <effect type="WorkRateSpecific" action="Gather" unittype="Plantation" resource="Gold" relativity="BasePercent" amount="3.5">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="TextOutput">44361</effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="Farm" resource="Food" relativity="BasePercent" amount="3.5">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="Mill" resource="Food" relativity="BasePercent" amount="3.5">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="ypRicePaddy" resource="Food" relativity="BasePercent" amount="3.5">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="ypRicePaddy" resource="Gold" relativity="BasePercent" amount="3.5">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deField" resource="Food" relativity="BasePercent" amount="3.5">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deField" resource="Gold" relativity="BasePercent" amount="3.5">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Food" relativity="BasePercent" amount="3.5">
+      <target type="ProtoUnit">AbstractVillager</target>
     </effect>
-    <effect type="BuildingWorkRate" relativity="BasePercent" amount="1.25">
-      <target type="ProtoUnit">Building</target>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Gold" relativity="BasePercent" amount="3.5">
+      <target type="ProtoUnit">AbstractVillager</target>
     </effect>
     <placement forceonmap="1" ally="">full</placement>
     <soundset type="StartSound" listenertype="All">DEPowerMXMariachi</soundset>

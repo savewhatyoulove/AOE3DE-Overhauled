@@ -1627,13 +1627,33 @@
   </protounitcommand>
   <protounitcommand>
     <dbid>183</dbid>
-    <name>deConscriptGunners</name>
-    <icon>resources\images\icons\techs\africans\conscript_levied_gunners.png</icon>
-    <spawncommand/>
-    <unittype>deGunnerLevy</unittype>
-    <amount>5</amount>
-    <associatedtech>DEConscriptGunners</associatedtech>
-    <rollovertextid>270070</rollovertextid>
+    <name>deKanchaFood</name>
+    <icon>resources\images\icons\command\generate_food_off.png</icon>
+    <activeicon>resources\images\icons\command\generate_food_on.png</activeicon>
+    <disabledicon>resources\images\icons\command\generate_food_off.png</disabledicon>
+    <rollovertextid>80586</rollovertextid>
+    <activerollovertextid>80589</activerollovertextid>
+    <command>unitSetTactic("KanchaFood")</command>
+  </protounitcommand>
+  <protounitcommand>
+    <dbid>184</dbid>
+    <name>deKanchaWood</name>
+    <icon>resources\images\icons\command\generate_wood_off.png</icon>
+    <activeicon>resources\images\icons\command\generate_wood_on.png</activeicon>
+    <disabledicon>resources\images\icons\command\generate_wood_off.png</disabledicon>
+    <rollovertextid>80587</rollovertextid>
+    <activerollovertextid>80590</activerollovertextid>
+    <command>unitSetTactic("KanchaWood")</command>
+  </protounitcommand>
+  <protounitcommand>
+    <dbid>185</dbid>
+    <name>deKanchaGold</name>
+    <icon>resources\images\icons\command\generate_coin_off.png</icon>
+    <activeicon>resources\images\icons\command\generate_coin_on.png</activeicon>
+    <disabledicon>resources\images\icons\command\generate_coin_off.png</disabledicon>
+    <rollovertextid>80588</rollovertextid>
+    <activerollovertextid>80591</activerollovertextid>
+    <command>unitSetTactic("KanchaGold")</command>
   </protounitcommand>
   <protounitcommand>
     <dbid>186</dbid>
@@ -1664,6 +1684,53 @@
     <rollovertextid>112070</rollovertextid>
     <activerollovertextid>112071</activerollovertextid>
     <command>unitSetTactic("HaciendaCoin")</command>
+  </protounitcommand>
+  <protounitcommand>
+    <dbid>189</dbid>
+    <name>deHaciendaCow</name>
+    <icon>resources\images\icons\command\hacienda_cow.png</icon>
+    <activeicon>resources\images\icons\command\hacienda_cow_on.png</activeicon>
+    <disabledicon>resources\images\icons\command\hacienda_cow.png</disabledicon>
+    <rollovertextid>112072</rollovertextid>
+    <activerollovertextid>112073</activerollovertextid>
+    <command>unitSetTactic("HaciendaCow")</command>
+  </protounitcommand>
+  <protounitcommand>
+    <dbid>190</dbid>
+    <name>deHaciendaSettler</name>
+    <icon>resources\images\icons\command\hacienda_settler.png</icon>
+    <activeicon>resources\images\icons\command\hacienda_settler_on.png</activeicon>
+    <disabledicon>resources\images\icons\command\hacienda_settler.png</disabledicon>
+    <rollovertextid>112074</rollovertextid>
+    <activerollovertextid>112075</activerollovertextid>
+    <command>unitSetTactic("HaciendaSettler")</command>
+  </protounitcommand>
+  <protounitcommand>
+    <dbid>191</dbid>
+    <name>deHaciendaComanchero</name>
+    <icon>resources\images\icons\command\hacienda_vaquero.png</icon>
+    <activeicon>resources\images\icons\command\hacienda_vaquero_on.png</activeicon>
+    <disabledicon>resources\images\icons\command\hacienda_vaquero.png</disabledicon>
+    <rollovertextid>112076</rollovertextid>
+    <activerollovertextid>112077</activerollovertextid>
+    <command>unitSetTactic("HaciendaComanchero")</command>
+  </protounitcommand>
+  <protounitcommand>
+    <dbid>192</dbid>
+    <name>deHaciendaChinaco</name>
+    <icon>resources\images\icons\command\hacienda_chinaco.png</icon>
+    <activeicon>resources\images\icons\command\hacienda_chinaco_on.png</activeicon>
+    <disabledicon>resources\images\icons\command\hacienda_chinaco.png</disabledicon>
+    <rollovertextid>112078</rollovertextid>
+    <activerollovertextid>112079</activerollovertextid>
+    <command>unitSetTactic("HaciendaChinaco")</command>
+  </protounitcommand>
+  <protounitcommand>
+    <dbid>193</dbid>
+    <name>deBuildingGarrisonMode</name>
+    <icon>resources\images\icons\command\building_garrison_mode.png</icon>
+    <command>uiToggleGarrisonMode</command>
+    <rollovertextid>112215</rollovertextid>
   </protounitcommand>
   <protounitcommand>
     <dbid>194</dbid>
@@ -1711,6 +1778,16 @@
     <rollovertextid>113143</rollovertextid>
     <activerollovertextid>113144</activerollovertextid>
     <command>unitSetTactic("HaciendaWood")</command>
+  </protounitcommand>
+  <protounitcommand>
+    <dbid>199</dbid>
+    <name>deConscriptGunners</name>
+    <icon>resources\images\icons\techs\africans\conscript_levied_gunners.png</icon>
+    <spawncommand/>
+    <unittype>deGunnerLevy</unittype>
+    <amount>5</amount>
+    <associatedtech>DEConscriptGunners</associatedtech>
+    <rollovertextid>270070</rollovertextid>
   </protounitcommand>
 
 </protounitcommands>

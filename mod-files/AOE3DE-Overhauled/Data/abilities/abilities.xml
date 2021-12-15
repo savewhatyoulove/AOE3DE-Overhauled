@@ -506,7 +506,7 @@
   <degeneral>
     <ability>PowerSharpshooter<rof>60</rof></ability>
     <ability>deAbilityInspiringFlag<tech>deGeneralInspiringFlag</tech><rof>60</rof><donotforcestop>true</donotforcestop></ability>
-    <ability>deAbilityInspiringFlag2<tech>DEHCFedLincolnLand</tech><rof>60</rof><donotforcestop>true</donotforcestop></ability>
+    <!--   <ability>deAbilityInspiringFlag2<tech>DEHCFedLincolnLand</tech><rof>60</rof><donotforcestop>true</donotforcestop></ability> -->
     <ability>PowerBalloon<tech>deEnableBalloonPower</tech><rof>240</rof></ability>
     <ability>PowerLOS<tech>DESpyglassEnableShadow</tech><rof>90</rof></ability>
     <ability>deChargeAbilityCarbine<tech>deGeneralChargeCarbine</tech><bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>

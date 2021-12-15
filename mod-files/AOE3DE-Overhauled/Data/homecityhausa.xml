@@ -824,7 +824,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>1</age>
+      <age>0</age>
       <displayunitcount>2</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
@@ -833,7 +833,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>3</age>
+      <age>1</age>
       <displayunitcount>4</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>

@@ -119,6 +119,9 @@
   </unit>
   <unit id="391" name="FortFrontier">
     <train mergeMode='remove' row="0" page="0" column="7">deUSCavalry</train>
+    <train mergeMode='remove' row="0" page="0" column="9">Falconet</train>
+    <train mergeMode='remove' row="0" page="0" column="9">OrganGun</train>
+    <train mergeMode='remove' row="0" page="0" column="9">ypHandMortar</train>
     <train row="0" page="0" column="5">deSpurRider</train>
   </unit>
   <unit id="1745" name="deSteamer">
@@ -5461,6 +5464,9 @@
       <rate type="deFurTrade">0.720000</rate>
       <rate type="AbstractInfiniteCrate">8.000000</rate>
       <rate type="deTorpBush2">0.600000</rate>
+      <rate type="deHacienda" resource="Food">0.500000</rate>
+      <rate type="deHacienda" resource="Gold">0.340000</rate>
+      <rate type="deHacienda" resource="Wood">0.750000</rate>
     </protoaction>
     <protoaction>
       <name>HandAttack</name>
@@ -5865,6 +5871,7 @@
     </protoaction>
   </unit> -->
   <unit id="294" name="TownCenter">
+    <train mergeMode='add' row="0" page="0" column="2">Miner</train>
     <command mergeMode='remove' page="0" column="2">deConscriptBowmen</command>
     <command mergeMode='add' page="0" column="3">deConscriptGunners</command>
   </unit>
@@ -9210,7 +9217,7 @@
       <rof>3.000000</rof>
     </protoaction>
   </unit>
-  <unit id="2994" name="deInspiringFlag2">
+  <!-- <unit id="2994" name="deInspiringFlag2">
     <dbid>9694</dbid>
     <displaynameid>110179</displaynameid>
     <editornameid>110180</editornameid>
@@ -9245,8 +9252,8 @@
     <flag>NeverCountDeathAsLoss</flag>
     <flag>DoNotDragSelectWithUnits</flag>
     <tactics>inspiringflag.tactics</tactics>
-  </unit>
-  <unit id="2995" name="deGeneral2">
+  </unit> -->
+  <!-- <unit id="2995" name="deGeneral2">
     <dbid>9695</dbid>
     <displaynameid>260049</displaynameid>
     <editornameid>110070</editornameid>
@@ -9389,7 +9396,7 @@
       <maxrange>16.000000</maxrange>
       <rof>3.000000</rof>
     </protoaction>
-  </unit>
+  </unit>-->
   <unit id="2996" name="deSpurRider">
     <dbid>9696</dbid>
     <displaynameid>260018</displaynameid>
@@ -17954,144 +17961,104 @@
       <damageflags>Enemy</damageflags>
     </protoaction>
   </unit>
-  <unit id="2131" name="deNatHolcanJavelineer">
-    <dbid>2706</dbid>
-    <displaynameid>112916</displaynameid>
-    <editornameid>112917</editornameid>
-    <populationcount>0</populationcount>
-    <subciv>Maya</subciv>
-    <obstructionradiusx>0.4900</obstructionradiusx>
-    <obstructionradiusz>0.4900</obstructionradiusz>
-    <formationcategory>Body</formationcategory>
-    <maxvelocity>4.5000</maxvelocity>
-    <maxrunvelocity>6.5000</maxrunvelocity>
+  <unit mergeMode='replace' id="2084" name="deCathedral">
+    <dbid>2659</dbid>
+    <displaynameid>112062</displaynameid>
+    <obstructionradiusx>4.5000</obstructionradiusx>
+    <obstructionradiusz>7.0000</obstructionradiusz>
+    <maxvelocity>0.0000</maxvelocity>
     <movementtype>land</movementtype>
-    <turnrate>18.0000</turnrate>
-    <animfile>units\natives\holcan\holcan.xml</animfile>
-    <impacttype>Flesh</impacttype>
-    <physicsinfo>dude</physicsinfo>
-    <icon>resources\art\units\natives\holcan_spearman_icon.png</icon>
-    <portraiticon>resources\art\units\natives\holcan_spearman_portrait.png</portraiticon>
-    <rollovertextid>112919</rollovertextid>
-    <shortrollovertextid>112918</shortrollovertextid>
-    <initialhitpoints>185.0000</initialhitpoints>
-    <maxhitpoints>185.0000</maxhitpoints>
-    <los>16.0000</los>
-    <unitaitype>HandCombative</unitaitype>
-    <trainpoints>30.0000</trainpoints>
-    <buildlimit>17</buildlimit>
-    <bounty>10.0000</bounty>
-    <buildbounty>10.0000</buildbounty>
-    <cost resourcetype="Food">75.0000</cost>
-    <cost resourcetype="Wood">25.0000</cost>
+    <animfile>buildings\cathedral\cathedral.xml</animfile>
+    <deadreplacement>BuildingRubble6x6</deadreplacement>
+    <deadreplacementlifespan>15</deadreplacementlifespan>
+    <impacttype>Stone</impacttype>
+    <physicsinfo>house</physicsinfo>
+    <placementfile>buildinglarge.xml</placementfile>
+    <icon>resources\art\buildings\cathedral\cathedral_icon.png</icon>
+    <portraiticon>resources\art\buildings\cathedral\cathedral_portrait.png</portraiticon>
+    <rollovertextid>112064</rollovertextid>
+    <shortrollovertextid>112063</shortrollovertextid>
+    <legacyhotkeycontext>ChurchAccel</legacyhotkeycontext>
+    <initialhitpoints>4000.0000</initialhitpoints>
+    <maxhitpoints>4000.0000</maxhitpoints>
+    <los>12.0000</los>
+    <displayedrange>12.0000</displayedrange>
+    <buildpoints>20.0000</buildpoints>
+    <buildlimit>1</buildlimit>
+    <bounty>160.0000</bounty>
+    <buildbounty>80.0000</buildbounty>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <buildingworkrate>1.0000</buildingworkrate>
     <allowedage>1</allowedage>
-    <armor type="Hand" value="0.1000"/>
-    <unittype>LogicalTypeHealed</unittype>
-    <unittype>LogicalTypeValidSharpshoot</unittype>
-    <unittype>LogicalTypeNeededForVictory</unittype>
+    <armor type="Siege" value="0.0000"/>
+    <builderlimit>8</builderlimit>
+    <unittype>LogicalTypeValidSabotage</unittype>
+    <unittype>LogicalTypeMinimapFilterEconomic</unittype>
     <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
-    <unittype>LogicalTypeLandMilitary</unittype>
-    <unittype>LogicalTypeScout</unittype>
-    <unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
-    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeBuildingsNotWalls</unittype>
     <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
     <unittype>LogicalTypeVillagersAttack</unittype>
     <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeShipsAndBuildings</unittype>
     <unittype>LogicalTypeRangedUnitsAttack</unittype>
-    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
-    <unittype>AbstractInfantry</unittype>
-    <unittype>AbstractNativeWarrior</unittype>
-    <unittype>AbstractHeavyInfantry</unittype>
-    <unittype>UnitClass</unittype>
-    <unittype>Military</unittype>
-    <unittype>Unit</unittype>
-    <unittype>AbstractPikeman</unittype>
+    <unittype>LogicalTypeBuildingsNotWallsOrGroves</unittype>
+    <unittype>ColonyBuilding</unittype>
+    <unittype>BuildingClass</unittype>
+    <unittype>Economic</unittype>
+    <unittype>Building</unittype>
     <unittype>HasBountyValue</unittype>
-    <unittype>AbstractCavalryInfantry</unittype>
-    <unittype>CountsTowardMilitaryScore</unittype>
+    <unittype>CountsTowardEconomicScore</unittype>
     <unittype>ConvertsHerds</unittype>
-    <unittype>AbstractRangedInfantry</unittype>
-    <unittype>LogicalTypeInfantryVolleyTactic</unittype>
-    <unittype>AbstractMusketeer</unittype>
+    <unittype>AbstractChurch</unittype>
+    <train row="0" page="0" column="1">xpSpy</train>
+    <train row="0" page="0" column="1">Priest</train>
+    <train row="0" page="0" column="2">deMissionaryMexican</train>
+    <train row="0" page="0" column="0">dePadre</train>
+    <tech row="0" page="1" column="0">Bastion</tech>
+    <tech row="0" page="1" column="0">DERedoubts</tech>
+    <tech row="0" page="1" column="1">ChurchGasLighting</tech>
+    <tech row="0" page="1" column="2">ChurchTownWatch</tech>
+    <tech row="0" page="1" column="3">DEMercantilismMX</tech>
+    <tech row="0" page="1" column="4">ChurchStandingArmy</tech>
+    <tech row="0" page="1" column="5">ChurchMassCavalry</tech>
+    <tech row="0" page="1" column="6">DEChurchMissionFervor</tech>
+    <tech row="0" page="1" column="6">DEMedicalScience</tech>
+    <tech row="0" page="1" column="7">DESecretSocieties</tech>
+    <tech row="0" page="1" column="8">DECryofDolores</tech>
+    <tech row="0" page="1" column="9">DEStateReligion</tech>
+    <tech row="0" page="0" column="2">DEChurchFirstGuarantee</tech>
+    <tech row="0" page="0" column="3">DEChurchSecondGuarantee</tech>
+    <tech row="0" page="0" column="4">DEChurchThirdGuarantee</tech>
+    <tech row="0" page="1" column="10">DEChurchSevenHouses</tech>
+    <tech row="0" page="1" column="11">DEChurchDiaDeLosMuertos</tech>
     <flag>CollidesWithProjectiles</flag>
-    <flag>ApplyHandicapTraining</flag>
-    <flag>CorpseDecays</flag>
-    <flag>ShowGarrisonButton</flag>
-    <flag>DontRotateObstruction</flag>
-    <flag>ObscuredByUnits</flag>
-    <flag>VisibleUnderFogIfGaia</flag>
+    <flag>StartsAtFullEfficiency</flag>
+    <flag>Immoveable</flag>
+    <flag>NoBloodOnDeath</flag>
+    <flag>ObscuresUnits</flag>
+    <flag>NoIdleActions</flag>
+    <flag>NonAutoFormedUnit</flag>
+    <flag>Doppled</flag>
+    <flag>SelectWithObstruction</flag>
+    <flag>PaintTextureWhenPlacing</flag>
+    <flag>FlattenGround</flag>
+    <flag>ColonyBuilding</flag>
+    <flag>ColonyPlacementL</flag>
+    <flag>HasGatherPoint</flag>
     <flag>Tracked</flag>
+    <flag>DisplayRange</flag>
+    <flag>UISkipActiveTechs</flag>
+    <flag>ForceFullTechUpdate</flag>
     <command page="10" column="7">Delete</command>
-    <command page="10" column="1">Stop</command>
-    <command page="10" column="0">Garrison</command>
-    <tactics>eaglearcher.tactics</tactics>
+    <command page="10" column="3">SetGatherPointMilitary</command>
+    <tactics>cathedral.tactics</tactics>
     <protoaction>
-      <name>BuildingAttack</name>
-      <damage>24.000000</damage>
-      <damagetype>Siege</damagetype>
-      <rof>3.000000</rof>
-      <projectile>ypFlamingArrowAmmo</projectile>
-    </protoaction>
-    <protoaction>
-      <name>DefendHandAttack</name>
-      <damage>10.000000</damage>
-      <damagetype>Hand</damagetype>
-      <rof>1.500000</rof>
-      <damagebonus type="AbstractCavalry">3.000000</damagebonus>
-      <damagebonus type="AbstractLightInfantry">2.250000</damagebonus>
-    </protoaction>
-    <protoaction>
-      <name>DefendRangedAttack</name>
-      <damage>10.000000</damage>
-      <damagetype>Ranged</damagetype>
-      <minrange>2.000000</minrange>
-      <maxrange>12.000000</maxrange>
-      <rof>1.500000</rof>
-      <projectile>Javelin</projectile>
-    </protoaction>
-    <protoaction>
-      <name>MeleeHandAttack</name>
-      <damage>10.000000</damage>
-      <damagetype>Hand</damagetype>
-      <rof>1.500000</rof>
-      <damagebonus type="AbstractCavalry">3.000000</damagebonus>
-      <damagebonus type="AbstractLightInfantry">2.250000</damagebonus>
-    </protoaction>
-    <protoaction>
-      <name>StaggerHandAttack</name>
-      <damage>10.000000</damage>
-      <damagetype>Hand</damagetype>
-      <rof>1.500000</rof>
-      <damagebonus type="AbstractCavalry">3.000000</damagebonus>
-      <damagebonus type="AbstractLightInfantry">2.250000</damagebonus>
-    </protoaction>
-    <protoaction>
-      <name>StaggerRangedAttack</name>
-      <damage>10.000000</damage>
-      <damagetype>Ranged</damagetype>
-      <minrange>2.000000</minrange>
-      <maxrange>12.000000</maxrange>
-      <rof>1.500000</rof>
-      <projectile>Javelin</projectile>
-    </protoaction>
-    <protoaction>
-      <name>VolleyHandAttack</name>
-      <damage>10.000000</damage>
-      <damagetype>Hand</damagetype>
-      <rof>1.500000</rof>
-      <damagebonus type="AbstractCavalry">3.000000</damagebonus>
-      <damagebonus type="AbstractLightInfantry">2.250000</damagebonus>
-    </protoaction>
-    <protoaction>
-      <name>VolleyRangedAttack</name>
-      <damage>10.000000</damage>
-      <damagetype>Ranged</damagetype>
-      <minrange>2.000000</minrange>
-      <maxrange>12.000000</maxrange>
-      <rof>1.500000</rof>
-      <projectile>Javelin</projectile>
+      <name>Autogather</name>
+      <rate type="XP">2.500000</rate>
     </protoaction>
   </unit>
+
   <unit mergeMode='replace' id="2085" name="deHacienda">
     <dbid>2660</dbid>
     <displaynameid>112065</displaynameid>
@@ -18152,14 +18119,14 @@
     <unittype>Economic</unittype>
     <unittype>BuildingClass</unittype>
     <unittype>AbstractTypeHerdableMagnet</unittype>
-    <unittype>AbstractMapControlBuilding</unittype>
+    <!--   <unittype>AbstractMapControlBuilding</unittype>-->
     <train row="0" page="0" column="0">Cow</train>
+    <tech row="0" page="1" column="1">SelectiveBreeding</tech>
     <tech row="1" page="1" column="0">SeedDrill</tech>
     <tech row="1" page="1" column="0">ArtificialFertilizer</tech>
     <tech row="1" page="1" column="1">Homesteading</tech>
     <tech row="1" page="1" column="1">Bookkeeping</tech>
     <tech row="1" page="1" column="1">OreRefining</tech>
-    <tech row="1" page="1" column="2">SelectiveBreeding</tech>
     <flag>CollidesWithProjectiles</flag>
     <flag>StartsAtFullEfficiency</flag>
     <flag>Immoveable</flag>
@@ -18172,23 +18139,38 @@
     <flag>FlattenGround</flag>
     <flag>UnlimitedSupply</flag>
     <flag>ColonyBuilding</flag>
-    <flag>HasGatherPoint</flag>
     <flag>Tracked</flag>
     <flag>UseStaticFarmingAnims</flag>
     <flag>ForceGatherSiteResource</flag>
     <flag>BuildingShowTactics</flag>
-    <flag>UseDanceActions</flag>
     <flag>HerdablesIgnoreGatherPoint</flag>
     <flag>EnterHotkeyContext</flag>
+    <flag>HasGatherPoint</flag>
     <flag>GatherersContributeToResourceRate</flag>
     <flag>AllowGatheringWhenFull</flag>
     <flag>ShowUnitResourceActionRates</flag>
     <flag>MagnetDoesNotLockUnits</flag>
     <flag>ForceFullTechUpdate</flag>
+    <!--<flag>ShowGarrisonButton</flag>
+    <flag>GatherGarrisonToggle</flag>
+    <notcontain>AbstractFishingBoat</notcontain>
+    <flag>UseDanceActions</flag>
+	    <contain>AbstractVillager</contain>-->
+	    <!--<command page="10" column="2">SetGatherPointEconomy</command>
+	    <command page="10" column="2">SetGatherPointMilitary</command>-->
     <command page="10" column="7">Delete</command>
+    <!--       <command page="10" column="5">Eject</command>
+    <command page="19" column="0">deBuildingGarrisonMode</command> -->
+    <!--   <command page="19" column="0">deBuildingGatherMode</command>-->
     <command page="9" column="0">deHaciendaFood</command>
     <command page="9" column="1">deHaciendaCoin</command>
     <command page="9" column="2">deHaciendaWood</command>
+    <!--   <command page="9" column="3">deHaciendaCow</command>
+    <command page="9" column="4">deHaciendaSettler</command>
+    <command page="9" column="5">deHaciendaComanchero</command>
+    <command page="9" column="6">deHaciendaChinaco</command> 
+    <command page="19" column="1">SetBuildingAsHomeCityGatherPointEconomic</command>
+    <command page="19" column="2">SetBuildingAsHomeCityGatherPointMilitary</command> --> 
     <command page="19" column="3">deSellHacienda</command>
     <tactics>hacienda.tactics</tactics>
     <protoaction>
@@ -18233,7 +18215,7 @@
     <los>16.0000</los>
     <unitaitype>HandCombative</unitaitype>
     <trainpoints>30.0000</trainpoints>
-    <buildlimit>17</buildlimit>
+    <buildlimit>13</buildlimit>
     <bounty>10.0000</bounty>
     <buildbounty>10.0000</buildbounty>
     <cost resourcetype="Food">50.0000</cost>
@@ -18303,6 +18285,8 @@
       <maxrange>12.000000</maxrange>
       <rof>1.500000</rof>
       <projectile>Javelin</projectile>
+      <damagebonus type="AbstractHeavyCavalry">1.500000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">1.250000</damagebonus>
     </protoaction>
     <protoaction>
       <name>MeleeHandAttack</name>
@@ -18328,6 +18312,8 @@
       <maxrange>12.000000</maxrange>
       <rof>1.500000</rof>
       <projectile>Javelin</projectile>
+      <damagebonus type="AbstractHeavyCavalry">1.500000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">1.250000</damagebonus>
     </protoaction>
     <protoaction>
       <name>VolleyHandAttack</name>
@@ -18345,9 +18331,11 @@
       <maxrange>12.000000</maxrange>
       <rof>1.500000</rof>
       <projectile>Javelin</projectile>
+      <damagebonus type="AbstractHeavyCavalry">1.500000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">1.250000</damagebonus>
     </protoaction>
   </unit>
-  <unit id="2132" name="deNatMercHolcanJavelineer">
+  <unit mergeMode='replace' id="2132" name="deNatMercHolcanJavelineer">
     <dbid>2707</dbid>
     <displaynameid>112916</displaynameid>
     <editornameid>112920</editornameid>
@@ -18371,7 +18359,7 @@
     <los>16.0000</los>
     <unitaitype>HandCombative</unitaitype>
     <trainpoints>30.0000</trainpoints>
-    <buildlimit>17</buildlimit>
+    <buildlimit>13</buildlimit>
     <bounty>10.0000</bounty>
     <buildbounty>10.0000</buildbounty>
     <cost resourcetype="Food">50.0000</cost>
@@ -18424,6 +18412,7 @@
       <damage>35.000000</damage>
       <damagetype>Siege</damagetype>
       <rof>3.000000</rof>
+      <projectile>ypFlamingArrowAmmo</projectile>
     </protoaction>
     <protoaction>
       <name>DefendHandAttack</name>
@@ -18441,6 +18430,8 @@
       <maxrange>12.000000</maxrange>
       <rof>1.500000</rof>
       <projectile>Javelin</projectile>
+      <damagebonus type="AbstractHeavyCavalry">1.500000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">1.250000</damagebonus>
     </protoaction>
     <protoaction>
       <name>MeleeHandAttack</name>
@@ -18466,6 +18457,8 @@
       <maxrange>12.000000</maxrange>
       <rof>1.500000</rof>
       <projectile>Javelin</projectile>
+      <damagebonus type="AbstractHeavyCavalry">1.500000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">1.250000</damagebonus>
     </protoaction>
     <protoaction>
       <name>VolleyHandAttack</name>
@@ -18483,6 +18476,85 @@
       <maxrange>12.000000</maxrange>
       <rof>1.500000</rof>
       <projectile>Javelin</projectile>
+      <damagebonus type="AbstractHeavyCavalry">1.500000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">1.250000</damagebonus>
+    </protoaction>
+  </unit>
+  <unit id="2904" name="deMissionaryMexican">
+    <dbid>225</dbid>
+    <displaynameid>25340</displaynameid>
+    <editornameid>27774</editornameid>
+    <populationcount>1</populationcount>
+    <obstructionradiusx>0.7900</obstructionradiusx>
+    <obstructionradiusz>0.7900</obstructionradiusz>
+    <formationcategory>Protected</formationcategory>
+    <maxvelocity>7.0000</maxvelocity>
+    <maxrunvelocity>9.0000</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <animfile>units\priests\spanish_priest.xml</animfile>
+    <impacttype>Flesh</impacttype>
+    <icon>resources\art\units\priests\spanish_priest_icon.png</icon>
+    <portraiticon>resources\art\units\priests\spanish_priest_portrait.png</portraiticon>
+    <rollovertextid>25339</rollovertextid>
+    <shortrollovertextid>25667</shortrollovertextid>
+    <initialhitpoints>200.0000</initialhitpoints>
+    <maxhitpoints>200.0000</maxhitpoints>
+    <los>12.0000</los>
+    <unitaitype>HandCombative</unitaitype>
+    <trainpoints>30.0000</trainpoints>
+    <buildlimit>10</buildlimit>
+    <bounty>10.0000</bounty>
+    <buildbounty>10.0000</buildbounty>
+    <cost resourcetype="Wood">50.0000</cost>
+    <cost resourcetype="Gold">50.0000</cost>
+    <allowedage>1</allowedage>
+    <armor type="Ranged" value="0.1000"/>
+    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
+    <unittype>LogicalTypeHealed</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>CountsTowardMilitaryScore</unittype>
+    <unittype>ConvertsHerds</unittype>
+    <unittype>CannotConvertHill</unittype>
+    <unittype>Military</unittype>
+    <unittype>Unit</unittype>
+    <unittype>UnitClass</unittype>
+    <unittype>AbstractHealer</unittype>
+    <unittype>AbstractCavalry</unittype>
+    <unittype>AbstractSiegeTrooper</unittype>
+    <unittype>AbstractHandCavalry</unittype>
+    <unittype>AbstractFindHealer</unittype>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ApplyHandicapTraining</flag>
+    <flag>CorpseDecays</flag>
+    <flag>ShowGarrisonButton</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>ConstrainOrientation</flag>
+    <flag>OrientUnitWithGround</flag>
+    <flag>CanAutoHeal</flag>
+    <flag>Tracked</flag>
+    <command page="10" column="0">Garrison</command>
+    <command page="10" column="1">Stop</command>
+    <command page="10" column="7">Delete</command>
+    <command page="11" column="0">Abilities</command>
+    <tactics>healer.tactics</tactics>
+    <protoaction>
+      <name>HandAttack</name>
+      <damage>5.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+    </protoaction>
+    <protoaction>
+      <name>Heal</name>
+      <type>Heal</type>
+      <rate type="LogicalTypeHealed">10.000000</rate>
     </protoaction>
   </unit>
 
