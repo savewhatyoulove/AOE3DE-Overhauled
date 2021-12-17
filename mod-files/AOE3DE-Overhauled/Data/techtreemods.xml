@@ -18548,12 +18548,13 @@
     <flag>CountsTowardEconomicScore</flag>
     <effects>
       <effect type="SetAge">Age3</effect>
-      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="Missionary" relativity="Absolute">
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="deMissionaryMexican" relativity="Absolute">
         <target type="Player"/>
       </effect>
       <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="ypNatConquistador" relativity="Absolute">
         <target type="Player"/>
       </effect>
+      <effect type="TechStatus" status="active">ypNatDisciplinedJesuit</effect>
       <effect type="AddHomeCityCard" tech="DEHCFedMXMissionaryCombat" maxcount="1" ageprereq="3" unitcount="0" infiniteinlastage="0"/>
       <effect type="AddHomeCityCard" tech="DEHCFedMXOurLadyOfLight" maxcount="1" ageprereq="3" unitcount="1" infiniteinlastage="0"/>
     </effects>
@@ -18572,13 +18573,13 @@
         <target type="ProtoUnit">deMissionaryMexican</target>
       </effect>
       <effect type="Data" amount="9.00" subtype="Damage" allactions="1" relativity="BasePercent">
-        <target type="ProtoUnit">Missionary</target>
+        <target type="ProtoUnit">deMissionaryMexican</target>
       </effect>
       <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">Missionary</target>
+        <target type="ProtoUnit">deMissionaryMexican</target>
       </effect>
       <effect type="Data" action="HandAttack" amount="1.00" subtype="Snare" relativity="Assign">
-        <target type="ProtoUnit">Missionary</target>
+        <target type="ProtoUnit">deMissionaryMexican</target>
       </effect>
       <effect type="TextOutputTechName">110130</effect>
     </effects>
